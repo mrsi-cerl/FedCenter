@@ -1,0 +1,22 @@
+---
+import Collection from "./Collection.astro";
+const { id, title, posts } = Astro.props;
+---
+
+<h4 class="usa-accordion__heading">
+  <button
+    type="button"
+    class="usa-accordion__button"
+    aria-expanded="false"
+    aria-controls={id}
+  >
+    <h3>
+      {title}
+    </h3>
+  </button>
+</h4>
+<div id={id} class="usa-accordion__content">
+  <ul class="usa-collection">
+    {posts && posts.map((post: any) => <Collection post={post} />)}
+  </ul>
+</div>

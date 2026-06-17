@@ -1,0 +1,156 @@
+---
+import { getCollection } from "astro:content";
+import "../../assets/uswds/css/styles.css";
+import Accordian from "../components/Accordian.astro";
+import Card from "../components/Card.astro";
+import Collection from "../components/Collection.astro";
+import SidePageNavigation from "../components/SidePageNavigation.astro";
+import SummaryBox from "../components/SummaryBox.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Newsletters";
+
+// TODO: get posts for each question on this page
+const posts = await getCollection("programPost", ({ data }) => {
+  return data.programArea === "Acquisition";
+});
+---
+
+<!-- <BaseLayout pageTitle={pageTitle}>
+  <SidePageNavigation>
+    <div class="usa-prose">
+      <p>
+        The Newsletters page contains links to various Federal and State
+        government-sponsored industry newsletters.
+      </p>
+    </div>
+    {posts.map((post: any) => <Collection post={post} />)}
+  </SidePageNavigation>
+</BaseLayout> -->
+<BaseLayout pageTitle={pageTitle}>
+  <div class="usa-prose">
+    <p>
+      The Newsletters page contains links to various Federal and State
+      government-sponsored industry newsletters.
+    </p>
+  </div>
+  <ul class="usa-card-group">
+    <Card
+      cardTitle="Bookmark Brownfields Internet Forum"
+      link="whats-new"
+      size="4"
+    >
+      <p>
+        Newsgroup operated by the Center for Public Environmental Oversight
+        (CPEO). Addresses brownfields concerns and issues at governmental and
+        non-governmental locations. Subscription Info
+      </p>
+    </Card>
+    <Card cardTitle="Building Sciences" size="4">
+      <p>
+        A newsletter published by the National Institute of Building Sciences
+        (NIBS).
+      </p>
+    </Card>
+    <Card cardTitle="Clean Water Advocate" size="4">
+      <p>
+        Published monthly by the National Association of Clean Water Act
+        Agencies.
+      </p>
+    </Card>
+    <Card cardTitle="DoD Chesapeake Bay Program" size="4">
+      <p>
+        Highlights stewardship activities conducted by Department of Defense
+        installations throughout the Chesapeake Bay watershed.
+      </p>
+    </Card>
+    <Card cardTitle="DoD Cultural Resources UPDATE" size="4">
+      <p>
+        A quarterly newsletter sponsored by the Department of Defense Cultural
+        Resources Program.
+      </p>
+    </Card>
+    <Card cardTitle="DoD Partners in Flight Steppingstones Newsletter" size="4">
+      <p>
+        Steppingstones, a Department of Defense Partners in Flight Program (DoD
+        PIF) newsletter, reports on issues of interest to those interested in
+        bird conservation on military lands.
+      </p>
+    </Card>
+    <Card cardTitle="Endangered Species Bulletin" size="4">
+      <p>
+        Through this Bulletin, the U.S. Fish and Wildlife Service disseminates
+        information on rulemakings, recovery plans and activities, conservation
+        partnerships, research developments, and a variety of other issues. It
+        is distributed on-line four times per year.
+      </p>
+    </Card>
+    <Card
+      cardTitle="Federal Highway Administration's (FHWA) Success in Stewardship"
+      size="4"
+    >
+      <p>
+        This is a FHWA monthly newsletter highlighting current environmental
+        streamlining practices from around the country.
+      </p>
+    </Card>
+    <Card cardTitle="Fish and Shellfish Online Newsletter" size="4">
+      <p>
+        This EPA online newsletter providing information on fish and shellfish
+        issues, including human health impacts of eating fish, ecological issues
+        associated with fish, recently published research and other related
+        topics. EPA will publish the newsletter monthly.
+      </p>
+    </Card>
+    <Card cardTitle="GreenGov Leader" size="4">
+      <p>
+        GreenGov Leader newsletter, published bi-monthly by the White House
+        Council on Environmental Quality.
+      </p>
+    </Card>
+    <Card cardTitle="Military Environmental Forum" size="4">
+      <p>
+        Newsgroup operated by the Center for Public Environmental Oversight
+        (CPEO). It addresses cleanup issues associated with military sites.
+        Subscription Information
+      </p>
+    </Card>
+    <Card cardTitle="Natural Selections Newsletter" size="4">
+      <p>
+        This is a DoD-sponsored newsletter issued as a part of their Natural
+        Resources Program. The newsletter updates the status of the program,
+        provides information on training and meetings, and highlights success
+        stories and future plans.
+      </p>
+    </Card>
+    <Card cardTitle="RESTORE" size="4">
+      <p>
+        The Society for Ecological Restoration International provides RESTORE as
+        a service to the restoration community. Subscription is open to anyone
+        who is interested in sharing and/or learning about opportunities or
+        information relevant to ecological restoration (conferences, workshops,
+        jobs, informal requests, etc.). Listed events and announcements are not
+        necessarily endorsed by SER. RESTORE is sent out as often as newsworthy
+        events are submitted.
+      </p>
+    </Card>
+    <Card cardTitle="The Corps Environment" size="4">
+      <p>
+        Quarterly publication of environmental activities within the U.S. Army
+        Corps of Engineers. Latest version now available.
+      </p>
+    </Card>
+    <Card cardTitle="The Stormwater Report" size="4">
+      <p>
+        This is an online newsletter published by the Water Environment
+        Federation (WEF) that highlights the latest in stormwater industry news.
+        The three sections of the newsletter -- news, features, and events --
+        cover advanced practices, local programs, and case studies as well as
+        policy updates, grant opportunities, and financing options. The
+        newsletter also spotlights cutting-edge research in addition to industry
+        tools and reports. Articles are published throughout the month on The
+        Stormwater Report website and are distributed by email as a monthly
+        digest to about 30,000 stormwater professionals.
+      </p>
+    </Card>
+  </ul>
+</BaseLayout>

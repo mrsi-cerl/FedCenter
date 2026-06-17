@@ -1,0 +1,50 @@
+---
+const { sideBarItems } = Astro.props;
+---
+
+<div class="margin-bottom-4">
+  <nav aria-label="Side navigation">
+    <!-- <h3>Program Areas</h3> -->
+    <ul class="usa-sidenav">
+      {
+        sideBarItems.map((area: any) => (
+          <li class="usa-sidenav__item">
+            <a href={area.url}>{area.title}</a>
+            {/* if we have children, the below code renders them */}
+            {/* {area.children && area.children.length > 0 && (
+              <ul class="usa-sidenav__sublist">
+                {area.children.map((child: any) => (
+                  <li class="usa-sidenav__item">
+                    <a href={"#" + child.title || "javascript:void(0);"}>
+                      {child.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )} */}
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</div>
+
+<!-- Below is a version where 'Program Areas' is the top level item -->
+<!-- <div class="margin-bottom-4">
+  <nav aria-label="Side navigation,,">
+    <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <a href="">Program Areas</a>
+        <ul class="usa-sidenav__sublist">
+          {
+            programAreas.map((area: any) => (
+              <li class="usa-sidenav__item">
+                <a href={area.url}>{area.title}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div> -->

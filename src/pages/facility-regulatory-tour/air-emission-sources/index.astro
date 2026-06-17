@@ -1,0 +1,95 @@
+---
+import Card from "../../../components/Card.astro";
+import { sideBarConstants } from "../../../constants";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const pageTitle = "Air Emission Sources";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <div class="usa-prose">
+    <p>
+      The Clean Air Act Section 118(a) requires that each agency and employee of
+      the Federal government comply with all Federal, State, interstate and
+      local requirements respecting the control and abatement of air pollution
+      in the same manner and the same extent as any non-governmental entity.
+      Many common sources of air pollutants at Federal facilities burn fossil
+      fuels, resulting in emissions of carbon dioxide, a pollutant which,
+      according to the Energy Information Administration, is still on the
+      increase in our air.
+    </p>
+  </div>
+
+  <div class="mobile-lg:grid-col-4">
+    <h3 class="site-preview-heading margin-0">
+      Common sources of regulated air emissions
+    </h3>
+    <ul class="usa-list">
+      <li>
+        <a class="usa-link" href="javascript:void(0);"
+          >Heating and cooling systems</a
+        >
+      </li>
+      <li><a class="usa-link" href="javascript:void(0);">Degreasers</a></li>
+      <li>
+        <a class="usa-link" href="javascript:void(0);"
+          >Steam generators (i.e. boilers)</a
+        >
+      </li>
+      <li><a class="usa-link" href="javascript:void(0);">Motor vehicles</a></li>
+      <li>
+        <a class="usa-link" href="air-emission-sources/turbines">Turbines</a>
+      </li>
+
+      <li>
+        <a class="usa-link" href="air-emission-sources/incinerators"
+          >Incinerators</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href="javascript:void(0);">Fuel dispensing</a>
+        <!-- TODO: Does this actually link to anything? -->
+      </li>
+      <li>
+        <a
+          class="usa-link"
+          href="air-emission-sources/wastewater-treatment-works"
+          >Wastewater treatment works</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href="air-emission-sources/wood-burning-stoves"
+          >Wood burning stoves</a
+        >
+      </li>
+    </ul>
+  </div>
+  <h2>Focus Areas</h2>
+  <ul class="usa-card-group">
+    <Card
+      cardTitle="General Conformity Rule"
+      buttonTitle="Learn More"
+      link="air-emission-sources/general-conformity-rule"
+    >
+      <p>
+        Conformity determinations are required when a department, agency or
+        instrumentality of the Federal Government engages in, supports in any
+        way or provides financial assistance for, license or permit, or approve
+        any activity which does not conform to an applicable implementation
+        plan.
+      </p>
+    </Card>
+    <Card
+      cardTitle="Permits"
+      buttonTitle="Do I Need a Permit?"
+      link="air-emission-sources/permits"
+    >
+      <p>
+        Depending on the location of the source and what the source emits,
+        permits to construct and/or operate sources of air emissions are needed.
+        Operating permits may be referred to as a Title V permit.
+      </p>
+    </Card>
+  </ul>
+  <!-- TODO: Add related items? -->
+</BaseLayout>

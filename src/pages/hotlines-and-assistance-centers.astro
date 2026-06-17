@@ -1,0 +1,23 @@
+---
+import "../../assets/uswds/css/styles.css";
+import Accordian from "../components/Accordian.astro";
+import SidePageNavigation from "../components/SidePageNavigation.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Hotlines and Assistance Centers";
+
+// TODO: get posts for each category on this page
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <SidePageNavigation>
+    <div class="usa-prose">
+      <p>
+        The Hotlines and Assistance Centers page provides information, links,
+        and phone numbers to various Federally-funded and non-profit
+        environmental hotlines and compliance assistance centers.
+      </p>
+    </div>
+    <Accordian title="Environmental Hotlines" />
+    <Accordian title="Compliance Assistance Centers" />
+  </SidePageNavigation>
+</BaseLayout>

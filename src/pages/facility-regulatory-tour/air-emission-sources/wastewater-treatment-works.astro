@@ -1,0 +1,94 @@
+---
+import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+const pageTitle = "Wastewater Treatment Works";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <SidePageNavigation>
+    <p>
+      NESHAPS standards have been established for both industrial and
+      nonindustrial POTWs.
+    </p>
+    <h2>Summary of Federal Requirements</h2>
+    <p>
+      The NESHAPS standards include emissions limitations, operating, reporting,
+      and monitoring requirements.
+    </p>
+    <p>
+      The air emissions requirements for industrial POTWs apply if the following
+      are all true:
+    </p>
+    <ul class="usa-list">
+      <li>
+        the facility owns or operates a POTW that includes an affected source
+        (see definitions)
+      </li>
+      <li>
+        the affected source is located at a major source of HAP emissions, or at
+        any industrial POTW regardless of whether or not it is a major source of
+        HAP
+      </li>
+      <li>
+        the POTW is required to develop and implement a pretreatment program as
+        defined by 40 CFR 403.8 (for a POTW owned or operated by a municipality,
+        State, or intermunicipal or interstate agency), or the POTW would meet
+        the general criteria for development and implementation of a
+        pretreatment program (for a POTW owned or operated by a department,
+        agency, or instrumentality of the Federal government).
+      </li>
+    </ul>
+    <p>
+      The industrial POTW must meet the same emission points and control
+      requirements specified in the appropriate NESHAPs for each of the
+      industrial users discharging to the industrial POTW.
+    </p>
+    <p>
+      The air emissions requirements for non-industrial POTWs apply if the
+      following are all true:
+    </p>
+    <ul class="usa-list">
+      <li>
+        the facility owns or operates a POTW that includes an affected source
+      </li>
+      <li>
+        the affected source is located at a major source of HAP emissions, or at
+        any industrial POTW regardless of whether or not it is a major source of
+        HAP
+      </li>
+      <li>
+        the POTW is required to develop and implement a pretreatment program as
+        defined by 40 CFR 403.8 (for a POTW owned or operated by a municipality,
+        State, or intermunicipal or interstate agency), or the POTW would meet
+        the general criteria for development and implementation of a
+        pretreatment program (for a POTW owned or operated by a department,
+        agency, or instrumentality of the Federal government).
+      </li>
+    </ul>
+    <p>
+      There are no control requirements for an existing non-industrial POTW
+      treatment plant. There are no control requirements for any new or
+      reconstructed area source non-industrial POTW treatment plant which is not
+      a major source of HAP.
+    </p>
+    <p>
+      A new or reconstructed major source non-industrial POTW treatment plant
+      which is a major source of HAP must have covers on the emission points up
+      to, but not including, the secondary influent pumping station or the
+      secondary treatment units.
+    </p>
+    <h2>Summary of State Requirements</h2>
+    <p>
+      States typically address these sources through the permit process. They
+      may also regulate smaller turbines than are Federally regulated.
+    </p>
+    <p>
+      State-by-state guidance concerning air emissions can be found at ENVCAP's
+      Air Pollution State Resource Locator.
+      <!-- TODO: Add a link here? -->
+    </p>
+    <h3>Laws and Statutes</h3>
+    <p>The Clean Air Act</p>
+    <!-- TODO: Add a link here? -->
+  </SidePageNavigation>
+</BaseLayout>

@@ -1,0 +1,48 @@
+---
+import Card from "../components/Card.astro";
+
+const pageTitle = Astro.props;
+const { focusAreas } = Astro.props;
+---
+
+<div class="usa-prose">
+  <p>
+    The Clean Air Act Section 118(a) requires that each agency and employee of
+    the Federal government comply with all Federal, State, interstate and local
+    requirements respecting the control and abatement of air pollution in the
+    same manner and the same extent as any non-governmental entity. Many common
+    sources of air pollutants at Federal facilities burn fossil fuels, resulting
+    in emissions of carbon dioxide, a pollutant which, according to the Energy
+    Information Administration, is still on the increase in our air.
+  </p>
+</div>
+
+<div class="mobile-lg:grid-col-4">
+  <h3 class="site-preview-heading margin-0">
+    Common sources of regulated air emissions
+  </h3>
+  <ul class="usa-list">
+    <li>heating and cooling systems</li>
+    <li>degreasers</li>
+    <li>steam generators (i.e. boilers)</li>
+    <li>motor vehicles</li>
+    <li>turbines</li>
+    <li>wastewater treatment works</li>
+    <li>incenerators</li>
+    <li>fuel dispensing</li>
+    <li>wood burning stoves</li>
+  </ul>
+</div>
+<h2>Focus Areas</h2>
+<ul class="usa-card-group">
+  {
+    focusAreas.map((area: any) => (
+      <Card cardTitle={area.title} buttonTitle="Find Out">
+        <p>
+          Find out what's been recently posted on FedCenter with this daily log
+          of all information added or updated within the last 30 days.
+        </p>
+      </Card>
+    ))
+  }
+</ul>

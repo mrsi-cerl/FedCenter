@@ -1,0 +1,67 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+
+@use "uswds-core" as *;
+
+// .usa-header {
+//   //makes the header to use the primary theme
+//   @include u-bg("primary-dark");
+// }
+
+// .usa-logo a {
+//   //makes the "FedCenter" header light
+//   @include u-text("base-lightest");
+// }
+
+// .usa-nav__primary button {
+//   //makes the Links on the menu light
+//   @include u-text("primary-lighter");
+// }
+
+// .usa-nav__primary a {
+//   //makes the Links on the menu light
+//   @include u-text("primary-lighter");
+// }
+
+h1 {
+  margin: 0 0 0.67em 0;
+}
+
+.site-preview-heading {
+  font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-size: 0.88rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  color: #757575;
+}
+
+button h3 {
+  all: unset;
+  //we want to use h2's inside the <Accordion> component without rendering them like an actual h3
+  //we do this so the <sidePageNavigation> component can pick up each accordion and add them to the stack
+}

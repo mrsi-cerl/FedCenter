@@ -1,0 +1,53 @@
+---
+// const { breadCrumbItems = ["1", "2", "3"] } = Astro.props;
+//TODO: can we pass in breadCrumbItems instead of relying on the url?
+
+const url = Astro.url.pathname;
+
+const spliturl = url.split("/").filter((item) => item !== "");
+const breadCrumbItems = spliturl.map((item) => {
+  return item.replaceAll("-", " ");
+});
+const capitalizedBreadCrumbItems = breadCrumbItems.map((item) => {
+  const words = item.split(" ");
+  return words
+    .map((word) => word[0].toUpperCase() + word.slice(1)) // map each word, capitalizing the first letter
+    .join(" "); // join it all back together with a space
+});
+
+console.log("breadCrumbItems: ", capitalizedBreadCrumbItems);
+console.log("split url is: ", spliturl);
+---
+
+<nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs,,,">
+  <ol class="usa-breadcrumb__list">
+    {
+      capitalizedBreadCrumbItems.map((item: any, i: number) => (
+        <>
+          {i + 1 !== capitalizedBreadCrumbItems.length && (
+            // If this isn't the last item, we render it as a link
+            // This builds back the url by taking the first i items in the split url and joining them back with a '/'
+            <li class="usa-breadcrumb__list-item">
+              <a
+                href={"/" + spliturl.slice(0, i + 1).join("/")}
+                class="usa-breadcrumb__link"
+              >
+                <span>{item}</span>
+              </a>
+            </li>
+          )}
+
+          {i + 1 === capitalizedBreadCrumbItems.length && (
+            // If this is the last item, we make sure it isn't a link
+            <li
+              class="usa-breadcrumb__list-item usa-current"
+              aria-current="page"
+            >
+              <span>{item}</span>
+            </li>
+          )}
+        </>
+      ))
+    }
+  </ol>
+</nav>

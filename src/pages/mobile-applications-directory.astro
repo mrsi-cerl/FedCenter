@@ -1,0 +1,45 @@
+---
+import "../../assets/uswds/css/styles.css";
+import Accordian from "../components/Accordian.astro";
+import Card from "../components/Card.astro";
+import SidePageNavigation from "../components/SidePageNavigation.astro";
+import SummaryBox from "../components/SummaryBox.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "My Community";
+
+// TODO: get posts for each question on this page
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <SidePageNavigation>
+    <div class="usa-prose">
+      <p>
+        This page contains links to Federally-sponsored and non-profit mobile
+        applications that may be of interest to the Federal environmental
+        community. Mobile applications are those tools and information resources
+        that have been specifically developed for your mobile devices, such as
+        smartphone, tablet, or other Internet-connected hand-held device.
+      </p>
+      <p>
+        If you have a mobile app that you think might be of interest to the
+        Federal community and would like to share it with us, please email your
+        idea to fedcentermgr2@fedcenter.gov.
+      </p>
+    </div>
+    <Accordian title="Acquisition" />
+    <Accordian title="Air Emissions" />
+    <Accordian title="Cleanup" />
+    <Accordian title="Climate Resilience/Greenhouse Gases" />
+    <Accordian title="Drinking Water" />
+    <Accordian title="Energy" />
+    <Accordian title="High Performance Buildings" />
+    <Accordian title="Hazardous Materials" />
+    <Accordian title="Hazardous Waste" />
+    <Accordian title="Natural Resources" />
+    <Accordian title="Pollution Prevention" />
+    <Accordian title="Solid Waste" />
+    <Accordian title="Sustainability" />
+    <Accordian title="Transportation" />
+    <Accordian title="Wastewater" />
+  </SidePageNavigation>
+</BaseLayout>

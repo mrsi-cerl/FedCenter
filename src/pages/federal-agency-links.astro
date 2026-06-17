@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import "../../assets/uswds/css/styles.css";
+import Accordian from "../components/Accordian.astro";
+import Card from "../components/Card.astro";
+import Collection from "../components/Collection.astro";
+import SidePageNavigation from "../components/SidePageNavigation.astro";
+import SummaryBox from "../components/SummaryBox.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Federal Agency Links";
+
+// TODO: get posts for each question on this page
+const posts = await getCollection("programPost", ({ data }) => {
+  return data.programArea === "Acquisition";
+});
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <SidePageNavigation>
+    <div class="usa-prose">
+      <p>
+        The Federal Agency Links page provides links to the Environmental Home
+        Pages of various Federal agencies. Click here to access environmental
+        home pages for all 50 U.S. states.
+        <!-- TODO: Add a link here -->
+      </p>
+    </div>
+    {posts.map((post: any) => <Collection post={post} />)}
+  </SidePageNavigation>
+</BaseLayout>

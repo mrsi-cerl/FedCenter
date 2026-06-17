@@ -1,0 +1,53 @@
+---
+import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+const pageTitle = "NPL Sites";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <SidePageNavigation>
+    <p>
+      The NPL is the list of national priorities among the known releases or
+      threatened releases of hazardous substances, pollutants, or contaminants
+      throughout the United States and its territories. The NPL is intended
+      primarily to guide the EPA in determining which sites warrant further
+      investigation.
+    </p>
+    <h2>Summary of Federal Requirements</h2>
+    <p>
+      For a list of NPL sites, see http://www.epa.gov/superfund/sites/npl/.
+      <!-- TODO: Add a link here -->
+    </p>
+    <p>
+      Sites on the NPL are required to appoint a remedial project manager and
+      onscene coordinator.
+    </p>
+    <p>
+      Federal facilities on the NPL are required to have an IAG with the USEPA
+      containing the following:
+    </p>
+    <ul class="usa-list">
+      <li>
+        a review of alternative remedial actions and selection of a remedial
+        action by the head of the relevant department, agency, or
+        instrumentality and the administrator or, if unable to reach agreement
+        on selection of a remedial action, selection of the administrator
+      </li>
+      <li>a schedule for the completion of the remedial action</li>
+      <li>
+        arrangements for long term operation and maintenance of the facility.
+      </li>
+    </ul>
+    <h2>Summary of State Requirements</h2>
+    <p>
+      The states primarily regulate this type of a source through their permit
+      programs or their stormwater programs.
+    </p>
+    <h3>Laws and Statutes</h3>
+    <p>
+      Comprehensive Environmental Response, Compensation, and Liability Act
+      (CERCLA)
+    </p>
+    <!-- TODO: Add a link here? -->
+  </SidePageNavigation>
+</BaseLayout>

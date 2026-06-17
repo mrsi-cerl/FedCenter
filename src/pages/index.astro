@@ -1,0 +1,77 @@
+---
+import { getCollection } from "astro:content";
+import "../../assets/uswds/css/styles.css";
+import Card from "../components/Card.astro";
+import SummaryBox from "../components/SummaryBox.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Welcome to FedCenter";
+
+const announcements = await getCollection("programPost", ({ data }) => {
+  return data.programArea === "Acquisition";
+});
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <div>
+    <b>FedCenter.gov </b> is the Federal government's home for comprehensive environmental
+    stewardship and compliance assistance information for Federal facility managers
+    and their agencies.
+  </div>
+  <ul class="usa-card-group">
+    <Card
+      cardTitle="What's New"
+      buttonTitle="Find Out"
+      media="public/woman-alone-nature-using-digital-tablet-with-entertainment-application-screen-internet-c.jpg"
+      size="4"
+      link="whats-new"
+    >
+      <p>
+        Find out what's been recently posted on FedCenter with this daily log of
+        all information added or updated within the last 30 days.
+      </p>
+    </Card>
+    <Card
+      cardTitle="Regulatory Watch"
+      buttonTitle="Track Now"
+      media="public/man-reading-book-education-academic-learning-exam-concept.jpg"
+      size="4"
+    >
+      <p>
+        Your source for monitoring and tracking proposed and final regulatory
+        information.
+      </p>
+    </Card>
+    <Card
+      cardTitle="EPA Compliance and Enforcement Center"
+      buttonTitle="Learn More"
+      media="public/epa-logo-ss-jt-250312_1741817192677_hpMain_16x9_992.jpg"
+      size="4"
+    >
+      <p>
+        EPA's current focus on important compliance and enforcement issues
+        facing federal facilities today.
+      </p>
+    </Card>
+  </ul>
+  <ul class="usa-card-group">
+    <Card cardTitle="Announcements" buttonTitle="Do I need a button?" size="">
+      {
+        announcements.map((announcement) => (
+          <>
+            <p>
+              {new Intl.DateTimeFormat("en-GB", {
+                year: "numeric", //this chunk of code converts a date that looks like
+                month: "short", //2026-05-28T00:00:00.000Z
+                day: "2-digit", //into something that looks more human readable
+              })
+                .format(announcement.data.pubDate)
+                .split(" ")
+                .join("-")}
+            </p>
+            <p>{announcement.data.title}</p>
+          </>
+        ))
+      }
+    </Card>
+  </ul>
+</BaseLayout>

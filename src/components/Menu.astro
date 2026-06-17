@@ -1,0 +1,283 @@
+---
+const primaryAreas = [
+  { title: "Acquisition", url: "/programs/acquisition" },
+  { title: "Chemical Management", url: "/programs/chemical" },
+  { title: "Cleanup", url: "/programs/cleanup" },
+  { title: "Climate Resilience", url: "" },
+  { title: "Cultural Resources", url: "" },
+  { title: "Electronics Stewardship", url: "" },
+  { title: "EMS", url: "" },
+  { title: "Energy", url: "" },
+  { title: "Env. Compliance", url: "" },
+  { title: "Greenhouse Gases", url: "" },
+  { title: "High Performance Bldgs", url: "" },
+  { title: "Natural Resources", url: "" },
+  { title: "NEPA", url: "" },
+  { title: "PFAS", url: "" },
+  { title: "Pollution Prevention", url: "" },
+  { title: "Sustainability", url: "" },
+  { title: "Transportation", url: "" },
+  { title: "Water Efficiency", url: "" },
+];
+---
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo">
+      <img
+        width="160"
+        src="/FedCenterHorizontalLogo.svg"
+        alt="an diagram of an atom"
+      />
+      <em class="usa-logo__text"
+        ><a href="/" title="FedCenter">FedCenter</a>
+      </em>
+    </div>
+    <button type="button" class="usa-menu-btn">Menu</button>
+  </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button type="button" class="usa-nav__close">
+        <img
+          src="../../assets/uswds/img/usa-icons/close.svg"
+          role="img"
+          alt="Close"
+        />
+      </button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-one"
+          >
+            <span>What's New</span>
+          </button>
+          <ul id="extended-nav-section-one" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="/whats-new"><span>At FedCenter</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"><span>Regulatory Watch</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"><span>Upcoming Events</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-two"
+          >
+            <span>Program Areas</span>
+          </button>
+          <div
+            id="extended-nav-section-two"
+            class="usa-nav__submenu"
+            style="width:45rem; transform: translateX(-110px);"
+          >
+            <ul class="usa-nav__submenu" style="width:45rem">
+              <div class="grid-container">
+                <div class="grid-row">
+                  <!-- Split the Program Areas into 3 columns of 6 items each-->
+                  <div class="tablet:grid-col-4">
+                    {
+                      primaryAreas.slice(0, 6).map((area) => (
+                        <li class="usa-nav__submenu-item">
+                          <a href={area.url}>
+                            <span>{area.title}</span>
+                          </a>
+                        </li>
+                      ))
+                    }
+                  </div>
+                  <div class="tablet:grid-col-4">
+                    {
+                      primaryAreas.slice(6, 12).map((area) => (
+                        <li class="usa-nav__submenu-item">
+                          <a href={area.url}>
+                            <span>{area.title}</span>
+                          </a>
+                        </li>
+                      ))
+                    }
+                  </div>
+                  <div class="tablet:grid-col-4">
+                    {
+                      primaryAreas.slice(12).map((area) => (
+                        <li class="usa-nav__submenu-item">
+                          <a href={area.url}>
+                            <span>{area.title}</span>
+                          </a>
+                        </li>
+                      ))
+                    }
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <li class="usa-nav__primary-item">
+            <button
+              type="button"
+              class="usa-accordion__button usa-nav__link"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-three"
+            >
+              <span>Assistance</span>
+            </button>
+            <ul id="extended-nav-section-three" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="/facility-regulatory-tour"
+                  ><span>Facility Regulatory Tour</span></a
+                >
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="/my-community"><span>My Community/Facility</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="/hotlines-and-assistance-centers"
+                  ><span>Hotlines and Assistance Centers</span></a
+                >
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="/form-copies-and-instructions"
+                  ><span>Forms and Instructions</span></a
+                >
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="/mobile-applications-directory"
+                  ><span>Mobile Applications Directory</span></a
+                >
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="/newsletters"><span>Newsletters</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="/federal-agency-links"
+                  ><span></span>Federal Agency Links</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="usa-nav__primary-item">
+            <button
+              type="button"
+              class="usa-accordion__button usa-nav__link"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-four"
+            >
+              <span>Events</span>
+            </button>
+            <ul id="extended-nav-section-four" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Calendar</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Conferences</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Meetings</span></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="usa-nav__primary-item">
+            <button
+              type="button"
+              class="usa-accordion__button usa-nav__link"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-six"
+            >
+              <span>Opportunities</span>
+            </button>
+            <ul id="extended-nav-section-six" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Partnerships</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Grants</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Awards</span></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="usa-nav__primary-item">
+            <a href="javascript:void(0);" class="usa-nav-link"
+              ><span>Training & Workshops</span></a
+            >
+          </li>
+
+          <li class="usa-nav__primary-item">
+            <button
+              type="button"
+              class="usa-accordion__button usa-nav__link"
+              aria-expanded="false"
+              aria-controls="extended-nav-section-seven"
+            >
+              <span>Help</span>
+            </button>
+            <ul id="extended-nav-section-seven" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>About FedCenter</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Did you Know?</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>FAQ</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Contact Us</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Important Notices</span></a>
+              </li>
+              <li class="usa-nav__submenu-item">
+                <a href="javascript:void(0);"><span>Privacy Statement</span></a>
+              </li>
+            </ul>
+          </li>
+        </li>
+      </ul>
+      <!-- Search Component -->
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item">
+            <a href="javascript:void(0);">About FedCenter</a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="javascript:void(0);">Contact Us</a>
+          </li>
+        </ul>
+        <section aria-label="Search component">
+          <form class="usa-search usa-search--small" role="search">
+            <label class="usa-sr-only" for="search-field">Search</label>
+            <input
+              class="usa-input"
+              id="search-field"
+              type="search"
+              name="search"
+            />
+            <button class="usa-button" type="submit">
+              <img
+                src="../../assets/uswds/img/usa-icons-bg/search--white.svg"
+                class="usa-search__submit-icon"
+                alt="Search"
+              />
+            </button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </nav>
+</header>

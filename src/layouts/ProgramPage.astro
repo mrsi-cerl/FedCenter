@@ -1,0 +1,44 @@
+---
+import Accordian from "../components/Accordian.astro";
+import Collection from "../components/Collection.astro";
+import SidePageNavigation from "../components/SidePageNavigation.astro";
+
+const { programAreas, posts } = Astro.props;
+---
+
+<slot />
+<!-- <SidePageNavigation> -->
+<h2>Recently Updated for this program</h2>
+<!-- TODO: Add recently updated -->
+<p>Highlight a post that was added</p>
+<div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
+  {
+    programAreas.map((area: any) => (
+      <>
+        <h2 id={area.title}>{area.title}</h2>
+        {area.children && area.children.length > 0 && (
+          <>
+            {area.children.map(async (child: any) => (
+              // TODO Filter posts
+              <Accordian
+                id={child.title}
+                title={child.title}
+                posts={posts.filter(
+                  (post: any) => post.data.subcategory === child.title
+                )}
+              />
+            ))}
+          </>
+        )}
+        {!area.children && (
+          <>
+            {posts.map((post: any) => (
+              <Collection post={post} />
+            ))}
+          </>
+        )}
+      </>
+    ))
+  }
+</div>
+<!-- </SidePageNavigation> -->

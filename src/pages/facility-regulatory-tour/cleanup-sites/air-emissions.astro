@@ -1,0 +1,147 @@
+---
+import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+const pageTitle = "Air Emissions";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <SidePageNavigation>
+    <p class="usa-prose">
+      In terms of air emissions, site remediation is defined as one or more
+      activities or processes used to remove, destroy, degrade, transform,
+      immobilize, or otherwise manage remediation material. The monitoring or
+      measuring of contamination levels in environmental media using wells or by
+      sampling is not considered to be a site remediation (40 CFR 63.7957.)
+      <!-- TODO: Add a link here -->
+    </p>
+    <h2>Summary of Federal Requirements</h2>
+    <p>
+      The emissions of concern are hazardous air pollutants. The pertinent list
+      is found in Table 1 to Subpart GGGGG of 40 CFR 63. The regulations apply
+      to process vents, remediation material management units, and equipment
+      leaks. The requirements apply at facilities at which a site remediation
+      meets all three of the following conditions:
+    </p>
+    <ul class="usa-list">
+      <li>the site remediation cleans up a remediation material</li>
+      <li>
+        the site remediation is co-located at the facility with one or more
+        other stationary sources that emit HAP and meet an affected source
+        definition specified for a source category that is regulated by another
+        subpart under 40 CFR 63 [NOTE: This condition applies regardless whether
+        or not the affected stationary source(s) at the facility is subject to
+        the standards under the applicable subpart(s)]
+      </li>
+      <li>
+        the facility is a major source of HAP. A major source emits or has the
+        potential to emit any single HAP at the rate of 10 tons [9.07 megagrams]
+        or more per year of any HAP or any combination of HAP at a rate of 25
+        tons [22.68 megagrams] or more per year. All emissions of HAP from every
+        source at the facility [i.e., both the site remediation activity and all
+        other facility activities] must be considered in making this
+        calculation.
+      </li>
+    </ul>
+    <p>
+      A new facility is one which commenced construction or reconstruction of
+      the affected source after 30 July 2002.
+    </p>
+    <p>
+      Site remediations to which these air emissions regulations do not apply
+      are when:
+    </p>
+    <ul class="usa-list">
+      <li>
+        the site remediation only cleans up material that does not contain any
+        of the HAP listed in Table 1, Subpart GGGGG of 40 CFR 63
+      </li>
+      <li>
+        the site remediation will be performed under the authority of CERCLA as
+        a remedial action or a non time-critical removal action
+      </li>
+      <li>
+        the site remediation will be performed under a RCRA corrective action
+        conducted at a TSDF that is either required by the facility permit
+        issued by either the USEPA or an authorized State program; required by
+        orders authorized under RCRA; or required by orders authorized under
+        RCRA section 7003
+      </li>
+      <li>
+        the site remediation is conducted at a gasoline service station to clean
+        up remediation material from a leaking UST
+      </li>
+      <li>the site remediation is conducted at a farm or residential site</li>
+      <li>
+        the site remediation is conducted at a research and development facility
+        that meets the requirements under CAA section 112(c)(7).
+      </li>
+    </ul>
+    <h3>Emissions Limitations</h3>
+    <p>
+      The actual emissions concentration operating limit is established
+      according to the following:
+    </p>
+    <ul class="usa-list">
+      <li>
+        during the performance test, monitor and record the total organic or HAP
+        emissions concentration at least once every 15 min during each of the
+        three test runs
+      </li>
+      <li>
+        use the data collected during the performance test to calculate and
+        record the average total organic or HAP emissions concentration
+        maintained during the performance test.
+      </li>
+    </ul>
+    <p>
+      The average total organic or HAP emissions concentration, corrected for
+      dilution as appropriate, is the maximum operating limit for the control
+      device.
+    </p>
+    <p>
+      Additionally, there are limitations prescribed in the regulations that are
+      specific to different types of process vents, different types of material
+      management units (i.e., storage tanks, containers, surface impoundments,
+      oil-water or organic-water separator, or transfer system), or equipment
+      leak sources.
+    </p>
+    <h3>Monitoring</h3>
+    <p>
+      The requirements for any of the following types of monitoring are based on
+      the amount of HAP being emitted and primarily on stipulations in operating
+      permits:
+    </p>
+    <ul>
+      <li>continuous parameter monitoring system (CPMS)</li>
+      <li>continuous emissions monitoring systems (CEMs)</li>
+      <li>parametric monitoring.</li>
+    </ul>
+    <h3>Documentation</h3>
+    <p>
+      Remediation sites are required to maintain a variety of documentation,
+      including, but not limited to:
+    </p>
+    <ul>
+      <li>a written startup, shutdown, and malfunction plan (SSMP)</li>
+      <li>records of each inspection, calibration, and validation check</li>
+      <li>
+        for each required monitoring system a site-specific monitoring plan
+      </li>
+      <li>a semiannual compliance report</li>
+      <li>records related to startups, shutdowns, and malfunctions</li>
+      <li>results of performance tests and performance evaluations</li>
+      <li>
+        the records of initial and ongoing determinations for affected sources
+        that are exempt from control requirements.
+      </li>
+    </ul>
+    <h2>Summary of State Requirements</h2>
+    <p>
+      The states primarily regulate this type of a source through their
+      operating permit programs.
+    </p>
+    <h3>Laws and Statutes</h3>
+    <p>The Clean Air Act</p>
+    <!-- TODO: Add a link here? -->
+  </SidePageNavigation>
+</BaseLayout>

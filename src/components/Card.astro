@@ -1,0 +1,26 @@
+---
+const { cardTitle, buttonTitle = "More", media, size, link } = Astro.props;
+---
+
+<li class=`usa-card tablet:grid-col-${size}`>
+  <div class="usa-card__container">
+    <div class="usa-card__header">
+      <h4 class="usa-card__heading">{cardTitle}</h4>
+    </div>
+    {
+      media && (
+        <div class="usa-card__media">
+          <div class="usa-card__img maxh-card-lg">
+            <img src={media} alt="A placeholder image" />
+          </div>
+        </div>
+      )
+    }
+    <div class="usa-card__body">
+      <slot />
+    </div>
+    <div class="usa-card__footer">
+      <a href={link} class="usa-button">{buttonTitle}</a>
+    </div>
+  </div>
+</li>

@@ -1,0 +1,51 @@
+---
+import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+const pageTitle = "Wood Burning Stoves";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <SidePageNavigation>
+    <p>
+      A fireplace or wood burning stove used for the generation of heat. The
+      primary emission is particulates.
+    </p>
+    <h2>Summary of Federal Requirements</h2>
+    <p>
+      Although not regulated by Federal regulations, the EPA promotes the use of
+      cleaner burning fireplaces and stoves to reduce the particulate matter in
+      the ambient air. Their website http://www.epa.gov/burnwise/ provides
+      information on how to select the most suitable stove/fireplace, the health
+      effect issues, and related concerns.
+      <!-- TODO: Add a link here? -->
+    </p>
+    <h2>Summary of State Requirements</h2>
+    <p>
+      This is a State-regulated issue. Typically the state mandates hours during
+      which woodburning fireplaces or stoves may and may not be operated.
+    </p>
+    <p>
+      In January 2006 the EPA issued guidance for states that want to
+      incorporate a voluntary woodstove changeout program into their state
+      implementation plans. The nonbinding guidance outlines how state air
+      quality agencies may quantify emissions reductions from such programs and
+      then use the reductions to meet state implementation plan (SIP)
+      obligations for complying with federal fine particle standards. If states
+      voluntarily adopt woodstove changeout or replacement programs in
+      residential homes, they can use the emissions reductions to obtain credit
+      for areas that are not in compliance with the standards.
+    </p>
+    <p>
+      http://epa.gov/ttn/oarpg/t1/memoranda/guidance_quantfying_jan.pdf
+      <!-- TODO: THIS SHOULD BE SOMETHING -->
+    </p>
+    <p>
+      State-by-state guidance concerning air emissions can be found at ENVCAP's
+      Air Pollution State Resource Locator.
+      <!-- TODO: Add a link here? -->
+    </p>
+    <h3>Laws and Statutes</h3>
+    <p>The Clean Air Act</p>
+    <!-- TODO: Add a link here? -->
+  </SidePageNavigation>
+</BaseLayout>

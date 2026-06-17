@@ -1,0 +1,70 @@
+---
+import Card from "../../../components/Card.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const pageTitle = "Cleanup Sites";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <div class="usa-prose">
+    <p>
+      The clean up or restoration of land, buildings and waterways which have
+      previously been contaminated. This includes the remediation or disposal of
+      the contaminated material, the technologies to be used in performing
+      cleanup, and standards to prevent further contamination. An important
+      partner for the cleanup of Federal facilities is the EPA's Federal
+      Facilities Restoration and Reuse Office (FFRRO). For additional
+      information specific to Federal Facilities, see the Compendium of Federal
+      Facilities Cleanup Information.
+      <!-- TODO: Add some links -->
+    </p>
+  </div>
+
+  <div class="mobile-lg:grid-col-4">
+    <h3 class="site-preview-heading margin-0">Focus Areas</h3>
+    <ul class="usa-list">
+      <li>
+        <a class="usa-link" href="cleanup-sites/air-emissions">Air Emissions</a>
+      </li>
+      <li>
+        <a class="usa-link" href="cleanup-sites/brac"
+          >Base Realignment and Closure (BRAC)</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href="javascript:void(0);">Hazardous Materials</a>
+      </li>
+      <li>
+        <a class="usa-link" href="cleanup-sites/stormwater">Stormwater</a>
+      </li>
+    </ul>
+  </div>
+  <h2>Focus Areas</h2>
+  <ul class="usa-card-group">
+    <Card
+      cardTitle="National Priorities List (NPL) Sites"
+      buttonTitle="Learn More"
+      link="cleanup-sites/national-priorities-list"
+    >
+      <p>
+        The NPL is the list of national priorities among the known releases or
+        threatened releases of hazardous substances, pollutants, or contaminants
+        throughout the United States and its territories. The NPL is intended
+        primarily to guide the EPA in determining which sites warrant further
+        investigation.
+      </p>
+    </Card>
+    <Card
+      cardTitle="Site Evaluation"
+      buttonTitle="How To Evaluate Your Site"
+      link="cleanup-sites/site-evaluation"
+    >
+      <p>
+        When there is a hazardous substance contaminated site which might
+        require CERCLA response actions, a removal site evaluation is required
+        to be done. What actions are required to be taken are based on the
+        results of the site evaluation.
+      </p>
+    </Card>
+  </ul>
+</BaseLayout>

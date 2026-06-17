@@ -1,0 +1,66 @@
+---
+import Banner from "../components/Banner.astro";
+import "../../assets/uswds/css/styles.css";
+import Menu from "../components/Menu.astro";
+import Sidebar from "../components/Sidebar.astro";
+import Identifier from "../components/Identifier.astro";
+import BreadCrumb from "../components/BreadCrumb.astro";
+import ProgramAreaSidebar from "../components/ProgramAreaSidebar.astro";
+import FacilityRegulatoryTourSidebar from "../components/FacilityRegulatoryTourSidebar.astro";
+import { sideBarConstants } from "../constants";
+
+const { pageTitle, showBreadcrumb = false } = Astro.props;
+const { sideBarItems } = Astro.props;
+console.log("sbi: ", sideBarItems);
+---
+
+<html lang="en">
+  <head>
+    <script src="../../assets/uswds/js/uswds-init.min.js"></script>
+    <script src="../../assets/uswds/js/uswds.min.js"></script>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <header>
+      <Banner />
+      <Menu />
+    </header>
+    <div class="width-desktop margin-x-auto margin-top-4">
+      {
+        sideBarItems ? (
+          //if there is a sidebar, we want to split the page into two sections
+          <div class="grid-container">
+            <div class="grid-row grid-gap">
+              <div class="usa-layout-docs__sidenav desktop:grid-col-3">
+                {/* <Sidebar sideBarItems={sideBarItems} />  */}
+                {sideBarItems === sideBarConstants.ProgramArea && (
+                  <ProgramAreaSidebar />
+                )}
+                {sideBarItems === sideBarConstants.FacilityTour && (
+                  <FacilityRegulatoryTourSidebar />
+                )}
+              </div>
+              <main class="desktop:grid-col-9" id="main-content">
+                {showBreadcrumb && <BreadCrumb />}
+                <h1>{pageTitle}</h1>
+                <slot />
+              </main>
+            </div>
+          </div>
+        ) : (
+          //if there is no sidebar, use the "entire" width of the page
+          <main id="main-content">
+            {showBreadcrumb && <BreadCrumb />}
+            <h1>{pageTitle}</h1>
+            <slot />
+          </main>
+        )
+      }
+    </div>
+    <Identifier />
+  </body>
+</html>

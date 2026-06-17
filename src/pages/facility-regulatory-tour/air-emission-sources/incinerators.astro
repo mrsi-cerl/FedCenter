@@ -1,0 +1,360 @@
+---
+import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import { sideBarConstants } from "../../../constants";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+const pageTitle = "Incinerators";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <SidePageNavigation>
+    <p>
+      An incinerator is generally defined as any furnace used in the process of
+      burning solid waste for the purpose of reducing the volume of the waste by
+      removing combustible matter. Emissions of concern include particulates and
+      potentially harmful pollutants depending on what is being burned.
+    </p>
+    <h2>Summary of Federal Requirements Conformity</h2>
+    <p>
+      In general there are solid waste incinerators, beryllium incinerators, air
+      curtain incinerators, sewage sludge incinerators, commercial, industrial
+      and solid waste incinerators (CISWI), and hospital/medical/infectious
+      waste incinerators. The various regulations for each incinerator stipulate
+      the detailed monitoring, reporting, performance test, and planning
+      requirements for each type of incinerator.
+    </p>
+    <h3>Solid Waste Incinerators</h3>
+    <p>
+      Incinerators with over 45 metric tons/day (50 tons/day) charging rate that
+      started construction or modification after 17 August 1971 are required to
+      meet a particulate emissions standard of 0.18 g/dscm (0.08 g/ dscf)
+      corrected to 12% CO2 and keep a record of daily charging rates and hours
+      of operation;
+    </p>
+    <p>
+      Incinerators that started construction or modification after 11 June 1973
+      which combust waste containing more than 10 percent sewage sludge (dry
+      basis) produced by municipal sewage treatment plants, or those that
+      started construction or modification after 11 June 1973 which charge more
+      than 1000 kg (2205 lb) per day municipal sewage sludge (dry basis) are
+      required to have opacity emissions of less than 20%. Monitoring devices
+      required for these incinerators depend on whether the incinerator is
+      multiple hearth, fluidized bed, or an electric sludge incinerator.
+    </p>
+    <h3>Other Solid Waste Incineration Unit (OSWI)</h3>
+    <p>
+      These include either a very small municipal waste combustion unit or an
+      institutional waste incineration unit. An OSWI unit includes, but is not
+      limited to, the municipal or institutional solid waste feed system, grate
+      system, flue gas system, waste heat recovery equipment, if any, and bottom
+      ash system. The OSWI unit does not include air pollution control equipment
+      or the stack.
+    </p>
+    <p>
+      OSWI are required to have a waste management plan identifying the
+      feasibility and the methods used to reduce or separate certain components
+      of solid waste from the waste stream in order to reduce or eliminate toxic
+      emissions from incinerated waste. This plan must also include
+      consideration of the reduction or separation of waste-stream elements such
+      as paper, cardboard, plastics, glass, batteries, or metals; or the use of
+      recyclable materials. Additionally the plan will identifies any additional
+      waste management measures and implements those measures the source
+      considers practical and feasible, considering the effectiveness of waste
+      management measures already in place, the costs of additional measures,
+      the emissions reductions expected to be achieved, and any other
+      environmental or energy impacts they might have.
+    </p>
+    <p>
+      OSWI operators must continuously monitor for carbon monoxide and oxygen
+      emissions. The oxygen concentration must be monitored at every location
+      where the carbon monoxide is monitored.
+    </p>
+    <p>
+      The emissions of OSWI that are regulated include: cadmium, carbon
+      monoxide, dioxins/furans (total basis), hydrogen chloride, lead, mercury,
+      opacity, oxides of nitrogen, particulate matter, and sulfur dioxide.
+    </p>
+    <p>OSWI operators must keep the following documentation onsite:</p>
+    <ul class="usa-list">
+      <li>summary of the applicable standards</li>
+      <li>procedures for receiving, handling, and charging waste</li>
+      <li>incinerator startup, shutdown, and malfunction procedures</li>
+      <li>procedures for maintaining proper combustion air supply levels</li>
+      <li>
+        procedures for operating the incinerator and associated air pollution
+        control systems
+      </li>
+      <li>
+        monitoring procedures for demonstrating compliance with the operating
+        limits
+      </li>
+      <li>reporting and recordkeeping procedures</li>
+      <li>
+        the waste management plan required under 60.2899 through 60.2901 (see
+        checklist item AE.25.8.US)
+      </li>
+      <li>procedures for handling ash.</li>
+    </ul>
+    <p>
+      Note that this documentation list does nto include every report or other
+      type document that must be kept.
+    </p>
+    <p>The following are not considered to be OSWI:</p>
+    <ul class="usa-list">
+      <li>
+        Cement kilns if they are regulated under 40 CFR 63, Subpart LLL
+        (National Emission Standards for Hazardous Air Pollutants from the
+        Portland Cement Manufacturing Industry).
+      </li>
+      <li>
+        Co-fired combustors, the unit, that would otherwise be considered a very
+        small municipal waste combustion unit, are excluded if they meet the
+        following requirements
+      </li>
+      <ul class="usa-list">
+        <li>
+          The unit has a Federally enforceable permit limiting the combustion of
+          municipal solid waste to 30 percent of the total fuel input by weight.
+        </li>
+        <li>
+          the Administrator is notified that the unit qualifies for the
+          exclusion.
+        </li>
+        <li>
+          the Administrator is provided with a copy of the Federally enforceable
+          permit.
+        </li>
+        <li>
+          the weights are recorded, each calendar quarter, of municipal solid
+          waste and of all other fuels combusted.
+        </li>
+        <li>
+          Each report is kept for 5 yr. These records must be kept on site for
+          at least 2 years. The records may be kept off site for the remaining 3
+          yr.
+        </li>
+      </ul>
+      <li>
+        Cogeneration facilities if they meet the following three requirements:
+      </li>
+      <ul class="usa-list">
+        <li>
+          The unit qualifies as a cogeneration facility under section 3(18)(B)
+          of the Federal Power Act (16 U.S.C. 796(18)(B)).
+        </li>
+        <li>
+          The unit burns homogeneous waste (not including refuse-derived fuel)
+          to produce electricity and steam or other forms of energy used for
+          industrial, commercial, heating, or cooling purposes.
+        </li>
+        <li>
+          The Administrator is notified that the unit meets all of these
+          criteria.
+        </li>
+      </ul>
+
+      <li>
+        Commercial and industrial solid waste incineration units if the unit is
+        regulated under 40 CFR subparts CCCC or DDDD and is required to meet the
+        emission limitations established in those subparts.
+      </li>
+      <li>
+        Hazardous waste combustion units are if they meet either of the
+        following two criteria:
+      </li>
+      <ul class="usa-list">
+        <li>
+          A permit for the unit is obtained under section 3005 of the Solid
+          Waste Disposal Act.
+        </li>
+        <li>
+          The unit is regulated under 40 CFR part 63, subpart EEE (National
+          Emission Standards for Hazardous Air Pollutants from Hazardous Waste
+          Combustors).
+        </li>
+      </ul>
+      <li>
+        Hospital/medical/infectious waste incinerators if the unit is regulated
+        under 40 CFR, subparts Ce or Ec (New Source Performance Standards and
+        Emission Guidelines for Hospital/Medical/Infectious Waste Incinerators).
+      </li>
+      <li>
+        Incinerators and air curtain incinerators in isolated areas of Alaska if
+        the incineratorr used at a solid waste disposal site in Alaska that are
+        classified as a Class II or Class III municipal solid waste landfill, as
+        defined in 40 CFR 60.2977.
+      </li>
+      <li>
+        Rural institutional waste incinerators if it is an institutional waste
+        incineration unit, as defined in 40 CFR 60.2977, and the application for
+        exclusion has been approved by the Administrator as follows:
+      </li>
+      <li>
+        Institutional boilers and process heaters if they are regulated under 40
+        CFR 63, Subpart DDDDD (National Emission Standards for Hazardous Air
+        Pollutants for Industrial, Commercial, and Institutional Boilers and
+        Process Heaters).
+      </li>
+      <li>
+        Laboratory Analysis Units if they burn samples of materials only for the
+        purpose of chemical or physical analysis.
+      </li>
+      <li>
+        Materials recovery units if they combusts waste for the primary purpose
+        of recovering metals. Examples include primary and secondary smelters.
+      </li>
+      <li>
+        Pathological waste incineration units such as the facilitys
+        institutional waste incineration unit or very small municipal waste
+        combustion unit if they burn 90 percent or more by weight (on a calendar
+        quarter basis and excluding the weight of auxiliary fuel and combustion
+        air) of pathological waste, low-level radioactive waste, and/or
+        chemotherapeutic waste as defined in 40 CFR 60.2977 and you the
+        Administrator is notified that the unit meets these criteria.
+      </li>
+      <li>
+        Small or large municipal waste combustion units if they are regulated
+        under 40 CFR 60, Subparts AAAA, BBBB, Ea, Eb, or Cb, and are required to
+        meet the emission limitations established in those subparts.
+      </li>
+      <li>
+        Small power production facilities if they meet the following three
+        requirements:
+      </li>
+      <ul class="usa-list">
+        <li>
+          The unit qualifies as a small power-production facility under section
+          3(17)(C) of the Federal Power Act (16 U.S.C. 796(17)(C)).
+        </li>
+        <li>
+          The unit burns homogeneous waste (not including refuse-derived fuel)
+          to produce electricity.
+        </li>
+        <li>
+          The Administrator is notified that the unit meets all of these
+          criteria.
+        </li>
+      </ul>
+      <li>
+        Temporary-use incinerators and air curtain incinerators used in disaster
+        recovery if it is used on a temporary basis to combust debris from a
+        disaster or emergency such as a tornado, hurricane, flood, ice storm,
+        high winds, or act of bioterrorism and the facility complies with the
+        requirements in 40 CFR 60.2969.
+      </li>
+      <li>
+        Units that combust contraband or prohibited goods if the unit is owned
+        or operated by a government agency such as police, customs, agricultural
+        inspection, or a similar agency to destroy only illegal or prohibited
+        goods such as illegal drugs, or agricultural food products that can not
+        be transported into the country or across State lines to prevent
+        biocontamination. The exclusion does not apply to items either
+        confiscated or incinerated by private, industrial, or commercial
+        entities.
+      </li>
+      <li>
+        Incinerators used for national security if they meet either of the
+        following requirements:
+      </li>
+      <ul class="usa-list">
+        <li>
+          The incineration unit is used solely during military training field
+          exercises to destroy national security materials integral to the field
+          exercises.
+        </li>
+        <li>
+          The incineration unit is used solely to incinerate national security
+          materials, its use is necessary to safeguard national security.
+        </li>
+      </ul>
+    </ul>
+    <h3>Beryllium Incinerators</h3>
+    <p>
+      Incinerators that process beryllium-containing waste, beryllium, beryllium
+      oxide, or beryllium alloys emissions to the atmosphere cannot exceed 10 g
+      of beryllium over a 24-h period unless approval has been received for
+      alternate emissions limits. At these types of incinerators, emissions
+      testing must be done within 90 days of the startup of a new source and
+      monitoring sites operated continuously. Records of the emissions testing
+      results must be kept and made available for 2 yr.
+    </p>
+    <h3>Air Curtain Incinerators</h3>
+    <p>
+      Air curtain incinerators that burn 100 percent yard waste must operate at
+      an
+    </p>
+    <ul class="usa-list">
+      <li>
+        opacity limit of 10 percent (6-min average) for air curtain incinerators
+        that can combust at least 35 tons per day of municipal solid waste and
+        no more than 250 tons per day of municipal solid waste
+      </li>
+      <li>
+        opacity limit of 35 percent (6-min average) during the startup period
+        that is within the first 30 min of operation.
+      </li>
+    </ul>
+    <p>
+      Air curtain incinerators that burn 100 percent wood wastes, clean lumber,
+      yard waste and/or 100 percent mixture of only wood waste, clean lumber,
+      and/or yard waste operate at the opacity limitation of 10 percent (6-min
+      average) except that the opacity limitation can be 35 percent (6-min
+      average) during the startup period that is within the first 30 min of
+      operation. These incinerators are required to conduct annual opacity tests
+      and submit the results to the Administrator.
+    </p>
+    <h3>CISWI Incinerators</h3>
+    <p>
+      Commercial, industrial and solid waste incinerators (CISWI) which started
+      construction on or before 30 November 1999 must meet the following
+      emissions limitations:
+    </p>
+    <ul class="usa-list">
+      <li>0.004 milligrams/dscm cadmium</li>
+      <li>157 ppmdv Carbon monoxide</li>
+      <li>0.41 nanograms/dscm dioxins/furans</li>
+      <li>62 ppmdv hydrogen chloride</li>
+      <li>0.04 milligrams/dscm lead</li>
+      <li>0.47 milligrams/dscm mercury</li>
+      <li>10 percent opacity</li>
+      <li>388 ppmdv oxides of nitrogen</li>
+      <li>70 milligrams/dscm particulate matter</li>
+      <li>20 ppmdv sulfur dioxide.</li>
+    </ul>
+    <h3>Medical Waste Incinerators</h3>
+    <p>
+      Methodology for disposal of some medical wastes. See Medical Waste ->
+      Incinerators for regulatory and P2 information pertaining to medical waste
+      incinerators.
+      <!-- TODO: Add a link here? -->
+    </p>
+    <h3>Sewage Sludge Incinerators</h3>
+    <p>
+      Emissions to the atmosphere must not exceed 10 g of beryllium over a 24-h
+      period unless approval has been received for alternate emissions limits.
+      Of equal importance are the restrictions on what can be in the sewage
+      sludge. There are regulations about the concentrations of daily
+      concentration of lead, arsenic, cadmium, chromium, and nickel in sewage
+      sludge fed to a sewage sludge incinerator based on formulas in the text of
+      the regulation.
+    </p>
+    <h2>Summary of State Requirements</h2>
+    <p>
+      The states primarily regulate this type of a source through their
+      construction and operating permit programs.
+    </p>
+    <p>
+      While not actually an incinerator, states and counties do regulate the use
+      of open burning.
+    </p>
+    <p>
+      State-by-state guidance concerning air emissions can be found at ENVCAP's
+      Air Pollution State Resource Locator.
+      <!-- TODO: Add a link here? -->
+    </p>
+
+    <h3>Laws and Statutes</h3>
+    <p>Clean Air Act</p>
+    <!-- TODO: Add a link here? -->
+    <!-- TODO: Should be "THE clean air act"? -->
+  </SidePageNavigation>
+</BaseLayout>

@@ -1,0 +1,31 @@
+---
+import "../../assets/uswds/css/styles.css";
+import Accordian from "../components/Accordian.astro";
+import Card from "../components/Card.astro";
+import SidePageNavigation from "../components/SidePageNavigation.astro";
+import SummaryBox from "../components/SummaryBox.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Form Copies and Instructions";
+
+// TODO: get posts for each question on this page
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <SidePageNavigation>
+    <div class="usa-prose">
+      <p>
+        The Forms and Instructions page provides information and links to
+        required reporting forms for the following media types:
+      </p>
+    </div>
+    <Accordian title="Air" />
+    <Accordian title="Chemical Management" />
+    <Accordian title="Lead-Based Paint" />
+    <Accordian title="Hazardous Waste" />
+    <Accordian title="Storage Tanks" />
+    <Accordian title="Stormwater" />
+    <Accordian title="Toxic Substances" />
+    <Accordian title="Underground Injection Control" />
+    <Accordian title="Wastewater" />
+  </SidePageNavigation>
+</BaseLayout>

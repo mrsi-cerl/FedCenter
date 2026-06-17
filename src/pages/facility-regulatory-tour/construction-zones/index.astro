@@ -1,0 +1,73 @@
+---
+import Card from "../../../components/Card.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const pageTitle = "Construction Zones";
+const rootPath = "construction-zones/";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <div class="usa-prose">
+    <p>
+      Areas, sites, locations and facilities where construction, renovation, or
+      deconstruction occur. Of special interest is the management of stormwater,
+      construction debris, asbestos, and lead-based paint as well as the
+      utilization of "green" construction options.
+    </p>
+  </div>
+
+  <div class="mobile-lg:grid-col-4">
+    <h3 class="site-preview-heading margin-0">Focus Areas</h3>
+    <ul class="usa-list">
+      <li>
+        <a class="usa-link" href={rootPath + "green-construction"}
+          >Green Construction</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "nepa"}>NEPA</a>
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "stormwater"}>Stormwater</a>
+      </li>
+    </ul>
+  </div>
+  <h2>Focus Areas</h2>
+  <ul class="usa-card-group">
+    <Card
+      cardTitle="Construction and Demolition Debris"
+      buttonTitle="Learn More"
+      link={rootPath + "construction-and-demolition-debris"}
+    >
+      <p>
+        Construction and Demolition (C&D) debris consists of the waste generated
+        during construction, renovation, and demolition projects. Covering a
+        wide array of materials, this waste often contains bulky, heavy
+        materials, including concrete, wood, asphalt (from roads and roofing
+        shingles), gypsum (the main component of drywall), metals, bricks, and
+        plastics. C&D debris also includes salvaged building components such as
+        doors, windows, and plumbing fixtures.
+      </p>
+    </Card>
+    <Card
+      cardTitle="Dredging Operations"
+      buttonTitle="How To Evaluate Your Site"
+      link="cleanup-sites/site-evaluation"
+    >
+      <p>
+        Any activities involving dredging and filling wetlands are permitted by
+        the Army Corps of Engineers. "Dredge" is material that is excavated or
+        dredged from waters of the United States. "Fill material" means any
+        material used for the primary purpose of replacing an aquatic area with
+        dry land or changing the bottom elevation of a water body. The term
+        "fill material" does not include any pollutant discharged into the water
+        primarily to dispose of waste, as that activity is regulated under
+        section 402 of the CWA. The requirement for a permit to dredge or fill a
+        wetland is not regulated by the U.S. EPA. It is regulated by the Corps
+        of Engineers, Department of the Army under Title 33 of the Code of
+        Federal Regulations (CFR). But, the EPA does regulate permits for ocean
+        dumping of dredged material.
+      </p>
+    </Card>
+  </ul>
+</BaseLayout>

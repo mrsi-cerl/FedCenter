@@ -1,0 +1,67 @@
+---
+import { getCollection } from "astro:content";
+import "../../assets/uswds/css/styles.css";
+import Collection from "../components/Collection.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SidePageNavigation from "../components/SidePageNavigation.astro";
+const pageTitle = "What's New at FedCenter";
+
+const currDate = new Date();
+//new posts are ones that are less than 2 weeks old
+
+const allNewPosts = await getCollection("programPost", ({ data }) => {
+  return (
+    Math.abs(currDate.getTime() - data.pubDate.getTime()) /
+      1000 /
+      60 /
+      60 /
+      24 <=
+    14
+  );
+  // Complicated math that converts miliseconds into days
+});
+
+// convert the date object into a timestamp, and then filter those timestamps to unique ones
+const uniqueTimes = [
+  ...new Set(allNewPosts.map((post) => post.data.pubDate.getTime())),
+];
+//transform those timestamps back into a date to get a list of unique dates.
+const uniqueDates = uniqueTimes.map((time) => new Date(time));
+
+console.log("unique dates: ", uniqueDates);
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <SidePageNavigation>
+    <div>
+      <p>
+        FedCenter's What's New page displays what information has been added or
+        updated within the past week at FedCenter.gov. Stop back here
+        periodically to stay current on all recent activity at FedCenter.
+      </p>
+      {
+        uniqueDates.map((date) => (
+          <>
+            <h2>
+              {new Intl.DateTimeFormat("en-GB", {
+                year: "numeric", //this chunk of code converts a date that looks like
+                month: "short", //2026-05-28T00:00:00.000Z
+                day: "2-digit", //into something that looks more human readable
+              })
+                .format(date)
+                .split(" ")
+                .join("-")}
+            </h2>
+            {allNewPosts.map(
+              // then render all the posts whose dates fit that day below
+              (post) =>
+                post.data.pubDate.getTime() === date.getTime() && (
+                  <Collection post={post} />
+                )
+            )}
+          </>
+        ))
+      }
+    </div>
+  </SidePageNavigation>
+</BaseLayout>

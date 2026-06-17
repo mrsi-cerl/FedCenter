@@ -1,0 +1,58 @@
+---
+const { post } = Astro.props;
+
+const prettyDate = new Intl.DateTimeFormat("en-GB", {
+  year: "numeric",
+  month: "short",
+  day: "2-digit",
+})
+  .format(post.data.pubDate)
+  .split(" ")
+  .join("-");
+
+const pDate = new Date(post.data.pubDate);
+const currDate = new Date();
+//new posts are ones that are less than 2 weeks old
+const isNew =
+  Math.abs(currDate.getTime() - pDate.getTime()) / 1000 / 60 / 60 / 24 <= 14;
+
+// console.log(
+//   `current date ${currDate.toLocaleDateString()} and publication date ${pDate.toLocaleDateString()} are less than 2 weeks apart: ${isNew}`
+// );
+---
+
+<li class="usa-collection__item">
+  <div class="usa-collection__body">
+    <h4 class="usa-collection__heading">
+      <a class="usa-link" href=`${post.data.externalUrl}`>{post.data.title}</a>
+    </h4>
+    <p class="usa-collection__description">
+      {post.data.description}
+    </p>
+    <ul class="usa-collection__meta" aria-label="More information">
+      <!-- <li class="usa-collection__meta-item">
+        TODO will we have authors?
+        By Sondra Ainsworth and Constance Lu
+      </li> -->
+      <li class="usa-collection__meta-item">
+        <time>{prettyDate}</time>
+      </li>
+    </ul>
+    <ul class="usa-collection__meta" aria-label="Topics">
+      <>
+        {
+          //TODO check to see if the post is within X date
+          isNew ? (
+            <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
+          ) : null
+        }
+        <!-- {
+          post.data.tags.map((tag: any) => (
+            <li class="usa-collection__meta-item usa-tag">{tag}</li>
+          ))
+        } -->
+        <!-- TODO: Render extra tags? -->
+      </>
+    </ul>
+  </div>
+</li>

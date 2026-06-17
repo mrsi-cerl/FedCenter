@@ -1,0 +1,88 @@
+---
+import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+const pageTitle = "Turbines";
+---
+
+<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <SidePageNavigation>
+    <p>
+      At this time, USEPA regulated turbines include stationary gas turbines and
+      stationary combustion turbines.
+    </p>
+    <h2>Summary of Federal Requirements</h2>
+    <h3>Stationary Gas Turbines</h3>
+    <p>
+      This is any simple cycle gas turbine, regenerative cycle gas turbine, or
+      any gas turbine portion of a combined cycle steam/electric generating
+      system that is not self-propelled. It may be mounted on a vehicle for
+      portability (40 CFR 60.331).
+      <!-- TODO: Add a link here? -->
+    </p>
+    <p>
+      Stationary gas turbines with a heat input at peak load equal to or greater
+      than 10.7 gJ/h (10 MBtu/h), based on the lower heat value of the fuel
+      fired, which started construction, modification, or reconstruction after 3
+      October 1977 must not discharge gases containing SO2 in excess of 0.15
+      percent by volume at 15 percent oxygen and on a dry basis. The same
+      stationary gas turbines must also meet NOx emission limitations that are
+      calculated based on a formula in the text of the regulation. Additionally,
+      no fuel can be burned in any stationary gas turbine which contains total
+      sulfur in excess of 0.8 percent by weight (8000 ppmw).
+    </p>
+    <p>
+      Electric utility stationary gas turbines with a heat input at peak load
+      greater than 107.2 gJ/h (100 MBtu/h), based on the lower heating value of
+      the fuel fired, which started construction, modification, or
+      reconstruction after 3 October 1977, must meet NOx emission limitations
+      which are calculated based on a formula in the text of the regulation.
+    </p>
+    <h3>Stationary Combustion Turbine</h3>
+    <p>
+      This is all equipment, including but not limited to the turbine, the fuel,
+      air, lubrication and exhaust gas systems, control systems (except
+      emissions control equipment), and any ancillary components and
+      sub-components comprising any simple cycle stationary combustion turbine,
+      any regenerative/recuperative cycle stationary combustion turbine, the
+      combustion turbine portion of any stationary cogeneration cycle combustion
+      system, or the combustion turbine portion of any stationary combined cycle
+      steam/electric generating system.
+    </p>
+    <p>
+      Stationary means that the combustion turbine is not self propelled or
+      intended to be propelled while performing its function, although it may be
+      mounted on a vehicle for portability or transportability.
+    </p>
+    <p>
+      Stationary combustion turbines include simple cycle stationary combustion
+      turbines, regenerative/recuperative cycle stationary combustion turbines,
+      cogeneration cycle stationary combustion turbines, and combined cycle
+      stationary combustion turbines. Stationary combustion turbines do not
+      include turbines located at a research or laboratory facility, if research
+      is conducted on the turbine itself and the turbine is not being used to
+      power other applications at the research or laboratory facility.
+    </p>
+    <p>
+      A stationary combustion turbine is new if construction of the stationary
+      combustion turbine started after 14 January 2003.
+    </p>
+    <p>
+      The individual emissions limitations for stationary combustion turbines
+      are based on what type of fuel the turbine burns as well as the age of the
+      turbine.
+    </p>
+    <h2>Summary of State Requirements</h2>
+    <p>
+      States typically address these sources through the permit process. They
+      may also regulate smaller turbines than are federally regulated.
+    </p>
+    <p>
+      State-by-state guidance concerning air emissions can be found at ENVCAP's
+      Air Pollution State Resource Locator.
+      <!-- TODO: Add a link here? -->
+    </p>
+    <h3>Laws and Statutes</h3>
+    <p>The Clean Air Act</p>
+    <!-- TODO: Add a link here? -->
+  </SidePageNavigation>
+</BaseLayout>

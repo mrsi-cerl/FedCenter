@@ -1,0 +1,63 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+import { sideBarConstants, sideBarForPrograms } from "../../constants";
+
+const cleanupPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea === "Cleanup";
+});
+
+const pageTitle = "Cleanup";
+
+const cleanupAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    url: "",
+  },
+  // TODO: Decide if this is fine with not having an accordian?
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "General", url: "" },
+      { title: "Award Winners", url: "" },
+      { title: "BRAC", url: "" },
+      { title: "Brownfields", url: "" },
+      { title: "Collaboration Tools", url: "" },
+      { title: "Munitions", url: "" },
+      { title: "New Technology", url: "" },
+      { title: "NPL", url: "" },
+      { title: "Post Construction Completion", url: "" },
+      { title: "Property Re-use", url: "" },
+      { title: "Quality Assurance", url: "" },
+      { title: "Remediation", url: "" },
+      { title: "Substances of Concern", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<BaseLayout pageTitle={pageTitle} , sideBarItems={sideBarConstants.ProgramArea}>
+  <ProgramPage programAreas={cleanupAreas} posts={cleanupPosts}>
+    <p>
+      The Cleanup Program Area encompasses the identification, remediation, and
+      management of contaminated sites under the Superfund, the Base Realignment
+      and Closure (BRAC), and the Brownfields programs.
+    </p>
+  </ProgramPage>
+</BaseLayout>
