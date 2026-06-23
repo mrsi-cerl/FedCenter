@@ -9,4 +9,5 @@ export default defineConfig({
   outDir: "./_site",
   // to guarantee we aren't using any server-side rendering (SSR) - since we have no server
   output: "static",
+  base: 'site/mrsi-cerl/fedcenter/',
 });
