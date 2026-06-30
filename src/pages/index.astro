@@ -1,6 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-import "../../assets/uswds/css/styles.css";
 import Card from "../components/Card.astro";
 import SummaryBox from "../components/SummaryBox.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
@@ -21,7 +20,7 @@ const announcements = await getCollection("programPost", ({ data }) => {
     <Card
       cardTitle="What's New"
       buttonTitle="Find Out"
-      media="public/woman-alone-nature-using-digital-tablet-with-entertainment-application-screen-internet-c.jpg"
+      media=`${import.meta.env.BASE_URL}woman-alone-nature-using-digital-tablet-with-entertainment-application-screen-internet-c.jpg`
       size="4"
       link="whats-new"
     >
@@ -33,7 +32,7 @@ const announcements = await getCollection("programPost", ({ data }) => {
     <Card
       cardTitle="Regulatory Watch"
       buttonTitle="Track Now"
-      media="public/man-reading-book-education-academic-learning-exam-concept.jpg"
+      media=`${import.meta.env.BASE_URL}/man-reading-book-education-academic-learning-exam-concept.jpg`
       size="4"
     >
       <p>
@@ -44,7 +43,7 @@ const announcements = await getCollection("programPost", ({ data }) => {
     <Card
       cardTitle="EPA Compliance and Enforcement Center"
       buttonTitle="Learn More"
-      media="public/epa-logo-ss-jt-250312_1741817192677_hpMain_16x9_992.jpg"
+      media=`${import.meta.env.BASE_URL}/epa-logo-ss-jt-250312_1741817192677_hpMain_16x9_992.jpg`
       size="4"
     >
       <p>

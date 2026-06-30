@@ -1,6 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-import "../../assets/uswds/css/styles.css";
 import Collection from "../components/Collection.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import SidePageNavigation from "../components/SidePageNavigation.astro";
@@ -28,7 +27,7 @@ const uniqueTimes = [
 //transform those timestamps back into a date to get a list of unique dates.
 const uniqueDates = uniqueTimes.map((time) => new Date(time));
 
-console.log("unique dates: ", uniqueDates);
+// console.log("unique dates: ", uniqueDates);
 ---
 
 <BaseLayout pageTitle={pageTitle}>

@@ -35,7 +35,7 @@ const subCategories = [
 
 // 4. Define a `loader` and `schema` for each collection
 const programPost = defineCollection({
-  loader: glob({ base: "./programs", pattern: "**/*.{md,mdx}" }),
+  loader: glob({ base: "./src/content/programs", pattern: "**/*.{md,mdx}" }),
   schema: z.object({
     programArea: z.string(),
     title: z.string(),
@@ -49,7 +49,10 @@ const programPost = defineCollection({
 });
 
 const announcements = defineCollection({
-  loader: glob({ base: "./announcements", pattern: "**/*.{md,mdx}" }),
+  loader: glob({
+    base: "./src/content/announcements",
+    pattern: "**/*.{md,mdx}",
+  }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
