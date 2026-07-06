@@ -1,8 +1,8 @@
 ---
 const primaryAreas = [
-  { title: "Acquisition", url: "/programs/acquisition" },
-  { title: "Chemical Management", url: "/programs/chemical" },
-  { title: "Cleanup", url: "/programs/cleanup" },
+  { title: "Acquisition", url: "programs/acquisition" },
+  { title: "Chemical Management", url: "programs/chemical" },
+  { title: "Cleanup", url: "programs/cleanup" },
   { title: "Climate Resilience", url: "" },
   { title: "Cultural Resources", url: "" },
   { title: "Electronics Stewardship", url: "" },
@@ -31,7 +31,7 @@ const primaryAreas = [
         alt="an diagram of an atom"
       />
       <em class="usa-logo__text"
-        ><a href="/" title="FedCenter">FedCenter</a>
+        ><a href=`${import.meta.env.BASE_URL}` title="FedCenter">FedCenter</a>
       </em>
     </div>
     <button type="button" class="usa-menu-btn">Menu</button>
@@ -87,7 +87,7 @@ const primaryAreas = [
                     {
                       primaryAreas.slice(0, 6).map((area) => (
                         <li class="usa-nav__submenu-item">
-                          <a href={area.url}>
+                          <a href={import.meta.env.BASE_URL + area.url}>
                             <span>{area.title}</span>
                           </a>
                         </li>
@@ -98,7 +98,7 @@ const primaryAreas = [
                     {
                       primaryAreas.slice(6, 12).map((area) => (
                         <li class="usa-nav__submenu-item">
-                          <a href={area.url}>
+                          <a href={import.meta.env.BASE_URL + area.url}>
                             <span>{area.title}</span>
                           </a>
                         </li>
@@ -109,7 +109,7 @@ const primaryAreas = [
                     {
                       primaryAreas.slice(12).map((area) => (
                         <li class="usa-nav__submenu-item">
-                          <a href={area.url}>
+                          <a href={import.meta.env.BASE_URL + area.url}>
                             <span>{area.title}</span>
                           </a>
                         </li>
@@ -132,33 +132,40 @@ const primaryAreas = [
             </button>
             <ul id="extended-nav-section-three" class="usa-nav__submenu">
               <li class="usa-nav__submenu-item">
-                <a href="/facility-regulatory-tour"
+                <a href=`${import.meta.env.BASE_URL}facility-regulatory-tour`
                   ><span>Facility Regulatory Tour</span></a
                 >
               </li>
               <li class="usa-nav__submenu-item">
-                <a href="/my-community"><span>My Community/Facility</span></a>
+                <a href=`${import.meta.env.BASE_URL}my-community`
+                  ><span>My Community/Facility</span></a
+                >
               </li>
               <li class="usa-nav__submenu-item">
-                <a href="/hotlines-and-assistance-centers"
+                <a
+                  href=`${import.meta.env.BASE_URL}hotlines-and-assistance-centers`
                   ><span>Hotlines and Assistance Centers</span></a
                 >
               </li>
               <li class="usa-nav__submenu-item">
-                <a href="/form-copies-and-instructions"
+                <a
+                  href=`${import.meta.env.BASE_URL}form-copies-and-instructions`
                   ><span>Forms and Instructions</span></a
                 >
               </li>
               <li class="usa-nav__submenu-item">
-                <a href="/mobile-applications-directory"
+                <a
+                  href=`${import.meta.env.BASE_URL}mobile-applications-directory`
                   ><span>Mobile Applications Directory</span></a
                 >
               </li>
               <li class="usa-nav__submenu-item">
-                <a href="/newsletters"><span>Newsletters</span></a>
+                <a href=`${import.meta.env.BASE_URL}newsletters`
+                  ><span>Newsletters</span></a
+                >
               </li>
               <li class="usa-nav__submenu-item">
-                <a href="/federal-agency-links"
+                <a href=`${import.meta.env.BASE_URL}federal-agency-links`
                   ><span></span>Federal Agency Links</a
                 >
               </li>

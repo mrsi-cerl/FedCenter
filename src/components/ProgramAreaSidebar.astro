@@ -1,64 +1,107 @@
 ---
-
+// const urlArray = Astro.url.pathname.split("/");
+// const docId = urlArray[urlArray.length - 1].trim();
+const docId = "acquisition";
 ---
+
+<!-- <script define:vars={{ docId }}> -->
+<script>
+  // if (docId === "acquisition") {
+  //   console.log("aq found");
+  // } else {
+  //   console.log("not aq");
+  // }
+  // console.log("docId:", docId);
+  // document.getElementById(docId)?.classList.add("usa-current");
+  document.getElementById("acquisition")?.classList.add("usa-current");
+</script>
 
 <div class="margin-bottom-4">
   <nav aria-label="Side navigation">
     <h3>Program Areas</h3>
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);" class="usa-current">Acquisition</a>
+        <a
+          id="acquisition"
+          href=`${import.meta.env.BASE_URL}programs/acquisition`>Acquisition</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Chemical Management</a>
+        <a
+          id="chemical-management"
+          href=`${import.meta.env.BASE_URL}programs/chemical-management`
+          >Chemical Management</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Cleanup</a>
+        <a href=`${import.meta.env.BASE_URL}programs/cleanup`>Cleanup</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Climate Resilience</a>
+        <a href=`${import.meta.env.BASE_URL}programs/climate-resilience`
+          >Climate Resilience</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Cultural Resources</a>
+        <a href=`${import.meta.env.BASE_URL}programs/cultural-resources`
+          >Cultural Resources</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Electronics Stewardship</a>
+        <a href=`${import.meta.env.BASE_URL}programs/electronics-stewardship`
+          >Electronics Stewardship</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">EMS</a>
+        <a href=`${import.meta.env.BASE_URL}programs/ems`>EMS</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Energy</a>
+        <a href=`${import.meta.env.BASE_URL}programs/energy`>Energy</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Env. Compliance</a>
+        <a href=`${import.meta.env.BASE_URL}programs/env-compliance`
+          >Env. Compliance</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Greenhouse Gases</a>
+        <a href=`${import.meta.env.BASE_URL}programs/greenhouse-gases`
+          >Greenhouse Gases</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">High Performance Buildings</a>
+        <a href=`${import.meta.env.BASE_URL}programs/high-performance-buildings`
+          >High Performance Buildings</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Natural Resources</a>
+        <a href=`${import.meta.env.BASE_URL}programs/natural-resources`
+          >Natural Resources</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">NEPA</a>
+        <a href=`${import.meta.env.BASE_URL}programs/nepa`>NEPA</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">PFAS</a>
+        <a href=`${import.meta.env.BASE_URL}programs/pfas`>PFAS</a>
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Pollution Prevention</a>
+        <a href=`${import.meta.env.BASE_URL}programs/pollution-prevention`
+          >Pollution Prevention</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Sustainability</a>
+        <a href=`${import.meta.env.BASE_URL}programs/sustainability`
+          >Sustainability</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Transportation</a>
+        <a href=`${import.meta.env.BASE_URL}programs/transportation`
+          >Transportation</a
+        >
       </li>
       <li class="usa-sidenav__item">
-        <a href="javascript:void(0);">Water Efficiency</a>
+        <a href=`${import.meta.env.BASE_URL}programs/water-efficiency`
+          >Water Efficiency</a
+        >
       </li>
     </ul>
   </nav>
