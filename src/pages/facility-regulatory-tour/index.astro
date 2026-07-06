@@ -2,13 +2,15 @@
 import SidePageNavigation from "../../components/SidePageNavigation.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 const pageTitle = "Facility Regulatory Tour";
-const rootPath = "facility-regulatory-tour/";
+const rootPath = "/facility-regulatory-tour/";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
   <SidePageNavigation>
     <h2>
-      <a class="usa-link" href={rootPath + "air-emission-sources"}
+      <a
+        class="usa-link"
+        href={import.meta.env.BASE_URL + rootPath + "air-emission-sources"}
         >Air Emission Sources</a
       >
     </h2>
@@ -22,7 +24,11 @@ const rootPath = "facility-regulatory-tour/";
       in the same manner and the same extent as any non-governmental entity.
     </p>
     <h2>
-      <a class="usa-link" href={rootPath + "cleanup-sites"}>Cleanup Sites</a>
+      <a
+        class="usa-link"
+        href={import.meta.env.BASE_URL + rootPath + "cleanup-sites"}
+        >Cleanup Sites</a
+      >
     </h2>
     <p>
       The clean up or restoration of land, buildings and waterways which have
@@ -35,7 +41,9 @@ const rootPath = "facility-regulatory-tour/";
       Facilities Cleanup Information
     </p>
     <h2>
-      <a class="usa-link" href={rootPath + "construction-zones"}
+      <a
+        class="usa-link"
+        href={import.meta.env.BASE_URL + rootPath + "construction-zones"}
         >Construction Zones</a
       >
     </h2>
