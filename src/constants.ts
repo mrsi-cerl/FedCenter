@@ -22,4 +22,5 @@ export const sideBarForPrograms = [
 export const sideBarConstants = {
   ProgramArea: "programArea",
   FacilityTour: "facilityTour",
+  Announcements: "announcements",
 };

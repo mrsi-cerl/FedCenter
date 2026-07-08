@@ -8,6 +8,7 @@ import BreadCrumb from "../components/BreadCrumb.astro";
 import ProgramAreaSidebar from "../components/ProgramAreaSidebar.astro";
 import FacilityRegulatoryTourSidebar from "../components/FacilityRegulatoryTourSidebar.astro";
 import { sideBarConstants } from "../constants";
+import AnnouncementsSidebar from "@/components/AnnouncementsSidebar.astro";
 
 const { pageTitle, showBreadcrumb = false } = Astro.props;
 const { sideBarItems } = Astro.props;
@@ -54,12 +55,18 @@ const { sideBarItems } = Astro.props;
                 {sideBarItems === sideBarConstants.FacilityTour && (
                   <FacilityRegulatoryTourSidebar />
                 )}
+                {sideBarItems === sideBarConstants.Announcements && (
+                  <AnnouncementsSidebar />
+                )}
               </div>
-              <main class="desktop:grid-col-10" id="main-content">
+              <main class="desktop:grid-col-8" id="main-content">
                 {showBreadcrumb && <BreadCrumb />}
                 <h1>{pageTitle}</h1>
                 <slot />
               </main>
+              <div class="usa-layout-docs__sidenav desktop:grid-col-2">
+                <ProgramAreaSidebar />
+              </div>
             </div>
           </div>
         ) : (

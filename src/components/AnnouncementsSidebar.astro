@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+
+const announcements = await getCollection("announcements", ({ data }) => {
+  return data;
+});
+---
+
+<h3>Announcements</h3>
+<ul class="usa-collection">
+  {
+    announcements.map((announcement) => (
+      <>
+        <li class="usa-collection__item">
+          <div class="usa-collection__body">
+            <h4 class="usa-collection__heading">
+              <a
+                class="usa-link"
+                href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/"
+              >
+                {announcement.data.title}
+              </a>
+            </h4>
+            <ul class="usa-collection__meta" aria-label="More information">
+              <li class="usa-collection__meta-item">
+                {new Intl.DateTimeFormat("en-GB", {
+                  year: "numeric", //this chunk of code converts a date that looks like
+                  month: "short", //2026-05-28T00:00:00.000Z
+                  day: "2-digit", //into something that looks more human readable
+                })
+                  .format(announcement.data.pubDate)
+                  .split(" ")
+                  .join("-")}
+              </li>
+            </ul>
+          </div>
+        </li>
+      </>
+    ))
+  }
+</ul>

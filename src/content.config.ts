@@ -63,4 +63,4 @@ const announcements = defineCollection({
   }),
 });
 
-export const collections = { programPost };
+export const collections = { programPost, announcements };
