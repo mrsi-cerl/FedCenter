@@ -40,13 +40,13 @@ const { sideBarItems } = Astro.props;
       <Banner />
       <Menu />
     </header>
-    <div class="width-desktop margin-x-auto margin-top-4">
+    <div class="widescreen margin-x-auto margin-top-4">
       {
         sideBarItems ? (
           //if there is a sidebar, we want to split the page into two sections
           <div class="grid-container">
             <div class="grid-row grid-gap">
-              <div class="usa-layout-docs__sidenav desktop:grid-col-3">
+              <div class="usa-layout-docs__sidenav desktop:grid-col-2">
                 {/* <Sidebar sideBarItems={sideBarItems} />  */}
                 {sideBarItems === sideBarConstants.ProgramArea && (
                   <ProgramAreaSidebar />
@@ -55,7 +55,7 @@ const { sideBarItems } = Astro.props;
                   <FacilityRegulatoryTourSidebar />
                 )}
               </div>
-              <main class="desktop:grid-col-9" id="main-content">
+              <main class="desktop:grid-col-10" id="main-content">
                 {showBreadcrumb && <BreadCrumb />}
                 <h1>{pageTitle}</h1>
                 <slot />

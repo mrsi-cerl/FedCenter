@@ -3,6 +3,8 @@ import { getCollection } from "astro:content";
 import Card from "../components/Card.astro";
 import SummaryBox from "../components/SummaryBox.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { sideBarConstants } from "@/constants";
+
 const pageTitle = "Welcome to FedCenter";
 
 const announcements = await getCollection("programPost", ({ data }) => {
@@ -10,7 +12,7 @@ const announcements = await getCollection("programPost", ({ data }) => {
 });
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} sideBarItems={sideBarConstants.ProgramArea}>
   <div>
     <b>FedCenter.gov </b> is the Federal government's home for comprehensive environmental
     stewardship and compliance assistance information for Federal facility managers
