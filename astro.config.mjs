@@ -3,12 +3,14 @@ import { defineConfig } from "astro/config";
 
 import { loadEnv } from "vite";
 
-const { BASE_PATH } = loadEnv(
+const env = loadEnv(
   // @ts-ignore
   process.env.NODE_ENV,
   process.cwd(),
   ""
 );
+
+console.log("env: ", env);
 
 export default defineConfig({
   // when deployed for real
@@ -21,7 +23,7 @@ export default defineConfig({
   output: "static",
   // base: process.env.BASE_PATH || "site/mrsi-cerl/fedcenter/",
   // Ensure BASE_URL always ends with / so ${base}asset paths join correctly
-  base: BASE_PATH,
+  base: env.BASE_PATH,
   // site: process.env.SITE || "http://localhost:4321",
   // // site: "site/mrsi-cerl/fedcenter/"
 
