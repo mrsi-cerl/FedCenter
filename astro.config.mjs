@@ -10,5 +10,8 @@ export default defineConfig({
   publicDir: "./public",
   // to guarantee we aren't using any server-side rendering (SSR) - since we have no server
   output: "static",
-  base: "site/mrsi-cerl/fedcenter/",
+  // base: process.env.BASE_PATH || "site/mrsi-cerl/fedcenter/",
+  base: (process.env.BASE_PATH || "/").replace(/\/?$/, "/"),
+  site: process.env.SITE || "http://localhost:4321",
+  // site: "site/mrsi-cerl/fedcenter/"
 });
