@@ -10,6 +10,5 @@ export default defineConfig({
   publicDir: "./public",
   // to guarantee we aren't using any server-side rendering (SSR) - since we have no server
   output: "static",
-  base: "/",
-  site: "site/mrsi-cerl/fedcenter/",
+  base: "site/mrsi-cerl/fedcenter/",
 });
