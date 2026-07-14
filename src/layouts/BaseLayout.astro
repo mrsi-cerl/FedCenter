@@ -55,9 +55,6 @@ const { sideBarItems } = Astro.props;
                 {sideBarItems === sideBarConstants.FacilityTour && (
                   <FacilityRegulatoryTourSidebar />
                 )}
-                {sideBarItems === sideBarConstants.Announcements && (
-                  <AnnouncementsSidebar />
-                )}
               </div>
               <main class="desktop:grid-col-8" id="main-content">
                 {showBreadcrumb && <BreadCrumb />}
@@ -65,7 +62,7 @@ const { sideBarItems } = Astro.props;
                 <slot />
               </main>
               <div class="usa-layout-docs__sidenav desktop:grid-col-2">
-                <ProgramAreaSidebar />
+                <AnnouncementsSidebar />
               </div>
             </div>
           </div>
