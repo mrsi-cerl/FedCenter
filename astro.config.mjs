@@ -23,7 +23,10 @@ export default defineConfig({
   output: "static",
   // base: process.env.BASE_PATH || "site/mrsi-cerl/fedcenter/",
   // Ensure BASE_URL always ends with / so ${base}asset paths join correctly
-  base: env.BASE_PATH,
+  base:
+    env.BRANCH === "demo-branch"
+      ? "demo/mrsi-cerl/fedcenter/"
+      : "site/mrsi-cerl/fedcenter/",
   // site: process.env.SITE || "http://localhost:4321",
   // // site: "site/mrsi-cerl/fedcenter/"
 
