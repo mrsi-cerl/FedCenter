@@ -1,0 +1,70 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+import { sideBarForPrograms } from "../../constants.ts";
+import { sideBarConstants } from "../../constants.ts";
+
+const acquisitionPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea === "Sustainability";
+});
+
+const pageTitle = "Sustainability";
+
+const sustainabilityAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    url: "/acquisition",
+    children: [
+      { title: "Executive Orders", url: "" },
+      { title: "Laws, Regulations, and Agreements", url: "" },
+      { title: "Guidance", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations and Programs", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Award Winners", url: "" },
+      { title: "Case Studies", url: "" },
+      { title: "Contract and Procurement Language", url: "" },
+      { title: "Purchasing Guides", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<BaseLayout pageTitle={pageTitle} sideBarItems={sideBarConstants.ProgramArea}>
+  <ProgramPage programAreas={sustainabilityAreas} posts={acquisitionPosts}>
+    <p>
+      The Sustainability Program Area includes the latest guidance, examples,
+      and information resources to aid Federal facilities in developing and
+      maintaining sustainable facilities and helping to develop and promote
+      sustainable practices within their environmental programs or activities.
+    </p>
+    <p>
+      When future Executive Orders (EOs) and Implementing Instructions for those
+      EOs are released addressing federal facilities the text on this page will
+      be updated.
+    </p>
+    <p>
+      Links to statutory requirements, reporting mechanisms, and additional CEQ
+      guidance is provided below.
+    </p>
+  </ProgramPage>
+</BaseLayout>

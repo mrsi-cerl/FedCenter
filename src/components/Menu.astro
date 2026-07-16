@@ -15,7 +15,7 @@ const primaryAreas = [
   { title: "NEPA", url: "" },
   { title: "PFAS", url: "" },
   { title: "Pollution Prevention", url: "" },
-  { title: "Sustainability", url: "" },
+  { title: "Sustainability", url: "programs/sustainability" },
   { title: "Transportation", url: "" },
   { title: "Water Efficiency", url: "" },
 ];
@@ -29,11 +29,21 @@ const primaryAreas = [
         width="160"
         src=`${import.meta.env.BASE_URL}FedCenterHorizontalLogo.svg`
         alt="an diagram of an atom"
+        class="display-block"
       />
-      <em class="usa-logo__text"
-        ><a href=`${import.meta.env.BASE_URL}` title="FedCenter">FedCenter</a>
-      </em>
+      <div class="display-inline">
+        <em class="usa-logo__text"
+          ><a href=`${import.meta.env.BASE_URL}` title="FedCenter">FedCenter</a>
+        </em>
+        <p class="text-light display-inline font-sans-3xs margin-left-6">
+          Environmental Protection Agency - Federal Facilities Enforcement
+          Office
+        </p>
+      </div>
     </div>
+    <!-- <p class="text-light display-inline font-sans-3xs">
+      Environmental Protection Agency - Federal Facilities Enforcement Office
+    </p> -->
     <button type="button" class="usa-menu-btn">Menu</button>
   </div>
   <nav aria-label="Primary navigation" class="usa-nav">
