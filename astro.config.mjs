@@ -21,14 +21,11 @@ export default defineConfig({
   publicDir: "./public",
   // to guarantee we aren't using any server-side rendering (SSR) - since we have no server
   output: "static",
-  // base: process.env.BASE_PATH || "site/mrsi-cerl/fedcenter/",
-  // Ensure BASE_URL always ends with / so ${base}asset paths join correctly
+
+  //use a different base depending on which branch we are using.
+  //This area will need to be updated if we are to add another preview site
   base:
     env.BRANCH === "demo-branch"
       ? "demo/mrsi-cerl/fedcenter/"
-      : "site/mrsi-cerl/fedcenter/",
-  // site: process.env.SITE || "http://localhost:4321",
-  // // site: "site/mrsi-cerl/fedcenter/"
-
-  // base: "site/mrsi-cerl/fedcenter/",
+      : "site/mrsi-cerl/fedcenter/", //this is the base on MASTER branch
 });
