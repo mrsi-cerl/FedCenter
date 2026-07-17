@@ -62,3 +62,7 @@ button h3 {
   //we want to use h2's inside the <Accordion> component without rendering them like an actual h3
   //we do this so the <sidePageNavigation> component can pick up each accordion and add them to the stack
 }
+
+.full-length-list li {
+  max-width: unset;
+}
