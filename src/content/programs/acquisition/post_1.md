@@ -1,6 +1,6 @@
 ---
 title: "Executive Order 14271"
-pubDate: 2026-05-28
+pubDate: 2026-05-23
 description: "Ensuring Commercial, Cost-Effective Solutions in Federal Contracts"
 programArea: "Acquisition"
 category: "Regulations, Guidance, and Policy"

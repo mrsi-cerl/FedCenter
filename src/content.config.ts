@@ -40,7 +40,7 @@ const programPost = defineCollection({
     programArea: z.string(),
     title: z.string(),
     description: z.string(),
-    pubDate: z.coerce.date(),
+    pubDate: z.date(),
     category: z.enum(categories),
     subcategory: z.string(),
     // tags: []
@@ -56,8 +56,8 @@ const announcements = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    pubDate: z.coerce.date(),
-    expiresOn: z.coerce.date(),
+    pubDate: z.date(),
+    expiresOn: z.date(),
     // tags: []
     externalUrl: z.string().optional(),
   }),

@@ -1,0 +1,77 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+
+@use "uswds-core" as *;
+
+// .usa-header {
+//   //makes the header to use the primary theme
+//   @include u-bg("primary-dark");
+// }
+
+// .usa-logo a {
+//   //makes the "FedCenter" header light
+//   @include u-text("base-lightest");
+// }
+
+// .usa-nav__primary button {
+//   //makes the Links on the menu light
+//   @include u-text("primary-lighter");
+// }
+
+// .usa-nav__primary a {
+//   //makes the Links on the menu light
+//   @include u-text("primary-lighter");
+// }
+
+//use inline display so we can show a tag next to the title
+//only used in the demo-branch
+// .usa-logo__text {
+//   display: inline;
+//   font-style: normal;
+//   font-weight: 700;
+//   margin: 0;
+// }
+
+// //extend the header max width so we can fit a tag next to the title
+// //only used in the demo-branch
+// .usa-header--extended .usa-logo {
+//   font-size: 2.13rem;
+//   margin: 2rem 0 1.5rem;
+//   max-width: 66%;
+// }
+
+button h3 {
+  all: unset;
+  //we want to use h2's inside the <Accordion> component without rendering them like an actual h3
+  //we do this so the <sidePageNavigation> component can pick up each accordion and add them to the stack
+}
+
+//currently used in demo-branch to show featured items at a full width
+.full-length-list li {
+  max-width: unset;
+}
+
+//used in the "announcements" on the index page to make a row that spans the entire width of a grid
+.full-row {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
