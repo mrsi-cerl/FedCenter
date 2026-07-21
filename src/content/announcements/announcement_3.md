@@ -1,0 +1,9 @@
+---
+title: "Engineering and Construction Bulletin No. 2026-4 Buy American Act Information"
+description: "This Engineering and Construction Bulletin (ECB) is for information only and all Army military construction (MILCON), sustainment, renovation and modernization (SRM) projects, and Civil Works vertical construction projects. The Buy American Act mandates that construction materials be sourced from the U.S. or designated countries to support domestic manufacturing and jobs. This policy is also a significant sustainability strategy, promoting local resilience, ensuring transparency in production standards, supporting recycling practices, and creating a positive community economic impact. Proper implementation requires considering the act during the design phase and verifying materials through submittal reviews and inspections to ensure compliance with contractual requirements."
+pubDate: 2026-05-28
+expiresOn: 2029-05-28
+externalUrl: https://www.federalregister.gov/documents/2025/04/18/2025-06835/ensuring-commercial-cost-effective-solutions-in-federal-contracts
+---
+
+This Engineering and Construction Bulletin (ECB) is for information only and all Army military construction (MILCON), sustainment, renovation and modernization (SRM) projects, and Civil Works vertical construction projects. The Buy American Act mandates that construction materials be sourced from the U.S. or designated countries to support domestic manufacturing and jobs. This policy is also a significant sustainability strategy, promoting local resilience, ensuring transparency in production standards, supporting recycling practices, and creating a positive community economic impact. Proper implementation requires considering the act during the design phase and verifying materials through submittal reviews and inspections to ensure compliance with contractual requirements.

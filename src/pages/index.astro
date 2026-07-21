@@ -5,8 +5,8 @@ import SummaryBox from "../components/SummaryBox.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Welcome to FedCenter";
 
-const allAnnouncements = await getCollection("programPost", ({ data }) => {
-  return data.programArea === "Acquisition";
+const allAnnouncements = await getCollection("announcements", ({ data }) => {
+  return data;
 });
 
 //sort our announcements by date, recent to oldest, and then get the most recent 3
@@ -71,7 +71,7 @@ const recentThreeAnouncements = allAnnouncements
       recentThreeAnouncements.map((announcement) => (
         <div class="grid-row border-bottom height-9">
           <div class="grid-col-1 display-flex flex-justify-center">
-            <div class="display-flex flex-column flex-justify-center">
+            <div class="display-flex flex-column flex-justify-center height-9">
               <p class="font-mono-xl text-heavy margin-0">
                 {announcement.data.pubDate.getDate()}
               </p>
@@ -82,11 +82,11 @@ const recentThreeAnouncements = allAnnouncements
               </p>
             </div>
           </div>
-          <div class="grid-col-2 display-flex flex-column flex-justify-center">
-            <p>{announcement.data.title}</p>
+          <div class="grid-col-3 display-flex flex-column flex-justify-center height-9 padding-right-105">
+            <p class="truncate-overflow">{announcement.data.title}</p>
           </div>
-          <div class="grid-col display-flex flex-column flex-justify-center">
-            <p>{announcement.data.description}</p>
+          <div class="grid-col display-flex flex-column flex-justify-center height-9">
+            <p class="truncate-overflow">{announcement.data.description}</p>
           </div>
         </div>
       ))

@@ -75,3 +75,11 @@ button h3 {
   margin-left: -2rem;
   margin-right: -2rem;
 }
+
+.truncate-overflow {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; //this isn't available for all browsers, but should work for 99% of our users
+  overflow: hidden;
+  line-clamp: 2; //this probably isn't needed
+}
