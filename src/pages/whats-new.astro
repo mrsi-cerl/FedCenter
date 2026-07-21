@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Collection from "../components/Collection.astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import RootLayout from "../layouts/RootLayout.astro";
 import SidePageNavigation from "../components/SidePageNavigation.astro";
 const pageTitle = "What's New at FedCenter";
 
@@ -30,7 +30,7 @@ const uniqueDates = uniqueTimes.map((time) => new Date(time));
 // console.log("unique dates: ", uniqueDates);
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<RootLayout pageTitle={pageTitle}>
   <SidePageNavigation>
     <div>
       <p>
@@ -63,4 +63,4 @@ const uniqueDates = uniqueTimes.map((time) => new Date(time));
       }
     </div>
   </SidePageNavigation>
-</BaseLayout>
+</RootLayout>

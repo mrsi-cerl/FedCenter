@@ -1,12 +1,12 @@
 ---
 import Card from "../../../components/Card.astro";
 import { sideBarConstants } from "../../../constants";
-import BaseLayout from "../../../layouts/BaseLayout.astro";
+import RootLayout from "../../../layouts/RootLayout.astro";
 
 const pageTitle = "Air Emission Sources";
 ---
 
-<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+<RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
   <div class="usa-prose">
     <p>
       The Clean Air Act Section 118(a) requires that each agency and employee of
@@ -92,4 +92,4 @@ const pageTitle = "Air Emission Sources";
     </Card>
   </ul>
   <!-- TODO: Add related items? -->
-</BaseLayout>
+</RootLayout>

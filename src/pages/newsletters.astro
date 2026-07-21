@@ -5,7 +5,7 @@ import Card from "../components/Card.astro";
 import Collection from "../components/Collection.astro";
 import SidePageNavigation from "../components/SidePageNavigation.astro";
 import SummaryBox from "../components/SummaryBox.astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import RootLayout from "../layouts/RootLayout.astro";
 const pageTitle = "Newsletters";
 
 // TODO: get posts for each question on this page
@@ -14,7 +14,7 @@ const posts = await getCollection("programPost", ({ data }) => {
 });
 ---
 
-<!-- <BaseLayout pageTitle={pageTitle}>
+<!-- <RootLayout pageTitle={pageTitle}>
   <SidePageNavigation>
     <div class="usa-prose">
       <p>
@@ -24,8 +24,8 @@ const posts = await getCollection("programPost", ({ data }) => {
     </div>
     {posts.map((post: any) => <Collection post={post} />)}
   </SidePageNavigation>
-</BaseLayout> -->
-<BaseLayout pageTitle={pageTitle}>
+</RootLayout> -->
+<RootLayout pageTitle={pageTitle}>
   <div class="usa-prose">
     <p>
       The Newsletters page contains links to various Federal and State
@@ -152,4 +152,4 @@ const posts = await getCollection("programPost", ({ data }) => {
       </p>
     </Card>
   </ul>
-</BaseLayout>
+</RootLayout>

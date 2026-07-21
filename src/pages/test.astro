@@ -1,10 +1,10 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import RootLayout from "../layouts/RootLayout.astro";
 
 const allPosts = await getCollection("programPost");
 ---
 
-<BaseLayout>
+<RootLayout>
   {allPosts.map((post) => <p>hello {post.id}</p>)}
-</BaseLayout>
+</RootLayout>

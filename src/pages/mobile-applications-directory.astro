@@ -3,13 +3,13 @@ import Accordian from "../components/Accordian.astro";
 import Card from "../components/Card.astro";
 import SidePageNavigation from "../components/SidePageNavigation.astro";
 import SummaryBox from "../components/SummaryBox.astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import RootLayout from "../layouts/RootLayout.astro";
 const pageTitle = "My Community";
 
 // TODO: get posts for each question on this page
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<RootLayout pageTitle={pageTitle}>
   <SidePageNavigation>
     <div class="usa-prose">
       <p>
@@ -41,4 +41,4 @@ const pageTitle = "My Community";
     <Accordian title="Transportation" />
     <Accordian title="Wastewater" />
   </SidePageNavigation>
-</BaseLayout>
+</RootLayout>

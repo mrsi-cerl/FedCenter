@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import RootLayout from "../../layouts/RootLayout.astro";
 import ProgramPage from "../../layouts/ProgramPage.astro";
 import { sideBarConstants, sideBarForPrograms } from "../../constants";
 
@@ -50,30 +50,31 @@ const chemicalAreas = [
 ];
 ---
 
-<BaseLayout pageTitle={pageTitle} , sideBarItems={sideBarConstants.ProgramArea}>
-  <ProgramPage programAreas={chemicalAreas} posts={chemicalPosts}>
-    <p>
-      The focus of the Chemical Management Program Area is emergency planning,
-      community right-to-know, and reporting of substances and processes at
-      facilities which may pose a threat. This program area does not solely
-      apply to manufacturers or large federal facilities. Chemicals include
-      liquids, solids, and gaseous substances. A substance as common as
-      "white-out" or a household pesticide/herbicide are considered a chemical
-      as well as paints, strippers, thinners, toluene, mercury, chlorine, and
-      trichloroethane.
-    </p>
-    <p>
-      When future Executive Orders (EOs) and Implementing Instructions for those
-      EOs are released addressing federal facilities the text on this page will
-      be updated.
-    </p>
-    <p>
-      The CEQ Memo states, "Each agency must continue to comply with the
-      provisions set forth in sections 301 through 313 of EPCRA, as amended, in
-      light of applicable guidance issued by EPA, and without regard to the
-      Standard Industrial Classification (SIC) or North American Industrial
-      Classification System (NAICS) delineations."
-    </p>
-    <!-- TODO: Add the rest of the chemical stuff, can it be shortened? -->
-  </ProgramPage>
-</BaseLayout>
+<ProgramPage
+  programAreas={chemicalAreas}
+  posts={chemicalPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The focus of the Chemical Management Program Area is emergency planning,
+    community right-to-know, and reporting of substances and processes at
+    facilities which may pose a threat. This program area does not solely apply
+    to manufacturers or large federal facilities. Chemicals include liquids,
+    solids, and gaseous substances. A substance as common as "white-out" or a
+    household pesticide/herbicide are considered a chemical as well as paints,
+    strippers, thinners, toluene, mercury, chlorine, and trichloroethane.
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+  <p>
+    The CEQ Memo states, "Each agency must continue to comply with the
+    provisions set forth in sections 301 through 313 of EPCRA, as amended, in
+    light of applicable guidance issued by EPA, and without regard to the
+    Standard Industrial Classification (SIC) or North American Industrial
+    Classification System (NAICS) delineations."
+  </p>
+  <!-- TODO: Add the rest of the chemical stuff, can it be shortened? -->
+</ProgramPage>

@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import RootLayout from "../../layouts/RootLayout.astro";
 import ProgramPage from "../../layouts/ProgramPage.astro";
 import { sideBarForPrograms } from "../../constants.ts";
 import { sideBarConstants } from "../../constants.ts";
@@ -49,18 +49,25 @@ const acquisitionAreas = [
 ];
 ---
 
-<BaseLayout pageTitle={pageTitle} , sideBarItems={sideBarConstants.ProgramArea}>
-  <ProgramPage programAreas={acquisitionAreas} posts={acquisitionPosts}>
-    <p>
-      Included in the Acquisition Program Area are links to, and highlights from
-      programs which enable agencies to meet these goals include:
-      Environmentally Preferable Purchasing (EPP), Comprehensive Procurement
-      Guidelines (CPG), ENERGY STAR?, the Green Procurement Program (GPP), and
-      the Federal Energy Management Program (FEMP). When future Executive Orders
-      (EOs) and Implementing Instructions for those EOs are released addressing
-      federal facilities the text on this page will be updated. Links to
-      statutory requirements, reporting mechanisms, and additional CEQ guidance
-      is provided below.
-    </p>
-  </ProgramPage>
-</BaseLayout>
+<ProgramPage
+  programAreas={acquisitionAreas}
+  posts={acquisitionPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    Included in the Acquisition Program Area are links to, and highlights from
+    programs which enable agencies to meet these goals include: Environmentally
+    Preferable Purchasing (EPP), Comprehensive Procurement Guidelines (CPG),
+    ENERGY STAR?, the Green Procurement Program (GPP), and the Federal Energy
+    Management Program (FEMP).
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+  <p>
+    Links to statutory requirements, reporting mechanisms, and additional CEQ
+    guidance is provided below.
+  </p>
+</ProgramPage>

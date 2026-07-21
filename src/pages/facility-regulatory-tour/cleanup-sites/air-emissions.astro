@@ -1,10 +1,10 @@
 ---
 import SidePageNavigation from "../../../components/SidePageNavigation.astro";
-import BaseLayout from "../../../layouts/BaseLayout.astro";
+import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "Air Emissions";
 ---
 
-<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+<RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
   <SidePageNavigation>
     <p class="usa-prose">
       In terms of air emissions, site remediation is defined as one or more
@@ -144,4 +144,4 @@ const pageTitle = "Air Emissions";
     <p>The Clean Air Act</p>
     <!-- TODO: Add a link here? -->
   </SidePageNavigation>
-</BaseLayout>
+</RootLayout>

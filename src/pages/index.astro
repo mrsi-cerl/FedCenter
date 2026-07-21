@@ -2,7 +2,9 @@
 import { getCollection } from "astro:content";
 import Card from "../components/Card.astro";
 import SummaryBox from "../components/SummaryBox.astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import RootLayout from "../layouts/RootLayout.astro";
+import { sideBarConstants } from "@/constants";
+import Announcements from "@/components/Announcements.astro";
 const pageTitle = "Welcome to FedCenter";
 
 const allAnnouncements = await getCollection("announcements", ({ data }) => {
@@ -15,82 +17,86 @@ const recentThreeAnouncements = allAnnouncements
   .slice(0, 3);
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <div>
-    <p class="font-body-md">
-      <b>FedCenter.gov </b> is the Federal government's home for comprehensive environmental
-      stewardship and compliance assistance information for Federal facility managers
-      and their agencies.
-    </p>
-  </div>
-  <ul class="usa-card-group">
-    <Card
-      cardTitle="What's New"
-      buttonTitle="Find Out"
-      media=`${import.meta.env.BASE_URL}woman-alone-nature-using-digital-tablet-with-entertainment-application-screen-internet-c.jpg`
-      size="4"
-      link="whats-new"
-    >
-      <p>
-        Find out what's been recently posted on FedCenter with this daily log of
-        all information added or updated within the last 30 days.
+<RootLayout pageTitle={pageTitle}>
+  <div class="width-desktop margin-x-auto">
+    <h1>{pageTitle}</h1>
+    <div>
+      <p class="font-body-md">
+        <b>FedCenter.gov </b> is the Federal government's home for comprehensive environmental
+        stewardship and compliance assistance information for Federal facility managers
+        and their agencies.
       </p>
-    </Card>
-    <Card
-      cardTitle="Regulatory Watch"
-      buttonTitle="Track Now"
-      media=`${import.meta.env.BASE_URL}man-reading-book-education-academic-learning-exam-concept.jpg`
-      size="4"
-    >
-      <p>
-        Your source for monitoring and tracking proposed and final regulatory
-        information.
-      </p>
-    </Card>
-    <Card
-      cardTitle="EPA Compliance and Enforcement Center"
-      buttonTitle="Learn More"
-      media=`${import.meta.env.BASE_URL}epa-logo-ss-jt-250312_1741817192677_hpMain_16x9_992.jpg`
-      size="4"
-    >
-      <p>
-        EPA's current focus on important compliance and enforcement issues
-        facing federal facilities today.
-      </p>
-    </Card>
-  </ul>
-  <div
-    class="grid-container border-1px border-primary radius-md margin-bottom-8"
-  >
-    <div class="grid-row bg-primary full-row">
-      <div class="grid-col">
-        <h2 class="text-white text-center">FedCenter Announcements</h2>
-      </div>
     </div>
-    {
-      recentThreeAnouncements.map((announcement) => (
-        <div class="grid-row border-bottom height-9">
-          <div class="grid-col-1 display-flex flex-justify-center">
-            <div class="display-flex flex-column flex-justify-center height-9">
-              <p class="font-mono-xl text-heavy margin-0">
-                {announcement.data.pubDate.getDate()}
-              </p>
-              <p class="font-mono-sm margin-0">
-                {announcement.data.pubDate.toLocaleString("default", {
-                  month: "short",
-                })}
-              </p>
+    <ul class="usa-card-group">
+      <Card
+        cardTitle="What's New"
+        buttonTitle="Find Out"
+        media=`${import.meta.env.BASE_URL}woman-alone-nature-using-digital-tablet-with-entertainment-application-screen-internet-c.jpg`
+        size="4"
+        link="whats-new"
+      >
+        <p>
+          Find out what's been recently posted on FedCenter with this daily log
+          of all information added or updated within the last 30 days.
+        </p>
+      </Card>
+      <Card
+        cardTitle="Regulatory Watch"
+        buttonTitle="Track Now"
+        media=`${import.meta.env.BASE_URL}man-reading-book-education-academic-learning-exam-concept.jpg`
+        size="4"
+      >
+        <p>
+          Your source for monitoring and tracking proposed and final regulatory
+          information.
+        </p>
+      </Card>
+      <Card
+        cardTitle="EPA Compliance and Enforcement Center"
+        buttonTitle="Learn More"
+        media=`${import.meta.env.BASE_URL}epa-logo-ss-jt-250312_1741817192677_hpMain_16x9_992.jpg`
+        size="4"
+      >
+        <p>
+          EPA's current focus on important compliance and enforcement issues
+          facing federal facilities today.
+        </p>
+      </Card>
+    </ul>
+    <Announcements title="FedCenter News" />
+    <!-- <div
+      class="grid-container border-1px border-primary radius-md margin-bottom-8"
+    >
+      <div class="grid-row bg-primary full-row">
+        <div class="grid-col">
+          <h2 class="text-white text-center">FedCenter Announcements</h2>
+        </div>
+      </div>
+      {
+        recentThreeAnouncements.map((announcement) => (
+          <div class="grid-row border-bottom height-9">
+            <div class="grid-col-1 display-flex flex-justify-center">
+              <div class="display-flex flex-column flex-justify-center height-9">
+                <p class="font-mono-xl text-heavy margin-0">
+                  {announcement.data.pubDate.getDate()}
+                </p>
+                <p class="font-mono-sm margin-0">
+                  {announcement.data.pubDate.toLocaleString("default", {
+                    month: "short",
+                  })}
+                </p>
+              </div>
+            </div>
+            <div class="grid-col-3 display-flex flex-column flex-justify-center height-9 padding-right-105">
+              <p class="truncate-overflow">{announcement.data.title}</p>
+            </div>
+            <div class="grid-col display-flex flex-column flex-justify-center height-9">
+              <p class="truncate-overflow">{announcement.data.description}</p>
             </div>
           </div>
-          <div class="grid-col-3 display-flex flex-column flex-justify-center height-9 padding-right-105">
-            <p class="truncate-overflow">{announcement.data.title}</p>
-          </div>
-          <div class="grid-col display-flex flex-column flex-justify-center height-9">
-            <p class="truncate-overflow">{announcement.data.description}</p>
-          </div>
-        </div>
-      ))
-    }
-    <a href="whats-new" class="usa-button margin-2">See All Announcements</a>
+        ))
+      }
+      <a href="whats-new" class="usa-button margin-2">See All Announcements</a>
+    </div> -->
   </div>
-</BaseLayout>
+</RootLayout>

@@ -1,10 +1,10 @@
 ---
 import SidePageNavigation from "../../../components/SidePageNavigation.astro";
-import BaseLayout from "../../../layouts/BaseLayout.astro";
+import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "Site Evaluation & Response";
 ---
 
-<BaseLayout pageTitle={pageTitle} showBreadcrumb={true}>
+<RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
   <SidePageNavigation>
     <p>
       When there is a hazardous substance contaminated site which might require
@@ -253,4 +253,4 @@ const pageTitle = "Site Evaluation & Response";
     </p>
     <!-- TODO: Add a link here? -->
   </SidePageNavigation>
-</BaseLayout>
+</RootLayout>

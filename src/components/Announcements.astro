@@ -1,0 +1,47 @@
+---
+import { getCollection } from "astro:content";
+
+const { title, program } = Astro.props;
+
+const allAnnouncements = await getCollection("announcements", ({ data }) => {
+  return data;
+});
+
+//sort our announcements by date, recent to oldest, and then get the most recent 3
+const recentThreeAnouncements = allAnnouncements
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()) // a - b for oldest to most recent
+  .slice(0, 3);
+---
+
+<div class="grid-container border-1px border-primary radius-md">
+  <div class="grid-row bg-primary full-row">
+    <div class="grid-col">
+      <h2 class="text-white text-center">{title}</h2>
+    </div>
+  </div>
+  {
+    recentThreeAnouncements.map((announcement) => (
+      <div class="grid-row border-bottom height-9">
+        <div class="grid-col-1 display-flex flex-justify-center">
+          <div class="display-flex flex-column flex-justify-center height-9">
+            <p class="font-mono-xl text-heavy margin-0">
+              {announcement.data.pubDate.getDate()}
+            </p>
+            <p class="font-mono-sm margin-0">
+              {announcement.data.pubDate.toLocaleString("default", {
+                month: "short",
+              })}
+            </p>
+          </div>
+        </div>
+        <div class="grid-col-3 display-flex flex-column flex-justify-center height-9 padding-right-105">
+          <p class="truncate-overflow">{announcement.data.title}</p>
+        </div>
+        <div class="grid-col display-flex flex-column flex-justify-center height-9">
+          <p class="truncate-overflow">{announcement.data.description}</p>
+        </div>
+      </div>
+    ))
+  }
+  <a href="whats-new" class="usa-button margin-2">See All Announcements</a>
+</div>

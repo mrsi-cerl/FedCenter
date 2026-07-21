@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import RootLayout from "../../layouts/RootLayout.astro";
 import ProgramPage from "../../layouts/ProgramPage.astro";
 import { sideBarConstants, sideBarForPrograms } from "../../constants";
 
@@ -52,12 +52,14 @@ const cleanupAreas = [
 ];
 ---
 
-<BaseLayout pageTitle={pageTitle} , sideBarItems={sideBarConstants.ProgramArea}>
-  <ProgramPage programAreas={cleanupAreas} posts={cleanupPosts}>
-    <p>
-      The Cleanup Program Area encompasses the identification, remediation, and
-      management of contaminated sites under the Superfund, the Base Realignment
-      and Closure (BRAC), and the Brownfields programs.
-    </p>
-  </ProgramPage>
-</BaseLayout>
+<ProgramPage
+  programAreas={cleanupAreas}
+  posts={cleanupPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Cleanup Program Area encompasses the identification, remediation, and
+    management of contaminated sites under the Superfund, the Base Realignment
+    and Closure (BRAC), and the Brownfields programs.
+  </p>
+</ProgramPage>

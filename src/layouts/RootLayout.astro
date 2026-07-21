@@ -8,6 +8,7 @@ import BreadCrumb from "../components/BreadCrumb.astro";
 import ProgramAreaSidebar from "../components/ProgramAreaSidebar.astro";
 import FacilityRegulatoryTourSidebar from "../components/FacilityRegulatoryTourSidebar.astro";
 import { sideBarConstants } from "../constants";
+import SidePageNavigation from "@/components/SidePageNavigation.astro";
 
 const { pageTitle, showBreadcrumb = false } = Astro.props;
 const { sideBarItems } = Astro.props;
@@ -40,38 +41,11 @@ const { sideBarItems } = Astro.props;
       <Banner />
       <Menu />
     </header>
-    <div class="width-desktop margin-x-auto margin-top-4">
-      {
-        sideBarItems ? (
-          //if there is a sidebar, we want to split the page into two sections
-          <div class="grid-container">
-            <div class="grid-row grid-gap">
-              <div class="usa-layout-docs__sidenav desktop:grid-col-3">
-                {/* <Sidebar sideBarItems={sideBarItems} />  */}
-                {sideBarItems === sideBarConstants.ProgramArea && (
-                  <ProgramAreaSidebar />
-                )}
-                {sideBarItems === sideBarConstants.FacilityTour && (
-                  <FacilityRegulatoryTourSidebar />
-                )}
-              </div>
-              <main class="desktop:grid-col-9" id="main-content">
-                {showBreadcrumb && <BreadCrumb />}
-                <h1>{pageTitle}</h1>
-                <slot />
-              </main>
-            </div>
-          </div>
-        ) : (
-          //if there is no sidebar, use the "entire" width of the page
-          <main id="main-content">
-            {showBreadcrumb && <BreadCrumb />}
-            <h1>{pageTitle}</h1>
-            <slot />
-          </main>
-        )
-      }
+    <div class="width-widescreen margin-x-auto margin-top-4">
+      <main id="main-content">
+        <slot />
+      </main>
     </div>
-    <Identifier />
   </body>
 </html>
+<Identifier />
