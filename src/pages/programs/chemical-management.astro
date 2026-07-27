@@ -5,7 +5,7 @@ import ProgramPage from "../../layouts/ProgramPage.astro";
 import { sideBarConstants, sideBarForPrograms } from "../../constants";
 
 const chemicalPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea === "Chemical";
+  return data.programArea.includes("Chemical");
 });
 
 const pageTitle = "Chemical Management";

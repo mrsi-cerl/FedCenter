@@ -1,0 +1,8 @@
+---
+item_id: "8498"
+title: "Contract Language for Including EMS in New Contracts"
+subcategory: "Templates and Tools"
+programArea: "Environmental Management Systems (EMS)"
+pubDate: 2007-10-24
+---
+Contains proposed language for inclusion in Statements of Work for new on-site contracts.

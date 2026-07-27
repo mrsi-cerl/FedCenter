@@ -6,7 +6,7 @@ import { sideBarForPrograms } from "../../constants.ts";
 import { sideBarConstants } from "../../constants.ts";
 
 const acquisitionPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea === "Acquisition";
+  return data.programArea.includes("Acquisition");
 });
 
 const pageTitle = "Acquisitions";

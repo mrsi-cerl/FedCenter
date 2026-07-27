@@ -15,7 +15,10 @@ const { id, title, posts } = Astro.props;
     </h3>
   </button>
 </h4>
-<div id={id} class="usa-accordion__content">
+<div
+  id={id}
+  class="usa-accordion__content border radius-md border-base-lighter"
+>
   <ul class="usa-collection">
     {posts && posts.map((post: any) => <Collection post={post} />)}
   </ul>

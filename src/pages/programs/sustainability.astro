@@ -6,7 +6,7 @@ import { sideBarForPrograms } from "../../constants.ts";
 import { sideBarConstants } from "../../constants.ts";
 
 const sustainabilityPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea === "Sustainability";
+  return data.programArea.includes("Sustainability");
 });
 
 const pageTitle = "Sustainability";
