@@ -1,8 +1,0 @@
----
-item_id: "489"
-title: "Emissions Inventory Information"
-subcategory: "Best Practices"
-programArea: "Cleanup Sites"
-pubDate: 2004-11-16
----
-The National Emissions Inventory (NEI) is a comprehensive and detailed estimate of air emissions of criteria pollutants, criteria precursors, and hazardous air pollutants from air emissions sources. The NEI is released every three years based primarily upon data provided by State, Local, and Tribal air agencies for sources in their jurisdictions and supplemented by data developed by the US EPA.

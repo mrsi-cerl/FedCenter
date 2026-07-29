@@ -1,20 +1,20 @@
 ---
 const { post } = Astro.props;
 
-const prettyDate = new Intl.DateTimeFormat("en-GB", {
-  year: "numeric",
-  month: "short",
-  day: "2-digit",
-})
-  .format(post.data.pubDate)
-  .split(" ")
-  .join("-");
+// const prettyDate = new Intl.DateTimeFormat("en-GB", {
+//   year: "numeric",
+//   month: "short",
+//   day: "2-digit",
+// })
+//   .format(post.data.pubDate)
+//   .split(" ")
+//   .join("-");
 
-const pDate = new Date(post.data.pubDate);
-const currDate = new Date();
-//new posts are ones that are less than 2 weeks old
-const isNew =
-  Math.abs(currDate.getTime() - pDate.getTime()) / 1000 / 60 / 60 / 24 <= 14;
+// const pDate = new Date(post.data.pubDate);
+// const currDate = new Date();
+// //new posts are ones that are less than 2 weeks old
+// const isNew =
+//   Math.abs(currDate.getTime() - pDate.getTime()) / 1000 / 60 / 60 / 24 <= 14;
 
 // console.log(
 //   `current date ${currDate.toLocaleDateString()} and publication date ${pDate.toLocaleDateString()} are less than 2 weeks apart: ${isNew}`
@@ -35,14 +35,14 @@ const isNew =
         By Sondra Ainsworth and Constance Lu
       </li> -->
       <li class="usa-collection__meta-item">
-        <time>{prettyDate}</time>
+        <time>{post.pubDate}</time>
       </li>
     </ul>
     <ul class="usa-collection__meta" aria-label="Topics">
       <>
         {
           //TODO check to see if the post is within X date
-          isNew ? (
+          true ? (
             <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
           ) : null
         }

@@ -31,8 +31,8 @@ const { programAreas, posts, pageTitle } = Astro.props;
                     <Accordian
                       id={child.title}
                       title={child.title}
-                      posts={posts.filter(
-                        (post: any) => post.data.subcategory === child.title
+                      posts={posts.filter((post: any) =>
+                        post.data.subCategory.includes(child.title)
                       )}
                     />
                   ))}

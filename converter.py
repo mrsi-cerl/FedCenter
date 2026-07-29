@@ -1,6 +1,8 @@
 import csv
 import os
 import re
+import frontmatter
+
 
 def clean_filename(name):
 
@@ -27,7 +29,7 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
                 print("Error: The CSV file is empty or missing headers.")
                 return
 
-            print(f"Reading {csv_filepath}... Found headers: {', '.join(headers)}")
+            # print(f"Reading {csv_filepath}... Found headers: {', '.join(headers)}")
 
             for index, row in enumerate(reader, start=1):
                 # 1. Determine a unique filename for the markdown file
@@ -40,11 +42,27 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
                 else:
                     base_filename = f"row_{index}"
 
-                filename = f"{base_filename}.md"
-                filepath = os.path.join(output_dir, filename)
+                program = row[headers[4]]
+                programDir = os.path.join(output_dir,program)
+                # Get the program, and if it doesn't already exist as a directory, make it now
+                if not os.path.exists(programDir):
+                    os.makedirs(programDir)
 
-                # 2. Structure the Markdown Content
-                markdown_lines = ['---']
+                filename = f"{base_filename}.md"
+                filepath = os.path.join(output_dir, program, filename)
+
+                # Does this file already exist?
+                if os.path.exists(filepath):
+                    # If so, that means there are two entries in our DB with different subcategories for this item
+                    with open(filepath) as inputFile:
+                        # We're going to need to get the data that's already in the file and ADD to it
+                        post = frontmatter.loads(inputFile.read())
+                else:
+                    # If this file doesn't already exist we'll set up an empty object to add data to
+                    post = frontmatter.Post("")
+                    # also make sure to set up an empty array so we can append to it later
+                    post.metadata['subCategory'] = []
+
 
                 # Metadata / Attributes list
                 for header in headers:
@@ -53,21 +71,16 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
                     val = row[header]
                     # Escape basic markdown characters to avoid breaking syntax
                     safe_val = str(val).replace("*", "\\*").replace("_", "\\_").replace('"','\\"')
-                    if header == 'pubDate':
-                        markdown_lines.append(f"{header}: {safe_val}")
+                    if header == 'subCategory':
+                        post.metadata[header].append(safe_val)
                     else:
-                        markdown_lines.append(f"{header}: \"{safe_val}\"")
-
-                markdown_lines.append('---')
-
-                markdown_lines.append(row[headers[2]])
-
-                # Combine everything with newlines
-                markdown_content = "\n".join(markdown_lines) + "\n"
+                        post.metadata[header] = safe_val
+                post.content = row[headers[2]]
 
                 # 3. Write the markdown file
                 with open(filepath, mode='w', encoding='utf-8') as md_file:
-                    md_file.write(markdown_content)
+                    print("trying to write to ", filepath)
+                    md_file.write(frontmatter.dumps(post))
 
                 print(f"Generated: {filepath}")
 
@@ -80,9 +93,9 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
 
 if __name__ == "__main__":
     # --- CONFIGURATION ---
-    # Replace 'input_data.csv' with the path to your actual CSV file
-    CSV_FILE_PATH = "C:/Users/rdcerdtb/tmp/_select_i_id_as_item_id_i_title_as_item_i_body_as_body_pp_title__202607241256.csv"
-    # Replace 'markdown_results' with your desired output directory name
+    # Replace 'data_cleaned_subcategories_trimmed.csv' with the path to your actual CSV file
+    CSV_FILE_PATH = "C:/Users/rdcerdtb/tmp/data_cleaned_subcategories_trimmed.csv"
+    # Replace 'tmp' with your desired output directory name
     OUTPUT_DIRECTORY = "C:/Users/rdcerdtb/tmp"
 
     csv_to_markdown(CSV_FILE_PATH, OUTPUT_DIRECTORY)

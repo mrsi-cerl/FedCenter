@@ -1,0 +1,10 @@
+---
+item_id: '30729'
+programArea: Environmental Compliance
+pubDate: 1/17/2017
+subCategory:
+- Training, Presentations, and Briefings
+title: Introduction to ECHO - A Web Demonstration (Web-based, On Demand)
+---
+
+During this webinar, EPA will show you how to conduct some basic, popular searches on the ECHO website. They will demonstrate the search process and how to interpret the reports received from a search. EPA's ECHO provides integrated compliance and enforcement information for about 800,000 regulated facilities nationwide. Its features range from simple to advanced, catering to users who want to conduct broad analyses as well as those who need to perform complex searches. Specifically, ECHO allows you to find and download information on: permit data, inspection dates and findings, violations, enforcement actions, and penalties assessed.
