@@ -6,42 +6,50 @@ import SidePageNavigation from "../components/SidePageNavigation.astro";
 const pageTitle = "What's New at FedCenter";
 
 const currDate = new Date();
-//new posts are ones that are less than 2 weeks old
 
+// TODO: At some point we may want to filter this to not show duplicate posts that appear under different programs or subcategories.
+// Removing duplicates requires more thought
 const allNewPosts = await getCollection("programPost", ({ data }) => {
   return (
-    Math.abs(currDate.getTime() - data.pubDate.getTime()) /
+    Math.abs(currDate.getTime() - new Date(data.pubDate).getTime()) /
       1000 /
       60 /
       60 /
       24 <=
-    14
+    200 //currently set to the past year for testing
   );
   // Complicated math that converts miliseconds into days
 });
 
 // convert the date object into a timestamp, and then filter those timestamps to unique ones
 const uniqueTimes = [
-  ...new Set(allNewPosts.map((post) => post.data.pubDate.getTime())),
+  ...new Set(allNewPosts.map((post) => new Date(post.data.pubDate).getTime())),
 ];
-//transform those timestamps back into a date to get a list of unique dates.
-const uniqueDates = uniqueTimes.map((time) => new Date(time));
 
-// console.log("unique dates: ", uniqueDates);
+//sort them from most recent to oldest
+const sortedTimes = uniqueTimes.sort((a, b) => {
+  return b - a; //use a-b for oldest to most recent
+});
+
+//transform those timestamps back into a date to get a list of unique dates.
+const uniqueDates = sortedTimes.map((time) => new Date(time));
+//if there are no recent posts (probably will never happen), show a message saying so
+const noRecent = uniqueDates.length == 0;
 ---
 
 <RootLayout pageTitle={pageTitle}>
   <SidePageNavigation>
-    <div>
+    <div class="width-desktop margin-x-auto padding-left-15">
       <p>
         FedCenter's What's New page displays what information has been added or
-        updated within the past week at FedCenter.gov. Stop back here
+        updated within the past 30 days at FedCenter.gov. Stop back here
         periodically to stay current on all recent activity at FedCenter.
       </p>
+      {noRecent && <p>There are no posts within the past 30 days</p>}
       {
         uniqueDates.map((date) => (
           <>
-            <h2>
+            <h2 class="font-sans-xl">
               {new Intl.DateTimeFormat("en-GB", {
                 year: "numeric", //this chunk of code converts a date that looks like
                 month: "short", //2026-05-28T00:00:00.000Z
@@ -54,8 +62,8 @@ const uniqueDates = uniqueTimes.map((time) => new Date(time));
             {allNewPosts.map(
               // then render all the posts whose dates fit that day below
               (post) =>
-                post.data.pubDate.getTime() === date.getTime() && (
-                  <Collection post={post} />
+                new Date(post.data.pubDate).getTime() === date.getTime() && (
+                  <Collection post={post} showTags={true} />
                 )
             )}
           </>

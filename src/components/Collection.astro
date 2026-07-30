@@ -1,5 +1,5 @@
 ---
-const { post } = Astro.props;
+const { post, showTags } = Astro.props;
 
 //turn the dd-mm-yyyy date into a date object
 const pDate = new Date(post.data.pubDate);
@@ -44,6 +44,16 @@ const isNew =
           isNew ? (
             <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
           ) : null
+        }
+        {
+          showTags && (
+            <li class="usa-collection__meta-item usa-tag">
+              {post.data.programArea}
+            </li>
+            <li class="usa-collection__meta-item usa-tag">
+              {post.data.subCategory}
+            </li>
+          )
         }
         <!-- {
           post.data.tags.map((tag: any) => (

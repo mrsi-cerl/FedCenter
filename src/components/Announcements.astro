@@ -3,6 +3,8 @@ import { getCollection } from "astro:content";
 
 const { title, program } = Astro.props;
 
+// const pDate = new Date(post.data.pubDate);
+
 const allAnnouncements = await getCollection("announcements", ({ data }) => {
   return data;
 });
@@ -25,7 +27,7 @@ const recentThreeAnouncements = allAnnouncements
         <div class="grid-col-1 display-flex flex-justify-center">
           <div class="display-flex flex-column flex-justify-center height-9">
             <p class="font-mono-xl text-heavy margin-0">
-              {announcement.data.pubDate.getDate()}
+              {new Date(announcement.data.pubDate).getDate()}
             </p>
             <p class="font-mono-sm margin-0">
               {announcement.data.pubDate.toLocaleString("default", {
