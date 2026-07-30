@@ -1,20 +1,23 @@
 ---
 const { post } = Astro.props;
 
-// const prettyDate = new Intl.DateTimeFormat("en-GB", {
-//   year: "numeric",
-//   month: "short",
-//   day: "2-digit",
-// })
-//   .format(post.data.pubDate)
-//   .split(" ")
-//   .join("-");
+//turn the dd-mm-yyyy date into a date object
+const pDate = new Date(post.data.pubDate);
 
-// const pDate = new Date(post.data.pubDate);
-// const currDate = new Date();
-// //new posts are ones that are less than 2 weeks old
-// const isNew =
-//   Math.abs(currDate.getTime() - pDate.getTime()) / 1000 / 60 / 60 / 24 <= 14;
+//turn it into a dd-month-yyyy format
+const prettyDate = new Intl.DateTimeFormat("en-GB", {
+  year: "numeric",
+  month: "short",
+  day: "2-digit",
+})
+  .format(pDate)
+  .split(" ")
+  .join("-");
+
+//compare it to the current date, and see if it is less than 2 weeks old
+const currDate = new Date();
+const isNew =
+  Math.abs(currDate.getTime() - pDate.getTime()) / 1000 / 60 / 60 / 24 <= 14;
 
 // console.log(
 //   `current date ${currDate.toLocaleDateString()} and publication date ${pDate.toLocaleDateString()} are less than 2 weeks apart: ${isNew}`
@@ -30,19 +33,15 @@ const { post } = Astro.props;
       {post.body}
     </p>
     <ul class="usa-collection__meta" aria-label="More information">
-      <!-- <li class="usa-collection__meta-item">
-        TODO will we have authors?
-        By Sondra Ainsworth and Constance Lu
-      </li> -->
       <li class="usa-collection__meta-item">
-        <time>{post.pubDate}</time>
+        <time>{prettyDate}</time>
       </li>
     </ul>
     <ul class="usa-collection__meta" aria-label="Topics">
       <>
         {
           //TODO check to see if the post is within X date
-          true ? (
+          isNew ? (
             <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
           ) : null
         }
