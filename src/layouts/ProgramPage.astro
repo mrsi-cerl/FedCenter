@@ -15,7 +15,12 @@ const { programAreas, posts, pageTitle } = Astro.props;
     <SidePageNavigation>
       <h1>{pageTitle}</h1>
       <slot />
-      <Announcements title={`Recently Updated For ${pageTitle}`} />
+      <Announcements
+        title={`Recently Updated For ${pageTitle}`}
+        posts={posts}
+        showYear={true}
+        buttonTitle={`See More Changes for ${pageTitle}`}
+      />
       <div
         class="usa-accordion usa-accordion--multiselectable"
         data-allow-multiple
@@ -40,9 +45,13 @@ const { programAreas, posts, pageTitle } = Astro.props;
               )}
               {!area.children && (
                 <>
-                  {posts.map((post: any) => (
-                    <Collection post={post} />
-                  ))}
+                  {posts
+                    .filter(
+                      (post: any) => post.data.subCategory.includes(area.title) //first filter to only the items that fit this category
+                    )
+                    .map((post: any) => (
+                      <Collection post={post} /> //then build a collection item for each of them
+                    ))}
                 </>
               )}
             </>

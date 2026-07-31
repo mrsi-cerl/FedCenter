@@ -1,18 +1,36 @@
 ---
+import type { DataEntryMap } from "astro:content";
 import { getCollection } from "astro:content";
 
-const { title, program } = Astro.props;
+const {
+  title,
+  posts,
+  showYear = false,
+  announcementCount = 3,
+  buttonTitle = "See All Announcements",
+} = Astro.props;
 
 // const pDate = new Date(post.data.pubDate);
 
-const allAnnouncements = await getCollection("announcements", ({ data }) => {
-  return data;
-});
+console.log(
+  posts
+    ? "posts passed from parent"
+    : "no posts supplied, fetching default announcements"
+);
+
+const allAnnouncements = posts
+  ? posts
+  : await getCollection("announcements", ({ data }) => {
+      return data;
+    });
 
 //sort our announcements by date, recent to oldest, and then get the most recent 3
 const recentThreeAnouncements = allAnnouncements
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()) // a - b for oldest to most recent
-  .slice(0, 3);
+  .sort(
+    (a: any, b: any) =>
+      new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+  ) // a - b for oldest to most recent
+  .slice(0, announcementCount);
 ---
 
 <div class="grid-container border-1px border-primary radius-md">
@@ -22,28 +40,31 @@ const recentThreeAnouncements = allAnnouncements
     </div>
   </div>
   {
-    recentThreeAnouncements.map((announcement) => (
-      <div class="grid-row border-bottom height-9">
+    recentThreeAnouncements.map((announcement: any) => (
+      <div class="grid-row border-bottom height-10">
         <div class="grid-col-1 display-flex flex-justify-center">
-          <div class="display-flex flex-column flex-justify-center height-9">
-            <p class="font-mono-xl text-heavy margin-0">
+          <div class="display-flex flex-column flex-justify-center height-10 width-5">
+            <p class="font-mono-xl text-heavy margin-0 text-center">
               {new Date(announcement.data.pubDate).getDate()}
             </p>
-            <p class="font-mono-sm margin-0">
-              {announcement.data.pubDate.toLocaleString("default", {
+            <p class="font-mono-sm margin-0 text-center">
+              {new Date(announcement.data.pubDate).toLocaleString("default", {
                 month: "short",
               })}
+              {showYear && new Date(announcement.data.pubDate).getFullYear()}
             </p>
           </div>
         </div>
-        <div class="grid-col-3 display-flex flex-column flex-justify-center height-9 padding-right-105">
-          <p class="truncate-overflow">{announcement.data.title}</p>
+        <div class="grid-col-3 display-flex flex-column flex-justify-center height-10 padding-right-2">
+          <p class="truncate-overflow margin-0">{announcement.data.title}</p>
         </div>
-        <div class="grid-col display-flex flex-column flex-justify-center height-9">
-          <p class="truncate-overflow">{announcement.data.description}</p>
+        <div class="grid-col display-flex flex-column flex-justify-center height-10 padding-left-2">
+          <p class="truncate-overflow margin-0 text-indent-5">
+            {announcement.body}
+          </p>
         </div>
       </div>
     ))
   }
-  <a href="whats-new" class="usa-button margin-2">See All Announcements</a>
+  <a href="whats-new" class="usa-button margin-2">{buttonTitle}</a>
 </div>

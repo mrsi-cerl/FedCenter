@@ -16,6 +16,14 @@ export default defineConfig({
   // when deployed for real
   // site: 'https://fedcenter.gov
 
+  vite: {
+    server: {
+      watch: {
+        ignored: ["**/_site/**/*"],
+      },
+    },
+  },
+
   // This should allow us to remove the environment variable
   outDir: "./_site",
   publicDir: "./public",
