@@ -1,0 +1,32 @@
+---
+import { l } from "@/components/uswds/components/usa-banner.js.umd";
+import Calendar from "../../components/Calendar.astro";
+import RootLayout from "../../layouts/RootLayout.astro";
+
+const dataEvents = [
+  // Single-day event with a clickable link
+  {
+    id: 1,
+    title: "Project Kickoff",
+    startDate: "2026-08-05",
+    endDate: "2026-08-05",
+    color: "#e53e3e",
+    link: "../",
+  },
+  // Multi-day spanning event spanning 4 days
+  {
+    id: 2,
+    title: "Hackathon Sprint",
+    startDate: "2026-08-12",
+    endDate: "2026-08-15",
+    color: "#319795",
+    link: "../programs/acquisition/",
+  },
+];
+---
+
+<RootLayout pageTitle="Event Calendar" showBreadcrumb={true}>
+  <main style="padding: 20px;">
+    <Calendar events={dataEvents} />
+  </main>
+</RootLayout>
