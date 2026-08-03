@@ -947,8 +947,6 @@ function Start-ProgramContentGui
           return
         }
 
-        $fileList = ($stagedLines | ForEach-Object { $_.Substring(3).Trim() }) -join "`n"
-
         # --- Build commit-message dialog ---
         $dlg = New-Object System.Windows.Forms.Form
         $dlg.Text = "Commit & Push Content Changes"
