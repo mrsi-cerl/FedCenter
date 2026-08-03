@@ -1,8 +1,6 @@
 ---
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import Accordian from "../components/Accordian.astro";
-import Card from "../components/Card.astro";
-import SidePageNavigation from "../components/SidePageNavigation.astro";
-import SummaryBox from "../components/SummaryBox.astro";
 import RootLayout from "../layouts/RootLayout.astro";
 const pageTitle = "My Community";
 
@@ -10,7 +8,7 @@ const pageTitle = "My Community";
 ---
 
 <RootLayout pageTitle={pageTitle}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <div class="usa-prose">
       <p>
         This page contains links to Federally-sponsored and non-profit mobile
@@ -40,5 +38,5 @@ const pageTitle = "My Community";
     <Accordian title="Sustainability" />
     <Accordian title="Transportation" />
     <Accordian title="Wastewater" />
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

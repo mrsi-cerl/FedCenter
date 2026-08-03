@@ -1,11 +1,11 @@
 ---
-import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "Construction and Demolition Debris";
 ---
 
 <RootLayout pageTitle={pageTitle}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <p class="usa-prose">
       Construction and Demolition (C&D) debris consists of the waste generated
       during construction, renovation, and demolition projects. Covering a wide
@@ -80,5 +80,5 @@ const pageTitle = "Construction and Demolition Debris";
     <h3>Laws and Statutes</h3>
     <p>Resource Conservation and Recovery Act, Subtitle D</p>
     <!-- TODO: Add a link here? -->
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

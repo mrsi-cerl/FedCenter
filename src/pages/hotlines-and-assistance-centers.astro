@@ -1,6 +1,6 @@
 ---
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import Accordian from "../components/Accordian.astro";
-import SidePageNavigation from "../components/SidePageNavigation.astro";
 import RootLayout from "../layouts/RootLayout.astro";
 const pageTitle = "Hotlines and Assistance Centers";
 
@@ -8,7 +8,7 @@ const pageTitle = "Hotlines and Assistance Centers";
 ---
 
 <RootLayout pageTitle={pageTitle}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <div class="usa-prose">
       <p>
         The Hotlines and Assistance Centers page provides information, links,
@@ -18,5 +18,5 @@ const pageTitle = "Hotlines and Assistance Centers";
     </div>
     <Accordian title="Environmental Hotlines" />
     <Accordian title="Compliance Assistance Centers" />
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

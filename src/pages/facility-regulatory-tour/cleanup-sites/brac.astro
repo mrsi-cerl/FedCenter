@@ -1,11 +1,11 @@
 ---
-import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "Air Emissions";
 ---
 
 <RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <p>
       EPA's involvement with cleanup processes at federal facilities includes
       accelerating the transfer of federal property by coordinating
@@ -17,5 +17,5 @@ const pageTitle = "Air Emissions";
       <!-- TODO: Add a link here -->
       <!-- TODO: This page is a stub -->
     </p>
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

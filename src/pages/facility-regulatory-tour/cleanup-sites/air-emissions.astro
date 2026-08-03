@@ -1,11 +1,11 @@
 ---
-import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "Air Emissions";
 ---
 
 <RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <p class="usa-prose">
       In terms of air emissions, site remediation is defined as one or more
       activities or processes used to remove, destroy, degrade, transform,
@@ -143,5 +143,5 @@ const pageTitle = "Air Emissions";
     <h3>Laws and Statutes</h3>
     <p>The Clean Air Act</p>
     <!-- TODO: Add a link here? -->
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>
