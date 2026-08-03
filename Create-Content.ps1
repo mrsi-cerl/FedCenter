@@ -157,6 +157,7 @@ function Format-MarkdownFrontmatter
     [string]$ItemId,
     [string]$ProgramArea,
     [string]$PubDate,
+    [string]$EventType,
     [string]$StartDate,
     [string]$EndDate,
     [string]$ExpiryDate,
@@ -168,12 +169,18 @@ function Format-MarkdownFrontmatter
   $sb = [System.Text.StringBuilder]::new()
   [void]$sb.AppendLine("---")
   [void]$sb.AppendLine("item_id: '$ItemId'")
+
+  # Format title cleanly
+  if ($Title -match "[:'#]")
+  {
+    $escapedTitle = $Title -replace "'", "''"
+    [void]$sb.AppendLine("title: '$escapedTitle'")
+  } else
+  {
+    [void]$sb.AppendLine("title: $Title")
+  }
+
   [void]$sb.AppendLine("programArea: $ProgramArea")
-  [void]$sb.AppendLine("pubDate: $PubDate")
-  # Optional date fields
-  if (-not [string]::IsNullOrWhiteSpace($StartDate)) { [void]$sb.AppendLine("startDate: $StartDate") }
-  if (-not [string]::IsNullOrWhiteSpace($EndDate)) { [void]$sb.AppendLine("endDate: $EndDate") }
-  if (-not [string]::IsNullOrWhiteSpace($ExpiryDate)) { [void]$sb.AppendLine("expiryDate: $ExpiryDate") }
   [void]$sb.AppendLine("subCategory:")
 
   if ($null -ne $SubCategories -and $SubCategories.Count -gt 0)
@@ -190,15 +197,14 @@ function Format-MarkdownFrontmatter
     [void]$sb.AppendLine("- General")
   }
 
-  # Format title cleanly
-  if ($Title -match "[:'#]")
-  {
-    $escapedTitle = $Title -replace "'", "''"
-    [void]$sb.AppendLine("title: '$escapedTitle'")
-  } else
-  {
-    [void]$sb.AppendLine("title: $Title")
-  }
+  [void]$sb.AppendLine("pubDate: $PubDate")
+  # Optional expiry date
+  if (-not [string]::IsNullOrWhiteSpace($ExpiryDate)) { [void]$sb.AppendLine("expiryDate: $ExpiryDate") }
+
+  # Optional eventType field and dates
+  if (-not [string]::IsNullOrWhiteSpace($EventType)) { [void]$sb.AppendLine("eventType: $EventType") }
+  if (-not [string]::IsNullOrWhiteSpace($StartDate)) { [void]$sb.AppendLine("startDate: $StartDate") }
+  if (-not [string]::IsNullOrWhiteSpace($EndDate)) { [void]$sb.AppendLine("endDate: $EndDate") }
 
   [void]$sb.AppendLine("---")
   [void]$sb.AppendLine("")
@@ -342,6 +348,7 @@ function Save-ProgramContent
     [string]$BodyText,
     [string]$ItemId,
     [string]$PubDate,
+    [string]$EventType,
     [string]$StartDate,
     [string]$EndDate,
     [string]$ExpiryDate
@@ -381,7 +388,7 @@ function Save-ProgramContent
     }
 
     $filePath = Join-Path $paDir $fileName
-    $mdContent = Format-MarkdownFrontmatter -ItemId $ItemId -ProgramArea $pa -PubDate $PubDate -StartDate $StartDate -EndDate $EndDate -ExpiryDate $ExpiryDate -SubCategories $SelectedSubCategories -Title $Title -Body $BodyText
+    $mdContent = Format-MarkdownFrontmatter -ItemId $ItemId -ProgramArea $pa -PubDate $PubDate -EventType $EventType -StartDate $StartDate -EndDate $EndDate -ExpiryDate $ExpiryDate -SubCategories $SelectedSubCategories -Title $Title -Body $BodyText
 
     # Write UTF-8 without BOM or standard UTF8
     [System.IO.File]::WriteAllText($filePath, $mdContent, [System.Text.Encoding]::UTF8)
@@ -412,7 +419,7 @@ function Start-ProgramContentGui
   # Form Setup
   $form = New-Object System.Windows.Forms.Form
   $form.Text = "FedCenter - Create Program Content"
-  $form.Size = New-Object System.Drawing.Size(950, 750)
+  $form.Size = New-Object System.Drawing.Size(950, 950)
   $form.MinimumSize = New-Object System.Drawing.Size(800, 650)
   $form.StartPosition = "CenterScreen"
   $form.BackColor = [System.Drawing.Color]::FromArgb(245, 247, 250)
@@ -540,15 +547,16 @@ function Start-ProgramContentGui
 
   $contentContainer = New-Object System.Windows.Forms.TableLayoutPanel
   $contentContainer.Dock = "Fill"
-  $contentContainer.RowCount = 6
+  $contentContainer.RowCount = 7
   $contentContainer.ColumnCount = 2
 
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35)))
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35)))
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35)))
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35)))
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35)))
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 0: Title
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 1: Pub Date
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 2: Expiry Date
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 3: Event Type
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 4: Start Date
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 5: End Date (New)
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100))) # Row 6: Editor
 
   [void]$contentContainer.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Absolute, 80)))
   [void]$contentContainer.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Percent, 100)))
@@ -572,6 +580,26 @@ function Start-ProgramContentGui
   $dtpPubDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
   $dtpPubDate.Dock = "Fill"
 
+    # Expiry Date (optional)
+  $lblExpiryDate = New-Object System.Windows.Forms.Label
+  $lblExpiryDate.Text = "Expiry:"
+  $lblExpiryDate.Anchor = "Left"
+  $dtpExpiryDate = New-Object System.Windows.Forms.DateTimePicker
+  $dtpExpiryDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
+  $dtpExpiryDate.ShowCheckBox = $true
+  $dtpExpiryDate.Checked = $false
+  $dtpExpiryDate.Dock = "Fill"
+
+  # Event Type Dropdown (optional, nothing selected by default)
+  $lblEventType = New-Object System.Windows.Forms.Label
+  $lblEventType.Text = "Event:"
+  $lblEventType.Anchor = "Left"
+  $cbEventType = New-Object System.Windows.Forms.ComboBox
+  $cbEventType.Dock = "Fill"
+  $cbEventType.DropDownStyle = "DropDownList"
+  $cbEventType.Items.AddRange(@("Training", "Conferences", "Meetings"))
+  $cbEventType.SelectedIndex = -1  # Nothing selected
+
   # Start Date (optional)
   $lblStartDate = New-Object System.Windows.Forms.Label
   $lblStartDate.Text = "Start Date:"
@@ -592,24 +620,16 @@ function Start-ProgramContentGui
   $dtpEndDate.Checked = $false
   $dtpEndDate.Dock = "Fill"
 
-  # Expiry Date (optional)
-  $lblExpiryDate = New-Object System.Windows.Forms.Label
-  $lblExpiryDate.Text = "Expiry:"
-  $lblExpiryDate.Anchor = "Left"
-  $dtpExpiryDate = New-Object System.Windows.Forms.DateTimePicker
-  $dtpExpiryDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
-  $dtpExpiryDate.ShowCheckBox = $true
-  $dtpExpiryDate.Checked = $false
-  $dtpExpiryDate.Dock = "Fill"
-
   $contentContainer.Controls.Add($lblPubDate, 0, 1)
   $contentContainer.Controls.Add($dtpPubDate, 1, 1)
-  $contentContainer.Controls.Add($lblStartDate, 0, 2)
-  $contentContainer.Controls.Add($dtpStartDate, 1, 2)
-  $contentContainer.Controls.Add($lblEndDate, 0, 3)
-  $contentContainer.Controls.Add($dtpEndDate, 1, 3)
-  $contentContainer.Controls.Add($lblExpiryDate, 0, 4)
-  $contentContainer.Controls.Add($dtpExpiryDate, 1, 4)
+  $contentContainer.Controls.Add($lblExpiryDate, 0, 2)
+  $contentContainer.Controls.Add($dtpExpiryDate, 1, 2)
+  $contentContainer.Controls.Add($lblEventType, 0, 3)
+  $contentContainer.Controls.Add($cbEventType, 1, 3)
+  $contentContainer.Controls.Add($lblStartDate, 0, 4)
+  $contentContainer.Controls.Add($dtpStartDate, 1, 4)
+  $contentContainer.Controls.Add($lblEndDate, 0, 5)
+  $contentContainer.Controls.Add($dtpEndDate, 1, 5)
 
   # Rich Text Editor Box with Formatting Toolbar
   $editorPanel = New-Object System.Windows.Forms.Panel
@@ -722,7 +742,7 @@ function Start-ProgramContentGui
   $editorPanel.Controls.Add($rtbContent)
   $editorPanel.Controls.Add($toolbar)
 
-  $contentContainer.Controls.Add($editorPanel, 0, 5)
+  $contentContainer.Controls.Add($editorPanel, 0, 6)
   $contentContainer.SetColumnSpan($editorPanel, 2)
 
   $grpContent.Controls.Add($contentContainer)
@@ -805,13 +825,15 @@ function Start-ProgramContentGui
         $bodyText = Convert-RtfToMarkdown -RichTextBox $rtbContent
         # Publication date (required)
         $pubDate = $dtpPubDate.Value.ToString("M/d/yyyy")
+        # Optional eventType
+        $eventType = if ($cbEventType.SelectedIndex -ge 0) { $cbEventType.SelectedItem.ToString() } else { "" }
         # Optional dates
         $startDate = if ($dtpStartDate.Checked) { $dtpStartDate.Value.ToString("M/d/yyyy") } else { "" }
         $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString("M/d/yyyy") } else { "" }
         $expiryDate = if ($dtpExpiryDate.Checked) { $dtpExpiryDate.Value.ToString("M/d/yyyy") } else { "" }
 
         # Item ID is automatically generated as a unique ID in Save-ProgramContent
-        $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -SelectedPrograms @($selectedPA) -SelectedSubCategories $selectedSubs -Title $title -BodyText $bodyText -ItemId "" -PubDate $pubDate -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
+        $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -SelectedPrograms @($selectedPA) -SelectedSubCategories $selectedSubs -Title $title -BodyText $bodyText -ItemId "" -PubDate $pubDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
 
         $msg = "Successfully saved markdown file:`n`n" + ($savedFiles -join "`n")
         [System.Windows.Forms.MessageBox]::Show($msg, "Success", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
