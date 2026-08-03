@@ -1,5 +1,5 @@
 ---
-const { post, showTags } = Astro.props;
+const { post, showTags, isTruncated = false } = Astro.props;
 
 //turn the dd-mm-yyyy date into a date object
 const pDate = new Date(post.data.pubDate);
@@ -29,9 +29,14 @@ const isNew =
     <h4 class="usa-collection__heading">
       <a class="usa-link" href=`${post.data.externalUrl}`>{post.data.title}</a>
     </h4>
-    <p class="usa-collection__description">
+    {isTruncated ?
+    <p class="usa-collection__description truncate-overflow-5">
       {post.body}
     </p>
+     :
+     <p class="usa-collection__description">
+      {post.body}
+    </p>}
     <ul class="usa-collection__meta" aria-label="More information">
       <li class="usa-collection__meta-item">
         <time>{prettyDate}</time>

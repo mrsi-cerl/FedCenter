@@ -76,10 +76,18 @@ button h3 {
   margin-right: -2rem;
 }
 
-.truncate-overflow {
+.truncate-overflow-3 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3; //this isn't available for all browsers, but should work for 99% of our users
   overflow: hidden;
   line-clamp: 3; //this probably isn't needed
+}
+
+.truncate-overflow-5 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5; //this isn't available for all browsers, but should work for 99% of our users
+  overflow: hidden;
+  line-clamp: 5; //this probably isn't needed
 }
