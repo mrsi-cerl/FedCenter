@@ -743,6 +743,14 @@ function Start-ProgramContentGui
   $btnSave.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
   $btnSave.FlatStyle = "Flat"
 
+  $btnCommit = New-Object System.Windows.Forms.Button
+  $btnCommit.Text = "Commit & Push"
+  $btnCommit.Size = New-Object System.Drawing.Size(130, 36)
+  $btnCommit.BackColor = [System.Drawing.Color]::FromArgb(34, 139, 34)
+  $btnCommit.ForeColor = [System.Drawing.Color]::White
+  $btnCommit.Font = New-Object System.Drawing.Font("Segoe UI", 9.0, [System.Drawing.FontStyle]::Bold)
+  $btnCommit.FlatStyle = "Flat"
+
   $btnClear = New-Object System.Windows.Forms.Button
   $btnClear.Text = "Clear Form"
   $btnClear.Size = New-Object System.Drawing.Size(100, 36)
@@ -759,6 +767,7 @@ function Start-ProgramContentGui
   $btnLoad.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
 
   $actionPanel.Controls.Add($btnSave)
+  $actionPanel.Controls.Add($btnCommit)
   $actionPanel.Controls.Add($btnClear)
   $actionPanel.Controls.Add($btnLoad)
   $actionPanel.Controls.Add($btnExit)
@@ -907,13 +916,161 @@ function Start-ProgramContentGui
       }
     })
 
-  $btnExit.add_Click({
-      $ChangedFiles = $(git status --porcelain | Measure-Object | Select-Object -expand Count)
-      # We really only care about changed files under content directory
-      if ($ChangedFiles -gt 0)
+  $btnCommit.add_Click({
+      try
       {
-        [System.Windows.Forms.MessageBox]::Show("You have uncommitted changes. Don't forgot to commit and push your changes so they can go live.`n`nChanged files: $ChangedFiles", "Uncommited Changes", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+        # Determine the repo root from the programs root path
+        $repoRoot = $ProgramsRoot
+        while ($repoRoot -and -not (Test-Path (Join-Path $repoRoot '.git')))
+        {
+          $repoRoot = Split-Path $repoRoot -Parent
+        }
+        if (-not $repoRoot -or -not (Test-Path (Join-Path $repoRoot '.git')))
+        {
+          [System.Windows.Forms.MessageBox]::Show(
+            "Could not locate a git repository root.", "Git Error",
+            [System.Windows.Forms.MessageBoxButtons]::OK,
+            [System.Windows.Forms.MessageBoxIcon]::Error)
+          return
+        }
+
+        # Collect only *.md files under src/content that have changes
+        $contentRelPath = 'src/content'
+        $gitStatus = & git -C $repoRoot status --porcelain -- "$contentRelPath/**/*.md" "$contentRelPath/*.md" 2>&1
+        $stagedLines = $gitStatus | Where-Object { $_ -match '^.{1,2}\s' }
+        if (-not $stagedLines)
+        {
+          [System.Windows.Forms.MessageBox]::Show(
+            "No modified Markdown files found under src/content.", "Nothing to Commit",
+            [System.Windows.Forms.MessageBoxButtons]::OK,
+            [System.Windows.Forms.MessageBoxIcon]::Information)
+          return
+        }
+
+        $fileList = ($stagedLines | ForEach-Object { $_.Substring(3).Trim() }) -join "`n"
+
+        # --- Build commit-message dialog ---
+        $dlg = New-Object System.Windows.Forms.Form
+        $dlg.Text = "Commit & Push Content Changes"
+        $dlg.Size = New-Object System.Drawing.Size(520, 380)
+        $dlg.StartPosition = "CenterParent"
+        $dlg.FormBorderStyle = "FixedDialog"
+        $dlg.MaximizeBox = $false
+        $dlg.MinimizeBox = $false
+        $dlg.Font = New-Object System.Drawing.Font("Segoe UI", 9.5)
+
+        $dlgLayout = New-Object System.Windows.Forms.TableLayoutPanel
+        $dlgLayout.Dock = "Fill"
+        $dlgLayout.RowCount = 4
+        $dlgLayout.ColumnCount = 1
+        $dlgLayout.Padding = New-Object System.Windows.Forms.Padding(10)
+        [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 24)))
+        [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 40)))
+        [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 60)))
+        [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 44)))
+
+        $lblFiles = New-Object System.Windows.Forms.Label
+        $lblFiles.Text = "Files to be committed:"
+        $lblFiles.Dock = "Fill"
+        $dlgLayout.Controls.Add($lblFiles, 0, 0)
+
+        $lstFiles = New-Object System.Windows.Forms.ListBox
+        $lstFiles.Dock = "Fill"
+        $lstFiles.Font = New-Object System.Drawing.Font("Consolas", 9.0)
+        foreach ($f in ($stagedLines | ForEach-Object { $_.Substring(3).Trim() })) { [void]$lstFiles.Items.Add($f) }
+        $dlgLayout.Controls.Add($lstFiles, 0, 1)
+
+        $msgPanel = New-Object System.Windows.Forms.Panel
+        $msgPanel.Dock = "Fill"
+        $lblMsg = New-Object System.Windows.Forms.Label
+        $lblMsg.Text = "Commit message:"
+        $lblMsg.Dock = "Top"
+        $lblMsg.Height = 20
+        $txtMsg = New-Object System.Windows.Forms.TextBox
+        $txtMsg.Dock = "Fill"
+        $txtMsg.Multiline = $true
+        $txtMsg.ScrollBars = "Vertical"
+        $txtMsg.Text = "Update program content"
+        $msgPanel.Controls.Add($txtMsg)
+        $msgPanel.Controls.Add($lblMsg)
+        $dlgLayout.Controls.Add($msgPanel, 0, 2)
+
+        $dlgButtons = New-Object System.Windows.Forms.FlowLayoutPanel
+        $dlgButtons.Dock = "Fill"
+        $dlgButtons.FlowDirection = "RightToLeft"
+        $dlgOK = New-Object System.Windows.Forms.Button
+        $dlgOK.Text = "Commit & Push"
+        $dlgOK.Size = New-Object System.Drawing.Size(120, 32)
+        $dlgOK.BackColor = [System.Drawing.Color]::FromArgb(34, 139, 34)
+        $dlgOK.ForeColor = [System.Drawing.Color]::White
+        $dlgOK.FlatStyle = "Flat"
+        $dlgOK.DialogResult = [System.Windows.Forms.DialogResult]::OK
+        $dlgCancel = New-Object System.Windows.Forms.Button
+        $dlgCancel.Text = "Cancel"
+        $dlgCancel.Size = New-Object System.Drawing.Size(80, 32)
+        $dlgCancel.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
+        $dlgButtons.Controls.Add($dlgOK)
+        $dlgButtons.Controls.Add($dlgCancel)
+        $dlgLayout.Controls.Add($dlgButtons, 0, 3)
+
+        $dlg.Controls.Add($dlgLayout)
+        $dlg.AcceptButton = $dlgOK
+        $dlg.CancelButton = $dlgCancel
+
+        if ($dlg.ShowDialog($form) -ne [System.Windows.Forms.DialogResult]::OK) { return }
+
+        $commitMsg = $txtMsg.Text.Trim()
+        if ([string]::IsNullOrWhiteSpace($commitMsg))
+        {
+          [System.Windows.Forms.MessageBox]::Show(
+            "Please enter a commit message.", "Validation",
+            [System.Windows.Forms.MessageBoxButtons]::OK,
+            [System.Windows.Forms.MessageBoxIcon]::Warning)
+          return
+        }
+
+        # Stage only src/content/**/*.md files, then commit and push
+        $addOut    = & git -C $repoRoot add -- "$contentRelPath/**/*.md" "$contentRelPath/*.md" 2>&1
+        $commitOut = & git -C $repoRoot commit -m $commitMsg 2>&1
+        if ($LASTEXITCODE -ne 0)
+        {
+          [System.Windows.Forms.MessageBox]::Show(
+            "git commit failed:`n$commitOut", "Git Error",
+            [System.Windows.Forms.MessageBoxButtons]::OK,
+            [System.Windows.Forms.MessageBoxIcon]::Error)
+          return
+        }
+        $pushOut = & git -C $repoRoot push 2>&1
+        if ($LASTEXITCODE -ne 0)
+        {
+          [System.Windows.Forms.MessageBox]::Show(
+            "git push failed:`n$pushOut", "Git Error",
+            [System.Windows.Forms.MessageBoxButtons]::OK,
+            [System.Windows.Forms.MessageBoxIcon]::Error)
+          return
+        }
+
+        [System.Windows.Forms.MessageBox]::Show(
+          "Changes committed and pushed successfully.", "Success",
+          [System.Windows.Forms.MessageBoxButtons]::OK,
+          [System.Windows.Forms.MessageBoxIcon]::Information)
       }
+      catch
+      {
+        [System.Windows.Forms.MessageBox]::Show(
+          "Commit/Push failed:`n$_", "Error",
+          [System.Windows.Forms.MessageBoxButtons]::OK,
+          [System.Windows.Forms.MessageBoxIcon]::Error)
+      }
+    })
+
+  $btnExit.add_Click({
+      # $ChangedFiles = $(git status --porcelain | Measure-Object | Select-Object -expand Count)
+      # # We really only care about changed files under content directory
+      # if ($ChangedFiles -gt 0)
+      # {
+      #   [System.Windows.Forms.MessageBox]::Show("You have uncommitted changes. Don't forgot to commit and push your changes so they can go live.`n`nChanged files: $ChangedFiles", "Uncommited Changes", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+      # }
 
       $form.Close()
     })
