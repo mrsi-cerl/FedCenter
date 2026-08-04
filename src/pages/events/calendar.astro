@@ -1,32 +1,32 @@
 ---
-import { l } from "@/components/uswds/components/usa-banner.js.umd";
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import Calendar from "../../components/Calendar.astro";
 import RootLayout from "../../layouts/RootLayout.astro";
+import { url } from "astro:schema";
 
-const dataEvents = [
-  // Single-day event with a clickable link
-  {
-    id: 1,
-    title: "Project Kickoff",
-    startDate: "2026-08-05",
-    endDate: "2026-08-05",
-    color: "#e53e3e",
-    link: "../",
+const dataEvents: CollectionEntry<"events">[] = await getCollection(
+  "events",
+  ({ data }) => {
+    return data.startDate && data.endDate && data.endDate > new Date(); // Filter events that have both start and end dates
   },
-  // Multi-day spanning event spanning 4 days
-  {
-    id: 2,
-    title: "Hackathon Sprint",
-    startDate: "2026-08-12",
-    endDate: "2026-08-15",
-    color: "#319795",
-    link: "../programs/acquisition/",
-  },
-];
+);
+
+const events = dataEvents.map((item) => ({
+  id: item.id,
+  title: item.data.title,
+  startDate: item.data.startDate,
+  endDate: item.data.endDate,
+  eventType: item.data.eventType,
+  link: item.data.externalUrl ?? `../${item.id}`,
+}));
 ---
 
 <RootLayout pageTitle="Event Calendar" showBreadcrumb={true}>
   <main style="padding: 20px;">
-    <Calendar events={dataEvents} />
+    <Calendar events={events} />
+    <!-- <div style="height: 100vh; overflow-y: auto; margin-top: 50px;">
+      {JSON.stringify(events)}
+    </div> -->
   </main>
 </RootLayout>

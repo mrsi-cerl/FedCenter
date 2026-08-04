@@ -3,8 +3,9 @@
 interface EventItem {
   id: number | string;
   title: string;
-  startDate: string; // ISO format string (YYYY-MM-DD)
-  endDate: string; // ISO format string (YYYY-MM-DD)
+  startDate: Date; // ISO format string (YYYY-MM-DD)
+  endDate: Date; // ISO format string (YYYY-MM-DD)
+  eventType: string; // Optional event type for categorization
   color?: string;
   link?: string; // Optional navigation URL
 }
@@ -64,6 +65,8 @@ const monthNames = [
 </div>
 
 <script>
+  import { getEventPrefix } from "node_modules/astro/dist/core/logger/core";
+
   const container = document.querySelector(
     ".calendar-container",
   ) as HTMLElement;
@@ -92,6 +95,18 @@ const monthNames = [
     "November",
     "December",
   ];
+
+  type EventType = "Training" | "Conference" | "Meeting" | "Other";
+  type RGBColor = `rgb(${number}, ${number}, ${number})`;
+  const eventColors: Record<EventType, RGBColor> = {
+    Meeting: "rgb(0, 128, 255)", // Blue
+    Conference: "rgb(128, 0, 128)", // Purple
+    Training: "rgb(0, 128, 0)", // Green
+    Other: "rgb(128, 128, 128)", // Gray
+  };
+  function getEventColor(type: EventType): RGBColor {
+    return eventColors[type];
+  }
 
   function renderCalendar() {
     const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
@@ -149,7 +164,8 @@ const monthNames = [
           item.className = "event-item";
         }
 
-        item.style.backgroundColor = event.color || "#3182ce";
+        item.style.backgroundColor =
+          getEventColor(event.eventType) || "#3182ce";
         item.title = event.title;
         item.textContent = event.title;
         eventList.appendChild(item);
