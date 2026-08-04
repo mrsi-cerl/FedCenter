@@ -1,26 +1,31 @@
 ---
 import ProgramAreaSidebar from "@/components/ProgramAreaSidebar.astro";
 import Accordian from "../components/Accordian.astro";
-import Announcements from "../components/Announcements.astro";
 import Collection from "../components/Collection.astro";
-import SidePageNavigation from "../components/SidePageNavigation.astro";
 import RootLayout from "./RootLayout.astro";
 
 const { programAreas, posts, pageTitle } = Astro.props;
+
+const postCount = 4;
+
+const recentPosts = posts
+  .sort(
+    (a: any, b: any) =>
+      new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+  ) // a - b for oldest to most recent
+  .slice(0, postCount);
 ---
 
 <RootLayout pageTitle={pageTitle}>
   <div class="display-flex">
-    <ProgramAreaSidebar />
-    <SidePageNavigation>
+    <div class="margin-right-105">
+      <div class="width-card-lg">
+        <ProgramAreaSidebar />
+      </div>
+    </div>
+    <div>
       <h1>{pageTitle}</h1>
       <slot />
-      <Announcements
-        title={`Recently Updated For ${pageTitle}`}
-        posts={posts}
-        showYear={true}
-        buttonTitle={`See More Changes for ${pageTitle}`}
-      />
       <div
         class="usa-accordion usa-accordion--multiselectable"
         data-allow-multiple
@@ -58,6 +63,18 @@ const { programAreas, posts, pageTitle } = Astro.props;
           ))
         }
       </div>
-    </SidePageNavigation>
+    </div>
+    <div class="margin-left-5">
+      <p class="font-sans-lg text-light">Recently Updated for {pageTitle}</p>
+      <ul class="usa-collection width-card-lg">
+        {
+          recentPosts &&
+            recentPosts.map((post: any) => (
+              <Collection post={post} isTruncated={true} />
+            ))
+        }
+      </ul>
+      <a class="usa-button">See More...</a>
+    </div>
   </div>
 </RootLayout>
