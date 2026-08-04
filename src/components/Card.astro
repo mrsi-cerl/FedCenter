@@ -1,5 +1,7 @@
 ---
 const { cardTitle, buttonTitle = "More", media, size, link } = Astro.props;
+// media without extension
+const filename = media.replace(/\.[^/.]+$/, "");
 ---
 
 <li class=`usa-card tablet:grid-col-${size}`>
@@ -11,7 +13,11 @@ const { cardTitle, buttonTitle = "More", media, size, link } = Astro.props;
       media && (
         <div class="usa-card__media">
           <div class="usa-card__img maxh-card-lg">
-            <img src={media} alt="A placeholder image" />
+            <picture>
+              <source srcset={`${filename}.avif`} type="image/avif" />
+              <source srcset={`${filename}.webp`} type="image/webp" />
+              <img src={media} alt="Card Image" width="800" height="600" />
+            </picture>
           </div>
         </div>
       )
