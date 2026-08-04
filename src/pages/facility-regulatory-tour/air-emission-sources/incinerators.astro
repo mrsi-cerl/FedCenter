@@ -1,12 +1,12 @@
 ---
-import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import { sideBarConstants } from "../../../constants";
 import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "Incinerators";
 ---
 
 <RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <p>
       An incinerator is generally defined as any furnace used in the process of
       burning solid waste for the purpose of reducing the volume of the waste by
@@ -356,5 +356,5 @@ const pageTitle = "Incinerators";
     <p>Clean Air Act</p>
     <!-- TODO: Add a link here? -->
     <!-- TODO: Should be "THE clean air act"? -->
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

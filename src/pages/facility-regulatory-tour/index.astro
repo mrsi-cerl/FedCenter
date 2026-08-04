@@ -1,12 +1,12 @@
 ---
-import SidePageNavigation from "../../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../../layouts/RootLayout.astro";
 const pageTitle = "Facility Regulatory Tour";
 const rootPath = "facility-regulatory-tour/";
 ---
 
 <RootLayout pageTitle={pageTitle}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <h2>
       <a
         class="usa-link"
@@ -177,5 +177,5 @@ const rootPath = "facility-regulatory-tour/";
       publicly/federally owned treatment works, a sewage lagoon, a leach field,
       a septic system, a cesspool, or even a composting toilet.
     </p>
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

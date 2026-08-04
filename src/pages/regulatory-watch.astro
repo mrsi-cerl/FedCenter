@@ -1,0 +1,13 @@
+---
+import SidePageNavigation from "@/components/SidePageNavigation.astro";
+import RootLayout from "../layouts/RootLayout.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
+
+const pageTitle = "Regulatory Watch";
+---
+
+<RootLayout pageTitle={pageTitle}>
+  <PageWithSideBarNav>
+    <h1>{pageTitle}</h1>
+  </PageWithSideBarNav>
+</RootLayout>

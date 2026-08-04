@@ -1,8 +1,6 @@
 ---
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import Accordian from "../components/Accordian.astro";
-import Card from "../components/Card.astro";
-import SidePageNavigation from "../components/SidePageNavigation.astro";
-import SummaryBox from "../components/SummaryBox.astro";
 import RootLayout from "../layouts/RootLayout.astro";
 const pageTitle = "Form Copies and Instructions";
 
@@ -10,7 +8,7 @@ const pageTitle = "Form Copies and Instructions";
 ---
 
 <RootLayout pageTitle={pageTitle}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <div class="usa-prose">
       <p>
         The Forms and Instructions page provides information and links to
@@ -26,5 +24,5 @@ const pageTitle = "Form Copies and Instructions";
     <Accordian title="Toxic Substances" />
     <Accordian title="Underground Injection Control" />
     <Accordian title="Wastewater" />
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

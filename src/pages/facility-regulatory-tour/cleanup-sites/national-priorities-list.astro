@@ -1,11 +1,11 @@
 ---
-import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "NPL Sites";
 ---
 
 <RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <p>
       The NPL is the list of national priorities among the known releases or
       threatened releases of hazardous substances, pollutants, or contaminants
@@ -49,5 +49,5 @@ const pageTitle = "NPL Sites";
       (CERCLA)
     </p>
     <!-- TODO: Add a link here? -->
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

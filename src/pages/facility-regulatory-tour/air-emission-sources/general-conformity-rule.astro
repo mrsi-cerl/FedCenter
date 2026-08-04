@@ -1,11 +1,11 @@
 ---
-import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "General Conformity Rule";
 ---
 
 <RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <p>
       Under the General Conformity Rule, federal agencies must work with State,
       Tribal and local governments in a air quality nonattainment or maintenance
@@ -330,5 +330,5 @@ const pageTitle = "General Conformity Rule";
     <h3>Laws and Statutes</h3>
     <p>Clean Air Act</p>
     <!-- TODO: Add a link here? -->
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

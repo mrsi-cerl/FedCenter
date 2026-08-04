@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import Collection from "../components/Collection.astro";
 import RootLayout from "../layouts/RootLayout.astro";
-import SidePageNavigation from "../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 const pageTitle = "What's New at FedCenter";
 
 const currDate = new Date();
@@ -38,38 +38,36 @@ const noRecent = uniqueDates.length == 0;
 ---
 
 <RootLayout pageTitle={pageTitle}>
-  <SidePageNavigation>
-    <div class="width-desktop margin-x-auto padding-left-15">
-      <h1>{pageTitle}</h1>
-      <p>
-        FedCenter's What's New page displays what information has been added or
-        updated within the past 30 days at FedCenter.gov. Stop back here
-        periodically to stay current on all recent activity at FedCenter.
-      </p>
-      {noRecent && <p>There are no posts within the past 30 days</p>}
-      {
-        uniqueDates.map((date) => (
-          <>
-            <h2 class="font-sans-xl">
-              {new Intl.DateTimeFormat("en-GB", {
-                year: "numeric", //this chunk of code converts a date that looks like
-                month: "short", //2026-05-28T00:00:00.000Z
-                day: "2-digit", //into something that looks more human readable
-              })
-                .format(date)
-                .split(" ")
-                .join("-")}
-            </h2>
-            {allNewPosts.map(
-              // then render all the posts whose dates fit that day below
-              (post) =>
-                new Date(post.data.pubDate).getTime() === date.getTime() && (
-                  <Collection post={post} showTags={true} />
-                )
-            )}
-          </>
-        ))
-      }
-    </div>
-  </SidePageNavigation>
+  <PageWithSideBarNav>
+    <h1>{pageTitle}</h1>
+    <p>
+      FedCenter's What's New page displays what information has been added or
+      updated within the past 30 days at FedCenter.gov. Stop back here
+      periodically to stay current on all recent activity at FedCenter.
+    </p>
+    {noRecent && <p>There are no posts within the past 30 days</p>}
+    {
+      uniqueDates.map((date) => (
+        <>
+          <h2 class="font-sans-xl">
+            {new Intl.DateTimeFormat("en-GB", {
+              year: "numeric", //this chunk of code converts a date that looks like
+              month: "short", //2026-05-28T00:00:00.000Z
+              day: "2-digit", //into something that looks more human readable
+            })
+              .format(date)
+              .split(" ")
+              .join("-")}
+          </h2>
+          {allNewPosts.map(
+            // then render all the posts whose dates fit that day below
+            (post) =>
+              new Date(post.data.pubDate).getTime() === date.getTime() && (
+                <Collection post={post} showTags={true} />
+              )
+          )}
+        </>
+      ))
+    }
+  </PageWithSideBarNav>
 </RootLayout>

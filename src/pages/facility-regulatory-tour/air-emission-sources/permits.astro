@@ -1,11 +1,11 @@
 ---
-import SidePageNavigation from "../../../components/SidePageNavigation.astro";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "Permits";
 ---
 
 <RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
-  <SidePageNavigation>
+  <PageWithSideBarNav>
     <p>
       Depending on the location of the source and what the source emits, permits
       to construct and/or operate sources of air emissions are needed. Operating
@@ -89,5 +89,5 @@ const pageTitle = "Permits";
     <h3>Laws and Statutes</h3>
     <p>The Clean Air Act</p>
     <!-- TODO: Add a link here? -->
-  </SidePageNavigation>
+  </PageWithSideBarNav>
 </RootLayout>

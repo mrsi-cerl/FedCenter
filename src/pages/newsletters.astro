@@ -1,10 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import Accordian from "../components/Accordian.astro";
 import Card from "../components/Card.astro";
-import Collection from "../components/Collection.astro";
-import SidePageNavigation from "../components/SidePageNavigation.astro";
-import SummaryBox from "../components/SummaryBox.astro";
 import RootLayout from "../layouts/RootLayout.astro";
 const pageTitle = "Newsletters";
 
@@ -14,17 +10,6 @@ const posts = await getCollection("programPost", ({ data }) => {
 });
 ---
 
-<!-- <RootLayout pageTitle={pageTitle}>
-  <SidePageNavigation>
-    <div class="usa-prose">
-      <p>
-        The Newsletters page contains links to various Federal and State
-        government-sponsored industry newsletters.
-      </p>
-    </div>
-    {posts.map((post: any) => <Collection post={post} />)}
-  </SidePageNavigation>
-</RootLayout> -->
 <RootLayout pageTitle={pageTitle}>
   <div class="usa-prose">
     <p>

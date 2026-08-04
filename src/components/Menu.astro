@@ -25,14 +25,22 @@ const primaryAreas = [
 <header class="usa-header usa-header--extended">
   <div class="usa-navbar">
     <div class="usa-logo">
-      <img
-        width="160"
-        src=`${import.meta.env.BASE_URL}FedCenterHorizontalLogo.svg`
-        alt="an diagram of an atom"
-      />
-      <em class="usa-logo__text"
-        ><a href=`${import.meta.env.BASE_URL}` title="FedCenter">FedCenter</a>
-      </em>
+      <a
+        class="text-primary"
+        href=`${import.meta.env.BASE_URL}`
+        title="FedCenter"
+      >
+        <img
+          width="180"
+          src=`${import.meta.env.BASE_URL}FedCenterHorizontalLogo.svg`
+          alt="an diagram of an atom"
+        />
+        <em
+          class="usa-logo__text text-primary margin-left-105 margin-top-neg-105"
+        >
+          FedCenter
+        </em>
+      </a>
     </div>
     <button type="button" class="usa-menu-btn">Menu</button>
   </div>
