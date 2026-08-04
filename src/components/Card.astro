@@ -1,7 +1,7 @@
 ---
 const { cardTitle, buttonTitle = "More", media, size, link } = Astro.props;
 // media without extension
-const filename = media.replace(/\.[^/.]+$/, "");
+const filename = media ? media.replace(/\.[^/.]+$/, "") : null; //not all cards have media associated with them
 ---
 
 <li class=`usa-card tablet:grid-col-${size}`>
