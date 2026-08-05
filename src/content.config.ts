@@ -86,4 +86,22 @@ const announcements = defineCollection({
   }),
 });
 
-export const collections = { programPost, announcements };
+const events = defineCollection({
+  loader: glob({
+    base: './src/content/programs',
+    pattern: '**/*.{md,mdx}',
+  }),
+  schema: z.object({
+    title: z.string(),
+    pubDate: z.coerce.date(),
+    startDate: z.coerce.date().optional(),
+    endDate: z.coerce.date().optional(),
+    eventType: z
+      .enum(['Conferences', 'Meetings', 'Training', 'Other'])
+      .optional(),
+    // tags: []
+    externalUrl: z.string().optional(),
+  }),
+});
+
+export const collections = { programPost, announcements, events };

@@ -1,0 +1,320 @@
+---
+// Calendar.astro
+interface EventItem {
+  id: number | string;
+  title: string;
+  startDate?: Date; // ISO format string (YYYY-MM-DD)
+  endDate?: Date; // ISO format string (YYYY-MM-DD)
+  eventType?: string; // Optional event type for categorization
+  color?: string;
+  link?: string; // Optional navigation URL
+}
+
+interface Props {
+  events?: EventItem[];
+}
+
+const { events = [] } = Astro.props;
+
+// Component always initializes on the current date
+const initialDate = new Date();
+const currentYear = initialDate.getFullYear();
+const currentMonth = initialDate.getMonth();
+
+const monthNames = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+---
+
+<!-- Pass events array safely to client script -->
+<div
+  class="calendar-container"
+  data-events={JSON.stringify(events)}
+  data-current-year={currentYear}
+  data-current-month={currentMonth}
+>
+  <!-- Header Navigation -->
+  <div class="calendar-header bg-primary">
+    <button class="usa-button" id="prev-btn">&lt; Back</button>
+    <h2 id="calendar-title" class="text-white">
+      {monthNames[currentMonth]}
+      {currentYear}
+    </h2>
+    <button class="usa-button" id="next-btn">Forward &gt;</button>
+  </div>
+
+  <!-- Weekday Labels -->
+  <div class="calendar-grid weekdays">
+    {
+      ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((day) => (
+        <div class="weekday-label">{day}</div>
+      ))
+    }
+  </div>
+
+  <!-- Days Grid Container -->
+  <div class="calendar-grid days" id="days-grid"></div>
+</div>
+
+<script>
+  import { getEventPrefix } from "node_modules/astro/dist/core/logger/core";
+
+  const container = document.querySelector(
+    ".calendar-container"
+  ) as HTMLElement;
+  const prevBtn = document.getElementById("prev-btn") as HTMLButtonElement;
+  const nextBtn = document.getElementById("next-btn") as HTMLButtonElement;
+  const titleEl = document.getElementById(
+    "calendar-title"
+  ) as HTMLHeadingElement;
+  const daysGrid = document.getElementById("days-grid") as HTMLDivElement;
+
+  const events = JSON.parse(container.dataset.events || "[]");
+  let currentYear = parseInt(container.dataset.currentYear || "0", 10);
+  let currentMonth = parseInt(container.dataset.currentMonth || "0", 10);
+
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
+  type EventType = "Training" | "Conferences" | "Meetings" | "Other";
+  type RGBColor = `rgb(${number}, ${number}, ${number})`;
+  const eventColors: Record<EventType, RGBColor> = {
+    Meetings: "rgb(0, 128, 255)", // Blue
+    Conferences: "rgb(128, 0, 128)", // Purple
+    Training: "rgb(0, 128, 0)", // Green
+    Other: "rgb(128, 128, 128)", // Gray
+  };
+  function getEventColor(type: EventType): RGBColor {
+    return eventColors[type];
+  }
+
+  function renderCalendar() {
+    const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+    const firstDayIndex = new Date(currentYear, currentMonth, 1).getDay();
+
+    titleEl.textContent = `${monthNames[currentMonth]} ${currentYear}`;
+    daysGrid.innerHTML = "";
+
+    // Render preceding empty layout spacer blocks
+    for (let i = 0; i < firstDayIndex; i++) {
+      const emptyCell = document.createElement("div");
+      emptyCell.className = "calendar-cell empty";
+      daysGrid.appendChild(emptyCell);
+    }
+
+    // Render calendar days
+    for (let day = 1; day <= daysInMonth; day++) {
+      const cell = document.createElement("div");
+      cell.className = "calendar-cell day";
+
+      const numSpan = document.createElement("span");
+      numSpan.className = "day-number";
+      numSpan.textContent = day.toString();
+      cell.appendChild(numSpan);
+
+      const eventList = document.createElement("div");
+      eventList.className = "event-list";
+
+      // Create a target comparison date block matching midnight local time
+      const targetDate = new Date(currentYear, currentMonth, day);
+
+      // Filter spanning multi-day events
+      const dayEvents = events.filter((event: any) => {
+        // Set hours to midnight to ensure exact bounding box checks
+        const eventStart = new Date(event.startDate);
+        eventStart.setHours(0, 0, 0, 0);
+
+        const eventEnd = new Date(event.endDate);
+        eventEnd.setHours(23, 59, 59, 999);
+
+        return targetDate >= eventStart && targetDate <= eventEnd;
+      });
+
+      // Build DOM elements for matching events
+      dayEvents.forEach((event: any) => {
+        let item: HTMLElement;
+
+        if (event.link) {
+          const anchor = document.createElement("a");
+          anchor.href = event.link;
+          anchor.className = "event-item linked-event";
+          item = anchor;
+        } else {
+          item = document.createElement("div");
+          item.className = "event-item";
+        }
+
+        item.style.backgroundColor =
+          getEventColor(event.eventType) || "#3182ce";
+        item.title = event.title;
+        item.textContent = event.title;
+        eventList.appendChild(item);
+      });
+
+      cell.appendChild(eventList);
+      daysGrid.appendChild(cell);
+    }
+  }
+
+  // Navigation Event Handlers
+  prevBtn.addEventListener("click", () => {
+    const prev = new Date(currentYear, currentMonth - 1, 1);
+    currentYear = prev.getFullYear();
+    currentMonth = prev.getMonth();
+    renderCalendar();
+  });
+
+  nextBtn.addEventListener("click", () => {
+    const next = new Date(currentYear, currentMonth + 1, 1);
+    currentYear = next.getFullYear();
+    currentMonth = next.getMonth();
+    renderCalendar();
+  });
+
+  // Execute on load
+  renderCalendar();
+</script>
+
+<style>
+  .calendar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: system-ui, sans-serif;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    /* background-color: #f7fafc; */
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .calendar-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    /* color: #2d3748; */
+  }
+
+  /* .nav-btn {
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+  } */
+
+  /* .nav-btn:hover {
+    background-color: #edf2f7;
+  } */
+
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .weekdays {
+    background-color: #edf2f7;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .weekday-label {
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #4a5568;
+  }
+
+  .days {
+    grid-auto-rows: 120px;
+  }
+
+  /* Scoped child elements injection targeting JavaScript DOM render loops */
+  .days :global(.calendar-cell) {
+    border-bottom: 1px solid #e2e8f0;
+    border-right: 1px solid #e2e8f0;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .days :global(.calendar-cell:nth-child(7n)) {
+    border-right: none;
+  }
+
+  .days :global(.empty) {
+    background-color: #f7fafc;
+  }
+
+  .days :global(.day-number) {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #718096;
+    margin-bottom: 4px;
+  }
+
+  .days :global(.event-list) {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+
+  .days :global(.event-item) {
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    display: block;
+  }
+
+  .days :global(.linked-event) {
+    cursor: pointer;
+    transition:
+      transform 0.1s ease,
+      filter 0.1s ease;
+  }
+
+  .days :global(.linked-event:hover) {
+    filter: brightness(0.9);
+    transform: translateY(-1px);
+  }
+</style>

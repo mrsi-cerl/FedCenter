@@ -1,0 +1,32 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import Calendar from "../../components/Calendar.astro";
+import RootLayout from "../../layouts/RootLayout.astro";
+import { url } from "astro:schema";
+
+const dataEvents: CollectionEntry<"events">[] = await getCollection(
+  "events",
+  ({ data }) => {
+    return data.startDate && data.endDate && data.endDate > new Date(); // Filter events that have both start and end dates
+  },
+);
+
+const events = dataEvents.map((item) => ({
+  id: item.id,
+  title: item.data.title,
+  startDate: item.data.startDate,
+  endDate: item.data.endDate,
+  eventType: item.data.eventType,
+  link: item.data.externalUrl ?? `../${item.id}`,
+}));
+---
+
+<RootLayout pageTitle="Event Calendar" showBreadcrumb={true}>
+  <main style="padding: 20px;">
+    <Calendar events={events} />
+    <!-- <div style="height: 100vh; overflow-y: auto; margin-top: 50px;">
+      {JSON.stringify(events)}
+    </div> -->
+  </main>
+</RootLayout>

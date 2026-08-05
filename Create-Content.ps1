@@ -290,9 +290,10 @@ function Read-ProgramContentFile
     ItemId      = ''
     ProgramArea = ''
     PubDate     = ''
+    ExpiryDate  = ''
+    EventType   = ''
     StartDate   = ''
     EndDate     = ''
-    ExpiryDate  = ''
     SubCategories = @()
     Title       = ''
     Body        = ''
@@ -318,9 +319,10 @@ function Read-ProgramContentFile
     if ($trimmed -match '^item_id:\s*[''"\s]*(.*?)[''"\s]*$')        { $result.ItemId      = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^programArea:\s*(.+)$')                     { $result.ProgramArea = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^pubDate:\s*(.+)$')                         { $result.PubDate     = $matches[1].Trim(); $inSubCat = $false; continue }
+    if ($trimmed -match '^expiryDate:\s*(.+)$')                      { $result.ExpiryDate  = $matches[1].Trim(); $inSubCat = $false; continue }
+    if ($trimmed -match '^eventType:\s*(.+)$')                       { $result.EventType   = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^startDate:\s*(.+)$')                       { $result.StartDate   = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^endDate:\s*(.+)$')                         { $result.EndDate     = $matches[1].Trim(); $inSubCat = $false; continue }
-    if ($trimmed -match '^expiryDate:\s*(.+)$')                      { $result.ExpiryDate  = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^title:\s*[''"\s]*(.*?)[''"\s]*$')          { $result.Title       = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -eq 'subCategory:')                                 { $inSubCat = $true; continue }
     if ($inSubCat)
@@ -597,7 +599,7 @@ function Start-ProgramContentGui
   $cbEventType = New-Object System.Windows.Forms.ComboBox
   $cbEventType.Dock = "Fill"
   $cbEventType.DropDownStyle = "DropDownList"
-  $cbEventType.Items.AddRange(@("Training", "Conferences", "Meetings"))
+  $cbEventType.Items.AddRange(@("Training", "Conferences", "Meetings", "Other"))
   $cbEventType.SelectedIndex = -1  # Nothing selected
 
   # Start Date (optional)
@@ -849,6 +851,7 @@ function Start-ProgramContentGui
       $rtbContent.Clear()
       $lstPrograms.ClearSelected()
       $lstSubCategories.Items.Clear()
+      $cbEventType.SelectedIndex = -1
       $dtpPubDate.Value = Get-Date
       $dtpStartDate.Checked = $false
       $dtpEndDate.Checked = $false
@@ -899,27 +902,37 @@ function Start-ProgramContentGui
 
         # --- Pub Date ---
         # Use try/catch rather than [datetime]::TryParse([ref]) which fails inside PS script blocks
-        try { $dtpPubDate.Value = [datetime]::Parse($parsed.PubDate) }
+        try { $dtpPubDate.Value = [datetime]::Parse($parsed.PubDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")) }
         catch { $dtpPubDate.Value = Get-Date }
 
+        Write-Host "Parsed pub date: $($dtpPubDate.Value)"
+
+        # --- Event Type ---
+        if (-not [string]::IsNullOrWhiteSpace($parsed.EventType))
+        {
+          $eventType = ($parsed.EventType).Trim()
+          # if eventType is not in our list, set to 'Other'
+          if ($eventType -notin $cbEventType.Items) { $eventType = 'Other' }
+          $cbEventType.SelectedItem = $eventType
+        }
         # --- Optional dates ---
         if (-not [string]::IsNullOrWhiteSpace($parsed.StartDate))
         {
-          try { $dtpStartDate.Value = [datetime]::Parse($parsed.StartDate); $dtpStartDate.Checked = $true }
+          try { $dtpStartDate.Value = [datetime]::Parse($parsed.StartDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpStartDate.Checked = $true }
           catch { $dtpStartDate.Checked = $false }
         }
         else { $dtpStartDate.Checked = $false }
 
         if (-not [string]::IsNullOrWhiteSpace($parsed.EndDate))
         {
-          try { $dtpEndDate.Value = [datetime]::Parse($parsed.EndDate); $dtpEndDate.Checked = $true }
+          try { $dtpEndDate.Value = [datetime]::Parse($parsed.EndDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpEndDate.Checked = $true }
           catch { $dtpEndDate.Checked = $false }
         }
         else { $dtpEndDate.Checked = $false }
 
         if (-not [string]::IsNullOrWhiteSpace($parsed.ExpiryDate))
         {
-          try { $dtpExpiryDate.Value = [datetime]::Parse($parsed.ExpiryDate); $dtpExpiryDate.Checked = $true }
+          try { $dtpExpiryDate.Value = [datetime]::Parse($parsed.ExpiryDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpExpiryDate.Checked = $true }
           catch { $dtpExpiryDate.Checked = $false }
         }
         else { $dtpExpiryDate.Checked = $false }
