@@ -94,10 +94,11 @@ const events = defineCollection({
   schema: z.object({
     title: z.string(),
     pubDate: z.coerce.date(),
-    startDate: z.coerce.date(),
-    endDate: z.coerce.date(),
+    startDate: z.coerce.date().optional(),
+    endDate: z.coerce.date().optional(),
     eventType: z
-      .enum(['Conference', 'Meeting', 'Training', 'Other']),
+      .enum(['Conferences', 'Meetings', 'Training', 'Other'])
+      .optional(),
     // tags: []
     externalUrl: z.string().optional(),
   }),

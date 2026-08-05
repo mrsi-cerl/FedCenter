@@ -3,9 +3,9 @@
 interface EventItem {
   id: number | string;
   title: string;
-  startDate: Date; // ISO format string (YYYY-MM-DD)
-  endDate: Date; // ISO format string (YYYY-MM-DD)
-  eventType: string; // Optional event type for categorization
+  startDate?: Date; // ISO format string (YYYY-MM-DD)
+  endDate?: Date; // ISO format string (YYYY-MM-DD)
+  eventType?: string; // Optional event type for categorization
   color?: string;
   link?: string; // Optional navigation URL
 }
@@ -96,11 +96,11 @@ const monthNames = [
     "December",
   ];
 
-  type EventType = "Training" | "Conference" | "Meeting" | "Other";
+  type EventType = "Training" | "Conferences" | "Meetings" | "Other";
   type RGBColor = `rgb(${number}, ${number}, ${number})`;
   const eventColors: Record<EventType, RGBColor> = {
-    Meeting: "rgb(0, 128, 255)", // Blue
-    Conference: "rgb(128, 0, 128)", // Purple
+    Meetings: "rgb(0, 128, 255)", // Blue
+    Conferences: "rgb(128, 0, 128)", // Purple
     Training: "rgb(0, 128, 0)", // Green
     Other: "rgb(128, 128, 128)", // Gray
   };
