@@ -45,10 +45,13 @@ const monthNames = [
   data-current-month={currentMonth}
 >
   <!-- Header Navigation -->
-  <div class="calendar-header">
-    <button class="nav-btn" id="prev-btn">&lt; Back</button>
-    <h2 id="calendar-title">{monthNames[currentMonth]} {currentYear}</h2>
-    <button class="nav-btn" id="next-btn">Forward &gt;</button>
+  <div class="calendar-header bg-primary">
+    <button class="usa-button" id="prev-btn">&lt; Back</button>
+    <h2 id="calendar-title" class="text-white">
+      {monthNames[currentMonth]}
+      {currentYear}
+    </h2>
+    <button class="usa-button" id="next-btn">Forward &gt;</button>
   </div>
 
   <!-- Weekday Labels -->
@@ -68,12 +71,12 @@ const monthNames = [
   import { getEventPrefix } from "node_modules/astro/dist/core/logger/core";
 
   const container = document.querySelector(
-    ".calendar-container",
+    ".calendar-container"
   ) as HTMLElement;
   const prevBtn = document.getElementById("prev-btn") as HTMLButtonElement;
   const nextBtn = document.getElementById("next-btn") as HTMLButtonElement;
   const titleEl = document.getElementById(
-    "calendar-title",
+    "calendar-title"
   ) as HTMLHeadingElement;
   const daysGrid = document.getElementById("days-grid") as HTMLDivElement;
 
@@ -212,17 +215,17 @@ const monthNames = [
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    background-color: #f7fafc;
+    /* background-color: #f7fafc; */
     border-bottom: 1px solid #e2e8f0;
   }
 
   .calendar-header h2 {
     margin: 0;
     font-size: 1.25rem;
-    color: #2d3748;
+    /* color: #2d3748; */
   }
 
-  .nav-btn {
+  /* .nav-btn {
     padding: 8px 16px;
     background-color: #ffffff;
     border: 1px solid #cbd5e0;
@@ -230,11 +233,11 @@ const monthNames = [
     cursor: pointer;
     font-weight: 500;
     transition: all 0.2s;
-  }
+  } */
 
-  .nav-btn:hover {
+  /* .nav-btn:hover {
     background-color: #edf2f7;
-  }
+  } */
 
   .calendar-grid {
     display: grid;
