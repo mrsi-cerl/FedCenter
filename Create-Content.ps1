@@ -54,6 +54,79 @@ function Get-FedCenterProgramsRoot
   return $null
 }
 
+function Get-FedCenterRepoRoot
+{
+  param (
+    [string]$StartingPath = $PSScriptRoot
+  )
+
+  if ([string]::IsNullOrWhiteSpace($StartingPath))
+  {
+    $StartingPath = Get-Location
+  }
+
+  $current = $StartingPath
+  while ($null -ne $current -and (Test-Path $current))
+  {
+    if (Test-Path (Join-Path $current '.git'))
+    {
+      return (Resolve-Path $current).Path
+    }
+
+    $parent = Split-Path $current -Parent
+    if ($parent -eq $current)
+    {
+      break
+    }
+    $current = $parent
+  }
+
+  return $null
+}
+
+function Sync-FedCenterRepository
+{
+  param (
+    [string]$StartingPath = $PSScriptRoot
+  )
+
+  $repoRoot = Get-FedCenterRepoRoot -StartingPath $StartingPath
+  if (-not $repoRoot)
+  {
+    return [pscustomobject]@{
+      Success = $false
+      RepoRoot = $null
+      Message = "Could not locate a git repository root."
+    }
+  }
+
+  $fetchOut = & git -C $repoRoot fetch 2>&1
+  if ($LASTEXITCODE -ne 0)
+  {
+    return [pscustomobject]@{
+      Success = $false
+      RepoRoot = $repoRoot
+      Message = "git fetch failed:`n$fetchOut"
+    }
+  }
+
+  $pullOut = & git -C $repoRoot pull --ff-only 2>&1
+  if ($LASTEXITCODE -ne 0)
+  {
+    return [pscustomobject]@{
+      Success = $false
+      RepoRoot = $repoRoot
+      Message = "Git pull could not be completed automatically. Resolve conflicts or local branch divergence, then pull again.`n`ngit output:`n$pullOut"
+    }
+  }
+
+  return [pscustomobject]@{
+    Success = $true
+    RepoRoot = $repoRoot
+    Message = [string]$pullOut
+  }
+}
+
 function Get-ProgramAreas
 {
   param (
@@ -417,6 +490,16 @@ function Start-ProgramContentGui
   }
 
   [System.Windows.Forms.Application]::EnableVisualStyles()
+
+  $repoSync = Sync-FedCenterRepository -StartingPath $ProgramsRoot
+  if (-not $repoSync.Success)
+  {
+    [System.Windows.Forms.MessageBox]::Show(
+      $repoSync.Message,
+      "Git Sync Warning",
+      [System.Windows.Forms.MessageBoxButtons]::OK,
+      [System.Windows.Forms.MessageBoxIcon]::Warning)
+  }
 
   $currentItemId = Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
 
@@ -990,12 +1073,8 @@ function Start-ProgramContentGui
       try
       {
         # Determine the repo root from the programs root path
-        $repoRoot = $ProgramsRoot
-        while ($repoRoot -and -not (Test-Path (Join-Path $repoRoot '.git')))
-        {
-          $repoRoot = Split-Path $repoRoot -Parent
-        }
-        if (-not $repoRoot -or -not (Test-Path (Join-Path $repoRoot '.git')))
+        $repoRoot = Get-FedCenterRepoRoot -StartingPath $ProgramsRoot
+        if (-not $repoRoot)
         {
           [System.Windows.Forms.MessageBox]::Show(
             "Could not locate a git repository root.", "Git Error",
