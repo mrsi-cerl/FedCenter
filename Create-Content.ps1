@@ -371,7 +371,7 @@ function Save-ProgramContent
 
   if ([string]::IsNullOrWhiteSpace($ItemId))
   {
-    $ItemId = Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
+    throw "ItemId cannot be empty."
   }
   if ([string]::IsNullOrWhiteSpace($PubDate))
   {
@@ -417,6 +417,8 @@ function Start-ProgramContentGui
   }
 
   [System.Windows.Forms.Application]::EnableVisualStyles()
+
+  $currentItemId = Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
 
   # Form Setup
   $form = New-Object System.Windows.Forms.Form
@@ -549,19 +551,34 @@ function Start-ProgramContentGui
 
   $contentContainer = New-Object System.Windows.Forms.TableLayoutPanel
   $contentContainer.Dock = "Fill"
-  $contentContainer.RowCount = 7
+  $contentContainer.RowCount = 8
   $contentContainer.ColumnCount = 2
 
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 0: Title
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 1: Pub Date
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 2: Expiry Date
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 3: Event Type
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 4: Start Date
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 5: End Date (New)
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100))) # Row 6: Editor
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 0: Item ID
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 1: Title
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 2: Pub Date
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 3: Expiry Date
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 4: Event Type
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 5: Start Date
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 6: End Date
+  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100))) # Row 7: Editor
 
   [void]$contentContainer.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Absolute, 80)))
   [void]$contentContainer.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Percent, 100)))
+
+  # Item ID Display
+  $lblItemId = New-Object System.Windows.Forms.Label
+  $lblItemId.Text = "Item ID:"
+  $lblItemId.Anchor = "Left"
+  $txtItemId = New-Object System.Windows.Forms.TextBox
+  $txtItemId.Dock = "Fill"
+  $txtItemId.Font = New-Object System.Drawing.Font("Segoe UI", 10.0)
+  $txtItemId.ReadOnly = $true
+  $txtItemId.TabStop = $false
+  $txtItemId.Text = $currentItemId
+
+  $contentContainer.Controls.Add($lblItemId, 0, 0)
+  $contentContainer.Controls.Add($txtItemId, 1, 0)
 
   # Title Input
   $lblTitle = New-Object System.Windows.Forms.Label
@@ -571,8 +588,8 @@ function Start-ProgramContentGui
   $txtTitle.Dock = "Fill"
   $txtTitle.Font = New-Object System.Drawing.Font("Segoe UI", 10.0)
 
-  $contentContainer.Controls.Add($lblTitle, 0, 0)
-  $contentContainer.Controls.Add($txtTitle, 1, 0)
+  $contentContainer.Controls.Add($lblTitle, 0, 1)
+  $contentContainer.Controls.Add($txtTitle, 1, 1)
 
   # Publication Date Input (required)
   $lblPubDate = New-Object System.Windows.Forms.Label
@@ -622,16 +639,16 @@ function Start-ProgramContentGui
   $dtpEndDate.Checked = $false
   $dtpEndDate.Dock = "Fill"
 
-  $contentContainer.Controls.Add($lblPubDate, 0, 1)
-  $contentContainer.Controls.Add($dtpPubDate, 1, 1)
-  $contentContainer.Controls.Add($lblExpiryDate, 0, 2)
-  $contentContainer.Controls.Add($dtpExpiryDate, 1, 2)
-  $contentContainer.Controls.Add($lblEventType, 0, 3)
-  $contentContainer.Controls.Add($cbEventType, 1, 3)
-  $contentContainer.Controls.Add($lblStartDate, 0, 4)
-  $contentContainer.Controls.Add($dtpStartDate, 1, 4)
-  $contentContainer.Controls.Add($lblEndDate, 0, 5)
-  $contentContainer.Controls.Add($dtpEndDate, 1, 5)
+  $contentContainer.Controls.Add($lblPubDate, 0, 2)
+  $contentContainer.Controls.Add($dtpPubDate, 1, 2)
+  $contentContainer.Controls.Add($lblExpiryDate, 0, 3)
+  $contentContainer.Controls.Add($dtpExpiryDate, 1, 3)
+  $contentContainer.Controls.Add($lblEventType, 0, 4)
+  $contentContainer.Controls.Add($cbEventType, 1, 4)
+  $contentContainer.Controls.Add($lblStartDate, 0, 5)
+  $contentContainer.Controls.Add($dtpStartDate, 1, 5)
+  $contentContainer.Controls.Add($lblEndDate, 0, 6)
+  $contentContainer.Controls.Add($dtpEndDate, 1, 6)
 
   # Rich Text Editor Box with Formatting Toolbar
   $editorPanel = New-Object System.Windows.Forms.Panel
@@ -744,7 +761,7 @@ function Start-ProgramContentGui
   $editorPanel.Controls.Add($rtbContent)
   $editorPanel.Controls.Add($toolbar)
 
-  $contentContainer.Controls.Add($editorPanel, 0, 6)
+  $contentContainer.Controls.Add($editorPanel, 0, 7)
   $contentContainer.SetColumnSpan($editorPanel, 2)
 
   $grpContent.Controls.Add($contentContainer)
@@ -774,7 +791,7 @@ function Start-ProgramContentGui
   $btnCommit.FlatStyle = "Flat"
 
   $btnClear = New-Object System.Windows.Forms.Button
-  $btnClear.Text = "Clear Form"
+  $btnClear.Text = "New Item"
   $btnClear.Size = New-Object System.Drawing.Size(100, 36)
   $btnClear.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
 
@@ -834,8 +851,7 @@ function Start-ProgramContentGui
         $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString("M/d/yyyy") } else { "" }
         $expiryDate = if ($dtpExpiryDate.Checked) { $dtpExpiryDate.Value.ToString("M/d/yyyy") } else { "" }
 
-        # Item ID is automatically generated as a unique ID in Save-ProgramContent
-        $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -SelectedPrograms @($selectedPA) -SelectedSubCategories $selectedSubs -Title $title -BodyText $bodyText -ItemId "" -PubDate $pubDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
+        $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -SelectedPrograms @($selectedPA) -SelectedSubCategories $selectedSubs -Title $title -BodyText $bodyText -ItemId $txtItemId.Text.Trim() -PubDate $pubDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
 
         $msg = "Successfully saved markdown file:`n`n" + ($savedFiles -join "`n")
         [System.Windows.Forms.MessageBox]::Show($msg, "Success", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
@@ -856,6 +872,16 @@ function Start-ProgramContentGui
       $dtpStartDate.Checked = $false
       $dtpEndDate.Checked = $false
       $dtpExpiryDate.Checked = $false
+      $form.Text = "FedCenter - Create Program Content"
+      $currentItemId = if ($txtItemId.Text.Trim() -as [int])
+      {
+        (([int]$txtItemId.Text.Trim()) + 1).ToString()
+      }
+      else
+      {
+        Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
+      }
+      $txtItemId.Text = $currentItemId
     })
 
   $btnLoad.add_Click({
@@ -868,6 +894,15 @@ function Start-ProgramContentGui
       try
       {
         $parsed = Read-ProgramContentFile -FilePath $ofd.FileName
+        $currentItemId = if ([string]::IsNullOrWhiteSpace($parsed.ItemId))
+        {
+          Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
+        }
+        else
+        {
+          $parsed.ItemId
+        }
+        $txtItemId.Text = $currentItemId
 
         # --- Title ---
         $txtTitle.Text = $parsed.Title
