@@ -382,14 +382,56 @@ function New-SanitizedFilename
   {
     return "Untitled.md"
   }
+
   # Remove invalid path characters: \ / : * ? " < > |
   $clean = $Title -replace '[\\/*?:"<>|]', ''
-  $clean = $clean.Trim()
+  $clean = $clean.Trim().TrimEnd('.')
   if ([string]::IsNullOrWhiteSpace($clean))
   {
     $clean = "Untitled"
   }
+
+  if ($clean.Length -gt 15)
+  {
+    $clean = $clean.Substring(0, 15).TrimEnd()
+  }
+
+  if ([string]::IsNullOrWhiteSpace($clean))
+  {
+    $clean = 'Untitled'
+  }
+
   return "$clean.md"
+}
+
+function Get-UniqueProgramContentFilePath
+{
+  param (
+    [string]$DirectoryPath,
+    [string]$Title
+  )
+
+  $fileName = New-SanitizedFilename -Title $Title
+  $candidatePath = Join-Path $DirectoryPath $fileName
+  if (-not (Test-Path -LiteralPath $candidatePath))
+  {
+    return $candidatePath
+  }
+
+  $baseName = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
+  $extension = [System.IO.Path]::GetExtension($fileName)
+
+  for ($suffix = 1; $suffix -le 99; $suffix++)
+  {
+    $candidateName = '{0}{1:D2}{2}' -f $baseName, $suffix, $extension
+    $candidatePath = Join-Path $DirectoryPath $candidateName
+    if (-not (Test-Path -LiteralPath $candidatePath))
+    {
+      return $candidatePath
+    }
+  }
+
+  throw "Could not generate a unique filename for title '$Title' in '$DirectoryPath'."
 }
 
 function Format-MarkdownFrontmatter
@@ -619,7 +661,6 @@ function Save-ProgramContent
     $PubDate = (Get-Date).ToString("M/d/yyyy")
   }
 
-  $fileName = New-SanitizedFilename -Title $Title
   $createdFiles = @()
 
   foreach ($pa in $SelectedPrograms)
@@ -630,7 +671,7 @@ function Save-ProgramContent
       New-Item -Path $paDir -ItemType Directory -Force | Out-Null
     }
 
-    $filePath = Join-Path $paDir $fileName
+    $filePath = Get-UniqueProgramContentFilePath -DirectoryPath $paDir -Title $Title
     $mdContent = Format-MarkdownFrontmatter -ItemId $ItemId -ProgramArea $pa -PubDate $PubDate -EventType $EventType -StartDate $StartDate -EndDate $EndDate -ExpiryDate $ExpiryDate -SubCategories $SelectedSubCategories -Title $Title -Body $BodyText
 
     # Write UTF-8 without BOM or standard UTF8
