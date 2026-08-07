@@ -29,6 +29,8 @@ function Search-ProgramContentEntries
     return @()
   }
 
+  Write-Host "  Searching for program content files in '$ProgramsRoot'..."
+
   $normalizedQuery = if ($null -eq $Query) { '' } else { $Query.Trim() }
   $allEntries = New-Object System.Collections.Generic.List[object]
 
@@ -187,6 +189,8 @@ function Start-EditContentGui
 
   [System.Windows.Forms.Application]::EnableVisualStyles()
 
+  Write-Host "Starting FedCenter Program Content Editor"
+  Write-Host "  Ensuring your content is current..."
   $repoSync = Sync-FedCenterRepository -StartingPath $ProgramsRoot
   if (-not $repoSync.Success)
   {
