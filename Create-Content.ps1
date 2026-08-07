@@ -875,7 +875,8 @@ function Start-ProgramContentGui
   $lblStartDate.Text = "Start Date:"
   $lblStartDate.Anchor = "Left"
   $dtpStartDate = New-Object System.Windows.Forms.DateTimePicker
-  $dtpStartDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
+  $dtpStartDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Custom
+  $dtpStartDate.CustomFormat = "M/d/yyyy HH:mm"
   $dtpStartDate.ShowCheckBox = $true
   $dtpStartDate.Checked = $false
   $dtpStartDate.Dock = "Fill"
@@ -885,7 +886,8 @@ function Start-ProgramContentGui
   $lblEndDate.Text = "End Date:"
   $lblEndDate.Anchor = "Left"
   $dtpEndDate = New-Object System.Windows.Forms.DateTimePicker
-  $dtpEndDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
+  $dtpEndDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Custom
+  $dtpEndDate.CustomFormat = "M/d/yyyy HH:mm"
   $dtpEndDate.ShowCheckBox = $true
   $dtpEndDate.Checked = $false
   $dtpEndDate.Dock = "Fill"
@@ -1099,8 +1101,8 @@ function Start-ProgramContentGui
         # Optional eventType
         $eventType = if ($cbEventType.SelectedIndex -ge 0) { $cbEventType.SelectedItem.ToString() } else { "" }
         # Optional dates
-        $startDate = if ($dtpStartDate.Checked) { $dtpStartDate.Value.ToString("M/d/yyyy") } else { "" }
-        $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString("M/d/yyyy") } else { "" }
+        $startDate = if ($dtpStartDate.Checked) { $dtpStartDate.Value.ToString("M/d/yyyy HH:mm") } else { "" }
+        $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString("M/d/yyyy HH:mm") } else { "" }
         $expiryDate = if ($dtpExpiryDate.Checked) { $dtpExpiryDate.Value.ToString("M/d/yyyy") } else { "" }
 
         $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -SelectedPrograms @($selectedPA) -SelectedSubCategories $selectedSubs -Title $title -BodyText $bodyText -ItemId $txtItemId.Text.Trim() -PubDate $pubDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate

@@ -372,7 +372,8 @@ function Start-EditContentGui
   $lblStartDate.Text = 'Start:'
   $lblStartDate.Anchor = 'Left'
   $dtpStartDate = New-Object System.Windows.Forms.DateTimePicker
-  $dtpStartDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
+  $dtpStartDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Custom
+  $dtpStartDate.CustomFormat = 'M/d/yyyy HH:mm'
   $dtpStartDate.ShowCheckBox = $true
   $dtpStartDate.Checked = $false
   $dtpStartDate.Dock = 'Fill'
@@ -381,7 +382,8 @@ function Start-EditContentGui
   $lblEndDate.Text = 'End:'
   $lblEndDate.Anchor = 'Left'
   $dtpEndDate = New-Object System.Windows.Forms.DateTimePicker
-  $dtpEndDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
+  $dtpEndDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Custom
+  $dtpEndDate.CustomFormat = 'M/d/yyyy HH:mm'
   $dtpEndDate.ShowCheckBox = $true
   $dtpEndDate.Checked = $false
   $dtpEndDate.Dock = 'Fill'
@@ -691,8 +693,8 @@ function Start-EditContentGui
         $pubDate = $dtpPubDate.Value.ToString('M/d/yyyy')
         $expiryDate = if ($dtpExpiryDate.Checked) { $dtpExpiryDate.Value.ToString('M/d/yyyy') } else { '' }
         $eventType = if ($cbEventType.SelectedIndex -ge 0) { $cbEventType.SelectedItem.ToString() } else { '' }
-        $startDate = if ($dtpStartDate.Checked) { $dtpStartDate.Value.ToString('M/d/yyyy') } else { '' }
-        $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString('M/d/yyyy') } else { '' }
+        $startDate = if ($dtpStartDate.Checked) { $dtpStartDate.Value.ToString('M/d/yyyy HH:mm') } else { '' }
+        $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString('M/d/yyyy HH:mm') } else { '' }
 
         Update-ProgramContentGroup -Entries $editorState.LoadedEntries -Title $title -PubDate $pubDate -ExpiryDate $expiryDate -EventType $eventType -StartDate $startDate -EndDate $endDate -BodyText $bodyText
 
