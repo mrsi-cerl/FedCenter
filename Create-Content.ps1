@@ -127,6 +127,174 @@ function Sync-FedCenterRepository
   }
 }
 
+function Invoke-FedCenterContentCommitPush
+{
+  param (
+    [string]$StartingPath = $PSScriptRoot,
+    [System.Windows.Forms.IWin32Window]$ParentWindow = $null,
+    [string]$ContentRelativePath = 'src/content',
+    [string]$DefaultCommitMessage = 'Update program content'
+  )
+
+  $repoRoot = Get-FedCenterRepoRoot -StartingPath $StartingPath
+  if (-not $repoRoot)
+  {
+    [System.Windows.Forms.MessageBox]::Show(
+      $ParentWindow,
+      'Could not locate a git repository root.',
+      'Git Error',
+      [System.Windows.Forms.MessageBoxButtons]::OK,
+      [System.Windows.Forms.MessageBoxIcon]::Error)
+    return
+  }
+
+  $gitStatus = & git -C $repoRoot status --porcelain -- "$ContentRelativePath/**/*.md" "$ContentRelativePath/*.md" 2>&1
+  $stagedLines = $gitStatus | Where-Object { $_ -match '^.{1,2}\s' }
+  if (-not $stagedLines)
+  {
+    [System.Windows.Forms.MessageBox]::Show(
+      $ParentWindow,
+      'No modified Markdown files found under src/content.',
+      'Nothing to Commit',
+      [System.Windows.Forms.MessageBoxButtons]::OK,
+      [System.Windows.Forms.MessageBoxIcon]::Information)
+    return
+  }
+
+  $dlg = New-Object System.Windows.Forms.Form
+  $dlg.Text = 'Publish Changes'
+  $dlg.Size = New-Object System.Drawing.Size(520, 380)
+  $dlg.StartPosition = 'CenterParent'
+  $dlg.FormBorderStyle = 'FixedDialog'
+  $dlg.MaximizeBox = $false
+  $dlg.MinimizeBox = $false
+  $dlg.Font = New-Object System.Drawing.Font('Segoe UI', 9.5)
+
+  $dlgLayout = New-Object System.Windows.Forms.TableLayoutPanel
+  $dlgLayout.Dock = 'Fill'
+  $dlgLayout.RowCount = 4
+  $dlgLayout.ColumnCount = 1
+  $dlgLayout.Padding = New-Object System.Windows.Forms.Padding(10)
+  [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 24)))
+  [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 40)))
+  [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 60)))
+  [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 44)))
+
+  $lblFiles = New-Object System.Windows.Forms.Label
+  $lblFiles.Text = 'Files to be published:'
+  $lblFiles.Dock = 'Fill'
+  $dlgLayout.Controls.Add($lblFiles, 0, 0)
+
+  $lstFiles = New-Object System.Windows.Forms.ListBox
+  $lstFiles.Dock = 'Fill'
+  $lstFiles.Font = New-Object System.Drawing.Font('Consolas', 9.0)
+  foreach ($filePath in ($stagedLines | ForEach-Object { $_.Substring(3).Trim() }))
+  {
+    [void]$lstFiles.Items.Add($filePath)
+  }
+  $dlgLayout.Controls.Add($lstFiles, 0, 1)
+
+  $msgPanel = New-Object System.Windows.Forms.Panel
+  $msgPanel.Dock = 'Fill'
+  $lblMsg = New-Object System.Windows.Forms.Label
+  $lblMsg.Text = 'Change Description:'
+  $lblMsg.Dock = 'Top'
+  $lblMsg.Height = 20
+  $txtMsg = New-Object System.Windows.Forms.TextBox
+  $txtMsg.Dock = 'Fill'
+  $txtMsg.Multiline = $true
+  $txtMsg.ScrollBars = 'Vertical'
+  $txtMsg.Text = $DefaultCommitMessage
+  $msgPanel.Controls.Add($txtMsg)
+  $msgPanel.Controls.Add($lblMsg)
+  $dlgLayout.Controls.Add($msgPanel, 0, 2)
+
+  $dlgButtons = New-Object System.Windows.Forms.FlowLayoutPanel
+  $dlgButtons.Dock = 'Fill'
+  $dlgButtons.FlowDirection = 'RightToLeft'
+  $dlgOK = New-Object System.Windows.Forms.Button
+  $dlgOK.Text = 'Publish Changes'
+  $dlgOK.Size = New-Object System.Drawing.Size(120, 32)
+  $dlgOK.BackColor = [System.Drawing.Color]::FromArgb(34, 139, 34)
+  $dlgOK.ForeColor = [System.Drawing.Color]::White
+  $dlgOK.FlatStyle = 'Flat'
+  $dlgOK.DialogResult = [System.Windows.Forms.DialogResult]::OK
+  $dlgCancel = New-Object System.Windows.Forms.Button
+  $dlgCancel.Text = 'Cancel'
+  $dlgCancel.Size = New-Object System.Drawing.Size(80, 32)
+  $dlgCancel.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
+  $dlgButtons.Controls.Add($dlgOK)
+  $dlgButtons.Controls.Add($dlgCancel)
+  $dlgLayout.Controls.Add($dlgButtons, 0, 3)
+
+  $dlg.Controls.Add($dlgLayout)
+  $dlg.AcceptButton = $dlgOK
+  $dlg.CancelButton = $dlgCancel
+
+  if ($dlg.ShowDialog($ParentWindow) -ne [System.Windows.Forms.DialogResult]::OK)
+  {
+    return
+  }
+
+  $commitMsg = $txtMsg.Text.Trim()
+  if ([string]::IsNullOrWhiteSpace($commitMsg))
+  {
+    [System.Windows.Forms.MessageBox]::Show(
+      $ParentWindow,
+      'Please enter a change description.',
+      'Validation',
+      [System.Windows.Forms.MessageBoxButtons]::OK,
+      [System.Windows.Forms.MessageBoxIcon]::Warning)
+    return
+  }
+
+  $addResult = [pscustomobject]@{
+    Output = (& git -C $repoRoot add -- "$ContentRelativePath/**/*.md" "$ContentRelativePath/*.md" 2>&1)
+    ExitCode = $LASTEXITCODE
+  }
+  if ($addResult.ExitCode -ne 0)
+  {
+    [System.Windows.Forms.MessageBox]::Show(
+      $ParentWindow,
+      "git add failed:`n$($addResult.Output)",
+      'Git Error',
+      [System.Windows.Forms.MessageBoxButtons]::OK,
+      [System.Windows.Forms.MessageBoxIcon]::Error)
+    return
+  }
+
+  $commitOut = & git -C $repoRoot commit -m $commitMsg 2>&1
+  if ($LASTEXITCODE -ne 0)
+  {
+    [System.Windows.Forms.MessageBox]::Show(
+      $ParentWindow,
+      "git commit failed:`n$commitOut",
+      'Git Error',
+      [System.Windows.Forms.MessageBoxButtons]::OK,
+      [System.Windows.Forms.MessageBoxIcon]::Error)
+    return
+  }
+
+  $pushOut = & git -C $repoRoot push 2>&1
+  if ($LASTEXITCODE -ne 0)
+  {
+    [System.Windows.Forms.MessageBox]::Show(
+      $ParentWindow,
+      "git push failed:`n$pushOut",
+      'Git Error',
+      [System.Windows.Forms.MessageBoxButtons]::OK,
+      [System.Windows.Forms.MessageBoxIcon]::Error)
+    return
+  }
+
+  [System.Windows.Forms.MessageBox]::Show(
+    $ParentWindow,
+    'Changes committed and pushed successfully.',
+    'Success',
+    [System.Windows.Forms.MessageBoxButtons]::OK,
+    [System.Windows.Forms.MessageBoxIcon]::Information)
+}
+
 function Get-ProgramAreas
 {
   param (
@@ -858,7 +1026,7 @@ function Start-ProgramContentGui
   $actionPanel.Padding = New-Object System.Windows.Forms.Padding(0, 5, 0, 0)
 
   $btnSave = New-Object System.Windows.Forms.Button
-  $btnSave.Text = "Save Markdown"
+  $btnSave.Text = "Save Content"
   $btnSave.Size = New-Object System.Drawing.Size(140, 36)
   $btnSave.BackColor = [System.Drawing.Color]::FromArgb(30, 100, 180)
   $btnSave.ForeColor = [System.Drawing.Color]::White
@@ -866,7 +1034,7 @@ function Start-ProgramContentGui
   $btnSave.FlatStyle = "Flat"
 
   $btnCommit = New-Object System.Windows.Forms.Button
-  $btnCommit.Text = "Commit & Push"
+  $btnCommit.Text = "Publish Changes"
   $btnCommit.Size = New-Object System.Drawing.Size(130, 36)
   $btnCommit.BackColor = [System.Drawing.Color]::FromArgb(34, 139, 34)
   $btnCommit.ForeColor = [System.Drawing.Color]::White
@@ -883,15 +1051,15 @@ function Start-ProgramContentGui
   $btnExit.Size = New-Object System.Drawing.Size(90, 36)
   $btnExit.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
 
-  $btnLoad = New-Object System.Windows.Forms.Button
-  $btnLoad.Text = "Load File"
-  $btnLoad.Size = New-Object System.Drawing.Size(100, 36)
-  $btnLoad.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
+  # $btnLoad = New-Object System.Windows.Forms.Button
+  # $btnLoad.Text = "Load File"
+  # $btnLoad.Size = New-Object System.Drawing.Size(100, 36)
+  # $btnLoad.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
 
   $actionPanel.Controls.Add($btnSave)
   $actionPanel.Controls.Add($btnCommit)
   $actionPanel.Controls.Add($btnClear)
-  $actionPanel.Controls.Add($btnLoad)
+  # $actionPanel.Controls.Add($btnLoad)
   $actionPanel.Controls.Add($btnExit)
 
   $mainPanel.Controls.Add($actionPanel, 0, 3)
@@ -967,240 +1135,112 @@ function Start-ProgramContentGui
       $txtItemId.Text = $currentItemId
     })
 
-  $btnLoad.add_Click({
-      $ofd = New-Object System.Windows.Forms.OpenFileDialog
-      $ofd.Title = "Open Program Content File"
-      $ofd.Filter = "Markdown Files (*.md)|*.md"
-      $ofd.InitialDirectory = $ProgramsRoot
-      if ($ofd.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) { return }
+  # $btnLoad.add_Click({
+  #     $ofd = New-Object System.Windows.Forms.OpenFileDialog
+  #     $ofd.Title = "Open Program Content File"
+  #     $ofd.Filter = "Markdown Files (*.md)|*.md"
+  #     $ofd.InitialDirectory = $ProgramsRoot
+  #     if ($ofd.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) { return }
 
-      try
-      {
-        $parsed = Read-ProgramContentFile -FilePath $ofd.FileName
-        $currentItemId = if ([string]::IsNullOrWhiteSpace($parsed.ItemId))
-        {
-          Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
-        }
-        else
-        {
-          $parsed.ItemId
-        }
-        $txtItemId.Text = $currentItemId
+  #     try
+  #     {
+  #       $parsed = Read-ProgramContentFile -FilePath $ofd.FileName
+  #       $currentItemId = if ([string]::IsNullOrWhiteSpace($parsed.ItemId))
+  #       {
+  #         Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
+  #       }
+  #       else
+  #       {
+  #         $parsed.ItemId
+  #       }
+  #       $txtItemId.Text = $currentItemId
 
-        # --- Title ---
-        $txtTitle.Text = $parsed.Title
+  #       # --- Title ---
+  #       $txtTitle.Text = $parsed.Title
 
-        # --- Program Area ---
-        $lstPrograms.ClearSelected()
-        $paIdx = $lstPrograms.FindStringExact($parsed.ProgramArea)
-        if ($paIdx -ge 0) { $lstPrograms.SelectedIndex = $paIdx }
+  #       # --- Program Area ---
+  #       $lstPrograms.ClearSelected()
+  #       $paIdx = $lstPrograms.FindStringExact($parsed.ProgramArea)
+  #       if ($paIdx -ge 0) { $lstPrograms.SelectedIndex = $paIdx }
 
-        # --- SubCategories (after PA triggers population) ---
-        # Give the SelectedIndexChanged handler a moment to populate the list
-        [System.Windows.Forms.Application]::DoEvents()
-        for ($i = 0; $i -lt $lstSubCategories.Items.Count; $i++)
-        {
-          $isChecked = $parsed.SubCategories -contains $lstSubCategories.Items[$i].ToString()
-          $lstSubCategories.SetItemChecked($i, $isChecked)
-        }
-        # Add any subcategories from the file that weren't already in the list
-        foreach ($sc in $parsed.SubCategories)
-        {
-          $found = $false
-          for ($i = 0; $i -lt $lstSubCategories.Items.Count; $i++)
-          {
-            if ($lstSubCategories.Items[$i].ToString() -ieq $sc) { $found = $true; break }
-          }
-          if (-not $found)
-          {
-            $idx = $lstSubCategories.Items.Add($sc)
-            $lstSubCategories.SetItemChecked($idx, $true)
-          }
-        }
+  #       # --- SubCategories (after PA triggers population) ---
+  #       # Give the SelectedIndexChanged handler a moment to populate the list
+  #       [System.Windows.Forms.Application]::DoEvents()
+  #       for ($i = 0; $i -lt $lstSubCategories.Items.Count; $i++)
+  #       {
+  #         $isChecked = $parsed.SubCategories -contains $lstSubCategories.Items[$i].ToString()
+  #         $lstSubCategories.SetItemChecked($i, $isChecked)
+  #       }
+  #       # Add any subcategories from the file that weren't already in the list
+  #       foreach ($sc in $parsed.SubCategories)
+  #       {
+  #         $found = $false
+  #         for ($i = 0; $i -lt $lstSubCategories.Items.Count; $i++)
+  #         {
+  #           if ($lstSubCategories.Items[$i].ToString() -ieq $sc) { $found = $true; break }
+  #         }
+  #         if (-not $found)
+  #         {
+  #           $idx = $lstSubCategories.Items.Add($sc)
+  #           $lstSubCategories.SetItemChecked($idx, $true)
+  #         }
+  #       }
 
-        # --- Pub Date ---
-        # Use try/catch rather than [datetime]::TryParse([ref]) which fails inside PS script blocks
-        try { $dtpPubDate.Value = [datetime]::Parse($parsed.PubDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")) }
-        catch { $dtpPubDate.Value = Get-Date }
+  #       # --- Pub Date ---
+  #       # Use try/catch rather than [datetime]::TryParse([ref]) which fails inside PS script blocks
+  #       try { $dtpPubDate.Value = [datetime]::Parse($parsed.PubDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")) }
+  #       catch { $dtpPubDate.Value = Get-Date }
 
-        Write-Host "Parsed pub date: $($dtpPubDate.Value)"
+  #       Write-Host "Parsed pub date: $($dtpPubDate.Value)"
 
-        # --- Event Type ---
-        if (-not [string]::IsNullOrWhiteSpace($parsed.EventType))
-        {
-          $eventType = ($parsed.EventType).Trim()
-          # if eventType is not in our list, set to 'Other'
-          if ($eventType -notin $cbEventType.Items) { $eventType = 'Other' }
-          $cbEventType.SelectedItem = $eventType
-        }
-        # --- Optional dates ---
-        if (-not [string]::IsNullOrWhiteSpace($parsed.StartDate))
-        {
-          try { $dtpStartDate.Value = [datetime]::Parse($parsed.StartDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpStartDate.Checked = $true }
-          catch { $dtpStartDate.Checked = $false }
-        }
-        else { $dtpStartDate.Checked = $false }
+  #       # --- Event Type ---
+  #       if (-not [string]::IsNullOrWhiteSpace($parsed.EventType))
+  #       {
+  #         $eventType = ($parsed.EventType).Trim()
+  #         # if eventType is not in our list, set to 'Other'
+  #         if ($eventType -notin $cbEventType.Items) { $eventType = 'Other' }
+  #         $cbEventType.SelectedItem = $eventType
+  #       }
+  #       # --- Optional dates ---
+  #       if (-not [string]::IsNullOrWhiteSpace($parsed.StartDate))
+  #       {
+  #         try { $dtpStartDate.Value = [datetime]::Parse($parsed.StartDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpStartDate.Checked = $true }
+  #         catch { $dtpStartDate.Checked = $false }
+  #       }
+  #       else { $dtpStartDate.Checked = $false }
 
-        if (-not [string]::IsNullOrWhiteSpace($parsed.EndDate))
-        {
-          try { $dtpEndDate.Value = [datetime]::Parse($parsed.EndDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpEndDate.Checked = $true }
-          catch { $dtpEndDate.Checked = $false }
-        }
-        else { $dtpEndDate.Checked = $false }
+  #       if (-not [string]::IsNullOrWhiteSpace($parsed.EndDate))
+  #       {
+  #         try { $dtpEndDate.Value = [datetime]::Parse($parsed.EndDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpEndDate.Checked = $true }
+  #         catch { $dtpEndDate.Checked = $false }
+  #       }
+  #       else { $dtpEndDate.Checked = $false }
 
-        if (-not [string]::IsNullOrWhiteSpace($parsed.ExpiryDate))
-        {
-          try { $dtpExpiryDate.Value = [datetime]::Parse($parsed.ExpiryDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpExpiryDate.Checked = $true }
-          catch { $dtpExpiryDate.Checked = $false }
-        }
-        else { $dtpExpiryDate.Checked = $false }
+  #       if (-not [string]::IsNullOrWhiteSpace($parsed.ExpiryDate))
+  #       {
+  #         try { $dtpExpiryDate.Value = [datetime]::Parse($parsed.ExpiryDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")); $dtpExpiryDate.Checked = $true }
+  #         catch { $dtpExpiryDate.Checked = $false }
+  #       }
+  #       else { $dtpExpiryDate.Checked = $false }
 
-        # --- Body ---
-        $rtbContent.Text = $parsed.Body
+  #       # --- Body ---
+  #       $rtbContent.Text = $parsed.Body
 
-        $form.Text = "FedCenter - Editing: " + [System.IO.Path]::GetFileName($ofd.FileName)
-      }
-      catch
-      {
-        [System.Windows.Forms.MessageBox]::Show(
-          "Failed to load file:`n$_", "Load Error",
-          [System.Windows.Forms.MessageBoxButtons]::OK,
-          [System.Windows.Forms.MessageBoxIcon]::Error)
-      }
-    })
+  #       $form.Text = "FedCenter - Editing: " + [System.IO.Path]::GetFileName($ofd.FileName)
+  #     }
+  #     catch
+  #     {
+  #       [System.Windows.Forms.MessageBox]::Show(
+  #         "Failed to load file:`n$_", "Load Error",
+  #         [System.Windows.Forms.MessageBoxButtons]::OK,
+  #         [System.Windows.Forms.MessageBoxIcon]::Error)
+  #     }
+  #   })
 
   $btnCommit.add_Click({
       try
       {
-        # Determine the repo root from the programs root path
-        $repoRoot = Get-FedCenterRepoRoot -StartingPath $ProgramsRoot
-        if (-not $repoRoot)
-        {
-          [System.Windows.Forms.MessageBox]::Show(
-            "Could not locate a git repository root.", "Git Error",
-            [System.Windows.Forms.MessageBoxButtons]::OK,
-            [System.Windows.Forms.MessageBoxIcon]::Error)
-          return
-        }
-
-        # Collect only *.md files under src/content that have changes
-        $contentRelPath = 'src/content'
-        $gitStatus = & git -C $repoRoot status --porcelain -- "$contentRelPath/**/*.md" "$contentRelPath/*.md" 2>&1
-        $stagedLines = $gitStatus | Where-Object { $_ -match '^.{1,2}\s' }
-        if (-not $stagedLines)
-        {
-          [System.Windows.Forms.MessageBox]::Show(
-            "No modified Markdown files found under src/content.", "Nothing to Commit",
-            [System.Windows.Forms.MessageBoxButtons]::OK,
-            [System.Windows.Forms.MessageBoxIcon]::Information)
-          return
-        }
-
-        # --- Build commit-message dialog ---
-        $dlg = New-Object System.Windows.Forms.Form
-        $dlg.Text = "Commit & Push Content Changes"
-        $dlg.Size = New-Object System.Drawing.Size(520, 380)
-        $dlg.StartPosition = "CenterParent"
-        $dlg.FormBorderStyle = "FixedDialog"
-        $dlg.MaximizeBox = $false
-        $dlg.MinimizeBox = $false
-        $dlg.Font = New-Object System.Drawing.Font("Segoe UI", 9.5)
-
-        $dlgLayout = New-Object System.Windows.Forms.TableLayoutPanel
-        $dlgLayout.Dock = "Fill"
-        $dlgLayout.RowCount = 4
-        $dlgLayout.ColumnCount = 1
-        $dlgLayout.Padding = New-Object System.Windows.Forms.Padding(10)
-        [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 24)))
-        [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 40)))
-        [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 60)))
-        [void]$dlgLayout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 44)))
-
-        $lblFiles = New-Object System.Windows.Forms.Label
-        $lblFiles.Text = "Files to be committed:"
-        $lblFiles.Dock = "Fill"
-        $dlgLayout.Controls.Add($lblFiles, 0, 0)
-
-        $lstFiles = New-Object System.Windows.Forms.ListBox
-        $lstFiles.Dock = "Fill"
-        $lstFiles.Font = New-Object System.Drawing.Font("Consolas", 9.0)
-        foreach ($f in ($stagedLines | ForEach-Object { $_.Substring(3).Trim() })) { [void]$lstFiles.Items.Add($f) }
-        $dlgLayout.Controls.Add($lstFiles, 0, 1)
-
-        $msgPanel = New-Object System.Windows.Forms.Panel
-        $msgPanel.Dock = "Fill"
-        $lblMsg = New-Object System.Windows.Forms.Label
-        $lblMsg.Text = "Commit message:"
-        $lblMsg.Dock = "Top"
-        $lblMsg.Height = 20
-        $txtMsg = New-Object System.Windows.Forms.TextBox
-        $txtMsg.Dock = "Fill"
-        $txtMsg.Multiline = $true
-        $txtMsg.ScrollBars = "Vertical"
-        $txtMsg.Text = "Update program content"
-        $msgPanel.Controls.Add($txtMsg)
-        $msgPanel.Controls.Add($lblMsg)
-        $dlgLayout.Controls.Add($msgPanel, 0, 2)
-
-        $dlgButtons = New-Object System.Windows.Forms.FlowLayoutPanel
-        $dlgButtons.Dock = "Fill"
-        $dlgButtons.FlowDirection = "RightToLeft"
-        $dlgOK = New-Object System.Windows.Forms.Button
-        $dlgOK.Text = "Commit & Push"
-        $dlgOK.Size = New-Object System.Drawing.Size(120, 32)
-        $dlgOK.BackColor = [System.Drawing.Color]::FromArgb(34, 139, 34)
-        $dlgOK.ForeColor = [System.Drawing.Color]::White
-        $dlgOK.FlatStyle = "Flat"
-        $dlgOK.DialogResult = [System.Windows.Forms.DialogResult]::OK
-        $dlgCancel = New-Object System.Windows.Forms.Button
-        $dlgCancel.Text = "Cancel"
-        $dlgCancel.Size = New-Object System.Drawing.Size(80, 32)
-        $dlgCancel.DialogResult = [System.Windows.Forms.DialogResult]::Cancel
-        $dlgButtons.Controls.Add($dlgOK)
-        $dlgButtons.Controls.Add($dlgCancel)
-        $dlgLayout.Controls.Add($dlgButtons, 0, 3)
-
-        $dlg.Controls.Add($dlgLayout)
-        $dlg.AcceptButton = $dlgOK
-        $dlg.CancelButton = $dlgCancel
-
-        if ($dlg.ShowDialog($form) -ne [System.Windows.Forms.DialogResult]::OK) { return }
-
-        $commitMsg = $txtMsg.Text.Trim()
-        if ([string]::IsNullOrWhiteSpace($commitMsg))
-        {
-          [System.Windows.Forms.MessageBox]::Show(
-            "Please enter a commit message.", "Validation",
-            [System.Windows.Forms.MessageBoxButtons]::OK,
-            [System.Windows.Forms.MessageBoxIcon]::Warning)
-          return
-        }
-
-        # Stage only src/content/**/*.md files, then commit and push
-        $addOut    = & git -C $repoRoot add -- "$contentRelPath/**/*.md" "$contentRelPath/*.md" 2>&1
-        $commitOut = & git -C $repoRoot commit -m $commitMsg 2>&1
-        if ($LASTEXITCODE -ne 0)
-        {
-          [System.Windows.Forms.MessageBox]::Show(
-            "git commit failed:`n$commitOut", "Git Error",
-            [System.Windows.Forms.MessageBoxButtons]::OK,
-            [System.Windows.Forms.MessageBoxIcon]::Error)
-          return
-        }
-        $pushOut = & git -C $repoRoot push 2>&1
-        if ($LASTEXITCODE -ne 0)
-        {
-          [System.Windows.Forms.MessageBox]::Show(
-            "git push failed:`n$pushOut", "Git Error",
-            [System.Windows.Forms.MessageBoxButtons]::OK,
-            [System.Windows.Forms.MessageBoxIcon]::Error)
-          return
-        }
-
-        [System.Windows.Forms.MessageBox]::Show(
-          "Changes committed and pushed successfully.", "Success",
-          [System.Windows.Forms.MessageBoxButtons]::OK,
-          [System.Windows.Forms.MessageBoxIcon]::Information)
+        Invoke-FedCenterContentCommitPush -StartingPath $ProgramsRoot -ParentWindow $form
       }
       catch
       {
