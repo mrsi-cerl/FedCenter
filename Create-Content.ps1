@@ -796,7 +796,7 @@ function Start-ProgramContentGui
 
   # 4. Details & Content Editor Group Box (Spans Row 2 across both columns)
   $grpContent = New-Object System.Windows.Forms.GroupBox
-  $grpContent.Text = "3. Entry Details & Content"
+  $grpContent.Text = "3. Entry Details \& Content"
   $grpContent.Dock = "Fill"
   $grpContent.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
 
@@ -1071,6 +1071,7 @@ function Start-ProgramContentGui
   $btnSave.add_Click({
       try
       {
+        $grpContent.Enabled = $false
         $selectedPA = $lstPrograms.SelectedItem
         if ([string]::IsNullOrWhiteSpace($selectedPA))
         {
@@ -1133,6 +1134,9 @@ function Start-ProgramContentGui
         Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
       }
       $txtItemId.Text = $currentItemId
+
+      # enable content inputs for new item
+      $grpContent.Enabled = $true
     })
 
   # $btnLoad.add_Click({
