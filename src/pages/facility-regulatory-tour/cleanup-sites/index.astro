@@ -1,11 +1,11 @@
 ---
+import FacilityTourArea from "@/layouts/FacilityTourArea.astro";
 import Card from "../../../components/Card.astro";
-import RootLayout from "../../../layouts/RootLayout.astro";
 
 const pageTitle = "Cleanup Sites";
 ---
 
-<RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
+<FacilityTourArea pageTitle={pageTitle} showBreadcrumb={true}>
   <div class="usa-prose">
     <p>
       The clean up or restoration of land, buildings and waterways which have
@@ -67,4 +67,4 @@ const pageTitle = "Cleanup Sites";
       </p>
     </Card>
   </ul>
-</RootLayout>
+</FacilityTourArea>

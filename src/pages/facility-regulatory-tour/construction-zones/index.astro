@@ -1,12 +1,12 @@
 ---
+import FacilityTourArea from "@/layouts/FacilityTourArea.astro";
 import Card from "../../../components/Card.astro";
-import RootLayout from "../../../layouts/RootLayout.astro";
 
 const pageTitle = "Construction Zones";
 const rootPath = "construction-zones/";
 ---
 
-<RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
+<FacilityTourArea pageTitle={pageTitle} showBreadcrumb={true}>
   <div class="usa-prose">
     <p>
       Areas, sites, locations and facilities where construction, renovation, or
@@ -70,4 +70,4 @@ const rootPath = "construction-zones/";
       </p>
     </Card>
   </ul>
-</RootLayout>
+</FacilityTourArea>
