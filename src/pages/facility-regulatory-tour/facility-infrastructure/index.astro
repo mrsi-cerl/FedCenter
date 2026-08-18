@@ -1,0 +1,73 @@
+---
+import FacilityTourArea from "@/layouts/FacilityTourArea.astro";
+import Card from "../../../components/Card.astro";
+
+const pageTitle = "Facility Infrastructure";
+const rootPath = "facility-infrastructure/";
+---
+
+<FacilityTourArea pageTitle={pageTitle} showBreadcrumb={true}>
+  <div class="usa-prose">
+    <p>
+      Facilities infrastructure maintenance addresses those support activities
+      and processes which are a part of the operation and maintenance of a
+      Federal Facility. This includes: painting, metal working, carpentry,
+      lead-based paint, electrical, fabric care, heating and cooling systems,
+      and asbestos.
+    </p>
+  </div>
+
+  <div class="mobile-lg:grid-col-4">
+    <h3 class="site-preview-heading margin-0">Focus Areas</h3>
+    <ul class="usa-list">
+      <li>
+        <a class="usa-link" href={rootPath + "fabric-care"}>Fabric Care</a>
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "hvac"}>HVAC</a>
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "lead-based-paint"}
+          >Lead-based Paint</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "metal-shop"}>Metal Shop</a>
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "paint-shop"}>Paint Shop</a>
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "wood-shop"}>Wood Shop</a>
+      </li>
+    </ul>
+  </div>
+  <h2>Focus Areas</h2>
+  <ul class="usa-card-group">
+    <Card
+      cardTitle="Asbestos"
+      buttonTitle="Asbestos Removal"
+      link={rootPath + "asbestos"}
+    >
+      <p>
+        The removal or management in place of asbestos has to be considered
+        whenever renovation or demolition activities and when materials that
+        commonly contain asbestos are disturbed during maintenance activities
+        (i.e. insulation around boilers).
+      </p>
+    </Card>
+    <Card
+      cardTitle="Electrical Shops"
+      buttonTitle="Learn More"
+      link={rootPath + "electrical-shops"}
+    >
+      <p>
+        The management of hazardous materials used, waste streams generated, and
+        the handling of PCBs in electrical repair/installation activities for
+        the maintenance of the facility and facility components. Electrical
+        shops service an extensive range of products including computers, fax
+        machines, televisions, and transformers.
+      </p>
+    </Card>
+  </ul>
+</FacilityTourArea>
