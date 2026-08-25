@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2529'
+link: https://www.epa.gov/waterdata/beacon-20-beach-advisory-and-closing-online-notification
 programArea: Natural Resources
-pubDate: 7/27/2005
+publishDate: 7/27/2005
 subCategory:
 - Databases and Software Tools
 title: BEACON - Beach Advisory and Closing On-line (BEACON)

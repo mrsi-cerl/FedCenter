@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15665'
+link: Utility partner.pdf
 programArea: Energy
-pubDate: 7/29/2010
+publishDate: 7/29/2010
 subCategory:
 - Training, Presentations, and Briefings
 title: Partnering With Utilities to Meet Your Energy Goals

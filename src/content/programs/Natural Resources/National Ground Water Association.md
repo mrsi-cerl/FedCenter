@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1176'
+link: http://www.ngwa.org/
 programArea: Natural Resources
-pubDate: 3/28/2005
+publishDate: 3/28/2005
 subCategory:
 - Organizations
 title: National Ground Water Association

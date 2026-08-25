@@ -1,9 +1,11 @@
 ---
+expiryDate: null
 item_id: '18018'
+link: http://www.army.mil/-news/2011/04/20/55280-army-launches-net-zero-pilot-program/
 programArea: Natural Resources
-pubDate: 5/17/2011
+publishDate: 5/17/2011
 subCategory:
-- Water Conservation
+- <A name=watercons></A>Water Conservation
 title: Army's Net Zero Pilot Program
 ---
 

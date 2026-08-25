@@ -1,8 +1,11 @@
 ---
+expiryDate: null
 item_id: '28608'
+link: https://www.epa.gov/endangered-species/endangered-species-protection-bulletins
 programArea: Natural Resources
-pubDate: 10/13/2015
+publishDate: 10/13/2015
 subCategory:
+- Directories, Catalogs, and Newsletters
 - Endangered/Threatened Species
 title: Endangered Species Protection Bulletins
 ---

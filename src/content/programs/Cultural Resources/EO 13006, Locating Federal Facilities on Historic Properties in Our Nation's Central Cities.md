@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15483'
+link: http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=1996\_register&docid=fr24my96-154.pdf
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - National Executive Orders
 title: EO 13006, Locating Federal Facilities on Historic Properties in Our Nation's

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22888'
+link: https://www.fs.usda.gov/research/treesearch/66413
 programArea: Natural Resources
-pubDate: 1/9/2013
+publishDate: 1/9/2013
 subCategory:
 - Land Management
 title: 'Future of America''s Forest and Rangelands: Forest Service 2020 Resources

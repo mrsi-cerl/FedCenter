@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '876'
+link: https://echo.epa.gov/tools/web-services/facility-search-air
 programArea: Chemical Management
-pubDate: 2/10/2005
+publishDate: 2/10/2005
 subCategory:
 - Databases and Software Tools
 title: Facility Search - Air

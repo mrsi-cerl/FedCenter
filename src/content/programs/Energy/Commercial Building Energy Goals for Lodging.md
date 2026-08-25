@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13868'
+link: http://www.pnl.gov/main/publications/external/technical\_reports/PNNL-18773.pdf
 programArea: Energy
-pubDate: 10/29/2009
+publishDate: 10/29/2009
 subCategory:
 - Energy Conservation
 title: Commercial Building Energy Goals for Lodging

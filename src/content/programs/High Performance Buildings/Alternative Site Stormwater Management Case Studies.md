@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41024'
+link: https://www.epa.gov/npdes/alternative-site-stormwater-management-case-studies
 programArea: High Performance Buildings
-pubDate: 6/15/2023
+publishDate: 6/15/2023
 subCategory:
 - Case Studies
 title: Alternative Site Stormwater Management Case Studies

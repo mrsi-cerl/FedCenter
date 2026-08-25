@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '21101'
+link: https://www.ashrae.org/technical-resources/aedgs/50-percent-aedg-free-download
 programArea: High Performance Buildings
-pubDate: 5/10/2012
+publishDate: 5/10/2012
 subCategory:
 - Construction Guidelines and Criteria
 title: Advanced Energy Design Guide for Large Hospitals

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7351'
+link: http://energy.gov/eere/femp/articles/model-acquisition-language-energy-efficient-product-contracts
 programArea: Acquisition
-pubDate: 5/28/2007
+publishDate: 5/28/2007
 subCategory:
 - Contract and Procurement Language
 title: ENERGY STAR® Model Language for Acquisition

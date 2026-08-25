@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '8768'
+link: http://www.epa.gov/lawsregs/
 programArea: Environmental Compliance
-pubDate: 1/3/2008
+publishDate: 1/3/2008
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Laws, Regulations, Guidance and Dockets
 ---
 

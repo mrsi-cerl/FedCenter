@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '34310'
+link: Recommendation 30 FFA Amendment  to Place FFAS on Hold Option 2  7-1-2019.pdf
 programArea: Cleanup
-pubDate: 7/24/2019
+publishDate: 7/24/2019
 subCategory:
 - Superfund Task Force
 title: Recommendation 30 Federal Facilities Agreement (FFA) Amendment to Place FFAs

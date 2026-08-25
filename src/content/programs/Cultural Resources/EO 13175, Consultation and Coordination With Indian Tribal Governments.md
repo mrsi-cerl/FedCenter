@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20630'
+link: https://www.federalregister.gov/d/00-29003
 programArea: Cultural Resources
-pubDate: 3/19/2012
+publishDate: 3/19/2012
 subCategory:
 - National Executive Orders
 title: EO 13175, Consultation and Coordination With Indian Tribal Governments

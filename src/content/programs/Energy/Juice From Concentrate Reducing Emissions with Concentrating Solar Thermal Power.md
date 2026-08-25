@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13088'
+link: http://www.wri.org/publication/juice-from-concentrate
 programArea: Energy
-pubDate: 7/8/2009
+publishDate: 7/8/2009
 subCategory:
 - ' Alternative Energy'
 title: 'Juice From Concentrate: Reducing Emissions with Concentrating Solar Thermal

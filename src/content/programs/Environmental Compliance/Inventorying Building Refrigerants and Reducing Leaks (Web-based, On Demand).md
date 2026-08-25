@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '42997'
+link: Web-based, On Demand
 programArea: Environmental Compliance
-pubDate: 2/27/2025
+publishDate: 2/27/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: Inventorying Building Refrigerants and Reducing Leaks (Web-based, On Demand)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43750'
+link: https://itrcweb.org/vapor-intrusion-toolkit/
 programArea: Cleanup
-pubDate: 1/28/2026
+publishDate: 1/28/2026
 subCategory:
 - Databases and Software Tools
 title: Vapor Intrusion Toolkit

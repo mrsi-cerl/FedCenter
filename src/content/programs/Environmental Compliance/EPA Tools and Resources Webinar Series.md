@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43069'
+link: https://www.epa.gov/research-states/epa-tools-and-resources-webinar-series
 programArea: Environmental Compliance
-pubDate: 3/14/2025
+publishDate: 3/14/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: EPA Tools and Resources Webinar Series

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10867'
+link: http://www.epa.gov/egrid
 programArea: Greenhouse Gases
-pubDate: 10/31/2008
+publishDate: 10/31/2008
 subCategory:
 - Databases and Software Tools
 title: Emissions & Generation Resource Integrated Database (eGRID)

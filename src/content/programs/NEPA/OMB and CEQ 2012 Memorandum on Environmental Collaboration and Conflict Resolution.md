@@ -1,7 +1,11 @@
 ---
+expiryDate: null
 item_id: '28438'
+link: https://www.energy.gov/oha/services/applications-exceptions/alternative-dispute-resolution/environmental-conflict#:~:text=In
+  September 2012, the Council on Environmental Quality,and the goals identified in
+  related policy guid
 programArea: NEPA
-pubDate: 9/16/2015
+publishDate: 9/16/2015
 subCategory:
 - CEQ
 title: OMB and CEQ 2012 Memorandum on Environmental Collaboration and Conflict Resolution

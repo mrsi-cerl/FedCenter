@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43307'
+link: https://www.acquisition.gov/sites/default/files/far-part-10-market-research/content/index.html?utm\_medium=email&utm\_source=govdelivery#/
 programArea: Acquisition
-pubDate: 6/9/2025
+publishDate: 6/9/2025
 subCategory:
 - Databases and Software Tools
 title: FAR Practitioner Album

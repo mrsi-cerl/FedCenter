@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22824'
+link: https://www.epa.gov/sites/default/files/documents/tenants-bfpp-2012\_0.pdf
 programArea: Cleanup
-pubDate: 1/3/2013
+publishDate: 1/3/2013
 subCategory:
 - Regulations, Guidance, and Policy
 title: Revised Enforcement Guidance Regarding the Treatment of Tenants Under CERCLA

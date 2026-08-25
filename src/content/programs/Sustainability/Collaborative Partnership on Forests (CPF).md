@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3467'
+link: https://www.fao.org/collaborative-partnership-on-forests/en
 programArea: Sustainability
-pubDate: 11/21/2005
+publishDate: 11/21/2005
 subCategory:
 - Organizations
 title: Collaborative Partnership on Forests (CPF)

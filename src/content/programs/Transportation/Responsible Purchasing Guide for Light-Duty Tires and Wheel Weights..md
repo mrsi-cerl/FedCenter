@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11355'
+link: http://www.responsiblepurchasing.org/purchasing\_guides/tires/index.php
 programArea: Transportation
-pubDate: 1/26/2009
+publishDate: 1/26/2009
 subCategory:
 - Acquisition
 title: Responsible Purchasing Guide for Light-Duty Tires and Wheel Weights.

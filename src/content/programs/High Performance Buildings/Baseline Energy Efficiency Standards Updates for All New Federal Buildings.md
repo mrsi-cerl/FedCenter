@@ -1,11 +1,13 @@
 ---
+expiryDate: null
 item_id: '39548'
+link: http://origin-www.gsa.gov/system/files/Federal\_Bldg\_Efficiency Rules - Baker-4-14-22
+  r1.pdf
 programArea: High Performance Buildings
-pubDate: 5/13/2022
+publishDate: 5/13/2022
 subCategory:
 - Conferences and Events
 - Guidance & Policy
-- High Perf Bldgs News
 title: Baseline Energy Efficiency Standards Updates for All New Federal Buildings
 ---
 

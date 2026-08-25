@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5342'
+link: http://purl.access.gpo.gov/GPO/LPS71869
 programArea: Cleanup
-pubDate: 6/15/2006
+publishDate: 6/15/2006
 subCategory:
 - Substances of Concern
 title: Tire Cleanup Guidebook

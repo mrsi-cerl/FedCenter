@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15046'
+link: Bicycle-Commuting.pdf
 programArea: Transportation
-pubDate: 5/25/2010
+publishDate: 5/25/2010
 subCategory:
 - Petroleum Alternatives
 title: Implementing a Successful Bicycle and Active Commuting Program in the Washington,

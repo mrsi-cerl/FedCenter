@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33821'
+link: https://www.tandfonline.com/doi/full/10.1080/17597269.2018.1546488
 programArea: Greenhouse Gases
-pubDate: 4/2/2019
+publishDate: 4/2/2019
 subCategory:
 - Case Studies
 title: The Greenhouse Gas Benefits of Corn Ethanol – Assessing Recent Evidence

@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '18744'
+link: http://www.cdc.gov/climate-health/media/pdfs/HHCC\_Final\_508.pdf
 programArea: Climate Resilience
-pubDate: 7/5/2011
+publishDate: 7/5/2011
 subCategory:
-- Case Studies
 - Construction Design
+- Case Studies
 title: 'A Human Health Perspective on Climate Change: A Report Outlining the Research
   Needs on the Human Health Effects of Climate Change'
 ---

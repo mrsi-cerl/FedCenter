@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13299'
+link: http://www.ipcc.ch/
 programArea: Climate Resilience
-pubDate: 8/18/2009
+publishDate: 8/18/2009
 subCategory:
 - Construction Design
 - Organizations and Programs

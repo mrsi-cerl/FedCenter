@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18252'
+link: https://www.epa.gov/waterreuse
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
 - Implementation Guidance
 title: Water Recycling and Reuse

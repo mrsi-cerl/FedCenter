@@ -1,8 +1,11 @@
 ---
+expiryDate: null
 item_id: '33200'
+link: https://www.epa.gov/smm-electronics/certified-electronics-recyclers
 programArea: Electronics Stewardship
-pubDate: 10/31/2018
+publishDate: 10/31/2018
 subCategory:
+- Libraries and Repositories
 - Organizations
 title: Certified Electronics Recyclers
 ---

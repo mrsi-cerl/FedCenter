@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1607'
+link: https://www.acquisition.gov/far/part-23
 programArea: Electronics Stewardship
-pubDate: 5/4/2005
+publishDate: 5/4/2005
 subCategory:
 - Regulations, Guidance, and Policy
 title: Federal Acquisition Regulations (FAR) Part 23

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22197'
+link: http://cfpub.epa.gov/ncea/global/recordisplay.cfm?deid=203460
 programArea: Climate Resilience
-pubDate: 9/10/2012
+publishDate: 9/10/2012
 subCategory:
 - Construction Design
 - Databases and Software Tools

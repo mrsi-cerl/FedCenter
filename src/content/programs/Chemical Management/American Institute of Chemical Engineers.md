@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1070'
+link: http://www.aiche.org/
 programArea: Chemical Management
-pubDate: 3/21/2005
+publishDate: 3/21/2005
 subCategory:
 - Organizations
 title: American Institute of Chemical Engineers

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '758'
+link: https://www.dla.mil/Portals/104/Documents/Aviation/Commodities/AV\_Re-refinedOil%20Brochure\_170525.pdf
 programArea: Transportation
-pubDate: 2/3/2005
+publishDate: 2/3/2005
 subCategory:
 - Pollution Prevention Opportunities
 title: DLA Re-refined Motor Oil Program

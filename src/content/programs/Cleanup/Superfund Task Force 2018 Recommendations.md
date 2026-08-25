@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32903'
+link: https://semspub.epa.gov/work/HQ/197209.pdf
 programArea: Cleanup
-pubDate: 8/3/2018
+publishDate: 8/3/2018
 subCategory:
 - Superfund Task Force
 title: Superfund Task Force 2018 Recommendations

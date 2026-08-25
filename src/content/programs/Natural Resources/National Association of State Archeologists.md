@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16260'
+link: https://sites.google.com/view/state-archaeologists
 programArea: Natural Resources
-pubDate: 9/16/2010
+publishDate: 9/16/2010
 subCategory:
 - Organizations
 title: National Association of State Archeologists

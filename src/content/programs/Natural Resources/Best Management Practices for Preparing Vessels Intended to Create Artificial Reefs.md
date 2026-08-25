@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4884'
+link: http://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=901V1600.txt
 programArea: Natural Resources
-pubDate: 5/9/2006
+publishDate: 5/9/2006
 subCategory:
 - Coastal Zones
 title: Best Management Practices for Preparing Vessels Intended to Create Artificial

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '767'
+link: http://www.energystar.gov/
 programArea: Energy
-pubDate: 2/3/2005
+publishDate: 2/3/2005
 subCategory:
 - Organizations and Programs
 title: 'ENERGY STAR ® '

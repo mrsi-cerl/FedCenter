@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30179'
+link: http://accoonline.org/ghg101
 programArea: Greenhouse Gases
-pubDate: 8/24/2016
+publishDate: 8/24/2016
 subCategory:
 - Training, Presentations, and Briefings
 title: Basics of GHG Accounting, Reporting & Disclosing GHG Emissions (Web-based,

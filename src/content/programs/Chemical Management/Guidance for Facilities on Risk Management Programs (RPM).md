@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39825'
+link: https://www.epa.gov/rmp/guidance-facilities-risk-management-programs-rmp
 programArea: Chemical Management
-pubDate: 8/5/2022
+publishDate: 8/5/2022
 subCategory:
 - Regulations, Guidance, and Policy
 title: Guidance for Facilities on Risk Management Programs (RPM)

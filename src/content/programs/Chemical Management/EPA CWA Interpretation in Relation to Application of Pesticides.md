@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1175'
+link: pesticides\_factsheet.pdf
 programArea: Chemical Management
-pubDate: 3/28/2005
+publishDate: 3/28/2005
 subCategory:
 - Regulations, Guidance, and Policy
 title: EPA CWA Interpretation in Relation to Application of Pesticides

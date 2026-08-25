@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33464'
+link: http://www.npi.org/sem-NAGPRAess.html
 programArea: Cultural Resources
-pubDate: 1/17/2019
+publishDate: 1/17/2019
 subCategory:
 - Training, Presentations, and Briefings
 title: NAGPRA Essentials (Classroom, Multiple Offerings)

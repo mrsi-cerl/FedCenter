@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2538'
+link: https://coast.noaa.gov/czm/
 programArea: Natural Resources
-pubDate: 7/27/2005
+publishDate: 7/27/2005
 subCategory:
 - Coastal Zones
 title: Coastal Zone Management Program (CZMP)

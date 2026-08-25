@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3013'
+link: https://www.epa.gov/sustainable-futures/sustainable-futures-p2-framework-manual
 programArea: Chemical Management
-pubDate: 9/30/2005
+publishDate: 9/30/2005
 subCategory:
 - Chemical Use Reduction
 title: The Pollution Prevention Framework (\"P2 Framework\")

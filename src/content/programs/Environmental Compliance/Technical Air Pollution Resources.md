@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33192'
+link: https://www.epa.gov/catc/clean-air-technology-center-products#reports
 programArea: Environmental Compliance
-pubDate: 10/29/2018
+publishDate: 10/29/2018
 subCategory:
 - Databases and Software Tools
 title: Technical Air Pollution Resources

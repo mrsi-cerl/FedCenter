@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4338'
+link: http://www.epa.gov/sustainable-water-infrastructure
 programArea: Water Efficiency
-pubDate: 3/1/2006
+publishDate: 3/1/2006
 subCategory:
 - Libraries and Repositories
 title: Sustainable Water Infrastructure

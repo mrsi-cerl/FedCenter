@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3644'
+link: http://www.natureserve.org/conservation-tools/projects/biodiversity-values-geographically-isolated-wetlands-united-states
 programArea: Natural Resources
-pubDate: 12/13/2005
+publishDate: 12/13/2005
 subCategory:
 - Wetlands
 title: Biodiversity Values of Geographically Isolated Wetlands in the United States

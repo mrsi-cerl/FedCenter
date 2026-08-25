@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32897'
+link: https://www.wbdg.org/ffc/dod/handbooks/field-guide-sustainable-construction
 programArea: High Performance Buildings
-pubDate: 8/1/2018
+publishDate: 8/1/2018
 subCategory:
 - Planning
 title: Field Guide for Sustainable Construction

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26077'
+link: http://energy.gov/eere/femp/downloads/case-study-innovative-energy-efficiency-approaches-noaa-s-environmental-security
 programArea: Energy
-pubDate: 6/12/2014
+publishDate: 6/12/2014
 subCategory:
 - Data Centers
 title: Energy Efficiency Approaches in NOAA's Environmental Security Computing Center

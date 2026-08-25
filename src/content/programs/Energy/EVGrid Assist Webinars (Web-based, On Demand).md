@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '42679'
+link: https://www.energy.gov/eere/evgrid-assist-webinars
 programArea: Energy
-pubDate: 11/15/2024
+publishDate: 11/15/2024
 subCategory:
 - Training, Presentations, and Briefings
 title: EVGrid Assist Webinars (Web-based, On Demand)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8499'
+link: http://sustainablesites.org/
 programArea: Sustainability
-pubDate: 10/24/2007
+publishDate: 10/24/2007
 subCategory:
 - Organizations
 title: Sustainable Sites Initiative

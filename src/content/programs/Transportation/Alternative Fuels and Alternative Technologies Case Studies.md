@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '21923'
+link: http://www.afdc.energy.gov/case
 programArea: Transportation
-pubDate: 7/31/2012
+publishDate: 7/31/2012
 subCategory:
 - Petroleum Alternatives
 title: Alternative Fuels and Alternative Technologies Case Studies

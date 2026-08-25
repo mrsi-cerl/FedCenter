@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32466'
+link: https://www.cdc.gov/nutrition/php/food-service-guidelines
 programArea: Acquisition
-pubDate: 4/5/2018
+publishDate: 4/5/2018
 subCategory:
 - Guidance
 title: Food Service Guidelines for Federal Facilities

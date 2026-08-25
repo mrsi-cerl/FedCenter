@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '9292'
+link: https://www.denix.osd.mil/awards/home/
 programArea: Cleanup
-pubDate: 3/28/2008
+publishDate: 3/28/2008
 subCategory:
 - Award Winners
 title: 'Secretary of Defense Environmental Awards: Winners of the Environmental Restoration

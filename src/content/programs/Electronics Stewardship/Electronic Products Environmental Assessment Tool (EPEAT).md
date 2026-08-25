@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4660'
+link: http://www.epeat.net
 programArea: Electronics Stewardship
-pubDate: 4/13/2006
+publishDate: 4/13/2006
 subCategory:
 - Databases and Software Tools
 title: Electronic Products Environmental Assessment Tool (EPEAT)

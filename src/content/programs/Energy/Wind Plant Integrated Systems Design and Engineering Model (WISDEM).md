@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36483'
+link: https://github.com/WISDEM/WISDEM
 programArea: Energy
-pubDate: 2/5/2021
+publishDate: 2/5/2021
 subCategory:
 - Databases and Software Tools
 title: Wind Plant Integrated Systems Design and Engineering Model (WISDEM)

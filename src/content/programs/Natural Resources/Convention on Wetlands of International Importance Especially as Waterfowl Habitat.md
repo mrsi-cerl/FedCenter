@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2442'
+link: ''
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
 - Wetlands Management
 title: Convention on Wetlands of International Importance Especially as Waterfowl

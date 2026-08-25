@@ -1,7 +1,11 @@
 ---
+expiryDate: null
 item_id: '3720'
+link: 'https://cfpub.epa.gov/si/si\_public\_record\_report.cfm?Lab=NRMRL&dirEntryId=235552#:~:text=Description:
+  The Superfund Innovative Technology Evaluation (SITE) Program,innovative hazardous
+  waste treatment technologies for 20'
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
 - New Technology
 title: Superfund Innovative Technology Evaluation (SITE) Program

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4835'
+link: https://archive.epa.gov/ncer/events/calendar/archive/web/pdf/wetlandelements.pdf
 programArea: Natural Resources
-pubDate: 5/3/2006
+publishDate: 5/3/2006
 subCategory:
 - Wetlands
 title: Application of Elements of a State Water Monitoring and Assessment Program

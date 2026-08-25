@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2546'
+link: https://coast.noaa.gov/digitalcoast/training/
 programArea: Natural Resources
-pubDate: 7/27/2005
+publishDate: 7/27/2005
 subCategory:
 - Training, Presentations, and Briefings
 title: NOAA Coastal Services Center Training

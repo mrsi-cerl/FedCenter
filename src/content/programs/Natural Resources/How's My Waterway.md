@@ -1,10 +1,13 @@
 ---
-item_id: '22442'
+expiryDate: null
+item_id: '35886'
+link: http://http:mywaterway.epa.gov
 programArea: Natural Resources
-pubDate: 10/29/2012
+publishDate: 8/27/2020
 subCategory:
+- Databases and Software Tools
 - Databases and Software Tools
 title: How's My Waterway
 ---
 
-Learn the condition of local streams, lakes and other waters anywhere in the US... quickly and in plain language. See if your local waterway was checked for pollution, what was found, and what is being done. The source of this information is a US Environmental Protection Agency (EPA) database of State water quality monitoring reports provided under the Clean Water Act.
+How's My Waterway is a tool that assembles publicly available water quality data into a user-friendly package that provides information on water quality in our nation's waters.  Map-centric and mobile-friendly, How's My Waterway works on all different screen sizes, from desktop computers and tablets to mobile phones

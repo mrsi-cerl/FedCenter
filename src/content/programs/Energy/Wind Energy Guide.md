@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3782'
+link: http://windeis.anl.gov/guide/index.cfm
 programArea: Energy
-pubDate: 1/4/2006
+publishDate: 1/4/2006
 subCategory:
 - ' Alternative Energy'
 title: Wind Energy Guide

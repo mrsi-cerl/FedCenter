@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22552'
+link: http://www.cakex.org/
 programArea: Climate Resilience
-pubDate: 11/14/2012
+publishDate: 11/14/2012
 subCategory:
 - Construction Design
 - Libraries and Repositories

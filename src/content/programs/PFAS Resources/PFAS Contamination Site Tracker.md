@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36104'
+link: https://pfasproject.com/2023/05/30/updated-version-of-our-interactive-pfas-contamination-site-tracker-map/
 programArea: PFAS Resources
-pubDate: 10/20/2020
+publishDate: 10/20/2020
 subCategory:
 - Databases and Software Tools
 title: PFAS Contamination Site Tracker

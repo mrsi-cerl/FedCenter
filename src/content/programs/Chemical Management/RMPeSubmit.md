@@ -1,7 +1,9 @@
 ---
-item_id: '28274'
+expiryDate: null
+item_id: '10538'
+link: http://www.epa.gov/emergencies/docs/chem/RMP2009Reporting.pdf
 programArea: Chemical Management
-pubDate: 8/5/2015
+publishDate: 8/28/2008
 subCategory:
 - Databases and Software Tools
 - Databases and Software Tools
@@ -9,4 +11,4 @@ subCategory:
 title: RMP\*eSubmit
 ---
 
-This EPA tool is used for online Risk Management Plan reporting.
+This site will become available in 2009 for the submission of Risk Management Plans.

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8825'
+link: https://www.epa.gov/sites/production/files/2015-10/documents/2008\_01\_02\_nps\_lid\_costs07uments\_reducingstormwatercosts-2.pdf
 programArea: Natural Resources
-pubDate: 1/9/2008
+publishDate: 1/9/2008
 subCategory:
 - Land Management
 title: Reducing Stormwater Costs through Low Impact Development (LID) Strategies and

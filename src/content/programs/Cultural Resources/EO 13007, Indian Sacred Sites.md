@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15484'
+link: http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=1996\_register&docid=fr29my96-149.pdf
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - National Executive Orders
 title: EO 13007, Indian Sacred Sites

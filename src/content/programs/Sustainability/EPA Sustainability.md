@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32544'
+link: https://www.epa.gov/sustainability
 programArea: Sustainability
-pubDate: 4/20/2018
+publishDate: 4/20/2018
 subCategory:
 - Federal Facilities
 title: EPA Sustainability

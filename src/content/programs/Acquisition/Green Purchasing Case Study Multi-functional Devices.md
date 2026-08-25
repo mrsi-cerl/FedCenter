@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '14913'
+link: http://responsiblepurchasing.org/publications/dcfs\_case\_study.pdf
 programArea: Acquisition
-pubDate: 4/30/2010
+publishDate: 4/30/2010
 subCategory:
 - Case Studies
 title: 'Green Purchasing Case Study: Multi-functional Devices'

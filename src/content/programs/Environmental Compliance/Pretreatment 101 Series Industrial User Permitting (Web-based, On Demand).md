@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24361'
+link: http://www.youtube.com/watch?v=ZpYbEfd3N7g
 programArea: Environmental Compliance
-pubDate: 8/23/2013
+publishDate: 8/23/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Pretreatment 101 Series: Industrial User Permitting (Web-based, On Demand)'

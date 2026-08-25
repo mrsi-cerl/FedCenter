@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18073'
+link: http://aceee.org/white-paper/addressing-the-energy-water-nexus
 programArea: Water Efficiency
-pubDate: 5/24/2011
+publishDate: 5/24/2011
 subCategory:
 - Implementation Guidance
 title: 'Addressing the Energy - Water Nexus:  A Blueprint for Action and Policy Agenda'

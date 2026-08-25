@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26575'
+link: https://www.gsa.gov/governmentwide-initiatives/federal-highperformance-buildings/resource-library/energy-water/fort-carson-energy-research-project
 programArea: High Performance Buildings
-pubDate: 9/18/2014
+publishDate: 9/18/2014
 subCategory:
 - Case Studies
 title: Fort Carson Energy Research Project

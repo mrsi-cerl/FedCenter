@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '36477'
+link: https://www.epa.gov/tsca-inventory/how-access-tsca-inventory
 programArea: Environmental Compliance
-pubDate: 2/4/2021
+publishDate: 2/4/2021
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: 2021 Update to the TSCA Inventory
 ---
 

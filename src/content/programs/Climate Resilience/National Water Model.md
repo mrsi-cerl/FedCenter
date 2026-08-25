@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30220'
+link: http://water.noaa.gov/about/nwm
 programArea: Climate Resilience
-pubDate: 9/1/2016
+publishDate: 9/1/2016
 subCategory:
 - Construction Design
 - Databases and Software Tools

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23944'
+link: http://www.eeba.org/housesthatwork/
 programArea: High Performance Buildings
-pubDate: 7/9/2013
+publishDate: 7/9/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: Houses That Work (Classroom, Multiple Offerings)

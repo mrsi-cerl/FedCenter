@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10589'
+link: https://www.epa.gov/cre
 programArea: Natural Resources
-pubDate: 9/4/2008
+publishDate: 9/4/2008
 subCategory:
 - Organizations
 title: Climate Ready Estuaries

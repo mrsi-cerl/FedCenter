@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10350'
+link: http://www.cpeo.org/
 programArea: Cleanup
-pubDate: 7/21/2008
+publishDate: 7/21/2008
 subCategory:
 - Organizations
 title: Center for Public Environmental Oversight (CPEO)

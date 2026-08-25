@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4040'
+link: http://www.epa.gov/caddis/
 programArea: Natural Resources
-pubDate: 1/25/2006
+publishDate: 1/25/2006
 subCategory:
 - Databases and Software Tools
 title: Causal Analysis/Diagnostic Decision Information System (CADDIS)

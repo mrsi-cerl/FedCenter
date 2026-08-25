@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36224'
+link: https://www.epa.gov/air-emissions-modeling/speciate
 programArea: Environmental Compliance
-pubDate: 12/2/2020
+publishDate: 12/2/2020
 subCategory:
 - Databases and Software Tools
 title: EPA's SPECIATE

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4627'
+link: https://semspub.epa.gov/work/HQ/124250.pdf
 programArea: Cleanup
-pubDate: 4/11/2006
+publishDate: 4/11/2006
 subCategory:
 - Regulations, Guidance, and Policy
 title: Memorandum, \"Enforcement First\" to Ensure Effective Institutional Controls

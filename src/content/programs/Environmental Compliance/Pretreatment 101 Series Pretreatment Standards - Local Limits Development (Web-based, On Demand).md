@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24362'
+link: http://www.youtube.com/watch?v=fII-CNu76J0
 programArea: Environmental Compliance
-pubDate: 8/23/2013
+publishDate: 8/23/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Pretreatment 101 Series: Pretreatment Standards - Local Limits Development

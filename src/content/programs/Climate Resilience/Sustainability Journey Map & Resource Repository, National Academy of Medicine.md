@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41530'
+link: https://nam.edu/journeymap.php
 programArea: Climate Resilience
-pubDate: 11/2/2023
+publishDate: 11/2/2023
 subCategory:
 - Construction Design
 - Databases and Software Tools

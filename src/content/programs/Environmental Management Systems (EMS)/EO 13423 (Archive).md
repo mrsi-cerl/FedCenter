@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '35859'
+link: https://www.fedcenter.gov/programs/eo13423/
 programArea: Environmental Management Systems (EMS)
-pubDate: 8/24/2020
+publishDate: 8/24/2020
 subCategory:
-- Directories, Catalogs, and Newsletters
 - Executive Orders
+- Directories, Catalogs, and Newsletters
 title: EO 13423 (Archive)
 ---
 

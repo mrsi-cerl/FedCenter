@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '24344'
+link: http://data.cnra.ca.gov/dataset/landscape-conservation-cooperatives
 programArea: Natural Resources
-pubDate: 8/19/2013
+publishDate: 8/19/2013
 subCategory:
 - Organizations
 title: Landscape Conservation Cooperatives
 ---
 
-Developed in response to DOI Secretarial Order No. 3289, the LCCs were  launched to better integrate science and management to address climate change and other landscape scale issues. By building a network that is holistic, collaborative, adaptive, and grounded in science, LCCs are working to ensure the sustainability of our economy, land, water, wildlife, and cultural resources. The 22 LCCs collectively form a network of resource managers and scientists who share a common need for scientific information and interest in conservation. Each LCC brings together federal, state, and local governments along with Tribes and First Nations, non-governmental organizations, universities, and interested public and private organizations.
+Landscape Conservation Cooperatives (LCCs) are public-private partnerships composed of states, tribes, federal agencies, non-governmental organizations, universities, international jurisdictions, and others working together to address landscape and seascape scale conservation issues. LCCs inform resource management decisions to address broad-scale stressors-including habitat fragmentation, genetic isolation, spread of invasive species, and water scarcity-all of which are magnified by a rapidly changing climate.

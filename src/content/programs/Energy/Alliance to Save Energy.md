@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2764'
+link: http://www.ase.org
 programArea: Energy
-pubDate: 9/7/2005
+publishDate: 9/7/2005
 subCategory:
 - Organizations and Programs
 title: Alliance to Save Energy

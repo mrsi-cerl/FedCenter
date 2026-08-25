@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '34061'
+link: https://www.sustainability.gov/pdfs/federal\_rec\_guide.pdf
 programArea: Energy
-pubDate: 5/30/2019
+publishDate: 5/30/2019
 subCategory:
 - Guidance Documents
 title: Federal Renewable Energy Certificate Guide

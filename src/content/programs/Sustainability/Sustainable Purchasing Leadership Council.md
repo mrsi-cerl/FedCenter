@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24864'
+link: http://www.sustainablepurchasing.org/
 programArea: Sustainability
-pubDate: 11/21/2013
+publishDate: 11/21/2013
 subCategory:
 - Organizations
 title: Sustainable Purchasing Leadership Council

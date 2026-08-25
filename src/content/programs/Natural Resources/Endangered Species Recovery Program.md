@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2454'
+link: http://www.fws.gov/endangered/species/recovery-plans.html
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
 - Endangered/Threatened Species
 title: Endangered Species Recovery Program

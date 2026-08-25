@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '19335'
+link: https://www.epa.gov/fedfac/program-priorities-federal-facility-five-year-review
 programArea: Cleanup
-pubDate: 8/25/2011
+publishDate: 8/25/2011
 subCategory:
 - Regulations, Guidance, and Policy
 title: 'EPA Memorandum: Program Priorities for Federal Facility Five-Year Review'

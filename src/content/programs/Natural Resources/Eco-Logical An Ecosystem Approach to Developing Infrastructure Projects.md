@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4273'
+link: https://www.environment.fhwa.dot.gov/env\_initiatives/eco-logical/Report/eco\_6.aspx
 programArea: Natural Resources
-pubDate: 2/17/2006
+publishDate: 2/17/2006
 subCategory:
 - Land Management
 title: 'Eco-Logical: An Ecosystem Approach to Developing Infrastructure Projects'

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13479'
+link: http://www.sustainableremediation.org/
 programArea: Cleanup
-pubDate: 9/15/2009
+publishDate: 9/15/2009
 subCategory:
 - Organizations
 title: Sustainable Remediation Forum (SURF)

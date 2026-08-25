@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20424'
+link: http://unfccc.int/topics/resilience/resources/psi-database
 programArea: Climate Resilience
-pubDate: 2/13/2012
+publishDate: 2/13/2012
 subCategory:
 - Construction Design
 - Databases and Software Tools

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30730'
+link: https://echo.epa.gov/help/training
 programArea: Environmental Compliance
-pubDate: 1/17/2017
+publishDate: 1/17/2017
 subCategory:
 - Training, Presentations, and Briefings
 title: Intro to Navigating ECHO State Dashboards and Comparative Maps (Web-based,

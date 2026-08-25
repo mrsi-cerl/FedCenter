@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '39690'
+link: https://www.epa.gov/system/files/documents/2022-05/LDR\_InformationBulletin\_4-29-22.pdf
 programArea: Environmental Compliance
-pubDate: 6/27/2022
+publishDate: 6/27/2022
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Ensuring and Determining Compliance with Land Disposal Restrictions Through
   RCRA Permits, Waste Analysis Plans and Inspection Sampling Practices
 ---

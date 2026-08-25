@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3326'
+link: http://www.un.org/esa/sustdev/publications/indisd-mg2001.pdf
 programArea: Sustainability
-pubDate: 10/15/2005
+publishDate: 10/15/2005
 subCategory:
 - International Agreements
 title: Indicators of Sustainable Development

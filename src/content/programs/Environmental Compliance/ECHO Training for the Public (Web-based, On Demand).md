@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28368'
+link: http://echo.epa.gov/help/training
 programArea: Environmental Compliance
-pubDate: 9/2/2015
+publishDate: 9/2/2015
 subCategory:
 - Training, Presentations, and Briefings
 title: ECHO Training for the Public (Web-based, On Demand)

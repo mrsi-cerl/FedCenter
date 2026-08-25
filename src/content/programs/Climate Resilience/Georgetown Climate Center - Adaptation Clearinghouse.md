@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22553'
+link: http://www.georgetownclimate.org/adaptation/clearinghouse
 programArea: Climate Resilience
-pubDate: 11/14/2012
+publishDate: 11/14/2012
 subCategory:
 - Construction Design
 - Libraries and Repositories

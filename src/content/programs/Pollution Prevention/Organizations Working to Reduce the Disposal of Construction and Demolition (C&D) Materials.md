@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29496'
+link: https://www.epa.gov/smm/organizations-working-reduce-disposal-construction-and-demolition-cd-materials
 programArea: Pollution Prevention
-pubDate: 5/12/2016
+publishDate: 5/12/2016
 subCategory:
 - Organizations
 title: Organizations Working to Reduce the Disposal of Construction and Demolition

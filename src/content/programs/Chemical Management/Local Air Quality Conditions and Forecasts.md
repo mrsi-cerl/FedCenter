@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7366'
+link: http://www.airnow.gov/
 programArea: Chemical Management
-pubDate: 5/28/2007
+publishDate: 5/28/2007
 subCategory:
 - Databases and Software Tools
 title: 'Local Air Quality Conditions and Forecasts '

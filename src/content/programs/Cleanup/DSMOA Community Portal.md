@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35642'
+link: https://dsmoa.usace.army.mil/TeamAdmin/Security/tabid/63/Default.aspx?returnurl=%2f
 programArea: Cleanup
-pubDate: 6/19/2020
+publishDate: 6/19/2020
 subCategory:
 - Databases and Software Tools
 title: DSMOA Community Portal

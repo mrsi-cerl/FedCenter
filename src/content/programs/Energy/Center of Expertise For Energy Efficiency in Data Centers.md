@@ -1,13 +1,13 @@
 ---
-item_id: '30274'
+expiryDate: null
+item_id: '28534'
+link: https://datacenters.lbl.gov/
 programArea: Energy
-pubDate: 9/14/2016
+publishDate: 9/28/2015
 subCategory:
-- Data Centers
 - Libraries and Repositories
-- Organizations and Programs
-- Organizations and Programs
-title: Center of Expertise for Energy Efficiency in Data Centers
+- Data Centers
+title: Center of Expertise For Energy Efficiency in Data Centers
 ---
 
-Through the supply of technical support, tools, best practices, analyses, and the introduction of technologies, the Center of Expertise assists federal agencies and other organizations implement data center energy efficiency projects.
+The Department of Energy-led center of expertise demonstrates national leadership in decreasing the energy use of data centers. The COE partners with key influential public and private stakeholders. It also supplies know-how, tools, best practices, analyses, and the introduction of technologies to assist Federal agencies with implementing policies and developing data center energy efficiency projects.

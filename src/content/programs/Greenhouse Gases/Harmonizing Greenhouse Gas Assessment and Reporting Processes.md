@@ -1,10 +1,11 @@
 ---
+expiryDate: null
 item_id: '13304'
+link: Baltimore, MD
 programArea: Greenhouse Gases
-pubDate: 8/18/2009
+publishDate: 8/18/2009
 subCategory:
 - Conferences and Events
-- Greenhouse Gas News
 title: Harmonizing Greenhouse Gas Assessment and Reporting Processes
 ---
 

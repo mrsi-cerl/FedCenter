@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16253'
+link: https://apps.cr.nps.gov/nagprapublic/Home/Notice
 programArea: Cultural Resources
-pubDate: 9/16/2010
+publishDate: 9/16/2010
 subCategory:
 - Databases and Software Tools
 title: NAGPRA Notices of Intended Disposition Database

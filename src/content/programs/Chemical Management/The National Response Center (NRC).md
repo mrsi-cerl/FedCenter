@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1073'
+link: http://nrc.uscg.mil/Default.aspx
 programArea: Chemical Management
-pubDate: 3/21/2005
+publishDate: 3/21/2005
 subCategory:
 - Organizations
 title: The National Response Center (NRC)

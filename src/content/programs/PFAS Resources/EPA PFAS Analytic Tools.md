@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40354'
+link: https://echo.epa.gov/trends/pfas-tools
 programArea: PFAS Resources
-pubDate: 1/6/2023
+publishDate: 1/6/2023
 subCategory:
 - Databases and Software Tools
 title: EPA PFAS Analytic Tools

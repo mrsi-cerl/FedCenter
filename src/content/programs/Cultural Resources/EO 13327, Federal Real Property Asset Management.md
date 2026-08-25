@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15486'
+link: http://edocket.access.gpo.gov/2007/pdf/07-374.pdf
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - National Executive Orders
 title: EO 13327, Federal Real Property Asset Management

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7342'
+link: http://www1.eere.energy.gov/femp/information/download\_blcc.html
 programArea: High Performance Buildings
-pubDate: 5/28/2007
+publishDate: 5/28/2007
 subCategory:
 - Databases and Software Tools
 title: Building Life-Cycle Cost Program

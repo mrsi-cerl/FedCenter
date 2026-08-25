@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3712'
+link: https://www.epa.gov/fedfac/base-realignment-and-closure-sites
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
 - BRAC
 title: Base Realignment and Closure Sites

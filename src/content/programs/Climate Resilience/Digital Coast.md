@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32559'
+link: https://coast.noaa.gov/digitalcoast/
 programArea: Climate Resilience
-pubDate: 4/24/2018
+publishDate: 4/24/2018
 subCategory:
 - Construction Design
 - Databases and Software Tools

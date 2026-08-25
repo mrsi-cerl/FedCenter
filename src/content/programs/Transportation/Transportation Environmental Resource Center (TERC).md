@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20175'
+link: http://www.terc-energy.com/resources-center
 programArea: Transportation
-pubDate: 1/11/2012
+publishDate: 1/11/2012
 subCategory:
 - Organizations
 title: Transportation Environmental Resource Center (TERC)

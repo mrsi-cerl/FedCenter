@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7377'
+link: Working with Land Trusts primer.pdf
 programArea: Sustainability
-pubDate: 5/31/2007
+publishDate: 5/31/2007
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Working with Land Trusts: A Guide for Military Installations and Land Trusts

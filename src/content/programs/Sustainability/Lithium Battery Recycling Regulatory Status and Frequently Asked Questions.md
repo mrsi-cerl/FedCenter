@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41016'
+link: https://rcrapublic.epa.gov/files/14957.pdf
 programArea: Sustainability
-pubDate: 6/14/2023
+publishDate: 6/14/2023
 subCategory:
 - Federal Agreements and Guidance
 title: Lithium Battery Recycling Regulatory Status and Frequently Asked Questions

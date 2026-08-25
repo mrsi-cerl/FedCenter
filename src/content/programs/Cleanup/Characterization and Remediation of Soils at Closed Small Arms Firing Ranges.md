@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4179'
+link: https://itrcweb.org/smart-1/
 programArea: Cleanup
-pubDate: 2/6/2006
+publishDate: 2/6/2006
 subCategory:
 - Munitions
 title: Characterization and Remediation of Soils at Closed Small Arms Firing Ranges

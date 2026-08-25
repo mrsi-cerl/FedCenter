@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35280'
+link: http://www.wbdg.org/education/courses/7b988130-1477-4383-b17c-3fe435fdda68
 programArea: Energy
-pubDate: 3/30/2020
+publishDate: 3/30/2020
 subCategory:
 - Organizations and Programs
 title: NREL's Distributed Energy Resource Cybersecurity Framework (DERCF)

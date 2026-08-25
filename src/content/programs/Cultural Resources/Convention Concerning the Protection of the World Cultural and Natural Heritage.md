@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15487'
+link: http://whc.unesco.org/en/conventiontext/
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - International Agreements
 title: Convention Concerning the Protection of the World Cultural and Natural Heritage

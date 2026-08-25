@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33425'
+link: http://www.wbdg.org/ce/doe/femp/femp66
 programArea: High Performance Buildings
-pubDate: 1/3/2019
+publishDate: 1/3/2019
 subCategory:
 - Training, Presentations, and Briefings
 title: Re-tuning for Buildings with Building Automation Systems (Web-based, On Demand)

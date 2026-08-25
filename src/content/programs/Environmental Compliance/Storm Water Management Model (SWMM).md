@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22576'
+link: http://www.epa.gov/water-research/storm-water-management-model-swmm
 programArea: Environmental Compliance
-pubDate: 11/19/2012
+publishDate: 11/19/2012
 subCategory:
 - Databases and Software Tools
 title: Storm Water Management Model (SWMM)

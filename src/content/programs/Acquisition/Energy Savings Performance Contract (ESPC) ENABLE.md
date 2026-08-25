@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30096'
+link: http://energy.gov/eere/femp/energy-savings-performance-contract-enable-federal-projects
 programArea: Acquisition
-pubDate: 8/2/2016
+publishDate: 8/2/2016
 subCategory:
 - Organizations and Programs
 title: Energy Savings Performance Contract (ESPC) ENABLE

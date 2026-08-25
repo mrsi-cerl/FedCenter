@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29042'
+link: https://computersforlearning.gov/
 programArea: Electronics Stewardship
-pubDate: 1/22/2016
+publishDate: 1/22/2016
 subCategory:
 - Disposal
 title: Computers for Learning

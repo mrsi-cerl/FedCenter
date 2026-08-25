@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35535'
+link: https://acquisitiongateway.gov/solutions/resources/1703
 programArea: Acquisition
-pubDate: 6/3/2020
+publishDate: 6/3/2020
 subCategory:
 - Case Studies
 title: 'NGDS: Next Generation Delivery Service'

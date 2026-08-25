@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15501'
+link: https://www.nps.gov/subjects/historicpreservation/index.htm
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Libraries and Repositories
 title: Historic Preservation Portal

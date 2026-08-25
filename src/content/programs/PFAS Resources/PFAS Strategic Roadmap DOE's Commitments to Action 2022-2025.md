@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40199'
+link: https://www.energy.gov/pfas/articles/pfas-strategic-roadmap-doe-commitments-action-2022-2025
 programArea: PFAS Resources
-pubDate: 12/2/2022
+publishDate: 12/2/2022
 subCategory:
 - State, National and International Regulations
 title: 'PFAS Strategic Roadmap: DOE''s Commitments to Action 2022-2025'

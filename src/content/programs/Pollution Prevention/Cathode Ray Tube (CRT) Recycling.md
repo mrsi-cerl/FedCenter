@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13024'
+link: https://www.epa.gov/hw/cathode-ray-tubes-crts-0
 programArea: Pollution Prevention
-pubDate: 7/6/2009
+publishDate: 7/6/2009
 subCategory:
 - Recycling and Reuse
 title: Cathode Ray Tube (CRT) Recycling

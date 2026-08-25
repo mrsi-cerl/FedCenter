@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15328'
+link: http://www.edf.org/papercalculator/
 programArea: Acquisition
-pubDate: 7/7/2010
+publishDate: 7/7/2010
 subCategory:
 - Databases and Software Tools
 title: Environmental Defense Fund (EDF) Paper Calculator

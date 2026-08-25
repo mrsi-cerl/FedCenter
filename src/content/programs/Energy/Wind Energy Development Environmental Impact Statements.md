@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3781'
+link: http://windeis.anl.gov/
 programArea: Energy
-pubDate: 1/4/2006
+publishDate: 1/4/2006
 subCategory:
 - ' Alternative Energy'
 title: Wind Energy Development Environmental Impact Statements

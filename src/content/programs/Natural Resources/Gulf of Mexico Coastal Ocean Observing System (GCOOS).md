@@ -1,7 +1,10 @@
 ---
+expiryDate: null
 item_id: '18323'
+link: https://ioos.noaa.gov/regions/gcoos/#:~:text=The Gulf of Mexico Coastal Ocean
+  Observing System,estuarine systems to a wide range of users
 programArea: Natural Resources
-pubDate: 6/14/2011
+publishDate: 6/14/2011
 subCategory:
 - Databases and Software Tools
 title: Gulf of Mexico Coastal Ocean Observing System (GCOOS)

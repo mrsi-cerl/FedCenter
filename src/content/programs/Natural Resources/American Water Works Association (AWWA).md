@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2588'
+link: http://www.awwa.org
 programArea: Natural Resources
-pubDate: 7/29/2005
+publishDate: 7/29/2005
 subCategory:
 - Organizations
 title: American Water Works Association (AWWA)

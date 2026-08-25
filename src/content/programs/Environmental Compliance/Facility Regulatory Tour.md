@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '894'
+link: http://www.fedcenter.gov/assistance/facilitytour/
 programArea: Environmental Compliance
-pubDate: 2/11/2005
+publishDate: 2/11/2005
 subCategory:
 - Databases and Software Tools
 title: Facility Regulatory Tour

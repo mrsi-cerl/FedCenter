@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '684'
+link: https://www.fedcenter.gov/programs/compliance/assessment/teamguides/
 programArea: Environmental Compliance
-pubDate: 8/23/2005
+publishDate: 8/23/2005
 subCategory:
 - Compliance Auditing
 title: U.S. TEAM Guide and State Supplements Information

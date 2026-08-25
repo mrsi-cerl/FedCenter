@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '9410'
+link: http://cfpub.epa.gov/ncea/cfm/recordisplay.cfm?deid=162845
 programArea: Natural Resources
-pubDate: 4/15/2008
+publishDate: 4/15/2008
 subCategory:
 - Watershed Management
 title: Application of Watershed Ecological Risk Assessment Methods to Watershed Management

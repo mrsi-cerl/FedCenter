@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18174'
+link: http://unfccc.int/2860.php
 programArea: Climate Resilience
-pubDate: 6/2/2011
+publishDate: 6/2/2011
 subCategory:
 - Construction Design
 - Organizations and Programs

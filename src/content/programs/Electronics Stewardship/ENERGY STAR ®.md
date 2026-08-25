@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '767'
+link: http://www.energystar.gov/
 programArea: Electronics Stewardship
-pubDate: 2/3/2005
+publishDate: 2/3/2005
 subCategory:
 - Organizations
 title: 'ENERGY STAR ® '

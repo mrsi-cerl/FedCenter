@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33102'
+link: http://globalelectronicscouncil.org/benefits-calculators/
 programArea: Acquisition
-pubDate: 10/2/2018
+publishDate: 10/2/2018
 subCategory:
 - Databases and Software Tools
 title: EPEAT Benefits Calculator

@@ -1,0 +1,12 @@
+---
+expiryDate: null
+item_id: '9166'
+link: http://www.energystar.gov/buildings/facility-owners-and-managers/existing-buildings/use-portfolio-manager
+programArea: Energy
+publishDate: 3/6/2008
+subCategory:
+- Databases and Software Tools
+title: Benchmark Your Building with ENERGY STAR Portfolio Manager®
+---
+
+Developed by EPA, this online tool is used to measure and track energy and water consumption, as well as greenhouse gas emissions. Use it to benchmark the performance of one building or a whole portfolio of buildings, all in a secure online environment.

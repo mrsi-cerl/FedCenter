@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '28805'
+link: https://irma.nps.gov/DataStore/Reference/Profile/2221965
 programArea: Climate Resilience
-pubDate: 12/4/2015
+publishDate: 12/4/2015
 subCategory:
-- Case Studies
 - Construction Design
+- Case Studies
 title: 'Adapting To Climate Change in Coastal Parks: Estimating the Exposure of Park
   Assets to 1 m of Sea-Level Rise'
 ---

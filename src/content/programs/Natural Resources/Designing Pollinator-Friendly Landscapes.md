@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33433'
+link: https://pollinatorgardens.org/2016/01/12/design-ideas-for-gardeners/
 programArea: Natural Resources
-pubDate: 1/7/2019
+publishDate: 1/7/2019
 subCategory:
 - Land Management
 title: Designing Pollinator-Friendly Landscapes

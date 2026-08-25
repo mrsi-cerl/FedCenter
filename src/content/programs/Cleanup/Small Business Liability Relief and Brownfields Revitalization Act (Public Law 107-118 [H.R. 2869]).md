@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3681'
+link: http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=107\_cong\_public\_laws&docid=f:publ118.107
 programArea: Cleanup
-pubDate: 12/19/2005
+publishDate: 12/19/2005
 subCategory:
 - Regulations, Guidance, and Policy
 title: Small Business Liability Relief and Brownfields Revitalization Act (Public

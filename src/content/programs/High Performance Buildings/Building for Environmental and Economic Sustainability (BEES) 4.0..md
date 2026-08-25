@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7256'
+link: https://www.nist.gov/services-resources/software/bees
 programArea: High Performance Buildings
-pubDate: 5/17/2007
+publishDate: 5/17/2007
 subCategory:
 - Databases and Software Tools
 title: Building for Environmental and Economic Sustainability (BEES) 4.0.

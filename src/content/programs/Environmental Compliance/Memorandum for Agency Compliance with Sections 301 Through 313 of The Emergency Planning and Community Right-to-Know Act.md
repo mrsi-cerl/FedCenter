@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '36799'
+link: FINAL Memo on TRI 04.07.2021.pdf
 programArea: Environmental Compliance
-pubDate: 4/27/2021
+publishDate: 4/27/2021
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Memorandum for Agency Compliance with Sections 301 Through 313 of The Emergency
   Planning and Community Right-to-Know Act
 ---

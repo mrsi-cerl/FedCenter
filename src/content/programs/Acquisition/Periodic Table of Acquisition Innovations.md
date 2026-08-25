@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36608'
+link: https://www.fai.gov/periodic-table/?utm\_medium=email&utm\_source=govdelivery
 programArea: Acquisition
-pubDate: 3/4/2021
+publishDate: 3/4/2021
 subCategory:
 - Databases and Software Tools
 title: Periodic Table of Acquisition Innovations

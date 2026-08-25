@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13477'
+link: https://www.epa.gov/epcra/emergency-planning-and-community-right-know-act-frequent-questions
 programArea: Cleanup
-pubDate: 9/15/2009
+publishDate: 9/15/2009
 subCategory:
 - Regulations, Guidance, and Policy
 title: EPCRA Frequently Asked Questions

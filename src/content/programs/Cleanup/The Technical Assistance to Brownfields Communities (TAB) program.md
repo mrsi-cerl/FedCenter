@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3716'
+link: https://www.ksutab.org/
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
 - Brownfields
 title: The Technical Assistance to Brownfields Communities (TAB) program

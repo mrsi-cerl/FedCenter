@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3364'
+link: http://www.ser.org
 programArea: Natural Resources
-pubDate: 11/3/2005
+publishDate: 11/3/2005
 subCategory:
 - Organizations
 title: Society for Ecological Restoration International

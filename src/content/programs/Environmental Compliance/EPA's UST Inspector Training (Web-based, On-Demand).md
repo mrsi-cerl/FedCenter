@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32119'
+link: https://www.epa.gov/ust/underground-storage-tank-ust-inspector-training
 programArea: Environmental Compliance
-pubDate: 1/10/2018
+publishDate: 1/10/2018
 subCategory:
 - Training, Presentations, and Briefings
 title: EPA's UST Inspector Training (Web-based, On-Demand)

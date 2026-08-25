@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '19888'
+link: http://aceee.org/research-report/u1506
 programArea: Energy
-pubDate: 11/22/2011
+publishDate: 11/22/2011
 subCategory:
 - Databases and Software Tools
 title: Local Energy Efficiency Policy Calculator (LEEP-C)

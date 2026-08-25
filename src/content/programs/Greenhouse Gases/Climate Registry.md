@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13296'
+link: http://www.theclimateregistry.org/
 programArea: Greenhouse Gases
-pubDate: 8/18/2009
+publishDate: 8/18/2009
 subCategory:
 - Organizations and Programs
 title: Climate Registry

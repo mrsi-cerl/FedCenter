@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23367'
+link: http://www.nap.edu/catalog.php?record\_id=18282
 programArea: High Performance Buildings
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
 - Case Studies
 title: Energy-Efficiency Standards and Green Building Certification Systems Used by

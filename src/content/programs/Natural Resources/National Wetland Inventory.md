@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7369'
+link: http://www.fws.gov/nwi/
 programArea: Natural Resources
-pubDate: 5/28/2007
+publishDate: 5/28/2007
 subCategory:
 - Databases and Software Tools
 title: National Wetland Inventory

@@ -1,9 +1,10 @@
 ---
+expiryDate: null
 item_id: '18820'
+link: https://catalog.data.gov/dataset/?groups=energy9485
 programArea: Energy
-pubDate: 7/13/2011
+publishDate: 7/13/2011
 subCategory:
-- Databases and Software Tools
 - Databases and Software Tools
 title: Data.gov Energy Data and Tools
 ---

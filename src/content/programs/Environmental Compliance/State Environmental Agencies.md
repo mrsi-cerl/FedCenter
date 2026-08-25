@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '802'
+link: http://www.fedcenter.gov/programs/compliance/stateprograms/
 programArea: Environmental Compliance
-pubDate: 2/7/2005
+publishDate: 2/7/2005
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: State Environmental Agencies
 ---
 

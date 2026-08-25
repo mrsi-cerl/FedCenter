@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '13257'
+link: http://www.rggi.org/
 programArea: Greenhouse Gases
-pubDate: 8/17/2009
+publishDate: 8/17/2009
 subCategory:
 - Regional
 title: Regional Greenhouse Gas Initiative (RGGI)
 ---
 
-This is a mandatory, market-based effort in the United States to reduce greenhouse gas emissions. Ten Northeastern and Mid-Atlantic states will cap and then reduce CO2 emissions from the power sector 10% by 2018.
+The Regional Greenhouse Gas Initiative (RGGI) is a cooperative, market-based effort among the states of Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, New Jersey, New York, Rhode Island, Vermont, and Virginia to cap and reduce CO2?emissions from the power sector. It represents the first cap-and-invest regional initiative implemented in the United States.

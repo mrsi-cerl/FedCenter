@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24949'
+link: http://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/471503m.pdf?ver=2017-12-13-112007-310
 programArea: Natural Resources
-pubDate: 12/9/2013
+publishDate: 12/9/2013
 subCategory:
 - General
 title: DoD Manual 4715.03, Integrated Natural Resources Management Plan (INRMP) Implementation

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20386'
+link: https://www.epa.gov/superfund/superfund-operation-and-maintenance-and-long-term-response-actions
 programArea: Cleanup
-pubDate: 2/8/2012
+publishDate: 2/8/2012
 subCategory:
 - Post Construction Completion
 title: Operation and Maintenance in the Superfund Program

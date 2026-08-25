@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29800'
+link: https://www.epa.gov/fedfac/federal-facilities-library
 programArea: Cleanup
-pubDate: 6/3/2016
+publishDate: 6/3/2016
 subCategory:
 - Libraries and Repositories
 title: Federal Facilities Library

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28439'
+link: https://19january2021snapshot.epa.gov/fedfac/emerging-contaminants-and-federal-facility-contaminants-concern\_.html
 programArea: Cleanup
-pubDate: 9/16/2015
+publishDate: 9/16/2015
 subCategory:
 - Substances of Concern
 title: Emerging Contaminants and Federal Facility Contaminants of Concern

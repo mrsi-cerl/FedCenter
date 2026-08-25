@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13321'
+link: UST Training\_FedCenter.pdf
 programArea: Environmental Compliance
-pubDate: 8/20/2009
+publishDate: 8/20/2009
 subCategory:
 - Training, Presentations, and Briefings
 title: Underground Storage Tank Management for Building Managers

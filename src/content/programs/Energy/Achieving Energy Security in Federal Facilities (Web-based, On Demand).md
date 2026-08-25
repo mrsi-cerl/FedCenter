@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22066'
+link: https://www1.eere.energy.gov/femp/pdfs/fft\_energysecurity\_presentation.pdf
 programArea: Energy
-pubDate: 8/20/2012
+publishDate: 8/20/2012
 subCategory:
 - Training, Presentations, and Briefings
 title: Achieving Energy Security in Federal Facilities (Web-based, On Demand)

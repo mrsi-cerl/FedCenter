@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '25636'
+link: https://www.epa.gov/sustainable-water-infrastructure/moving-toward-sustainability-sustainable-and-effective-practices
 programArea: Sustainability
-pubDate: 4/21/2014
+publishDate: 4/21/2014
 subCategory:
 - Infrastructure
 title: 'Moving Toward Sustainability:  Sustainable and Effective Practices for Creating

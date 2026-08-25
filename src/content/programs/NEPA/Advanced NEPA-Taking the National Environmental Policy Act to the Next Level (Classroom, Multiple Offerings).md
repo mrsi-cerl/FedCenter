@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30618'
+link: http://www.nwetc.org/course-catalog/pol-500-feb-23-2017
 programArea: NEPA
-pubDate: 12/20/2016
+publishDate: 12/20/2016
 subCategory:
 - Training, Presentations, and Briefings
 title: Advanced NEPA-Taking the National Environmental Policy Act to the Next Level

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8154'
+link: https://p2infohouse.org/
 programArea: Transportation
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
 - Organizations
 title: Pollution Prevention Infohouse

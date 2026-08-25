@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28148'
+link: http://newdream.org/webinars/bottled-water
 programArea: Water Efficiency
-pubDate: 7/7/2015
+publishDate: 7/7/2015
 subCategory:
 - Training, Presentations, and Briefings
 title: Kicking the Bottled Water Habit (Web-based)

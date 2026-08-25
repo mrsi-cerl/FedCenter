@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43601'
+link: https://www.wbdg.org/ce/doe/femp/fempodw028
 programArea: Energy
-pubDate: 10/23/2025
+publishDate: 10/23/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: Transforming Research Labs Part I (Web-based, On-demand)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39960'
+link: https://www.acquisition.gov/arc
 programArea: Acquisition
-pubDate: 9/22/2022
+publishDate: 9/22/2022
 subCategory:
 - Databases and Software Tools
 title: Acquisition Regulation Comparator

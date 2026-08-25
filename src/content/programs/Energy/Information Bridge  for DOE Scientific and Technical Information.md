@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7353'
+link: http://www.osti.gov/bridge/
 programArea: Energy
-pubDate: 5/28/2007
+publishDate: 5/28/2007
 subCategory:
 - Libraries and Repositories
 title: Information Bridge  for DOE Scientific and Technical Information

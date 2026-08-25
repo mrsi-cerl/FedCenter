@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '790'
+link: http://cdn.ca9.uscourts.gov/datastore/library/2013/02/26/Pacific\_NEPA final.pdf
 programArea: NEPA
-pubDate: 2/4/2005
+publishDate: 2/4/2005
 subCategory:
 - Lessons Learned
 title: 'The NEPA Task Force Report to the Council on Environmental Quality:  Modernizing

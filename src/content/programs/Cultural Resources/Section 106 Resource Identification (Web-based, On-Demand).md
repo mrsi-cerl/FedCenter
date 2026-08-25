@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36209'
+link: http://training.npi.org/courses/section106resourceID
 programArea: Cultural Resources
-pubDate: 11/27/2020
+publishDate: 11/27/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Section 106: Resource Identification (Web-based, On-Demand)'

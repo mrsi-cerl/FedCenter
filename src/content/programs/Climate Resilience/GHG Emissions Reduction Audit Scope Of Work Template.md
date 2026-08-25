@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '42305'
+link: https://betterbuildingssolutioncenter.energy.gov/resources/ghg-emissions-reduction-audit-scope-work-template
 programArea: Climate Resilience
-pubDate: 7/9/2024
+publishDate: 7/9/2024
 subCategory:
 - Construction Design
 - Databases and Software Tools

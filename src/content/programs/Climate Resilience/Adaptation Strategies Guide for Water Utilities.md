@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '27571'
+link: epa817k15001.pdf
 programArea: Climate Resilience
-pubDate: 4/8/2015
+publishDate: 4/8/2015
 subCategory:
 - Construction Design
 - Water

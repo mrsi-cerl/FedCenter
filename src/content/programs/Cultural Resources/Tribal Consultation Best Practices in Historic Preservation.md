@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15534'
+link: https://www.academia.edu/71026448/Tribal\_Consultation\_Best\_Practices\_In\_Historic\_Preservation
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Implementation Guidance
 title: 'Tribal Consultation: Best Practices in Historic Preservation'

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5850'
+link: http://www.epa.gov/safepestcontrol/greenscaping-easy-way-greener-healthier-yard
 programArea: Pollution Prevention
-pubDate: 9/13/2006
+publishDate: 9/13/2006
 subCategory:
 - Grounds Maintenance Pollution Prevention
 title: 'GreenScaping: The Easy Way to a Greener, Healthier Yard.'

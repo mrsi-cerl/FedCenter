@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '26997'
+link: http://toolkit.climate.gov/sites/default/files/SCRHCFI%20Best%20Practices%20Report%20final2%202014%20Web.pdf
 programArea: Climate Resilience
-pubDate: 12/16/2014
+publishDate: 12/16/2014
 subCategory:
-- Case Studies
 - Construction Design
+- Case Studies
 title: 'Primary Protection: Enhancing Healthcare Resilience for a Changing Climate'
 ---
 

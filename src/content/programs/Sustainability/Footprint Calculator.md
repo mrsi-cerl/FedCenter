@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11253'
+link: http://www.footprintnetwork.org/en/index.php/GFN/page/calculators/
 programArea: Sustainability
-pubDate: 1/8/2009
+publishDate: 1/8/2009
 subCategory:
 - Databases and Software Tools
 title: Footprint Calculator

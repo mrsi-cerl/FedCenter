@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23905'
+link: https://www.fs.usda.gov/biology/education/workshops/esal/index.html
 programArea: Natural Resources
-pubDate: 7/3/2013
+publishDate: 7/3/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Endangered Species Act: A Practical Primer (ESA) for Decision Makers, Biologists

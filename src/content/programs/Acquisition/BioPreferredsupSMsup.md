@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13870'
+link: http://www.biopreferred.gov/
 programArea: Acquisition
-pubDate: 10/29/2009
+publishDate: 10/29/2009
 subCategory:
 - Organizations and Programs
 title: BioPreferred<sup>SM</sup>

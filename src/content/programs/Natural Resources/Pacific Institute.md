@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2452'
+link: http://www.pacinst.org/
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
 - Organizations
 title: Pacific Institute

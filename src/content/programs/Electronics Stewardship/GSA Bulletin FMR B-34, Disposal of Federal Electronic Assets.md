@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20559'
+link: https://www.gsa.gov/system/files/FMR\_Bulletin\_B-34\_1.pdf
 programArea: Electronics Stewardship
-pubDate: 3/1/2012
+publishDate: 3/1/2012
 subCategory:
 - Regulations, Guidance, and Policy
 title: GSA Bulletin FMR B-34, Disposal of Federal Electronic Assets

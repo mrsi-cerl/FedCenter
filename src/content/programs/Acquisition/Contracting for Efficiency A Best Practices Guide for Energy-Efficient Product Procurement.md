@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '30497'
+link: https://govwhitepapers.com/whitepapers/contracting-for-efficiency-a-best-practices-guide-for-energy-efficient-product-procurement
 programArea: Acquisition
-pubDate: 11/8/2016
+publishDate: 11/8/2016
 subCategory:
-- Contract and Procurement Language
 - Guidance
+- Contract and Procurement Language
 title: 'Contracting for Efficiency: A Best Practices Guide for Energy-Efficient Product
   Procurement'
 ---

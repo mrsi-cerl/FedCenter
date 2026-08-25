@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11706'
+link: http://www.tsi.dot.gov/
 programArea: Chemical Management
-pubDate: 2/17/2009
+publishDate: 2/17/2009
 subCategory:
 - Training, Presentations, and Briefings
 title: DOT Transportation Safety Institute (TSI)

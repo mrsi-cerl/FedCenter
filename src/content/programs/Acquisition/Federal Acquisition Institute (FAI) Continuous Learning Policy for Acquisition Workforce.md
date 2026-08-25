@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43927'
+link: fai.gov/training/continuous-learning-opportunities?utm\_medium=email&utm\_source=govdelivery
 programArea: Acquisition
-pubDate: 4/1/2026
+publishDate: 4/1/2026
 subCategory:
 - Guidance
 title: Federal Acquisition Institute (FAI) Continuous Learning Policy for Acquisition

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32553'
+link: https://www.epa.gov/sustainable-management-food/food-too-good-waste-implementation-guide-and-toolkit
 programArea: Pollution Prevention
-pubDate: 4/23/2018
+publishDate: 4/23/2018
 subCategory:
 - Waste Reduction
 title: 'Food: Too Good to Waste Implementation Guide and Toolkit'

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39932'
+link: https://www.energy.gov/eere/femp/marine-corps-base-camp-blaz-uses-smart-charge-management-solutions-time-ev-charging-high
 programArea: Transportation
-pubDate: 9/13/2022
+publishDate: 9/13/2022
 subCategory:
 - Case Studies
 title: Marine Corps Camp Blaz Uses Smart Charge Management to Align Electric Vehicle

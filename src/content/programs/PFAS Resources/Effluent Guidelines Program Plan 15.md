@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40392'
+link: https://www.epa.gov/eg/current-effluent-guidelines-program-plan
 programArea: PFAS Resources
-pubDate: 1/23/2023
+publishDate: 1/23/2023
 subCategory:
 - Federal Agency Resources
 title: Effluent Guidelines Program Plan 15

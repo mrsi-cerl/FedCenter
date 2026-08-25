@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23369'
+link: https://www.americanrivers.org/conservation-resource/permitting-green-infrastructure-guide/
 programArea: Environmental Compliance
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
 - General
 title: 'Permitting Green Infrastructure: A Guide to Improving Municipal Stormwater

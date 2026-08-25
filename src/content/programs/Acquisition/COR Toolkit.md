@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35911'
+link: https://www.fai.gov/resources/COR-toolkit?utm\_medium=email&utm\_source=govdelivery
 programArea: Acquisition
-pubDate: 9/3/2020
+publishDate: 9/3/2020
 subCategory:
 - Databases and Software Tools
 title: COR Toolkit

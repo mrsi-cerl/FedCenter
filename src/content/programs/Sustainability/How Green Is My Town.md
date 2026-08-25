@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '12375'
+link: http://www.howgreenismytown.org/
 programArea: Sustainability
-pubDate: 5/11/2009
+publishDate: 5/11/2009
 subCategory:
 - Municipalities
 title: How Green Is My Town

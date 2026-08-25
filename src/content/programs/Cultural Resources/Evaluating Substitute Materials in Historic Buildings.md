@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41482'
+link: https://www.nps.gov/subjects/taxincentives/evaluating-substitute-materials.htm?utm\_medium=email&utm\_source=govdelivery
 programArea: Cultural Resources
-pubDate: 10/16/2023
+publishDate: 10/16/2023
 subCategory:
 - Implementation Guidance
 title: Evaluating Substitute Materials in Historic Buildings

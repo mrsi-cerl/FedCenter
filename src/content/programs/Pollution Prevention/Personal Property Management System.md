@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3287'
+link: https://ppms.gov/login
 programArea: Pollution Prevention
-pubDate: 10/31/2005
+publishDate: 10/31/2005
 subCategory:
 - Databases and Software Tools
 title: Personal Property Management System

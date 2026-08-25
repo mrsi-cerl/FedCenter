@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23353'
+link: http://www.epa.gov/wqs-tech/economic-guidance-water-quality-standards
 programArea: Environmental Compliance
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
 - Databases and Software Tools
 title: Economic Guidance for Water Quality Standards

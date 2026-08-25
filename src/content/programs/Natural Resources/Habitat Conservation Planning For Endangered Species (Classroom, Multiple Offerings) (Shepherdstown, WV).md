@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26123'
+link: https://www.fws.gov/course/habitat-conservation-planning-endangered-species
 programArea: Natural Resources
-pubDate: 6/25/2014
+publishDate: 6/25/2014
 subCategory:
 - Training, Presentations, and Briefings
 title: Habitat Conservation Planning For Endangered Species (Classroom, Multiple Offerings)

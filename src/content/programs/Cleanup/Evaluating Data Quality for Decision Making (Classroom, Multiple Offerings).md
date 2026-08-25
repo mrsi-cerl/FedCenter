@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33789'
+link: http://www.nwetc.org/course-catalog/evaluating-data-quality-decision-making
 programArea: Cleanup
-pubDate: 3/26/2019
+publishDate: 3/26/2019
 subCategory:
 - Training, Presentations, and Briefings
 title: Evaluating Data Quality for Decision Making (Classroom, Multiple Offerings)

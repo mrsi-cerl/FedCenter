@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '33667'
+link: www.ree.usda.gov/press-release-federal-agencies-release-framework-advancing-bioeconomy
 programArea: Energy
-pubDate: 3/6/2019
+publishDate: 3/6/2019
 subCategory:
-- ' Alternative Energy'
 - Libraries and Repositories
+- ' Alternative Energy'
 title: 'Federal Agencies Release The Bioeconomy Initiative: Implementation Framework'
 ---
 

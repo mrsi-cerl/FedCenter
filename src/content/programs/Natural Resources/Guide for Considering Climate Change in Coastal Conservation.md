@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30038'
+link: https://coast.noaa.gov/digitalcoast/training/considering-climate-change.html
 programArea: Natural Resources
-pubDate: 7/22/2016
+publishDate: 7/22/2016
 subCategory:
 - Coastal Zones
 title: Guide for Considering Climate Change in Coastal Conservation

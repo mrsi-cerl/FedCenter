@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33458'
+link: http://trainex.org/offeringslist.cfm?courseid=1749&all=yes
 programArea: Cleanup
-pubDate: 1/15/2019
+publishDate: 1/15/2019
 subCategory:
 - Training, Presentations, and Briefings
 title: Federal Facility RPM (Classroom) (Multiple Offerings)

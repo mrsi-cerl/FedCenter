@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3981'
+link: https://www.epa.gov/nps/handbook-developing-watershed-plans-restore-and-protect-our-waters
 programArea: Natural Resources
-pubDate: 1/18/2006
+publishDate: 1/18/2006
 subCategory:
 - Watershed Management
 title: Handbook for Developing Watershed Plans to Restore and Protect Our Waters

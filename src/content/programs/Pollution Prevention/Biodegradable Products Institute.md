@@ -1,9 +1,12 @@
 ---
+expiryDate: null
 item_id: '1419'
+link: https://bpiworld.org/
 programArea: Pollution Prevention
-pubDate: 4/21/2005
+publishDate: 4/21/2005
 subCategory:
 - Organizations
+- Libraries and Repositories
 title: Biodegradable Products Institute
 ---
 

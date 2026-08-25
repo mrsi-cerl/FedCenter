@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3167'
+link: http://cdx.epa.gov/
 programArea: Environmental Compliance
-pubDate: 10/17/2005
+publishDate: 10/17/2005
 subCategory:
 - Databases and Software Tools
 title: EPA's Central Data Exchange (CDX)

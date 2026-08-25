@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29353'
+link: http://betterbuildingssolutioncenter.energy.gov/toolkits/energy-data-access-blueprint-action
 programArea: Energy
-pubDate: 4/5/2016
+publishDate: 4/5/2016
 subCategory:
 - Case Studies
 title: 'Energy Data Access: Blueprint for Action Toolkit'

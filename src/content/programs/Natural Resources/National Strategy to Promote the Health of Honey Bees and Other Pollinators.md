@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '27792'
+link: https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/Pollinator%20Health%20Strategy%202015.pdf
 programArea: Natural Resources
-pubDate: 5/19/2015
+publishDate: 5/19/2015
 subCategory:
 - Species Management
 title: National Strategy to Promote the Health of Honey Bees and Other Pollinators

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33384'
+link: http://accoonline.org/ghg201
 programArea: Greenhouse Gases
-pubDate: 12/19/2018
+publishDate: 12/19/2018
 subCategory:
 - Training, Presentations, and Briefings
 title: Establishing GHG Reduction Goals & Management Structures (Online, On Demand)

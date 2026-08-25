@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40678'
+link: http://www.astm.org/products-services/standards-and-publications/standards/environmental-assessment-standards-and-risk-management-standards.html
 programArea: Cleanup
-pubDate: 4/5/2023
+publishDate: 4/5/2023
 subCategory:
 - Regulations, Guidance, and Policy
 title: ASTM Environmental Assessment Standards and Risk Management Standards

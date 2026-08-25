@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28450'
+link: http://eros.usgs.gov/
 programArea: Climate Resilience
-pubDate: 9/18/2015
+publishDate: 9/18/2015
 subCategory:
 - Construction Design
 - Organizations and Programs

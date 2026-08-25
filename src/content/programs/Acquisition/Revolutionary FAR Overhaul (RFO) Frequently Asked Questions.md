@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43396'
+link: https://www.acquisition.gov/far-overhaul/faqs?utm\_medium=email&utm\_source=govdelivery
 programArea: Acquisition
-pubDate: 7/17/2025
+publishDate: 7/17/2025
 subCategory:
 - Guidance
 title: Revolutionary FAR Overhaul (RFO) Frequently Asked Questions

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5891'
+link: http://www.epa.gov/tri-efdr/
 programArea: Chemical Management
-pubDate: 9/25/2006
+publishDate: 9/25/2006
 subCategory:
 - Databases and Software Tools
 title: TRI Data for Reporting Year 2005

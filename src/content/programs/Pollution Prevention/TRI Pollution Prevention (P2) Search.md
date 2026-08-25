@@ -1,0 +1,12 @@
+---
+expiryDate: null
+item_id: '35659'
+link: http://enviro.epa.gov/facts/tri/p2.html
+programArea: Pollution Prevention
+publishDate: 6/26/2020
+subCategory:
+- Case Studies
+title: TRI Pollution Prevention (P2) Search
+---
+
+The Toxics Release Inventory (TRI) Program collects information to track industry progress in reducing waste generation and moving towards safer waste management alternatives. These tools and resources can help identify effective environmental practices and highlighting pollution prevention successes. Use the TRI Pollution Prevention Search to learn how facilities have reduced releases of toxic chemicals to the environment and compare how different facilities have managed their toxic chemical waste. Database can be searched by industry sector, chemical, geography or parent company, and compare environmental performance.

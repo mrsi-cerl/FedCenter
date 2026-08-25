@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8142'
+link: https://fastweb.inl.gov/
 programArea: Transportation
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
 - Databases and Software Tools
 title: Federal Automotive Statistical Tool (FAST)

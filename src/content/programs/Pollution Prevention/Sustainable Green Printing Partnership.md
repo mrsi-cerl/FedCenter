@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15326'
+link: http://www.sgppartnership.org/
 programArea: Pollution Prevention
-pubDate: 7/7/2010
+publishDate: 7/7/2010
 subCategory:
 - Organizations
 title: Sustainable Green Printing Partnership

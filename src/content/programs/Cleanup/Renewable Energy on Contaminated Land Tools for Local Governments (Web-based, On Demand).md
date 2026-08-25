@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22123'
+link: http://www.clu-in.org/conf/tio/renewableenergyland\_052212/
 programArea: Cleanup
-pubDate: 8/29/2012
+publishDate: 8/29/2012
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Renewable Energy on Contaminated Land: Tools for Local Governments (Web-based,

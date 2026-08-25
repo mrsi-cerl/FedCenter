@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '568'
+link: https://www.lamprecycle.org/
 programArea: Pollution Prevention
-pubDate: 12/17/2004
+publishDate: 12/17/2004
 subCategory:
 - Household Pollution Prevention
 - Recycling and Reuse

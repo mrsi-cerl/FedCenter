@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35791'
+link: https://www.fai.gov/training
 programArea: Acquisition
-pubDate: 7/31/2020
+publishDate: 7/31/2020
 subCategory:
 - Organizations and Programs
 title: Federal Acquisition Institute Training Resources

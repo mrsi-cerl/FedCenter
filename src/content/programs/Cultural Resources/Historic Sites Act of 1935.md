@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15398'
+link: https://www.doi.gov/sites/doi.gov/files/T-20736.pdf
 programArea: Cultural Resources
-pubDate: 7/20/2010
+publishDate: 7/20/2010
 subCategory:
 - National Laws and Statutes
 title: Historic Sites Act of 1935

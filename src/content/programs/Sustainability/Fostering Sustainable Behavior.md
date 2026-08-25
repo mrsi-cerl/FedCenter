@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20271'
+link: http://www.uwsp.edu/cnr-ap/UWEXLakes/Documents/ecology/shoreland/marketing/fostering\_sustainable\_behavior\_dmm.pdf
 programArea: Sustainability
-pubDate: 1/23/2012
+publishDate: 1/23/2012
 subCategory:
 - Libraries and Repositories
 title: Fostering Sustainable Behavior

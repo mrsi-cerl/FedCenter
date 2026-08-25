@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3717'
+link: http://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100304J.txt
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
 - Munitions
 title: Handbook on the Management of Munitions Response Actions

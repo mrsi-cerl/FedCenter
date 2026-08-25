@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33384'
+link: http://accoonline.org/ghg201
 programArea: Climate Resilience
-pubDate: 12/19/2018
+publishDate: 12/19/2018
 subCategory:
 - Construction Design
 - Training, Presentations, and Briefings

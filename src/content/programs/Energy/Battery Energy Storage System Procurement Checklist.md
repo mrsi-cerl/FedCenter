@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40524'
+link: https://www.energy.gov/eere/femp/articles/battery-energy-storage-system-procurement-checklist
 programArea: Energy
-pubDate: 3/1/2023
+publishDate: 3/1/2023
 subCategory:
 - Guidance Documents
 title: Battery Energy Storage System Procurement Checklist

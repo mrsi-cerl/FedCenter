@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15496'
+link: https://www.nps.gov/subjects/museums/conserve-o-grams.htm
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Directories, Catalogs, and Newsletters
 title: Conserve O Grams

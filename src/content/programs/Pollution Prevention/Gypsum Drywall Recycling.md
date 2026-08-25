@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8300'
+link: https://www.cdrecycling.org/gypsum-drywall
 programArea: Pollution Prevention
-pubDate: 9/19/2007
+publishDate: 9/19/2007
 subCategory:
 - Recycling and Reuse
 title: Gypsum Drywall Recycling

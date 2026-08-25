@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28609'
+link: http://www.fws.gov/endangered/
 programArea: Natural Resources
-pubDate: 10/13/2015
+publishDate: 10/13/2015
 subCategory:
 - Databases and Software Tools
 title: Find Endangered Species

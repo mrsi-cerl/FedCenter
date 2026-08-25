@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8706'
+link: https://www.envcap.org/tsdf/resourcelocator.php
 programArea: Chemical Management
-pubDate: 12/19/2007
+publishDate: 12/19/2007
 subCategory:
 - Databases and Software Tools
 title: TSD and Recycling Facilities Locator

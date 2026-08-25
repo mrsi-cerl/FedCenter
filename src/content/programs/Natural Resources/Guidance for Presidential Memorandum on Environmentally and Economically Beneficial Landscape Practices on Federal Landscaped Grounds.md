@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2996'
+link: https://www.gpo.gov/fdsys/pkg/FR-1995-08-10/pdf/95-19795.pdf
 programArea: Natural Resources
-pubDate: 9/29/2005
+publishDate: 9/29/2005
 subCategory:
 - Land Management
 title: Guidance for Presidential Memorandum on Environmentally and Economically Beneficial

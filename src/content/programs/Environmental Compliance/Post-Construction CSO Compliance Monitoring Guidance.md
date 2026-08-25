@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '23371'
+link: https://www.epa.gov/sites/production/files/2015-10/documents/final\_cso\_pccm\_guidance.pdf
 programArea: Environmental Compliance
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Post-Construction CSO Compliance Monitoring Guidance
 ---
 

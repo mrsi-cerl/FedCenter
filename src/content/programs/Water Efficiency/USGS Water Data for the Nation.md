@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18266'
+link: http://waterdata.usgs.gov/nwis
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
 - Databases and Software Tools
 title: USGS Water Data for the Nation

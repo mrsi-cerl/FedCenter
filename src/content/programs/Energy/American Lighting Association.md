@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16306'
+link: https://alalighting.com/
 programArea: Energy
-pubDate: 9/27/2010
+publishDate: 9/27/2010
 subCategory:
 - Organizations and Programs
 title: American Lighting Association

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18255'
+link: http://awra.org
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
 - Organizations and Programs
 title: American Water Resources Association

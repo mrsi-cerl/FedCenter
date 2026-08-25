@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1084'
+link: http://www.epa.gov/enforcement/national-enforcement-investigations-center-neic
 programArea: Environmental Compliance
-pubDate: 3/21/2005
+publishDate: 3/21/2005
 subCategory:
 - Organizations
 title: The National Enforcement Investigations Center (NEIC)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33472'
+link: http://www.npi.org/sem-nagpra.html
 programArea: Cultural Resources
-pubDate: 1/24/2019
+publishDate: 1/24/2019
 subCategory:
 - Training, Presentations, and Briefings
 title: 'NAGPRA and ARPA:  Applications and Requirements (Classroom, Multiple Offerings)'

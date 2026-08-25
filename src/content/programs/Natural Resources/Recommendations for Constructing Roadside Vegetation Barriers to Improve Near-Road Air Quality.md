@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30475'
+link: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RBAB.txt
 programArea: Natural Resources
-pubDate: 11/2/2016
+publishDate: 11/2/2016
 subCategory:
 - Land Management
 title: Recommendations for Constructing Roadside Vegetation Barriers to Improve Near-Road

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5432'
+link: http://www.responsiblepurchasing.org/janitor/buildinginfo.asp
 programArea: Pollution Prevention
-pubDate: 6/29/2006
+publishDate: 6/29/2006
 subCategory:
 - Databases and Software Tools
 title: Green Cleaning Pollution Prevention Calculator

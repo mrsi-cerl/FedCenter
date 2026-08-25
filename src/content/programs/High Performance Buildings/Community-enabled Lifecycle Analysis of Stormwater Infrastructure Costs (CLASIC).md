@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36794'
+link: https://clasic.erams.com/docs/?token=tZgUvIgi0v
 programArea: High Performance Buildings
-pubDate: 4/26/2021
+publishDate: 4/26/2021
 subCategory:
 - Databases and Software Tools
 title: Community-enabled Lifecycle Analysis of Stormwater Infrastructure Costs (CLASIC)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '27932'
+link: https://www.energy.gov/eere/femp/downloads/best-practices-guide-energy-efficient-data-center-design
 programArea: Energy
-pubDate: 5/27/2015
+publishDate: 5/27/2015
 subCategory:
 - Data Centers
 title: Best Practices Guide for Energy-Efficient Data Center Design

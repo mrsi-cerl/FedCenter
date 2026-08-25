@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29004'
+link: EPA Smartway Sample Contract Language.pdf
 programArea: Acquisition
-pubDate: 1/14/2016
+publishDate: 1/14/2016
 subCategory:
 - Contract and Procurement Language
 title: Smartway Sample Contract Language

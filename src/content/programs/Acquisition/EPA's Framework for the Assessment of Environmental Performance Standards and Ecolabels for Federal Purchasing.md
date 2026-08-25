@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39055'
+link: https://www.epa.gov/greenerproducts/framework-assessment-environmental-performance-standards-and-ecolabels-federal
 programArea: Acquisition
-pubDate: 2/7/2022
+publishDate: 2/7/2022
 subCategory:
 - Guidance
 title: EPA's Framework for the Assessment of Environmental Performance Standards and

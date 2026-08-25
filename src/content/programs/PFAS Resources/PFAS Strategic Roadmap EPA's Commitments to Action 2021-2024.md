@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '38584'
+link: https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitments-action-2021-2024
 programArea: PFAS Resources
-pubDate: 10/19/2021
+publishDate: 10/19/2021
 subCategory:
 - State, National and International Regulations
 title: 'PFAS Strategic Roadmap: EPA''s Commitments to Action 2021-2024'

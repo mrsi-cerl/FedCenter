@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29444'
+link: http://www.youtube.com/watch?v=fjK\_bBbNU3o
 programArea: Environmental Compliance
-pubDate: 4/29/2016
+publishDate: 4/29/2016
 subCategory:
 - Training, Presentations, and Briefings
 title: Point of Use/Point of Entry Treatment Devices (Web-based)

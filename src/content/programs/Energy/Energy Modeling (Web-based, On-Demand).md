@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43585'
+link: https://www.wbdg.org/ce/doe/femp/fempodw024
 programArea: Energy
-pubDate: 10/16/2025
+publishDate: 10/16/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: Energy Modeling (Web-based, On-Demand)

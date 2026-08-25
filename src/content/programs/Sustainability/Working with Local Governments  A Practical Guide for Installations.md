@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '6203'
+link: Working with Local Governments primer.pdf
 programArea: Sustainability
-pubDate: 11/21/2006
+publishDate: 11/21/2006
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Working with Local Governments:  A Practical Guide for Installations '

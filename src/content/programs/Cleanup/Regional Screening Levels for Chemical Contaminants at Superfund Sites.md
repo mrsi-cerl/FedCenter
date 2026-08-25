@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39572'
+link: https://www.epa.gov/risk/human-health-risk-models-and-tools
 programArea: Cleanup
-pubDate: 5/23/2022
+publishDate: 5/23/2022
 subCategory:
 - Databases and Software Tools
 title: Regional Screening Levels for Chemical Contaminants at Superfund Sites

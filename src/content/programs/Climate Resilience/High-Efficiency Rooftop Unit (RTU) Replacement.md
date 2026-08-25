@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39923'
+link: https://betterbuildingssolutioncenter.energy.gov/toolkits/high-efficiency-rooftop-unit-rtu-replacement
 programArea: Climate Resilience
-pubDate: 9/7/2022
+publishDate: 9/7/2022
 subCategory:
 - Construction Design
 - Databases and Software Tools

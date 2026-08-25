@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '998'
+link: https://rcrapublic.epa.gov/rcraonline/
 programArea: Chemical Management
-pubDate: 3/8/2005
+publishDate: 3/8/2005
 subCategory:
 - Databases and Software Tools
 - Regulations, Guidance, and Policy

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22354'
+link: https://cdx.epa.gov/
 programArea: NEPA
-pubDate: 10/4/2012
+publishDate: 10/4/2012
 subCategory:
 - Databases and Software Tools
 title: Central Data Exchange

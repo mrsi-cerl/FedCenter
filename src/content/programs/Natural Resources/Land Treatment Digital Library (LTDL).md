@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24484'
+link: http://ltdl.wr.usgs.gov/
 programArea: Natural Resources
-pubDate: 9/12/2013
+publishDate: 9/12/2013
 subCategory:
 - Databases and Software Tools
 title: Land Treatment Digital Library (LTDL)

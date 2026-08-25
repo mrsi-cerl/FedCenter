@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20737'
+link: https://www.nwetc.org/schedule/event/contaminant-vapor-migration-and-intrusion----
 programArea: Cleanup
-pubDate: 4/9/2012
+publishDate: 4/9/2012
 subCategory:
 - Training, Presentations, and Briefings
 title: Contaminant Vapor Migration and Intrusion (Classroom, Multiple Offerings)

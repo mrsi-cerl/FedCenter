@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11256'
+link: http://www.allianceforwaterefficiency.org/
 programArea: Sustainability
-pubDate: 1/8/2009
+publishDate: 1/8/2009
 subCategory:
 - Organizations
 title: Alliance for Water Efficiency

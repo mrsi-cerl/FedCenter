@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1470'
+link: http://www.trainex.org/offeringslist.cfm?courseid=310
 programArea: Environmental Compliance
-pubDate: 4/22/2005
+publishDate: 4/22/2005
 subCategory:
 - Training, Presentations, and Briefings
 title: UIC Well Inspection Training Course (Web-based, On Demand)

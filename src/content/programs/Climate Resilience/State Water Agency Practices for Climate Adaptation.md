@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28657'
+link: http://www.epa.gov/climate-change-water-sector/state-water-agency-practices-climate-adaptation
 programArea: Climate Resilience
-pubDate: 10/27/2015
+publishDate: 10/27/2015
 subCategory:
 - Construction Design
 - Water

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '6248'
+link: http://www.frtr.gov/site/
 programArea: Cleanup
-pubDate: 12/11/2006
+publishDate: 12/11/2006
 subCategory:
 - Databases and Software Tools
 title: Field Sampling and Analysis Technologies Matrix

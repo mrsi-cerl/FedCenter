@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43606'
+link: https://betterbuildingssolutioncenter.energy.gov/webinars/water-reclaimed-how-fit-purpose-approach-saves-water-and-cuts-costs
 programArea: Water Efficiency
-pubDate: 10/28/2025
+publishDate: 10/28/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Water, Reclaimed: How a Fit-for-Purpose Approach Saves Water and Cuts Costs

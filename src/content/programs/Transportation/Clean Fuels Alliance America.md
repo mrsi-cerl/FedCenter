@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3789'
+link: https://cleanfuels.org/
 programArea: Transportation
-pubDate: 1/4/2006
+publishDate: 1/4/2006
 subCategory:
 - Organizations
 title: Clean Fuels Alliance America

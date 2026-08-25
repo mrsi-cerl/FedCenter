@@ -2,7 +2,7 @@
 const { post, showTags } = Astro.props;
 
 //turn the dd-mm-yyyy date into a date object
-const pDate = new Date(post.data.pubDate);
+const pDate = new Date(post.data.publishDate);
 
 //turn it into a dd-month-yyyy format
 const prettyDate = new Intl.DateTimeFormat("en-GB", {
@@ -47,12 +47,14 @@ const isNew =
         }
         {
           showTags && (
-            <li class="usa-collection__meta-item usa-tag">
-              {post.data.programArea}
-            </li>
-            <li class="usa-collection__meta-item usa-tag">
-              {post.data.subCategory}
-            </li>
+            <>
+              <li class="usa-collection__meta-item usa-tag">
+                {post.data.programArea}
+              </li>
+              {post.data.subCategory.map((cat: any) => (
+                <li class="usa-collection__meta-item usa-tag">{cat}</li>
+              ))}
+            </>
           )
         }
         <!-- {

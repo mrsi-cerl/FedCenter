@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3343'
+link: http://www.wbcsd.org/home.aspx
 programArea: Sustainability
-pubDate: 10/15/2005
+publishDate: 10/15/2005
 subCategory:
 - Organizations
 title: World Business Council for Sustainable Development

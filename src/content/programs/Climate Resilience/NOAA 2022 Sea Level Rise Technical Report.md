@@ -1,9 +1,10 @@
 ---
+expiryDate: null
 item_id: '39102'
+link: https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report.html
 programArea: Climate Resilience
-pubDate: 2/22/2022
+publishDate: 2/22/2022
 subCategory:
-- Construction Design
 - Construction Design
 - Databases and Software Tools
 title: NOAA 2022 Sea Level Rise Technical Report

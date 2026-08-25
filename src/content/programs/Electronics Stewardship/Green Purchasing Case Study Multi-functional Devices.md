@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '14913'
+link: http://responsiblepurchasing.org/publications/dcfs\_case\_study.pdf
 programArea: Electronics Stewardship
-pubDate: 4/30/2010
+publishDate: 4/30/2010
 subCategory:
 - Acquisition
 title: 'Green Purchasing Case Study: Multi-functional Devices'

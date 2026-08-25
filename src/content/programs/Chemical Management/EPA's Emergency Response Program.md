@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8723'
+link: http://www.epa.gov/emergency-response
 programArea: Chemical Management
-pubDate: 12/27/2007
+publishDate: 12/27/2007
 subCategory:
 - Accident Prevention & Reporting
 title: EPA's Emergency Response Program

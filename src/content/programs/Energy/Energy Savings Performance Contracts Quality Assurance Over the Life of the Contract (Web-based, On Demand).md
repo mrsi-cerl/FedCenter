@@ -1,11 +1,13 @@
 ---
+expiryDate: null
 item_id: '27930'
+link: http://www.energy.gov/cmei/femp/smart-labs
 programArea: Energy
-pubDate: 5/26/2015
+publishDate: 5/26/2015
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Energy Savings Performance Contracts: Quality Assurance Over the Life of the
   Contract (Web-based, On Demand)'
 ---
 
-This webinar addresses the responsibilities of agency contracting and technical personnel for administering an energy savings performance contract (ESPC) task order during the post-acceptance performance period. It also discusses life-of-contract (LOC) services and training provided by the Federal Energy Management Program (FEMP) to agencies with ESPCs in the performance period. The purpose of LOC services is to help agencies maintain compliance and high value in their ESPC projects.
+The Federal Energy Management Program's (FEMP) Smart Labs initiative enables safe and efficient world class science to occur in laboratories through high-performance methods. A Smart Labs program employs a combination of physical, administrative, and management techniques to assess, optimize, and manage high performance laboratories.

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15533'
+link: http://whc.unesco.org/en/guidelines/
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Implementation Guidance
 title: Operational Guidelines for the Implementation of the World Heritage Convention

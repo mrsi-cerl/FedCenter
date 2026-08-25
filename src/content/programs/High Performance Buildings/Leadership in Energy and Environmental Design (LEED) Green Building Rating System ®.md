@@ -1,11 +1,13 @@
 ---
+expiryDate: null
 item_id: '766'
+link: https://www.usgbc.org/leed
 programArea: High Performance Buildings
-pubDate: 2/3/2005
+publishDate: 2/3/2005
 subCategory:
-- Construction Design
 - Construction Guidelines and Criteria
 - Directories, Catalogs, and Newsletters
+- Construction Design
 title: Leadership in Energy and Environmental Design (LEED) Green Building Rating
   System ®
 ---

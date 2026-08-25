@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41017'
+link: https://nam.edu/programs/climate-change-and-human-health/action-collaborative-on-decarbonizing-the-u-s-health-sector/key-actions-to-reduce-greenhouse-gas-emissions-by-u-s-hospitals-and-health-systems/
 programArea: Greenhouse Gases
-pubDate: 6/14/2023
+publishDate: 6/14/2023
 subCategory:
 - Case Studies
 title: Key Actions to Reduce Greenhouse Gas Emissions by U.S. Hospitals and Health

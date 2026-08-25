@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35539'
+link: https://www.epa.gov/greenerproducts/identify-greener-products-and-services
 programArea: Acquisition
-pubDate: 6/4/2020
+publishDate: 6/4/2020
 subCategory:
 - Purchasing Guides
 title: Identify Greener Products and Services

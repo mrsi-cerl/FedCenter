@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26548'
+link: https://www.epa.gov/chemical-research/program-assisting-replacement-industrial-solvents-paris-iii
 programArea: Chemical Management
-pubDate: 9/11/2014
+publishDate: 9/11/2014
 subCategory:
 - Databases and Software Tools
 title: Program for Assisting the Replacement of industrial Solvents (PARIS), version

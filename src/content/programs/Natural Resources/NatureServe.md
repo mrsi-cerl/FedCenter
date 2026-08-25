@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23840'
+link: http://www.natureserve.org/
 programArea: Natural Resources
-pubDate: 6/27/2013
+publishDate: 6/27/2013
 subCategory:
 - Organizations
 title: NatureServe

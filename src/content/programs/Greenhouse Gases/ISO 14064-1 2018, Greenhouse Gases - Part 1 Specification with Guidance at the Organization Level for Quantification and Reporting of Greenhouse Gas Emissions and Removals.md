@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33494'
+link: https://www.iso.org/standard/66453.html
 programArea: Greenhouse Gases
-pubDate: 1/29/2019
+publishDate: 1/29/2019
 subCategory:
 - International
 title: 'ISO 14064-1: 2018, Greenhouse Gases - Part 1: Specification with Guidance

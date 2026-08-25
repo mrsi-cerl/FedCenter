@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26998'
+link: http://toolkit.climate.gov/
 programArea: Climate Resilience
-pubDate: 12/16/2014
+publishDate: 12/16/2014
 subCategory:
 - Construction Design
 - Libraries and Repositories

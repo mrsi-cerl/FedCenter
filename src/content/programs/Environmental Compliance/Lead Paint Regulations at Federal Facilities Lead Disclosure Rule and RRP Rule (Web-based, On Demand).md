@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39681'
+link: http://www.youtube.com/watch?v=VI-C7MNn1T4
 programArea: Environmental Compliance
-pubDate: 8/1/2022
+publishDate: 8/1/2022
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Lead Paint Regulations at Federal Facilities: Lead Disclosure Rule and RRP

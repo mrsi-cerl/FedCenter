@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35333'
+link: https://www.epa.gov/sustainable-management-food/tools-preventing-and-diverting-wasted-food#packaging
 programArea: Sustainability
-pubDate: 4/13/2020
+publishDate: 4/13/2020
 subCategory:
 - Databases and Software Tools
 title: Tools for Preventing and Diverting Wasted Food

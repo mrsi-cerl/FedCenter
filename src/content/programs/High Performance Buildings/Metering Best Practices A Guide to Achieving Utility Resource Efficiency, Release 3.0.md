@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '27639'
+link: https://www.wbdg.org/ffc/doe/national-laboratory-criteria/metering-best-practices
 programArea: High Performance Buildings
-pubDate: 4/23/2015
+publishDate: 4/23/2015
 subCategory:
 - Guidance & Policy
 title: 'Metering Best Practices: A Guide to Achieving Utility Resource Efficiency,

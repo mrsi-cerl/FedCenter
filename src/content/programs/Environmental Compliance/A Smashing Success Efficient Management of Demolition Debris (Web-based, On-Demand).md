@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43538'
+link: https://betterbuildingssolutioncenter.energy.gov/webinars/smashing-success-efficient-management-demolition-debris
 programArea: Environmental Compliance
-pubDate: 9/30/2025
+publishDate: 9/30/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: 'A Smashing Success: Efficient Management of Demolition Debris (Web-based,

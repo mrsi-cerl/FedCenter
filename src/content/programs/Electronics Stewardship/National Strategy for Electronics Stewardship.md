@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18854'
+link: http://www.epa.gov/electronics-batteries-management/national-strategy-electronics-stewardship-nses
 programArea: Electronics Stewardship
-pubDate: 7/20/2011
+publishDate: 7/20/2011
 subCategory:
 - Regulations, Guidance, and Policy
 title: National Strategy for Electronics Stewardship

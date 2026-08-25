@@ -1,11 +1,12 @@
 ---
+expiryDate: null
 item_id: '38607'
+link: https://www1.eere.energy.gov/wip/solutioncenter/pdfs/deepenergyretrofitsandstateapplications.pdf
 programArea: High Performance Buildings
-pubDate: 10/26/2021
+publishDate: 10/26/2021
 subCategory:
-- Conferences and Events
-- High Perf Bldgs News
 - Indoor Air Quality
+- Conferences and Events
 title: Deep Energy Retrofits & State Applications
 ---
 

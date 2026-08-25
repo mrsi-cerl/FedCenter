@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '14185'
+link: http://www.aiche.org/ccps/resources/chemical-reactivity-worksheet
 programArea: Cleanup
-pubDate: 12/15/2009
+publishDate: 12/15/2009
 subCategory:
 - Databases and Software Tools
 title: Chemical Reactivity Worksheet (CRW)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1154'
+link: https://www.epa.gov/p2/pollution-prevention-resource-exchange-p2rx
 programArea: Pollution Prevention
-pubDate: 3/28/2005
+publishDate: 3/28/2005
 subCategory:
 - Libraries and Repositories
 title: Pollution Prevention Resource Exchange (P2Rx)

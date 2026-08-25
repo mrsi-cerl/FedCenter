@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33459'
+link: http://www.npi.org/sem-106i.html
 programArea: Cultural Resources
-pubDate: 1/15/2019
+publishDate: 1/15/2019
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Section 106: An Introduction (Classroom, Multiple Offerings)'

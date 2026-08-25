@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18256'
+link: http://www.awwa.org
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
 - Organizations and Programs
 title: American Water Works Association

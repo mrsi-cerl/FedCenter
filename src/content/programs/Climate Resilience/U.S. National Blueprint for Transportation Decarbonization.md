@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40362'
+link: https://www.energy.gov/sites/default/files/2023-01/the-us-national-blueprint-for-transportation-decarbonization.pdf
 programArea: Climate Resilience
-pubDate: 1/11/2023
+publishDate: 1/11/2023
 subCategory:
 - Construction Design
 - Federal

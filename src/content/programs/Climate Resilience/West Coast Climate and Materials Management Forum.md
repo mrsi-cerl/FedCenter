@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18477'
+link: http://westcoastclimateforum.com/
 programArea: Climate Resilience
-pubDate: 6/22/2011
+publishDate: 6/22/2011
 subCategory:
 - Construction Design
 - Organizations and Programs

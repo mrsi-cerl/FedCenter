@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1587'
+link: http://www.cdrecycling.org/
 programArea: Pollution Prevention
-pubDate: 5/2/2005
+publishDate: 5/2/2005
 subCategory:
 - Organizations
 title: Construction & Demolition Recycling Association (CDRA)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28559'
+link: Electronics-Take-Back.pdf
 programArea: Electronics Stewardship
-pubDate: 10/1/2015
+publishDate: 10/1/2015
 subCategory:
 - Regulations, Guidance, and Policy
 title: Electronic Asset Take Back Guidance

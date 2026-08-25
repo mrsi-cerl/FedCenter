@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29362'
+link: https://www.wbdg.org/ffc/federal-facility-criteria
 programArea: High Performance Buildings
-pubDate: 4/6/2016
+publishDate: 4/6/2016
 subCategory:
 - Libraries and Repositories
 title: WBDG Federal Facilities Criteria Library

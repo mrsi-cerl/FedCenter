@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28570'
+link: http://cfpub.epa.gov/giwiz/
 programArea: Sustainability
-pubDate: 10/5/2015
+publishDate: 10/5/2015
 subCategory:
 - Databases and Software Tools
 title: Green Infrastructure Wizard (GiWiz)

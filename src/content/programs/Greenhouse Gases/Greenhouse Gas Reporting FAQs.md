@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32900'
+link: https://ccdsupport.com/confluence/display/faq/FAQs
 programArea: Greenhouse Gases
-pubDate: 8/1/2018
+publishDate: 8/1/2018
 subCategory:
 - National
 title: Greenhouse Gas Reporting FAQs

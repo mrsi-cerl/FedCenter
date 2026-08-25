@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18172'
+link: http://ghginstitute.org/
 programArea: Greenhouse Gases
-pubDate: 6/2/2011
+publishDate: 6/2/2011
 subCategory:
 - Organizations and Programs
 title: GHG Institute

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16320'
+link: http://www.nps.gov/history/laws.htm
 programArea: Cultural Resources
-pubDate: 9/28/2010
+publishDate: 9/28/2010
 subCategory:
 - National Laws and Statutes
 title: Other Cultural Resources Laws and Statutes

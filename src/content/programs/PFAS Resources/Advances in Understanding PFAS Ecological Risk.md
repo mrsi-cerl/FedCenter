@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36761'
+link: https://www.serdp-estcp.org/Tools-and-Training/Webinar-Series/04-08-2021
 programArea: PFAS Resources
-pubDate: 4/14/2021
+publishDate: 4/14/2021
 subCategory:
 - Training, Presentations and Briefings
 title: Advances in Understanding PFAS Ecological Risk

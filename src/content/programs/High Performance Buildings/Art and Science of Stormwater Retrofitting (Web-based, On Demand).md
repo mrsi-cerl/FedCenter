@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13157'
+link: http://www.youtube.com/watch?v=rTqQBQAUiww
 programArea: High Performance Buildings
-pubDate: 7/22/2009
+publishDate: 7/22/2009
 subCategory:
 - Training, Presentations, and Briefings
 title: Art and Science of Stormwater Retrofitting (Web-based, On Demand)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23358'
+link: http://wwa.colorado.edu/climate/dashboard.html
 programArea: Greenhouse Gases
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
 - Databases and Software Tools
 title: Intermountain West Climate Dashboard

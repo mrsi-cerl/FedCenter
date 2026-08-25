@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24360'
+link: http://www.youtube.com/watch?v=2M7NSPlG6QA
 programArea: Environmental Compliance
-pubDate: 8/23/2013
+publishDate: 8/23/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Pretreatment 101 Series: POTW Pretreatment Considerations and Permitting Programs

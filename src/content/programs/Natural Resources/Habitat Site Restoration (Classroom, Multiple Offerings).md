@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20722'
+link: http://www.nwetc.org/schedule/event/habitat-site-restoration---
 programArea: Natural Resources
-pubDate: 4/5/2012
+publishDate: 4/5/2012
 subCategory:
 - Training, Presentations, and Briefings
 title: Habitat Site Restoration (Classroom, Multiple Offerings)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '38363'
+link: https://www.energy.gov/eere/femp/downloads/guidance-and-recommendations-streamlining-reporting-federal-energy-and-water
 programArea: Energy
-pubDate: 9/7/2021
+publishDate: 9/7/2021
 subCategory:
 - Guidance Documents
 title: Guidance and Recommendations for Streamlining Reporting for Federal Energy

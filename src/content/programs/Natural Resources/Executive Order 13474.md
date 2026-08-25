@@ -1,12 +1,12 @@
 ---
+expiryDate: null
 item_id: '14782'
+link: https://www.federalregister.gov/documents/2008/10/01/E8-23235/amendments-to-executive-order-12962
 programArea: Natural Resources
-pubDate: 4/6/2010
+publishDate: 4/6/2010
 subCategory:
 - Species Management
 title: Executive Order 13474
 ---
 
-<b>Amendments to Executive Order 12962</b></br>
-<i>September 26, 2008</i><br>
-This Executive Order expands the scope of Executive Order 12962
+<b>Amendments to Executive Order 12962</b></br>  <i>September 26, 2008</i><br>  This Executive Order expands the scope of Executive Order 12962

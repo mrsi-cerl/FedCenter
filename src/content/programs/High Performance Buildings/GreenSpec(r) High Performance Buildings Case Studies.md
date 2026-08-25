@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11372'
+link: http://www.buildinggreen.com/hpb/index.cfm
 programArea: High Performance Buildings
-pubDate: 1/27/2009
+publishDate: 1/27/2009
 subCategory:
 - Case Studies
 title: GreenSpec(r) High Performance Buildings Case Studies

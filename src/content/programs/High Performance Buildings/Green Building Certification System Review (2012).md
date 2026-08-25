@@ -1,10 +1,11 @@
 ---
+expiryDate: null
 item_id: '21064'
+link: Green Building Cert Sys Review March 2012.pdf
 programArea: High Performance Buildings
-pubDate: 5/3/2012
+publishDate: 5/3/2012
 subCategory:
 - Conferences and Events
-- High Perf Bldgs News
 title: Green Building Certification System Review (2012)
 ---
 

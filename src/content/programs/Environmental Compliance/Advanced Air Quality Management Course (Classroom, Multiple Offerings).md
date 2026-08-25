@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13342'
+link: https://www.afit.edu/CE/Course\_Desc.cfm?p=WENV%20532
 programArea: Environmental Compliance
-pubDate: 8/25/2009
+publishDate: 8/25/2009
 subCategory:
 - Training, Presentations, and Briefings
 title: Advanced Air Quality Management Course (Classroom, Multiple Offerings)

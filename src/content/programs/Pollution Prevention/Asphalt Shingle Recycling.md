@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '577'
+link: http://www.shinglerecycling.org/
 programArea: Pollution Prevention
-pubDate: 12/27/2004
+publishDate: 12/27/2004
 subCategory:
 - Recycling and Reuse
 title: Asphalt Shingle Recycling

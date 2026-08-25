@@ -1,12 +1,12 @@
 ---
-item_id: '2969'
+expiryDate: null
+item_id: '44257'
+link: http://www.epa.gov/laws-regulations/summary-energy-policy-act
 programArea: Energy
-pubDate: 9/27/2005
+publishDate: 8/10/2026
 subCategory:
 - Federal Legislation & Policy
 title: Energy Policy Act of 2005
 ---
 
-This act was signed into law on August 8, 2005.  the Act contains a multitude of provisions covering energy production, distribution, storage, efficiency, conservation, and research.  The Act requires efficiency standards for certain large appliances and extends Daylight Saving Time to reduce consumption. It provides funding to improve efficiency in low-income housing and expands the Energy Star program. It also requires the federal government to increase the efficiency of its buildings and vehicles and provides tax credits for certain energy efficient purchases or improvements.  Other topic of note are: renewable energy, expanding of the Strategic Petroleum Reserve, fuel production access in federal lands, the banning of drilling in the Great Lakes, electricity reliability, hydrogen vehicles,  vehicle efficiency and alternative fuels, ethanol and motor fuels. 
-
-<a>https://www.congress.gov/109/plaws/publ58/PLAW-109publ58.pdf</a>
+The Energy Policy Act (EPA) addresses energy production in the United States, including: (1) energy efficiency; (2) renewable energy; (3) oil and gas; (4) coal; (5) Tribal energy; (6) nuclear matters and security; (7) vehicles and motor fuels, including ethanol; (8) hydrogen; (9) electricity; (10) energy tax incentives; (11) hydropower and geothermal energy; and (12) climate change technology. For example, the Act provides loan guarantees for entities that develop or use innovative technologies that avoid the by-production of greenhouse gases. Another provision of the Act increases the amount of biofuel that must be mixed with gasoline sold in the United States.

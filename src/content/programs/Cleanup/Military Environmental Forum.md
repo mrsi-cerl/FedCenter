@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10352'
+link: http://www.cpeo.org/newsgrp.html
 programArea: Cleanup
-pubDate: 7/21/2008
+publishDate: 7/21/2008
 subCategory:
 - Directories, Catalogs, and Newsletters
 title: Military Environmental Forum

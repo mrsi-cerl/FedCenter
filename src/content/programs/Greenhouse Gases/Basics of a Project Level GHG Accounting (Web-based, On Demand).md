@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13846'
+link: http://ghginstitute.org/product/202-basics-of-project-level-ghg-accounting/
 programArea: Greenhouse Gases
-pubDate: 10/27/2009
+publishDate: 10/27/2009
 subCategory:
 - Training, Presentations, and Briefings
 title: Basics of a Project Level GHG Accounting (Web-based, On Demand)

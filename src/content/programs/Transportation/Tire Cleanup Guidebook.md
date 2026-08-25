@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5342'
+link: http://purl.access.gpo.gov/GPO/LPS71869
 programArea: Transportation
-pubDate: 6/15/2006
+publishDate: 6/15/2006
 subCategory:
 - Pollution Prevention Opportunities
 title: Tire Cleanup Guidebook

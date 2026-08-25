@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4746'
+link: https://www.researchgate.net/publication/7247750\_Pollution\_Prevention-Occupational\_Safety\_and\_Health\_in\_Hospitals\_Alternatives\_and\_Interventions
 programArea: Pollution Prevention
-pubDate: 4/26/2006
+publishDate: 4/26/2006
 subCategory:
 - Medical Facilities Pollution Prevention
 title: 'Pollution Prevention--Occupational Safety and Health in Hospitals: Alternatives

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2678'
+link: https://www.fedcenter.gov/programs/compliance/assessment/osh/
 programArea: Environmental Compliance
-pubDate: 8/23/2005
+publishDate: 8/23/2005
 subCategory:
 - Compliance Auditing
 title: The Occupational Safety and Health (OSH) Guide

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16326'
+link: http://www.doi.gov/museum/
 programArea: Cultural Resources
-pubDate: 9/28/2010
+publishDate: 9/28/2010
 subCategory:
 - Organizations and Programs
 title: 'Department of the Interior Museum Program: Preserving Our Legacy'

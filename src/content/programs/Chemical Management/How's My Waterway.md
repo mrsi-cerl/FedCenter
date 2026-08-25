@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22442'
+link: https://mywaterway.epa.gov/
 programArea: Chemical Management
-pubDate: 10/29/2012
+publishDate: 10/29/2012
 subCategory:
 - Databases and Software Tools
 title: How's My Waterway

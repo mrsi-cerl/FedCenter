@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3659'
+link: http://www.dsireusa.org/
 programArea: Energy
-pubDate: 12/14/2005
+publishDate: 12/14/2005
 subCategory:
 - Databases and Software Tools
 title: Database of State Incentives for Renewable Energy (DSIRE)

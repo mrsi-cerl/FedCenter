@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13341'
+link: http://www.afit.edu/ce/Course\_Desc.cfm?p=WENV%20531
 programArea: Environmental Compliance
-pubDate: 8/25/2009
+publishDate: 8/25/2009
 subCategory:
 - Training, Presentations, and Briefings
 title: Air Quality Management Course (Classroom, Multiple Offerings)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '14214'
+link: https://www.dm.usda.gov/emd/docs/SustainableProcurementProgram.pdf
 programArea: Acquisition
-pubDate: 12/15/2009
+publishDate: 12/15/2009
 subCategory:
 - Organizations and Programs
 title: Sustainable Procurement Program

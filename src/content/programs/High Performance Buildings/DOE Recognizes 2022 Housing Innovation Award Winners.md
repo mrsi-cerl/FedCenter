@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39957'
+link: https://www.energy.gov/eere/buildings/housing-innovation-awards
 programArea: High Performance Buildings
-pubDate: 9/21/2022
+publishDate: 9/21/2022
 subCategory:
 - Award Winners
 title: DOE Recognizes 2022 Housing Innovation Award Winners

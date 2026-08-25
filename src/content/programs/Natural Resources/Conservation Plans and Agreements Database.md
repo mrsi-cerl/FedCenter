@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2448'
+link: https://ecos.fws.gov/ecp/report/conservation-plans-type-region
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
 - Databases and Software Tools
 title: Conservation Plans and Agreements Database

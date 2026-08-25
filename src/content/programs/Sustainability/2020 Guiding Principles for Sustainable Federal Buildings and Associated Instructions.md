@@ -1,9 +1,10 @@
 ---
+expiryDate: null
 item_id: '36344'
+link: https://www.sustainability.gov/pdfs/guiding\_principles\_for\_sustainable\_federal\_buildings.pdf
 programArea: Sustainability
-pubDate: 1/4/2021
+publishDate: 1/4/2021
 subCategory:
-- Federal Agreements and Guidance
 - Federal Agreements and Guidance
 title: 2020 Guiding Principles for Sustainable Federal Buildings and Associated Instructions
 ---

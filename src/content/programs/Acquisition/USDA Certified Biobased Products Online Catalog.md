@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36141'
+link: https://www.biopreferred.gov/BioPreferred/faces/catalog/Catalog.xhtml
 programArea: Acquisition
-pubDate: 10/30/2020
+publishDate: 10/30/2020
 subCategory:
 - Purchasing Guides
 title: USDA Certified Biobased Products Online Catalog

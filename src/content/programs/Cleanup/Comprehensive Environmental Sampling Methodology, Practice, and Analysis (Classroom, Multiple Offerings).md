@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33788'
+link: http://www.nwetc.org/course-catalog/chem-250-june-16-17-2026
 programArea: Cleanup
-pubDate: 3/26/2019
+publishDate: 3/26/2019
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Comprehensive Environmental Sampling: Methodology, Practice, and Analysis

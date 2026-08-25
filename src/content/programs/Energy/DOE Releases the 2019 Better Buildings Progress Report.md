@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '34020'
+link: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/program/DOE\_BBI\_2019\_Progress\_Report.pdf
 programArea: Energy
-pubDate: 5/22/2019
+publishDate: 5/22/2019
 subCategory:
 - Case Studies
 title: DOE Releases the 2019 Better Buildings Progress Report

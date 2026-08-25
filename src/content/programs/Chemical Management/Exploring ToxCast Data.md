@@ -1,9 +1,10 @@
 ---
+expiryDate: null
 item_id: '14944'
+link: https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
 programArea: Chemical Management
-pubDate: 5/4/2010
+publishDate: 5/4/2010
 subCategory:
-- Databases and Software Tools
 - Databases and Software Tools
 title: Exploring ToxCast Data
 ---

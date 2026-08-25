@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7611'
+link: https://www.epa.gov/waterdata/water-quality-data
 programArea: Chemical Management
-pubDate: 6/13/2007
+publishDate: 6/13/2007
 subCategory:
 - Databases and Software Tools
 title: Water Quality Data

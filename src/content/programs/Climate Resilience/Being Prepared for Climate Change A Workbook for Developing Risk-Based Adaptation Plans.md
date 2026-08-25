@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '27053'
+link: https://www.epa.gov/cre/risk-based-adaptation
 programArea: Climate Resilience
-pubDate: 1/14/2015
+publishDate: 1/14/2015
 subCategory:
-- Case Studies
 - Construction Design
+- Case Studies
 title: 'Being Prepared for Climate Change: A Workbook for Developing Risk-Based Adaptation
   Plans'
 ---

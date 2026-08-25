@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40492'
+link: caacarrncifedfac-complianceadvisory.pdf
 programArea: Chemical Management
-pubDate: 2/16/2023
+publishDate: 2/16/2023
 subCategory:
 - Regulations, Guidance, and Policy
 title: Federal Facility Compliance Under EPA's National Enforcement and Compliance

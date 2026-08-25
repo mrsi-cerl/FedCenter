@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '25488'
+link: https://archive.epa.gov/epa/statelocalclimate/site-renewable-energy-generation-guide-developing-and-implementing-greenhouse-gas.html
 programArea: Energy
-pubDate: 3/26/2014
+publishDate: 3/26/2014
 subCategory:
 - ' Alternative Energy'
 title: 'On-Site Renewable Energy Generation Guide:  A Guide to Developing and Implementing

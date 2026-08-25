@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18475'
+link: https://www.usgs.gov/land-resources/climate-adaptation-science-centers
 programArea: Climate Resilience
-pubDate: 6/22/2011
+publishDate: 6/22/2011
 subCategory:
 - Construction Design
 - Organizations and Programs

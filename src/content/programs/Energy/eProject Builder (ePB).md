@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '27622'
+link: http://eprojectbuilder.lbl.gov/
 programArea: Energy
-pubDate: 4/21/2015
+publishDate: 4/21/2015
 subCategory:
 - Databases and Software Tools
 title: eProject Builder (ePB)
 ---
 
-Developed by FEMP, eProject Builder produces ESPC task order schedules and provides a secure online system for easily accessing, tracking and reporting ESPC project data through the life of the contract for your portfolio of projects. Most of the work required in the form of data entry is done by the ESCO, as with the current TO and proposal process. FEMP anticipates little or no additional work expected from agency contracting officers.
+Project Builder (ePB) is a secure, web-based data management platform that allows customers and energy service providers (ESCOs/utilities/contractors) to preserve, track and report information for their portfolio of energy projects in perpetuity.  ePB offers a full-featured suite of capabilities for all users. NEW ePB introduces eProject eXpress (ePX) for state and local governments and other users seeking streamlined functionality.

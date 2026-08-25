@@ -18,7 +18,7 @@ export type SideBarItems = {
 
 export type Post = {
   title: string;
-  pubDate: string;
+  publishDate: string;
   description: string;
   author?: string;
   tags: string[];

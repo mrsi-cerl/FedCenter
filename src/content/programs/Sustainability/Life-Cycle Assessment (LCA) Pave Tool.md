@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39558'
+link: https://www.fhwa.dot.gov/pavement/lcatool/
 programArea: Sustainability
-pubDate: 5/17/2022
+publishDate: 5/17/2022
 subCategory:
 - Databases and Software Tools
 title: Life-Cycle Assessment (LCA) Pave Tool

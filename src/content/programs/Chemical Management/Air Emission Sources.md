@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8725'
+link: http://www.epa.gov/air/emissions/
 programArea: Chemical Management
-pubDate: 12/27/2007
+publishDate: 12/27/2007
 subCategory:
 - Databases and Software Tools
 title: Air Emission Sources

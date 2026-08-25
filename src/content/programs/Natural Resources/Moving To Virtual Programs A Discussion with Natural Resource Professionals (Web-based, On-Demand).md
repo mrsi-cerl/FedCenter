@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35769'
+link: http://www.forestrywebinars.net/webinars/moving-to-virtual-programs-a-discussion-with-natural-resource-professionals?sr=wp~mkt-whenPub
 programArea: Natural Resources
-pubDate: 7/28/2020
+publishDate: 7/28/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Moving To Virtual Programs: A Discussion with Natural Resource Professionals

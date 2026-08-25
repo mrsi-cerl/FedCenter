@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '21079'
+link: https://www.doi.gov/sites/doi.gov/files/migrated/ppa/upload/DOI-Adapative-Management-Applications-Guide.pdf
 programArea: Natural Resources
-pubDate: 5/8/2012
+publishDate: 5/8/2012
 subCategory:
 - Land Management
 title: 'Adaptive Management: The U.S. Department of the Interior Applications Guide'

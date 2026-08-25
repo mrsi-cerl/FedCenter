@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41395'
+link: https://www.epa.gov/p2/p2-hub-resources-center
 programArea: Pollution Prevention
-pubDate: 9/22/2023
+publishDate: 9/22/2023
 subCategory:
 - Databases and Software Tools
 title: P2 Hub Resources Center

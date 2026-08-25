@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11094'
+link: http://oaspub.epa.gov/npep/npep\_pkg.query\_main
 programArea: Chemical Management
-pubDate: 12/9/2008
+publishDate: 12/9/2008
 subCategory:
 - Databases and Software Tools
 title: Priority Chemical Query Tool

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28099'
+link: http://www.biopreferred.gov/BioPreferred/faces/catalog/Catalog.xhtml
 programArea: Acquisition
-pubDate: 6/26/2015
+publishDate: 6/26/2015
 subCategory:
 - Directories, Catalogs, and Newsletters
 title: Online Biopreferred Catalog

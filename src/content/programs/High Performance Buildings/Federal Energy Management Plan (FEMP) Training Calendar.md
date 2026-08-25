@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '831'
+link: https://www.energy.gov/femp/federal-energy-management-program-training-and-events-calendar
 programArea: High Performance Buildings
-pubDate: 2/9/2005
+publishDate: 2/9/2005
 subCategory:
 - Training, Presentations, and Briefings
 title: Federal Energy Management Plan (FEMP) Training Calendar

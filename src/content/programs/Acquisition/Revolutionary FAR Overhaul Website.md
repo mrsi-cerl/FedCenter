@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43210'
+link: https://www.acquisition.gov/far-overhaul
 programArea: Acquisition
-pubDate: 5/7/2025
+publishDate: 5/7/2025
 subCategory:
 - Guidance
 title: Revolutionary FAR Overhaul Website

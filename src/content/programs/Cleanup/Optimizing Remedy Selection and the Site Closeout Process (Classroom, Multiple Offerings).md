@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33259'
+link: https://www.denix.osd.mil/cecos/er/orsscp/
 programArea: Cleanup
-pubDate: 11/19/2018
+publishDate: 11/19/2018
 subCategory:
 - Training, Presentations, and Briefings
 title: Optimizing Remedy Selection and the Site Closeout Process (Classroom, Multiple

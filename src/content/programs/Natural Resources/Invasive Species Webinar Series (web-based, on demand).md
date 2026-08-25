@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36038'
+link: https://corpslakes.erdc.dren.mil/employees/invasive/exchange.cfm?Option=ArchiveSchedule&CoP=invasive
 programArea: Natural Resources
-pubDate: 10/2/2020
+publishDate: 10/2/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: Invasive Species Webinar Series (web-based, on demand)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '14358'
+link: https://www.gsa.gov/buy-through-us/purchasing-programs/gsa-multiple-award-schedule/schedule-features/blanket-purchase-agreements
 programArea: Energy
-pubDate: 1/19/2010
+publishDate: 1/19/2010
 subCategory:
 - Organizations and Programs
 title: GSA's Comprehensive Professional Energy Services (CPES) Blanket Purchase Agreement

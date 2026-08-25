@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '19571'
+link: http://https:carpet-rug.org/testing/green-label-plus/
 programArea: Acquisition
-pubDate: 10/4/2011
+publishDate: 10/4/2011
 subCategory:
 - Organizations and Programs
 title: Carpet and Rug Institute

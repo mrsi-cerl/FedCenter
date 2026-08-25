@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10736'
+link: http://marinedebris.noaa.gov/about/imdcc.html
 programArea: Natural Resources
-pubDate: 10/6/2008
+publishDate: 10/6/2008
 subCategory:
 - Organizations
 title: Interagency Marine Debris Coordinating Committee

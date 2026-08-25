@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1075'
+link: http://onlinelibrary.wiley.com/doi/book/10.1002/9780470925300?msockid=26b871b9805a6c74318c66cf81966d1c
 programArea: Chemical Management
-pubDate: 3/21/2005
+publishDate: 3/21/2005
 subCategory:
 - Accident Prevention & Reporting
 title: Essential Practices for Managing Chemical Reactivity Hazards (2003)

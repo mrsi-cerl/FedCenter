@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36392'
+link: https://www.epa.gov/chemicals-under-tsca/epa-issues-final-guidance-clarify-pfas-significant-new-use-rule
 programArea: PFAS Resources
-pubDate: 1/20/2021
+publishDate: 1/20/2021
 subCategory:
 - State, National and International Regulations
 title: EPA Issues Final Guidance to Clarify PFAS Significant New Use Rule

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13353'
+link: http://gsa.gov/nepadeskguide
 programArea: NEPA
-pubDate: 8/26/2009
+publishDate: 8/26/2009
 subCategory:
 - Lessons Learned
 title: NEPA Desk Guide

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4760'
+link: https://ncesmart.asu.edu/
 programArea: Sustainability
-pubDate: 4/26/2006
+publishDate: 4/26/2006
 subCategory:
 - Organizations
 title: The National Center of Excellence on SMART Materials

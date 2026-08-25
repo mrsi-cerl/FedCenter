@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18250'
+link: http://energy.gov/eere/femp/articles/federal-water-efficiency-best-management-practices
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
 - Management Practices
 title: Federal Water Efficiency Best Management Practices (BMPs)

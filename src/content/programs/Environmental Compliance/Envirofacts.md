@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28275'
+link: http://www3.epa.gov/enviro/myenviro/
 programArea: Environmental Compliance
-pubDate: 8/5/2015
+publishDate: 8/5/2015
 subCategory:
 - Databases and Software Tools
 title: Envirofacts

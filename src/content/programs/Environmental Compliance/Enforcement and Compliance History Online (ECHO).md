@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '680'
+link: http://www.epa.gov/echo/
 programArea: Environmental Compliance
-pubDate: 1/28/2005
+publishDate: 1/28/2005
 subCategory:
 - Databases and Software Tools
 title: Enforcement and Compliance History Online (ECHO)

@@ -1,7 +1,10 @@
 ---
+expiryDate: null
 item_id: '35269'
+link: http://vimeo.com/447988153#:~:text=â??Igniting the Science of Outdoor Recreationâ??
+  is a,sustainable recreation and tourism managers on public la
 programArea: Natural Resources
-pubDate: 3/25/2020
+publishDate: 3/25/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Igniting the Science of Outdoor Recreation: A Research Strategy for Sustainable

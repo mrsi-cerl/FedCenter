@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '38369'
+link: https://fumehoodcalculator.lbl.gov/
 programArea: Energy
-pubDate: 9/8/2021
+publishDate: 9/8/2021
 subCategory:
 - Databases and Software Tools
 title: Fumehood Energy Calculator

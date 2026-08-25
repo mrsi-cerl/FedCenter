@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29042'
+link: https://computersforlearning.gov/
 programArea: Pollution Prevention
-pubDate: 1/22/2016
+publishDate: 1/22/2016
 subCategory:
 - Electronics
 title: Computers for Learning

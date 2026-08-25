@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40467'
+link: https://www.epa.gov/p2/pollution-prevention-tools-and-calculators
 programArea: Pollution Prevention
-pubDate: 2/9/2023
+publishDate: 2/9/2023
 subCategory:
 - Databases and Software Tools
 title: Pollution Prevention Tools and Calculators

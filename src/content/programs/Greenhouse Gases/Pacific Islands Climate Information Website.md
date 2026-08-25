@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23359'
+link: http://www.pacificislandsclimate.org/
 programArea: Greenhouse Gases
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
 - Databases and Software Tools
 title: Pacific Islands Climate Information Website

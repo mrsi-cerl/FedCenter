@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33162'
+link: https://www.epa.gov/heat-islands/using-green-roofs-reduce-heat-islands
 programArea: High Performance Buildings
-pubDate: 10/23/2018
+publishDate: 10/23/2018
 subCategory:
 - Case Studies
 title: Using Green Roofs to Reduce Heat Islands

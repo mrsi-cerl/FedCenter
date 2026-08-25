@@ -1,11 +1,12 @@
 ---
+expiryDate: null
 item_id: '43305'
+link: https://www.gsa.gov/governmentwide-initiatives/federal-highperformance-buildings/highperformance-building-clearinghouse?utm\_medium=email&utm\_source=govDelivery
 programArea: High Performance Buildings
-pubDate: 6/6/2025
+publishDate: 6/6/2025
 subCategory:
-- Conferences and Events
 - Databases and Software Tools
-- High Perf Bldgs News
+- Conferences and Events
 title: GSA High Performance Building Clearinghouse for Sustainability
 ---
 

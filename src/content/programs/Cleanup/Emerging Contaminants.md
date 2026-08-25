@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7711'
+link: https://www.usgs.gov/mission-areas/water-resources/science/emerging-contaminants
 programArea: Cleanup
-pubDate: 6/20/2007
+publishDate: 6/20/2007
 subCategory:
 - Substances of Concern
 title: Emerging Contaminants

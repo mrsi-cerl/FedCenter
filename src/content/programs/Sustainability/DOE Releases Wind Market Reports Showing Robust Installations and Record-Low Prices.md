@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '34444'
+link: https://www.energy.gov/articles/department-energy-releases-annual-wind-market-reports-finding-robust-wind-power
 programArea: Sustainability
-pubDate: 9/12/2019
+publishDate: 9/12/2019
 subCategory:
 - Directories, Catalogs, and Newsletters
 title: DOE Releases Wind Market Reports Showing Robust Installations and Record-Low

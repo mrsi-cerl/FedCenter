@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '27745'
+link: https://www.epa.gov/smm-electronics/certified-electronics-recyclers
 programArea: Electronics Stewardship
-pubDate: 5/8/2015
+publishDate: 5/8/2015
 subCategory:
 - Disposal
 title: Certification Programs for Electronics Recyclers

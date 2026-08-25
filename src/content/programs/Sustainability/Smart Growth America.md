@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '38461'
+link: https://smartgrowthamerica.org/resources/smart-growth-implementation-toolkit/
 programArea: Sustainability
-pubDate: 9/28/2021
+publishDate: 9/28/2021
 subCategory:
 - Databases and Software Tools
 title: Smart Growth America

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22908'
+link: http://www1.eere.energy.gov/femp/pdfs/usmc\_energysavings.pdf
 programArea: Energy
-pubDate: 1/10/2013
+publishDate: 1/10/2013
 subCategory:
 - Case Studies
 title: U.S. Marine Corps Stands at Forefront of Energy and Water Savings

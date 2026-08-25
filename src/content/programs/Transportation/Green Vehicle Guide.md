@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8162'
+link: 'http://www.epa.gov/greenvehicles/ '
 programArea: Transportation
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
 - Pollution Prevention Opportunities
 title: Green Vehicle Guide

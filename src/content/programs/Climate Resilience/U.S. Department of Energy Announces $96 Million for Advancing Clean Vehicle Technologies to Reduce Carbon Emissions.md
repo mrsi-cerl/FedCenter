@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39797'
+link: https://www.energy.gov/articles/doe-announces-96-million-advancing-clean-vehicle-technologies-reduce-carbon-emissions
 programArea: Climate Resilience
-pubDate: 7/26/2022
+publishDate: 7/26/2022
 subCategory:
 - Construction Design
 title: U.S. Department of Energy Announces $96 Million for Advancing Clean Vehicle

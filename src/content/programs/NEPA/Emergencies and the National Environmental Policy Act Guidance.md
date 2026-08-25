@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35996'
+link: https://ceq.doe.gov/docs/nepa-practice/emergencies-and-nepa-guidance-2020.pdf
 programArea: NEPA
-pubDate: 9/24/2020
+publishDate: 9/24/2020
 subCategory:
 - CEQ
 title: Emergencies and the National Environmental Policy Act Guidance

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4485'
+link: http://epa.gov/superfund-redevelopment/superfund-redevelopment-opportunities
 programArea: Cleanup
-pubDate: 3/23/2006
+publishDate: 3/23/2006
 subCategory:
 - General
 title: Superfund Redevelopment Opportunity Sites

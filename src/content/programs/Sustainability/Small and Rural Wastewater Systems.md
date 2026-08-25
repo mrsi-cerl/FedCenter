@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24705'
+link: https://www.epa.gov/small-and-rural-wastewater-systems
 programArea: Sustainability
-pubDate: 10/23/2013
+publishDate: 10/23/2013
 subCategory:
 - Municipalities
 title: Small and Rural Wastewater Systems

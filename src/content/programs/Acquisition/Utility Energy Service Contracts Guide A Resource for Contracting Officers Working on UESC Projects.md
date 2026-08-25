@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24700'
+link: https://www.energy.gov/eere/femp/downloads/utility-energy-services-contracts-guide-0
 programArea: Acquisition
-pubDate: 10/23/2013
+publishDate: 10/23/2013
 subCategory:
 - Contract and Procurement Language
 title: 'Utility Energy Service Contracts Guide: A Resource for Contracting Officers

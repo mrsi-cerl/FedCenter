@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23359'
+link: http://www.pacificislandsclimate.org/
 programArea: Climate Resilience
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
 - Construction Design
 - Databases and Software Tools

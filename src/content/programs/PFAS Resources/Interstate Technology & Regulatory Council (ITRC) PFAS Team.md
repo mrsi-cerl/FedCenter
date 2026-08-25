@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36935'
+link: https://itrcweb.org/pfas-team/
 programArea: PFAS Resources
-pubDate: 5/25/2021
+publishDate: 5/25/2021
 subCategory:
 - Organizations and Programs
 title: Interstate Technology & Regulatory Council (ITRC) PFAS Team

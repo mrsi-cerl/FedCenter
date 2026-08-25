@@ -1,7 +1,9 @@
 ---
+expiryDate: '00:00.0'
 item_id: '43129'
+link: https://www.sciencedaily.com/releases/2025/03/250331151253.htm
 programArea: PFAS Resources
-pubDate: 4/8/2025
+publishDate: 4/8/2025
 subCategory:
 - Libraries, Repositories, and Research
 title: Scientists pioneer method to tackle \"Forever chemicals\"

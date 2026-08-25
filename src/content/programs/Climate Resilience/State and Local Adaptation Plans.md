@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26792'
+link: http://www.georgetownclimate.org/adaptation/state-and-local-plans
 programArea: Climate Resilience
-pubDate: 10/29/2014
+publishDate: 10/29/2014
 subCategory:
 - Construction Design
 - Databases and Software Tools

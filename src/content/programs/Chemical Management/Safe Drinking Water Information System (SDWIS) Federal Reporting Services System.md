@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29337'
+link: https://www.epa.gov/your-drinking-water/safe-drinking-water-information-system-sdwis-federal-reporting-services
 programArea: Chemical Management
-pubDate: 4/4/2016
+publishDate: 4/4/2016
 subCategory:
 - Databases and Software Tools
 title: Safe Drinking Water Information System (SDWIS) Federal Reporting Services System

@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '41830'
+link: https://www.epa.gov/system/files/documents/2024-02/lagoon-troubleshooting-manual.pdf
 programArea: Environmental Compliance
-pubDate: 2/13/2024
+publishDate: 2/13/2024
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Troubleshooting Manual for Small, Facultative, Partial-Mix Aerated, and Complete-Mix
   Aerated Wastewater Lagoons.
 ---

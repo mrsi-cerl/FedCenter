@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16325'
+link: https://www.nps.gov/orgs/1038/studies-in-archeology-and-ethnography.htm
 programArea: Cultural Resources
-pubDate: 9/28/2010
+publishDate: 9/28/2010
 subCategory:
 - Directories, Catalogs, and Newsletters
 title: Studies in Archeology & Ethnography

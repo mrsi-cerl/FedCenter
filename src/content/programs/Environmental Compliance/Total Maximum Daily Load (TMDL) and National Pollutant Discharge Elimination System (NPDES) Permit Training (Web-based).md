@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26987'
+link: http://19january2017snapshot.epa.gov/npdes/tmdl-npdes-permits-training-user-guides\_.html
 programArea: Environmental Compliance
-pubDate: 12/15/2014
+publishDate: 12/15/2014
 subCategory:
 - Training, Presentations, and Briefings
 title: Total Maximum Daily Load (TMDL) and National Pollutant Discharge Elimination

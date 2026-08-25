@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18018'
+link: http://www.army.mil/-news/2011/04/20/55280-army-launches-net-zero-pilot-program/
 programArea: Energy
-pubDate: 5/17/2011
+publishDate: 5/17/2011
 subCategory:
 - Energy Conservation
 title: Army's Net Zero Pilot Program

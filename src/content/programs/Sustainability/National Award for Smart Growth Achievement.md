@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22450'
+link: https://www.epa.gov/smartgrowth/national-award-smart-growth-achievement
 programArea: Sustainability
-pubDate: 10/30/2012
+publishDate: 10/30/2012
 subCategory:
 - Award Winners
 title: National Award for Smart Growth Achievement

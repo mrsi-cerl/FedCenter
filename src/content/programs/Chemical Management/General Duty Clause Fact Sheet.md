@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39824'
+link: https://www.epa.gov/rmp/general-duty-clause-fact-sheet
 programArea: Chemical Management
-pubDate: 8/5/2022
+publishDate: 8/5/2022
 subCategory:
 - Regulations, Guidance, and Policy
 title: General Duty Clause Fact Sheet

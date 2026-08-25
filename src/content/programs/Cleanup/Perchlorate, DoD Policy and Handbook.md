@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8172'
+link: Perchlorate Handbook R1 C1.pdf
 programArea: Cleanup
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
 - Substances of Concern
 title: Perchlorate, DoD Policy and Handbook

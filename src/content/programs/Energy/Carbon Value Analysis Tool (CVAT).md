@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5350'
+link: http://www.wri.org/publication/carbon-value-analysis-tool
 programArea: Energy
-pubDate: 6/15/2006
+publishDate: 6/15/2006
 subCategory:
 - Databases and Software Tools
 title: Carbon Value Analysis Tool (CVAT)

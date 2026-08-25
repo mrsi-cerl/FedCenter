@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11061'
+link: http://www.epa.gov/nemicbr
 programArea: Chemical Management
-pubDate: 12/4/2008
+publishDate: 12/4/2008
 subCategory:
 - Databases and Software Tools
 title: National Environmental Methods Index for Chemical, Biological, and Radiological

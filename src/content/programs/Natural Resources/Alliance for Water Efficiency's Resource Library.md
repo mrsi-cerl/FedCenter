@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10832'
+link: http://www.allianceforwaterefficiency.org/resource-library/
 programArea: Natural Resources
-pubDate: 10/28/2008
+publishDate: 10/28/2008
 subCategory:
 - Libraries and Repositories
 title: Alliance for Water Efficiency's Resource Library

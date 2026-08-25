@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16307'
+link: http://www.cee1.org/
 programArea: Energy
-pubDate: 9/27/2010
+publishDate: 9/27/2010
 subCategory:
 - Organizations and Programs
 title: Consortium for Energy Efficiency (CEE)

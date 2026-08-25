@@ -1,11 +1,13 @@
 ---
+expiryDate: null
 item_id: '23040'
+link: http://basc.pnnl.gov/
 programArea: High Performance Buildings
-pubDate: 1/24/2013
+publishDate: 1/24/2013
 subCategory:
-- Construction Design
 - Databases and Software Tools
 - Libraries and Repositories
+- Construction Design
 title: Building America Solution Center
 ---
 

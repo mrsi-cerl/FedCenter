@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13087'
+link: http://www.wri.org/publication/sustainable-procurement-wood-and-paper-based-products
 programArea: Acquisition
-pubDate: 7/8/2009
+publishDate: 7/8/2009
 subCategory:
 - Case Studies
 title: 'Sustainable Procurement of Wood and Paper-Based Products: Version 1.1'

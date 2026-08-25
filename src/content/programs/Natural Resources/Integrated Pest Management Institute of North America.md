@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '6565'
+link: http://www.ipminstitute.org/index.htm
 programArea: Natural Resources
-pubDate: 2/7/2007
+publishDate: 2/7/2007
 subCategory:
 - Organizations
 title: Integrated Pest Management Institute of North America

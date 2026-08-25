@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40293'
+link: https://slipstreaminc.org/sketchbox
 programArea: Energy
-pubDate: 12/21/2022
+publishDate: 12/21/2022
 subCategory:
 - Databases and Software Tools
 title: Slipstream's Sketchbox Energy Modeling Tool

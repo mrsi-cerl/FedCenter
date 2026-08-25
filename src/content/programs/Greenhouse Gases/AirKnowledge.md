@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35561'
+link: https://airknowledge.gov
 programArea: Greenhouse Gases
-pubDate: 6/8/2020
+publishDate: 6/8/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: AirKnowledge

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28630'
+link: https://www.epa.gov/general-conformity/general-conformity-training-modules
 programArea: Environmental Compliance
-pubDate: 10/16/2015
+publishDate: 10/16/2015
 subCategory:
 - Training, Presentations, and Briefings
 title: CAA General Conformity Training Modules (Web-based, On Demand)

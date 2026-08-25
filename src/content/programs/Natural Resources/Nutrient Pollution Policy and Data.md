@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8390'
+link: https://www.epa.gov/nutrient-policy-data
 programArea: Natural Resources
-pubDate: 10/1/2007
+publishDate: 10/1/2007
 subCategory:
 - Watershed Management
 title: Nutrient Pollution Policy and Data

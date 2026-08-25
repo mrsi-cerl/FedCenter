@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15536'
+link: http://www.gpo.gov/fdsys/pkg/USCODE-1994-title42/pdf/USCODE-1994-title42-chap20A-subchapI-sec1996.pdf
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - National Laws and Statutes
 title: American Indian Religious Freedom Act of 1978

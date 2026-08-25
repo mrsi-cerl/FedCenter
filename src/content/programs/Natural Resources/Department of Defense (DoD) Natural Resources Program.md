@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '19690'
+link: https://www.denix.osd.mil/nr/
 programArea: Natural Resources
-pubDate: 10/20/2011
+publishDate: 10/20/2011
 subCategory:
 - Organizations
 title: Department of Defense (DoD) Natural Resources Program

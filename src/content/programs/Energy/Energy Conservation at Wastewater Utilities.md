@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5862'
+link: https://www.epa.gov/sites/production/files/2015-08/documents/wastewater-guide.pdf
 programArea: Energy
-pubDate: 9/18/2006
+publishDate: 9/18/2006
 subCategory:
 - Energy Conservation
 title: Energy Conservation at Wastewater Utilities

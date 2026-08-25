@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16461'
+link: http://www.productstewardship.us
 programArea: Electronics Stewardship
-pubDate: 10/20/2010
+publishDate: 10/20/2010
 subCategory:
 - Organizations
 title: Product Stewardship Institute (PSI)

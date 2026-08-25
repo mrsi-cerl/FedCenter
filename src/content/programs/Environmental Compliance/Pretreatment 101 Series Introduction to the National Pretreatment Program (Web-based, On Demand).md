@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24364'
+link: http://www.youtube.com/watch?v=i2zZYZ3oXrQ
 programArea: Environmental Compliance
-pubDate: 8/23/2013
+publishDate: 8/23/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Pretreatment 101 Series: Introduction to the National Pretreatment Program

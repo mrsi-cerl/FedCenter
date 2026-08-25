@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35860'
+link: http://core.tdar.org/collection/31020/national-archeological-database-nadb
 programArea: Cultural Resources
-pubDate: 8/24/2020
+publishDate: 8/24/2020
 subCategory:
 - Databases and Software Tools
 title: National Archaeological Database

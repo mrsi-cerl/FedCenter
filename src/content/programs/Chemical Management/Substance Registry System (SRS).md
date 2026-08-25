@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '784'
+link: http://www.epa.gov/srs/
 programArea: Chemical Management
-pubDate: 2/4/2005
+publishDate: 2/4/2005
 subCategory:
 - Databases and Software Tools
 title: 'Substance Registry System (SRS) '

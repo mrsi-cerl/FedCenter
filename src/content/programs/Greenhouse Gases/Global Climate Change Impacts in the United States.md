@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '14991'
+link: https://www.globalchange.gov/reports/global-climate-change-impacts-united-states
 programArea: Greenhouse Gases
-pubDate: 5/10/2010
+publishDate: 5/10/2010
 subCategory:
 - Case Studies
 title: Global Climate Change Impacts in the United States

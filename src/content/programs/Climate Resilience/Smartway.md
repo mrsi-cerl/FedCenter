@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '25747'
+link: https://www.epa.gov/smartway
 programArea: Climate Resilience
-pubDate: 5/12/2014
+publishDate: 5/12/2014
 subCategory:
 - Construction Design
 - Organizations and Programs

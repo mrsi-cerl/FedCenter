@@ -1,9 +1,11 @@
 ---
+expiryDate: null
 item_id: '6498'
+link: https://www.epa.gov/watersense/watersense-products
 programArea: Natural Resources
-pubDate: 1/25/2007
+publishDate: 1/25/2007
 subCategory:
-- Water Conservation
+- <A name=watercons></A>Water Conservation
 title: WaterSense Products
 ---
 

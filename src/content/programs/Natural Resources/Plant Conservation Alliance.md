@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8345'
+link: https://www.blm.gov/programs/natural-resources/native-plant-communities/national-seed-strategy/pca
 programArea: Natural Resources
-pubDate: 9/25/2007
+publishDate: 9/25/2007
 subCategory:
 - Organizations
 title: Plant Conservation Alliance

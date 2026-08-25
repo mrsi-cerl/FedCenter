@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5355'
+link: https://www.epa.gov/fedfac/final-department-defense-state-memorandum-agreement-dsmoa
 programArea: Cleanup
-pubDate: 6/15/2006
+publishDate: 6/15/2006
 subCategory:
 - Regulations, Guidance, and Policy
 title: The Department of Defense and State Memorandum of Agreement/Cooperative Agreement

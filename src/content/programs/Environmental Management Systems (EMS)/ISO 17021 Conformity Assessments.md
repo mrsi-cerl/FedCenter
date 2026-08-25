@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5963'
+link: http://www.iso.org/iso/home/store/catalogue\_ics/catalogue\_detail\_ics.htm?csnumber=61651
 programArea: Environmental Management Systems (EMS)
-pubDate: 10/17/2006
+publishDate: 10/17/2006
 subCategory:
 - International Standards Organization (ISO)
 title: 'ISO 17021: Conformity Assessments'

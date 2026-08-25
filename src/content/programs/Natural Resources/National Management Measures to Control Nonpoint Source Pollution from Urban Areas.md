@@ -1,7 +1,11 @@
 ---
+expiryDate: null
 item_id: '3645'
+link: https://www.epa.gov/sites/production/files/2015-09/documents/urban\_ch06.pdf#:~:text=National
+  Management Measures Guidance to Control Nonpoint Source,as risks to human health
+  and water resources
 programArea: Natural Resources
-pubDate: 12/13/2005
+publishDate: 12/13/2005
 subCategory:
 - Watershed Management
 title: National Management Measures to Control Nonpoint Source Pollution from Urban

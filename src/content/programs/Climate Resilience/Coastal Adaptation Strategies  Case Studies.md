@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '28796'
+link: http://www.nps.gov/subjects/climatechange/coastaladaptationstrategies.htm
 programArea: Climate Resilience
-pubDate: 12/3/2015
+publishDate: 12/3/2015
 subCategory:
-- Case Studies
 - Construction Design
+- Case Studies
 title: 'Coastal Adaptation Strategies:  Case Studies'
 ---
 

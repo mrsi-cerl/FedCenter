@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32549'
+link: https://iwrc.uni.edu/food-waste/case-studies
 programArea: Pollution Prevention
-pubDate: 4/23/2018
+publishDate: 4/23/2018
 subCategory:
 - Case Studies
 title: Food Waste Case Studies

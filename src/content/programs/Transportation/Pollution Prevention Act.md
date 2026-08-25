@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '717'
+link: https://www.epa.gov/laws-regulations/summary-pollution-prevention-act
 programArea: Transportation
-pubDate: 1/31/2005
+publishDate: 1/31/2005
 subCategory:
 - Legislation
 title: Pollution Prevention Act

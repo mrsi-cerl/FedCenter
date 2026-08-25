@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36936'
+link: https://www.epa.gov/pfas/memo-epa-council-pfas
 programArea: PFAS Resources
-pubDate: 5/25/2021
+publishDate: 5/25/2021
 subCategory:
 - Organizations and Programs
 title: EPA Council on PFAS

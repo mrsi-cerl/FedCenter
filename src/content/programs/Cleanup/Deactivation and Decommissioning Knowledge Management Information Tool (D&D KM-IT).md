@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24630'
+link: http://www.dndkm.org/Default.aspx
 programArea: Cleanup
-pubDate: 10/2/2013
+publishDate: 10/2/2013
 subCategory:
 - Libraries and Repositories
 title: Deactivation and Decommissioning Knowledge Management Information Tool (D&D

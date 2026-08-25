@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '679'
+link: http://www.epa.gov/enforcement/enforcement-federal-facilities
 programArea: Environmental Compliance
-pubDate: 1/28/2005
+publishDate: 1/28/2005
 subCategory:
 - Enforcement
 title: EPA's Civil Enforcement at Federal Facilities Website

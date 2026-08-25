@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36759'
+link: https://www.defense.gov/Explore/Spotlight/pfas/
 programArea: PFAS Resources
-pubDate: 4/14/2021
+publishDate: 4/14/2021
 subCategory:
 - Training, Presentations and Briefings
 title: US Department of Defense Spotlight on PFAS

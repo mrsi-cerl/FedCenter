@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22594'
+link: http://www.wbdg.org/ce/doe/femp/femp01
 programArea: High Performance Buildings
-pubDate: 11/21/2012
+publishDate: 11/21/2012
 subCategory:
 - Training, Presentations, and Briefings
 title: Commissioning for Existing Federal Buildings (Web-based, On Demand)

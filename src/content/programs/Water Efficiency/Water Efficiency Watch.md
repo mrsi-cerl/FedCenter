@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18262'
+link: https://allianceforwaterefficiency.org/news/water-efficiency-watch-newsletter/
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
 - Directories, Catalogs, and Newsletters
 title: Water Efficiency Watch

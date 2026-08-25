@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1095'
+link: https://aec.army.mil/Compliance/Environmental-Performance-and-Assessment-System/
 programArea: Environmental Compliance
-pubDate: 3/21/2005
+publishDate: 3/21/2005
 subCategory:
 - Compliance Auditing
 title: U.S. Army's Environmental Performance Assessment System (EPAS)

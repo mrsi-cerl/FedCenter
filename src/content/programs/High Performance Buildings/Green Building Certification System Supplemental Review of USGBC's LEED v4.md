@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '26633'
+link: https://www.gsa.gov/system/files/Green\_Building\_Certification\_System\_Supplemental\_Review\_of\_USGBCs\_LEED\_v4.pdf
 programArea: High Performance Buildings
-pubDate: 9/26/2014
+publishDate: 9/26/2014
 subCategory:
-- Construction Design
 - Guidance & Policy
+- Construction Design
 title: 'Green Building Certification System: Supplemental Review of USGBC''s LEED
   v4'
 ---

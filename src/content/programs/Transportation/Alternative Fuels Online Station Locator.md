@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10124'
+link: http://eere.energy.gov/afdc/stations/find\_station.php
 programArea: Transportation
-pubDate: 7/7/2008
+publishDate: 7/7/2008
 subCategory:
 - Databases and Software Tools
 title: Alternative Fuels Online Station Locator

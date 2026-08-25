@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36208'
+link: http://training.npi.org/courses/section106basics
 programArea: Cultural Resources
-pubDate: 11/27/2020
+publishDate: 11/27/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Section 106: The Basics for Planners, Project Managers, and Developers (Web-based,

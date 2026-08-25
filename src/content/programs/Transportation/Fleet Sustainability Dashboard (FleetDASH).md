@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '21921'
+link: https://federalfleets.energy.gov/FleetDASH/
 programArea: Transportation
-pubDate: 7/31/2012
+publishDate: 7/31/2012
 subCategory:
 - Databases and Software Tools
 title: Fleet Sustainability Dashboard (FleetDASH)

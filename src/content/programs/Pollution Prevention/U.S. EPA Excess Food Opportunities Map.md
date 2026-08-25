@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32732'
+link: https://www.epa.gov/sustainable-management-food/excess-food-opportunities-map
 programArea: Pollution Prevention
-pubDate: 6/11/2018
+publishDate: 6/11/2018
 subCategory:
 - Databases and Software Tools
 title: U.S. EPA Excess Food Opportunities Map

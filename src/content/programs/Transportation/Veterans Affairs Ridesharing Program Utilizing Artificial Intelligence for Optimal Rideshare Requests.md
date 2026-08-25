@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41310'
+link: https://www.energy.gov/femp/veterans-affairs-ridesharing-program-utilizing-artificial-intelligence-optimal-rideshare
 programArea: Transportation
-pubDate: 9/1/2023
+publishDate: 9/1/2023
 subCategory:
 - Case Studies
 title: 'Veterans Affairs Ridesharing Program: Utilizing Artificial Intelligence for

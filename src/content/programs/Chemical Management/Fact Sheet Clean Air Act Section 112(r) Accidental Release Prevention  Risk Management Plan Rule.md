@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39822'
+link: https://www.epa.gov/rmp/fact-sheet-clean-air-act-section-112r-accidental-release-prevention-risk-management-plan-rule
 programArea: Chemical Management
-pubDate: 8/4/2022
+publishDate: 8/4/2022
 subCategory:
 - Regulations, Guidance, and Policy
 title: 'Fact Sheet: Clean Air Act Section 112(r): Accidental Release Prevention /

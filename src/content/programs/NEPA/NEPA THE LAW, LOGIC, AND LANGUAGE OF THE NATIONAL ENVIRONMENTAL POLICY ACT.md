@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '17306'
+link: http://www.nwetc.org/course-catalog/pol-302-nov-13-14-2012
 programArea: NEPA
-pubDate: 3/1/2011
+publishDate: 3/1/2011
 subCategory:
 - Training, Presentations, and Briefings
 title: 'NEPA: THE LAW, LOGIC, AND LANGUAGE OF THE NATIONAL ENVIRONMENTAL POLICY ACT'

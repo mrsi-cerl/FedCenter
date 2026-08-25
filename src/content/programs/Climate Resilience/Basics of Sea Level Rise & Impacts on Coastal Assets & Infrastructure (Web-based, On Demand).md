@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30182'
+link: http://climateofficers.org/climate103
 programArea: Climate Resilience
-pubDate: 8/24/2016
+publishDate: 8/24/2016
 subCategory:
 - Construction Design
 - Training, Presentations, and Briefings

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36622'
+link: https://betterbuildingssolutioncenter.energy.gov/smart-energy-analytics-campaign-toolkit
 programArea: Energy
-pubDate: 3/9/2021
+publishDate: 3/9/2021
 subCategory:
 - Databases and Software Tools
 title: Smart Energy Analytics Campaign Toolkit

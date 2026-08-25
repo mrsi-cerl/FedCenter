@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '8865'
+link: https://leeduser.buildinggreen.com/content/innovation-design-credit-catalog
 programArea: High Performance Buildings
-pubDate: 1/17/2008
+publishDate: 1/17/2008
 subCategory:
-- Case Studies
 - Directories, Catalogs, and Newsletters
+- Case Studies
 title: Innovation & Design Credit Catalog
 ---
 

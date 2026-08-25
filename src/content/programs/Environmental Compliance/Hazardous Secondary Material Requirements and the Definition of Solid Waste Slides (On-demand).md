@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40388'
+link: https://www.epa.gov/system/files/documents/2022-12/Reviewed\_Definition\_of\_Solid\_Waste\_101\_slides\_Nov\_2022.pdf
 programArea: Environmental Compliance
-pubDate: 1/20/2023
+publishDate: 1/20/2023
 subCategory:
 - Training, Presentations, and Briefings
 title: Hazardous Secondary Material Requirements and the Definition of Solid Waste

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41309'
+link: https://www.energy.gov/femp/us-army-corps-engineers-prioritizing-electric-vehicle-charging-station-projects
 programArea: Transportation
-pubDate: 9/1/2023
+publishDate: 9/1/2023
 subCategory:
 - Case Studies
 title: 'U.S. Army Corps of Engineers: Prioritizing Electric Vehicle Charging Station

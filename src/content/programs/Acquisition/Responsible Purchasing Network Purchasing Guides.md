@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35564'
+link: http://www.responsiblepurchasing.org/#
 programArea: Acquisition
-pubDate: 6/8/2020
+publishDate: 6/8/2020
 subCategory:
 - Purchasing Guides
 title: Responsible Purchasing Network Purchasing Guides

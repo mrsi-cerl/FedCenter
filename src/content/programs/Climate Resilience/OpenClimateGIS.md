@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '25670'
+link: http://resilience.climate.gov/pages/open-data
 programArea: Climate Resilience
-pubDate: 4/28/2014
+publishDate: 4/28/2014
 subCategory:
 - Construction Design
 - Databases and Software Tools

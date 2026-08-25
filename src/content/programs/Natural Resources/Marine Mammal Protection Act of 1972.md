@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2433'
+link: http://www.gpo.gov/fdsys/pkg/STATUTE-86/pdf/STATUTE-86-Pg1052.pdf
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
 - Species Management
 title: Marine Mammal Protection Act of 1972

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36175'
+link: Signed IA Scan.pdf
 programArea: Natural Resources
-pubDate: 11/13/2020
+publishDate: 11/13/2020
 subCategory:
 - Databases and Software Tools
 title: INTERAGENCY AGREEMENT between the UNITED STATES FISH AND WILDLIFE SERVICE and

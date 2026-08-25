@@ -1,11 +1,11 @@
 ---
-item_id: '35889'
+expiryDate: null
+item_id: '35883'
+link: https://www.globalchange.gov/
 programArea: Climate Resilience
-pubDate: 8/27/2020
+publishDate: 8/26/2020
 subCategory:
 - Construction Design
-- Construction Design
-- Organizations and Programs
 title: US Global Change Research Program
 ---
 

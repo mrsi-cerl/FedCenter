@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1094'
+link: http://www.epa.gov/compliance/epas-audit-policy#voluntary
 programArea: Environmental Compliance
-pubDate: 3/21/2005
+publishDate: 3/21/2005
 subCategory:
 - Compliance Auditing
 title: How Do I Make a Voluntary Disclosure Under EPA's Audit Policy?

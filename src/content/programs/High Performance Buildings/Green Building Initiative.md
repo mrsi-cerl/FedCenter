@@ -1,11 +1,13 @@
 ---
+expiryDate: null
 item_id: '21872'
+link: https://thegbi.org/
 programArea: High Performance Buildings
-pubDate: 7/25/2012
+publishDate: 7/25/2012
 subCategory:
 - Construction Design
-- Construction Guidelines and Criteria
 - Databases and Software Tools
+- Construction Guidelines and Criteria
 title: Green Building Initiative
 ---
 

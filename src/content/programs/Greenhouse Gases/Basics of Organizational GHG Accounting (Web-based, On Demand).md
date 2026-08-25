@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13845'
+link: http://ghginstitute.org/product/201-basics-organizational-ghg-accounting/
 programArea: Greenhouse Gases
-pubDate: 10/27/2009
+publishDate: 10/27/2009
 subCategory:
 - Training, Presentations, and Briefings
 title: Basics of Organizational GHG Accounting (Web-based, On Demand)

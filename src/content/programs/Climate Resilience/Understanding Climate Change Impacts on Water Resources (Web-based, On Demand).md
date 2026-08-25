@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29141'
+link: http://www.epa.gov/watershedacademy/understanding-climate-change-impacts-water-resources
 programArea: Climate Resilience
-pubDate: 2/11/2016
+publishDate: 2/11/2016
 subCategory:
 - Construction Design
 - Training, Presentations, and Briefings

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26452'
+link: http://www.energy.gov/cmei/femp/femp-assistance-request-portal
 programArea: Energy
-pubDate: 8/18/2014
+publishDate: 8/18/2014
 subCategory:
 - Organizations and Programs
 title: FEMP Technical Assistance Portal

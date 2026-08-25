@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '6249'
+link: http://www.frtr.gov/matrix2/top\_page.html
 programArea: Cleanup
-pubDate: 12/11/2006
+publishDate: 12/11/2006
 subCategory:
 - Databases and Software Tools
 title: Remediation Technologies Screening Matrix

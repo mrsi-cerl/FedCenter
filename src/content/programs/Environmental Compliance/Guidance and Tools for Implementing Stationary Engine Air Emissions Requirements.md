@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '33190'
+link: https://www.epa.gov/stationary-engines/guidance-and-tools-implementing-stationary-engine-requirements
 programArea: Environmental Compliance
-pubDate: 10/29/2018
+publishDate: 10/29/2018
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Guidance and Tools for Implementing Stationary Engine Air Emissions Requirements
 ---
 

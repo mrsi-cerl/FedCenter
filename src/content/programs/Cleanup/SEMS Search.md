@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29829'
+link: http://enviro.epa.gov/envirofacts/sems/search
 programArea: Cleanup
-pubDate: 6/14/2016
+publishDate: 6/14/2016
 subCategory:
 - Databases and Software Tools
 title: SEMS Search

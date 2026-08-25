@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15567'
+link: http://whc.unesco.org/en/list/
 programArea: Cultural Resources
-pubDate: 7/27/2010
+publishDate: 7/27/2010
 subCategory:
 - Libraries and Repositories
 title: World Heritage List

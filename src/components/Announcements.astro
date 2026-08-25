@@ -10,7 +10,7 @@ const {
   buttonTitle = "See All Announcements",
 } = Astro.props;
 
-// const pDate = new Date(post.data.pubDate);
+// const pDate = new Date(post.data.publishDate);
 
 console.log(
   posts
@@ -28,7 +28,8 @@ const allAnnouncements = posts
 const recentThreeAnouncements = allAnnouncements
   .sort(
     (a: any, b: any) =>
-      new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+      new Date(b.data.publishDate).valueOf() -
+      new Date(a.data.publishDate).valueOf()
   ) // a - b for oldest to most recent
   .slice(0, announcementCount);
 ---
@@ -45,13 +46,17 @@ const recentThreeAnouncements = allAnnouncements
         <div class="grid-col-1 display-flex flex-justify-center">
           <div class="display-flex flex-column flex-justify-center height-10 width-5">
             <p class="font-mono-xl text-heavy margin-0 text-center">
-              {new Date(announcement.data.pubDate).getDate()}
+              {new Date(announcement.data.publishDate).getDate()}
             </p>
             <p class="font-mono-sm margin-0 text-center">
-              {new Date(announcement.data.pubDate).toLocaleString("default", {
-                month: "short",
-              })}
-              {showYear && new Date(announcement.data.pubDate).getFullYear()}
+              {new Date(announcement.data.publishDate).toLocaleString(
+                "default",
+                {
+                  month: "short",
+                }
+              )}
+              {showYear &&
+                new Date(announcement.data.publishDate).getFullYear()}
             </p>
           </div>
         </div>

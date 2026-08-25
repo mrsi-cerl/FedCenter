@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39546'
+link: http://www.nlr.gov/wind/distributed-wind-futures
 programArea: Energy
-pubDate: 5/13/2022
+publishDate: 5/13/2022
 subCategory:
 - ' Alternative Energy'
 title: Distributed Wind Energy Futures Study

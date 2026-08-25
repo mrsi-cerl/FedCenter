@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1555'
+link: http://www.inem.org/
 programArea: Environmental Management Systems (EMS)
-pubDate: 4/27/2005
+publishDate: 4/27/2005
 subCategory:
 - Organizations
 title: International Network for Environmental Management (INEM)

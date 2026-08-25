@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43228'
+link: http://www.buschsystems.com/webinar-recap-back-of-house-waste-collections/
 programArea: Pollution Prevention
-pubDate: 5/16/2025
+publishDate: 5/16/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Back of the House: Waste Collections (Web-based On-Demand)'

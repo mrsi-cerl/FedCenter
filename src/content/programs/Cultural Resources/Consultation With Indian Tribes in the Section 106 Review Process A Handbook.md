@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15525'
+link: https://www.achp.gov/sites/default/files/2021-06/ConsultationwithIndianTribesHandbook6-11-21Final.pdf
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Implementation Guidance
 title: 'Consultation With Indian Tribes in the Section 106 Review Process: A Handbook'

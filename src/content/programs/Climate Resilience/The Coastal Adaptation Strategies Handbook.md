@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '30492'
+link: https://www.nps.gov/subjects/climatechange/coastalhandbook.htm
 programArea: Climate Resilience
-pubDate: 11/7/2016
+publishDate: 11/7/2016
 subCategory:
-- Coastal Zones
 - Construction Design
+- Coastal Zones
 title: The Coastal Adaptation Strategies Handbook
 ---
 

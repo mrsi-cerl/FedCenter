@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23348'
+link: https://mywaterway.epa.gov/
 programArea: Natural Resources
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
 - Databases and Software Tools
 title: \"How's My Waterway?\" Shows Local Water Quality Data

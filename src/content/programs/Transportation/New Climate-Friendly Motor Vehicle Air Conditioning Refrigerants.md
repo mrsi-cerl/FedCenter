@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8160'
+link: https://www.epa.gov/mvac/new-climate-friendly-motor-vehicle-air-conditioning-refrigerants
 programArea: Transportation
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
 - Pollution Prevention Opportunities
 title: New Climate-Friendly Motor Vehicle Air Conditioning Refrigerants

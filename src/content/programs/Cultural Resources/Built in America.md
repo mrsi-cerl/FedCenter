@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15500'
+link: http://memory.loc.gov/ammem/collections/habs\_haer/
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Libraries and Repositories
 title: Built in America

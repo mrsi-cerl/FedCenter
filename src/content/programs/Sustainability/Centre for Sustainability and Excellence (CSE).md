@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15296'
+link: http://www.cse-net.org/
 programArea: Sustainability
-pubDate: 7/1/2010
+publishDate: 7/1/2010
 subCategory:
 - Organizations
 title: Centre for Sustainability and Excellence (CSE)

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29579'
+link: http://www.netc.navy.mil/Commands/Center-for-Seabees-and-Facilities-Engineering/Naval-Civil-Engineer-Corps-Officers-School/Courses/Environmental-Compliance/
 programArea: Environmental Compliance
-pubDate: 5/19/2016
+publishDate: 5/19/2016
 subCategory:
 - Training, Presentations, and Briefings
 title: Introduction to Hazardous Waste Generation and Handling (Classroom, Multiple

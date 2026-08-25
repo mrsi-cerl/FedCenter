@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '5329'
+link: https://www.usda.gov/sites/default/files/documents/usda-fy-2022-2026-strategic-plan.pdf
 programArea: Natural Resources
-pubDate: 6/12/2006
+publishDate: 6/12/2006
 subCategory:
 - Land Management
 title: USDA Strategic Plan

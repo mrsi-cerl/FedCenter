@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39474'
+link: https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks
 programArea: Greenhouse Gases
-pubDate: 4/21/2022
+publishDate: 4/21/2022
 subCategory:
 - Inventories
 title: Inventory of U.S. Greenhouse Gas Emissions and Sinks

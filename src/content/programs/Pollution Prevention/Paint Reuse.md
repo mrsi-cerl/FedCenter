@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '6932'
+link: https://productstewardship.us/products/paint/
 programArea: Pollution Prevention
-pubDate: 5/1/2007
+publishDate: 5/1/2007
 subCategory:
 - Recycling and Reuse
 title: Paint Reuse

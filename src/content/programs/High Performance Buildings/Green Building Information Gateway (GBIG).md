@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22592'
+link: http://www.gbig.org/
 programArea: High Performance Buildings
-pubDate: 11/21/2012
+publishDate: 11/21/2012
 subCategory:
 - Case Studies
 - Libraries and Repositories

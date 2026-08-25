@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '27026'
+link: https://www.energy.gov/eere/femp/metering-federal-buildings
 programArea: High Performance Buildings
-pubDate: 12/30/2014
+publishDate: 12/30/2014
 subCategory:
 - Guidance & Policy
 title: Federal Building Metering Guidance

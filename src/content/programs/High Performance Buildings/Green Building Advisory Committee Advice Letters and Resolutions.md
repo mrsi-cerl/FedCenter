@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29971'
+link: https://www.gsa.gov/governmentwide-initiatives/federal-highperformance-green-buildings/policy/green-building-advisory-committee/advice-letters-and-resolutions
 programArea: High Performance Buildings
-pubDate: 7/14/2016
+publishDate: 7/14/2016
 subCategory:
 - Guidance & Policy
 title: Green Building Advisory Committee Advice Letters and Resolutions

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4878'
+link: http://www.epa.gov/radtown
 programArea: Chemical Management
-pubDate: 5/9/2006
+publishDate: 5/9/2006
 subCategory:
 - Databases and Software Tools
 title: RadTown USA

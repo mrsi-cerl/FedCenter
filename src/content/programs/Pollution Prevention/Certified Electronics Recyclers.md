@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33200'
+link: https://www.epa.gov/smm-electronics/certified-electronics-recyclers
 programArea: Pollution Prevention
-pubDate: 10/31/2018
+publishDate: 10/31/2018
 subCategory:
 - Organizations
 title: Certified Electronics Recyclers

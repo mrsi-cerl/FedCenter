@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '42963'
+link: Web-based, On-Demand
 programArea: Energy
-pubDate: 2/21/2025
+publishDate: 2/21/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Data Center Energy Efficiency: Electrical Systems (Web-based, On-Demand)'

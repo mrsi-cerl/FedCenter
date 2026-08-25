@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39965'
+link: http://www.energy.gov/cmei/examining-supply-side-options-achieve-100-clean-electricity-2035
 programArea: Energy
-pubDate: 9/27/2022
+publishDate: 9/27/2022
 subCategory:
 - Case Studies
 title: Examining Supply-Side Options to Achieve 100% Clean Electricity by 2035

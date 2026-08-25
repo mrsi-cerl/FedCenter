@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40615'
+link: https://www.energy.gov/eere/femp/articles/gsa-oklahoma-city-federal-building-smart-buildings-case-study
 programArea: Energy
-pubDate: 3/20/2023
+publishDate: 3/20/2023
 subCategory:
 - Case Studies
 title: 'GSA Oklahoma City Federal Building: Smart Buildings Case Study'

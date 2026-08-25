@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29198'
+link: http://www.epa.gov/sourcewaterprotection/dwmaps
 programArea: Chemical Management
-pubDate: 2/22/2016
+publishDate: 2/22/2016
 subCategory:
 - Databases and Software Tools
 title: Drinking Water Mapping Application to Protect Source Waters (DWMAPS)

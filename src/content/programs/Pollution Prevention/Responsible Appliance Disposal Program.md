@@ -1,11 +1,13 @@
 ---
-item_id: '6101'
+expiryDate: null
+item_id: '8293'
+link: http://www.epa.gov/section608/appliance-disposal
 programArea: Pollution Prevention
-pubDate: 10/30/2006
+publishDate: 9/19/2007
 subCategory:
-- Household Pollution Prevention
 - Waste Reduction
+- Household Pollution Prevention
 title: Responsible Appliance Disposal Program
 ---
 
-A voluntary program to promote environmentally responsible disposal of these household appliances, which will significantly reduce emissions as well as save consumers money.  As part of the Program, EPA serves as a technical clearinghouse on responsible appliance disposal program development and implementation.
+Appliance owners play a critical role in helping to prevent emissions of ozone-depleting substances (ODS) and hydrofluorocarbons (HFCs) through proper appliance disposal. The sections below provide consumers with information on environmental concerns, appliance disposal, and regulatory requirements.

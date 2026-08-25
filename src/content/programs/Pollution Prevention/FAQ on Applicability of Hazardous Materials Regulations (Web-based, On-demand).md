@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40261'
+link: http://youtube.com/watch?v=R1fCnNRK2d0
 programArea: Pollution Prevention
-pubDate: 12/9/2022
+publishDate: 12/9/2022
 subCategory:
 - Training, Presentations, and Briefings
 title: FAQ on Applicability of Hazardous Materials Regulations (Web-based, On-demand)

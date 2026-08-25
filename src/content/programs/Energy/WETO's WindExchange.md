@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36482'
+link: https://windexchange.energy.gov/
 programArea: Energy
-pubDate: 2/5/2021
+publishDate: 2/5/2021
 subCategory:
 - Databases and Software Tools
 title: WETO's WindExchange

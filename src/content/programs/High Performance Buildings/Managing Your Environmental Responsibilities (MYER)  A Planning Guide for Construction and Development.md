@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4116'
+link: https://www.epa.gov/npdes/managing-your-environmental-responsibilities-planning-guide-construction-and-development
 programArea: High Performance Buildings
-pubDate: 1/31/2006
+publishDate: 1/31/2006
 subCategory:
 - Construction Guidelines and Criteria
 title: 'Managing Your Environmental Responsibilities (MYER):  A Planning Guide for

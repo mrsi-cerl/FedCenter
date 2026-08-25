@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '9293'
+link: https://www.denix.osd.mil/awards/home
 programArea: Natural Resources
-pubDate: 3/28/2008
+publishDate: 3/28/2008
 subCategory:
 - Award Winners
 title: 'Secretary of Defense Environmental Awards: Winners of the Natural Resources

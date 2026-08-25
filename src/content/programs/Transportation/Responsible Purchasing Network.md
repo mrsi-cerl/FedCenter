@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8155'
+link: http://www.responsiblepurchasing.org/
 programArea: Transportation
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
 - Organizations
 title: Responsible Purchasing Network

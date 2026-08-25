@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28234'
+link: http://www.epa.gov/ghgemissions/carbon-footprint-calculator
 programArea: Climate Resilience
-pubDate: 7/31/2015
+publishDate: 7/31/2015
 subCategory:
 - Construction Design
 - Databases and Software Tools

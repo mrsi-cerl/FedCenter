@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18357'
+link: https://www.epa.gov/comptox-tools/downloadable-computational-toxicology-data
 programArea: Chemical Management
-pubDate: 6/16/2011
+publishDate: 6/16/2011
 subCategory:
 - Databases and Software Tools
 title: Downloadable Computational Toxicology Data

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '9469'
+link: http://www.scscertified.com/ecoproducts/products/
 programArea: Acquisition
-pubDate: 4/30/2008
+publishDate: 4/30/2008
 subCategory:
 - Databases and Software Tools
 title: SCS Certified Products Database

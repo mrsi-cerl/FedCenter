@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20223'
+link: Historic-Contexts-catalog-2.pdf
 programArea: Cultural Resources
-pubDate: 1/17/2012
+publishDate: 1/17/2012
 subCategory:
 - Case Studies
 title: 'DoD Historic Built Environment: Historic Contexts'

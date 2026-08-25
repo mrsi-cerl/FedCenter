@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35814'
+link: http://www.wbdg.org/ce/doe/femp/fempodw037
 programArea: Energy
-pubDate: 8/7/2020
+publishDate: 8/7/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: Selecting, Implementing, and Funding Distributed Wind Systems in Federal Facilities

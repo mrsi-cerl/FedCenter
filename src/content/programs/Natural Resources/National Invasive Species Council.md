@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23839'
+link: http://www.invasivespecies.gov/
 programArea: Natural Resources
-pubDate: 6/27/2013
+publishDate: 6/27/2013
 subCategory:
 - Organizations
 title: National Invasive Species Council

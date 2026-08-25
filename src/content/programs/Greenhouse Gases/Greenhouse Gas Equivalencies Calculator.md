@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13262'
+link: http://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator
 programArea: Greenhouse Gases
-pubDate: 8/17/2009
+publishDate: 8/17/2009
 subCategory:
 - Databases and Software Tools
 title: Greenhouse Gas Equivalencies Calculator

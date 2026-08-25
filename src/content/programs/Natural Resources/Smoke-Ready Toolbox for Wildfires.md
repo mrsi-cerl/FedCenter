@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '34394'
+link: https://www.epa.gov/smoke-ready-toolbox-wildfires
 programArea: Natural Resources
-pubDate: 8/26/2019
+publishDate: 8/26/2019
 subCategory:
 - Databases and Software Tools
 - Libraries and Repositories

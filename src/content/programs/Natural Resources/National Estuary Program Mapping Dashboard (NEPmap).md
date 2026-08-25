@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22339'
+link: http://experience.arcgis.com/experience/21d284ac2563413d879d295668d38369?org=EPA
 programArea: Natural Resources
-pubDate: 10/2/2012
+publishDate: 10/2/2012
 subCategory:
 - Databases and Software Tools
 title: National Estuary Program Mapping Dashboard (NEPmap)

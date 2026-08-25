@@ -1,8 +1,11 @@
 ---
+expiryDate: null
 item_id: '32548'
+link: https://p2infohouse.org/
 programArea: Pollution Prevention
-pubDate: 4/23/2018
+publishDate: 4/23/2018
 subCategory:
+- Databases and Software Tools
 - Libraries and Repositories
 title: Pollution Prevention Regional Information Center (P2RIC) Infohouse
 ---

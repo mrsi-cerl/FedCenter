@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '36152'
+link: https://api.army.mil/e2/c/downloads/2020/09/14/a6aa8a40/ad-2020-08-u-s-army-installation-policy-to-address-threats-caused-by-changing-climate-and-extreme-weather.pdf
 programArea: Climate Resilience
-pubDate: 10/30/2020
+publishDate: 10/30/2020
 subCategory:
-- Agency-Specific Climate Change and Adaptation
 - Construction Design
+- Agency-Specific Climate Change/Adaptation
 title: Army Directive 2020-08 U.S. Army Installation Policy to Address Threats Caused
   by Changing Climate and Extreme Weather
 ---

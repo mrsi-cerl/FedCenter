@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20581'
+link: https://energy.gov/nepa/downloads/final-guidance-improving-process-preparing-efficient-and-timely-environmental-reviews
 programArea: NEPA
-pubDate: 3/7/2012
+publishDate: 3/7/2012
 subCategory:
 - CEQ
 title: Improving the Process for Preparing Efficient and Timely Environmental Reviews

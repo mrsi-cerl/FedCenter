@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23909'
+link: https://www.fs.usda.gov/biology/education/workshops/iawhi/index.html
 programArea: Natural Resources
-pubDate: 7/3/2013
+publishDate: 7/3/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: Innovative Approaches to Wildlife and Highways Interactions (IAWHI) (Classroom,

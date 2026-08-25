@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1850'
+link: http://www.epa.gov/burnwise/
 programArea: Pollution Prevention
-pubDate: 6/22/2005
+publishDate: 6/22/2005
 subCategory:
 - Household Pollution Prevention
 title: Burnwise

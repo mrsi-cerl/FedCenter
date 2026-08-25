@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10307'
+link: http://www.sfiprogram.org/
 programArea: Natural Resources
-pubDate: 7/15/2008
+publishDate: 7/15/2008
 subCategory:
 - Organizations
 title: Sustainable Forestry Initiative's Inc.

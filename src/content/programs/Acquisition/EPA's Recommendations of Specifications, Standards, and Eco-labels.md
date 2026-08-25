@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '34336'
+link: https://www.epa.gov/greenerproducts/recommendations-specifications-standards-and-ecolabels-federal-purchasing
 programArea: Acquisition
-pubDate: 8/1/2019
+publishDate: 8/1/2019
 subCategory:
 - Guidance
 title: EPA's Recommendations of Specifications, Standards, and Eco-labels

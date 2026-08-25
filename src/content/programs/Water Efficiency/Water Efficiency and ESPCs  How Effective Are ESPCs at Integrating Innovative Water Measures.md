@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28166'
+link: http://energy.gov/eere/femp/downloads/water-efficiency-and-espcs-how-effective-are-espcs-integrating-innovative-water
 programArea: Water Efficiency
-pubDate: 7/10/2015
+publishDate: 7/10/2015
 subCategory:
 - Case Studies
 title: 'Water Efficiency and ESPCs:  How Effective Are ESPCs at Integrating Innovative

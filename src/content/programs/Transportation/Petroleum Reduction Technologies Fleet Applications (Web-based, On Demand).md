@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30027'
+link: http://naftc.wvu.edu/courses-and-workshops/petroleum-reduction-technologies-fleet-applications/
 programArea: Transportation
-pubDate: 7/20/2016
+publishDate: 7/20/2016
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Petroleum Reduction Technologies: Fleet Applications (Web-based, On Demand)'

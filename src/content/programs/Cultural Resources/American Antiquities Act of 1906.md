@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15396'
+link: https://uscode.house.gov/view.xhtml?path=/prelim@title54/subtitle3/divisionC&edition=prelim
 programArea: Cultural Resources
-pubDate: 7/20/2010
+publishDate: 7/20/2010
 subCategory:
 - National Laws and Statutes
 title: American Antiquities Act of 1906

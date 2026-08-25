@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2747'
+link: https://www.epa.gov/nep/national-estuary-program-reports
 programArea: Natural Resources
-pubDate: 9/1/2005
+publishDate: 9/1/2005
 subCategory:
 - Watershed Management
 title: 'Community Based Watershed Management:  Lessons from the National Estuary Program'

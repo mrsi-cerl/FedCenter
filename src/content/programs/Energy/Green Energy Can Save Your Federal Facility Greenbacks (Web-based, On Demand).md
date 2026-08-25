@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33242'
+link: https://www.epa.gov/fgc/fgc-webinar-green-energy-can-save-your-federal-facility-greenbacks
 programArea: Energy
-pubDate: 11/14/2018
+publishDate: 11/14/2018
 subCategory:
 - Training, Presentations, and Briefings
 title: Green Energy Can Save Your Federal Facility Greenbacks (Web-based, On Demand)

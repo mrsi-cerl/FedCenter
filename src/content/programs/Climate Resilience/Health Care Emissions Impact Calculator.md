@@ -1,9 +1,10 @@
 ---
+expiryDate: null
 item_id: '41078'
+link: https://practicegreenhealth.org/tools-and-resources/health-care-emissions-impact-calculator
 programArea: Climate Resilience
-pubDate: 6/29/2023
+publishDate: 6/29/2023
 subCategory:
-- Construction Design
 - Construction Design
 - Databases and Software Tools
 title: Health Care Emissions Impact Calculator

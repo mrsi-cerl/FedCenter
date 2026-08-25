@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23745'
+link: https://www.nps.gov/orgs/1739/green-roofs-on-historic-buildings.htm
 programArea: Cultural Resources
-pubDate: 6/19/2013
+publishDate: 6/19/2013
 subCategory:
 - Implementation Guidance
 title: Green Roofs on Historic Buildings

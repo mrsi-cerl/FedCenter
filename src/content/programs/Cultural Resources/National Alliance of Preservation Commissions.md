@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15509'
+link: http://www.napcommissions.org/
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Organizations and Programs
 title: National Alliance of Preservation Commissions

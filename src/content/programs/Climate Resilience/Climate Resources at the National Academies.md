@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '21234'
+link: http://www.nationalacademies.org/topics/climate
 programArea: Climate Resilience
-pubDate: 5/23/2012
+publishDate: 5/23/2012
 subCategory:
 - Construction Design
 - Libraries and Repositories

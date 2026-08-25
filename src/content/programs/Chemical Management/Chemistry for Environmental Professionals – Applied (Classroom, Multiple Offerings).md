@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8994'
+link: http://www.trainex.org/offeringslist.cfm?courseid=66
 programArea: Chemical Management
-pubDate: 2/7/2008
+publishDate: 2/7/2008
 subCategory:
 - Training, Presentations, and Briefings
 title: Chemistry for Environmental Professionals – Applied (Classroom, Multiple Offerings)

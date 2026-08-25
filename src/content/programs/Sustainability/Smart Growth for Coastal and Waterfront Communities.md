@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13421'
+link: https://www.epa.gov/smartgrowth/smart-growth-coastal-and-waterfront-communities
 programArea: Sustainability
-pubDate: 9/9/2009
+publishDate: 9/9/2009
 subCategory:
 - Municipalities
 title: Smart Growth for Coastal and Waterfront Communities

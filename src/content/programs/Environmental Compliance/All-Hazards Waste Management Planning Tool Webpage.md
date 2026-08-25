@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '42349'
+link: https://www.epa.gov/homeland-security-waste/all-hazards-waste-management-planning-tool
 programArea: Environmental Compliance
-pubDate: 7/24/2024
+publishDate: 7/24/2024
 subCategory:
 - Databases and Software Tools
 title: All-Hazards Waste Management Planning Tool Webpage

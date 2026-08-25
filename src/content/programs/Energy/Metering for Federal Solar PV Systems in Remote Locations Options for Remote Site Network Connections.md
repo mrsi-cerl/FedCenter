@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40525'
+link: https://www.energy.gov/eere/femp/metering-federal-solar-pv-systems-remote-locations-options-remote-site-network
 programArea: Energy
-pubDate: 3/1/2023
+publishDate: 3/1/2023
 subCategory:
 - Guidance Documents
 title: 'Metering for Federal Solar PV Systems in Remote Locations: Options for Remote

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24571'
+link: https://www.epa.gov/sites/production/files/2015-10/documents/brownfield\_infiltration\_decision\_tool.pdf
 programArea: Cleanup
-pubDate: 9/26/2013
+publishDate: 9/26/2013
 subCategory:
 - Brownfields
 title: Implementing Stormwater Infiltration Practices at Vacant Parcels and Brownfield

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36944'
+link: https://pfas-1.itrcweb.org/
 programArea: PFAS Resources
-pubDate: 5/26/2021
+publishDate: 5/26/2021
 subCategory:
 - Libraries, Repositories, and Research
 title: ITRC's PFAS Per- and Polyfluoroalkyl Substances

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36745'
+link: https://www.epa.gov/beach-tech/sanitary-surveys-recreational-waters#epa
 programArea: Environmental Compliance
-pubDate: 4/12/2021
+publishDate: 4/12/2021
 subCategory:
 - Databases and Software Tools
 title: Sanitary Surveys for Recreational Waters

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39792'
+link: https://driveelectric.gov/
 programArea: Climate Resilience
-pubDate: 7/21/2022
+publishDate: 7/21/2022
 subCategory:
 - Construction Design
 - Organizations and Programs

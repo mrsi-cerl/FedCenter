@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '33258'
+link: https://www.denix.osd.mil/cecos/management/nepa/index.html
 programArea: NEPA
-pubDate: 11/19/2018
+publishDate: 11/19/2018
 subCategory:
 - Training, Presentations, and Briefings
 title: National Environmental Policy Act (NEPA) Application (Classroom, Multiple Offerings)

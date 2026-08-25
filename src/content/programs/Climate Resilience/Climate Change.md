@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '14481'
+link: https://science.nasa.gov/climate-change/
 programArea: Climate Resilience
-pubDate: 2/11/2010
+publishDate: 2/11/2010
 subCategory:
 - Construction Design
 - Databases and Software Tools

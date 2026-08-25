@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '6230'
+link: http://www.epa.gov/watersense/
 programArea: High Performance Buildings
-pubDate: 12/5/2006
+publishDate: 12/5/2006
 subCategory:
 - Construction Design
 title: WaterSense

@@ -1,8 +1,11 @@
 ---
+expiryDate: null
 item_id: '34278'
+link: ''
 programArea: Environmental Compliance
-pubDate: 7/16/2019
+publishDate: 7/16/2019
 subCategory:
+- Announcements
 - Compliance Events
 title: Test Announcement 2
 ---

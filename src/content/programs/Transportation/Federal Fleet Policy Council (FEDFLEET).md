@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11336'
+link: https://www.gsa.gov/policy-regulations/policy/vehicle-management-policy/federal-fleet-policy-council-fedfleet
 programArea: Transportation
-pubDate: 1/22/2009
+publishDate: 1/22/2009
 subCategory:
 - Organizations
 title: Federal Fleet Policy Council (FEDFLEET)

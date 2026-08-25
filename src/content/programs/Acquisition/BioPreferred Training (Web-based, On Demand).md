@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35565'
+link: https://www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources\_1.xhtml
 programArea: Acquisition
-pubDate: 6/8/2020
+publishDate: 6/8/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: BioPreferred Training (Web-based, On Demand)

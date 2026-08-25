@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7667'
+link: Collaborative Land Use Planning primer.pdf
 programArea: Sustainability
-pubDate: 6/14/2007
+publishDate: 6/14/2007
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Collaborative Land Use Planning:  A Guide for Military Installations and Local

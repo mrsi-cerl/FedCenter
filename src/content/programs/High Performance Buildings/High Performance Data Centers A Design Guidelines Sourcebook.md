@@ -1,11 +1,12 @@
 ---
+expiryDate: null
 item_id: '41592'
+link: https://datacenters.lbl.gov/resources/high-performance-data-centers-design
 programArea: High Performance Buildings
-pubDate: 11/27/2023
+publishDate: 11/27/2023
 subCategory:
 - Conferences and Events
 - Construction Design
-- High Perf Bldgs News
 title: 'High Performance Data Centers: A Design Guidelines Sourcebook'
 ---
 

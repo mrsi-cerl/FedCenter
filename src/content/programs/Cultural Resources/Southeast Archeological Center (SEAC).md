@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15515'
+link: http://www.nps.gov/history/seac/pub1.htm
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Organizations and Programs
 title: Southeast Archeological Center (SEAC)

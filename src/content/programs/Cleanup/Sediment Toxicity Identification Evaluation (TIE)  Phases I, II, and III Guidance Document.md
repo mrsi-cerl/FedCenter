@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8934'
+link: http://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1003GR1.TXT
 programArea: Cleanup
-pubDate: 1/30/2008
+publishDate: 1/30/2008
 subCategory:
 - Remediation
 title: 'Sediment Toxicity Identification Evaluation (TIE):  Phases I, II, and III

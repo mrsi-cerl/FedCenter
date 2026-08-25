@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '38434'
+link: https://www.denix.osd.mil/awards/home/
 programArea: Sustainability
-pubDate: 9/17/2021
+publishDate: 9/17/2021
 subCategory:
 - Award Winners
 title: 'Secretary of Defense Environmental Awards: Winners of the Environmental Quality

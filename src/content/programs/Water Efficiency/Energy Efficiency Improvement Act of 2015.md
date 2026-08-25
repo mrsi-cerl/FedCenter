@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '27708'
+link: https://www.govtrack.us/congress/bills/114/s535/text
 programArea: Water Efficiency
-pubDate: 5/4/2015
+publishDate: 5/4/2015
 subCategory:
 - Regulations, Guidance, and Policy
 title: Energy Efficiency Improvement Act of 2015

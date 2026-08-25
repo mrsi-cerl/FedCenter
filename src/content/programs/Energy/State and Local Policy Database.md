@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '25730'
+link: http://database.aceee.org/
 programArea: Energy
-pubDate: 5/7/2014
+publishDate: 5/7/2014
 subCategory:
 - Databases and Software Tools
 title: State and Local Policy Database

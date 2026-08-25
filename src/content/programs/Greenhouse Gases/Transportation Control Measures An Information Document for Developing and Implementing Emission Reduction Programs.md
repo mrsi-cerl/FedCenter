@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '17987'
+link: https://www.epa.gov/statelocalenergy/transportation-control-measures
 programArea: Greenhouse Gases
-pubDate: 5/16/2011
+publishDate: 5/16/2011
 subCategory:
 - Case Studies
 title: 'Transportation Control Measures: An Information Document for Developing and

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10868'
+link: https://www.epa.gov/egrid/power-profiler#/
 programArea: Chemical Management
-pubDate: 10/31/2008
+publishDate: 10/31/2008
 subCategory:
 - Databases and Software Tools
 title: Power Profiler

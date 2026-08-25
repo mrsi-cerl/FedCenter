@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1263'
+link: http://www.almr.org
 programArea: Pollution Prevention
-pubDate: 4/5/2005
+publishDate: 4/5/2005
 subCategory:
 - Organizations
 title: Association of Lighting and Mercury Recyclers

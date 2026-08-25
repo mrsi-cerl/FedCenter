@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '736'
+link: http://www.greenseal.org/
 programArea: Pollution Prevention
-pubDate: 2/1/2005
+publishDate: 2/1/2005
 subCategory:
 - Organizations
 title: Green Seal

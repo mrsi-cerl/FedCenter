@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20391'
+link: https://www.epa.gov/sites/production/files/documents/fact\_sheet\_site\_characterization\_for\_munitions\_constituents.pdf
 programArea: Cleanup
-pubDate: 2/8/2012
+publishDate: 2/8/2012
 subCategory:
 - Munitions
 title: Site Characterization For Munitions Constituents

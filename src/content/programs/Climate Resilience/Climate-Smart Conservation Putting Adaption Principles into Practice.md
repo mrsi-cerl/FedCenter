@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '25950'
+link: https://toolkit.climate.gov/tool/climate-smart-conservation-putting-adaptation-principles-practice
 programArea: Climate Resilience
-pubDate: 5/27/2014
+publishDate: 5/27/2014
 subCategory:
-- Case Studies
 - Construction Design
+- Case Studies
 title: 'Climate-Smart Conservation: Putting Adaption Principles into Practice'
 ---
 

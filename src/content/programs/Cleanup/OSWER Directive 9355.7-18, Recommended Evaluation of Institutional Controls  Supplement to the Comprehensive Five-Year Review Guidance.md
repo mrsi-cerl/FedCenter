@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '19543'
+link: https://semspub.epa.gov/work/HQ/175441.pdf
 programArea: Cleanup
-pubDate: 9/27/2011
+publishDate: 9/27/2011
 subCategory:
 - Regulations, Guidance, and Policy
 title: 'OSWER Directive 9355.7-18, Recommended Evaluation of Institutional Controls:  Supplement

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10611'
+link: https://www.rand.org/pubs/research\_reports/RR3038.html
 programArea: Transportation
-pubDate: 9/15/2008
+publishDate: 9/15/2008
 subCategory:
 - Greenhouse Gases
 title: Incorporating Resiliency into the Transportation Planning and Assessment

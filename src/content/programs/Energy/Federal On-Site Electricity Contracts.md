@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39931'
+link: https://www.energy.gov/eere/femp/federal-site-electricity-contracts
 programArea: Energy
-pubDate: 9/13/2022
+publishDate: 9/13/2022
 subCategory:
 - Guidance Documents
 title: Federal On-Site Electricity Contracts

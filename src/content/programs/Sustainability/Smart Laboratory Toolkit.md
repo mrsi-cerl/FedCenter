@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35812'
+link: https://smartlabs.i2sl.org/
 programArea: Sustainability
-pubDate: 8/7/2020
+publishDate: 8/7/2020
 subCategory:
 - Databases and Software Tools
 title: Smart Laboratory Toolkit

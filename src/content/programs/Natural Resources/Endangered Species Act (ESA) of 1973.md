@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2434'
+link: https://www.fws.gov/endangered/laws-policies
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
 - Species Management
 title: Endangered Species Act (ESA) of 1973

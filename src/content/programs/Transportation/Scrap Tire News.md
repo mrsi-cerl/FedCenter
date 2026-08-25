@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '256'
+link: http://www.scraptirenews.com/
 programArea: Transportation
-pubDate: 10/18/2004
+publishDate: 10/18/2004
 subCategory:
 - Directories, Catalogs, and Newsletters
 title: Scrap Tire News

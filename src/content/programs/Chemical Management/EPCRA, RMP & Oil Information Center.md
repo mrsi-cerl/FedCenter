@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '32825'
+link: https://www.epa.gov/epcra/forms/contact-us-about-emergency-planning-and-community-right-know-act-epcra
 programArea: Chemical Management
-pubDate: 7/10/2018
+publishDate: 7/10/2018
 subCategory:
 - Organizations
 title: EPCRA, RMP & Oil Information Center

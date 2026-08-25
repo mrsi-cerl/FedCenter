@@ -1,9 +1,10 @@
 ---
+expiryDate: null
 item_id: '783'
+link: https://nrc.uscg.mil/
 programArea: Chemical Management
-pubDate: 2/4/2005
+publishDate: 2/4/2005
 subCategory:
-- Databases and Software Tools
 - Databases and Software Tools
 title: National Response Center
 ---

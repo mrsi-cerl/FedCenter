@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30659'
+link: http://www.npi.org/sem-hpm.html
 programArea: Cultural Resources
-pubDate: 12/30/2016
+publishDate: 12/30/2016
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Historic Property Management: Materials to Systems (Classroom, Multiple Offerings)'

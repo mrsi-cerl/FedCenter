@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1276'
+link: http://www.fedcenter.gov/assistance/myfacility/
 programArea: Environmental Compliance
-pubDate: 4/7/2005
+publishDate: 4/7/2005
 subCategory:
 - Databases and Software Tools
 title: My Community/My Facility

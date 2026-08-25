@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8542'
+link: http://www.epa.gov/nep
 programArea: Natural Resources
-pubDate: 11/5/2007
+publishDate: 11/5/2007
 subCategory:
 - Organizations
 title: National Estuary Program

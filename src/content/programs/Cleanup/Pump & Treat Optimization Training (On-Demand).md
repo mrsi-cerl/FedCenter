@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43619'
+link: https://www.clu-in.org/conf/itrc/PT-1\_090425/
 programArea: Cleanup
-pubDate: 11/7/2025
+publishDate: 11/7/2025
 subCategory:
 - Training, Presentations, and Briefings
 title: Pump & Treat Optimization Training (On-Demand)

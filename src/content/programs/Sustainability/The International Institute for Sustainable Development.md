@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3531'
+link: http://www.iisd.org/about/
 programArea: Sustainability
-pubDate: 11/30/2005
+publishDate: 11/30/2005
 subCategory:
 - Organizations
 title: The International Institute for Sustainable Development

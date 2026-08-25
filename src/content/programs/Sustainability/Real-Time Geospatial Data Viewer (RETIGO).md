@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26849'
+link: https://www.epa.gov/hesc/real-time-geospatial-data-viewer-retigo
 programArea: Sustainability
-pubDate: 11/7/2014
+publishDate: 11/7/2014
 subCategory:
 - Databases and Software Tools
 title: Real-Time Geospatial Data Viewer (RETIGO)

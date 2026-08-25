@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '12168'
+link: https://www.epa.gov/green-infrastructure
 programArea: High Performance Buildings
-pubDate: 4/9/2009
+publishDate: 4/9/2009
 subCategory:
 - Planning
 title: Green Infrastructure

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '39926'
+link: http://www.energy.gov/sites/default/files/2024-05/effects-of-climate-change-on-hydropower\_2023-12.pdf
 programArea: Climate Resilience
-pubDate: 9/9/2022
+publishDate: 9/9/2022
 subCategory:
 - Construction Design
 - Federal

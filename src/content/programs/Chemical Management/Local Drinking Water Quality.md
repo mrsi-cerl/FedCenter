@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7365'
+link: http://www.epa.gov/safewater/dwinfo/index.html
 programArea: Chemical Management
-pubDate: 5/28/2007
+publishDate: 5/28/2007
 subCategory:
 - Databases and Software Tools
 title: Local Drinking Water Quality

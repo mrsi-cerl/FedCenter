@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '30163'
+link: http://accoonline.org/climate101
 programArea: Climate Resilience
-pubDate: 8/19/2016
+publishDate: 8/19/2016
 subCategory:
 - Construction Design
 - Training, Presentations, and Briefings

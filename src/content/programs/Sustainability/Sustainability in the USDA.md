@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '8080'
+link: https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/oce-sustainability
 programArea: Sustainability
-pubDate: 8/23/2007
+publishDate: 8/23/2007
 subCategory:
 - Federal Facilities
 title: Sustainability in the USDA

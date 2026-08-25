@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20324'
+link: https://www.bostonpreservation.org/resource-item/greenest-building-quantifying-environmental-value-building-reuse
 programArea: Sustainability
-pubDate: 1/30/2012
+publishDate: 1/30/2012
 subCategory:
 - Property Disposal
 title: 'The Greenest Building: Quantifying the Environmental Value of Building Reuse'

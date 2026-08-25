@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '42961'
+link: GSA recycling.docx
 programArea: Pollution Prevention
-pubDate: 2/20/2025
+publishDate: 2/20/2025
 subCategory:
 - Regulations, Guidance, and Policy
 title: Q&A between GSA and Federal Agencies About Recycling and Personal Property

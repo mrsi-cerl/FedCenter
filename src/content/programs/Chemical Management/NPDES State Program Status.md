@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '306'
+link: https://www.epa.gov/npdes/npdes-state-program-information
 programArea: Chemical Management
-pubDate: 10/20/2004
+publishDate: 10/20/2004
 subCategory:
 - Databases and Software Tools
 title: NPDES State Program Status

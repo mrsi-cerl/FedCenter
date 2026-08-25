@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '32559'
+link: https://coast.noaa.gov/digitalcoast/
 programArea: Natural Resources
-pubDate: 4/24/2018
+publishDate: 4/24/2018
 subCategory:
-- Databases and Software Tools
 - Libraries and Repositories
+- Databases and Software Tools
 title: Digital Coast
 ---
 

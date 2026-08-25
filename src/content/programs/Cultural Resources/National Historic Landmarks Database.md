@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '16259'
+link: https://www.nps.gov/subjects/nationalhistoriclandmarks/nhldata.htm
 programArea: Cultural Resources
-pubDate: 9/16/2010
+publishDate: 9/16/2010
 subCategory:
 - Databases and Software Tools
 title: National Historic Landmarks Database

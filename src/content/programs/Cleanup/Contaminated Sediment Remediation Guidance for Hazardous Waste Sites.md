@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4352'
+link: https://semspub.epa.gov/work/HQ/174471.pdf
 programArea: Cleanup
-pubDate: 3/2/2006
+publishDate: 3/2/2006
 subCategory:
 - Remediation
 title: Contaminated Sediment Remediation Guidance for Hazardous Waste Sites

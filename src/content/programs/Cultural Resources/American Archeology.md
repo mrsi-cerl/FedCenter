@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '15495'
+link: http://www.thearchcons.org/american-archaeology-magazine/
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
 - Directories, Catalogs, and Newsletters
 title: American Archeology

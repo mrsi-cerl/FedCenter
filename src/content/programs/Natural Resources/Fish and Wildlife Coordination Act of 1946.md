@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2441'
+link: ''
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
 - Species Management
 title: Fish and Wildlife Coordination Act of 1946

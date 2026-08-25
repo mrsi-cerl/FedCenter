@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43309'
+link: https://acquisitiongateway.gov/procurementcopilot
 programArea: Acquisition
-pubDate: 6/9/2025
+publishDate: 6/9/2025
 subCategory:
 - Databases and Software Tools
 title: Procurement Co-Pilot

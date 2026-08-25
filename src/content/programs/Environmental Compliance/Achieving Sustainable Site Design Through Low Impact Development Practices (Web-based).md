@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24305'
+link: http://www.wbdg.org/ce/nibs/wbdg/wbdg17
 programArea: Environmental Compliance
-pubDate: 8/12/2013
+publishDate: 8/12/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: Achieving Sustainable Site Design Through Low Impact Development Practices

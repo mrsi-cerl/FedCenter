@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '25777'
+link: https://www.state.gov/bureaus-offices/bureau-of-overseas-buildings-operations/
 programArea: Sustainability
-pubDate: 5/16/2014
+publishDate: 5/16/2014
 subCategory:
 - Federal Facilities
 title: Bureau of Overseas Building Operations

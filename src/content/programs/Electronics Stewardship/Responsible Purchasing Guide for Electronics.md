@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '7903'
+link: http://www.responsiblepurchasing.org/UserFiles/File/Ofice%20Electronics/Webcast%20Presentations/RPN%20Office%20Electronics%20Presentation%20July%2007.pdf
 programArea: Electronics Stewardship
-pubDate: 7/25/2007
+publishDate: 7/25/2007
 subCategory:
 - Acquisition
 title: Responsible Purchasing Guide for Electronics

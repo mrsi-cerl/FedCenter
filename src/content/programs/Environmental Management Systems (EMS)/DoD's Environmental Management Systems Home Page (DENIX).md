@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '552'
+link: https://www.denix.osd.mil/ems/
 programArea: Environmental Management Systems (EMS)
-pubDate: 12/6/2004
+publishDate: 12/6/2004
 subCategory:
 - Libraries and Repositories
 title: DoD's Environmental Management Systems Home Page (DENIX)

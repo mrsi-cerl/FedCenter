@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '25726'
+link: http://www3.cec.org/islandora/en/item/4237-destination-sustainability-reducing-greenhouse-gas-emissions-from-freight-en.pdf
 programArea: Transportation
-pubDate: 5/6/2014
+publishDate: 5/6/2014
 subCategory:
 - Freight, Cargo, and Household Goods
 title: 'Destination Sustainability: Reducing Greenhouse Gas Emissions from Freight

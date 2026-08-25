@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29037'
+link: https://www.aceee.org/research-report/e1501
 programArea: Climate Resilience
-pubDate: 1/22/2016
+publishDate: 1/22/2016
 subCategory:
 - Construction Design
 - Databases and Software Tools

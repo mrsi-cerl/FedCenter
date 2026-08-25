@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '31775'
+link: https://airknowledge.gov/SI/BASC124-SI.html
 programArea: Environmental Compliance
-pubDate: 9/21/2017
+publishDate: 9/21/2017
 subCategory:
 - Training, Presentations, and Briefings
 title: 'BASC124-SI: Air Pollution Control Orientation Course (formerly SI-422)'

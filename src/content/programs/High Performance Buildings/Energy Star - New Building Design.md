@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '833'
+link: http://www.energystar.gov/index.cfm?c=new\_bldg\_design.new\_bldg\_design
 programArea: High Performance Buildings
-pubDate: 2/9/2005
+publishDate: 2/9/2005
 subCategory:
 - Organizations and Programs
 title: Energy Star - New Building Design

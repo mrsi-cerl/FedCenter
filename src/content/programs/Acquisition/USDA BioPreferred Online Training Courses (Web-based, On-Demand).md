@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36139'
+link: https://www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources\_1.xhtml
 programArea: Acquisition
-pubDate: 10/30/2020
+publishDate: 10/30/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: USDA BioPreferred Online Training Courses (Web-based, On-Demand)

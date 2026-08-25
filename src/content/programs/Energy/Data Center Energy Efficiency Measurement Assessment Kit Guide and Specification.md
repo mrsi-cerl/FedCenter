@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22909'
+link: http://www1.eere.energy.gov/femp/pdfs/dc\_assessmentkit.pdf
 programArea: Energy
-pubDate: 1/10/2013
+publishDate: 1/10/2013
 subCategory:
 - Data Centers
 title: Data Center Energy Efficiency Measurement Assessment Kit Guide and Specification

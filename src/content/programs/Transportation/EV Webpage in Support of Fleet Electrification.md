@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '36720'
+link: https://www.energy.gov/eere/femp/electric-vehicles-federal-fleets
 programArea: Transportation
-pubDate: 4/7/2021
+publishDate: 4/7/2021
 subCategory:
 - Fleet Management
 title: EV Webpage in Support of Fleet Electrification

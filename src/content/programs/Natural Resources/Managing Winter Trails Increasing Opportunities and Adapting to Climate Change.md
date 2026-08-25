@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '35270'
+link: http://www.americantrails.org/training/managing-winter-trails-increasing-opportunities-and-adapting-to-climate-change
 programArea: Natural Resources
-pubDate: 3/25/2020
+publishDate: 3/25/2020
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Managing Winter Trails: Increasing Opportunities and Adapting to Climate Change'

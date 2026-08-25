@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29473'
+link: http://westcoastclimateforum.com/cfpt
 programArea: Climate Resilience
-pubDate: 5/5/2016
+publishDate: 5/5/2016
 subCategory:
 - Construction Design
 - Libraries and Repositories

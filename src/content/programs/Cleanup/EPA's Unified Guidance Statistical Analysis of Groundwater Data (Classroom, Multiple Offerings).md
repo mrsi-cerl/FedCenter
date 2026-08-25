@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '19580'
+link: http://www.nwetc.org/course-catalog/epas-new-unified-guidance-statistical-analysis-groundwater-monitoring-data
 programArea: Cleanup
-pubDate: 10/4/2011
+publishDate: 10/4/2011
 subCategory:
 - Training, Presentations, and Briefings
 title: 'EPA''s Unified Guidance: Statistical Analysis of Groundwater Data (Classroom,

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '29341'
+link: http://www.osti.gov/biblio/1244177
 programArea: Energy
-pubDate: 4/4/2016
+publishDate: 4/4/2016
 subCategory:
 - Case Studies
 title: Measurement and Verification of Energy Savings and Performance from Advanced

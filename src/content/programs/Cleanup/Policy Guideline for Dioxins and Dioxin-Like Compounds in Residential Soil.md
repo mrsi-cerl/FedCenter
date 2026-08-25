@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '10903'
+link: https://www.paerab.us/Contaminants/Dioxins/Dioxin\_Policy\_Guidelines.pdf
 programArea: Cleanup
-pubDate: 11/5/2008
+publishDate: 11/5/2008
 subCategory:
 - Substances of Concern
 title: Policy Guideline for Dioxins and Dioxin-Like Compounds in Residential Soil

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '34234'
+link: https://www.govinfo.gov/content/pkg/USCODE-2011-title16/html/USCODE-2011-title16-chap32.htm
 programArea: Natural Resources
-pubDate: 6/27/2019
+publishDate: 6/27/2019
 subCategory:
 - Species Management
 title: National Marine Sanctuaries Amendments Act of 2000

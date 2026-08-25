@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26108'
+link: http://secasc.ncsu.edu/resources-retired2026/southeast-global-change-monitoring-portal/
 programArea: Climate Resilience
-pubDate: 6/23/2014
+publishDate: 6/23/2014
 subCategory:
 - Construction Design
 - Databases and Software Tools

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '43609'
+link: https://www.clu-in.org/conf/itrc/PFASChem\_100925/
 programArea: PFAS Resources
-pubDate: 10/30/2025
+publishDate: 10/30/2025
 subCategory:
 - Training, Presentations and Briefings
 title: 'ITRC: PFAS Chemistry Explained (Web-based, On-Demand)'

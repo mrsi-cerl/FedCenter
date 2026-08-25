@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '4535'
+link: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=90120500.txt
 programArea: Cleanup
-pubDate: 3/27/2006
+publishDate: 3/27/2006
 subCategory:
 - New Technology
 title: 'Remediation Technology Assessment Reports: Summary of Selected Documents'

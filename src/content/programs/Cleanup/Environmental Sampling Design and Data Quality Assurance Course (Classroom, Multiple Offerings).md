@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23112'
+link: http://www.afit.edu/ce/Course\_Desc.cfm?p=WENV%20441
 programArea: Cleanup
-pubDate: 1/31/2013
+publishDate: 1/31/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: Environmental Sampling Design and Data Quality Assurance Course (Classroom,

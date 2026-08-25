@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '41628'
+link: https://www.gsa.gov/system/files/LED and Controls Guidance for GSA-PDF-01-31-24.pdf
 programArea: Acquisition
-pubDate: 12/13/2023
+publishDate: 12/13/2023
 subCategory:
 - Guidance
 title: LED Lighting and Controls Guidance

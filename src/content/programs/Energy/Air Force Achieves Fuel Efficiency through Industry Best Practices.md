@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '22906'
+link: http://www1.eere.energy.gov/femp/pdfs/af\_fuelefficiency.pdf
 programArea: Energy
-pubDate: 1/10/2013
+publishDate: 1/10/2013
 subCategory:
 - Case Studies
 title: Air Force Achieves Fuel Efficiency through Industry Best Practices

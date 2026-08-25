@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18537'
+link: http://www.wef.org/
 programArea: Water Efficiency
-pubDate: 6/23/2011
+publishDate: 6/23/2011
 subCategory:
 - Organizations and Programs
 title: Water Environment Federation

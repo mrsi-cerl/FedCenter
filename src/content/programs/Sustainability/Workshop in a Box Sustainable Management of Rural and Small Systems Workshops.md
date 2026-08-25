@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '24706'
+link: https://www.epa.gov/sustainable-water-infrastructure/workshop-box-sustainable-management-rural-and-small-water-and
 programArea: Sustainability
-pubDate: 10/23/2013
+publishDate: 10/23/2013
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Workshop in a Box: Sustainable Management of Rural and Small Systems Workshops'

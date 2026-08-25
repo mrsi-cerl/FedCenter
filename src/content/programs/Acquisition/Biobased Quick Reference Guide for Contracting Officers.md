@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '28568'
+link: http://www.biopreferred.gov/BioPreferred/faces/pages/AcquisitionTools.xhtml
 programArea: Acquisition
-pubDate: 10/5/2015
+publishDate: 10/5/2015
 subCategory:
 - Guidance
 title: Biobased Quick Reference Guide for Contracting Officers

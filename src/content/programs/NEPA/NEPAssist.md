@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20972'
+link: https://www.epa.gov/nepa/nepassist
 programArea: NEPA
-pubDate: 4/30/2012
+publishDate: 4/30/2012
 subCategory:
 - Databases and Software Tools
 title: NEPAssist

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '13320'
+link: haz waste training\_FedCenter.pdf
 programArea: Environmental Compliance
-pubDate: 8/20/2009
+publishDate: 8/20/2009
 subCategory:
 - Training, Presentations, and Briefings
 title: Hazardous Waste Management for Building Managers

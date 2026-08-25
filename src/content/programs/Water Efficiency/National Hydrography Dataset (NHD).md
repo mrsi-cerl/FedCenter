@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '18265'
+link: http://nhd.usgs.gov/
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
 - Databases and Software Tools
 title: National Hydrography Dataset (NHD)

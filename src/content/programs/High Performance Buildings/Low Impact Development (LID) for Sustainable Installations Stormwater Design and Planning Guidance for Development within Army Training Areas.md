@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '11060'
+link: http://www.wbdg.org/dod/ufc/ufs-3-210-10
 programArea: High Performance Buildings
-pubDate: 12/4/2008
+publishDate: 12/4/2008
 subCategory:
 - Case Studies
 title: 'Low Impact Development (LID) for Sustainable Installations: Stormwater Design

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '25728'
+link: http://www.cfm.va.gov/til/sustain/dmSustain.pdf
 programArea: High Performance Buildings
-pubDate: 5/7/2014
+publishDate: 5/7/2014
 subCategory:
 - Construction Guidelines and Criteria
 title: VA's Sustainable Design Manual

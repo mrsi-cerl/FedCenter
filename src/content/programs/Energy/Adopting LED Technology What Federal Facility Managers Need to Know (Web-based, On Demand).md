@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '26855'
+link: http://www.energy.gov/sites/prod/files/2014/09/f18/adopting\_led\_technology.pdf
 programArea: Energy
-pubDate: 11/12/2014
+publishDate: 11/12/2014
 subCategory:
 - Training, Presentations, and Briefings
 title: 'Adopting LED Technology: What Federal Facility Managers Need to Know (Web-based,

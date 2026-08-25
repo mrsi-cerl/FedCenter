@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '1606'
+link: http://www.smartgrowth.org/
 programArea: NEPA
-pubDate: 5/4/2005
+publishDate: 5/4/2005
 subCategory:
 - Organizations and Programs
 title: Smart Growth Network

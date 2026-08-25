@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '3014'
+link: https://www.epa.gov/sustainable-futures
 programArea: Chemical Management
-pubDate: 9/30/2005
+publishDate: 9/30/2005
 subCategory:
 - Chemical Use Reduction
 title: Sustainable Futures Initiative

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '23364'
+link: http://energy.gov/nepa/downloads/nepa-and-nhpa-handbook-integrating-nepa-and-section-106
 programArea: NEPA
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
 - CEQ
 title: 'NEPA and NHPA: A Handbook for Integrating NEPA and Section 106'

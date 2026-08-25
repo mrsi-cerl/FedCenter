@@ -1,10 +1,12 @@
 ---
+expiryDate: null
 item_id: '23501'
+link: http://energy.gov/eere/about-us/ump-protocols
 programArea: Energy
-pubDate: 5/16/2013
+publishDate: 5/16/2013
 subCategory:
-- Energy Conservation
 - Libraries and Repositories
+- Energy Conservation
 title: 'The Uniform Methods Project: Methods for Determining Energy Efficiency Savings
   for Specific Measures'
 ---

@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '40165'
+link: https://www.epa.gov/recyclingstrategy/model-recycling-program-toolkit
 programArea: Sustainability
-pubDate: 11/16/2022
+publishDate: 11/16/2022
 subCategory:
 - Databases and Software Tools
 title: Model Recycling Program Toolkit

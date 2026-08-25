@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '20457'
+link: https://windexchange.energy.gov/maps-data?category=residential
 programArea: Energy
-pubDate: 2/21/2012
+publishDate: 2/21/2012
 subCategory:
 - ' Alternative Energy'
 title: Wind Resource Maps

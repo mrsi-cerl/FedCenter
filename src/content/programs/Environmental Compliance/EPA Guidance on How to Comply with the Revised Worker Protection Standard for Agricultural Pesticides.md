@@ -1,19 +1,21 @@
 ---
+expiryDate: null
 item_id: '30383'
+link: http://pesticideresources.org/wps/guide/protectworkers.html
 programArea: Environmental Compliance
-pubDate: 10/4/2016
+publishDate: 10/4/2016
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
+- Guidance for the Clean Air Act (CAA)
+- Guidance for the Clean Water Act (CWA)
 - Guidance for EPCRA
 - Guidance for FIFRA
 - Guidance for RCRA
-- Guidance for RCRA, Subtitle C
 - Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
+- Federal Regulations
 - Guidance for TSCA
 - State Regulations
+- Guidance for RCRA, Subtitle C
+- DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: EPA Guidance on How to Comply with the Revised Worker Protection Standard for
   Agricultural Pesticides
 ---

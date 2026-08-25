@@ -1,7 +1,9 @@
 ---
+expiryDate: null
 item_id: '2748'
+link: https://www.epa.gov/nps/national-management-measures-protect-and-restore-wetlands-and-riparian-areas-abatement-nonpoint
 programArea: Natural Resources
-pubDate: 9/1/2005
+publishDate: 9/1/2005
 subCategory:
 - Wetlands
 title: National Management Measures to Protect and Restore Wetlands and Riparian Areas
