@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
-
 import { loadEnv } from "vite";
+import sitemap from "@astrojs/sitemap";
 
 const env = loadEnv(
   // @ts-ignore
@@ -10,11 +10,14 @@ const env = loadEnv(
   ""
 );
 
-console.log("env: ", env);
+// console.log("env: ", env);
 
 export default defineConfig({
-  // when deployed for real
-  // site: 'https://fedcenter.gov
+  // Required for the sitemap to generate.
+  // Set FEDCENTER_SITE in your environment variables to the your localhost, usually http://localhost:4321
+  site: env.FEDCENTER_SITE || "https://fedcenter.gov",
+
+  integrations: [sitemap()],
 
   vite: {
     server: {

@@ -20,7 +20,12 @@ const primaryAreas = [
   { title: "Water Efficiency", url: "" },
 ];
 ---
-
+<style>
+  /* Don't outline the search box when it is focused. This is a USWDS issue that we are overriding. */
+  input#query.usagov-search-autocomplete:focus {
+    outline:unset;
+  }
+</style>
 <div class="usa-overlay"></div>
 <header class="usa-header usa-header--extended">
   <div class="usa-navbar">
@@ -283,14 +288,9 @@ const primaryAreas = [
           </li>
         </ul>
         <section aria-label="Search component">
-          <form class="usa-search usa-search--small" role="search">
-            <label class="usa-sr-only" for="search-field">Search</label>
-            <input
-              class="usa-input"
-              id="search-field"
-              type="search"
-              name="search"
-            />
+          <form class="usa-search usa-search--small" role="search" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+            <input type="hidden" name="affiliate" id="affiliate" value="fedcenter" autocomplete="off" />
+            <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" />
             <button class="usa-button" type="submit">
               <img
                 src=`${import.meta.env.BASE_URL}uswds/img/usa-icons-bg/search--white.svg`
