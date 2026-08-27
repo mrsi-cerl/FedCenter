@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '13901'
-link: https://www.epa.gov/regulations-emissions-vehicles-and-engines/optimization-model-reducing-emissions-greenhouse-gases
+item_id: "13901"
+externalUrl: https://www.epa.gov/regulations-emissions-vehicles-and-engines/optimization-model-reducing-emissions-greenhouse-gases
 programArea: Transportation
 publishDate: 11/8/2009
 subCategory:
-- Databases and Software Tools
-title: Optimization Model for Reducing Emissions of Greenhouse Gases from Automobiles
+  - Databases and Software Tools
+title:
+  Optimization Model for Reducing Emissions of Greenhouse Gases from Automobiles
   (OMEGA)
 ---
 

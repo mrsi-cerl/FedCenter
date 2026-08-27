@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '26491'
-link: http://nwetc.org/course-catalog/ecological-risk-assessment-series-introduction-and-advanced-recorded
+item_id: "26491"
+externalUrl: http://nwetc.org/course-catalog/ecological-risk-assessment-series-introduction-and-advanced-recorded
 programArea: Natural Resources
 publishDate: 9/2/2014
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Ecological Risk Assessment (Web-based)
 ---
 

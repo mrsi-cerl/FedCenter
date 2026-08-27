@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '14830'
-link: complnc\_monitorg\_03022007.pdf
+item_id: "14830"
+externalUrl: complnc\_monitorg\_03022007.pdf
 programArea: Acquisition
 publishDate: 4/13/2010
 subCategory:
-- Guidance
+  - Guidance
 title: Green Purchasing Compliance Monitoring
 ---
 

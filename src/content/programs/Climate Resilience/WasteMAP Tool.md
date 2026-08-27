@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '41932'
-link: wastemap.earth/
+item_id: "41932"
+externalUrl: wastemap.earth/
 programArea: Climate Resilience
 publishDate: 3/19/2024
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: WasteMAP Tool
 ---
 

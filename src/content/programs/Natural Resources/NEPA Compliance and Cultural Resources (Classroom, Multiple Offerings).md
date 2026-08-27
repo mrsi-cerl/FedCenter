@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '34562'
-link: http://npi.org/seminars/laws-and-regulations/nepa-compliance-and-cultural-resources
+item_id: "34562"
+externalUrl: http://npi.org/seminars/laws-and-regulations/nepa-compliance-and-cultural-resources
 programArea: Natural Resources
 publishDate: 9/30/2019
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: NEPA Compliance and Cultural Resources (Classroom, Multiple Offerings)
 ---
 

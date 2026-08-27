@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44256'
-link: drought.unl.edu/
+item_id: "44256"
+externalUrl: drought.unl.edu/
 programArea: Natural Resources
 publishDate: 8/7/2026
 subCategory:
-- Organizations
+  - Organizations
 title: National Drought Mitigation Center
 ---
 

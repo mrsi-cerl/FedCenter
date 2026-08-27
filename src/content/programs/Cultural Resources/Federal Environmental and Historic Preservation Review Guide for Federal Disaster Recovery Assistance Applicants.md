@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '28425'
-link: https://www.fema.gov/sites/default/files/2020-06/UFR\_Applicant\_Guide\_Final.pdf
+item_id: "28425"
+externalUrl: https://www.fema.gov/sites/default/files/2020-06/UFR\_Applicant\_Guide\_Final.pdf
 programArea: Cultural Resources
 publishDate: 9/11/2015
 subCategory:
-- Implementation Guidance
-title: Federal Environmental and Historic Preservation Review Guide for Federal Disaster
+  - Implementation Guidance
+title:
+  Federal Environmental and Historic Preservation Review Guide for Federal Disaster
   Recovery Assistance Applicants
 ---
 

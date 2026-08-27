@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41391'
-link: climateprogramportal.org/resource/pathways-to-commercial-liftoff/
+item_id: "41391"
+externalUrl: climateprogramportal.org/resource/pathways-to-commercial-liftoff/
 programArea: Acquisition
 publishDate: 9/21/2023
 subCategory:
-- Guidance
+  - Guidance
 title: Pathways to Commercial Liftoff
 ---
 

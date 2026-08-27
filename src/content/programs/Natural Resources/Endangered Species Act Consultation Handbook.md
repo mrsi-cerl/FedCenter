@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3417'
-link: https://www.fws.gov/media/endangered-species-consultation-handbook
+item_id: "3417"
+externalUrl: https://www.fws.gov/media/endangered-species-consultation-handbook
 programArea: Natural Resources
 publishDate: 11/15/2005
 subCategory:
-- Endangered/Threatened Species
+  - Endangered/Threatened Species
 title: Endangered Species Act Consultation Handbook
 ---
 

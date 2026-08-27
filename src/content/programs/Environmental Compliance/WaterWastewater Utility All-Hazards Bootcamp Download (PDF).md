@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '32274'
-link: http://www.epa.gov/waterresilience/waterwastewater-utility-all-hazards-bootcamp-download
+item_id: "32274"
+externalUrl: http://www.epa.gov/waterresilience/waterwastewater-utility-all-hazards-bootcamp-download
 programArea: Environmental Compliance
 publishDate: 2/13/2018
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Water/Wastewater Utility All-Hazards Bootcamp Download (PDF)
 ---
 

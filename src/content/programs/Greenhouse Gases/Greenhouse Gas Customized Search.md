@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36177'
-link: https://www.epa.gov/enviro/greenhouse-gas-customized-search
+item_id: "36177"
+externalUrl: https://www.epa.gov/enviro/greenhouse-gas-customized-search
 programArea: Greenhouse Gases
 publishDate: 11/10/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Greenhouse Gas Customized Search
 ---
 

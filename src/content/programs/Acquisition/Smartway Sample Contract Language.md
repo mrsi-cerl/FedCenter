@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29004'
-link: EPA Smartway Sample Contract Language.pdf
+item_id: "29004"
+externalUrl: EPA Smartway Sample Contract Language.pdf
 programArea: Acquisition
 publishDate: 1/14/2016
 subCategory:
-- Contract and Procurement Language
+  - Contract and Procurement Language
 title: Smartway Sample Contract Language
 ---
 

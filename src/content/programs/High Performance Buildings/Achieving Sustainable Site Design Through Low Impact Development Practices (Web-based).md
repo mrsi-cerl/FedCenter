@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '24305'
-link: http://www.wbdg.org/ce/nibs/wbdg/wbdg17
+item_id: "24305"
+externalUrl: http://www.wbdg.org/ce/nibs/wbdg/wbdg17
 programArea: High Performance Buildings
 publishDate: 8/12/2013
 subCategory:
-- Training, Presentations, and Briefings
-title: Achieving Sustainable Site Design Through Low Impact Development Practices
+  - Training, Presentations, and Briefings
+title:
+  Achieving Sustainable Site Design Through Low Impact Development Practices
   (Web-based)
 ---
 

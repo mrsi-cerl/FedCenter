@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '33186'
-link: https://cdc.com/sustainability/
+item_id: "33186"
+externalUrl: https://cdc.com/sustainability/
 programArea: Sustainability
 publishDate: 10/26/2018
 subCategory:
-- Federal Facilities
+  - Federal Facilities
 title: Sustainability at CDC
 ---
 

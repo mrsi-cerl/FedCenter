@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29770'
-link: http://www.epa.gov/npdes/npdes-whole-effluent-toxicity-wet-training-0
+item_id: "29770"
+externalUrl: http://www.epa.gov/npdes/npdes-whole-effluent-toxicity-wet-training-0
 programArea: Environmental Compliance
 publishDate: 6/2/2016
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Whole Effluent Toxicity (WET) Training (Web-based)
 ---
 

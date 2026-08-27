@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '736'
-link: http://www.greenseal.org/
+item_id: "736"
+externalUrl: http://www.greenseal.org/
 programArea: Pollution Prevention
 publishDate: 2/1/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Green Seal
 ---
 

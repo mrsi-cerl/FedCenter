@@ -1,13 +1,13 @@
 ---
 expiryDate: null
-item_id: '28316'
-link: http://www.gsa.gov/governmentwide-initiatives/federal-highperformance-buildings/highperformance-building-clearinghouse
+item_id: "28316"
+externalUrl: http://www.gsa.gov/governmentwide-initiatives/federal-highperformance-buildings/highperformance-building-clearinghouse
 programArea: High Performance Buildings
 publishDate: 8/17/2015
 subCategory:
-- Guidance & Policy
-- Conferences and Events
-- Libraries and Repositories
+  - Guidance & Policy
+  - Conferences and Events
+  - Libraries and Repositories
 title: GSA Office of Federal High-Performance Buildings Clearinghouse
 ---
 

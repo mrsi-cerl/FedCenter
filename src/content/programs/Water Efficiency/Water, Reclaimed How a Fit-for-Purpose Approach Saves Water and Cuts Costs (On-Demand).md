@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '43606'
-link: https://betterbuildingssolutioncenter.energy.gov/webinars/water-reclaimed-how-fit-purpose-approach-saves-water-and-cuts-costs
+item_id: "43606"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/webinars/water-reclaimed-how-fit-purpose-approach-saves-water-and-cuts-costs
 programArea: Water Efficiency
 publishDate: 10/28/2025
 subCategory:
-- Training, Presentations, and Briefings
-title: 'Water, Reclaimed: How a Fit-for-Purpose Approach Saves Water and Cuts Costs
-  (On-Demand)'
+  - Training, Presentations, and Briefings
+title:
+  "Water, Reclaimed: How a Fit-for-Purpose Approach Saves Water and Cuts Costs
+  (On-Demand)"
 ---
 
 Reclaimed water offers a wide range of applications, but overtreating water can lead to wasted energy and increased costs. In this webinar, attendees heard from Better Buildings Initiative partners who have successfully implemented a fit-for-purpose approach in their water reuse projects.

@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '41447'
-link: Web-based
+item_id: "41447"
+externalUrl: Web-based
 programArea: Environmental Compliance
 publishDate: 10/6/2023
 subCategory:
-- Training, Presentations, and Briefings
-title: 'Fats, Oils, and Grease: What We Know After 23 Years of FOG Work (Web-based,
-  On Demand)'
+  - Training, Presentations, and Briefings
+title:
+  "Fats, Oils, and Grease: What We Know After 23 Years of FOG Work (Web-based,
+  On Demand)"
 ---
 
 This presentation will cover how to manage the impacts of fats, oil, and grease on the collection system and the WWTP. The webinar will also cover fees and permitting options for food service establishments (FSEs), public outreach options, and enforcement.

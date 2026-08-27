@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '13851'
-link: http://ghginstitute.org/product/401-ghg-verification-for-inventories-and-projects/
+item_id: "13851"
+externalUrl: http://ghginstitute.org/product/401-ghg-verification-for-inventories-and-projects/
 programArea: Greenhouse Gases
 publishDate: 10/27/2009
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: GHG Verification for Inventories and Projects (Web-based, On Demand)
 ---
 

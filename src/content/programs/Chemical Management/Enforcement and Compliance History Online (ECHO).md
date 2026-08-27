@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '680'
-link: http://www.epa.gov/echo/
+item_id: "680"
+externalUrl: http://www.epa.gov/echo/
 programArea: Chemical Management
 publishDate: 1/28/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Enforcement and Compliance History Online (ECHO)
 ---
 

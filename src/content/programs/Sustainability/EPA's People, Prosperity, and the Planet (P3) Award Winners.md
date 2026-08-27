@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3347'
-link: http://www.epa.gov/P3/
+item_id: "3347"
+externalUrl: http://www.epa.gov/P3/
 programArea: Sustainability
 publishDate: 10/15/2005
 subCategory:
-- Award Winners
+  - Award Winners
 title: EPA's People, Prosperity, and the Planet (P3) Award Winners
 ---
 

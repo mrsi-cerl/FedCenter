@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '22199'
-link: https://www.ars.usda.gov/research/software/download/?softwareid=WEPPCAT&modecode=20-22-10-00
+item_id: "22199"
+externalUrl: https://www.ars.usda.gov/research/software/download/?softwareid=WEPPCAT&modecode=20-22-10-00
 programArea: Climate Resilience
 publishDate: 9/10/2012
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Water Erosion Prediction Project Climate Assessment Tool (WEPPCAT)
 ---
 

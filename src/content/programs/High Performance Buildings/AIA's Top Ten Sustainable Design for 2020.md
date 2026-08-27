@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '33894'
-link: https://www.aia.org/resources/6280238-2020-cote-top-ten-awards
+item_id: "33894"
+externalUrl: https://www.aia.org/resources/6280238-2020-cote-top-ten-awards
 programArea: High Performance Buildings
 publishDate: 4/29/2019
 subCategory:
-- Award Winners
+  - Award Winners
 title: AIA's Top Ten Sustainable Design for 2020
 ---
 

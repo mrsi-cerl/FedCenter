@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15400'
-link: http://www.nps.gov/orgs/1220/national-historic-lighthouse-preservation-act-nhlpa.htm
+item_id: "15400"
+externalUrl: http://www.nps.gov/orgs/1220/national-historic-lighthouse-preservation-act-nhlpa.htm
 programArea: Cultural Resources
 publishDate: 7/20/2010
 subCategory:
-- National Laws and Statutes
+  - National Laws and Statutes
 title: National Historic Lighthouse Preservation Act of 2000
 ---
 

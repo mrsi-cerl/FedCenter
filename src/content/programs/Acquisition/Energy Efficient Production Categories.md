@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '28943'
-link: http://energy.gov/eere/femp/find-product-categories-covered-efficiency-programs
+item_id: "28943"
+externalUrl: http://energy.gov/eere/femp/find-product-categories-covered-efficiency-programs
 programArea: Acquisition
 publishDate: 12/31/2015
 subCategory:
-- Purchasing Guides
+  - Purchasing Guides
 title: Energy Efficient Production Categories
 ---
 
-Search for energy-efficient covered product categories.  Includes a link to download a full list of covered product categories and the related programs.
+Search for energy-efficient covered product categories. Includes a link to download a full list of covered product categories and the related programs.

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39981'
-link: https://betterbuildingssolutioncenter.energy.gov/technology-info-suite/preventative-maintenance-commercial-hvac-equipment
+item_id: "39981"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/technology-info-suite/preventative-maintenance-commercial-hvac-equipment
 programArea: Energy
 publishDate: 10/4/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Preventative Maintenance for Commercial HVAC Equipment
 ---
 

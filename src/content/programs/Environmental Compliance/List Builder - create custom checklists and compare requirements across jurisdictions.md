@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43461'
-link: https://listbuilder.erdc.dren.mil/
+item_id: "43461"
+externalUrl: https://listbuilder.erdc.dren.mil/
 programArea: Environmental Compliance
 publishDate: 8/27/2025
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: List Builder - create custom checklists and compare requirements across jurisdictions
 ---
 

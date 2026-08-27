@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '29474'
-link: http://westcoastclimateforum.com/toolkit/homepage
+item_id: "29474"
+externalUrl: http://westcoastclimateforum.com/toolkit/homepage
 programArea: Climate Resilience
 publishDate: 5/5/2016
 subCategory:
-- Construction Design
-- Libraries and Repositories
+  - Construction Design
+  - Libraries and Repositories
 title: Climate Action Toolkit
 ---
 

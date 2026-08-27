@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '13660'
-link: http://www3.epa.gov/ghgreporting/help/tool2014/index.html
+item_id: "13660"
+externalUrl: http://www3.epa.gov/ghgreporting/help/tool2014/index.html
 programArea: Greenhouse Gases
 publishDate: 10/13/2009
 subCategory:
-- Databases and Software Tools
-title: Greenhouse Gas Reporting Program - Applicability Tool for Mandatory Reporting
+  - Databases and Software Tools
+title:
+  Greenhouse Gas Reporting Program - Applicability Tool for Mandatory Reporting
   of Greenhouse Gases Rule
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '675'
-link: http://www.epa.gov/compliance/epas-audit-policy
+item_id: "675"
+externalUrl: http://www.epa.gov/compliance/epas-audit-policy
 programArea: Environmental Compliance
 publishDate: 1/28/2005
 subCategory:
-- Compliance Auditing
+  - Compliance Auditing
 title: EPA's Audit Policy
 ---
 

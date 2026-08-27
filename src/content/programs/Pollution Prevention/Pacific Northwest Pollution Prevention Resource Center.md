@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28426'
-link: http://www.pprc.org/
+item_id: "28426"
+externalUrl: http://www.pprc.org/
 programArea: Pollution Prevention
 publishDate: 9/11/2015
 subCategory:
-- Organizations
+  - Organizations
 title: Pacific Northwest Pollution Prevention Resource Center
 ---
 

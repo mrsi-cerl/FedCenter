@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2490'
-link: http://www.sws.org/
+item_id: "2490"
+externalUrl: http://www.sws.org/
 programArea: Natural Resources
 publishDate: 7/20/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Society of Wetland Scientists
 ---
 

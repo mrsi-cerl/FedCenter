@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35500'
-link: http://www.epa.gov/hwpermitting/rcra-public-participation-tools-and-resources#main-content
+item_id: "35500"
+externalUrl: http://www.epa.gov/hwpermitting/rcra-public-participation-tools-and-resources#main-content
 programArea: Environmental Compliance
 publishDate: 5/21/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: RCRA Public Participation Tools and Resources
 ---
 

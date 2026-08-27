@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '18174'
-link: http://unfccc.int/2860.php
+item_id: "18174"
+externalUrl: http://unfccc.int/2860.php
 programArea: Climate Resilience
 publishDate: 6/2/2011
 subCategory:
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: United Nations Framework Convention on Climate Change (UNFCCC)
 ---
 

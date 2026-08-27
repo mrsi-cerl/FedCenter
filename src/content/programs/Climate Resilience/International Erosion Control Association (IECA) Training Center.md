@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '44252'
-link: ehub.ieca.org/webinars
+item_id: "44252"
+externalUrl: ehub.ieca.org/webinars
 programArea: Climate Resilience
 publishDate: 8/7/2026
 subCategory:
-- Construction Design
-- Training, Presentations, and Briefings
+  - Construction Design
+  - Training, Presentations, and Briefings
 title: International Erosion Control Association (IECA) Training Center
 ---
 

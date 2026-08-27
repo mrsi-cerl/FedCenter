@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '1070'
-link: http://www.aiche.org/
+item_id: "1070"
+externalUrl: http://www.aiche.org/
 programArea: Chemical Management
 publishDate: 3/21/2005
 subCategory:
-- Organizations
+  - Organizations
 title: American Institute of Chemical Engineers
 ---
 
-AIChE, was founded in 1908. AIChE is a professional association of more than 50,000 members that provides leadership in advancing the chemical engineering profession.  Chemical engineers are at the forefront of research to assure the safe and environmentally-sound manufacture, use, and disposal of chemical products.
+AIChE, was founded in 1908. AIChE is a professional association of more than 50,000 members that provides leadership in advancing the chemical engineering profession. Chemical engineers are at the forefront of research to assure the safe and environmentally-sound manufacture, use, and disposal of chemical products.

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36178'
-link: http://www.epa.gov/ghgreporting/ghgrp-state-fact-sheet
+item_id: "36178"
+externalUrl: http://www.epa.gov/ghgreporting/ghgrp-state-fact-sheet
 programArea: Greenhouse Gases
 publishDate: 11/10/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: GHGRP State and Tribal Fact Sheet
 ---
 

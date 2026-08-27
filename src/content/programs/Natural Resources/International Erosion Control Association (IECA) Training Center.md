@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44252'
-link: ehub.ieca.org/webinars
+item_id: "44252"
+externalUrl: ehub.ieca.org/webinars
 programArea: Natural Resources
 publishDate: 8/7/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: International Erosion Control Association (IECA) Training Center
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '32193'
-link: http://ctsedwweb.ee.doe.gov/Annual/Report/Report.aspx
+item_id: "32193"
+externalUrl: http://ctsedwweb.ee.doe.gov/Annual/Report/Report.aspx
 programArea: Water Efficiency
 publishDate: 1/22/2018
 subCategory:
-- Case Studies
+  - Case Studies
 title: Federal Comprehensive Annual Energy Data and Sustainability Performance
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '42292'
-link: http://www.energy.gov/cmei/femp/articles/evi-locate-step-step
+item_id: "42292"
+externalUrl: http://www.energy.gov/cmei/femp/articles/evi-locate-step-step
 programArea: Transportation
 publishDate: 6/26/2024
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EVI-LOCATE Tool
 ---
 

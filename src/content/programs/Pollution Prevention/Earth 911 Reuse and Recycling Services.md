@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '8299'
-link: https://earth911.com/recycling-center-search-guides/
+item_id: "8299"
+externalUrl: https://earth911.com/recycling-center-search-guides/
 programArea: Pollution Prevention
 publishDate: 9/19/2007
 subCategory:
-- Recycling and Reuse
-- Libraries and Repositories
+  - Recycling and Reuse
+  - Libraries and Repositories
 title: Earth 911 Reuse and Recycling Services
 ---
 

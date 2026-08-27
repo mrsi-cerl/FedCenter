@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8385'
-link: http://www.fws.gov/library/collections/emergency-endangered-species-act-sec-7-consultation-southeast
+item_id: "8385"
+externalUrl: http://www.fws.gov/library/collections/emergency-endangered-species-act-sec-7-consultation-southeast
 programArea: Natural Resources
 publishDate: 9/28/2007
 subCategory:
-- Endangered/Threatened Species
+  - Endangered/Threatened Species
 title: Endangered Species Act (ESA) and Emergency Consultations for National Defense
 ---
 

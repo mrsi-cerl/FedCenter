@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20288'
-link: https://www.epa.gov/superfund/search-superfund-five-year-reviews
+item_id: "20288"
+externalUrl: https://www.epa.gov/superfund/search-superfund-five-year-reviews
 programArea: Cleanup
 publishDate: 1/25/2012
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Five-Year Reviews Online
 ---
 

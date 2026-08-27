@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35632'
-link: http://chemhat.org/en
+item_id: "35632"
+externalUrl: http://chemhat.org/en
 programArea: Chemical Management
 publishDate: 6/17/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: ChemHAT
 ---
 

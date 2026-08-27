@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '11372'
-link: http://www.buildinggreen.com/hpb/index.cfm
+item_id: "11372"
+externalUrl: http://www.buildinggreen.com/hpb/index.cfm
 programArea: High Performance Buildings
 publishDate: 1/27/2009
 subCategory:
-- Case Studies
+  - Case Studies
 title: GreenSpec(r) High Performance Buildings Case Studies
 ---
 

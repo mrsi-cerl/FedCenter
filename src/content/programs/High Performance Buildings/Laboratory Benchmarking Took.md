@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22076'
-link: https://lbt.i2sl.org/
+item_id: "22076"
+externalUrl: https://lbt.i2sl.org/
 programArea: High Performance Buildings
 publishDate: 8/21/2012
 subCategory:
-- Construction Design
+  - Construction Design
 title: Laboratory Benchmarking Took
 ---
 

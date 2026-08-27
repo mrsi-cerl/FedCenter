@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '4412'
-link: https://www.afcec.af.mil/Home/Environment/Technical-Support-Division/Environmental-Restoration-Technical-Support-Branch/Restoration-Systems-and-Strategies/
+item_id: "4412"
+externalUrl: https://www.afcec.af.mil/Home/Environment/Technical-Support-Division/Environmental-Restoration-Technical-Support-Branch/Restoration-Systems-and-Strategies/
 programArea: Cleanup
 publishDate: 3/13/2006
 subCategory:
-- Remediation
+  - Remediation
 title: Air Force Civil Engineer Center Restoration Systems and Strategies
 ---
 

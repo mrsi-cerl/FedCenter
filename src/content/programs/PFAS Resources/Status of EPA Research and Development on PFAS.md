@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35491'
-link: https://www.epa.gov/chemical-research/research-and-polyfluoroalkyl-substances-pfas
+item_id: "35491"
+externalUrl: https://www.epa.gov/chemical-research/research-and-polyfluoroalkyl-substances-pfas
 programArea: PFAS Resources
 publishDate: 5/20/2020
 subCategory:
-- Libraries, Repositories, and Research
+  - Libraries, Repositories, and Research
 title: Status of EPA Research and Development on PFAS
 ---
 

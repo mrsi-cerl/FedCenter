@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '16304'
-link: http://www.osti.gov/biblio/989024
+item_id: "16304"
+externalUrl: http://www.osti.gov/biblio/989024
 programArea: Energy
 publishDate: 9/27/2010
 subCategory:
-- Case Studies
+  - Case Studies
 title: Strategies for 50% Energy Savings in Large Office Buildings
 ---
 

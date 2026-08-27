@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '25492'
-link: https://www.epa.gov/greenpower/green-power-leadership-award-event
+item_id: "25492"
+externalUrl: https://www.epa.gov/greenpower/green-power-leadership-award-event
 programArea: Energy
 publishDate: 3/26/2014
 subCategory:
-- Award Winners
+  - Award Winners
 title: Green Power Leadership Awards
 ---
 

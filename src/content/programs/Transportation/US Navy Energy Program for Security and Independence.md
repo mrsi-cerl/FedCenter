@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44259'
-link: www.secnav.navy.mil/eie/ASN EIE Policy/Naval\_Energy\_Strategic\_Roadmap.pdf
+item_id: "44259"
+externalUrl: www.secnav.navy.mil/eie/ASN EIE Policy/Naval\_Energy\_Strategic\_Roadmap.pdf
 programArea: Transportation
 publishDate: 8/10/2026
 subCategory:
-- Petroleum Alternatives
+  - Petroleum Alternatives
 title: US Navy Energy Program for Security and Independence
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44047'
-link: www.energy.gov/cmei/femp/feds-spotlight-recognition-program
+item_id: "44047"
+externalUrl: www.energy.gov/cmei/femp/feds-spotlight-recognition-program
 programArea: Energy
 publishDate: 5/8/2026
 subCategory:
-- Award Winners
+  - Award Winners
 title: FEDS Annual Spotlight Recognition Program
 ---
 

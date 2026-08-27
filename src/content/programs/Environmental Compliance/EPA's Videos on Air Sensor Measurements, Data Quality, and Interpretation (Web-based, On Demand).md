@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '35211'
-link: http://www.epa.gov/air-sensor-toolbox/videos-air-sensor-measurements-data-quality-and-interpretation
+item_id: "35211"
+externalUrl: http://www.epa.gov/air-sensor-toolbox/videos-air-sensor-measurements-data-quality-and-interpretation
 programArea: Environmental Compliance
 publishDate: 3/6/2020
 subCategory:
-- Training, Presentations, and Briefings
-title: EPA's Videos on Air Sensor Measurements, Data Quality, and Interpretation (Web-based,
+  - Training, Presentations, and Briefings
+title:
+  EPA's Videos on Air Sensor Measurements, Data Quality, and Interpretation (Web-based,
   On Demand)
 ---
 

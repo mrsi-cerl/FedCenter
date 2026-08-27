@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '34644'
-link: https://www.epa.gov/pcbs/policy-and-guidance-polychlorinated-biphenyl-pcbs#guidance
+item_id: "34644"
+externalUrl: https://www.epa.gov/pcbs/policy-and-guidance-polychlorinated-biphenyl-pcbs#guidance
 programArea: Cleanup
 publishDate: 10/17/2019
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Updated Guidance for PCB Approval Applicants
 ---
 

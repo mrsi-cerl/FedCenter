@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44248'
-link: http://www.epa.gov/waste-reduction-model/recycled-content-recon-tool
+item_id: "44248"
+externalUrl: http://www.epa.gov/waste-reduction-model/recycled-content-recon-tool
 programArea: Sustainability
 publishDate: 8/6/2026
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Recycled Content (ReCon) Tool
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2530'
-link: http://taskforce.coralreef.noaa.gov/
+item_id: "2530"
+externalUrl: http://taskforce.coralreef.noaa.gov/
 programArea: Natural Resources
 publishDate: 7/27/2005
 subCategory:
-- Organizations
+  - Organizations
 title: U.S. Coral Reef Task Force
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '23360'
-link: https://www.nrcc.cornell.edu/
+item_id: "23360"
+externalUrl: https://www.nrcc.cornell.edu/
 programArea: Climate Resilience
 publishDate: 5/7/2013
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Northeast Regional Climate Center
 ---
 

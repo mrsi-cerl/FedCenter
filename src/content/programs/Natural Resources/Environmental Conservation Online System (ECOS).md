@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28611'
-link: http://ecos.fws.gov/ecp/
+item_id: "28611"
+externalUrl: http://ecos.fws.gov/ecp/
 programArea: Natural Resources
 publishDate: 10/13/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Environmental Conservation Online System (ECOS)
 ---
 

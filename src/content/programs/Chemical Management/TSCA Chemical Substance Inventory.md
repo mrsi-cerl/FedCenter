@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '14688'
-link: https://www.epa.gov/tsca-inventory
+item_id: "14688"
+externalUrl: https://www.epa.gov/tsca-inventory
 programArea: Chemical Management
 publishDate: 3/22/2010
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: TSCA Chemical Substance Inventory
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1649'
-link: https://www.mass.gov/guides/the-massachusetts-clean-auto-repair-masscar-guide
+item_id: "1649"
+externalUrl: https://www.mass.gov/guides/the-massachusetts-clean-auto-repair-masscar-guide
 programArea: Transportation
 publishDate: 5/12/2005
 subCategory:
-- Pollution Prevention Opportunities
+  - Pollution Prevention Opportunities
 title: The Massachusetts Clean Auto Repair (MassCAR) Guide
 ---
 

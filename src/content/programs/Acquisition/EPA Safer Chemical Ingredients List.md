@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39850'
-link: https://www.epa.gov/saferchoice/safer-ingredients
+item_id: "39850"
+externalUrl: https://www.epa.gov/saferchoice/safer-ingredients
 programArea: Acquisition
 publishDate: 8/12/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EPA Safer Chemical Ingredients List
 ---
 

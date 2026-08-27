@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '30951'
-link: https://wikiwatershed.org/
+item_id: "30951"
+externalUrl: https://wikiwatershed.org/
 programArea: Natural Resources
 publishDate: 3/6/2017
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Wiki Watershed
 ---
 

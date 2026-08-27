@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43521'
-link: ''
+item_id: "43521"
+externalUrl: ""
 programArea: High Performance Buildings
 publishDate: 9/16/2025
 subCategory:
-- Conferences and Events
+  - Conferences and Events
 title: H.R. 4690. Reliable Federal Infrastructure  Act (Draft)
 ---
 

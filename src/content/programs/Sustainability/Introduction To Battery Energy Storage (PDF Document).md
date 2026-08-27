@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '38626'
-link: http://www.wbdg.org/FFC/PDFS/FEMPODW071\_slidedeck.pdf
+item_id: "38626"
+externalUrl: http://www.wbdg.org/FFC/PDFS/FEMPODW071\_slidedeck.pdf
 programArea: Sustainability
 publishDate: 11/3/2021
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Introduction To Battery Energy Storage (PDF Document)
 ---
 

@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '32966'
-link: https://www.epa.gov/fgc/fgc-webinar-supporting-monarch-butterflies-pollinators-new-mapping-tool-and-case-study
+item_id: "32966"
+externalUrl: https://www.epa.gov/fgc/fgc-webinar-supporting-monarch-butterflies-pollinators-new-mapping-tool-and-case-study
 programArea: Natural Resources
 publishDate: 8/30/2018
 subCategory:
-- Databases and Software Tools
-- Training, Presentations, and Briefings
-title: Supporting Monarch Butterflies as Pollinators - A New Mapping Tool and Case
+  - Databases and Software Tools
+  - Training, Presentations, and Briefings
+title:
+  Supporting Monarch Butterflies as Pollinators - A New Mapping Tool and Case
   Study (On Demand)
 ---
 

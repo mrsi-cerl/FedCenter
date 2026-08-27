@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3718'
-link: http://edocket.access.gpo.gov/2005/05-19696.htm
+item_id: "3718"
+externalUrl: http://edocket.access.gpo.gov/2005/05-19696.htm
 programArea: Cleanup
 publishDate: 12/20/2005
 subCategory:
-- Munitions
+  - Munitions
 title: Munitions Response Site Prioritization Protocol
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '877'
-link: https://www.epa.gov/outdoor-air-quality-data
+item_id: "877"
+externalUrl: https://www.epa.gov/outdoor-air-quality-data
 programArea: Chemical Management
 publishDate: 2/10/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: AirData
 ---
 
-This system presents annual summaries of air pollution data from two EPA databases:<ul>  <li> AQS (Air Quality System) database provides air monitoring data - ambient concentrations of criteria and hazardous air pollutants at monitoring sites, primarily in cities and towns.   <li> NEI (National Emission Inventory) database provides estimates of annual emissions of criteria and hazardous air pollutants from all types of sources.</ul>
+This system presents annual summaries of air pollution data from two EPA databases:<ul> <li> AQS (Air Quality System) database provides air monitoring data - ambient concentrations of criteria and hazardous air pollutants at monitoring sites, primarily in cities and towns. <li> NEI (National Emission Inventory) database provides estimates of annual emissions of criteria and hazardous air pollutants from all types of sources.</ul>

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23446'
-link: http://bcl.nlr.gov/
+item_id: "23446"
+externalUrl: http://bcl.nlr.gov/
 programArea: Energy
 publishDate: 5/13/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Building Component Library (DOE)
 ---
 

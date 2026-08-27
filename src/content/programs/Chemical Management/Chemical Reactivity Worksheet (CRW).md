@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '14185'
-link: http://www.aiche.org/ccps/resources/chemical-reactivity-worksheet
+item_id: "14185"
+externalUrl: http://www.aiche.org/ccps/resources/chemical-reactivity-worksheet
 programArea: Chemical Management
 publishDate: 12/15/2009
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Chemical Reactivity Worksheet (CRW)
 ---
 
-This is a free program where users can find out about the reactivity of substances or mixtures of substances.  It includes: a database of reactivity information for more than 5,000 common hazardous chemicals; and a way for users to virtually "mix" chemicals--like the chemicals in the derailed tank cars above--to find out what dangers could arise from accidental mixing.
+This is a free program where users can find out about the reactivity of substances or mixtures of substances. It includes: a database of reactivity information for more than 5,000 common hazardous chemicals; and a way for users to virtually "mix" chemicals--like the chemicals in the derailed tank cars above--to find out what dangers could arise from accidental mixing.

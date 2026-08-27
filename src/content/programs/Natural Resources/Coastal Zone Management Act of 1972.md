@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2443'
-link: ''
+item_id: "2443"
+externalUrl: ""
 programArea: Natural Resources
 publishDate: 7/14/2005
 subCategory:
-- Land Management
+  - Land Management
 title: Coastal Zone Management Act of 1972
 ---
 

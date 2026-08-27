@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '5727'
-link: http://enginetechforum.org/
+item_id: "5727"
+externalUrl: http://enginetechforum.org/
 programArea: Transportation
 publishDate: 8/17/2006
 subCategory:
-- Petroleum Alternatives
+  - Petroleum Alternatives
 title: Engine Technology Forum (ETF)
 ---
 

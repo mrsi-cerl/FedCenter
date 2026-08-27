@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '32551'
-link: http://www.epa.gov/smm/comprehensive-procurement-guideline-cpg-program#directory
+item_id: "32551"
+externalUrl: http://www.epa.gov/smm/comprehensive-procurement-guideline-cpg-program#directory
 programArea: Pollution Prevention
 publishDate: 4/23/2018
 subCategory:
-- Grounds Maintenance Pollution Prevention
+  - Grounds Maintenance Pollution Prevention
 title: Comprehensive Procurement Guidelines for Landscaping Products
 ---
 

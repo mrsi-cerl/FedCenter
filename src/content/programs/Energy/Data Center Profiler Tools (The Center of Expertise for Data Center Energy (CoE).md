@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '30275'
-link: http://datacenters.lbl.gov/dcpro
+item_id: "30275"
+externalUrl: http://datacenters.lbl.gov/dcpro
 programArea: Energy
 publishDate: 9/14/2016
 subCategory:
-- Databases and Software Tools
-title: Data Center Profiler Tools (The Center of Expertise for Data Center Energy
+  - Databases and Software Tools
+title:
+  Data Center Profiler Tools (The Center of Expertise for Data Center Energy
   (CoE)
 ---
 

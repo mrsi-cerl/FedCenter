@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '24484'
-link: http://ltdl.wr.usgs.gov/
+item_id: "24484"
+externalUrl: http://ltdl.wr.usgs.gov/
 programArea: Natural Resources
 publishDate: 9/12/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Land Treatment Digital Library (LTDL)
 ---
 
-This system was created by the U.S. Geological Survey (USGS) to catalog legacy land treatment information on Bureau of Land Management lands in the western United States. The LTDL can be used by federal managers and scientists for compiling information for data-calls, producing maps, generating reports, and conducting analyses at varying spatial and temporal scales. The LTDL currently houses 21,510 treatments from BLM lands across 9 states. As used in this context, a land treatment involves the manipulation of vegetation, including  removal or alteration of plant biomass, seeding of burned areas, application of herbicides, and other activities.
+This system was created by the U.S. Geological Survey (USGS) to catalog legacy land treatment information on Bureau of Land Management lands in the western United States. The LTDL can be used by federal managers and scientists for compiling information for data-calls, producing maps, generating reports, and conducting analyses at varying spatial and temporal scales. The LTDL currently houses 21,510 treatments from BLM lands across 9 states. As used in this context, a land treatment involves the manipulation of vegetation, including removal or alteration of plant biomass, seeding of burned areas, application of herbicides, and other activities.

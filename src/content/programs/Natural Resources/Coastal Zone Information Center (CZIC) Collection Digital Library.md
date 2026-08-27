@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2542'
-link: http://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CZIC
+item_id: "2542"
+externalUrl: http://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CZIC
 programArea: Natural Resources
 publishDate: 7/27/2005
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Coastal Zone Information Center (CZIC) Collection Digital Library
 ---
 

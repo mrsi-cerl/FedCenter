@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '40077'
-link: http://energy.gov/cmei/femp/fleet-management-videos-and-trainings
+item_id: "40077"
+externalUrl: http://energy.gov/cmei/femp/fleet-management-videos-and-trainings
 programArea: Transportation
 publishDate: 10/27/2022
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Electric Vehicle Technology And Financial Considerations (On-Demand)
 ---
 

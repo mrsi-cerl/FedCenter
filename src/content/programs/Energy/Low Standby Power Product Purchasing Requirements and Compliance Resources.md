@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '16736'
-link: http://www.energy.gov/cmei/femp/low-standby-power-product-purchasing-requirements-and-compliance-resources
+item_id: "16736"
+externalUrl: http://www.energy.gov/cmei/femp/low-standby-power-product-purchasing-requirements-and-compliance-resources
 programArea: Energy
 publishDate: 11/22/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Low Standby Power Product Purchasing Requirements and Compliance Resources
 ---
 

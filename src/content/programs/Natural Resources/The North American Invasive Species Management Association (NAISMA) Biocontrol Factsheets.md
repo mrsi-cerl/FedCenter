@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '39930'
-link: https://naisma.org/naisma-resources/biocontrol/biocontrol-factsheets/
+item_id: "39930"
+externalUrl: https://naisma.org/naisma-resources/biocontrol/biocontrol-factsheets/
 programArea: Natural Resources
 publishDate: 9/12/2022
 subCategory:
-- Land Management
-title: The North American Invasive Species Management Association (NAISMA) Biocontrol
+  - Land Management
+title:
+  The North American Invasive Species Management Association (NAISMA) Biocontrol
   Factsheets
 ---
 

@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '36625'
-link: https://betterbuildingssolutioncenter.energy.gov/resources/emis-specification-and-procurement-support-materials
+item_id: "36625"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/resources/emis-specification-and-procurement-support-materials
 programArea: Acquisition
 publishDate: 3/10/2021
 subCategory:
-- Databases and Software Tools
-title: Energy Management and Information System (EMIS) Specification and Procurement
+  - Databases and Software Tools
+title:
+  Energy Management and Information System (EMIS) Specification and Procurement
   Support Materials
 ---
 

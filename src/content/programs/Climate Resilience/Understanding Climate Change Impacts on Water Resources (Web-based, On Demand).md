@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '29141'
-link: http://www.epa.gov/watershedacademy/understanding-climate-change-impacts-water-resources
+item_id: "29141"
+externalUrl: http://www.epa.gov/watershedacademy/understanding-climate-change-impacts-water-resources
 programArea: Climate Resilience
 publishDate: 2/11/2016
 subCategory:
-- Construction Design
-- Training, Presentations, and Briefings
+  - Construction Design
+  - Training, Presentations, and Briefings
 title: Understanding Climate Change Impacts on Water Resources (Web-based, On Demand)
 ---
 

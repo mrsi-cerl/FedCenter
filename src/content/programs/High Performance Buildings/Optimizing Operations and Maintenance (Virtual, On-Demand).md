@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43622'
-link: https://www.wbdg.org/ce/nibs/wbdg/wbdg04
+item_id: "43622"
+externalUrl: https://www.wbdg.org/ce/nibs/wbdg/wbdg04
 programArea: High Performance Buildings
 publishDate: 11/12/2025
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Optimizing Operations and Maintenance (Virtual, On-Demand)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '10417'
-link: http://www.arcsa.org/
+item_id: "10417"
+externalUrl: http://www.arcsa.org/
 programArea: Natural Resources
 publishDate: 7/28/2008
 subCategory:
-- Organizations
+  - Organizations
 title: American Rainwater Catchment System Association (ARCSA)
 ---
 

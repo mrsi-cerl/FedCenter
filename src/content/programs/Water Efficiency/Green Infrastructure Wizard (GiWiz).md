@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28570'
-link: http://cfpub.epa.gov/giwiz/
+item_id: "28570"
+externalUrl: http://cfpub.epa.gov/giwiz/
 programArea: Water Efficiency
 publishDate: 10/5/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Green Infrastructure Wizard (GiWiz)
 ---
 

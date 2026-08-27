@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23355'
-link: http://www.neep.org/initiatives/emv-forum/regional-energy-efficiency-database
+item_id: "23355"
+externalUrl: http://www.neep.org/initiatives/emv-forum/regional-energy-efficiency-database
 programArea: Energy
 publishDate: 5/7/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Regional Energy Efficiency Database (REED)
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '28657'
-link: http://www.epa.gov/climate-change-water-sector/state-water-agency-practices-climate-adaptation
+item_id: "28657"
+externalUrl: http://www.epa.gov/climate-change-water-sector/state-water-agency-practices-climate-adaptation
 programArea: Climate Resilience
 publishDate: 10/27/2015
 subCategory:
-- Construction Design
-- Water
+  - Construction Design
+  - Water
 title: State Water Agency Practices for Climate Adaptation
 ---
 

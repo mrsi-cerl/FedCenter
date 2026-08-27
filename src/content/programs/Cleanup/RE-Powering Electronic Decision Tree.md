@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '28616'
-link: https://www.epa.gov/re-powering/re-powerings-electronic-decision-tree#:~:text=Developed
+item_id: "28616"
+externalUrl:
+  https://www.epa.gov/re-powering/re-powerings-electronic-decision-tree#:~:text=Developed
   by US EPA's RE-Powering America's Land Initiative,,developed or degraded land instead
   of green space
 programArea: Cleanup
 publishDate: 10/14/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: RE-Powering Electronic Decision Tree
 ---
 

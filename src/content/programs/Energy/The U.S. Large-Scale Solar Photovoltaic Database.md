@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41544'
-link: https://eerscmap.usgs.gov/uspvdb/
+item_id: "41544"
+externalUrl: https://eerscmap.usgs.gov/uspvdb/
 programArea: Energy
 publishDate: 11/9/2023
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: The U.S. Large-Scale Solar Photovoltaic Database
 ---
 

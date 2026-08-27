@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '817'
-link: https://www.energy.gov/eere/buildings/building-performance-database-bpd
+item_id: "817"
+externalUrl: https://www.energy.gov/eere/buildings/building-performance-database-bpd
 programArea: High Performance Buildings
 publishDate: 2/9/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: High Performance Federal Buildings Database
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43723'
-link: ''
+item_id: "43723"
+externalUrl: ""
 programArea: Climate Resilience
 publishDate: 1/12/2026
 subCategory:
-- Construction Design
+  - Construction Design
 title: S. 3282. Targeting Environmental and Climate Recklessness Act of 2025 (Draft)
 ---
 

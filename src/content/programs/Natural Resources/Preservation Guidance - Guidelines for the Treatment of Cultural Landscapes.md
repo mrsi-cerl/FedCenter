@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20170'
-link: http://www.nps.gov/subjects/culturallandscapes/preservation.htm
+item_id: "20170"
+externalUrl: http://www.nps.gov/subjects/culturallandscapes/preservation.htm
 programArea: Natural Resources
 publishDate: 1/10/2012
 subCategory:
-- Land Management
+  - Land Management
 title: Preservation Guidance - Guidelines for the Treatment of Cultural Landscapes
 ---
 

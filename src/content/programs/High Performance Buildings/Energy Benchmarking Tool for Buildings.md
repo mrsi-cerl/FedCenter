@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1559'
-link: https://www.energystar.gov/buildings/benchmark
+item_id: "1559"
+externalUrl: https://www.energystar.gov/buildings/benchmark
 programArea: High Performance Buildings
 publishDate: 4/27/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Energy Benchmarking Tool for Buildings
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3702'
-link: https://www.epa.gov/fedfac/restoration-and-reuse-federal-facilities
+item_id: "3702"
+externalUrl: https://www.epa.gov/fedfac/restoration-and-reuse-federal-facilities
 programArea: Cleanup
 publishDate: 12/20/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Federal Facilities Restoration and Reuse Office (FFRRO)
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '3782'
-link: http://windeis.anl.gov/guide/index.cfm
+item_id: "3782"
+externalUrl: http://windeis.anl.gov/guide/index.cfm
 programArea: Energy
 publishDate: 1/4/2006
 subCategory:
-- ' Alternative Energy'
+  - " Alternative Energy"
 title: Wind Energy Guide
 ---
 
-Developed by the Bureau of Land Management.  This is a guide to wind energy, wind energy development, technology and issues, photos, maps, and links.
+Developed by the Bureau of Land Management. This is a guide to wind energy, wind energy development, technology and issues, photos, maps, and links.

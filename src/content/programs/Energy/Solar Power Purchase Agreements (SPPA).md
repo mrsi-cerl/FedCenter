@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '29110'
-link: https://www.epa.gov/green-power-markets/solar-power-purchase-agreements#:~:text=A
+item_id: "29110"
+externalUrl:
+  https://www.epa.gov/green-power-markets/solar-power-purchase-agreements#:~:text=A
   Solar Power Purchase Agreement (SPPA) is a,the solar services provider for a predetermined
   period
 programArea: Energy
 publishDate: 2/1/2016
 subCategory:
-- ' Alternative Energy'
+  - " Alternative Energy"
 title: Solar Power Purchase Agreements (SPPA)
 ---
 

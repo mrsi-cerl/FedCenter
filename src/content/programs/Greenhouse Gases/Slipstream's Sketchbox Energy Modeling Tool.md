@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '40293'
-link: https://slipstreaminc.org/sketchbox
+item_id: "40293"
+externalUrl: https://slipstreaminc.org/sketchbox
 programArea: Greenhouse Gases
 publishDate: 12/21/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Slipstream's Sketchbox Energy Modeling Tool
 ---
 

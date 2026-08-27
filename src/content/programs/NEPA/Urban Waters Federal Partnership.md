@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36715'
-link: http://www.urbanwaters.gov
+item_id: "36715"
+externalUrl: http://www.urbanwaters.gov
 programArea: NEPA
 publishDate: 4/7/2021
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Urban Waters Federal Partnership
 ---
 

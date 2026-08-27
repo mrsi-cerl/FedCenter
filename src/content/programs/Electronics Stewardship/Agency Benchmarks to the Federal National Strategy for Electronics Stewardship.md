@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22223'
-link: National Strategy for Electronics Stewardship Benchmarks Progress Report.pdf
+item_id: "22223"
+externalUrl: National Strategy for Electronics Stewardship Benchmarks Progress Report.pdf
 programArea: Electronics Stewardship
 publishDate: 5/25/2012
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Agency Benchmarks to the Federal National Strategy for Electronics Stewardship
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '14580'
-link: https://www.epa.gov/p2/green-meetings
+item_id: "14580"
+externalUrl: https://www.epa.gov/p2/green-meetings
 programArea: Acquisition
 publishDate: 3/3/2010
 subCategory:
-- Purchasing Guides
+  - Purchasing Guides
 title: Green Meetings
 ---
 

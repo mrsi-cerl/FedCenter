@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20289'
-link: https://www.epa.gov/fedfac/transmittal-epa-munitions-response-guidelines-oswer-directive-92001-101
+item_id: "20289"
+externalUrl: https://www.epa.gov/fedfac/transmittal-epa-munitions-response-guidelines-oswer-directive-92001-101
 programArea: Cleanup
 publishDate: 1/25/2012
 subCategory:
-- Munitions
+  - Munitions
 title: EPA's Munition Response Guidelines
 ---
 

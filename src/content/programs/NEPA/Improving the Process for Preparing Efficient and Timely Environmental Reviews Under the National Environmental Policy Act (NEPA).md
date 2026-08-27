@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '20581'
-link: https://energy.gov/nepa/downloads/final-guidance-improving-process-preparing-efficient-and-timely-environmental-reviews
+item_id: "20581"
+externalUrl: https://energy.gov/nepa/downloads/final-guidance-improving-process-preparing-efficient-and-timely-environmental-reviews
 programArea: NEPA
 publishDate: 3/7/2012
 subCategory:
-- CEQ
-title: Improving the Process for Preparing Efficient and Timely Environmental Reviews
+  - CEQ
+title:
+  Improving the Process for Preparing Efficient and Timely Environmental Reviews
   Under the National Environmental Policy Act (NEPA)
 ---
 
-This Council on Environmental Quality (CEQ) memorandum, issued 6 March 2012, provides guidance on the opportunities available in the regulations implementing NEPA in an efficient and timely manner.  This guidance clarifies that many of the NEPA regulations specifically referring to Environmental Impact Statements (EIS) provide efficiencies that can also be used by Federal agencies when preparing an Environmental Assessment (EA).
+This Council on Environmental Quality (CEQ) memorandum, issued 6 March 2012, provides guidance on the opportunities available in the regulations implementing NEPA in an efficient and timely manner. This guidance clarifies that many of the NEPA regulations specifically referring to Environmental Impact Statements (EIS) provide efficiencies that can also be used by Federal agencies when preparing an Environmental Assessment (EA).

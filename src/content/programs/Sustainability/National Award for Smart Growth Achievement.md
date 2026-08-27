@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22450'
-link: https://www.epa.gov/smartgrowth/national-award-smart-growth-achievement
+item_id: "22450"
+externalUrl: https://www.epa.gov/smartgrowth/national-award-smart-growth-achievement
 programArea: Sustainability
 publishDate: 10/30/2012
 subCategory:
-- Award Winners
+  - Award Winners
 title: National Award for Smart Growth Achievement
 ---
 

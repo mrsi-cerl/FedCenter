@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8280'
-link: http://www.arra.org/
+item_id: "8280"
+externalUrl: http://www.arra.org/
 programArea: Pollution Prevention
 publishDate: 9/18/2007
 subCategory:
-- Organizations
+  - Organizations
 title: Asphalt Recycling and Reclaiming Association
 ---
 

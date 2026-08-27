@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '13299'
-link: http://www.ipcc.ch/
+item_id: "13299"
+externalUrl: http://www.ipcc.ch/
 programArea: Climate Resilience
 publishDate: 8/18/2009
 subCategory:
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: Intergovernmental Panel on Climate Change
 ---
 

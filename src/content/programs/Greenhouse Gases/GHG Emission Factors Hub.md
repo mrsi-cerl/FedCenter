@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '25632'
-link: http://www.epa.gov/climateleadership/center-corporate-climate-leadership-ghg-emission-factors-hub
+item_id: "25632"
+externalUrl: http://www.epa.gov/climateleadership/center-corporate-climate-leadership-ghg-emission-factors-hub
 programArea: Greenhouse Gases
 publishDate: 4/18/2014
 subCategory:
-- Inventories
+  - Inventories
 title: GHG Emission Factors Hub
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39568'
-link: http://www.fai.gov/node/11861
+item_id: "39568"
+externalUrl: http://www.fai.gov/node/11861
 programArea: Acquisition
 publishDate: 5/19/2022
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Micro-Training Video on Changes to Buy American Rules (Web-based, On-Demand)
 ---
 

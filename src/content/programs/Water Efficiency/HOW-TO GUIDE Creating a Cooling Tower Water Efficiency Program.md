@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44263'
-link: http://http:allianceforwaterefficiency.org/wp-content/uploads/2024/09/AWE\_How-To-Guide\_Cooling-Tower\_11.15.2022.pdf
+item_id: "44263"
+externalUrl: http://http:allianceforwaterefficiency.org/wp-content/uploads/2024/09/AWE\_How-To-Guide\_Cooling-Tower\_11.15.2022.pdf
 programArea: Water Efficiency
 publishDate: 8/11/2026
 subCategory:
-- Implementation Guidance
+  - Implementation Guidance
 title: HOW-TO GUIDE Creating a Cooling Tower Water Efficiency Program
 ---
 

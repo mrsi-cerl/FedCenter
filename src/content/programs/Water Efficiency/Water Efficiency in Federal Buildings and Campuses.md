@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '18257'
-link: http://energy.gov/eere/femp/articles/water-efficiency
+item_id: "18257"
+externalUrl: http://energy.gov/eere/femp/articles/water-efficiency
 programArea: Water Efficiency
 publishDate: 6/10/2011
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Water Efficiency in Federal Buildings and Campuses
 ---
 

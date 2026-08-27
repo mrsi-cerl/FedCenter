@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3498'
-link: http://www.fs.usda.gov/research/treesearch/66829
+item_id: "3498"
+externalUrl: http://www.fs.usda.gov/research/treesearch/66829
 programArea: Natural Resources
 publishDate: 11/23/2005
 subCategory:
-- Land Management
+  - Land Management
 title: National Report on Sustainable Forests (2020)
 ---
 

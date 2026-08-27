@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29828'
-link: https://www.epa.gov/superfund/search-superfund-sites-where-you-live
+item_id: "29828"
+externalUrl: https://www.epa.gov/superfund/search-superfund-sites-where-you-live
 programArea: Cleanup
 publishDate: 6/14/2016
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Search for Superfund Sites Where You Live
 ---
 

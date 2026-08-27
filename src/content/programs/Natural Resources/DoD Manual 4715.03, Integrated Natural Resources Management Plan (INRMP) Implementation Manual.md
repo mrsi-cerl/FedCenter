@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '24949'
-link: http://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/471503m.pdf?ver=2017-12-13-112007-310
+item_id: "24949"
+externalUrl: http://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/471503m.pdf?ver=2017-12-13-112007-310
 programArea: Natural Resources
 publishDate: 12/9/2013
 subCategory:
-- General
-title: DoD Manual 4715.03, Integrated Natural Resources Management Plan (INRMP) Implementation
+  - General
+title:
+  DoD Manual 4715.03, Integrated Natural Resources Management Plan (INRMP) Implementation
   Manual
 ---
 
-Signed on 8 November 2013, this manual establishes implementing guidance to manage DoD's natural resources for mission and stewardship purposes.  Specifically, the manual:  1) clarifies and provides detailed guidance for how to implement DoDI 4715.03 "Natural Resources Conservation Program" published in March 2011; 2) creates streamlined procedures for required annual and five-year INRMP reviews with federal and state regulators, reducing the approval time for proposed actions; and 3) establishes new performance metrics to better evaluate how natural resources management enables the military mission and supports the long-term and sustainable use of habitats at a landscape level.
+Signed on 8 November 2013, this manual establishes implementing guidance to manage DoD's natural resources for mission and stewardship purposes. Specifically, the manual: 1) clarifies and provides detailed guidance for how to implement DoDI 4715.03 "Natural Resources Conservation Program" published in March 2011; 2) creates streamlined procedures for required annual and five-year INRMP reviews with federal and state regulators, reducing the approval time for proposed actions; and 3) establishes new performance metrics to better evaluate how natural resources management enables the military mission and supports the long-term and sustainable use of habitats at a landscape level.

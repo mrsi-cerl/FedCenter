@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20241'
-link: http://www.awea.org/
+item_id: "20241"
+externalUrl: http://www.awea.org/
 programArea: Energy
 publishDate: 1/18/2012
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: American Wind Energy Association (AWEA)
 ---
 

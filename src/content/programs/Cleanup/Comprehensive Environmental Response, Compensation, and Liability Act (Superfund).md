@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3679'
-link: https://www.epa.gov/superfund
+item_id: "3679"
+externalUrl: https://www.epa.gov/superfund
 programArea: Cleanup
 publishDate: 12/19/2005
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Comprehensive Environmental Response, Compensation, and Liability Act (Superfund)
 ---
 

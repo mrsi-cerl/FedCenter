@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '29495'
-link: https://www.epa.gov/smm/best-practices-reducing-reusing-and-recycling-construction-and-demolition-cd-materials
+item_id: "29495"
+externalUrl: https://www.epa.gov/smm/best-practices-reducing-reusing-and-recycling-construction-and-demolition-cd-materials
 programArea: Pollution Prevention
 publishDate: 5/12/2016
 subCategory:
-- Recycling and Reuse
-title: Best Practices for Reducing, Reusing, and Recycling Construction and Demolition
+  - Recycling and Reuse
+title:
+  Best Practices for Reducing, Reusing, and Recycling Construction and Demolition
   (C&D) Materials
 ---
 

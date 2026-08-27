@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '20570'
-link: https://www.epa.gov/brownfields/brownfields-road-map
+item_id: "20570"
+externalUrl: https://www.epa.gov/brownfields/brownfields-road-map
 programArea: Cleanup
 publishDate: 3/5/2012
 subCategory:
-- Brownfields
-- Databases and Software Tools
+  - Brownfields
+  - Databases and Software Tools
 title: Brownfields Road Map to Understanding Options for Site Investigation and Cleanup
 ---
 

@@ -1,11 +1,11 @@
 ---
-expiryDate: '00:00.0'
-item_id: '44253'
-link: Online
+expiryDate: "00:00.0"
+item_id: "44253"
+externalUrl: Online
 programArea: Natural Resources
 publishDate: 8/7/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Stream Diversion Tactics for Good Stewardship (Web-based)
 ---
 

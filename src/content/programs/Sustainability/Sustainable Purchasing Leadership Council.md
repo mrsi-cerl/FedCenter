@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '24864'
-link: http://www.sustainablepurchasing.org/
+item_id: "24864"
+externalUrl: http://www.sustainablepurchasing.org/
 programArea: Sustainability
 publishDate: 11/21/2013
 subCategory:
-- Organizations
+  - Organizations
 title: Sustainable Purchasing Leadership Council
 ---
 

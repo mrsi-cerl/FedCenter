@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44242'
-link: http://www.nrcs.usda.gov/resources/data-and-reports/soil-survey-geographic-database-ssurgo
+item_id: "44242"
+externalUrl: http://www.nrcs.usda.gov/resources/data-and-reports/soil-survey-geographic-database-ssurgo
 programArea: Natural Resources
 publishDate: 8/5/2026
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Soil Survey Geographic Database (SSURGO)
 ---
 

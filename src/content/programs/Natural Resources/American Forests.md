@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2533'
-link: http://www.americanforests.org
+item_id: "2533"
+externalUrl: http://www.americanforests.org
 programArea: Natural Resources
 publishDate: 7/27/2005
 subCategory:
-- Organizations
+  - Organizations
 title: American Forests
 ---
 

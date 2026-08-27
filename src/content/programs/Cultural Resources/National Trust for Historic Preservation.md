@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15512'
-link: http://www.preservationnation.org/
+item_id: "15512"
+externalUrl: http://www.preservationnation.org/
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: National Trust for Historic Preservation
 ---
 

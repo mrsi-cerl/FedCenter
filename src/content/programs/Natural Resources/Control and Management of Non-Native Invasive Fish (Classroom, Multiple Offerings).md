@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23902'
-link: http://nwetc.org/course-catalog/control-and-management-non-native-invasive-fish
+item_id: "23902"
+externalUrl: http://nwetc.org/course-catalog/control-and-management-non-native-invasive-fish
 programArea: Natural Resources
 publishDate: 7/3/2013
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Control and Management of Non-Native Invasive Fish (Classroom, Multiple Offerings)
 ---
 

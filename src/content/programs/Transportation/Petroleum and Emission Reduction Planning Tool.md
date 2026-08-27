@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '21922'
-link: http://www.afdc.energy.gov/prep/index.php
+item_id: "21922"
+externalUrl: http://www.afdc.energy.gov/prep/index.php
 programArea: Transportation
 publishDate: 7/31/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Petroleum and Emission Reduction Planning Tool
 ---
 

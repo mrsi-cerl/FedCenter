@@ -1,22 +1,23 @@
 ---
 expiryDate: null
-item_id: '6532'
-link: EPA OSWER Memo January 22 2007.pdf
+item_id: "6532"
+externalUrl: EPA OSWER Memo January 22 2007.pdf
 programArea: Environmental Compliance
 publishDate: 1/31/2007
 subCategory:
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle I
-- Federal Regulations
-- Guidance for TSCA
-- State Regulations
-- Guidance for RCRA, Subtitle C
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-title: EPA Memorandum - Issuance of Financial Responsibility and Installer Certification
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+title:
+  EPA Memorandum - Issuance of Financial Responsibility and Installer Certification
   Grant Guidelines and Public Record Grant Guidelines for Underground Storage Tank
   Programs
 ---

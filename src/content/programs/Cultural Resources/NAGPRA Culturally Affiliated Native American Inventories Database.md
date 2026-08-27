@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '16250'
-link: http://www.nps.gov/subjects/nagpra/databases.htm
+item_id: "16250"
+externalUrl: http://www.nps.gov/subjects/nagpra/databases.htm
 programArea: Cultural Resources
 publishDate: 9/16/2010
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: NAGPRA Culturally Affiliated Native American Inventories Database
 ---
 

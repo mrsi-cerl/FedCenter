@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '30179'
-link: http://accoonline.org/ghg101
+item_id: "30179"
+externalUrl: http://accoonline.org/ghg101
 programArea: Climate Resilience
 publishDate: 8/24/2016
 subCategory:
-- Construction Design
-- Training, Presentations, and Briefings
-title: Basics of GHG Accounting, Reporting & Disclosing GHG Emissions (Web-based,
+  - Construction Design
+  - Training, Presentations, and Briefings
+title:
+  Basics of GHG Accounting, Reporting & Disclosing GHG Emissions (Web-based,
   On Demand)
 ---
 

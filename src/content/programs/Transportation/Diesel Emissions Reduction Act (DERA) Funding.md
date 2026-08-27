@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1398'
-link: http://www.epa.gov/cleandiesel/
+item_id: "1398"
+externalUrl: http://www.epa.gov/cleandiesel/
 programArea: Transportation
 publishDate: 4/21/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Diesel Emissions Reduction Act (DERA) Funding
 ---
 

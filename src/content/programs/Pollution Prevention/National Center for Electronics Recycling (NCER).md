@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '4180'
-link: http://www.electronicsrecycling.org/
+item_id: "4180"
+externalUrl: http://www.electronicsrecycling.org/
 programArea: Pollution Prevention
 publishDate: 2/6/2006
 subCategory:
-- Organizations
+  - Organizations
 title: National Center for Electronics Recycling (NCER)
 ---
 

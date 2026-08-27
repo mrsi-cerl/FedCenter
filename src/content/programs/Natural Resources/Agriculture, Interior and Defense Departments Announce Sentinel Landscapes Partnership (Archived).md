@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '23985'
-link: www.doi.gov/news/pressreleases/agriculture-interior-and-defense-departments-partner-to-benefit-agricultural-lands-wildlife-habitat-and-military-readiness.cfm
+item_id: "23985"
+externalUrl: www.doi.gov/news/pressreleases/agriculture-interior-and-defense-departments-partner-to-benefit-agricultural-lands-wildlife-habitat-and-military-readiness.cfm
 programArea: Natural Resources
 publishDate: 7/10/2013
 subCategory:
-- Databases and Software Tools
-title: Agriculture, Interior and Defense Departments Announce Sentinel Landscapes
+  - Databases and Software Tools
+title:
+  Agriculture, Interior and Defense Departments Announce Sentinel Landscapes
   Partnership (Archived)
 ---
 

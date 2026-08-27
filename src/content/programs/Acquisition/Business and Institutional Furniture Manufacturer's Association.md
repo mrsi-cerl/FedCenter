@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '9466'
-link: http://www.bifma.org/
+item_id: "9466"
+externalUrl: http://www.bifma.org/
 programArea: Acquisition
 publishDate: 4/30/2008
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Business and Institutional Furniture Manufacturer's Association
 ---
 

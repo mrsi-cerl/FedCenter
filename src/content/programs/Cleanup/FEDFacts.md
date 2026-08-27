@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28913'
-link: https://www.epa.gov/fedfacts
+item_id: "28913"
+externalUrl: https://www.epa.gov/fedfacts
 programArea: Cleanup
 publishDate: 12/29/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: FEDFacts
 ---
 

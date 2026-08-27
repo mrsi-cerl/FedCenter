@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8223'
-link: http://www.energy.gov/eere/fuelcells/hydrogen-fuel-basics
+item_id: "8223"
+externalUrl: http://www.energy.gov/eere/fuelcells/hydrogen-fuel-basics
 programArea: Energy
 publishDate: 9/11/2007
 subCategory:
-- ' Alternative Energy'
+  - " Alternative Energy"
 title: Hydrogen Fuel Basics
 ---
 

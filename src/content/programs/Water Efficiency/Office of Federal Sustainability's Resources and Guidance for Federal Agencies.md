@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '34062'
-link: https://www.sustainability.gov/resources.html
+item_id: "34062"
+externalUrl: https://www.sustainability.gov/resources.html
 programArea: Water Efficiency
 publishDate: 5/30/2019
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Office of Federal Sustainability's Resources and Guidance for Federal Agencies
 ---
 

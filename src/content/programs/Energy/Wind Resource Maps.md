@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '20457'
-link: https://windexchange.energy.gov/maps-data?category=residential
+item_id: "20457"
+externalUrl: https://windexchange.energy.gov/maps-data?category=residential
 programArea: Energy
 publishDate: 2/21/2012
 subCategory:
-- ' Alternative Energy'
+  - " Alternative Energy"
 title: Wind Resource Maps
 ---
 
-From the Department of Energy, these maps help locate and quantify wind resources.  The maps are available in utility-scale or community-scale.
+From the Department of Energy, these maps help locate and quantify wind resources. The maps are available in utility-scale or community-scale.

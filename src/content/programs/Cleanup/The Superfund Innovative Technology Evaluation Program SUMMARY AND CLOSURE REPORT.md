@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '3691'
-link: https://cfpub.epa.gov/si/si\_public\_record\_report.cfm?Lab=NRMRL&dirEntryId=235552
+item_id: "3691"
+externalUrl: https://cfpub.epa.gov/si/si\_public\_record\_report.cfm?Lab=NRMRL&dirEntryId=235552
 programArea: Cleanup
 publishDate: 12/19/2005
 subCategory:
-- Directories, Catalogs, and Newsletters
-title: The Superfund Innovative Technology Evaluation Program SUMMARY AND CLOSURE
+  - Directories, Catalogs, and Newsletters
+title:
+  The Superfund Innovative Technology Evaluation Program SUMMARY AND CLOSURE
   REPORT
 ---
 

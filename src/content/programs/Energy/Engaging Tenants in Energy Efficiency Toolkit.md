@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '38743'
-link: https://betterbuildingssolutioncenter.energy.gov/toolkits/engaging-tenants-energy-efficiency
+item_id: "38743"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/toolkits/engaging-tenants-energy-efficiency
 programArea: Energy
 publishDate: 12/3/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Engaging Tenants in Energy Efficiency Toolkit
 ---
 

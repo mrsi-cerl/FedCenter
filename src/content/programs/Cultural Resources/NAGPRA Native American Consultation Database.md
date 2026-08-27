@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '16252'
-link: https://grantsdev.cr.nps.gov/NagpraPublic/Home/Contact
+item_id: "16252"
+externalUrl: https://grantsdev.cr.nps.gov/NagpraPublic/Home/Contact
 programArea: Cultural Resources
 publishDate: 9/16/2010
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: NAGPRA Native American Consultation Database
 ---
 

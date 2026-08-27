@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '39554'
-link: http://www.aia.org/resource-center/aia-clf-embodied-carbon-toolkit-architects
+item_id: "39554"
+externalUrl: http://www.aia.org/resource-center/aia-clf-embodied-carbon-toolkit-architects
 programArea: High Performance Buildings
 publishDate: 5/17/2022
 subCategory:
-- Conferences and Events
-- Databases and Software Tools
+  - Conferences and Events
+  - Databases and Software Tools
 title: AIA-CLF Embodied Carbon Toolkit for Architects
 ---
 

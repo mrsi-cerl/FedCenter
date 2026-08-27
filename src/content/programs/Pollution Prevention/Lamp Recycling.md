@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '568'
-link: https://www.lamprecycle.org/
+item_id: "568"
+externalUrl: https://www.lamprecycle.org/
 programArea: Pollution Prevention
 publishDate: 12/17/2004
 subCategory:
-- Household Pollution Prevention
-- Recycling and Reuse
+  - Household Pollution Prevention
+  - Recycling and Reuse
 title: Lamp Recycling
 ---
 

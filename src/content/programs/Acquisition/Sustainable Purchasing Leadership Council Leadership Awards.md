@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28944'
-link: http://www.sustainablepurchasing.org/
+item_id: "28944"
+externalUrl: http://www.sustainablepurchasing.org/
 programArea: Acquisition
 publishDate: 12/31/2015
 subCategory:
-- Award Winners
+  - Award Winners
 title: Sustainable Purchasing Leadership Council Leadership Awards
 ---
 

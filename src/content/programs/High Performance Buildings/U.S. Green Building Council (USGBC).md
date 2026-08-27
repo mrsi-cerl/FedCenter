@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1707'
-link: http://www.usgbc.org
+item_id: "1707"
+externalUrl: http://www.usgbc.org
 programArea: High Performance Buildings
 publishDate: 5/20/2005
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: U.S. Green Building Council (USGBC)
 ---
 

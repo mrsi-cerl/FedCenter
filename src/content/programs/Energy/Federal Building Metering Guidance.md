@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '27026'
-link: https://www.energy.gov/eere/femp/metering-federal-buildings
+item_id: "27026"
+externalUrl: https://www.energy.gov/eere/femp/metering-federal-buildings
 programArea: Energy
 publishDate: 12/30/2014
 subCategory:
-- Guidance Documents
+  - Guidance Documents
 title: Federal Building Metering Guidance
 ---
 

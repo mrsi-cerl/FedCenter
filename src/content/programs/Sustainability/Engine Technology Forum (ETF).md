@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '5727'
-link: http://enginetechforum.org/
+item_id: "5727"
+externalUrl: http://enginetechforum.org/
 programArea: Sustainability
 publishDate: 8/17/2006
 subCategory:
-- Organizations
+  - Organizations
 title: Engine Technology Forum (ETF)
 ---
 

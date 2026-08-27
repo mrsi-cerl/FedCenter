@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '489'
-link: https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei
+item_id: "489"
+externalUrl: https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei
 programArea: Chemical Management
 publishDate: 11/16/2004
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Emissions Inventory Information
 ---
 

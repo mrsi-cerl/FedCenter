@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '32551'
-link: http://www.epa.gov/smm/comprehensive-procurement-guideline-cpg-program#directory
+item_id: "32551"
+externalUrl: http://www.epa.gov/smm/comprehensive-procurement-guideline-cpg-program#directory
 programArea: Sustainability
 publishDate: 4/23/2018
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: Comprehensive Procurement Guidelines for Landscaping Products
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20490'
-link: https://www.fws.gov/course/migratory-bird-conservation-trust-responsibility
+item_id: "20490"
+externalUrl: https://www.fws.gov/course/migratory-bird-conservation-trust-responsibility
 programArea: Natural Resources
 publishDate: 2/28/2012
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Migratory Bird Conservation - A Trust Responsibility
 ---
 

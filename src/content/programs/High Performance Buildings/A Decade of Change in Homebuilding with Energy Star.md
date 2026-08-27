@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '995'
-link: 'http://www.energystar.gov/ia/partners/bldrs\_lenders\_raters/downloads/DecadeofChangeESHomeBuilding.pdf '
+item_id: "995"
+externalUrl: 'http://www.energystar.gov/ia/partners/bldrs\_lenders\_raters/downloads/DecadeofChangeESHomeBuilding.pdf '
 programArea: High Performance Buildings
 publishDate: 3/7/2005
 subCategory:
-- Construction Design
+  - Construction Design
 title: A Decade of Change in Homebuilding with Energy Star
 ---
 

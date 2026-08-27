@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8224'
-link: https://www.energy.gov/eere/water/hydropower-basics
+item_id: "8224"
+externalUrl: https://www.energy.gov/eere/water/hydropower-basics
 programArea: Energy
 publishDate: 9/11/2007
 subCategory:
-- ' Alternative Energy'
+  - " Alternative Energy"
 title: Hydropower
 ---
 

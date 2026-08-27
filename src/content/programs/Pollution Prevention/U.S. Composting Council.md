@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1418'
-link: http://www.compostingcouncil.org/
+item_id: "1418"
+externalUrl: http://www.compostingcouncil.org/
 programArea: Pollution Prevention
 publishDate: 4/21/2005
 subCategory:
-- Organizations
+  - Organizations
 title: U.S. Composting Council
 ---
 

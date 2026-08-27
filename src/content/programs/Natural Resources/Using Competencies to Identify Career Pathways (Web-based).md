@@ -1,11 +1,11 @@
 ---
-expiryDate: '00:00.0'
-item_id: '44076'
-link: Web-based
+expiryDate: "00:00.0"
+item_id: "44076"
+externalUrl: Web-based
 programArea: Natural Resources
 publishDate: 5/29/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Using Competencies to Identify Career Pathways (Web-based)
 ---
 

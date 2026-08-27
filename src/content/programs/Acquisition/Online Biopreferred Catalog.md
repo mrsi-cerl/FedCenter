@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28099'
-link: http://www.biopreferred.gov/BioPreferred/faces/catalog/Catalog.xhtml
+item_id: "28099"
+externalUrl: http://www.biopreferred.gov/BioPreferred/faces/catalog/Catalog.xhtml
 programArea: Acquisition
 publishDate: 6/26/2015
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: Online Biopreferred Catalog
 ---
 

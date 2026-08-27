@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8386'
-link: https://www.nrcs.usda.gov/conservation-basics/conservation-by-state/texas/backyard-conservation
+item_id: "8386"
+externalUrl: https://www.nrcs.usda.gov/conservation-basics/conservation-by-state/texas/backyard-conservation
 programArea: Natural Resources
 publishDate: 9/28/2007
 subCategory:
-- <A name=watercons></A>Water Conservation
+  - <A name=watercons></A>Water Conservation
 title: Backyard Conservation
 ---
 

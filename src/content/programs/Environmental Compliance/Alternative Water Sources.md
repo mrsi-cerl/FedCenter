@@ -1,21 +1,21 @@
 ---
 expiryDate: null
-item_id: '28637'
-link: http://energy.gov/eere/femp/alternative-water-sources-map
+item_id: "28637"
+externalUrl: http://energy.gov/eere/femp/alternative-water-sources-map
 programArea: Environmental Compliance
 publishDate: 10/19/2015
 subCategory:
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle I
-- Federal Regulations
-- Guidance for TSCA
-- State Regulations
-- Guidance for RCRA, Subtitle C
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Alternative Water Sources
 ---
 

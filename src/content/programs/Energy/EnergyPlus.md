@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35748'
-link: https://energyplus.net/
+item_id: "35748"
+externalUrl: https://energyplus.net/
 programArea: Energy
 publishDate: 7/22/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EnergyPlus
 ---
 

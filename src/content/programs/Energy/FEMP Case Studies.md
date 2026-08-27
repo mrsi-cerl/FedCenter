@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '32898'
-link: https://www.energy.gov/eere/femp/federal-energy-management-program-case-studies
+item_id: "32898"
+externalUrl: https://www.energy.gov/eere/femp/federal-energy-management-program-case-studies
 programArea: Energy
 publishDate: 8/1/2018
 subCategory:
-- Case Studies
+  - Case Studies
 title: FEMP Case Studies
 ---
 

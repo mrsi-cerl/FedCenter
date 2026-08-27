@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2440'
-link: ''
+item_id: "2440"
+externalUrl: ""
 programArea: Natural Resources
 publishDate: 7/14/2005
 subCategory:
-- Species Management
+  - Species Management
 title: Migratory Bird Treaty Act of 1918
 ---
 

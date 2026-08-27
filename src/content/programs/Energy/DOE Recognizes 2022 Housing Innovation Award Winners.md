@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39957'
-link: https://www.energy.gov/eere/buildings/housing-innovation-awards
+item_id: "39957"
+externalUrl: https://www.energy.gov/eere/buildings/housing-innovation-awards
 programArea: Energy
 publishDate: 9/21/2022
 subCategory:
-- Award Winners
+  - Award Winners
 title: DOE Recognizes 2022 Housing Innovation Award Winners
 ---
 

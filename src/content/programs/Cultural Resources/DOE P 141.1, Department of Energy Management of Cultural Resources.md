@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15493'
-link: http://www.energy.gov/nepa/articles/doe-policy-1411-management-cultural-resources-2011
+item_id: "15493"
+externalUrl: http://www.energy.gov/nepa/articles/doe-policy-1411-management-cultural-resources-2011
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Federal Agency Policy
+  - Federal Agency Policy
 title: DOE P 141.1, Department of Energy Management of Cultural Resources
 ---
 

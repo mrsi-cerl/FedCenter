@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '23367'
-link: http://www.nap.edu/catalog.php?record\_id=18282
+item_id: "23367"
+externalUrl: http://www.nap.edu/catalog.php?record\_id=18282
 programArea: High Performance Buildings
 publishDate: 5/7/2013
 subCategory:
-- Case Studies
-title: Energy-Efficiency Standards and Green Building Certification Systems Used by
+  - Case Studies
+title:
+  Energy-Efficiency Standards and Green Building Certification Systems Used by
   the Department of Defense for Military Construction and Major Renovations
 ---
 

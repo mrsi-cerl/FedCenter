@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44110'
-link: Online Webinar
+item_id: "44110"
+externalUrl: Online Webinar
 programArea: Energy
 publishDate: 6/2/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Building Energy Modeling 101 (On-Demand)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '12378'
-link: http://www.practicegreenhealth.org/
+item_id: "12378"
+externalUrl: http://www.practicegreenhealth.org/
 programArea: Sustainability
 publishDate: 5/11/2009
 subCategory:
-- Organizations
+  - Organizations
 title: Practice Greenhealth
 ---
 

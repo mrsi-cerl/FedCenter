@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '20510'
-link: http://wbdg.org/FFC/ARMYCOE/SDP/MILCON\_EnergySustainabilityStudy.pdf
+item_id: "20510"
+externalUrl: http://wbdg.org/FFC/ARMYCOE/SDP/MILCON\_EnergySustainabilityStudy.pdf
 programArea: High Performance Buildings
 publishDate: 2/29/2012
 subCategory:
-- Case Studies
-title: MILCON Energy Efficiency and Sustainability - Study of Five Types of Army Buildings
+  - Case Studies
+title:
+  MILCON Energy Efficiency and Sustainability - Study of Five Types of Army Buildings
   (2011)
 ---
 

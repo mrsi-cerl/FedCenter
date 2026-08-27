@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39833'
-link: https://www.epa.gov/rmp
+item_id: "39833"
+externalUrl: https://www.epa.gov/rmp
 programArea: Chemical Management
 publishDate: 8/9/2022
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: EPA's Risk Management Plan (RMP) Website
 ---
 

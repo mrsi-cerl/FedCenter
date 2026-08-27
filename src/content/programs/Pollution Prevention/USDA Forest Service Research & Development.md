@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8289'
-link: http://www.fs.usda.gov/research/fpl
+item_id: "8289"
+externalUrl: http://www.fs.usda.gov/research/fpl
 programArea: Pollution Prevention
 publishDate: 9/19/2007
 subCategory:
-- Organizations
+  - Organizations
 title: USDA Forest Service Research & Development
 ---
 

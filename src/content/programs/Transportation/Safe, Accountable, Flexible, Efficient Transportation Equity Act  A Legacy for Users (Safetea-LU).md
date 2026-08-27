@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '8127'
-link: http://www.fhwa.dot.gov/safetealu/index.htm
+item_id: "8127"
+externalUrl: http://www.fhwa.dot.gov/safetealu/index.htm
 programArea: Transportation
 publishDate: 9/4/2007
 subCategory:
-- Legislation
-title: 'Safe, Accountable, Flexible, Efficient Transportation Equity Act:  A Legacy
-  for Users (Safetea-LU)'
+  - Legislation
+title:
+  "Safe, Accountable, Flexible, Efficient Transportation Equity Act:  A Legacy
+  for Users (Safetea-LU)"
 ---
 
 Signed on August 10, 2005 SAFETEA-LU authorizes the Federal surface transportation programs for highways, highway safety, and transit for the 5-yr period 2005-2009.

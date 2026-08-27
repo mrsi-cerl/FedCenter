@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41391'
-link: climateprogramportal.org/resource/pathways-to-commercial-liftoff/
+item_id: "41391"
+externalUrl: climateprogramportal.org/resource/pathways-to-commercial-liftoff/
 programArea: High Performance Buildings
 publishDate: 9/21/2023
 subCategory:
-- Guidance & Policy
+  - Guidance & Policy
 title: Pathways to Commercial Liftoff
 ---
 

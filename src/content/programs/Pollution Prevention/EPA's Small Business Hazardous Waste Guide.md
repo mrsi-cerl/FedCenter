@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '34816'
-link: https://www.epa.gov/hwgenerators/managing-your-hazardous-waste-guide-small-businesses
+item_id: "34816"
+externalUrl: https://www.epa.gov/hwgenerators/managing-your-hazardous-waste-guide-small-businesses
 programArea: Pollution Prevention
 publishDate: 11/18/2019
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: EPA's Small Business Hazardous Waste Guide
 ---
 

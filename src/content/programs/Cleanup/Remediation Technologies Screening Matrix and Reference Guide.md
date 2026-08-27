@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3706'
-link: http://www.frtr.gov/matrix2/top\_page.html
+item_id: "3706"
+externalUrl: http://www.frtr.gov/matrix2/top\_page.html
 programArea: Cleanup
 publishDate: 12/20/2005
 subCategory:
-- General
+  - General
 title: Remediation Technologies Screening Matrix and Reference Guide
 ---
 

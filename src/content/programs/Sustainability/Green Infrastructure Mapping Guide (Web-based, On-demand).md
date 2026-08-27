@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44243'
-link: coast.noaa.gov/digitalcoast/training/gi-mapping.html
+item_id: "44243"
+externalUrl: coast.noaa.gov/digitalcoast/training/gi-mapping.html
 programArea: Sustainability
 publishDate: 8/5/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Green Infrastructure Mapping Guide (Web-based, On-demand)
 ---
 

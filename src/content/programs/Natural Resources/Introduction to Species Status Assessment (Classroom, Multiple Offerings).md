@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '31736'
-link: https://www.fws.gov/course/introduction-species-status-assessment-online
+item_id: "31736"
+externalUrl: https://www.fws.gov/course/introduction-species-status-assessment-online
 programArea: Natural Resources
 publishDate: 9/11/2017
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Introduction to Species Status Assessment (Classroom, Multiple Offerings)
 ---
 

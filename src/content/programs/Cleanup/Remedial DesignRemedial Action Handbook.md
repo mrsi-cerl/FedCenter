@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20382'
-link: https://semspub.epa.gov/work/HQ/156935.pdf
+item_id: "20382"
+externalUrl: https://semspub.epa.gov/work/HQ/156935.pdf
 programArea: Cleanup
 publishDate: 2/8/2012
 subCategory:
-- Remediation
+  - Remediation
 title: Remedial Design/Remedial Action Handbook
 ---
 

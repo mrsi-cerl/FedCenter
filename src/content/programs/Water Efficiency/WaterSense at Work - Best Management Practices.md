@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22591'
-link: http://www.epa.gov/watersense/best-management-practices
+item_id: "22591"
+externalUrl: http://www.epa.gov/watersense/best-management-practices
 programArea: Water Efficiency
 publishDate: 11/21/2012
 subCategory:
-- Implementation Guidance
+  - Implementation Guidance
 title: WaterSense at Work - Best Management Practices
 ---
 

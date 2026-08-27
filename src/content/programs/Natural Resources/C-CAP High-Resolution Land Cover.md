@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44244'
-link: coast.noaa.gov/digitalcoast/data/ccaphighres.html
+item_id: "44244"
+externalUrl: coast.noaa.gov/digitalcoast/data/ccaphighres.html
 programArea: Natural Resources
 publishDate: 8/5/2026
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: C-CAP High-Resolution Land Cover
 ---
 

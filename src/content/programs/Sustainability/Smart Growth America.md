@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '38461'
-link: https://smartgrowthamerica.org/resources/smart-growth-implementation-toolkit/
+item_id: "38461"
+externalUrl: https://smartgrowthamerica.org/resources/smart-growth-implementation-toolkit/
 programArea: Sustainability
 publishDate: 9/28/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Smart Growth America
 ---
 

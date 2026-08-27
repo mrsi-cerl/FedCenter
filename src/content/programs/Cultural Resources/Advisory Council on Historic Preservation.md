@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15504'
-link: http://www.achp.gov/
+item_id: "15504"
+externalUrl: http://www.achp.gov/
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Advisory Council on Historic Preservation
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '14579'
-link: https://www.gsafleet.gov/
+item_id: "14579"
+externalUrl: https://www.gsafleet.gov/
 programArea: Transportation
 publishDate: 3/3/2010
 subCategory:
-- Acquisition
+  - Acquisition
 title: GSAFleet.gov
 ---
 

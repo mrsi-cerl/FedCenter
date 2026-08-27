@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35466'
-link: https://www7.eere.energy.gov/femp/training/
+item_id: "35466"
+externalUrl: https://www7.eere.energy.gov/femp/training/
 programArea: Water Efficiency
 publishDate: 5/11/2020
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Federal Energy Management Program (FEMP) Training
 ---
 

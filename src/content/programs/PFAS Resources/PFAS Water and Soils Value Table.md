@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '37172'
-link: ITRCPFASWaterandSoilValuesTables\_MAY-2021-final-1.xlsx
+item_id: "37172"
+externalUrl: ITRCPFASWaterandSoilValuesTables\_MAY-2021-final-1.xlsx
 programArea: PFAS Resources
 publishDate: 7/7/2021
 subCategory:
-- State, National and International Regulations
+  - State, National and International Regulations
 title: PFAS Water and Soils Value Table
 ---
 

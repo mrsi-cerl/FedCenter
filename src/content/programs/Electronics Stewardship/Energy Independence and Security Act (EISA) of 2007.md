@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '16975'
-link: http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=110\_cong\_public\_laws&docid=f:publ140.110
+item_id: "16975"
+externalUrl: http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=110\_cong\_public\_laws&docid=f:publ140.110
 programArea: Electronics Stewardship
 publishDate: 1/11/2011
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Energy Independence and Security Act (EISA) of 2007
 ---
 

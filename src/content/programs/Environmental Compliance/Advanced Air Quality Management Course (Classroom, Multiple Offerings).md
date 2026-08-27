@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '13342'
-link: https://www.afit.edu/CE/Course\_Desc.cfm?p=WENV%20532
+item_id: "13342"
+externalUrl: https://www.afit.edu/CE/Course\_Desc.cfm?p=WENV%20532
 programArea: Environmental Compliance
 publishDate: 8/25/2009
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Advanced Air Quality Management Course (Classroom, Multiple Offerings)
 ---
 
-The objective of this course is for each DoD student to comprehend advanced technical and regulatory requirements of air quality. The course will enable students to build on basic knowledge to effectively manage a complex and dynamic air quality program.  Topics include: air emission inventory techniques, state implementation plans, permit maintenance, New Source Review, Air Force air quality issues, and legal issues.
+The objective of this course is for each DoD student to comprehend advanced technical and regulatory requirements of air quality. The course will enable students to build on basic knowledge to effectively manage a complex and dynamic air quality program. Topics include: air emission inventory techniques, state implementation plans, permit maintenance, New Source Review, Air Force air quality issues, and legal issues.

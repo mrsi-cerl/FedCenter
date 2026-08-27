@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8499'
-link: http://sustainablesites.org/
+item_id: "8499"
+externalUrl: http://sustainablesites.org/
 programArea: Sustainability
 publishDate: 10/24/2007
 subCategory:
-- Organizations
+  - Organizations
 title: Sustainable Sites Initiative
 ---
 

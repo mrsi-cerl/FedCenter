@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '18169'
-link: http://nap.nationalacademies.org/collection/34/climate-change
+item_id: "18169"
+externalUrl: http://nap.nationalacademies.org/collection/34/climate-change
 programArea: Climate Resilience
 publishDate: 6/2/2011
 subCategory:
-- Construction Design
-- Libraries and Repositories
+  - Construction Design
+  - Libraries and Repositories
 title: Climate Change Collection
 ---
 

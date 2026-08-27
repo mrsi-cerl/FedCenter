@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '787'
-link: https://www.epa.gov/nepa/environmental-impact-statement-filing-guidance
+item_id: "787"
+externalUrl: https://www.epa.gov/nepa/environmental-impact-statement-filing-guidance
 programArea: NEPA
 publishDate: 2/4/2005
 subCategory:
-- Other Guidance
+  - Other Guidance
 title: EIS Filing System Guidance
 ---
 

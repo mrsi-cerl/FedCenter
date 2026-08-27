@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2439'
-link: https://www.govinfo.gov/content/pkg/USCODE-2011-title33/html/USCODE-2011-title33-chap27.htm
+item_id: "2439"
+externalUrl: https://www.govinfo.gov/content/pkg/USCODE-2011-title33/html/USCODE-2011-title33-chap27.htm
 programArea: Natural Resources
 publishDate: 7/14/2005
 subCategory:
-- Species Management
+  - Species Management
 title: Marine Protection, Research, and Sanctuaries Act of 1972
 ---
 

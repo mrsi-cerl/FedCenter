@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '22580'
-link: https://catalog.data.gov/dataset/loading-simulation-program-c
+item_id: "22580"
+externalUrl: https://catalog.data.gov/dataset/loading-simulation-program-c
 programArea: Climate Resilience
 publishDate: 11/19/2012
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Loading Simulation Program in C++ (LSPC)
 ---
 

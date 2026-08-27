@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36179'
-link: http://www.epa.gov/ghgreporting/training-and-testing-opportunities-ghg-reporting
+item_id: "36179"
+externalUrl: http://www.epa.gov/ghgreporting/training-and-testing-opportunities-ghg-reporting
 programArea: Greenhouse Gases
 publishDate: 11/10/2020
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: GHGRP Events and Training (Web-based, On-Demand)
 ---
 

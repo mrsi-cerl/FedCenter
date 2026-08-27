@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '9249'
-link: https://afdc.energy.gov/laws/eisa.html
+item_id: "9249"
+externalUrl: https://afdc.energy.gov/laws/eisa.html
 programArea: Energy
 publishDate: 3/25/2008
 subCategory:
-- Federal Legislation & Policy
+  - Federal Legislation & Policy
 title: Energy Independence and Security Act (EISA) of 2007 Overview
 ---
 

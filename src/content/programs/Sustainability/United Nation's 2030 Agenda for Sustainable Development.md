@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '28566'
-link: https://sustainabledevelopment.un.org/post2015/transformingourworld
+item_id: "28566"
+externalUrl: https://sustainabledevelopment.un.org/post2015/transformingourworld
 programArea: Sustainability
 publishDate: 10/5/2015
 subCategory:
-- International Agreements
+  - International Agreements
 title: United Nation's 2030 Agenda for Sustainable Development
 ---
 
-The agenda is made up of 17 Sustainable Development Goals and 169 targets addressing a broad range of topics including climate change, poverty, and inequality.   The goals, which replace the Millennium Development Goals, cover headings including industry, innovation and infrastructure, sustainable cities and communities and responsible consumption and production.
+The agenda is made up of 17 Sustainable Development Goals and 169 targets addressing a broad range of topics including climate change, poverty, and inequality. The goals, which replace the Millennium Development Goals, cover headings including industry, innovation and infrastructure, sustainable cities and communities and responsible consumption and production.

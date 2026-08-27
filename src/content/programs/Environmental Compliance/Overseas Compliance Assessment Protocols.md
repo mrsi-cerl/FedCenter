@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2680'
-link: https://www.fedcenter.gov/programs/compliance/assessment/oconus/
+item_id: "2680"
+externalUrl: https://www.fedcenter.gov/programs/compliance/assessment/oconus/
 programArea: Environmental Compliance
 publishDate: 8/23/2005
 subCategory:
-- Compliance Auditing
+  - Compliance Auditing
 title: Overseas Compliance Assessment Protocols
 ---
 

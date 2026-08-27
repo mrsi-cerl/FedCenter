@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22594'
-link: http://www.wbdg.org/ce/doe/femp/femp01
+item_id: "22594"
+externalUrl: http://www.wbdg.org/ce/doe/femp/femp01
 programArea: Energy
 publishDate: 11/21/2012
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Commissioning for Existing Federal Buildings (Web-based, On Demand)
 ---
 

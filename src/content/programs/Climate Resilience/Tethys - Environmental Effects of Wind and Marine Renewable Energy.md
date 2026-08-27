@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '23347'
-link: http://tethys.pnnl.gov/
+item_id: "23347"
+externalUrl: http://tethys.pnnl.gov/
 programArea: Climate Resilience
 publishDate: 5/7/2013
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Tethys - Environmental Effects of Wind and Marine Renewable Energy
 ---
 

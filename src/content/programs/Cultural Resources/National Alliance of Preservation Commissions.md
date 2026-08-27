@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15509'
-link: http://www.napcommissions.org/
+item_id: "15509"
+externalUrl: http://www.napcommissions.org/
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: National Alliance of Preservation Commissions
 ---
 

@@ -1,5 +1,4 @@
 ---
-import type { DataEntryMap } from "astro:content";
 import { getCollection } from "astro:content";
 
 const {
@@ -42,9 +41,9 @@ const recentThreeAnouncements = allAnnouncements
   </div>
   {
     recentThreeAnouncements.map((announcement: any) => (
-      <div class="grid-row border-bottom height-10">
+      <div class="grid-row border-bottom padding-top-2 padding-bottom-2">
         <div class="grid-col-1 display-flex flex-justify-center">
-          <div class="display-flex flex-column flex-justify-center height-10 width-5">
+          <div class="display-flex flex-column flex-justify-center width-5">
             <p class="font-mono-xl text-heavy margin-0 text-center">
               {new Date(announcement.data.publishDate).getDate()}
             </p>
@@ -60,13 +59,14 @@ const recentThreeAnouncements = allAnnouncements
             </p>
           </div>
         </div>
-        <div class="grid-col-3 display-flex flex-column flex-justify-center height-10 padding-right-2">
-          <p class="truncate-overflow margin-0">{announcement.data.title}</p>
-        </div>
-        <div class="grid-col display-flex flex-column flex-justify-center height-10 padding-left-2">
-          <p class="truncate-overflow margin-0 text-indent-5">
-            {announcement.body}
-          </p>
+        <div class="grid-col display-flex flex-column flex-justify-center  padding-right-2">
+          <a
+            class="usa-link usa-link--external font-sans-md"
+            href={announcement.data.externalUrl}
+          >
+            {announcement.data.title}
+          </a>
+          <p class="margin-0">{announcement.body}</p>
         </div>
       </div>
     ))

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '42698'
-link: www.epa.gov/water-infrastructure/water-technical-assistance-waterta
+item_id: "42698"
+externalUrl: www.epa.gov/water-infrastructure/water-technical-assistance-waterta
 programArea: Environmental Compliance
 publishDate: 11/27/2024
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Real Water Technical Assistance (RealWaterTA)
 ---
 

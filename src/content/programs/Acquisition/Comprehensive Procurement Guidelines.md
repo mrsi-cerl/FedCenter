@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8234'
-link: https://www.epa.gov/smm/comprehensive-procurement-guideline-cpg-program
+item_id: "8234"
+externalUrl: https://www.epa.gov/smm/comprehensive-procurement-guideline-cpg-program
 programArea: Acquisition
 publishDate: 9/13/2007
 subCategory:
-- Laws, Regulations, and Agreements
+  - Laws, Regulations, and Agreements
 title: Comprehensive Procurement Guidelines
 ---
 

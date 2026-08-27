@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '31224'
-link: https://datacenters.lbl.gov/resources/data-center-master-list-energy
+item_id: "31224"
+externalUrl: https://datacenters.lbl.gov/resources/data-center-master-list-energy
 programArea: Energy
 publishDate: 5/9/2017
 subCategory:
-- Data Centers
+  - Data Centers
 title: Data Center Master List of Energy Efficiency Actions
 ---
 

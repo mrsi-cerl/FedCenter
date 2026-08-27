@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23349'
-link: https://toolkit.climate.gov
+item_id: "23349"
+externalUrl: https://toolkit.climate.gov
 programArea: Natural Resources
 publishDate: 5/7/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Federal Support Toolbox For Integrated Water Resources Management
 ---
 

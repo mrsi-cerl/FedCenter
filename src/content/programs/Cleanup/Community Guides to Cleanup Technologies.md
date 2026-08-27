@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3705'
-link: http://www.clu-in.org/cguides/
+item_id: "3705"
+externalUrl: http://www.clu-in.org/cguides/
 programArea: Cleanup
 publishDate: 12/20/2005
 subCategory:
-- General
+  - General
 title: Community Guides to Cleanup Technologies
 ---
 

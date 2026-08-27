@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '19458'
-link: http://www.epa.gov/greenerproducts/
+item_id: "19458"
+externalUrl: http://www.epa.gov/greenerproducts/
 programArea: Acquisition
 publishDate: 9/19/2011
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Greener Products
 ---
 

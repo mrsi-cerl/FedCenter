@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20391'
-link: https://www.epa.gov/sites/production/files/documents/fact\_sheet\_site\_characterization\_for\_munitions\_constituents.pdf
+item_id: "20391"
+externalUrl: https://www.epa.gov/sites/production/files/documents/fact\_sheet\_site\_characterization\_for\_munitions\_constituents.pdf
 programArea: Cleanup
 publishDate: 2/8/2012
 subCategory:
-- Munitions
+  - Munitions
 title: Site Characterization For Munitions Constituents
 ---
 

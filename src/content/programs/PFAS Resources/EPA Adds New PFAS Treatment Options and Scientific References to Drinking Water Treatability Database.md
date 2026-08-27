@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '35736'
-link: https://www.epa.gov/newsreleases/epa-adds-new-pfas-treatment-options-and-scientific-references-drinking-water
+item_id: "35736"
+externalUrl: https://www.epa.gov/newsreleases/epa-adds-new-pfas-treatment-options-and-scientific-references-drinking-water
 programArea: PFAS Resources
 publishDate: 7/16/2020
 subCategory:
-- Databases and Software Tools
-title: EPA Adds New PFAS Treatment Options and Scientific References to Drinking Water
+  - Databases and Software Tools
+title:
+  EPA Adds New PFAS Treatment Options and Scientific References to Drinking Water
   Treatability Database
 ---
 

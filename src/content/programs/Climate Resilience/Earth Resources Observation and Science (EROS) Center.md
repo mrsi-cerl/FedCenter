@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '28450'
-link: http://eros.usgs.gov/
+item_id: "28450"
+externalUrl: http://eros.usgs.gov/
 programArea: Climate Resilience
 publishDate: 9/18/2015
 subCategory:
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: Earth Resources Observation and Science (EROS) Center
 ---
 

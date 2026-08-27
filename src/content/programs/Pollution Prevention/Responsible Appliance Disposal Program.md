@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '8293'
-link: http://www.epa.gov/section608/appliance-disposal
+item_id: "8293"
+externalUrl: http://www.epa.gov/section608/appliance-disposal
 programArea: Pollution Prevention
 publishDate: 9/19/2007
 subCategory:
-- Waste Reduction
-- Household Pollution Prevention
+  - Waste Reduction
+  - Household Pollution Prevention
 title: Responsible Appliance Disposal Program
 ---
 

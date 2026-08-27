@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23585'
-link: http://ascelibrary.org/doi/abs/10.1061/%28ASCE%29PS.1949-1204.0000114
+item_id: "23585"
+externalUrl: http://ascelibrary.org/doi/abs/10.1061/%28ASCE%29PS.1949-1204.0000114
 programArea: Sustainability
 publishDate: 5/30/2013
 subCategory:
-- Infrastructure
+  - Infrastructure
 title: Analysis of Wastewater and Water System Renewal Decision-Making Tools and Approaches
 ---
 

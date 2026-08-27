@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29804'
-link: https://www.slc.gsa.gov/slc/
+item_id: "29804"
+externalUrl: https://www.slc.gsa.gov/slc/
 programArea: Sustainability
 publishDate: 6/7/2016
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Smart Location Calculator
 ---
 

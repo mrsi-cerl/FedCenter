@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '16925'
-link: https://www.wbdg.org/ffc/army-coe/policies-and-guidance-army-design-and-construction/army-sdd-policy-update
+item_id: "16925"
+externalUrl: https://www.wbdg.org/ffc/army-coe/policies-and-guidance-army-design-and-construction/army-sdd-policy-update
 programArea: High Performance Buildings
 publishDate: 12/28/2010
 subCategory:
-- Agency-specific Policy
+  - Agency-specific Policy
 title: Department of the Army Sustainable Design and Development Policy Update
 ---
 

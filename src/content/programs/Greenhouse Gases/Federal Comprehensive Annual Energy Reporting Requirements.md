@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '32117'
-link: https://www.energy.gov/eere/femp/federal-comprehensive-annual-energy-reporting-requirements
+item_id: "32117"
+externalUrl: https://www.energy.gov/eere/femp/federal-comprehensive-annual-energy-reporting-requirements
 programArea: Greenhouse Gases
 publishDate: 1/10/2018
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Federal Comprehensive Annual Energy Reporting Requirements
 ---
 

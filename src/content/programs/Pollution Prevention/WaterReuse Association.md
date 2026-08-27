@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1605'
-link: http://www.watereuse.org/?assoc
+item_id: "1605"
+externalUrl: http://www.watereuse.org/?assoc
 programArea: Pollution Prevention
 publishDate: 5/4/2005
 subCategory:
-- Organizations
+  - Organizations
 title: WaterReuse Association
 ---
 

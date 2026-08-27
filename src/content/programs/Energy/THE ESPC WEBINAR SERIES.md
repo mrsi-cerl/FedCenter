@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '24702'
-link: https://betterbuildingssolutioncenter.energy.gov/energy-savings-performance-contracting-espc-toolkit
+item_id: "24702"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/energy-savings-performance-contracting-espc-toolkit
 programArea: Energy
 publishDate: 10/23/2013
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: THE ESPC WEBINAR SERIES
 ---
 

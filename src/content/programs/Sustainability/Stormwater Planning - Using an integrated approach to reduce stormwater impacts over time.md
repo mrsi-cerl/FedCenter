@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '30488'
-link: http://www.epa.gov/npdes/stormwater-planning
+item_id: "30488"
+externalUrl: http://www.epa.gov/npdes/stormwater-planning
 programArea: Sustainability
 publishDate: 11/4/2016
 subCategory:
-- Municipalities
-title: Stormwater Planning - Using an integrated approach to reduce stormwater impacts
+  - Municipalities
+title:
+  Stormwater Planning - Using an integrated approach to reduce stormwater impacts
   over time
 ---
 

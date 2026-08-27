@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '789'
-link: https://ceq.doe.gov/index.html
+item_id: "789"
+externalUrl: https://ceq.doe.gov/index.html
 programArea: NEPA
 publishDate: 2/4/2005
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Council on Environmental Quality
 ---
 

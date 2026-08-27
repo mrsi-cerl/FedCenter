@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8344'
-link: http://www.eeba.org
+item_id: "8344"
+externalUrl: http://www.eeba.org
 programArea: High Performance Buildings
 publishDate: 9/25/2007
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Energy Efficient Building Association
 ---
 

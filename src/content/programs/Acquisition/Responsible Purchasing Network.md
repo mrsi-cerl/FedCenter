@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '6880'
-link: http://www.responsiblepurchasing.org/
+item_id: "6880"
+externalUrl: http://www.responsiblepurchasing.org/
 programArea: Acquisition
 publishDate: 4/19/2007
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Responsible Purchasing Network
 ---
 

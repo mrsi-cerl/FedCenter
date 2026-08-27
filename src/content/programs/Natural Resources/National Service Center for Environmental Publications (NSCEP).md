@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '44209'
-link: http://www.epa.gov/nscep
+item_id: "44209"
+externalUrl: http://www.epa.gov/nscep
 programArea: Natural Resources
 publishDate: 7/24/2026
 subCategory:
-- Libraries and Repositories
-- Databases and Software Tools
+  - Libraries and Repositories
+  - Databases and Software Tools
 title: National Service Center for Environmental Publications (NSCEP)
 ---
 

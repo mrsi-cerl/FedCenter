@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39792'
-link: https://driveelectric.gov/
+item_id: "39792"
+externalUrl: https://driveelectric.gov/
 programArea: Energy
 publishDate: 7/21/2022
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Joint Office of Energy and Transportation Website
 ---
 

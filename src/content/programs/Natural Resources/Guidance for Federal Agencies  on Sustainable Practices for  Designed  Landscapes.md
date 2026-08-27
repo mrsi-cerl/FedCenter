@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '26770'
-link: http://obamawhitehouse.archives.gov/sites/default/files/microsites/ceq/recommendations\_on\_sustainable\_landscaping\_practices.pdf
+item_id: "26770"
+externalUrl: http://obamawhitehouse.archives.gov/sites/default/files/microsites/ceq/recommendations\_on\_sustainable\_landscaping\_practices.pdf
 programArea: Natural Resources
 publishDate: 10/23/2014
 subCategory:
-- Land Management
+  - Land Management
 title: Guidance for Federal Agencies  on Sustainable Practices for  Designed  Landscapes
 ---
 

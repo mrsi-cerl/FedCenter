@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44240'
-link: vegspec.org/
+item_id: "44240"
+externalUrl: vegspec.org/
 programArea: Natural Resources
 publishDate: 8/4/2026
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: USDA Vegetation Specification Suite
 ---
 

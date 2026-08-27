@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '32450'
-link: https://www.epa.gov/crwu
+item_id: "32450"
+externalUrl: https://www.epa.gov/crwu
 programArea: Climate Resilience
 publishDate: 4/3/2018
 subCategory:
-- Construction Design
-- Water
+  - Construction Design
+  - Water
 title: Creating Resilient Water Utilities (CWRU) Initiative
 ---
 

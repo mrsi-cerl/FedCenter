@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '26881'
-link: https://coast.noaa.gov/llv/
+item_id: "26881"
+externalUrl: https://coast.noaa.gov/llv/
 programArea: Climate Resilience
 publishDate: 11/18/2014
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Lake Level Viewer
 ---
 

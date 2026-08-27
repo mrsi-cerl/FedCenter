@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '19760'
-link: http://www.afdc.energy.gov/afdc/calc/
+item_id: "19760"
+externalUrl: http://www.afdc.energy.gov/afdc/calc/
 programArea: Transportation
 publishDate: 11/3/2011
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Vehicle Cost Calculator
 ---
 

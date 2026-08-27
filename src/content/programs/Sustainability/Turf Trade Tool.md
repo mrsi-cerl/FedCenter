@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44250'
-link: allianceforwaterefficiency.org/resource/turf-trade-tool/
+item_id: "44250"
+externalUrl: allianceforwaterefficiency.org/resource/turf-trade-tool/
 programArea: Sustainability
 publishDate: 8/6/2026
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Turf Trade Tool
 ---
 

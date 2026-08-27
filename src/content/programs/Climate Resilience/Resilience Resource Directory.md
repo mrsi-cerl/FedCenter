@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '42742'
-link: http://www.epa.gov/climate-change-water-sector/resilience-directory
+item_id: "42742"
+externalUrl: http://www.epa.gov/climate-change-water-sector/resilience-directory
 programArea: Climate Resilience
 publishDate: 12/10/2024
 subCategory:
-- Construction Design
-- Directories, Catalogs, and Newsletters
+  - Construction Design
+  - Directories, Catalogs, and Newsletters
 title: Resilience Resource Directory
 ---
 

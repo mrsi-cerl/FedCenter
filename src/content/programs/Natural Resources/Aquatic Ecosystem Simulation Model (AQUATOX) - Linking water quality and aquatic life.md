@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '13481'
-link: http://www.epa.gov/ceam/aquatox
+item_id: "13481"
+externalUrl: http://www.epa.gov/ceam/aquatox
 programArea: Natural Resources
 publishDate: 9/15/2009
 subCategory:
-- Databases and Software Tools
-title: Aquatic Ecosystem Simulation Model (AQUATOX) - Linking water quality and aquatic
+  - Databases and Software Tools
+title:
+  Aquatic Ecosystem Simulation Model (AQUATOX) - Linking water quality and aquatic
   life
 ---
 

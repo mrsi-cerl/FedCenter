@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8188'
-link: http://energy.gov/eere/femp/find-product-categories-covered-efficiency-programs
+item_id: "8188"
+externalUrl: http://energy.gov/eere/femp/find-product-categories-covered-efficiency-programs
 programArea: Electronics Stewardship
 publishDate: 9/10/2007
 subCategory:
-- Acquisition
+  - Acquisition
 title: Product Categories Covered by Efficiency Programs
 ---
 

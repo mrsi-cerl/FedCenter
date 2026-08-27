@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '38340'
-link: http://betterbuildingssolutioncenter.energy.gov/iso-50001
+item_id: "38340"
+externalUrl: http://betterbuildingssolutioncenter.energy.gov/iso-50001
 programArea: High Performance Buildings
 publishDate: 8/27/2021
 subCategory:
-- Conferences and Events
-- Guidance & Policy
+  - Conferences and Events
+  - Guidance & Policy
 title: 50001 Energy Management Systems
 ---
 

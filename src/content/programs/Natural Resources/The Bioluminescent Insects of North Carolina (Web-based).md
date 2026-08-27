@@ -1,11 +1,11 @@
 ---
-expiryDate: '00:00.0'
-item_id: '44193'
-link: Online
+expiryDate: "00:00.0"
+item_id: "44193"
+externalUrl: Online
 programArea: Natural Resources
 publishDate: 7/14/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: The Bioluminescent Insects of North Carolina (Web-based)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15502'
-link: https://home.nps.gov/orgs/1740/index.htm
+item_id: "15502"
+externalUrl: https://home.nps.gov/orgs/1740/index.htm
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Midwest Archeological Center (MWAC) Resource Center
 ---
 

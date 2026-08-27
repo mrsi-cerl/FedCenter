@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '33378'
-link: http://accoonline.org/climate102
+item_id: "33378"
+externalUrl: http://accoonline.org/climate102
 programArea: Climate Resilience
 publishDate: 12/18/2018
 subCategory:
-- Construction Design
-- Training, Presentations, and Briefings
-title: Understanding Climate Variability, Extreme Events & Long-Term Climate Change
+  - Construction Design
+  - Training, Presentations, and Briefings
+title:
+  Understanding Climate Variability, Extreme Events & Long-Term Climate Change
   (Online, On Demand)
 ---
 

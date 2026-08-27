@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '38502'
-link: https://www.epa.gov/fera/human-exposure-modeling-databases-support-exposure-modeling
+item_id: "38502"
+externalUrl: https://www.epa.gov/fera/human-exposure-modeling-databases-support-exposure-modeling
 programArea: Chemical Management
 publishDate: 10/5/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Human Exposure Modeling - Databases to Support Exposure Modeling
 ---
 

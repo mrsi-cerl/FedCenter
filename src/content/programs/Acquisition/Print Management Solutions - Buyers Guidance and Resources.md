@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '40686'
-link: http://www.gsa.gov/directives-library/print-management-policies-and-practices
+item_id: "40686"
+externalUrl: http://www.gsa.gov/directives-library/print-management-policies-and-practices
 programArea: Acquisition
 publishDate: 4/6/2023
 subCategory:
-- Guidance
+  - Guidance
 title: Print Management Solutions - Buyers Guidance and Resources
 ---
 

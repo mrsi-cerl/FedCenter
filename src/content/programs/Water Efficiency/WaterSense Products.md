@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '6498'
-link: https://www.epa.gov/watersense/watersense-products
+item_id: "6498"
+externalUrl: https://www.epa.gov/watersense/watersense-products
 programArea: Water Efficiency
 publishDate: 1/25/2007
 subCategory:
-- Management Practices
+  - Management Practices
 title: WaterSense Products
 ---
 

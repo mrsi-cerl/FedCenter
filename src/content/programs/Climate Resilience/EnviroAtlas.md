@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '25735'
-link: http://www.epa.gov/enviroatlas
+item_id: "25735"
+externalUrl: http://www.epa.gov/enviroatlas
 programArea: Climate Resilience
 publishDate: 5/8/2014
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: EnviroAtlas
 ---
 

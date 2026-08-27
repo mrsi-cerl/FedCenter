@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '22592'
-link: http://www.gbig.org/
+item_id: "22592"
+externalUrl: http://www.gbig.org/
 programArea: High Performance Buildings
 publishDate: 11/21/2012
 subCategory:
-- Case Studies
-- Libraries and Repositories
+  - Case Studies
+  - Libraries and Repositories
 title: Green Building Information Gateway (GBIG)
 ---
 

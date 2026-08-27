@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '30274'
-link: http://datacenters.lbl.gov
+item_id: "30274"
+externalUrl: http://datacenters.lbl.gov
 programArea: High Performance Buildings
 publishDate: 9/14/2016
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Center of Expertise for Data Center Energy (CoE)
 ---
 

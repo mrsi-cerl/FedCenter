@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44245'
-link: coast.noaa.gov/digitalcoast/tools/sea-level-calculator.html
+item_id: "44245"
+externalUrl: coast.noaa.gov/digitalcoast/tools/sea-level-calculator.html
 programArea: Climate Resilience
 publishDate: 8/5/2026
 subCategory:
-- Construction Design
+  - Construction Design
 title: Sea Level Calculator
 ---
 

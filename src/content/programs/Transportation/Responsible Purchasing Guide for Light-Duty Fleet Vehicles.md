@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '11354'
-link: http://responsiblepurchasing.org/publications/index.php
+item_id: "11354"
+externalUrl: http://responsiblepurchasing.org/publications/index.php
 programArea: Transportation
 publishDate: 1/26/2009
 subCategory:
-- Acquisition
+  - Acquisition
 title: Responsible Purchasing Guide for Light-Duty Fleet Vehicles
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '44048'
-link: www.energy.gov/cmei/femp/federal-energy-management-tools-and-resources
+item_id: "44048"
+externalUrl: www.energy.gov/cmei/femp/federal-energy-management-tools-and-resources
 programArea: Energy
 publishDate: 5/8/2026
 subCategory:
-- Databases and Software Tools
-- Guidance Documents
+  - Databases and Software Tools
+  - Guidance Documents
 title: Federal Energy Management Tools and Resources
 ---
 

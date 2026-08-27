@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1664'
-link: https://www.gsa.gov/policy-regulations/policy/real-property-policy-division-overview/asset-management/federal-real-property-profile-frpp
+item_id: "1664"
+externalUrl: https://www.gsa.gov/policy-regulations/policy/real-property-policy-division-overview/asset-management/federal-real-property-profile-frpp
 programArea: Chemical Management
 publishDate: 5/16/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Federal Real Property Profile Management System (FRPP MS)
 ---
 

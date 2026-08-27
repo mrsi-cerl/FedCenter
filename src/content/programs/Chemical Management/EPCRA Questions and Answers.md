@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1343'
-link: https://ofmpub.epa.gov/apex/guideme\_ext/f?p=guideme:qa-search
+item_id: "1343"
+externalUrl: https://ofmpub.epa.gov/apex/guideme\_ext/f?p=guideme:qa-search
 programArea: Chemical Management
 publishDate: 4/19/2005
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: EPCRA Questions and Answers
 ---
 

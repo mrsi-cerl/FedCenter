@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36214'
-link: http://www.forestrywebinars.net/webinars/red-cockaded-woodpecker-regulatory-update-and-q-a-1?sr=wp~mkt-whenPub
+item_id: "36214"
+externalUrl: http://www.forestrywebinars.net/webinars/red-cockaded-woodpecker-regulatory-update-and-q-a-1?sr=wp~mkt-whenPub
 programArea: Natural Resources
 publishDate: 12/1/2020
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Red-cockaded Woodpecker Regulatory Update and Q&A (Web-based, On Demand)
 ---
 

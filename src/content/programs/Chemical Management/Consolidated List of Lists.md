@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8722'
-link: http://http:www.epa.gov/epcra/consolidated-list-lists
+item_id: "8722"
+externalUrl: http://http:www.epa.gov/epcra/consolidated-list-lists
 programArea: Chemical Management
 publishDate: 12/27/2007
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Consolidated List of Lists
 ---
 

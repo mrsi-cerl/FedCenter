@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44055'
-link: datacenters.lbl.gov/dcep
+item_id: "44055"
+externalUrl: datacenters.lbl.gov/dcep
 programArea: Energy
 publishDate: 5/15/2026
 subCategory:
-- Data Centers
+  - Data Centers
 title: DOE Data Center Energy Practitioner (DCEP) Training Program
 ---
 

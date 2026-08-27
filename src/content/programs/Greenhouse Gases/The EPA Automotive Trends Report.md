@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '33711'
-link: www.epa.gov/automotive-trends
+item_id: "33711"
+externalUrl: www.epa.gov/automotive-trends
 programArea: Greenhouse Gases
 publishDate: 3/7/2019
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: The EPA Automotive Trends Report
 ---
 

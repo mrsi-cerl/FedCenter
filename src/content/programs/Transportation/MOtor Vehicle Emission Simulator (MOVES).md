@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '14271'
-link: http://www.epa.gov/moves/latest-version-motor-vehicle-emission-simulator-moves
+item_id: "14271"
+externalUrl: http://www.epa.gov/moves/latest-version-motor-vehicle-emission-simulator-moves
 programArea: Transportation
 publishDate: 12/28/2009
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: MOtor Vehicle Emission Simulator (MOVES)
 ---
 

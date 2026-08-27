@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8155'
-link: http://www.responsiblepurchasing.org/
+item_id: "8155"
+externalUrl: http://www.responsiblepurchasing.org/
 programArea: Transportation
 publishDate: 9/6/2007
 subCategory:
-- Organizations
+  - Organizations
 title: Responsible Purchasing Network
 ---
 

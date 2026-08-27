@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '34308'
-link: Rec 18 principles for  reinforceing FFA informal-formal dispute timelines 9-18-2018.pdf
+item_id: "34308"
+externalUrl: Rec 18 principles for  reinforceing FFA informal-formal dispute timelines 9-18-2018.pdf
 programArea: Cleanup
 publishDate: 7/24/2019
 subCategory:
-- Superfund Task Force
-title: Principles for Reinforcing Federal Facility Agreement Informal and Formal Dispute
+  - Superfund Task Force
+title:
+  Principles for Reinforcing Federal Facility Agreement Informal and Formal Dispute
   Timelines
 ---
 

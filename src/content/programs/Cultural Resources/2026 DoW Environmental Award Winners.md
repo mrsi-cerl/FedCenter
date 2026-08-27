@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22458'
-link: http://www.denix.osd.mil/awards/
+item_id: "22458"
+externalUrl: http://www.denix.osd.mil/awards/
 programArea: Cultural Resources
 publishDate: 10/31/2012
 subCategory:
-- Award Winners
+  - Award Winners
 title: 2026 DoW Environmental Award Winners
 ---
 

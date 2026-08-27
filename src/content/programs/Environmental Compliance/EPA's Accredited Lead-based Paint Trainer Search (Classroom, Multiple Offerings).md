@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '21910'
-link: http://cdxapps.epa.gov/ocspp-oppt-lead/training-search
+item_id: "21910"
+externalUrl: http://cdxapps.epa.gov/ocspp-oppt-lead/training-search
 programArea: Environmental Compliance
 publishDate: 7/31/2012
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: EPA's Accredited Lead-based Paint Trainer Search (Classroom, Multiple Offerings)
 ---
 

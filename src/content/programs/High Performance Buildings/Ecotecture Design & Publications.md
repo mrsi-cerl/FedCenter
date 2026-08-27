@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8338'
-link: http://www.ecotecture.com
+item_id: "8338"
+externalUrl: http://www.ecotecture.com
 programArea: High Performance Buildings
 publishDate: 9/24/2007
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: Ecotecture Design & Publications
 ---
 

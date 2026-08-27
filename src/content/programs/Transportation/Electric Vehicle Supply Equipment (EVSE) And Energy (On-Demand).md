@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '40078'
-link: http://www.wbdg.org/continuing-education/femp-courses/fempodw116
+item_id: "40078"
+externalUrl: http://www.wbdg.org/continuing-education/femp-courses/fempodw116
 programArea: Transportation
 publishDate: 10/27/2022
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Electric Vehicle Supply Equipment (EVSE) And Energy (On-Demand)
 ---
 

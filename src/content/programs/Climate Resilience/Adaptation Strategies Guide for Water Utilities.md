@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '27571'
-link: epa817k15001.pdf
+item_id: "27571"
+externalUrl: epa817k15001.pdf
 programArea: Climate Resilience
 publishDate: 4/8/2015
 subCategory:
-- Construction Design
-- Water
+  - Construction Design
+  - Water
 title: Adaptation Strategies Guide for Water Utilities
 ---
 

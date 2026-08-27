@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36329'
-link: http://www.epa.gov/chef
+item_id: "36329"
+externalUrl: http://www.epa.gov/chef
 programArea: Environmental Compliance
 publishDate: 12/31/2020
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: EPA's Clearinghouse for Environmental Finance
 ---
 

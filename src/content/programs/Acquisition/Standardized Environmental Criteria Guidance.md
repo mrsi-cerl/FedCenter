@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '19663'
-link: http://practicegreenhealth.org/procurementcriteriaguidance
+item_id: "19663"
+externalUrl: http://practicegreenhealth.org/procurementcriteriaguidance
 programArea: Acquisition
 publishDate: 10/18/2011
 subCategory:
-- Purchasing Guides
+  - Purchasing Guides
 title: Standardized Environmental Criteria Guidance
 ---
 

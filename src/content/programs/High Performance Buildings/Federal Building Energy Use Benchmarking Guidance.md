@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '26583'
-link: http://energy.gov/eere/femp/downloads/building-energy-use-benchmarking-guidance
+item_id: "26583"
+externalUrl: http://energy.gov/eere/femp/downloads/building-energy-use-benchmarking-guidance
 programArea: High Performance Buildings
 publishDate: 9/19/2014
 subCategory:
-- Guidance & Policy
+  - Guidance & Policy
 title: Federal Building Energy Use Benchmarking Guidance
 ---
 

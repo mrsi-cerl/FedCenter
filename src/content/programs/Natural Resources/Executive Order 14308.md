@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '43325'
-link: https://www.federalregister.gov/documents/2025/06/18/2025-11358/empowering-commonsense-wildfire-prevention-and-response
+item_id: "43325"
+externalUrl: https://www.federalregister.gov/documents/2025/06/18/2025-11358/empowering-commonsense-wildfire-prevention-and-response
 programArea: Natural Resources
 publishDate: 6/18/2025
 subCategory:
-- Land Management
+  - Land Management
 title: Executive Order 14308
 ---
 
-<b> Empowering Commonsense Wildfire Prevention and Response </b></br>  <i> 12 June 2025 </i></br>    This EO responds to the January 2025 Los Angeles wildfires by directing the Federal Government to streamline wildfire response efforts and promote technology-driven, commonsense strategies to help state and local governments better manage land and respond to wildfires.
+<b> Empowering Commonsense Wildfire Prevention and Response </b></br> <i> 12 June 2025 </i></br> This EO responds to the January 2025 Los Angeles wildfires by directing the Federal Government to streamline wildfire response efforts and promote technology-driven, commonsense strategies to help state and local governments better manage land and respond to wildfires.

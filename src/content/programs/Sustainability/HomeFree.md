@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35325'
-link: https://homefree.healthybuilding.net
+item_id: "35325"
+externalUrl: https://homefree.healthybuilding.net
 programArea: Sustainability
 publishDate: 4/10/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: HomeFree
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15510'
-link: http://www.nathpo.org/
+item_id: "15510"
+externalUrl: http://www.nathpo.org/
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: National Association of Tribal Historic Preservation Officers
 ---
 

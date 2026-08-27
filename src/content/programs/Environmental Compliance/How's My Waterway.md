@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22442'
-link: https://mywaterway.epa.gov/
+item_id: "22442"
+externalUrl: https://mywaterway.epa.gov/
 programArea: Environmental Compliance
 publishDate: 10/29/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: How's My Waterway
 ---
 

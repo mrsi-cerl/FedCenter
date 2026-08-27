@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '36151'
-link: http://climateandsecurity.org/wp-content/uploads/2024/11/Army\_Climate\_Resilience\_Handbook\_Change\_1.pdf
+item_id: "36151"
+externalUrl: http://climateandsecurity.org/wp-content/uploads/2024/11/Army\_Climate\_Resilience\_Handbook\_Change\_1.pdf
 programArea: Climate Resilience
 publishDate: 10/30/2020
 subCategory:
-- Construction Design
-- Case Studies
+  - Construction Design
+  - Case Studies
 title: U.S. Army Climate Resilience Handbook
 ---
 

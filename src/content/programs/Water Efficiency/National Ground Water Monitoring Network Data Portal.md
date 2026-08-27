@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '21888'
-link: http://cida.usgs.gov/ngwmn/
+item_id: "21888"
+externalUrl: http://cida.usgs.gov/ngwmn/
 programArea: Water Efficiency
 publishDate: 7/30/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: National Ground Water Monitoring Network Data Portal
 ---
 

@@ -1,21 +1,21 @@
 ---
 expiryDate: null
-item_id: '41016'
-link: https://rcrapublic.epa.gov/files/14957.pdf
+item_id: "41016"
+externalUrl: https://rcrapublic.epa.gov/files/14957.pdf
 programArea: Environmental Compliance
 publishDate: 6/14/2023
 subCategory:
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle I
-- Federal Regulations
-- Guidance for TSCA
-- State Regulations
-- Guidance for RCRA, Subtitle C
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Lithium Battery Recycling Regulatory Status and Frequently Asked Questions
 ---
 

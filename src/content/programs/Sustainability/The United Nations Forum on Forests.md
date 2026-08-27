@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3466'
-link: http://www.un.org/esa/forests/
+item_id: "3466"
+externalUrl: http://www.un.org/esa/forests/
 programArea: Sustainability
 publishDate: 11/21/2005
 subCategory:
-- Organizations
+  - Organizations
 title: The United Nations Forum on Forests
 ---
 

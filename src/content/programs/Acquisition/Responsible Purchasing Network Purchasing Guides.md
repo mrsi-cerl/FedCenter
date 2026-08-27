@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '35564'
-link: http://www.responsiblepurchasing.org/#
+item_id: "35564"
+externalUrl: http://www.responsiblepurchasing.org/#
 programArea: Acquisition
 publishDate: 6/8/2020
 subCategory:
-- Purchasing Guides
+  - Purchasing Guides
 title: Responsible Purchasing Network Purchasing Guides
 ---
 
-Responsible Purchasing Network (RPN) is an international network of buyers dedicated to socially responsible and environmentally sustainable purchasing. Website provides purchasing guides for a variety of items (bottled water, paint, food service ware, rechargeable batteries, etc.)  designed to save money, conserve resources, reduce waste, and improve efficiency.
+Responsible Purchasing Network (RPN) is an international network of buyers dedicated to socially responsible and environmentally sustainable purchasing. Website provides purchasing guides for a variety of items (bottled water, paint, food service ware, rechargeable batteries, etc.) designed to save money, conserve resources, reduce waste, and improve efficiency.

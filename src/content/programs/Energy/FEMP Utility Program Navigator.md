@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43182'
-link: https://www.energy.gov/femp/femp-utility-program-navigator?utm\_medium=email&utm\_source=govdelivery
+item_id: "43182"
+externalUrl: https://www.energy.gov/femp/femp-utility-program-navigator?utm\_medium=email&utm\_source=govdelivery
 programArea: Energy
 publishDate: 4/30/2025
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: FEMP Utility Program Navigator
 ---
 

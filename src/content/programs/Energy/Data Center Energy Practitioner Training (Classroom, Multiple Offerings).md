@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '27136'
-link: http://datacenters.lbl.gov/dcep
+item_id: "27136"
+externalUrl: http://datacenters.lbl.gov/dcep
 programArea: Energy
 publishDate: 1/22/2015
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Data Center Energy Practitioner Training (Classroom, Multiple Offerings)
 ---
 

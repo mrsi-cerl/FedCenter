@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3714'
-link: http://www.epa.gov/brownfields
+item_id: "3714"
+externalUrl: http://www.epa.gov/brownfields
 programArea: Cleanup
 publishDate: 12/20/2005
 subCategory:
-- Brownfields
+  - Brownfields
 title: Brownfields and Land Revitalization
 ---
 

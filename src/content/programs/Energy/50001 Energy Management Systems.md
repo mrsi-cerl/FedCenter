@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '38340'
-link: http://betterbuildingssolutioncenter.energy.gov/iso-50001
+item_id: "38340"
+externalUrl: http://betterbuildingssolutioncenter.energy.gov/iso-50001
 programArea: Energy
 publishDate: 8/27/2021
 subCategory:
-- Guidance Documents
+  - Guidance Documents
 title: 50001 Energy Management Systems
 ---
 

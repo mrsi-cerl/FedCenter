@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '4429'
-link: https://www.epa.gov/sites/production/files/2015-10/documents/2004\_10\_25\_wetlands\_introduction.pdf
+item_id: "4429"
+externalUrl: https://www.epa.gov/sites/production/files/2015-10/documents/2004\_10\_25\_wetlands\_introduction.pdf
 programArea: Natural Resources
 publishDate: 3/14/2006
 subCategory:
-- Wetlands
+  - Wetlands
 title: Constructed Wetlands for Wastewater Treatment and Wildlife Habitat
 ---
 

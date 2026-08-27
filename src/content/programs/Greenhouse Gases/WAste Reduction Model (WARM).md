@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '13269'
-link: https://www.epa.gov/warm
+item_id: "13269"
+externalUrl: https://www.epa.gov/warm
 programArea: Greenhouse Gases
 publishDate: 8/17/2009
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: WAste Reduction Model (WARM)
 ---
 

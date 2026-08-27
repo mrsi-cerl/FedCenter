@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2528'
-link: http://coralreef.noaa.gov/
+item_id: "2528"
+externalUrl: http://coralreef.noaa.gov/
 programArea: Natural Resources
 publishDate: 7/27/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Coral Reef Conservation Program
 ---
 

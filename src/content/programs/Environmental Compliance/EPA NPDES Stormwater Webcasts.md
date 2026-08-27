@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35397'
-link: https://www.epa.gov/npdes/npdes-stormwater-webcasts
+item_id: "35397"
+externalUrl: https://www.epa.gov/npdes/npdes-stormwater-webcasts
 programArea: Environmental Compliance
 publishDate: 4/27/2020
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: EPA NPDES Stormwater Webcasts
 ---
 

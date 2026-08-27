@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1614'
-link: https://wasterecycling.org/
+item_id: "1614"
+externalUrl: https://wasterecycling.org/
 programArea: Pollution Prevention
 publishDate: 5/6/2005
 subCategory:
-- Organizations
+  - Organizations
 title: National Waste and Recycling Association
 ---
 

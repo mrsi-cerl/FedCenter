@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3058'
-link: http://hes.lbl.gov/
+item_id: "3058"
+externalUrl: http://hes.lbl.gov/
 programArea: Energy
 publishDate: 10/5/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Home Energy Saver
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43155'
-link: https://www.clu-in.org/conf/itrc/PFAS-Introductory\_091423/
+item_id: "43155"
+externalUrl: https://www.clu-in.org/conf/itrc/PFAS-Introductory\_091423/
 programArea: PFAS Resources
 publishDate: 4/16/2025
 subCategory:
-- Training, Presentations and Briefings
+  - Training, Presentations and Briefings
 title: ITRC PFAS Introductory Training (Web-based, On-demand)
 ---
 

@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '44025'
-link: epa.gov/pfas/fact-sheet-2026-interim-guidance-destruction-and-disposal-pfas
+item_id: "44025"
+externalUrl: epa.gov/pfas/fact-sheet-2026-interim-guidance-destruction-and-disposal-pfas
 programArea: PFAS Resources
 publishDate: 5/5/2026
 subCategory:
-- Guidance
-title: Fact Sheet for the 2026 Interim Guidance on the Destruction and Disposal of
+  - Guidance
+title:
+  Fact Sheet for the 2026 Interim Guidance on the Destruction and Disposal of
   PFAS
 ---
 

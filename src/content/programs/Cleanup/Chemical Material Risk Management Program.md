@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23032'
-link: https://www.denix.osd.mil/cmrmp/
+item_id: "23032"
+externalUrl: https://www.denix.osd.mil/cmrmp/
 programArea: Cleanup
 publishDate: 1/23/2013
 subCategory:
-- Organizations
+  - Organizations
 title: Chemical Material Risk Management Program
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '24306'
-link: https://www.wbdg.org/ce/nibs/wbdg/wbdg13
+item_id: "24306"
+externalUrl: https://www.wbdg.org/ce/nibs/wbdg/wbdg13
 programArea: High Performance Buildings
 publishDate: 8/12/2013
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Strategies for Sustainable Historic Preservation (Web-based)
 ---
 

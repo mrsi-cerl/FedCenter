@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '6188'
-link: http://training.smartpay.gsa.gov/training\_purchase/lesson04/
+item_id: "6188"
+externalUrl: http://training.smartpay.gsa.gov/training\_purchase/lesson04/
 programArea: Acquisition
 publishDate: 11/21/2006
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: GSA SmartPay Purchase Card Holder Training, Buy Green (Web-based, On Demand)
 ---
 

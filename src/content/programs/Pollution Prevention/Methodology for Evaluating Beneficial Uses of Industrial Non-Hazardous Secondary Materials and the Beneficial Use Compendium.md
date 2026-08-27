@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '17623'
-link: http://www.epa.gov/smm/methodology-evaluating-beneficial-uses-industrial-non-hazardous-secondary-materials-and
+item_id: "17623"
+externalUrl: http://www.epa.gov/smm/methodology-evaluating-beneficial-uses-industrial-non-hazardous-secondary-materials-and
 programArea: Pollution Prevention
 publishDate: 3/30/2011
 subCategory:
-- Libraries and Repositories
-title: Methodology for Evaluating Beneficial Uses of Industrial Non-Hazardous Secondary
+  - Libraries and Repositories
+title:
+  Methodology for Evaluating Beneficial Uses of Industrial Non-Hazardous Secondary
   Materials and the Beneficial Use Compendium
 ---
 

@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '34412'
-link: https://www.epa.gov/cmaq
+item_id: "34412"
+externalUrl: https://www.epa.gov/cmaq
 programArea: Environmental Compliance
 publishDate: 8/30/2019
 subCategory:
-- Databases and Software Tools
-title: Community Multiscale Air Quality Modelling System (CMAQ) For Use In Air Quality
+  - Databases and Software Tools
+title:
+  Community Multiscale Air Quality Modelling System (CMAQ) For Use In Air Quality
   Management
 ---
 

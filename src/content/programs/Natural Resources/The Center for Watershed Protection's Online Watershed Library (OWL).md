@@ -1,15 +1,15 @@
 ---
 expiryDate: null
-item_id: '33184'
-link: http://owl.cwp.org/
+item_id: "33184"
+externalUrl: http://owl.cwp.org/
 programArea: Natural Resources
 publishDate: 10/26/2018
 subCategory:
-- Watershed Management
-- Land Management
-- Training, Presentations, and Briefings
-- Databases and Software Tools
-- Water Resources
+  - Watershed Management
+  - Land Management
+  - Training, Presentations, and Briefings
+  - Databases and Software Tools
+  - Water Resources
 title: The Center for Watershed Protection's Online Watershed Library (OWL)
 ---
 

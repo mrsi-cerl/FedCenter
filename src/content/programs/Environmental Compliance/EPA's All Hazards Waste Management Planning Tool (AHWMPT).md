@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39940'
-link: https://wasteplan.epa.gov/welcome
+item_id: "39940"
+externalUrl: https://wasteplan.epa.gov/welcome
 programArea: Environmental Compliance
 publishDate: 9/15/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EPA's All Hazards Waste Management Planning Tool (AHWMPT)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '24482'
-link: https://www.epa.gov/sites/production/files/2016-03/documents/final\_supplement\_from\_pg\_september\_2012.pdf
+item_id: "24482"
+externalUrl: https://www.epa.gov/sites/production/files/2016-03/documents/final\_supplement\_from\_pg\_september\_2012.pdf
 programArea: Natural Resources
 publishDate: 9/12/2013
 subCategory:
-- Watershed Management
+  - Watershed Management
 title: Incorporating Wetlands into Watershed Planning
 ---
 

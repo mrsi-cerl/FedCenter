@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '34985'
-link: ''
+item_id: "34985"
+externalUrl: ""
 programArea: Cultural Resources
 publishDate: 1/17/2020
 subCategory:
-- National Laws and Statutes
+  - National Laws and Statutes
 title: Preservation of Historical and Archeological Data
 ---
 

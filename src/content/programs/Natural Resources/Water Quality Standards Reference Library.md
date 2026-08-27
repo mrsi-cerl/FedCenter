@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '21144'
-link: http://www.epa.gov/wqs-tech/reference-library-water-quality-standards-policy-and-guidance-documents
+item_id: "21144"
+externalUrl: http://www.epa.gov/wqs-tech/reference-library-water-quality-standards-policy-and-guidance-documents
 programArea: Natural Resources
 publishDate: 5/15/2012
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Water Quality Standards Reference Library
 ---
 

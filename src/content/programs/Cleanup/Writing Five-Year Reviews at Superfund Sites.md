@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20387'
-link: http://https:www.epa.gov/superfund/writing-five-year-reviews-superfund-sites#general\_anchor
+item_id: "20387"
+externalUrl: http://https:www.epa.gov/superfund/writing-five-year-reviews-superfund-sites#general\_anchor
 programArea: Cleanup
 publishDate: 2/8/2012
 subCategory:
-- Post Construction Completion
+  - Post Construction Completion
 title: Writing Five-Year Reviews at Superfund Sites
 ---
 

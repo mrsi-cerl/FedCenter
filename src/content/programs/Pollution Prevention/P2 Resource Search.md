@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '35658'
-link: https://www.epa.gov/p2/p2-resources-search
+item_id: "35658"
+externalUrl: https://www.epa.gov/p2/p2-resources-search
 programArea: Pollution Prevention
 publishDate: 6/26/2020
 subCategory:
-- Case Studies
-- Libraries and Repositories
+  - Case Studies
+  - Libraries and Repositories
 title: P2 Resource Search
 ---
 

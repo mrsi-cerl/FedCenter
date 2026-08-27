@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '41076'
-link: https://betterbuildingssolutioncenter.energy.gov/low-carbon-pilot-toolkit
+item_id: "41076"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/low-carbon-pilot-toolkit
 programArea: Climate Resilience
 publishDate: 6/29/2023
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Low Carbon Pilot Toolkit
 ---
 

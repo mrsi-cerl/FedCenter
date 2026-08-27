@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3787'
-link: http://www.ethanol.org/
+item_id: "3787"
+externalUrl: http://www.ethanol.org/
 programArea: Transportation
 publishDate: 1/4/2006
 subCategory:
-- Organizations
+  - Organizations
 title: American Coalition for Ethanol (ACE)
 ---
 

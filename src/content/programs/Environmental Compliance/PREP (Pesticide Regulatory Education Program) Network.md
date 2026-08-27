@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '27773'
-link: https://agsci.colostate.edu/agbio/prep/
+item_id: "27773"
+externalUrl: https://agsci.colostate.edu/agbio/prep/
 programArea: Environmental Compliance
 publishDate: 5/14/2015
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: PREP (Pesticide Regulatory Education Program) Network
 ---
 

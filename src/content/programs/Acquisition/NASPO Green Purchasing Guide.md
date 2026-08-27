@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35563'
-link: http://www.naspo.org/research-and-innovation/content-library/sustainable-purchasing/
+item_id: "35563"
+externalUrl: http://www.naspo.org/research-and-innovation/content-library/sustainable-purchasing/
 programArea: Acquisition
 publishDate: 6/8/2020
 subCategory:
-- Purchasing Guides
+  - Purchasing Guides
 title: NASPO Green Purchasing Guide
 ---
 

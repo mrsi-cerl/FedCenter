@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41530'
-link: https://nam.edu/journeymap.php
+item_id: "41530"
+externalUrl: https://nam.edu/journeymap.php
 programArea: Sustainability
 publishDate: 11/2/2023
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Sustainability Journey Map & Resource Repository, National Academy of Medicine
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '40846'
-link: http://coast.noaa.gov/digitalcoast/tools/slr.html
+item_id: "40846"
+externalUrl: http://coast.noaa.gov/digitalcoast/tools/slr.html
 programArea: Climate Resilience
 publishDate: 5/19/2023
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Sea Level Rise Viewer
 ---
 

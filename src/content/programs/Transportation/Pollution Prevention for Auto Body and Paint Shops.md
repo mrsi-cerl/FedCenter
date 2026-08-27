@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3880'
-link: https://dtsc.ca.gov/auto-body-and-paint-abp/
+item_id: "3880"
+externalUrl: https://dtsc.ca.gov/auto-body-and-paint-abp/
 programArea: Transportation
 publishDate: 1/11/2006
 subCategory:
-- Pollution Prevention Opportunities
+  - Pollution Prevention Opportunities
 title: Pollution Prevention for Auto Body and Paint Shops
 ---
 

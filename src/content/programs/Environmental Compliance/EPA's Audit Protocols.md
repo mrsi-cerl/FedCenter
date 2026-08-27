@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '683'
-link: http://www.epa.gov/compliance/audit-protocols
+item_id: "683"
+externalUrl: http://www.epa.gov/compliance/audit-protocols
 programArea: Environmental Compliance
 publishDate: 1/28/2005
 subCategory:
-- Compliance Auditing
+  - Compliance Auditing
 title: EPA's Audit Protocols
 ---
 

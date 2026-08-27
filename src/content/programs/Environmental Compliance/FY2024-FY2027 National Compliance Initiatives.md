@@ -1,21 +1,21 @@
 ---
 expiryDate: null
-item_id: '41389'
-link: https://www.epa.gov/enforcement/national-enforcement-and-compliance-initiatives
+item_id: "41389"
+externalUrl: https://www.epa.gov/enforcement/national-enforcement-and-compliance-initiatives
 programArea: Environmental Compliance
 publishDate: 9/20/2023
 subCategory:
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle I
-- Federal Regulations
-- Guidance for TSCA
-- State Regulations
-- Guidance for RCRA, Subtitle C
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: FY2024-FY2027 National Compliance Initiatives
 ---
 

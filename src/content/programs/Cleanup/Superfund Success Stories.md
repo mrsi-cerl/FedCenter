@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3707'
-link: http://www.epa.gov/superfund/superfund-success-stories
+item_id: "3707"
+externalUrl: http://www.epa.gov/superfund/superfund-success-stories
 programArea: Cleanup
 publishDate: 12/20/2005
 subCategory:
-- General
+  - General
 title: Superfund Success Stories
 ---
 

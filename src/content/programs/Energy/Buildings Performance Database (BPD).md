@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '33436'
-link: https://www.energy.gov/eere/buildings/building-performance-database
+item_id: "33436"
+externalUrl: https://www.energy.gov/eere/buildings/building-performance-database
 programArea: Energy
 publishDate: 1/7/2019
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Buildings Performance Database (BPD)
 ---
 

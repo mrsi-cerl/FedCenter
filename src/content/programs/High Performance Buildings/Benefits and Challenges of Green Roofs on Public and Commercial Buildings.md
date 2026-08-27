@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '31187'
-link: https://www.gsa.gov/system/files/The\_Benefits\_and\_Challenges\_of\_Green\_Roofs\_on\_Public\_and\_Commercial\_Buildings.pdf
+item_id: "31187"
+externalUrl: https://www.gsa.gov/system/files/The\_Benefits\_and\_Challenges\_of\_Green\_Roofs\_on\_Public\_and\_Commercial\_Buildings.pdf
 programArea: High Performance Buildings
 publishDate: 4/26/2017
 subCategory:
-- Case Studies
+  - Case Studies
 title: Benefits and Challenges of Green Roofs on Public and Commercial Buildings
 ---
 

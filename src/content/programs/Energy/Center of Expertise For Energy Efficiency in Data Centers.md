@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '28534'
-link: https://datacenters.lbl.gov/
+item_id: "28534"
+externalUrl: https://datacenters.lbl.gov/
 programArea: Energy
 publishDate: 9/28/2015
 subCategory:
-- Libraries and Repositories
-- Data Centers
+  - Libraries and Repositories
+  - Data Centers
 title: Center of Expertise For Energy Efficiency in Data Centers
 ---
 

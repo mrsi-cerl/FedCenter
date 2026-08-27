@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1607'
-link: https://www.acquisition.gov/far/part-23
+item_id: "1607"
+externalUrl: https://www.acquisition.gov/far/part-23
 programArea: Acquisition
 publishDate: 5/4/2005
 subCategory:
-- Laws, Regulations, and Agreements
+  - Laws, Regulations, and Agreements
 title: Federal Acquisition Regulations (FAR) Part 23
 ---
 

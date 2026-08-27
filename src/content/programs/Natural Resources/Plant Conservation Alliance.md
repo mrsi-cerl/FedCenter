@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8345'
-link: https://www.blm.gov/programs/natural-resources/native-plant-communities/national-seed-strategy/pca
+item_id: "8345"
+externalUrl: https://www.blm.gov/programs/natural-resources/native-plant-communities/national-seed-strategy/pca
 programArea: Natural Resources
 publishDate: 9/25/2007
 subCategory:
-- Organizations
+  - Organizations
 title: Plant Conservation Alliance
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '11251'
-link: http://openei.org/wiki/PRIMRE/Databases/Projects\_Database
+item_id: "11251"
+externalUrl: http://openei.org/wiki/PRIMRE/Databases/Projects\_Database
 programArea: Energy
 publishDate: 1/8/2009
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Marine Energy Projects Database
 ---
 

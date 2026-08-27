@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41556'
-link: https://www.energy.gov/femp/interagency-collaboration-and-working-groups?utm\_medium=email&utm\_source=govdelivery
+item_id: "41556"
+externalUrl: https://www.energy.gov/femp/interagency-collaboration-and-working-groups?utm\_medium=email&utm\_source=govdelivery
 programArea: Energy
 publishDate: 11/15/2023
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: FEMP's Interagency Collaboration and Working Groups
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2762'
-link: http://www.epa.gov/statelocalclimate
+item_id: "2762"
+externalUrl: http://www.epa.gov/statelocalclimate
 programArea: Energy
 publishDate: 9/7/2005
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Energy Resources for State, Local, and Tribal Governments
 ---
 

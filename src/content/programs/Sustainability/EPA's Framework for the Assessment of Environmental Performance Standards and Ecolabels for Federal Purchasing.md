@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '39055'
-link: https://www.epa.gov/greenerproducts/framework-assessment-environmental-performance-standards-and-ecolabels-federal
+item_id: "39055"
+externalUrl: https://www.epa.gov/greenerproducts/framework-assessment-environmental-performance-standards-and-ecolabels-federal
 programArea: Sustainability
 publishDate: 2/7/2022
 subCategory:
-- Federal Agreements and Guidance
-title: EPA's Framework for the Assessment of Environmental Performance Standards and
+  - Federal Agreements and Guidance
+title:
+  EPA's Framework for the Assessment of Environmental Performance Standards and
   Ecolabels for Federal Purchasing
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23356'
-link: https://openei.org/wiki/FRee\_Energy\_Data\_(FRED)
+item_id: "23356"
+externalUrl: https://openei.org/wiki/FRee\_Energy\_Data\_(FRED)
 programArea: Energy
 publishDate: 5/7/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Free Energy Data (FRED)
 ---
 

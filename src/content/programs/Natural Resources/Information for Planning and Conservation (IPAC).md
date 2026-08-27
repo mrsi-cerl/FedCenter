@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28610'
-link: https://ecos.fws.gov/ipac/
+item_id: "28610"
+externalUrl: https://ecos.fws.gov/ipac/
 programArea: Natural Resources
 publishDate: 10/13/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Information for Planning and Conservation (IPAC)
 ---
 

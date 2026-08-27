@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20306'
-link: http://www.roofcalc.com/
+item_id: "20306"
+externalUrl: http://www.roofcalc.com/
 programArea: High Performance Buildings
 publishDate: 1/27/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Roof Savings Calculator (RSC)
 ---
 

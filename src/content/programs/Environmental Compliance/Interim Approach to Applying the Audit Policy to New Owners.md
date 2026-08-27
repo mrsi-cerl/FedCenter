@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '12210'
-link: https://www.epa.gov/compliance/epas-interim-approach-applying-audit-policy-new-owners
+item_id: "12210"
+externalUrl: https://www.epa.gov/compliance/epas-interim-approach-applying-audit-policy-new-owners
 programArea: Environmental Compliance
 publishDate: 4/14/2009
 subCategory:
-- Compliance Auditing
+  - Compliance Auditing
 title: Interim Approach to Applying the Audit Policy to New Owners
 ---
 

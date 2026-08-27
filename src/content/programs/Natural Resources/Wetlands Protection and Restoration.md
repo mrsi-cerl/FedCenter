@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2455'
-link: http://www.epa.gov/owow/wetlands/
+item_id: "2455"
+externalUrl: http://www.epa.gov/owow/wetlands/
 programArea: Natural Resources
 publishDate: 7/14/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Wetlands Protection and Restoration
 ---
 

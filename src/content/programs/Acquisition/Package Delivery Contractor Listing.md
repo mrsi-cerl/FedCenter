@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29026'
-link: http://www.gsaelibrary.gsa.gov/ElibMain/sinDetails.do?scheduleNumber=MAS&specialItemNumber=492110&executeQuery=YES
+item_id: "29026"
+externalUrl: http://www.gsaelibrary.gsa.gov/ElibMain/sinDetails.do?scheduleNumber=MAS&specialItemNumber=492110&executeQuery=YES
 programArea: Acquisition
 publishDate: 1/19/2016
 subCategory:
-- Case Studies
+  - Case Studies
 title: Package Delivery Contractor Listing
 ---
 

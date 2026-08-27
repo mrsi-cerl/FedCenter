@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '28644'
-link: https://sftool.gov/Content/attachments/EO\_13693-comparison\_to\_earlier.pdf
+item_id: "28644"
+externalUrl: https://sftool.gov/Content/attachments/EO\_13693-comparison\_to\_earlier.pdf
 programArea: Climate Resilience
 publishDate: 10/20/2015
 subCategory:
-- Construction Design
-- Federal
+  - Construction Design
+  - Federal
 title: Executive Order 13693, Comparison With Prior Authorities
 ---
 

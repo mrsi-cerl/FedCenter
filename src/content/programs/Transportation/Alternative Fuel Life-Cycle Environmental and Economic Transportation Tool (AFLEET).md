@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '31857'
-link: https://greet.es.anl.gov/afleet
+item_id: "31857"
+externalUrl: https://greet.es.anl.gov/afleet
 programArea: Transportation
 publishDate: 10/11/2017
 subCategory:
-- Databases and Software Tools
-title: Alternative Fuel Life-Cycle Environmental and Economic Transportation Tool
+  - Databases and Software Tools
+title:
+  Alternative Fuel Life-Cycle Environmental and Economic Transportation Tool
   (AFLEET)
 ---
 

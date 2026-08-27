@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '24344'
-link: http://data.cnra.ca.gov/dataset/landscape-conservation-cooperatives
+item_id: "24344"
+externalUrl: http://data.cnra.ca.gov/dataset/landscape-conservation-cooperatives
 programArea: Natural Resources
 publishDate: 8/19/2013
 subCategory:
-- Organizations
+  - Organizations
 title: Landscape Conservation Cooperatives
 ---
 

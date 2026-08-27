@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35659'
-link: http://enviro.epa.gov/facts/tri/p2.html
+item_id: "35659"
+externalUrl: http://enviro.epa.gov/facts/tri/p2.html
 programArea: Pollution Prevention
 publishDate: 6/26/2020
 subCategory:
-- Case Studies
+  - Case Studies
 title: TRI Pollution Prevention (P2) Search
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41589'
-link: https://www.globalchange.gov/our-work/fourth-national-climate-assessment
+item_id: "41589"
+externalUrl: https://www.globalchange.gov/our-work/fourth-national-climate-assessment
 programArea: Greenhouse Gases
 publishDate: 11/27/2023
 subCategory:
-- Case Studies
+  - Case Studies
 title: Fourth National Climate Assessment
 ---
 

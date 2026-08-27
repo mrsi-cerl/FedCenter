@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '13849'
-link: http://ghginstitute.org/product/311-ghg-accounting-for-landfill-methane-projects/
+item_id: "13849"
+externalUrl: http://ghginstitute.org/product/311-ghg-accounting-for-landfill-methane-projects/
 programArea: Greenhouse Gases
 publishDate: 10/27/2009
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: GHG Accounting for Landfill Gas Methane Projects (Web-based, On Demand)
 ---
 

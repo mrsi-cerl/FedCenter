@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '11706'
-link: http://www.tsi.dot.gov/
+item_id: "11706"
+externalUrl: http://www.tsi.dot.gov/
 programArea: Chemical Management
 publishDate: 2/17/2009
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: DOT Transportation Safety Institute (TSI)
 ---
 
-TSI is a part of the U.S.Department of Transportation (DOT) and was initially created in 1971 to support DOT's mission of ensuring safety and security in the nation's transportation system.  They offer courses in hazardous materials transportation, hazardous waste transportation, and other forms of transportation.
+TSI is a part of the U.S.Department of Transportation (DOT) and was initially created in 1971 to support DOT's mission of ensuring safety and security in the nation's transportation system. They offer courses in hazardous materials transportation, hazardous waste transportation, and other forms of transportation.

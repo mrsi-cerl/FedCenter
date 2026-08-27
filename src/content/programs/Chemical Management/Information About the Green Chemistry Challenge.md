@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1205'
-link: http://www.epa.gov/greenchemistry/information-about-green-chemistry-challenge
+item_id: "1205"
+externalUrl: http://www.epa.gov/greenchemistry/information-about-green-chemistry-challenge
 programArea: Chemical Management
 publishDate: 3/29/2005
 subCategory:
-- Award Winners
+  - Award Winners
 title: Information About the Green Chemistry Challenge
 ---
 

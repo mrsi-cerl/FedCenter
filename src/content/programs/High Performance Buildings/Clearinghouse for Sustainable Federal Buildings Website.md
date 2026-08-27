@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39071'
-link: http://sftool.gov/learn#learn-fed-requirements
+item_id: "39071"
+externalUrl: http://sftool.gov/learn#learn-fed-requirements
 programArea: High Performance Buildings
 publishDate: 2/10/2022
 subCategory:
-- Guiding Principles and LEED
+  - Guiding Principles and LEED
 title: Clearinghouse for Sustainable Federal Buildings Website
 ---
 

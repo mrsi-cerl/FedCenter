@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '26575'
-link: https://www.gsa.gov/governmentwide-initiatives/federal-highperformance-buildings/resource-library/energy-water/fort-carson-energy-research-project
+item_id: "26575"
+externalUrl: https://www.gsa.gov/governmentwide-initiatives/federal-highperformance-buildings/resource-library/energy-water/fort-carson-energy-research-project
 programArea: High Performance Buildings
 publishDate: 9/18/2014
 subCategory:
-- Case Studies
+  - Case Studies
 title: Fort Carson Energy Research Project
 ---
 
-To help the Army and Fort Carson achieve their Net-Zero goals, GSA partnered with them to conduct the Fort Carson Energy Research Project. The research team tested and analyzed strategies to minimize energy use, including both improving building systems and influencing occupant behavior. The researchers targeted strategies with the highest return on investment over the lifecycle of the buildings studied.  This report was issued in 2014.
+To help the Army and Fort Carson achieve their Net-Zero goals, GSA partnered with them to conduct the Fort Carson Energy Research Project. The research team tested and analyzed strategies to minimize energy use, including both improving building systems and influencing occupant behavior. The researchers targeted strategies with the highest return on investment over the lifecycle of the buildings studied. This report was issued in 2014.

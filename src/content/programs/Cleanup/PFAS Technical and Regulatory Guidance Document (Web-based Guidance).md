@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35364'
-link: pfas-1.itrcweb.org/
+item_id: "35364"
+externalUrl: pfas-1.itrcweb.org/
 programArea: Cleanup
 publishDate: 4/17/2020
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: PFAS Technical and Regulatory Guidance Document (Web-based Guidance)
 ---
 

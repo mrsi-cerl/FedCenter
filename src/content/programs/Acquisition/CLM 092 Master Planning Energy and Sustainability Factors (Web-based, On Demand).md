@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35566'
-link: http://www.waru.edu/courses/clm-092
+item_id: "35566"
+externalUrl: http://www.waru.edu/courses/clm-092
 programArea: Acquisition
 publishDate: 6/8/2020
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: CLM 092 Master Planning Energy and Sustainability Factors (Web-based, On Demand)
 ---
 

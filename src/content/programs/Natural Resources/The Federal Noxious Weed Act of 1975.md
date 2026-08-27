@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2435'
-link: https://www.fws.gov/law/federal-noxious-weed-act
+item_id: "2435"
+externalUrl: https://www.fws.gov/law/federal-noxious-weed-act
 programArea: Natural Resources
 publishDate: 7/14/2005
 subCategory:
-- Land Management
+  - Land Management
 title: The Federal Noxious Weed Act of 1975
 ---
 

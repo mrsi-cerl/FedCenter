@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '28167'
-link: https://www.epa.gov/water-research/storm-water-management-model-swmm
+item_id: "28167"
+externalUrl: https://www.epa.gov/water-research/storm-water-management-model-swmm
 programArea: Climate Resilience
 publishDate: 7/10/2015
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Storm Water Management Model Climate Adjustment Tool (SWMM-CAT)
 ---
 

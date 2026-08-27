@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '42858'
-link: https://www.energy.gov/femp/federal-building-energy-efficiency-rules-and-requirements?utm\_medium=email&utm\_source=govdelivery
+item_id: "42858"
+externalUrl: https://www.energy.gov/femp/federal-building-energy-efficiency-rules-and-requirements?utm\_medium=email&utm\_source=govdelivery
 programArea: Energy
 publishDate: 1/21/2025
 subCategory:
-- Guidance Documents
+  - Guidance Documents
 title: Federal Building Energy Efficiency Rules and Requirements
 ---
 

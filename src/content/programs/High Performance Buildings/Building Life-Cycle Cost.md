@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44156'
-link: www.wbdg.org/ar/tools/blcc
+item_id: "44156"
+externalUrl: www.wbdg.org/ar/tools/blcc
 programArea: High Performance Buildings
 publishDate: 6/25/2026
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Building Life-Cycle Cost
 ---
 

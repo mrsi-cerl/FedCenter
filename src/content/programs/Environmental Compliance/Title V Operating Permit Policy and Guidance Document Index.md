@@ -1,21 +1,21 @@
 ---
 expiryDate: null
-item_id: '32272'
-link: https://www.epa.gov/title-v-operating-permits/title-v-operating-permit-policy-and-guidance-document-index
+item_id: "32272"
+externalUrl: https://www.epa.gov/title-v-operating-permits/title-v-operating-permit-policy-and-guidance-document-index
 programArea: Environmental Compliance
 publishDate: 2/12/2018
 subCategory:
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle I
-- Federal Regulations
-- Guidance for TSCA
-- State Regulations
-- Guidance for RCRA, Subtitle C
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Title V Operating Permit Policy and Guidance Document Index
 ---
 

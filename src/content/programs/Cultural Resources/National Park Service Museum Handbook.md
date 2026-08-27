@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15531'
-link: https://www.nps.gov/subjects/museums/museumhandbook.htm
+item_id: "15531"
+externalUrl: https://www.nps.gov/subjects/museums/museumhandbook.htm
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Implementation Guidance
+  - Implementation Guidance
 title: National Park Service Museum Handbook
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28368'
-link: http://echo.epa.gov/help/training
+item_id: "28368"
+externalUrl: http://echo.epa.gov/help/training
 programArea: Environmental Compliance
 publishDate: 9/2/2015
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: ECHO Training for the Public (Web-based, On Demand)
 ---
 

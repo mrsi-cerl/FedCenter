@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35323'
-link: https://www.epa.gov/indoor-air-quality-iaq/indoor-air-quality-science-and-technology#webinar
+item_id: "35323"
+externalUrl: https://www.epa.gov/indoor-air-quality-iaq/indoor-air-quality-science-and-technology#webinar
 programArea: High Performance Buildings
 publishDate: 4/9/2020
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: EPA's Indoor Air Quality Science Webinars (Web-based, On Demand)
 ---
 

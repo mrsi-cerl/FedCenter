@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '42740'
-link: https://www.ewg.org/interactive-maps/pfas\_contamination/
+item_id: "42740"
+externalUrl: https://www.ewg.org/interactive-maps/pfas\_contamination/
 programArea: Cleanup
 publishDate: 12/10/2024
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: PFAS Contamination in the U.S. Interactive Map
 ---
 

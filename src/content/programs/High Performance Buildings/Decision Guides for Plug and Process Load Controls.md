@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29035'
-link: http://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Decision\_Guides\_for\_PPL\_Controls\_0.pdf
+item_id: "29035"
+externalUrl: http://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Decision\_Guides\_for\_PPL\_Controls\_0.pdf
 programArea: High Performance Buildings
 publishDate: 1/22/2016
 subCategory:
-- Case Studies
+  - Case Studies
 title: Decision Guides for Plug and Process Load Controls
 ---
 

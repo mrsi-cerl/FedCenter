@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3287'
-link: https://ppms.gov/login
+item_id: "3287"
+externalUrl: https://ppms.gov/login
 programArea: Acquisition
 publishDate: 10/31/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Personal Property Management System
 ---
 

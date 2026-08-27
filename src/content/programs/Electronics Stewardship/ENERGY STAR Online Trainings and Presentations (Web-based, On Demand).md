@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1024'
-link: http://www.energystar.gov/buildings/training/recorded-webinars
+item_id: "1024"
+externalUrl: http://www.energystar.gov/buildings/training/recorded-webinars
 programArea: Electronics Stewardship
 publishDate: 3/15/2005
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: ENERGY STAR Online Trainings and Presentations (Web-based, On Demand)
 ---
 

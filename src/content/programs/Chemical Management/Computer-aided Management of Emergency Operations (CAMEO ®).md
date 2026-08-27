@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '1061'
-link: https://www.epa.gov/cameo/cameo-training-and-events
+item_id: "1061"
+externalUrl: https://www.epa.gov/cameo/cameo-training-and-events
 programArea: Chemical Management
 publishDate: 3/21/2005
 subCategory:
-- Training, Presentations, and Briefings
-- Databases and Software Tools
+  - Training, Presentations, and Briefings
+  - Databases and Software Tools
 title: Computer-aided Management of Emergency Operations (CAMEO ®)
 ---
 

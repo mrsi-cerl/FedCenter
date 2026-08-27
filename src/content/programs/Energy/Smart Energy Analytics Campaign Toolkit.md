@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36622'
-link: https://betterbuildingssolutioncenter.energy.gov/smart-energy-analytics-campaign-toolkit
+item_id: "36622"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/smart-energy-analytics-campaign-toolkit
 programArea: Energy
 publishDate: 3/9/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Smart Energy Analytics Campaign Toolkit
 ---
 

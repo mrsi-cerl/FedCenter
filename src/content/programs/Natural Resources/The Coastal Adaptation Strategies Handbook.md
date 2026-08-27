@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '30492'
-link: https://www.nps.gov/subjects/climatechange/coastalhandbook.htm
+item_id: "30492"
+externalUrl: https://www.nps.gov/subjects/climatechange/coastalhandbook.htm
 programArea: Natural Resources
 publishDate: 11/7/2016
 subCategory:
-- Coastal Zones
+  - Coastal Zones
 title: The Coastal Adaptation Strategies Handbook
 ---
 

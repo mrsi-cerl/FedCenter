@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35532'
-link: https://www.epa.gov/sites/production/files/2015-09/documents/federalprintmgmttemplate.pdf
+item_id: "35532"
+externalUrl: https://www.epa.gov/sites/production/files/2015-09/documents/federalprintmgmttemplate.pdf
 programArea: Acquisition
 publishDate: 6/3/2020
 subCategory:
-- Guidance
+  - Guidance
 title: Federal Sustainable Print Management Policy Template
 ---
 

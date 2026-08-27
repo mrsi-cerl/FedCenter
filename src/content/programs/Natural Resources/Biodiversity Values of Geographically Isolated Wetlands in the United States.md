@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '3644'
-link: http://www.natureserve.org/conservation-tools/projects/biodiversity-values-geographically-isolated-wetlands-united-states
+item_id: "3644"
+externalUrl: http://www.natureserve.org/conservation-tools/projects/biodiversity-values-geographically-isolated-wetlands-united-states
 programArea: Natural Resources
 publishDate: 12/13/2005
 subCategory:
-- Wetlands
+  - Wetlands
 title: Biodiversity Values of Geographically Isolated Wetlands in the United States
 ---
 
-This report was issued by NatureServe, a nonprofit conservation group that supports and supplements species data collection and analysis efforts at the U.S. Geological Survey, the U.S. Fish and Wildlife Service (FWS), and the Environmental Protection Agency.  This report indicates that that nearly a third of at-risk plant and animal species found on wetlands, which are geographically isolated from lakes, rivers, and streams, cannot be protected either by the nation's clean water or endangered species laws.
+This report was issued by NatureServe, a nonprofit conservation group that supports and supplements species data collection and analysis efforts at the U.S. Geological Survey, the U.S. Fish and Wildlife Service (FWS), and the Environmental Protection Agency. This report indicates that that nearly a third of at-risk plant and animal species found on wetlands, which are geographically isolated from lakes, rivers, and streams, cannot be protected either by the nation's clean water or endangered species laws.

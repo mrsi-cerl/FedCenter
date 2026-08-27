@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '21871'
-link: http://www.thegbi.org/
+item_id: "21871"
+externalUrl: http://www.thegbi.org/
 programArea: High Performance Buildings
 publishDate: 7/25/2012
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Green Building Initiative (GBI)
 ---
 

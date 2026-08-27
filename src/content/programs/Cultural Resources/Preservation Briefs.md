@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15522'
-link: http://www.nps.gov/orgs/1739/preservation-briefs.htm
+item_id: "15522"
+externalUrl: http://www.nps.gov/orgs/1739/preservation-briefs.htm
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Case Studies
+  - Case Studies
 title: Preservation Briefs
 ---
 

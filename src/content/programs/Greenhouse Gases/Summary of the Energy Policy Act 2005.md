@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '13252'
-link: http://www.epa.gov/laws-regulations/summary-energy-policy-act
+item_id: "13252"
+externalUrl: http://www.epa.gov/laws-regulations/summary-energy-policy-act
 programArea: Greenhouse Gases
 publishDate: 8/17/2009
 subCategory:
-- National
+  - National
 title: Summary of the Energy Policy Act 2005
 ---
 

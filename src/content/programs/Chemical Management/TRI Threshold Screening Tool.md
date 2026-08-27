@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '27818'
-link: https://cdxnode64.epa.gov/cdx-tri-threshold/action/Home
+item_id: "27818"
+externalUrl: https://cdxnode64.epa.gov/cdx-tri-threshold/action/Home
 programArea: Chemical Management
 publishDate: 5/20/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: TRI Threshold Screening Tool
 ---
 

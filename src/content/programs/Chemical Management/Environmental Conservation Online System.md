@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1893'
-link: https://ecos.fws.gov/ecp/
+item_id: "1893"
+externalUrl: https://ecos.fws.gov/ecp/
 programArea: Chemical Management
 publishDate: 6/23/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Environmental Conservation Online System
 ---
 

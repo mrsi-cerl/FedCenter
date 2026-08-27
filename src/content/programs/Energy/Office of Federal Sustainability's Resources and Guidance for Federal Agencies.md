@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '34062'
-link: https://www.sustainability.gov/resources.html
+item_id: "34062"
+externalUrl: https://www.sustainability.gov/resources.html
 programArea: Energy
 publishDate: 5/30/2019
 subCategory:
-- Guidance Documents
+  - Guidance Documents
 title: Office of Federal Sustainability's Resources and Guidance for Federal Agencies
 ---
 

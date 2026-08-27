@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3587'
-link: http://www.epa.gov/epcra/tier2-submit-software
+item_id: "3587"
+externalUrl: http://www.epa.gov/epcra/tier2-submit-software
 programArea: Chemical Management
 publishDate: 12/6/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Tier2 Submit Software
 ---
 

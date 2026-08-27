@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '27708'
-link: https://www.govtrack.us/congress/bills/114/s535/text
+item_id: "27708"
+externalUrl: https://www.govtrack.us/congress/bills/114/s535/text
 programArea: Energy
 publishDate: 5/4/2015
 subCategory:
-- Federal Legislation & Policy
+  - Federal Legislation & Policy
 title: Energy Efficiency Improvement Act of 2015
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '4331'
-link: http://www.epa.gov/iris/
+item_id: "4331"
+externalUrl: http://www.epa.gov/iris/
 programArea: Chemical Management
 publishDate: 3/1/2006
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: IRIS Database for Risk Assessment
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '714'
-link: http://energy.gov/nepa/downloads/national-environmental-policy-act-1969
+item_id: "714"
+externalUrl: http://energy.gov/nepa/downloads/national-environmental-policy-act-1969
 programArea: NEPA
 publishDate: 1/31/2005
 subCategory:
-- Executive Orders and Laws
+  - Executive Orders and Laws
 title: National Environmental Policy Act of 1969
 ---
 

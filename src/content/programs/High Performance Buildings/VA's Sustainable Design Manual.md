@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '25728'
-link: http://www.cfm.va.gov/til/sustain/dmSustain.pdf
+item_id: "25728"
+externalUrl: http://www.cfm.va.gov/til/sustain/dmSustain.pdf
 programArea: High Performance Buildings
 publishDate: 5/7/2014
 subCategory:
-- Construction Guidelines and Criteria
+  - Construction Guidelines and Criteria
 title: VA's Sustainable Design Manual
 ---
 
-This May 2014 document was developed by VA's Office of Construction and Facilities Management in cooperation with other VA partners.  The intent of the document is to consolidate the wide range of sustainable design requirements into one easy-to-navigate resource.
+This May 2014 document was developed by VA's Office of Construction and Facilities Management in cooperation with other VA partners. The intent of the document is to consolidate the wide range of sustainable design requirements into one easy-to-navigate resource.

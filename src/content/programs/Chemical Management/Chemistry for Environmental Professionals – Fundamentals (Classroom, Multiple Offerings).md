@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '8995'
-link: http://www.trainex.org/offeringslist.cfm?courseid=16
+item_id: "8995"
+externalUrl: http://www.trainex.org/offeringslist.cfm?courseid=16
 programArea: Chemical Management
 publishDate: 2/7/2008
 subCategory:
-- Training, Presentations, and Briefings
-title: Chemistry for Environmental Professionals – Fundamentals (Classroom, Multiple
+  - Training, Presentations, and Briefings
+title:
+  Chemistry for Environmental Professionals – Fundamentals (Classroom, Multiple
   Offerings)
 ---
 

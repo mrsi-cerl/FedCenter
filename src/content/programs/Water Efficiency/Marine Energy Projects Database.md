@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '18264'
-link: http://openei.org/wiki/PRIMRE/Databases/Projects\_Database
+item_id: "18264"
+externalUrl: http://openei.org/wiki/PRIMRE/Databases/Projects\_Database
 programArea: Water Efficiency
 publishDate: 6/10/2011
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Marine Energy Projects Database
 ---
 

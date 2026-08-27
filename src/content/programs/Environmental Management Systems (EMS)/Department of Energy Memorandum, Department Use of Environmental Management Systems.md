@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '30902'
-link: DOE EMS Memo 2016.pdf
+item_id: "30902"
+externalUrl: DOE EMS Memo 2016.pdf
 programArea: Environmental Management Systems (EMS)
 publishDate: 2/23/2017
 subCategory:
-- Federal Agency Guidance and Policies
-title: Department of Energy Memorandum, Department Use of Environmental Management
+  - Federal Agency Guidance and Policies
+title:
+  Department of Energy Memorandum, Department Use of Environmental Management
   Systems
 ---
 

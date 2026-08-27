@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '30744'
-link: http://www.epa.gov/smartgrowth/smart-growth-fixes-climate-adaptation-and-resilience
+item_id: "30744"
+externalUrl: http://www.epa.gov/smartgrowth/smart-growth-fixes-climate-adaptation-and-resilience
 programArea: Climate Resilience
 publishDate: 1/18/2017
 subCategory:
-- Construction Design
-- Case Studies
+  - Construction Design
+  - Case Studies
 title: Smart Growth Fixes for Climate Adaptation and Resilience
 ---
 

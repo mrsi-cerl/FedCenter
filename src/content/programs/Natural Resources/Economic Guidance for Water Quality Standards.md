@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23353'
-link: http://www.epa.gov/wqs-tech/economic-guidance-water-quality-standards
+item_id: "23353"
+externalUrl: http://www.epa.gov/wqs-tech/economic-guidance-water-quality-standards
 programArea: Natural Resources
 publishDate: 5/7/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Economic Guidance for Water Quality Standards
 ---
 

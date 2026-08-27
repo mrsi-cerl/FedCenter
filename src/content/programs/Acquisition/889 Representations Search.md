@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41442'
-link: https://889.smartpay.gsa.gov/#/
+item_id: "41442"
+externalUrl: https://889.smartpay.gsa.gov/#/
 programArea: Acquisition
 publishDate: 10/5/2023
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: 889 Representations Search
 ---
 

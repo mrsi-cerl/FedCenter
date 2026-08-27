@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '11458'
-link: http://www.afdc.energy.gov/afdc/locator/m/station/
+item_id: "11458"
+externalUrl: http://www.afdc.energy.gov/afdc/locator/m/station/
 programArea: Transportation
 publishDate: 2/5/2009
 subCategory:
-- Petroleum Alternatives
-- Databases and Software Tools
+  - Petroleum Alternatives
+  - Databases and Software Tools
 title: Alternative Fueling and Charging Stations Search
 ---
 

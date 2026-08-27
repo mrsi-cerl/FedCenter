@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3530'
-link: https://www.idrc.ca/en
+item_id: "3530"
+externalUrl: https://www.idrc.ca/en
 programArea: Sustainability
 publishDate: 11/30/2005
 subCategory:
-- Organizations
+  - Organizations
 title: The International Development Research Centre (IDRC)
 ---
 

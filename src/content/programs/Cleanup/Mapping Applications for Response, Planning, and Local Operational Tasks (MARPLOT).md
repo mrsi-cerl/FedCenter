@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '14186'
-link: https://www.epa.gov/cameo/marplot-software
+item_id: "14186"
+externalUrl: https://www.epa.gov/cameo/marplot-software
 programArea: Cleanup
 publishDate: 12/15/2009
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Mapping Applications for Response, Planning, and Local Operational Tasks (MARPLOT)
 ---
 

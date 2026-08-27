@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29362'
-link: https://www.wbdg.org/ffc/federal-facility-criteria
+item_id: "29362"
+externalUrl: https://www.wbdg.org/ffc/federal-facility-criteria
 programArea: High Performance Buildings
 publishDate: 4/6/2016
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: WBDG Federal Facilities Criteria Library
 ---
 

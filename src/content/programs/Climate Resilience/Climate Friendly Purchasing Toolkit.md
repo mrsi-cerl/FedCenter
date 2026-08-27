@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '29473'
-link: http://westcoastclimateforum.com/cfpt
+item_id: "29473"
+externalUrl: http://westcoastclimateforum.com/cfpt
 programArea: Climate Resilience
 publishDate: 5/5/2016
 subCategory:
-- Construction Design
-- Libraries and Repositories
+  - Construction Design
+  - Libraries and Repositories
 title: Climate Friendly Purchasing Toolkit
 ---
 

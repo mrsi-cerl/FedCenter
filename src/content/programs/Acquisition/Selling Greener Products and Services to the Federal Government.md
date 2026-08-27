@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '32468'
-link: https://www.epa.gov/greenerproducts/selling-greener-products-and-services-federal-government
+item_id: "32468"
+externalUrl: https://www.epa.gov/greenerproducts/selling-greener-products-and-services-federal-government
 programArea: Acquisition
 publishDate: 4/5/2018
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Selling Greener Products and Services to the Federal Government
 ---
 

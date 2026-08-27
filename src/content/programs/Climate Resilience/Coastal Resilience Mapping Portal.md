@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '25124'
-link: http://coast.noaa.gov/digitalcoast/tools/coastalresilience.html
+item_id: "25124"
+externalUrl: http://coast.noaa.gov/digitalcoast/tools/coastalresilience.html
 programArea: Climate Resilience
 publishDate: 1/15/2014
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Coastal Resilience Mapping Portal
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '40165'
-link: https://www.epa.gov/recyclingstrategy/model-recycling-program-toolkit
+item_id: "40165"
+externalUrl: https://www.epa.gov/recyclingstrategy/model-recycling-program-toolkit
 programArea: Pollution Prevention
 publishDate: 11/16/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Model Recycling Program Toolkit
 ---
 

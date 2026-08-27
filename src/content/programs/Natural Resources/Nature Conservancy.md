@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8380'
-link: http://www.nature.org/
+item_id: "8380"
+externalUrl: http://www.nature.org/
 programArea: Natural Resources
 publishDate: 9/28/2007
 subCategory:
-- Organizations
+  - Organizations
 title: Nature Conservancy
 ---
 

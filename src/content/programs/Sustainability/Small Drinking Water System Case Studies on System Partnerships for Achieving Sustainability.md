@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '14437'
-link: https://www.epa.gov/dwcapacity/water-system-partnerships-case-studies
+item_id: "14437"
+externalUrl: https://www.epa.gov/dwcapacity/water-system-partnerships-case-studies
 programArea: Sustainability
 publishDate: 2/1/2010
 subCategory:
-- Infrastructure
-title: Small Drinking Water System Case Studies on System Partnerships for Achieving
+  - Infrastructure
+title:
+  Small Drinking Water System Case Studies on System Partnerships for Achieving
   Sustainability
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15535'
-link: https://www.nps.gov/subjects/ncptt/index.htm
+item_id: "15535"
+externalUrl: https://www.nps.gov/subjects/ncptt/index.htm
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: National Center for Preservation Technology and Training (NCPTT)
 ---
 

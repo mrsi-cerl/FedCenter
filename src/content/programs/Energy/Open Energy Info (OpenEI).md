@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '14178'
-link: http://en.openei.org/wiki/Main\_Page
+item_id: "14178"
+externalUrl: http://en.openei.org/wiki/Main\_Page
 programArea: Energy
 publishDate: 12/15/2009
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Open Energy Info (OpenEI)
 ---
 

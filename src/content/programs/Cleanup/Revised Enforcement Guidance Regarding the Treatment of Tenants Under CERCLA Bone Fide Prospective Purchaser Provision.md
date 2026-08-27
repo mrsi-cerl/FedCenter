@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '22824'
-link: https://www.epa.gov/sites/default/files/documents/tenants-bfpp-2012\_0.pdf
+item_id: "22824"
+externalUrl: https://www.epa.gov/sites/default/files/documents/tenants-bfpp-2012\_0.pdf
 programArea: Cleanup
 publishDate: 1/3/2013
 subCategory:
-- Regulations, Guidance, and Policy
-title: Revised Enforcement Guidance Regarding the Treatment of Tenants Under CERCLA
+  - Regulations, Guidance, and Policy
+title:
+  Revised Enforcement Guidance Regarding the Treatment of Tenants Under CERCLA
   Bone Fide Prospective Purchaser Provision
 ---
 

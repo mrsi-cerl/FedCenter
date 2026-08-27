@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44237'
-link: http://http:http:www.epa.gov/pesticide-science-and-assessing-pesticide-risks/models-pesticide-risk-assessment#PFAM
+item_id: "44237"
+externalUrl: http://http:http:www.epa.gov/pesticide-science-and-assessing-pesticide-risks/models-pesticide-risk-assessment#PFAM
 programArea: Natural Resources
 publishDate: 8/3/2026
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Pesticides in Flooded Applications Model (PFAM)
 ---
 

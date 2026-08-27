@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44257'
-link: http://www.epa.gov/laws-regulations/summary-energy-policy-act
+item_id: "44257"
+externalUrl: http://www.epa.gov/laws-regulations/summary-energy-policy-act
 programArea: Energy
 publishDate: 8/10/2026
 subCategory:
-- Federal Legislation & Policy
+  - Federal Legislation & Policy
 title: Energy Policy Act of 2005
 ---
 

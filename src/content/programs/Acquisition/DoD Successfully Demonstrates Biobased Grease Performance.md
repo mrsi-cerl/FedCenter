@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36140'
-link: https://www.denix.osd.mil/spc/demonstrations/completed/biobased-grease-demonstration/index.html
+item_id: "36140"
+externalUrl: https://www.denix.osd.mil/spc/demonstrations/completed/biobased-grease-demonstration/index.html
 programArea: Acquisition
 publishDate: 10/30/2020
 subCategory:
-- Case Studies
+  - Case Studies
 title: DoD Successfully Demonstrates Biobased Grease Performance
 ---
 

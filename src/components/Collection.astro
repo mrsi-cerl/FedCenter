@@ -27,11 +27,11 @@ const isNew =
 <li class="usa-collection__item maxw-full">
   <div class="usa-collection__body">
     <h4 class="usa-collection__heading">
-      <a class="usa-link" href=`${post.data.externalUrl}`>{post.data.title}</a>
+      <a class="usa-link usa-link--external" href=`${post.data.externalUrl}`
+        >{post.data.title}</a
+      >
     </h4>
-    <p class="usa-collection__description">
-      {post.body}
-    </p>
+    <p class="usa-collection__description" set:html={post.body} />
     <ul class="usa-collection__meta" aria-label="More information">
       <li class="usa-collection__meta-item">
         <time>{prettyDate}</time>

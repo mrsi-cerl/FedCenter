@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '30099'
-link: https://www.whitehouse.gov/wp-content/uploads/2019/06/M-19-19-Data-Centers.pdf
+item_id: "30099"
+externalUrl: https://www.whitehouse.gov/wp-content/uploads/2019/06/M-19-19-Data-Centers.pdf
 programArea: Energy
 publishDate: 8/2/2016
 subCategory:
-- Federal Legislation & Policy
-title: 'OMB Memorandum 25 June 2019: Update to Data Center Optimization Initiative'
+  - Federal Legislation & Policy
+title: "OMB Memorandum 25 June 2019: Update to Data Center Optimization Initiative"
 ---
 
-The Federal Information Technology Acquisition Reform Act Enhancement Act of 2017 extended data center requirements of the original act until October 2020.  This memorandum dated 25 June 2019 contains updated requirements for the consolidation and optimization of Federal Data centers, establishes consolidation and optimization targets and metrics for Federal agencies, and requirements for reporting
+The Federal Information Technology Acquisition Reform Act Enhancement Act of 2017 extended data center requirements of the original act until October 2020. This memorandum dated 25 June 2019 contains updated requirements for the consolidation and optimization of Federal Data centers, establishes consolidation and optimization targets and metrics for Federal agencies, and requirements for reporting

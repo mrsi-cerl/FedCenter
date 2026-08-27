@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '15046'
-link: Bicycle-Commuting.pdf
+item_id: "15046"
+externalUrl: Bicycle-Commuting.pdf
 programArea: Greenhouse Gases
 publishDate: 5/25/2010
 subCategory:
-- Case Studies
-title: Implementing a Successful Bicycle and Active Commuting Program in the Washington,
+  - Case Studies
+title:
+  Implementing a Successful Bicycle and Active Commuting Program in the Washington,
   DC Metropolitan Area
 ---
 

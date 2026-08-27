@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '799'
-link: https://www.api.org/products-and-services/engine-oil/documents/collection-of-used-oil
+item_id: "799"
+externalUrl: https://www.api.org/products-and-services/engine-oil/documents/collection-of-used-oil
 programArea: Transportation
 publishDate: 2/4/2005
 subCategory:
-- Pollution Prevention Opportunities
+  - Pollution Prevention Opportunities
 title: Collection of Used Oil Found to Be Key in Conservation
 ---
 

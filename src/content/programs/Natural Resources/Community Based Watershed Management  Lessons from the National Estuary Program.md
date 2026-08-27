@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '2747'
-link: https://www.epa.gov/nep/national-estuary-program-reports
+item_id: "2747"
+externalUrl: https://www.epa.gov/nep/national-estuary-program-reports
 programArea: Natural Resources
 publishDate: 9/1/2005
 subCategory:
-- Watershed Management
-title: 'Community Based Watershed Management:  Lessons from the National Estuary Program'
+  - Watershed Management
+title: "Community Based Watershed Management:  Lessons from the National Estuary Program"
 ---
 
 This document is an update to <i>Saving Bays and Estuaries</i>, published in 1989. Questions about managing pollution runoff, increasing wildlife habitat and controlling invasive species in the nation's estuaries are among those addressed in this document.

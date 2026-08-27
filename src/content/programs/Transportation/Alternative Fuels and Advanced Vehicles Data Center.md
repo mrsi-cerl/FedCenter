@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '768'
-link: http://www.eere.energy.gov/afdc/
+item_id: "768"
+externalUrl: http://www.eere.energy.gov/afdc/
 programArea: Transportation
 publishDate: 2/3/2005
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Alternative Fuels and Advanced Vehicles Data Center
 ---
 

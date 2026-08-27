@@ -1,22 +1,22 @@
 ---
 expiryDate: null
-item_id: '732'
-link: http://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR
+item_id: "732"
+externalUrl: http://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR
 programArea: Environmental Compliance
 publishDate: 2/1/2005
 subCategory:
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle I
-- Federal Regulations
-- Guidance for TSCA
-- State Regulations
-- Guidance for RCRA, Subtitle C
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Libraries and Repositories
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+  - Libraries and Repositories
 title: Code of Federal Regulations (Annual Edition)
 ---
 

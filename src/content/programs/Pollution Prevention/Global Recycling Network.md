@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1139'
-link: http://www.grn.com/
+item_id: "1139"
+externalUrl: http://www.grn.com/
 programArea: Pollution Prevention
 publishDate: 3/25/2005
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Global Recycling Network
 ---
 

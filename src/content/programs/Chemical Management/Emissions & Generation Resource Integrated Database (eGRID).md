@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '10867'
-link: http://www.epa.gov/egrid
+item_id: "10867"
+externalUrl: http://www.epa.gov/egrid
 programArea: Chemical Management
 publishDate: 10/31/2008
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Emissions & Generation Resource Integrated Database (eGRID)
 ---
 
-eGRID is a comprehensive air emissions database of electric power plants in the United States, including  emissions data on nitrogen oxides, sulfur dioxide, carbon dioxide and mercury. The new edition of eGRID now also provides emissions data on two greenhouse gases, methane and nitrous oxide.
+eGRID is a comprehensive air emissions database of electric power plants in the United States, including emissions data on nitrogen oxides, sulfur dioxide, carbon dioxide and mercury. The new edition of eGRID now also provides emissions data on two greenhouse gases, methane and nitrous oxide.

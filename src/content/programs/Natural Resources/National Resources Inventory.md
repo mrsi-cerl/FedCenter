@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '5328'
-link: https://www.nrcs.usda.gov/nri
+item_id: "5328"
+externalUrl: https://www.nrcs.usda.gov/nri
 programArea: Natural Resources
 publishDate: 6/12/2006
 subCategory:
-- Land Management
+  - Land Management
 title: National Resources Inventory
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41389'
-link: https://www.epa.gov/enforcement/national-enforcement-and-compliance-initiatives
+item_id: "41389"
+externalUrl: https://www.epa.gov/enforcement/national-enforcement-and-compliance-initiatives
 programArea: Sustainability
 publishDate: 9/20/2023
 subCategory:
-- Federal Agreements and Guidance
+  - Federal Agreements and Guidance
 title: FY2024-FY2027 National Compliance Initiatives
 ---
 

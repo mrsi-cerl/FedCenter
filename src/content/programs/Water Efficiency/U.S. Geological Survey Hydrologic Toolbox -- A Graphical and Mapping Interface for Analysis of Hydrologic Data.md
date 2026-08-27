@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '44241'
-link: pubs.usgs.gov/publication/tm4D3
+item_id: "44241"
+externalUrl: pubs.usgs.gov/publication/tm4D3
 programArea: Water Efficiency
 publishDate: 8/5/2026
 subCategory:
-- Databases and Software Tools
-title: U.S. Geological Survey Hydrologic Toolbox -- A Graphical and Mapping Interface
+  - Databases and Software Tools
+title:
+  U.S. Geological Survey Hydrologic Toolbox -- A Graphical and Mapping Interface
   for Analysis of Hydrologic Data
 ---
 

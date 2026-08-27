@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '4678'
-link: https://catalog.data.gov/dataset/high-production-volume-information-system-hpvis#:~:text=High
+item_id: "4678"
+externalUrl:
+  https://catalog.data.gov/dataset/high-production-volume-information-system-hpvis#:~:text=High
   Production Volume Information System (HPVIS) The High,dataset is intended for public
   access and use
 programArea: Chemical Management
 publishDate: 4/18/2006
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: High Production Volume Information System (HPVIS)
 ---
 

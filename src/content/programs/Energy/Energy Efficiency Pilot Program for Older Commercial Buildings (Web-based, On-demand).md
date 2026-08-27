@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '43148'
-link: https://betterbuildingssolutioncenter.energy.gov/webinars/energy-efficiency-pilot-program-older-commercial-buildings.
+item_id: "43148"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/webinars/energy-efficiency-pilot-program-older-commercial-buildings.
 programArea: Energy
 publishDate: 4/14/2025
 subCategory:
-- Training, Presentations, and Briefings
-title: Energy Efficiency Pilot Program for Older Commercial Buildings (Web-based,
+  - Training, Presentations, and Briefings
+title:
+  Energy Efficiency Pilot Program for Older Commercial Buildings (Web-based,
   On-demand)
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '32642'
-link: https://www.i2sl.org/smart-labs-toolkit
+item_id: "32642"
+externalUrl: https://www.i2sl.org/smart-labs-toolkit
 programArea: High Performance Buildings
 publishDate: 5/15/2018
 subCategory:
-- Libraries and Repositories
-- Conferences and Events
+  - Libraries and Repositories
+  - Conferences and Events
 title: Smarts Labs Toolkit
 ---
 

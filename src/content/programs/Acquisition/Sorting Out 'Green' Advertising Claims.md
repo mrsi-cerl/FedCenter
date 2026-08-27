@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '16923'
-link: http://www.ftc.gov/bcp/edu/pubs/consumer/general/gen02.shtm
+item_id: "16923"
+externalUrl: http://www.ftc.gov/bcp/edu/pubs/consumer/general/gen02.shtm
 programArea: Acquisition
 publishDate: 12/28/2010
 subCategory:
-- Guidance
+  - Guidance
 title: Sorting Out 'Green' Advertising Claims
 ---
 

@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '34560'
-link: http://npi.org/seminars/cultural-and-natural-resource-management/conflict-management-and-negotiation-skills
+item_id: "34560"
+externalUrl: http://npi.org/seminars/cultural-and-natural-resource-management/conflict-management-and-negotiation-skills
 programArea: Natural Resources
 publishDate: 9/30/2019
 subCategory:
-- Training, Presentations, and Briefings
-title: Conflict Management and Negotiation Skills for Cultural and Natural Resource
+  - Training, Presentations, and Briefings
+title:
+  Conflict Management and Negotiation Skills for Cultural and Natural Resource
   Managers (Classroom, Multiple Offerings)
 ---
 

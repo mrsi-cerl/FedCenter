@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '19890'
-link: http://iaspub.epa.gov/apex/pesticides/f?p=chemicalsearch:1
+item_id: "19890"
+externalUrl: http://iaspub.epa.gov/apex/pesticides/f?p=chemicalsearch:1
 programArea: Chemical Management
 publishDate: 11/22/2011
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Pesticide Chemical Search
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '13271'
-link: http://ieaghg.org/ccs-resources/greenhouse-news-newsletter
+item_id: "13271"
+externalUrl: http://ieaghg.org/ccs-resources/greenhouse-news-newsletter
 programArea: Greenhouse Gases
 publishDate: 8/17/2009
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: News and Insights - IEAGHG
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '38607'
-link: https://www1.eere.energy.gov/wip/solutioncenter/pdfs/deepenergyretrofitsandstateapplications.pdf
+item_id: "38607"
+externalUrl: https://www1.eere.energy.gov/wip/solutioncenter/pdfs/deepenergyretrofitsandstateapplications.pdf
 programArea: High Performance Buildings
 publishDate: 10/26/2021
 subCategory:
-- Indoor Air Quality
-- Conferences and Events
+  - Indoor Air Quality
+  - Conferences and Events
 title: Deep Energy Retrofits & State Applications
 ---
 

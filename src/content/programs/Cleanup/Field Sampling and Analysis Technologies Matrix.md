@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '6248'
-link: http://www.frtr.gov/site/
+item_id: "6248"
+externalUrl: http://www.frtr.gov/site/
 programArea: Cleanup
 publishDate: 12/11/2006
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Field Sampling and Analysis Technologies Matrix
 ---
 

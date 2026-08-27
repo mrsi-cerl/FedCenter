@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8239'
-link: http://www.igpn.org/
+item_id: "8239"
+externalUrl: http://www.igpn.org/
 programArea: Acquisition
 publishDate: 9/13/2007
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: International Green Purchasing Network
 ---
 

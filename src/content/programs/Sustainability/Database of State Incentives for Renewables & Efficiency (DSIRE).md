@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '18263'
-link: http://www.dsireusa.org/
+item_id: "18263"
+externalUrl: http://www.dsireusa.org/
 programArea: Sustainability
 publishDate: 6/10/2011
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Database of State Incentives for Renewables & Efficiency (DSIRE)
 ---
 

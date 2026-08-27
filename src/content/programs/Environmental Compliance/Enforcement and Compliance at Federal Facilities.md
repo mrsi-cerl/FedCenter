@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '26474'
-link: http://www.epa.gov/enforcement/enforcement-and-compliance-federal-facilities
+item_id: "26474"
+externalUrl: http://www.epa.gov/enforcement/enforcement-and-compliance-federal-facilities
 programArea: Environmental Compliance
 publishDate: 8/22/2014
 subCategory:
-- Guidance for EPA Programs
+  - Guidance for EPA Programs
 title: Enforcement and Compliance at Federal Facilities
 ---
 

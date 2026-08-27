@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3700'
-link: http://www.epa.gov/remedytech/technical-support-project-cleaning-contaminated-sites
+item_id: "3700"
+externalUrl: http://www.epa.gov/remedytech/technical-support-project-cleaning-contaminated-sites
 programArea: Cleanup
 publishDate: 12/20/2005
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Technical Support Project for Cleaning Up Contaminated Sites
 ---
 

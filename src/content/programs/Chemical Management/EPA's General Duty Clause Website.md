@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39820'
-link: https://www.epa.gov/rmp/general-duty-clause-under-clean-air-act-section-112r1
+item_id: "39820"
+externalUrl: https://www.epa.gov/rmp/general-duty-clause-under-clean-air-act-section-112r1
 programArea: Chemical Management
 publishDate: 8/3/2022
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: EPA's General Duty Clause Website
 ---
 

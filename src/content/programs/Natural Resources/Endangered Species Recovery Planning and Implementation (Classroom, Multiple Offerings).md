@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '26146'
-link: https://www.fws.gov/course/endangered-species-recovery-planning-and-implementation
+item_id: "26146"
+externalUrl: https://www.fws.gov/course/endangered-species-recovery-planning-and-implementation
 programArea: Natural Resources
 publishDate: 6/30/2014
 subCategory:
-- Training, Presentations, and Briefings
-title: Endangered Species Recovery Planning and Implementation (Classroom, Multiple
+  - Training, Presentations, and Briefings
+title:
+  Endangered Species Recovery Planning and Implementation (Classroom, Multiple
   Offerings)
 ---
 

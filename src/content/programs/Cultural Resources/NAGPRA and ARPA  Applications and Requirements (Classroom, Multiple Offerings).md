@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '33472'
-link: http://www.npi.org/sem-nagpra.html
+item_id: "33472"
+externalUrl: http://www.npi.org/sem-nagpra.html
 programArea: Cultural Resources
 publishDate: 1/24/2019
 subCategory:
-- Training, Presentations, and Briefings
-title: 'NAGPRA and ARPA:  Applications and Requirements (Classroom, Multiple Offerings)'
+  - Training, Presentations, and Briefings
+title: "NAGPRA and ARPA:  Applications and Requirements (Classroom, Multiple Offerings)"
 ---
 
 Review the historical context and intent of the Native American Graves Protection and Repatriation Act (NAGPRA) and the Archaeological Resources Protection Act (ARPA). Learn how these laws apply to the treatment, repatriation, and disposition of Native American cultural items and to the protection of archaeological resources on federal and tribal lands. Examine differences in legal definitions, when and how regulations apply, and permit requirements. Discuss practical applications and effective strategies for developing agreements prior to ground-disturbing actions. This seminar is offered by the National Preservation Institute.

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3349'
-link: https://www.portland.gov/bps
+item_id: "3349"
+externalUrl: https://www.portland.gov/bps
 programArea: Sustainability
 publishDate: 10/15/2005
 subCategory:
-- Municipalities
+  - Municipalities
 title: Portland's Sustainable Development
 ---
 

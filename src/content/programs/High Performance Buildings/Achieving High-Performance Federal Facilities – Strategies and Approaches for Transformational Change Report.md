@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '17739'
-link: https://www.nap.edu/catalog/13140/achieving-high-performance-federal-facilities-strategies-and-approaches-for-transformationa
+item_id: "17739"
+externalUrl: https://www.nap.edu/catalog/13140/achieving-high-performance-federal-facilities-strategies-and-approaches-for-transformationa
 programArea: High Performance Buildings
 publishDate: 4/14/2011
 subCategory:
-- Case Studies
-title: Achieving High-Performance Federal Facilities – Strategies and Approaches for
+  - Case Studies
+title:
+  Achieving High-Performance Federal Facilities – Strategies and Approaches for
   Transformational Change Report
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23840'
-link: http://www.natureserve.org/
+item_id: "23840"
+externalUrl: http://www.natureserve.org/
 programArea: Natural Resources
 publishDate: 6/27/2013
 subCategory:
-- Organizations
+  - Organizations
 title: NatureServe
 ---
 

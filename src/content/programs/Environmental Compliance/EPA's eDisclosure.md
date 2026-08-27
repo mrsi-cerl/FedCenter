@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29025'
-link: http://www.epa.gov/compliance/epas-edisclosure
+item_id: "29025"
+externalUrl: http://www.epa.gov/compliance/epas-edisclosure
 programArea: Environmental Compliance
 publishDate: 1/19/2016
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EPA's eDisclosure
 ---
 

@@ -1,13 +1,14 @@
 ---
 expiryDate: null
-item_id: '30182'
-link: http://climateofficers.org/climate103
+item_id: "30182"
+externalUrl: http://climateofficers.org/climate103
 programArea: Climate Resilience
 publishDate: 8/24/2016
 subCategory:
-- Construction Design
-- Training, Presentations, and Briefings
-title: Basics of Sea Level Rise & Impacts on Coastal Assets & Infrastructure (Web-based,
+  - Construction Design
+  - Training, Presentations, and Briefings
+title:
+  Basics of Sea Level Rise & Impacts on Coastal Assets & Infrastructure (Web-based,
   On Demand)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '38631'
-link: https://www.epa.gov/p2/p2-resources-search
+item_id: "38631"
+externalUrl: https://www.epa.gov/p2/p2-resources-search
 programArea: Pollution Prevention
 publishDate: 11/4/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: P2 Resource Search Tool
 ---
 

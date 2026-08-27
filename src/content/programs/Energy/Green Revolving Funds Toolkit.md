@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36853'
-link: https://betterbuildingssolutioncenter.energy.gov/toolkits/green-revolving-funds
+item_id: "36853"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/toolkits/green-revolving-funds
 programArea: Energy
 publishDate: 5/4/2021
 subCategory:
-- Case Studies
+  - Case Studies
 title: Green Revolving Funds Toolkit
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '18956'
-link: https://www.epa.gov/cre/lessons-learned-climate-ready-estuaries-program
+item_id: "18956"
+externalUrl: https://www.epa.gov/cre/lessons-learned-climate-ready-estuaries-program
 programArea: Greenhouse Gases
 publishDate: 8/1/2011
 subCategory:
-- Case Studies
+  - Case Studies
 title: Lessons Learned from the Climate Ready Estuaries (CRE) Program
 ---
 

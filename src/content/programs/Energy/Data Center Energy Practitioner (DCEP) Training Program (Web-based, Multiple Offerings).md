@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '38372'
-link: https://datacenters.lbl.gov/dcep
+item_id: "38372"
+externalUrl: https://datacenters.lbl.gov/dcep
 programArea: Energy
 publishDate: 9/8/2021
 subCategory:
-- Training, Presentations, and Briefings
-title: Data Center Energy Practitioner (DCEP) Training Program (Web-based, Multiple
+  - Training, Presentations, and Briefings
+title:
+  Data Center Energy Practitioner (DCEP) Training Program (Web-based, Multiple
   Offerings)
 ---
 

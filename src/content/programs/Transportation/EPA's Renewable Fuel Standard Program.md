@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36573'
-link: https://www.epa.gov/renewable-fuel-standard-program
+item_id: "36573"
+externalUrl: https://www.epa.gov/renewable-fuel-standard-program
 programArea: Transportation
 publishDate: 3/3/2021
 subCategory:
-- Guidance
+  - Guidance
 title: EPA's Renewable Fuel Standard Program
 ---
 

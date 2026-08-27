@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15326'
-link: http://www.sgppartnership.org/
+item_id: "15326"
+externalUrl: http://www.sgppartnership.org/
 programArea: Acquisition
 publishDate: 7/7/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Sustainable Green Printing Partnership
 ---
 

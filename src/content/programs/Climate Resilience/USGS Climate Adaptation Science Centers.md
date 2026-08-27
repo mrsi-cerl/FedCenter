@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '18475'
-link: https://www.usgs.gov/land-resources/climate-adaptation-science-centers
+item_id: "18475"
+externalUrl: https://www.usgs.gov/land-resources/climate-adaptation-science-centers
 programArea: Climate Resilience
 publishDate: 6/22/2011
 subCategory:
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: USGS Climate Adaptation Science Centers
 ---
 

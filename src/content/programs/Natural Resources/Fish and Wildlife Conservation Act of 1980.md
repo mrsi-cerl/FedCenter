@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2436'
-link: https://www.fws.gov/law/fish-and-wildlife-conservation-act
+item_id: "2436"
+externalUrl: https://www.fws.gov/law/fish-and-wildlife-conservation-act
 programArea: Natural Resources
 publishDate: 7/14/2005
 subCategory:
-- Species Management
+  - Species Management
 title: Fish and Wildlife Conservation Act of 1980
 ---
 

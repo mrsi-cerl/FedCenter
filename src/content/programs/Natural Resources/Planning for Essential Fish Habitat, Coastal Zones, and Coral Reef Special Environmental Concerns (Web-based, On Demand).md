@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '26710'
-link: http://www.conservationwebinars.net/webinars/environmental-evaluation-series-planning-for-essential-fish-habitat-coastal-zones-and-coral-reef-special-environmental-concerns
+item_id: "26710"
+externalUrl: http://www.conservationwebinars.net/webinars/environmental-evaluation-series-planning-for-essential-fish-habitat-coastal-zones-and-coral-reef-special-environmental-concerns
 programArea: Natural Resources
 publishDate: 10/7/2014
 subCategory:
-- Training, Presentations, and Briefings
-title: Planning for Essential Fish Habitat, Coastal Zones, and Coral Reef Special
+  - Training, Presentations, and Briefings
+title:
+  Planning for Essential Fish Habitat, Coastal Zones, and Coral Reef Special
   Environmental Concerns (Web-based, On Demand)
 ---
 

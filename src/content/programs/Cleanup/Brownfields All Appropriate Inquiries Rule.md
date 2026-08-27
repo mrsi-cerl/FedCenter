@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '14511'
-link: http://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries
+item_id: "14511"
+externalUrl: http://www.epa.gov/brownfields/brownfields-all-appropriate-inquiries
 programArea: Cleanup
 publishDate: 2/17/2010
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Brownfields All Appropriate Inquiries Rule
 ---
 

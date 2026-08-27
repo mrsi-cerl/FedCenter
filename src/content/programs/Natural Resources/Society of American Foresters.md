@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8470'
-link: http://www.eforester.org/
+item_id: "8470"
+externalUrl: http://www.eforester.org/
 programArea: Natural Resources
 publishDate: 10/17/2007
 subCategory:
-- Organizations
+  - Organizations
 title: Society of American Foresters
 ---
 

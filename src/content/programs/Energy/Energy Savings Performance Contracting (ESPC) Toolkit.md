@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '38742'
-link: https://betterbuildingssolutioncenter.energy.gov/energy-savings-performance-contracting-espc-toolkit
+item_id: "38742"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/energy-savings-performance-contracting-espc-toolkit
 programArea: Energy
 publishDate: 12/3/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Energy Savings Performance Contracting (ESPC) Toolkit
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15506'
-link: http://www.thearchcons.org/
+item_id: "15506"
+externalUrl: http://www.thearchcons.org/
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Archeological Conservancy
 ---
 

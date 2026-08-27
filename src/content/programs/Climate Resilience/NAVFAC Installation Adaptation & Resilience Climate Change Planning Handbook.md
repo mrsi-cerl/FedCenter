@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '31041'
-link: NAVFAC-CC-Handbook-Final-Jan2017.pdf
+item_id: "31041"
+externalUrl: NAVFAC-CC-Handbook-Final-Jan2017.pdf
 programArea: Climate Resilience
 publishDate: 3/24/2017
 subCategory:
-- Construction Design
-- Case Studies
+  - Construction Design
+  - Case Studies
 title: NAVFAC Installation Adaptation & Resilience Climate Change Planning Handbook
 ---
 

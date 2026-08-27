@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '829'
-link: https://www.buildinggreen.com/newsbrief/guiding-principles-sustainable-design
+item_id: "829"
+externalUrl: https://www.buildinggreen.com/newsbrief/guiding-principles-sustainable-design
 programArea: High Performance Buildings
 publishDate: 2/9/2005
 subCategory:
-- Construction Design
+  - Construction Design
 title: Guiding Principles of Sustainable Design (NPS)
 ---
 

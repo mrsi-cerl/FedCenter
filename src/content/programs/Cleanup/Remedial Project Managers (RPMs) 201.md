@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43993'
-link: (New York, NY)
+item_id: "43993"
+externalUrl: (New York, NY)
 programArea: Cleanup
 publishDate: 4/14/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Remedial Project Managers (RPMs) 201
 ---
 

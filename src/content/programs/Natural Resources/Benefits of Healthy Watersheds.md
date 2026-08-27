@@ -1,13 +1,13 @@
 ---
 expiryDate: null
-item_id: '44058'
-link: http://www.epa.gov/hwp/benefits-healthy-watersheds
+item_id: "44058"
+externalUrl: http://www.epa.gov/hwp/benefits-healthy-watersheds
 programArea: Natural Resources
 publishDate: 5/15/2026
 subCategory:
-- Databases and Software Tools
-- Land Management
-- Watershed Management
+  - Databases and Software Tools
+  - Land Management
+  - Watershed Management
 title: Benefits of Healthy Watersheds
 ---
 

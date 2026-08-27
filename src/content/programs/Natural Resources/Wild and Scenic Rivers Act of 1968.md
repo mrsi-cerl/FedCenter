@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2444'
-link: ''
+item_id: "2444"
+externalUrl: ""
 programArea: Natural Resources
 publishDate: 7/14/2005
 subCategory:
-- Land Management
+  - Land Management
 title: Wild and Scenic Rivers Act of 1968
 ---
 

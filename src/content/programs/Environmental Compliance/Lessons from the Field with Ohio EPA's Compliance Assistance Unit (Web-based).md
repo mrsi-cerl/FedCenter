@@ -1,11 +1,11 @@
 ---
-expiryDate: '00:00.0'
-item_id: '44254'
-link: Online
+expiryDate: "00:00.0"
+item_id: "44254"
+externalUrl: Online
 programArea: Environmental Compliance
 publishDate: 8/7/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Lessons from the Field with Ohio EPA's Compliance Assistance Unit (Web-based)
 ---
 

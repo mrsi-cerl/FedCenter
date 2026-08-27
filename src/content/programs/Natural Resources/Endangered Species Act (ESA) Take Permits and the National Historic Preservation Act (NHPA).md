@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '15663'
-link: ESA TAke and NHPA.pdf
+item_id: "15663"
+externalUrl: ESA TAke and NHPA.pdf
 programArea: Natural Resources
 publishDate: 7/29/2010
 subCategory:
-- Training, Presentations, and Briefings
-title: Endangered Species Act (ESA) Take Permits and the National Historic Preservation
+  - Training, Presentations, and Briefings
+title:
+  Endangered Species Act (ESA) Take Permits and the National Historic Preservation
   Act (NHPA)
 ---
 

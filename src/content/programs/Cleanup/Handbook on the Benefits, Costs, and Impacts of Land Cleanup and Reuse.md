@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '32895'
-link: http://www.epa.gov/environmental-economics/handbook-benefits-costs-and-impacts-land-cleanup-and-reuse-0
+item_id: "32895"
+externalUrl: http://www.epa.gov/environmental-economics/handbook-benefits-costs-and-impacts-land-cleanup-and-reuse-0
 programArea: Cleanup
 publishDate: 7/31/2018
 subCategory:
-- Property Re-use
+  - Property Re-use
 title: Handbook on the Benefits, Costs, and Impacts of Land Cleanup and Reuse
 ---
 

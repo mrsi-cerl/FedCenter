@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '11252'
-link: http://www.footprintnetwork.org/en/index.php/GFN/
+item_id: "11252"
+externalUrl: http://www.footprintnetwork.org/en/index.php/GFN/
 programArea: Sustainability
 publishDate: 1/8/2009
 subCategory:
-- Organizations
+  - Organizations
 title: Global Footprint Network
 ---
 

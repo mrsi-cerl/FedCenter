@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43310'
-link: https://acquisitiongateway.gov/procurementcopilot/resources/33340
+item_id: "43310"
+externalUrl: https://acquisitiongateway.gov/procurementcopilot/resources/33340
 programArea: Acquisition
 publishDate: 6/9/2025
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Procurement Co-Pilot Training Videos (Web-based, On-Demand)
 ---
 

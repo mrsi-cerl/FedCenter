@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '22552'
-link: http://www.cakex.org/
+item_id: "22552"
+externalUrl: http://www.cakex.org/
 programArea: Climate Resilience
 publishDate: 11/14/2012
 subCategory:
-- Construction Design
-- Libraries and Repositories
+  - Construction Design
+  - Libraries and Repositories
 title: Climate Adaptation Knowledge Exchange (CAKE)
 ---
 

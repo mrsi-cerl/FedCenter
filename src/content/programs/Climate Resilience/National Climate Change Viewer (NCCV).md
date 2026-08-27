@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '25743'
-link: http://www.usgs.gov/tools/national-climate-change-viewer-nccv
+item_id: "25743"
+externalUrl: http://www.usgs.gov/tools/national-climate-change-viewer-nccv
 programArea: Climate Resilience
 publishDate: 5/9/2014
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: National Climate Change Viewer (NCCV)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '2451'
-link: http://www.nwf.org/
+item_id: "2451"
+externalUrl: http://www.nwf.org/
 programArea: Natural Resources
 publishDate: 7/14/2005
 subCategory:
-- Organizations
+  - Organizations
 title: National Wildlife Federation
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15505'
-link: https://acra-crm.org/
+item_id: "15505"
+externalUrl: https://acra-crm.org/
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: American Cultural Resources Association
 ---
 

@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '33785'
-link: http://nwetc.org/course-catalog/principles-quality-assurance-and-quality-control-environmental-field-programs
+item_id: "33785"
+externalUrl: http://nwetc.org/course-catalog/principles-quality-assurance-and-quality-control-environmental-field-programs
 programArea: Cleanup
 publishDate: 3/25/2019
 subCategory:
-- Training, Presentations, and Briefings
-title: Improving Environmental Data Usability through Systematic Project Planning
+  - Training, Presentations, and Briefings
+title:
+  Improving Environmental Data Usability through Systematic Project Planning
   and Data Analysis (Classroom, Multiple Offerings)
 ---
 

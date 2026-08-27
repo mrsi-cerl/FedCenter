@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '44192'
-link: www.energy.gov/cmei/femp/federal-energy-management-program-training-catalog
+item_id: "44192"
+externalUrl: www.energy.gov/cmei/femp/federal-energy-management-program-training-catalog
 programArea: Energy
 publishDate: 7/10/2026
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: FEMP Training Catalog
 ---
 

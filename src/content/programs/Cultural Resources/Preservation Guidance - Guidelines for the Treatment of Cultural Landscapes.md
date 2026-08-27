@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20170'
-link: http://www.nps.gov/subjects/culturallandscapes/preservation.htm
+item_id: "20170"
+externalUrl: http://www.nps.gov/subjects/culturallandscapes/preservation.htm
 programArea: Cultural Resources
 publishDate: 1/10/2012
 subCategory:
-- Implementation Guidance
+  - Implementation Guidance
 title: Preservation Guidance - Guidelines for the Treatment of Cultural Landscapes
 ---
 

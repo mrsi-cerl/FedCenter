@@ -1,21 +1,21 @@
 ---
 expiryDate: null
-item_id: '13576'
-link: https://www.epa.gov/large-scale-residential-demolition/pcbs-caulk-and-residential-demolition
+item_id: "13576"
+externalUrl: https://www.epa.gov/large-scale-residential-demolition/pcbs-caulk-and-residential-demolition
 programArea: Environmental Compliance
 publishDate: 9/29/2009
 subCategory:
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle I
-- Federal Regulations
-- Guidance for TSCA
-- State Regulations
-- Guidance for RCRA, Subtitle C
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: PCBs in Caulk and Residential Demolition
 ---
 

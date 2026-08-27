@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '12168'
-link: https://www.epa.gov/green-infrastructure
+item_id: "12168"
+externalUrl: https://www.epa.gov/green-infrastructure
 programArea: Natural Resources
 publishDate: 4/9/2009
 subCategory:
-- Watershed Management
+  - Watershed Management
 title: Green Infrastructure
 ---
 

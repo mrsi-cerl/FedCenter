@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '1886'
-link: https://www.energy.gov/eere/amo/articles/process-heating-assessment-and-survey-tool
+item_id: "1886"
+externalUrl: https://www.energy.gov/eere/amo/articles/process-heating-assessment-and-survey-tool
 programArea: High Performance Buildings
 publishDate: 6/23/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Process Heating Assessment and Survey Tool (PHAST)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '30133'
-link: http://community.max.gov/pages/viewpage.action?pageId=713787996
+item_id: "30133"
+externalUrl: http://community.max.gov/pages/viewpage.action?pageId=713787996
 programArea: Acquisition
 publishDate: 8/9/2016
 subCategory:
-- Case Studies
+  - Case Studies
 title: Federal Program and Project Management Community of Practice (FedPM CoP)
 ---
 

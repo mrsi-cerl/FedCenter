@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22387'
-link: https://tdb.epa.gov/tdb/home
+item_id: "22387"
+externalUrl: https://tdb.epa.gov/tdb/home
 programArea: PFAS Resources
 publishDate: 10/9/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Drinking Water Treatability Database
 ---
 

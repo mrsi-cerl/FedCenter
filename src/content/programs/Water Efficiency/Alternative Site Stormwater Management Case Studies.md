@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41024'
-link: https://www.epa.gov/npdes/alternative-site-stormwater-management-case-studies
+item_id: "41024"
+externalUrl: https://www.epa.gov/npdes/alternative-site-stormwater-management-case-studies
 programArea: Water Efficiency
 publishDate: 6/15/2023
 subCategory:
-- Case Studies
+  - Case Studies
 title: Alternative Site Stormwater Management Case Studies
 ---
 

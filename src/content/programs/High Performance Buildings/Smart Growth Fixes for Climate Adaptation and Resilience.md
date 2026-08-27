@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '30744'
-link: http://www.epa.gov/smartgrowth/smart-growth-fixes-climate-adaptation-and-resilience
+item_id: "30744"
+externalUrl: http://www.epa.gov/smartgrowth/smart-growth-fixes-climate-adaptation-and-resilience
 programArea: High Performance Buildings
 publishDate: 1/18/2017
 subCategory:
-- Planning
+  - Planning
 title: Smart Growth Fixes for Climate Adaptation and Resilience
 ---
 

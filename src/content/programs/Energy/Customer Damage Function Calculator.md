@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39946'
-link: http://cdfc.nlr.gov/
+item_id: "39946"
+externalUrl: http://cdfc.nlr.gov/
 programArea: Energy
 publishDate: 9/16/2022
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Customer Damage Function Calculator
 ---
 

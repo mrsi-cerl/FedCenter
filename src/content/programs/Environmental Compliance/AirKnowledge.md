@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '35561'
-link: https://airknowledge.gov
+item_id: "35561"
+externalUrl: https://airknowledge.gov
 programArea: Environmental Compliance
 publishDate: 6/8/2020
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: AirKnowledge
 ---
 

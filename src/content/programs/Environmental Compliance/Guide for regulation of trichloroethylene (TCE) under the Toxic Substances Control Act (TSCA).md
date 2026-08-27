@@ -1,22 +1,23 @@
 ---
 expiryDate: null
-item_id: '42845'
-link: https://epa.gov/assessing-and-managing-chemicals-under-tsca/risk-management-trichloroethylene-tce
+item_id: "42845"
+externalUrl: https://epa.gov/assessing-and-managing-chemicals-under-tsca/risk-management-trichloroethylene-tce
 programArea: Environmental Compliance
 publishDate: 1/15/2025
 subCategory:
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle I
-- Federal Regulations
-- Guidance for TSCA
-- State Regulations
-- Guidance for RCRA, Subtitle C
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-title: Guide for regulation of trichloroethylene (TCE) under the Toxic Substances
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+title:
+  Guide for regulation of trichloroethylene (TCE) under the Toxic Substances
   Control Act (TSCA)
 ---
 

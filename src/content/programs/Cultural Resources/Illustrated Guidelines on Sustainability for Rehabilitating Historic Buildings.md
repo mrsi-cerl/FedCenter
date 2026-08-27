@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15528'
-link: http://home.nps.gov/orgs/1739/upload/sustainability-guidelines.pdf
+item_id: "15528"
+externalUrl: http://home.nps.gov/orgs/1739/upload/sustainability-guidelines.pdf
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Implementation Guidance
+  - Implementation Guidance
 title: Illustrated Guidelines on Sustainability for Rehabilitating Historic Buildings
 ---
 

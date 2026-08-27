@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '43118'
-link: Web-based, On-demand
+item_id: "43118"
+externalUrl: Web-based, On-demand
 programArea: PFAS Resources
 publishDate: 4/1/2025
 subCategory:
-- Training, Presentations and Briefings
+  - Training, Presentations and Briefings
 title: Tools and Sensors for Characterizing PFAS Source Zones (Web-based, On-demand)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28449'
-link: http://energy.gov/sites/prod/files/2015/09/f26/A%20Common%20Definition%20for%20Zero%20Energy%20Buildings.pdf
+item_id: "28449"
+externalUrl: http://energy.gov/sites/prod/files/2015/09/f26/A%20Common%20Definition%20for%20Zero%20Energy%20Buildings.pdf
 programArea: Energy
 publishDate: 9/18/2015
 subCategory:
-- Guidance Documents
+  - Guidance Documents
 title: A Common Definition for Zero Energy Buildings
 ---
 

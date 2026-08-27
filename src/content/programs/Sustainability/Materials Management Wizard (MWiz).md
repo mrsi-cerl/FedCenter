@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '30547'
-link: https://cfpub.epa.gov/wizards/mwiz/index.cfm
+item_id: "30547"
+externalUrl: https://cfpub.epa.gov/wizards/mwiz/index.cfm
 programArea: Sustainability
 publishDate: 11/28/2016
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Materials Management Wizard (MWiz)
 ---
 

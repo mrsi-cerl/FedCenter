@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '29054'
-link: http://www.awwa.org/resources-tools/water-knowledge/water-conservation.aspx
+item_id: "29054"
+externalUrl: http://www.awwa.org/resources-tools/water-knowledge/water-conservation.aspx
 programArea: Water Efficiency
 publishDate: 1/25/2016
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: AWWA Water Conservation Resource Community
 ---
 

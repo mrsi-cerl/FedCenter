@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15514'
-link: http://www.saa.org/
+item_id: "15514"
+externalUrl: http://www.saa.org/
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Society for American Archeology
 ---
 

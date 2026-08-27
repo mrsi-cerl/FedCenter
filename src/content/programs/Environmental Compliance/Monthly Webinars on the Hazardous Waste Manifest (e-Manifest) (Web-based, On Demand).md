@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '32316'
-link: http://www.epa.gov/e-manifest/monthly-webinars-about-hazardous-waste-electronic-manifest-e-manifest#upcoming
+item_id: "32316"
+externalUrl: http://www.epa.gov/e-manifest/monthly-webinars-about-hazardous-waste-electronic-manifest-e-manifest#upcoming
 programArea: Environmental Compliance
 publishDate: 2/28/2018
 subCategory:
-- Training, Presentations, and Briefings
-title: Monthly Webinars on the Hazardous Waste Manifest (e-Manifest) (Web-based, On
+  - Training, Presentations, and Briefings
+title:
+  Monthly Webinars on the Hazardous Waste Manifest (e-Manifest) (Web-based, On
   Demand)
 ---
 

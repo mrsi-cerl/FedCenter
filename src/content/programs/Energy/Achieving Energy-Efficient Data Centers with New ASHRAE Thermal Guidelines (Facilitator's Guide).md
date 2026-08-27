@@ -1,12 +1,13 @@
 ---
 expiryDate: null
-item_id: '24645'
-link: https://www1.eere.energy.gov/femp/pdfs/fft\_datacenter\_facilitator.pdf
+item_id: "24645"
+externalUrl: https://www1.eere.energy.gov/femp/pdfs/fft\_datacenter\_facilitator.pdf
 programArea: Energy
 publishDate: 10/9/2013
 subCategory:
-- Training, Presentations, and Briefings
-title: Achieving Energy-Efficient Data Centers with New ASHRAE Thermal Guidelines
+  - Training, Presentations, and Briefings
+title:
+  Achieving Energy-Efficient Data Centers with New ASHRAE Thermal Guidelines
   (Facilitator's Guide)
 ---
 

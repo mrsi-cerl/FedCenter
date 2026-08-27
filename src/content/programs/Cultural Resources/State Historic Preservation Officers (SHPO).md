@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '15516'
-link: https://ncshpo.org/
+item_id: "15516"
+externalUrl: https://ncshpo.org/
 programArea: Cultural Resources
 publishDate: 7/26/2010
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: State Historic Preservation Officers (SHPO)
 ---
 

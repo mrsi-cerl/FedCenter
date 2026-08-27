@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '21981'
-link: http://www.epa.gov/habs
+item_id: "21981"
+externalUrl: http://www.epa.gov/habs
 programArea: Natural Resources
 publishDate: 8/7/2012
 subCategory:
-- Coastal Zones
+  - Coastal Zones
 title: Harmful Algal Blooms (HABs) in Water Bodies
 ---
 

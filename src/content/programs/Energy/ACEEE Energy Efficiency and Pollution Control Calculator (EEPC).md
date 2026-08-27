@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '23354'
-link: http://aceee.org/research-report/e134
+item_id: "23354"
+externalUrl: http://aceee.org/research-report/e134
 programArea: Energy
 publishDate: 5/7/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: ACEEE Energy Efficiency and Pollution Control Calculator (EEPC)
 ---
 

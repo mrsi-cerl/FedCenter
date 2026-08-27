@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '7896'
-link: http://www.energy.gov/eere/femp/energy-efficient-products-and-energy-saving-technologies
+item_id: "7896"
+externalUrl: http://www.energy.gov/eere/femp/energy-efficient-products-and-energy-saving-technologies
 programArea: Energy
 publishDate: 7/25/2007
 subCategory:
-- Federal Legislation & Policy
-- Guidance Documents
+  - Federal Legislation & Policy
+  - Guidance Documents
 title: Energy-Efficient Product Procurement
 ---
 

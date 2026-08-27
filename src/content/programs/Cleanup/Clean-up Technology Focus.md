@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3709'
-link: http://www.clu-in.org/techfocus/
+item_id: "3709"
+externalUrl: http://www.clu-in.org/techfocus/
 programArea: Cleanup
 publishDate: 12/20/2005
 subCategory:
-- General
+  - General
 title: Clean-up Technology Focus
 ---
 

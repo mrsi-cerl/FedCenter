@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28024'
-link: https://www.epa.gov/compliance/npdes-ereporting
+item_id: "28024"
+externalUrl: https://www.epa.gov/compliance/npdes-ereporting
 programArea: Environmental Compliance
 publishDate: 6/17/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: NPDES E-Reporting
 ---
 

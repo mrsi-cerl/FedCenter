@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '26076'
-link: http://energy.gov/eere/femp/downloads/case-study-opportunities-improve-energy-efficiency-three-federal-data-centers
+item_id: "26076"
+externalUrl: http://energy.gov/eere/femp/downloads/case-study-opportunities-improve-energy-efficiency-three-federal-data-centers
 programArea: Energy
 publishDate: 6/12/2014
 subCategory:
-- Data Centers
+  - Data Centers
 title: Opportunities to Improve Energy Efficiency in Three Federal Data Centers
 ---
 

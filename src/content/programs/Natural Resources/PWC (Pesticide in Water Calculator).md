@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '44219'
-link: www.epa.gov/pesticide-science-and-assessing-pesticide-risks/models-pesticide-risk-assessment#PWC
+item_id: "44219"
+externalUrl: www.epa.gov/pesticide-science-and-assessing-pesticide-risks/models-pesticide-risk-assessment#PWC
 programArea: Natural Resources
 publishDate: 7/31/2026
 subCategory:
-- Water Resources
-- Databases and Software Tools
+  - Water Resources
+  - Databases and Software Tools
 title: PWC (Pesticide in Water Calculator)
 ---
 

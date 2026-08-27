@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '20383'
-link: https://www.epa.gov/superfund/close-out-procedures-national-priorities-list-superfund-sites
+item_id: "20383"
+externalUrl: https://www.epa.gov/superfund/close-out-procedures-national-priorities-list-superfund-sites
 programArea: Cleanup
 publishDate: 2/8/2012
 subCategory:
-- NPL
+  - NPL
 title: Close Out Procedures for National Priorities List (NPL) Sites
 ---
 

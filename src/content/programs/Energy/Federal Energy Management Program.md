@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '765'
-link: http://energy.gov/eere/femp/federal-energy-management-program
+item_id: "765"
+externalUrl: http://energy.gov/eere/femp/federal-energy-management-program
 programArea: Energy
 publishDate: 2/3/2005
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Federal Energy Management Program
 ---
 

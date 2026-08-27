@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '13257'
-link: http://www.rggi.org/
+item_id: "13257"
+externalUrl: http://www.rggi.org/
 programArea: Greenhouse Gases
 publishDate: 8/17/2009
 subCategory:
-- Regional
+  - Regional
 title: Regional Greenhouse Gas Initiative (RGGI)
 ---
 

@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '34234'
-link: https://www.govinfo.gov/content/pkg/USCODE-2011-title16/html/USCODE-2011-title16-chap32.htm
+item_id: "34234"
+externalUrl: https://www.govinfo.gov/content/pkg/USCODE-2011-title16/html/USCODE-2011-title16-chap32.htm
 programArea: Natural Resources
 publishDate: 6/27/2019
 subCategory:
-- Species Management
+  - Species Management
 title: National Marine Sanctuaries Amendments Act of 2000
 ---
 
-This act (16 USC 1431-1445)  authorizes NOAA, through Dept. of Commerce, to designate and protect areas of the marine environment with special national significance due to their conservation, recreational, ecological, historical, scientific, cultural, archeological, educational or esthetic qualities as national marine sanctuaries.
+This act (16 USC 1431-1445) authorizes NOAA, through Dept. of Commerce, to designate and protect areas of the marine environment with special national significance due to their conservation, recreational, ecological, historical, scientific, cultural, archeological, educational or esthetic qualities as national marine sanctuaries.

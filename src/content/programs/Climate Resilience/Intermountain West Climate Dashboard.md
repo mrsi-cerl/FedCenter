@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '23358'
-link: http://wwa.colorado.edu/climate/dashboard.html
+item_id: "23358"
+externalUrl: http://wwa.colorado.edu/climate/dashboard.html
 programArea: Climate Resilience
 publishDate: 5/7/2013
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Intermountain West Climate Dashboard
 ---
 

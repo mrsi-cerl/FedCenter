@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8005'
-link: https://www.epa.gov/chemical-research/toxicity-forecasting
+item_id: "8005"
+externalUrl: https://www.epa.gov/chemical-research/toxicity-forecasting
 programArea: Chemical Management
 publishDate: 8/8/2007
 subCategory:
-- Chemical Identification
+  - Chemical Identification
 title: ToxCast™ Program
 ---
 

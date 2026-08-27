@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '17816'
-link: http://hpb.wbdg.org/
+item_id: "17816"
+externalUrl: http://hpb.wbdg.org/
 programArea: High Performance Buildings
 publishDate: 4/28/2011
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: High Performance Buildings Guide (HPGB)
 ---
 
-Guide to High-Performance, Sustainable Buildings.  Formerly SFTool.gov which was sunset.
+Guide to High-Performance, Sustainable Buildings. Formerly SFTool.gov which was sunset.

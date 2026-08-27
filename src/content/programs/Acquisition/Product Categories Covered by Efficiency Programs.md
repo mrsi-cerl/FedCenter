@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '8188'
-link: http://energy.gov/eere/femp/find-product-categories-covered-efficiency-programs
+item_id: "8188"
+externalUrl: http://energy.gov/eere/femp/find-product-categories-covered-efficiency-programs
 programArea: Acquisition
 publishDate: 9/10/2007
 subCategory:
-- Contract and Procurement Language
+  - Contract and Procurement Language
 title: Product Categories Covered by Efficiency Programs
 ---
 

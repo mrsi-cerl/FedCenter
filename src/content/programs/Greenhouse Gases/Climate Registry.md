@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '13296'
-link: http://www.theclimateregistry.org/
+item_id: "13296"
+externalUrl: http://www.theclimateregistry.org/
 programArea: Greenhouse Gases
 publishDate: 8/18/2009
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Climate Registry
 ---
 

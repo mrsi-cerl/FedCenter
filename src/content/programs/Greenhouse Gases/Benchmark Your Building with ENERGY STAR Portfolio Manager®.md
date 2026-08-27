@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '9166'
-link: http://www.energystar.gov/buildings/facility-owners-and-managers/existing-buildings/use-portfolio-manager
+item_id: "9166"
+externalUrl: http://www.energystar.gov/buildings/facility-owners-and-managers/existing-buildings/use-portfolio-manager
 programArea: Greenhouse Gases
 publishDate: 3/6/2008
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Benchmark Your Building with ENERGY STAR Portfolio Manager®
 ---
 

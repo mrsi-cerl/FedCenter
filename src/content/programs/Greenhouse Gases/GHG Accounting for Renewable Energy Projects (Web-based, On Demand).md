@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '22167'
-link: http://ghginstitute.org/product/331-ghg-accounting-for-renewable-energy-projects/
+item_id: "22167"
+externalUrl: http://ghginstitute.org/product/331-ghg-accounting-for-renewable-energy-projects/
 programArea: Greenhouse Gases
 publishDate: 9/4/2012
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: GHG Accounting for Renewable Energy Projects (Web-based, On Demand)
 ---
 

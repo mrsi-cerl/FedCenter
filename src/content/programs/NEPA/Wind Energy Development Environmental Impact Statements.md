@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '3781'
-link: http://windeis.anl.gov/
+item_id: "3781"
+externalUrl: http://windeis.anl.gov/
 programArea: NEPA
 publishDate: 1/4/2006
 subCategory:
-- Lessons Learned
+  - Lessons Learned
 title: Wind Energy Development Environmental Impact Statements
 ---
 

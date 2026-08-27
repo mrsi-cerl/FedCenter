@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '26057'
-link: http://www.climatehubs.usda.gov/hubs/national/topic/climate-change-education-modules
+item_id: "26057"
+externalUrl: http://www.climatehubs.usda.gov/hubs/national/topic/climate-change-education-modules
 programArea: Climate Resilience
 publishDate: 6/9/2014
 subCategory:
-- Construction Design
-- Training, Presentations, and Briefings
+  - Construction Design
+  - Training, Presentations, and Briefings
 title: Climate Change Education Modules (Web-based, On Demand)
 ---
 

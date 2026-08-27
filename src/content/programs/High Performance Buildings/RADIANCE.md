@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '9218'
-link: http://radsite.lbl.gov/radiance/
+item_id: "9218"
+externalUrl: http://radsite.lbl.gov/radiance/
 programArea: High Performance Buildings
 publishDate: 3/17/2008
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: RADIANCE
 ---
 

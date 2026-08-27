@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '41509'
-link: http://www.energystar.gov/buildings/resources-topic/portfolio-manager-data-explorer
+item_id: "41509"
+externalUrl: http://www.energystar.gov/buildings/resources-topic/portfolio-manager-data-explorer
 programArea: Energy
 publishDate: 10/26/2023
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: ENERGY STAR Portfolio Manager Data Explorer
 ---
 

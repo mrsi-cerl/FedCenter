@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '24906'
-link: https://cfpub.epa.gov/si/si\_public\_record\_report.cfm?dirEntryId=339646
+item_id: "24906"
+externalUrl: https://cfpub.epa.gov/si/si\_public\_record\_report.cfm?dirEntryId=339646
 programArea: Natural Resources
 publishDate: 11/27/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Watershed Management Optimization Support Tool (WMOST)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '28577'
-link: http://www.conservationgateway.org/collections/land/northeast-terrestrial-and-aquatic-habitat-guide/
+item_id: "28577"
+externalUrl: http://www.conservationgateway.org/collections/land/northeast-terrestrial-and-aquatic-habitat-guide/
 programArea: Natural Resources
 publishDate: 10/6/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Northeast Terrestrial and Aquatic Habitat Guide
 ---
 

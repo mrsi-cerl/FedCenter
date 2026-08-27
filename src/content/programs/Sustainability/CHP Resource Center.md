@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '9146'
-link: http://www.epa.gov/CHP/
+item_id: "9146"
+externalUrl: http://www.epa.gov/CHP/
 programArea: Sustainability
 publishDate: 3/5/2008
 subCategory:
-- Organizations
+  - Organizations
 title: CHP Resource Center
 ---
 

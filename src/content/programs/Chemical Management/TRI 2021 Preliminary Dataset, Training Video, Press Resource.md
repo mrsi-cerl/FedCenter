@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39832'
-link: https://www.epa.gov/chemicals-under-tsca/icymi-tri-released-2021-preliminary-dataset-training-video-press-resource
+item_id: "39832"
+externalUrl: https://www.epa.gov/chemicals-under-tsca/icymi-tri-released-2021-preliminary-dataset-training-video-press-resource
 programArea: Chemical Management
 publishDate: 8/9/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: TRI 2021 Preliminary Dataset, Training Video, Press Resource
 ---
 

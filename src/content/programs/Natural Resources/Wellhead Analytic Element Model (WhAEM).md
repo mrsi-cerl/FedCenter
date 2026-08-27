@@ -1,12 +1,12 @@
 ---
 expiryDate: null
-item_id: '44218'
-link: www.epa.gov/hydrowq/wellhead-analytic-element-model-whaem
+item_id: "44218"
+externalUrl: www.epa.gov/hydrowq/wellhead-analytic-element-model-whaem
 programArea: Natural Resources
 publishDate: 7/31/2026
 subCategory:
-- Databases and Software Tools
-- Water Resources
+  - Databases and Software Tools
+  - Water Resources
 title: Wellhead Analytic Element Model (WhAEM)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '4277'
-link: http://environment.fhwa.dot.gov/strmlng/es4newsltrs.asp
+item_id: "4277"
+externalUrl: http://environment.fhwa.dot.gov/strmlng/es4newsltrs.asp
 programArea: NEPA
 publishDate: 2/17/2006
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: Successes in Stewardship Newsletter
 ---
 

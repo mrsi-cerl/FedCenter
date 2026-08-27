@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '39043'
-link: http://www.epa.gov/region8-waterops/creating-resilient-water-utilities-crwu
+item_id: "39043"
+externalUrl: http://www.epa.gov/region8-waterops/creating-resilient-water-utilities-crwu
 programArea: Water Efficiency
 publishDate: 2/1/2022
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Creating Climate Resilient Water Utilities Training (On-Demand)
 ---
 

@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '758'
-link: https://www.dla.mil/Portals/104/Documents/Aviation/Commodities/AV\_Re-refinedOil%20Brochure\_170525.pdf
+item_id: "758"
+externalUrl: https://www.dla.mil/Portals/104/Documents/Aviation/Commodities/AV\_Re-refinedOil%20Brochure\_170525.pdf
 programArea: Pollution Prevention
 publishDate: 2/3/2005
 subCategory:
-- Recycling and Reuse
+  - Recycling and Reuse
 title: DLA Re-refined Motor Oil Program
 ---
 

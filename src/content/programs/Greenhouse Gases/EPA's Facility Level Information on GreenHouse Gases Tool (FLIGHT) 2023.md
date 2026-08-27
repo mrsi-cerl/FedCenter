@@ -1,11 +1,11 @@
 ---
 expiryDate: null
-item_id: '36176'
-link: http://ghgdata.epa.gov/ghgp/main.do
+item_id: "36176"
+externalUrl: http://ghgdata.epa.gov/ghgp/main.do
 programArea: Greenhouse Gases
 publishDate: 11/10/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EPA's Facility Level Information on GreenHouse Gases Tool (FLIGHT) 2023
 ---
 
