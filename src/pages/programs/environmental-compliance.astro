@@ -1,0 +1,95 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const envCompliancePosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Environmental Compliance");
+});
+
+const pageTitle = "Environmental Compliance";
+
+const envComplianceAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    url: "/climate-resilience",
+    children: [
+      { title: "Federal Regulations", url: "" },
+      {
+        title:
+          "DOD Environmental Standards for Substantial Installations in Foreign Countries",
+        url: "",
+      },
+      { title: "Guidance for the Clean Air Act (CAA)", url: "" },
+      { title: "Guidance for the Clean Water Act (CWA)", url: "" },
+      { title: "Guidance for CERCLA", url: "" },
+      { title: "Guidance for EPCRA", url: "" },
+      { title: "Guidance for FIFRA", url: "" },
+      { title: "Guidance for RCRA", url: "" },
+      { title: "Guidance for RCRA, Subtitle C", url: "" },
+      { title: "Guidance for RCRA, Subtitle I", url: "" },
+      { title: "Guidance for the Safe Drinking Water Act (SDWA)", url: "" },
+      { title: "Guidance for TSCA", url: "" },
+      { title: "Guidance for EPA Programs", url: "" },
+      { title: "State Regulations", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "General", url: "" },
+      { title: "Compliance Auditing", url: "" },
+      { title: "Enforcement", url: "" },
+      { title: "Property Disposal", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={envComplianceAreas}
+  posts={envCompliancePosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Environmental Compliance Program Area encompasses compliance related
+    issues such as auditing, sources of regulations, executive orders, and
+    policies applicable to Federal Facilities.
+  </p>
+  <p>
+    For an <u> overview of the environmental compliance auditing process </u>,
+    including EPA's perspective on compliance auditing and compliance auditing
+    at federal facilities, click <a
+      href="https://www.fedcenter.gov/programs/compliance/auditing/"
+    >
+      <!-- TODO: MAKE THESE PAGES -->
+      here
+    </a>. For <u> compliance auditing tools and documents </u>, click <a
+      href="https://www.fedcenter.gov/programs/compliance/#3.2"
+    >
+      <!-- TODO: MAKE THESE PAGES -->
+
+      here.
+    </a>.
+  </p>
+  <p>
+    For federal and agency-specific <u>
+      COVID-19 environmental guidance and recommendations
+    </u>, <a href="/covid19"> click here </a>.
+  </p>
+</ProgramPage>

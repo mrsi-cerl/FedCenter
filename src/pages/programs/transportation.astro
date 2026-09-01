@@ -1,0 +1,71 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const transportationPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Transportation");
+});
+
+const pageTitle = "Transportation";
+
+const transportationAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "Legislation", url: "" },
+      { title: "Executive Orders", url: "" },
+      { title: "Guidance", url: "" },
+      { title: "Memoranda", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Acquisition", url: "" },
+      { title: "Award Winners", url: "" },
+      { title: "Case Studies", url: "" },
+      { title: "Fleet Management", url: "" },
+      { title: "Freight, Cargo, and Household Goods", url: "" },
+      { title: "Greenhouse Gases", url: "" },
+      { title: "Petroleum Alternatives", url: "" },
+      { title: "Pollution Prevention Opportunities", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={transportationAreas}
+  posts={transportationPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Transportation Program Area addresses vehicle fleet management which
+    includes optimizing vehicle maintenance operations, biofuels, pollution
+    prevention tools and techniques including disposal of used oil, and
+    transportation of freight, cargo and household goods. Additionally included
+    are links to software and databases that can model engine effectiveness and
+    demonstrate appropriate pollution prevention techniques.
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

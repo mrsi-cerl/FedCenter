@@ -1,0 +1,72 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const pfasPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("PFAS");
+});
+
+const pageTitle = "PFAS";
+
+const pfasAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "State, National, and International Regulations", url: "" },
+      { title: "Proposed and Final Legislation", url: "" },
+      { title: "Guidance", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Federal Agency Resources", url: "" },
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations and Programs", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage programAreas={pfasAreas} posts={pfasPosts} pageTitle={pageTitle}>
+  <p>
+    The PFAS Resources Program Area consolidates information on PFAS compounds
+    for federal agencies. This page includes information from federal, state,
+    local, and tribal governments and non-governmental and private
+    organizations. Information ranges from regulations and guidance to
+    scientific studies, conferences, and trainings. The page will be updated
+    regularly to assist federal agencies in addressing this increasingly
+    important topic.
+  </p>
+  <h2>What are PFAS?</h2>
+  <p>
+    Per- and polyfluoroalkyl substances, or PFAS, are a class of human-made
+    chemicals manufactured and used in a range of industries since the 1940s.
+    The group consists of thousands of chemicals, including PFOA
+    (perfluorooctanoic acid) and PFOS (perfluorooctanesulfonic acid), which are
+    the two most-studied PFAS compounds. PFAS are highly stable oil- and
+    water-resistant compounds and have been used in a variety of products such
+    as carpets, waterproof clothing, non-stick pans, dental floss,
+    chrome-plating, and firefighting foam. PFAS are also environmentally
+    persistent and bioaccumulative. PFAS have been associated with adverse
+    health affects, including low infant birth weight, thyroid hormone
+    disruption, high cholesterol, and certain cancers.
+  </p>
+  <p>
+    Scientific research on PFAS continues to develop and, as the scientific
+    community and regulators increase their knowledge of PFAS, regulatory action
+    to address the compounds is also increasing. This page will be updated with
+    a range of information in the categories below to keep federal agencies
+    apprised of the latest developments regarding PFAS compounds. <a
+      href="https:www.epa.gov/pfas/basic-information-pfas"
+      target="new">More on PFAS basics at EPA.</a
+    >
+  </p>
+</ProgramPage>

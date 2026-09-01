@@ -1,0 +1,75 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const pollutionPreventionPosts = await getCollection(
+  "programPost",
+  ({ data }) => {
+    return data.programArea.includes("Pollution Prevention");
+  }
+);
+
+const pageTitle = "Pollution Prevention";
+
+const pollutionPrevention = [
+  {
+    title: "Regulations, Guidance, and Policy",
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Award Winners", url: "" },
+      { title: "Case Studies", url: "" },
+      { title: "Electronics", url: "" },
+      { title: "Grounds Maintenance Pollution Prevention", url: "" },
+      { title: "Household Pollution Prevention", url: "" },
+      { title: "Medical Facilities Pollution Prevention", url: "" },
+      { title: "Recycling and Reuse", url: "" },
+      { title: "Waste Reduction", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={pollutionPrevention}
+  posts={pollutionPreventionPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    This Pollution Prevention Program Area contains guidance, tools, examples,
+    and analyses of products and processes which can be substituted for existing
+    products/processes or added to existing processes to reduce/eliminate
+    pollution.
+  </p>
+  <p>
+    For pollution prevention guidance pertaining to motor vehicles, please see
+    the
+    <a class="usa-link" href="">Transportation Program Area.</a>
+  </p>
+  <p>
+    For pollution prevention guidance related to electronics, see the
+    <a class="usa-link" href="">Electronics Stewardship Program Area.</a>
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

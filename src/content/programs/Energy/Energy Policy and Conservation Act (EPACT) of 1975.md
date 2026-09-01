@@ -5,7 +5,7 @@ externalUrl: http://www.gpo.gov/fdsys/pkg/STATUTE-89/pdf/STATUTE-89-Pg871.pdf
 programArea: Energy
 publishDate: 5/5/2015
 subCategory:
-  - Federal Legislation & Policy
+  - Federal Legislation and Policy
 title: Energy Policy and Conservation Act (EPACT) of 1975
 ---
 

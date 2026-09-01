@@ -1,24 +1,21 @@
 ---
 import { getCollection } from "astro:content";
-import RootLayout from "../../layouts/RootLayout.astro";
 import ProgramPage from "../../layouts/ProgramPage.astro";
-import { sideBarForPrograms } from "../../constants.ts";
-import { sideBarConstants } from "../../constants.ts";
 
-const acquisitionPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("Acquisition");
+const energyPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Energy");
 });
 
-const pageTitle = "Acquisitions";
+const pageTitle = "Energy";
 
-const acquisitionAreas = [
+const energyAreas = [
   {
     title: "Regulations, Guidance, and Policy",
-    url: "/acquisition",
+    url: "/climate-resilience",
     children: [
+      { title: "Federal Legislation and Policy", url: "" },
       { title: "Executive Orders", url: "" },
-      { title: "Laws, Regulations, and Agreements", url: "" },
-      { title: "Guidance", url: "" },
+      { title: "Guidance Documents", url: "" },
     ],
   },
 
@@ -38,9 +35,10 @@ const acquisitionAreas = [
     url: "",
     children: [
       { title: "Award Winners", url: "" },
+      { title: "Alternative Energy", url: "" },
       { title: "Case Studies", url: "" },
-      { title: "Contract and Procurement Language", url: "" },
-      { title: "Purchasing Guides", url: "" },
+      { title: "Data Centers", url: "" },
+      { title: "Energy Conservation", url: "" },
     ],
   },
 
@@ -50,16 +48,13 @@ const acquisitionAreas = [
 ---
 
 <ProgramPage
-  programAreas={acquisitionAreas}
-  posts={acquisitionPosts}
+  programAreas={energyAreas}
+  posts={energyPosts}
   pageTitle={pageTitle}
 >
   <p>
-    Included in the Acquisition Program Area are links to, and highlights from
-    programs which enable agencies to meet these goals include: Environmentally
-    Preferable Purchasing (EPP), Comprehensive Procurement Guidelines (CPG),
-    ENERGY STAR?, the Green Procurement Program (GPP), and the Federal Energy
-    Management Program (FEMP).
+    The focus of the Energy program area is energy conservation, alternative
+    sources of energy, and energy management programs.
   </p>
   <p>
     When future Executive Orders (EOs) and Implementing Instructions for those

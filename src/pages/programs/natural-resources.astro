@@ -1,0 +1,66 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const naturalResourcesPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Natural Resources");
+});
+
+const pageTitle = "Natural Resources";
+
+const naturalResourcesAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "General", url: "" },
+      { title: "Land Management", url: "" },
+      { title: "Species Management", url: "" },
+      { title: "Water Resources", url: "" },
+      { title: "Wetlands Management", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Award Winners", url: "" },
+      { title: "Coastal Zones", url: "" },
+      { title: "Endangered/Threatened Species", url: "" },
+      { title: "Land Management", url: "" },
+      //   TODO: Why is this starting expanded?
+      { title: "Water Conservation", url: "" },
+      { title: "Watershed Management", url: "" },
+      { title: "Wetlands", url: "" },
+      { title: "Wildlife Management", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={naturalResourcesAreas}
+  posts={naturalResourcesPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Natural Resources Program Area includes the latest guidance, examples,
+    and information resources to aid Federal facilities in managing endangered
+    or threatened species, wetlands, erosion control, habitat development,
+    native landscaping, and wildlife in general.
+  </p>
+</ProgramPage>

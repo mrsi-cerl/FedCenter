@@ -1,0 +1,66 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const climateResiliencePosts = await getCollection(
+  "programPost",
+  ({ data }) => {
+    return data.programArea.includes("Environmental Management System");
+  }
+);
+
+const pageTitle = "Environmental Management System (EMS)";
+
+const climateResilienceAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "Executive Orders", url: "" },
+      { title: "Federal Agency Guidance and Policies", url: "" },
+      { title: "EPA Guidance", url: "" },
+      { title: "International Standards Organization (ISO)", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    children: [
+      { title: "Templates and Tools", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Award Winners", url: "" },
+      { title: "EMS Development", url: "" },
+      { title: "EMS Examples and Case Studies", url: "" },
+      { title: "Measuring EMS Implemenation and Success", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={climateResilienceAreas}
+  posts={climateResiliencePosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The EMS Program Area includes the latest guidance, examples, and resources
+    for the development and implementation of processes and practices that
+    enable an organization to reduce its environmental impacts and increase its
+    operating efficiency.
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

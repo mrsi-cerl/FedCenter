@@ -1,0 +1,75 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const highPerformanceBuildingsPosts = await getCollection(
+  "programPost",
+  ({ data }) => {
+    return data.programArea.includes("High Performance Buildings");
+  }
+);
+
+const pageTitle = "High Performance Buildings";
+
+const highPerformanceBuildingsAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "Executive Orders", url: "" },
+      { title: "Guiding Principles and LEED", url: "" },
+      { title: "Agency-Specific Policy", url: "" },
+      { title: "Guidance and Policy", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations and Programs", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Award Winners", url: "" },
+      { title: "Beneficial Landscaping", url: "" },
+      { title: "Case Studies", url: "" },
+      { title: "Construction Design", url: "" },
+      { title: "Construction Guidelines and Criteria", url: "" },
+      { title: "Indoor Air Quality", url: "" },
+      { title: "Planning", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={highPerformanceBuildingsAreas}
+  posts={highPerformanceBuildingsPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    Included in the High Performance Buildings Program Area are links to, and
+    highlights from, the U.S. Green Building Council (USGBC), the Leadership in
+    Energy and Environmental Design (LEED) Green Building Rating System,<sup
+      >TM
+    </sup>case studies of green construction efforts, software and databases to
+    aid in determining which construction products and processes are the most
+    effective, and assorted high performance construction guidelines and
+    standards.
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

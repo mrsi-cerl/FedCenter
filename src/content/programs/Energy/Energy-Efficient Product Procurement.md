@@ -5,7 +5,7 @@ externalUrl: http://www.energy.gov/eere/femp/energy-efficient-products-and-energ
 programArea: Energy
 publishDate: 7/25/2007
 subCategory:
-  - Federal Legislation & Policy
+  - Federal Legislation and Policy
   - Guidance Documents
 title: Energy-Efficient Product Procurement
 ---

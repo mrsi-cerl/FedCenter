@@ -1,0 +1,116 @@
+---
+import { getCollection } from "astro:content";
+import RootLayout from "../../layouts/RootLayout.astro";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+import { sideBarForPrograms } from "../../constants.ts";
+import { sideBarConstants } from "../../constants.ts";
+
+const culturalResourcesPosts = await getCollection(
+  "programPost",
+  ({ data }) => {
+    return data.programArea.includes("Cultural Resources");
+  }
+);
+
+const pageTitle = "Cultural Resources";
+
+const culturalResourcesAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    url: "/cultural-resources",
+    children: [
+      { title: "National Laws and Statutes", url: "" },
+      { title: "National Executive Orders", url: "" },
+      { title: "International Agreements", url: "" },
+      { title: "Federal Agency Policy", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations and Programs", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Award Winners", url: "" },
+      { title: "Case Studies", url: "" },
+      { title: "Implementation Guidance", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={culturalResourcesAreas}
+  posts={culturalResourcesPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Cultural Resources Program Area addresses the background and available
+    tools and resources for the management of cultural and historic resources.
+    This includes: preservation of historic properties, archaeological sites,
+    gravesites, repatriation of Native American objects, and curation of
+    collections.
+  </p>
+  <p>
+    The history of officially preserving historic properties, monuments,
+    archeological sites, and museum displays dates back to the <a
+      href="https://uscode.house.gov/view.xhtml?path=/prelim@title54/subtitle3/divisionC&edition=prelim"
+      target="new"
+    >
+      <i> American Antiquities Act of 1906 </i>
+    </a> which authorized the President to declare historic landmarks, historic and
+    prehistoric structures, and other objects of historic or scientific interest,
+    that are situated upon the lands owned or controlled by the Federal Government,
+    to be national monuments. It also authorized the Secretaries of the Interior (SOI),
+    Agriculture, and Army to issue permits for the examination of ruins, the excavation
+    of archaeological sites, and the gathering of objects of antiquity upon the lands
+    under their respective jurisdictions.
+  </p>
+  <p>
+    It was not until the <a
+      href="https://uscode.house.gov/view.xhtml?path=/prelim@title54/subtitle3/divisionA&edition=prelim"
+      target="new"
+    >
+      <i> National Historic Preservation Act (NHPA) of 1966 </i>
+    </a> that the goal of having federal agencies act as responsible stewards of our
+    nation's resources when their actions affect historic properties became law. The
+    NHPA also established the <a href="http://www.achp.gov/" target="new">
+      Advisory Council on Historic Preservation (ACHP)
+    </a>. The ACHP is the only entity with the legal responsibility to encourage
+    federal agencies to factor historic preservation into federal project
+    requirements. The ACHP serves as the primary federal policy advisor to the
+    President and Congress; recommends administrative and legislative
+    improvements for protecting our nation's heritage; advocates full
+    consideration of historic values in federal decisionmaking; and reviews
+    federal programs and policies to promote effectiveness, coordination, and
+    consistency with national preservation policies.
+  </p>
+  <p>
+    Interest in the management, preservation, and curation of archeological
+    sites increased for federal agencies with the passage of the <a
+      href="https://www.doi.gov/sites/doi.gov/files/uploads/ahpa.pdf"
+      target="new"
+    >
+      <i> Archeological and Historic Preservation Act of 1974 (AHPA) </i>
+    </a>, which requires Federal agencies to survey and recovery significant
+    scientific, prehistorical, historical or archeological data that may be
+    irreparably lost or destroyed during federal construction projects. In
+    executing cultural resources responsibilities Federal facilities must often
+    consult with their State Historic Preservation Officer, any potentially
+    impacted Native American groups, and the responsible Department of Interior
+    Bureaus and offices.
+  </p>
+</ProgramPage>

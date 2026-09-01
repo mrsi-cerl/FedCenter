@@ -15,6 +15,10 @@ const { programAreas, posts, pageTitle } = Astro.props;
     <SidePageNavigation>
       <h1>{pageTitle}</h1>
       <slot />
+      <p>
+        Links to statutory requirements, reporting mechanisms, and additional
+        CEQ guidance is provided below.
+      </p>
       <Announcements
         title={`Recently Updated For ${pageTitle}`}
         posts={posts}

@@ -1,0 +1,104 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const greenhouseGasesPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Greenhouse Gases");
+});
+
+const pageTitle = "Greenhouse Gases";
+
+const greenhouseGasesAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "National", url: "" },
+      { title: "International", url: "" },
+      { title: "Regional", url: "" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    url: "",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations and Programs", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Case Studies", url: "" },
+      { title: "Inventories", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={greenhouseGasesAreas}
+  posts={greenhouseGasesPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Greenhouse Gases (GHG) Program Area includes the latest guidance and
+    information resources to aid Federal facilities in managing greenhouse gas
+    emissions. This encompasses current guidance, policies, and trends related
+    to climate change/global warming, calculation of carbon footprints, and the
+    application of offsets to reduce carbon footprints.
+  </p>
+  <p>
+    The primary 6 GHGs of concern are: <b>carbon dioxide</b>, <b>methane</b>, <b
+      >nitrous oxide</b
+    >, <b>hydrofluorocarbons</b>, <b>perfluorocarbons</b>, and <b
+      >sulfur hexafluoride</b
+    >. The main sources of these gases due to human activity are as follows:
+  </p>
+  <ul class="usa-list">
+    <li>
+      Carbon Dioxide (CO<sub>2</sub>): burning of fossil fuels and
+      deforestation;
+    </li>
+    <li>
+      Methane (CH<sub>4</sub>): livestock enteric fermentation (i.e. cows) and
+      manure management, paddy rice farming, land use and wetland changes,
+      pipeline losses, and covered vented landfill emissions;
+    </li>
+    <li>
+      Hydrofluorocarbons (HFCs): these items are of concern from the standpoint
+      of global warming and the Kyoto Protocol;
+    </li>
+    <li>
+      Perfluorocarbons (PFCs): these are being used in refrigerating units as
+      replacements for CFCs;
+    </li>
+    <li>
+      Nitrous Oxide (N<sub>2</sub>O): this is used for its anesthetic and
+      analgesic effects as well as being used as an oxidizer in rocketry and in
+      motor racing to increase the power output of engines;
+    </li>
+    <li>
+      Sulfur Hexafluoride (SF<sub>6</sub>): used in the electrical industry as a
+      gaseous dielectric medium for high-voltage (35 kV and above) circuit
+      breakers, switchgear, and other electrical equipment, often referred to as
+      SF<sub>6</sub>. SF<sub>6</sub> is also employed as a contrast agent for ultrasound
+      imaging. See the <a
+        href="https://www.fedcenter.gov/_kd/go.cfm?destination=ShowItem&Item_ID=13856"
+        target="new">DOE Safety Bulletin</a
+      > for more information on SF<sub>6</sub>.
+    </li>
+  </ul>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

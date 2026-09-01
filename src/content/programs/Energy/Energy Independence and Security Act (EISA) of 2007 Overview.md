@@ -5,7 +5,7 @@ externalUrl: https://afdc.energy.gov/laws/eisa.html
 programArea: Energy
 publishDate: 3/25/2008
 subCategory:
-  - Federal Legislation & Policy
+  - Federal Legislation and Policy
 title: Energy Independence and Security Act (EISA) of 2007 Overview
 ---
 

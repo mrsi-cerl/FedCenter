@@ -1,24 +1,24 @@
 ---
 import { getCollection } from "astro:content";
-import RootLayout from "../../layouts/RootLayout.astro";
 import ProgramPage from "../../layouts/ProgramPage.astro";
-import { sideBarForPrograms } from "../../constants.ts";
-import { sideBarConstants } from "../../constants.ts";
 
-const acquisitionPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("Acquisition");
-});
+const climateResiliencePosts = await getCollection(
+  "programPost",
+  ({ data }) => {
+    return data.programArea.includes("Climate Resilience");
+  }
+);
 
-const pageTitle = "Acquisitions";
+const pageTitle = "Climate Resilience";
 
-const acquisitionAreas = [
+const climateResilienceAreas = [
   {
     title: "Regulations, Guidance, and Policy",
-    url: "/acquisition",
     children: [
-      { title: "Executive Orders", url: "" },
-      { title: "Laws, Regulations, and Agreements", url: "" },
-      { title: "Guidance", url: "" },
+      { title: "Federal", url: "" },
+      { title: "State", url: "" },
+      { title: "International", url: "" },
+      { title: "Agency-Specific Climate Change/Adaptation", url: "" },
     ],
   },
 
@@ -39,8 +39,8 @@ const acquisitionAreas = [
     children: [
       { title: "Award Winners", url: "" },
       { title: "Case Studies", url: "" },
-      { title: "Contract and Procurement Language", url: "" },
-      { title: "Purchasing Guides", url: "" },
+      { title: "Coastal Zones", url: "" },
+      { title: "Water", url: "" },
     ],
   },
 
@@ -50,16 +50,14 @@ const acquisitionAreas = [
 ---
 
 <ProgramPage
-  programAreas={acquisitionAreas}
-  posts={acquisitionPosts}
+  programAreas={climateResilienceAreas}
+  posts={climateResiliencePosts}
   pageTitle={pageTitle}
 >
   <p>
-    Included in the Acquisition Program Area are links to, and highlights from
-    programs which enable agencies to meet these goals include: Environmentally
-    Preferable Purchasing (EPP), Comprehensive Procurement Guidelines (CPG),
-    ENERGY STAR?, the Green Procurement Program (GPP), and the Federal Energy
-    Management Program (FEMP).
+    The Climate Resilience Program Area provides resources, tools, and lessons
+    learned for organizations working to adjust to a changing climate to
+    minimize negative effects and take advantage of new opportunities.
   </p>
   <p>
     When future Executive Orders (EOs) and Implementing Instructions for those

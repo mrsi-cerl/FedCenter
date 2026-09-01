@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const electronicStewardshipPosts = await getCollection(
+  "programPost",
+  ({ data }) => {
+    return data.programArea.includes("Electronics Stewardship");
+  }
+);
+
+const pageTitle = "Electronics Stewardship";
+
+const electronicStewardshipAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    children: [
+      { title: "Databases and Software Tools", url: "" },
+      { title: "Directories, Catalogs, and Newsletters", url: "" },
+      { title: "Libraries and Repositories", url: "" },
+      { title: "Organizations and Programs", url: "" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    url: "",
+    children: [
+      { title: "Award Winners", url: "" },
+      { title: "Case Studies", url: "" },
+      { title: "Disposal", url: "" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings", url: "" },
+  { title: "Conferences and Events", url: "" },
+];
+---
+
+<ProgramPage
+  programAreas={electronicStewardshipAreas}
+  posts={electronicStewardshipPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Electronics Stewardship Program Area addresses the life-cycle management
+    of electronics from procurement to disposal.
+  </p>
+</ProgramPage>

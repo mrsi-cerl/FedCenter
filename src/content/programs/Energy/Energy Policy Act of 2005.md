@@ -5,7 +5,7 @@ externalUrl: http://www.epa.gov/laws-regulations/summary-energy-policy-act
 programArea: Energy
 publishDate: 8/10/2026
 subCategory:
-  - Federal Legislation & Policy
+  - Federal Legislation and Policy
 title: Energy Policy Act of 2005
 ---
 

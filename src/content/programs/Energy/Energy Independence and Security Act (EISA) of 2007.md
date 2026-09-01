@@ -5,7 +5,7 @@ externalUrl: http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=110\_cong
 programArea: Energy
 publishDate: 1/11/2011
 subCategory:
-  - Federal Legislation & Policy
+  - Federal Legislation and Policy
 title: Energy Independence and Security Act (EISA) of 2007
 ---
 

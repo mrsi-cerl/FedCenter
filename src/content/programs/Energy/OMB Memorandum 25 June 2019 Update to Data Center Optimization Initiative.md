@@ -5,7 +5,7 @@ externalUrl: https://www.whitehouse.gov/wp-content/uploads/2019/06/M-19-19-Data-
 programArea: Energy
 publishDate: 8/2/2016
 subCategory:
-  - Federal Legislation & Policy
+  - Federal Legislation and Policy
 title: "OMB Memorandum 25 June 2019: Update to Data Center Optimization Initiative"
 ---
 
