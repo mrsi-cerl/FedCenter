@@ -6,8 +6,6 @@ import Collection from "@/components/Collection.astro";
 import ProgramAreaSidebar from "@/components/ProgramAreaSidebar.astro";
 import SidePageNavigation from "@/components/SidePageNavigation.astro";
 
-export const prerender = false; // Not needed in 'server' mode
-
 export async function getStaticPaths() {
   return [
     { params: { program: "acquisition" } },
