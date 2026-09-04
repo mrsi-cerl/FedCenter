@@ -1,12 +1,15 @@
 ---
 const urlArray = Astro.url.pathname.split("/");
-const docId = urlArray[urlArray.length - 1].trim();
+const program = urlArray[urlArray.length - 1].trim();
+const programBackup = urlArray[urlArray.length - 2].trim(); //There's probably a better way to do this, but sometimes our program isn't the last item in the array
+//this occurs in the case of the /program/whats-new page
 ---
 
-<script define:vars={{ docId }}>
+<script define:vars={{ program, programBackup }}>
   //when the page loads, make whatever page you're on be the current page in the sidebar
   window.onload = function () {
-    document.getElementById(docId)?.classList.add("usa-current");
+    document.getElementById(program)?.classList.add("usa-current");
+    document.getElementById(programBackup)?.classList.add("usa-current");
   };
 </script>
 
@@ -55,7 +58,7 @@ const docId = urlArray[urlArray.length - 1].trim();
       </li>
       <li class="usa-sidenav__item">
         <a
-          id="ems"
+          id="environmental-management-system"
           href=`${import.meta.env.BASE_URL}programs/environmental-management-system`
           >Environmental Management System (EMS)</a
         >
@@ -67,7 +70,7 @@ const docId = urlArray[urlArray.length - 1].trim();
       </li>
       <li class="usa-sidenav__item">
         <a
-          id="env-compliance"
+          id="environmental-compliance"
           href=`${import.meta.env.BASE_URL}programs/environmental-compliance`
           >Environmental Compliance</a
         >

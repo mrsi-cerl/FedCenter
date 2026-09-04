@@ -23,7 +23,8 @@ const { programAreas, posts, pageTitle } = Astro.props;
         title={`Recently Updated For ${pageTitle}`}
         posts={posts}
         showYear={true}
-        buttonTitle={`See More Changes for ${pageTitle}`}
+        buttonTitle={`See More Updates for ${pageTitle}`}
+        url={Astro.url + "/whats-new"}
       />
       <div
         class="usa-accordion usa-accordion--multiselectable"

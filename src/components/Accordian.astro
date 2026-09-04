@@ -21,6 +21,6 @@ const { id, title, posts } = Astro.props;
 >
   <ul class="usa-collection">
     {posts && posts.map((post: any) => <Collection post={post} />)}
-    {posts.length === 0 ? <p>No Items Available</p> : <> </>}
+    {posts?.length === 0 ? <p>No Items Available</p> : <> </>}
   </ul>
 </div>

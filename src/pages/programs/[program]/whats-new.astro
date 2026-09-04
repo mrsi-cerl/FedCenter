@@ -1,0 +1,165 @@
+---
+import RootLayout from "@/layouts/RootLayout.astro";
+
+import { getCollection } from "astro:content";
+import Collection from "@/components/Collection.astro";
+import ProgramAreaSidebar from "@/components/ProgramAreaSidebar.astro";
+import SidePageNavigation from "@/components/SidePageNavigation.astro";
+
+export const prerender = false; // Not needed in 'server' mode
+
+export async function getStaticPaths() {
+  return [
+    { params: { program: "acquisition" } },
+    { params: { program: "chemical-management" } },
+    { params: { program: "cleanup" } },
+    { params: { program: "climate-resilience" } },
+    { params: { program: "cultural-resources" } },
+    { params: { program: "electronics-stewardship" } },
+    { params: { program: "energy" } },
+    { params: { program: "environmental-compliance" } },
+    { params: { program: "environmental-management-system" } },
+    { params: { program: "greenhouse-gases" } },
+    { params: { program: "high-performance-buildings" } },
+    { params: { program: "natural-resources" } },
+    { params: { program: "nepa" } },
+    { params: { program: "pfas" } },
+    { params: { program: "pollution-prevention" } },
+    { params: { program: "sustainability" } },
+    { params: { program: "transportation" } },
+    { params: { program: "water-efficiency" } },
+
+    // ...
+  ];
+}
+
+const { program } = Astro.params;
+var collectionName = ""; //our collection name is different than our program name in many cases
+//program names do not contain dashes
+
+switch (
+  program //there's probably a better way to do this, but I haven't figured it out yet.
+) {
+  case "acquisition":
+    collectionName = "Acquisition";
+    break;
+  case "chemical-management":
+    collectionName = "Chemical Management";
+    break;
+  case "climate-resilience":
+    collectionName = "Cleanup";
+    break;
+  case "cultural-resources":
+    collectionName = "Cultural Resources";
+    break;
+  case "electronics-stewardship":
+    collectionName = "Electronics Stewardship";
+    break;
+  case "energy":
+    collectionName = "Energy";
+    break;
+  case "environmental-compliance":
+    collectionName = "Environmental Compliance";
+    break;
+  case "environmental-management-system":
+    collectionName = "Environmental Management System";
+    break;
+  case "greenhouse-gases":
+    collectionName = "Greenhouse Gases";
+    break;
+  case "high-performance-buildings":
+    collectionName = "High Performance Buildings";
+    break;
+  case "natural-resources":
+    collectionName = "Natural Resources";
+    break;
+  case "nepa":
+    collectionName = "NEPA";
+    break;
+  case "pfas":
+    collectionName = "PFAS";
+    break;
+  case "pollution-prevention":
+    collectionName = "Pollution Prevention";
+    break;
+  case "sustainability":
+    collectionName = "Sustainability";
+    break;
+  case "transportation":
+    collectionName = "Transportation";
+    break;
+  case "water-efficiency":
+    collectionName = "Water Efficiency";
+    break;
+}
+
+const pageTitle = `Whats New at ${collectionName}`;
+
+const currDate = new Date();
+
+const allNewPosts = await getCollection("programPost", ({ data }) => {
+  return (
+    Math.abs(currDate.getTime() - new Date(data.publishDate).getTime()) /
+      1000 / // Complicated math that converts miliseconds into days
+      60 /
+      60 /
+      24 <=
+      365 && //change this number for testing different days
+    data.programArea.includes(collectionName) //also make sure to filter to this specific program
+  );
+});
+
+// convert the date object into a timestamp, and then filter those timestamps to unique ones
+const uniqueTimes = [
+  ...new Set(
+    allNewPosts.map((post) => new Date(post.data.publishDate).getTime())
+  ),
+];
+
+//sort them from most recent to oldest
+const sortedTimes = uniqueTimes.sort((a, b) => {
+  return b - a; //use a-b for oldest to most recent
+});
+
+//transform those timestamps back into a date to get a list of unique dates.
+const uniqueDates = sortedTimes.map((time) => new Date(time));
+//if there are no recent posts (probably will never happen), show a message saying so
+const noRecent = uniqueDates.length == 0;
+---
+
+<RootLayout pageTitle={pageTitle}>
+  <div class="display-flex">
+    <ProgramAreaSidebar />
+    <SidePageNavigation>
+      <h1>{pageTitle}</h1>
+      <p>
+        This page exists for you to track any new updates that are posted to the {
+          collectionName
+        } program area. By default this page shows updates within the past year
+      </p>
+      {noRecent && <p>There are no updates within the past year</p>}
+      {
+        uniqueDates.map((date) => (
+          <>
+            <h2 class="font-sans-xl">
+              {new Intl.DateTimeFormat("en-GB", {
+                year: "numeric", //this chunk of code converts a date that looks like
+                month: "short", //2026-05-28T00:00:00.000Z
+                day: "2-digit", //into something that looks more human readable
+              })
+                .format(date)
+                .split(" ")
+                .join("-")}
+            </h2>
+            {allNewPosts.map(
+              // then render all the posts whose dates fit that day below
+              (post) =>
+                new Date(post.data.publishDate).getTime() ===
+                  date.getTime() && <Collection post={post} showTags={true} />
+            )}
+          </>
+        ))
+      }
+    </SidePageNavigation>
+  </div>
+</RootLayout>

@@ -2,16 +2,9 @@
 import Banner from "../components/Banner.astro";
 import "../components/uswds/css/styles.css";
 import Menu from "../components/Menu.astro";
-import Sidebar from "../components/Sidebar.astro";
 import Identifier from "../components/Identifier.astro";
-import BreadCrumb from "../components/BreadCrumb.astro";
-import ProgramAreaSidebar from "../components/ProgramAreaSidebar.astro";
-import FacilityRegulatoryTourSidebar from "../components/FacilityRegulatoryTourSidebar.astro";
-import { sideBarConstants } from "../constants";
-import SidePageNavigation from "@/components/SidePageNavigation.astro";
 
-const { pageTitle, showBreadcrumb = false } = Astro.props;
-const { sideBarItems } = Astro.props;
+const { pageTitle } = Astro.props;
 // console.log("sbi: ", sideBarItems);
 ---
 

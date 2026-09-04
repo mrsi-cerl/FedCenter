@@ -7,6 +7,7 @@ const {
   showYear = false,
   announcementCount = 3,
   buttonTitle = "See All Announcements",
+  url = "whats-new",
 } = Astro.props;
 
 // const pDate = new Date(post.data.publishDate);
@@ -71,5 +72,5 @@ const recentThreeAnouncements = allAnnouncements
       </div>
     ))
   }
-  <a href="whats-new" class="usa-button margin-2">{buttonTitle}</a>
+  <a href={url} class="usa-button margin-2">{buttonTitle}</a>
 </div>
