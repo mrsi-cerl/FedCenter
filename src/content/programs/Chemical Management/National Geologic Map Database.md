@@ -6,7 +6,10 @@ programArea: Chemical Management
 publishDate: 5/28/2007
 subCategory:
   - Databases and Software Tools
-title: "National Geologic Map Database "
+  - Environmental Information About My Community
+title: "National Geologic Map Database"
+additionalPages:
+  - My Community
 ---
 
 Source for maps, and related data about: geology, hazards, earth resources, geophysics, geochemistry, paleontology, and marine geology.

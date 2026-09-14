@@ -6,7 +6,10 @@ programArea: Chemical Management
 publishDate: 5/28/2007
 subCategory:
   - Databases and Software Tools
+  - Environmental Information About My Community
 title: Local Drinking Water Quality
+additionalPages:
+  - My Community
 ---
 
 Provides access to copies of drinking water quality reports.

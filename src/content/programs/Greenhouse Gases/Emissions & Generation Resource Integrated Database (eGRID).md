@@ -6,7 +6,10 @@ programArea: Greenhouse Gases
 publishDate: 10/31/2008
 subCategory:
   - Databases and Software Tools
-title: Emissions & Generation Resource Integrated Database (eGRID)
+  - Does Your Facility Have Any Air Emission Sources?
+title: Emissions and Generation Resource Integrated Database (eGRID)
+additionalPages:
+  - My Community
 ---
 
 eGRID is a comprehensive air emissions database of electric power plants in the United States, including emissions data on nitrogen oxides, sulfur dioxide, carbon dioxide and mercury. The new edition of eGRID now also provides emissions data on two greenhouse gases, methane and nitrous oxide.
