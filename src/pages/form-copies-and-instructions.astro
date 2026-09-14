@@ -2,6 +2,7 @@
 import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import Accordian from "../components/Accordian.astro";
 import RootLayout from "../layouts/RootLayout.astro";
+import SlottedAccordian from "@/components/SlottedAccordian.astro";
 const pageTitle = "Form Copies and Instructions";
 
 // TODO: get posts for each question on this page
@@ -16,14 +17,749 @@ const pageTitle = "Form Copies and Instructions";
         required reporting forms for the following media types:
       </p>
     </div>
-    <Accordian title="Air" />
-    <Accordian title="Chemical Management" />
-    <Accordian title="Lead-Based Paint" />
-    <Accordian title="Hazardous Waste" />
-    <Accordian title="Storage Tanks" />
-    <Accordian title="Stormwater" />
-    <Accordian title="Toxic Substances" />
-    <Accordian title="Underground Injection Control" />
-    <Accordian title="Wastewater" />
+    <h2>Air</h2>
+    <SlottedAccordian
+      title="40 CFR, Part 71 (i.e., Title V) Initial Permit Application"
+    >
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Instructions for Completing All Part 71 Forms</a
+          >
+          <p class="margin-top-0">
+            Contains detailed information on how to complete all of the Part 71
+            forms.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits#part-71"
+            class="usa-link usa-link--external"
+            >General Information and Summary (GIS) Form</a
+          >
+          <p class="margin-top-0">
+            This form is required to be completed by all applicants as part of
+            an application for a 40 CFR Part 71 Federal Operating Permit.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits#part-71"
+            class="usa-link usa-link--external"
+            >Emission Unit Description for Combustion Sources (EUD1)</a
+          >
+          <p class="margin-top-0">
+            This form is used to describe emissions units that combust solid or
+            liquid fuels, such as boilers, steam generators, electric generators
+            and the like.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Emission Unit Description for VOC emitting Sources (EUD2)</a
+          >
+          <p class="margin-top-0">
+            This form is used to describe emissions units that use, process,
+            store or produce substances containing VOC and that primarily emit
+            VOC, such as painting or coating operations and printers. In
+            addition, this form may also be useful for certain HAP emitting
+            sources. The purpose of this form is to help you collect and
+            organize technical data, including operational characteristics,
+            applicable requirements, compliance terms, and emissions.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Emission Unit Description for Process Sources (EUD3)</a
+          >
+          <p class="margin-top-0">
+            This form is designed to describe emissions units for processes for
+            which forms EUD-1 or EUD-2 are not appropriate. For example, sources
+            such as rock crushers and asphalt batch plants. This form will help
+            you to collect and organize technical information, including
+            operational characteristics, applicable requirements, compliance
+            terms, and emissions for each emissions unit.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external">Insignificant Activities (IE)</a
+          >
+          <p class="margin-top-0">
+            Use this form only if there are any equipment, emissions units, or
+            emitting activities at the facility that qualify for insignificant
+            treatment due to insignificant emissions levels (defined in the part
+            71 rule) and such treatment is desired.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external">Emission Calculations (EMISS)</a
+          >
+          <p class="margin-top-0">
+            Use this form to quantify emissions for each significant emissions
+            unit identified in section I of form GIS. This form aids in the
+            organization emissions data needed on forms PTE and FEE. Do not
+            complete this form for any units or activities listed as
+            insignificant on form IE. Sources applying for permit revisions only
+            need complete this form for each emissions unit affected by the
+            change.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Potential to Emit Summary (PTE)</a
+          >
+          <p class="margin-top-0">
+            Calculates the total PTE for each air pollutant at the facility for
+            purposes of determining major source applicability.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Fee Calculation Worksheet (FEE)</a
+          >
+          <p class="margin-top-0">
+            Use this form to initially or annually calculate fees.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external">Fee Filing (FF)</a
+          >
+          <p class="margin-top-0">
+            Complete this form each time a form FEE is completed and send this
+            form to the appropriate lockbox bank address, along with full
+            payment. This form required at time of initial fee payment, and
+            thereafter, when paying annual fees.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Initial Compliance Plan and Compliance Certification (I-COMP)</a
+          >
+          <p class="margin-top-0">
+            Used to identify current compliance and noncompliance as well as how
+            compliance will be achieved.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Certification of Truth, Accuracy, and Completeness (CTAC)</a
+          >
+          <p class="margin-top-0">
+            This form must be completed, signed by the "Responsible Official"
+            designated for the facility or emission unit, and sent with each
+            submission of documents (i.e., application forms, updates to
+            applications, reports, or any information required by a part 71
+            permit).
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian
+      title="40 CFR, Part 71 (i.e., Title V) Forms to Use Post-Permit Issuance"
+    >
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external">Prompt Deviation Report (PDR)</a
+          >
+          <p class="margin-top-0">
+            Use this form to submit written notice to the part 71 permitting
+            authority of each deviation from permit terms that is required to be
+            reported within 10 working days of its occurrence (in other words,
+            deviations required to be reported prior to the 6-month monitoring
+            report). Each form (or multiple forms if sent at the same time) must
+            be certified as to truth, accuracy, and completeness by a
+            responsible official (using CTAC).
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >6-Month Monitoring Report (SIXMON)</a
+          >
+          <p class="margin-top-0">
+            Summarizes all monitoring required during the reporting period and
+            provide information on any separate monitoring reports submitted at
+            this time or any time during the reporting period.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Fee Calculation Worksheet (FEE)</a
+          >
+          <p class="margin-top-0">
+            Use this form to initially or annually calculate fees. Even if the
+            part 71 program in your area has been delegated to a State, tribe or
+            other entity, you will usually still have to complete this form and
+            pay fees to EPA.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Annual Compliance Certification (A-COMP)</a
+          >
+          <p class="margin-top-0">
+            Describe the compliance status of each permit term for the reporting
+            period and report all deviations from permit terms (whether reported
+            previously or not) that occurred during the permit term.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/title-v-operating-permits/epa-issued-operating-permits"
+            class="usa-link usa-link--external"
+            >Certification of Truth, Accuracy, and Completeness (CTAC)</a
+          >
+          <p class="margin-top-0">
+            This form must be completed, signed by the "Responsible Official"
+            designated for the facility or emission unit, and sent with each
+            submission of documents (i.e., application forms, updates to
+            applications, reports, or any information required by a part 71
+            permit).
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="40 CFR, Part 80 Forms (CFCs and Halons)">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/section608/refrigerant-recovery-and-recycling-equipment-certification"
+            class="usa-link usa-link--external"
+            >Refrigerant Recovery or Recycling Device Acquisition Certification
+            Form</a
+          >
+          <p class="margin-top-0">
+            Historically, EPA has required that persons servicing, disposing, or
+            recycling air-conditioning (other than motor vehicle air
+            conditioning) and refrigeration equipment certify to the appropriate
+            EPA Regional Office that they have acquired (built, bought, or
+            leased) refrigerant recovery or recycling equipment and that they
+            are complying with the applicable requirements of this rule. This
+            certification must be signed by the owner of the equipment or
+            another responsible officer and sent to the appropriate EPA Regional
+            Office. However, EPA no longer requires that persons servicing
+            stationary air-conditioning and refrigeration equipment certify that
+            they have acquired refrigerant recovery or recycling equipment and
+            that they are complying with the applicable requirements Equipment
+            must still meet EPA standards. Equipment certified to meet these
+            standards can be identified by a label that states: "This equipment
+            has been certified by AHRI/UL to meet EPA's minimum requirements for
+            recycling and/or recovery equipment intended for use with
+            [appropriate category of appliance]." For more information, please
+            visit the EPA's website.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <h2>Other</h2>
+    <SlottedAccordian title="Chemical Management">
+      <ul class="usa-list">
+        <li>
+          <h4>Form R, TRI</h4>
+          <p class="margin-top-0">
+            <b>Description:</b> Toxic Chemical Release Inventory (i.e., Toxics Release
+            Inventory (TRI)) is required by section 313 of the Emergency Planning
+            and Community Right-to-Know Act (EPCRA, or Title III of the Superfund
+            Amendments and Reauthorization Act of 1986), Public Law 99-499. The information
+            contained in the Form R constitutes a "report," and the submission of
+            a report to the appropriate authorities constitutes "reporting."
+          </p>
+          <p class="margin-top-0">
+            <b>Who must complete?</b> Owners and operator of facilities that meet
+            all of the following criteria.
+          </p>
+          <a
+            href="https://www.epa.gov/toxics-release-inventory-tri-program/approved-tri-reporting-form-form-r-and-form-r-schedule-1"
+            class="usa-link usa-link--external"
+            >Download Form and instructions</a
+          >
+        </li>
+        <hr />
+        <li>
+          <h4>Emergency and Hazardous Chemical Inventory (Tier II)</h4>
+          <p class="margin-top-0">
+            <b>Description:</b> Submission of the Tier Two form (when requested) is
+            required by Title III of the Superfund Amendments and Reauthorization
+            Act of 1986,Section 312, Public Law 99-499, codified at 42 U.S.C. Section
+            11022. The purpose of this Tier Two form is to provide State and local
+            officials and the public with specific information on hazardous chemicals
+            present at your facility during the past year.
+          </p>
+          <p class="margin-top-0">
+            <b>Who must complete?</b> The owner or operator of a facility must submit
+            their Tier Two form if requested to do so by a State emergency response
+            commission, a local emergency planning committee, or a fire department
+            with jurisdiction over the facility.
+          </p>
+          <a
+            href="https://www.epa.gov/toxics-release-inventory-tri-program/approved-tri-reporting-form-form-r-and-form-r-schedule-1"
+            class="usa-link usa-link--external"
+            >Download Form and instructions</a
+          >
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Lead-Based Paint">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/lead/real-estate-disclosure"
+            class="usa-link usa-link--external"
+            >Lessors Disclosure of Information on Lead-Based Paint and/or
+            Lead-Based Paint Hazards (SAMPLE FORM)</a
+          >
+          <p class="margin-top-0">
+            This form is used to notify lessees of the potential existence of
+            lead-based paint in a residence.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/lead/real-estate-disclosure"
+            class="usa-link usa-link--external"
+            >Sellers Disclosure of Information on Lead-Based Paint and/or
+            Lead-Based Paint Hazards (SAMPLE FORM)</a
+          >
+          <p class="margin-top-0">
+            This form is used to notify home buyers of the potential existence
+            of lead-based paint in a residence.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Hazardous Waste">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/hwgenerators/instructions-and-form-hazardous-waste-generators-transporters-and-treatment-storage-and"
+            class="usa-link usa-link--external"
+            >Notification of Regulated Waste Activity (EPA Form 8700-12)</a
+          >
+          <p class="margin-top-0">
+            The Notification of Regulated Waste Activity instructions will
+            assist you in obtaining an EPA Identification Number by completing
+            and submitting the RCRA Subtitle C Site Identification Form (Site ID
+            Form) [EPA Form 8700-12] for initial notifications; the instructions
+            will also assist you in revising your Site ID Form information if
+            you are required to submit a subsequent notification.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/hwpermitting/resource-conservation-and-recovery-act-hazardous-waste-part-permit-application"
+            class="usa-link usa-link--external"
+            >RCRA Hazardous Waste Part A Permit Application, Instructions and
+            Form Booklet (EPA Form 8700-23)</a
+          >
+          <p class="margin-top-0">
+            This application is required for a Federal permit to treat, store,
+            or dispose of hazardous waste under the Resource Conservation and
+            Recovery Act (RCRA). It must be completed by anyone who owns or
+            operates a facility where hazardous waste is treated, stored, or
+            disposed (i.e. a TSDF).
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/hwgenerators/uniform-hazardous-waste-manifest-instructions-sample-form-and-continuation-sheet-and"
+            class="usa-link usa-link--external"
+            >Uniform Hazardous Waste Manifest (EPA Form 8700-22 Rev. 3-05)</a
+          >
+          <p class="margin-top-0">
+            This form, or a state-specific form, must accompany all shipments of
+            hazardous waste. It must be completed by any generator of hazardous
+            waste shipping or transporting hazardous waste offsite.
+          </p>
+        </li>
+        <hr />
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Storage Tanks">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/ust/notification-forms-underground-storage-tanks"
+            class="usa-link usa-link--external">UST Notification Form</a
+          >
+          <p class="margin-top-0">
+            <b
+              >UST owners must notify their designated state or local agency or
+              department in two instances.</b
+            >
+          </p>
+          <p class="margin-top-0">
+            Within 30 days of bringing an underground storage tank (UST) into
+            use, owners must submit the Notification for Underground Storage
+            Tanks form (EPA Form 7530-1; Rev 6-2015) to their implementing
+            agency.
+          </p>
+          <p class="margin-top-0">
+            Within 30 days of assuming ownership of a regulated UST, owners must
+            submit the Notification of Ownership Change for Underground Storage
+            Tanks form (EPA Form 6200-10) to their implementing agency.
+          </p>
+        </li>
+        <hr />
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Stormwater">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/npdes/stormwater-discharges-industrial-activities"
+            class="usa-link usa-link--external"
+            >Electronic Reporting Under the 2015 EPA Multi-Sector General Permit
+            (MSGP)</a
+          >
+          <p class="margin-top-0">
+            EPA requires the following 2015 MSGP forms be submitted
+            electronically unless granted a waiver from the EPA Regional Office:
+            Notice of Intent (NOI), Change NOI, Annual Report, Notice of
+            Termination (NOT), Discharge Monitoring Report (DMR), and
+            Conditional No Exposure Certification (NOE).
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/npdes/electronic-notice-intent-enoi"
+            class="usa-link usa-link--external"
+            >Electronic Stormwater Notice of Intent (NOI)</a
+          >
+          <p class="margin-top-0">
+            EPA has created the eNOI for construction sites, industrial
+            facilities, pesticides, and vessel operators to apply for coverage
+            under EPA's: Construction General Permit (CGP), Multi-Sector General
+            Permit (MSGP), Pesticides General Permit (PGP), and Vessel General
+            Permit (VGP).
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/sites/default/files/2015-09/documents/dmr.pdf"
+            class="usa-link usa-link--external"
+            >NPDES Discharge Monitoring Report (DMR) Form</a
+          >
+          <p class="margin-top-0">
+            Form used by NPDES stormwater permittees to submit analytical
+            monitoring results to the appropriate NPDES permitting authority.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/system/files/documents/2024-10/epa_form_3510-2f_2023_07.pdf"
+            class="usa-link usa-link--external"
+            >NPDES Form 2F, Application for a Permit to Discharge Stormwater
+            Associated with New and Existing Industrial Activity</a
+          >
+          <p class="margin-top-0">
+            Form 2F must be completed by operators of facilities which discharge
+            storm water associated with industrial activity or by operators of
+            storm water discharges that EPA is evaluating for designation as a
+            significant contributor of pollutants to waters of the United
+            States, or as contributing to a violation of a water quality
+            standard. This version of the form is valid 7/31/2023 to 7/31/2026
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/npdes/submitting-notice-intent-noi-notice-termination-not-or-low-erosivity-waiver-lew-under"
+            class="usa-link usa-link--external"
+            >Notice of Intent (NOI), Notice of Termination (NOT), or Low
+            Erosivity Waiver (LEW) Under the Stormwater Construction General
+            Permit</a
+          >
+          <p class="margin-top-0">
+            Website provides information on how to submit a NOI, NOT, or LEW
+            under the NPDES Stormwater Construction General Permit.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Toxic Substances">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/pcbs/registering-transformers-containing-polychlorinated-biphenyls-pcbs"
+            class="usa-link usa-link--external">PCB Transformer Registration</a
+          >
+          <p class="margin-top-0">
+            PCB transformer owners must register their transformer(s) with EPA
+            using form 7720-12. This form cannot be filled out or submitted
+            online.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/pcbs/notifications-polychlorinated-biphenyl-pcb-activities"
+            class="usa-link usa-link--external"
+            >Notification of PCB Activity (EPA Form 7710-53)</a
+          >
+          <p class="margin-top-0">
+            Form 7710-53 must be submitted before PCB activities are started,
+            and should be re-submitted if any information in the form changes.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Underground Injection Control">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external"
+            >Underground Injection Control (UIC) Permit Application</a
+          >
+          <p class="margin-top-0">
+            This form must be completed by all owners or operators of Class I,
+            II, and III injection wells and others who may be directed to apply
+            for permit by the Director.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external"
+            >Application to Transfer an UIC Permit</a
+          >
+          <p class="margin-top-0">
+            Used when ownership of a UIC well is changed.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external"
+            >Injection Well Monitoring Report</a
+          >
+          <p class="margin-top-0">
+            Reports information such as injection pressure, injection rate,
+            annular pressure, injection volume, temperature, and pH.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external"
+            >Completion Form for Injection Wells</a
+          >
+          <p class="margin-top-0">
+            Used to identify well location, well activity, well status, and the
+            type of permit in place. Attachments to this form include: geologic
+            information, well design and construction, a description of surface
+            equipment, monitoring systems, and logging and testing results.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external"
+            >Completion Report for Brine Disposal, Hydrocarbon Disposal, or
+            Enhanced Recovery</a
+          >
+          <p class="margin-top-0">
+            Used to identify well location, type of well permit, anticipated
+            daily injection volumes, injection interval, type of injection
+            fluid, date drilling started and ended, casing and tubing
+            information, and types of wire line logs.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external"
+            >Annual Disposal/Injection Well Monitoring Report</a
+          >
+          <p class="margin-top-0">
+            Annual report detailing injection pressures, total volume injected,
+            and tubing-casing annulus pressure.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external">Well Rework Effort</a
+          >
+          <p class="margin-top-0">
+            Used to identify information such as total depth before and after
+            rework and well casing information before and after rework.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external">Plugging and Abandonment Plan</a
+          >
+          <p class="margin-top-0">
+            Used to detail the planned approach for plugging and abandoning a
+            UIC well.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external">Inventory of Injection Wells</a
+          >
+          <p class="margin-top-0">
+            Used to identify UIC wells and their operational status.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/uic/underground-injection-control-reporting-forms-owners-or-operators"
+            class="usa-link usa-link--external">Pre-closure Notification Form</a
+          >
+          <p class="margin-top-0">
+            Form which is required to be submitted prior to closing a Class V
+            UIC well.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Wastewater">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/system/files/documents/2024-10/epa_form_3510-1_2023_07.pdf"
+            class="usa-link usa-link--external"
+            >NPDES Form 1 Application: General Information - Consolidated
+            Permits Program</a
+          >
+          <p class="margin-top-0">
+            General information application. Must be submitted by all facilities
+            applying for an individual NPDES permit, with the exception of
+            POTWs, TWTDS, and MS4s serving a population greater than 100,000.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/system/files/documents/2024-10/epa_form_3510-2a_2023_07.pdf"
+            class="usa-link usa-link--external">NPDES Form 2A Application</a
+          >
+          <p class="margin-top-0">
+            Application for permit to discharge municipal wastewater from new
+            and existing publicly owned treatment works (POTWs).
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/system/files/documents/2024-10/epa_form_3510-2b_2023_07.pdf"
+            class="usa-link usa-link--external">NPDES Form 2B Application</a
+          >
+          <p class="margin-top-0">
+            Application for permit to discharge wastewater from concentrated
+            animal feeding operations (CAFOs) and aquatic animal production
+            facilities.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/system/files/documents/2024-10/epa_form_3510-2c_2023_07.pdf"
+            class="usa-link usa-link--external">NPDES Form 2C Application</a
+          >
+          <p class="margin-top-0">
+            Application for permit to discharge wastewater - existing industrial
+            facilities (including manufacturing, commercial, mining and
+            silvicultural operations) (Revisions proposed for Form 2C have been
+            discontinued.)
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/system/files/documents/2024-10/epa_form_3510-2d_2023_07.pdf"
+            class="usa-link usa-link--external">NPDES Form 2D Application</a
+          >
+          <p class="margin-top-0">
+            Application for permit to discharge process wastewater - for new
+            industrial facilities.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/system/files/documents/2024-10/epa_form_3510-2e_2023_07.pdf"
+            class="usa-link usa-link--external">NPDES Form 2E Application</a
+          >
+          <p class="margin-top-0">
+            Application for facilities which do not discharge process
+            wastewaters.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/system/files/documents/2024-10/epa_form_3510-2s_2023_07.pdf"
+            class="usa-link usa-link--external">NPDES Form 2S Application</a
+          >
+          <p class="margin-top-0">
+            Application for sewage sludge (biosolids) permit for new and
+            existing treatment works treating domestic sewage (TWTDS).
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
   </PageWithSideBarNav>
 </RootLayout>
