@@ -1,9 +1,11 @@
 ---
-item_id: '27934'
+expiryDate: null
+item_id: "27934"
+externalUrl: https://www.epa.gov/trash-free-waters/marine-debris-and-plastic-source-reduction-toolkit
 programArea: Pollution Prevention
-pubDate: 5/27/2015
+publishDate: 5/27/2015
 subCategory:
-- Recycling and Reuse
+  - Recycling and Reuse
 title: The Marine Debris and Plastic Source Reduction Toolkit
 ---
 

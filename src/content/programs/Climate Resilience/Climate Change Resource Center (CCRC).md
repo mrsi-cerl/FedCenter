@@ -1,10 +1,12 @@
 ---
-item_id: '17242'
+expiryDate: null
+item_id: "17242"
+externalUrl: https://www.fs.usda.gov/ccrc/about
 programArea: Climate Resilience
-pubDate: 2/25/2011
+publishDate: 2/25/2011
 subCategory:
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: Climate Change Resource Center (CCRC)
 ---
 

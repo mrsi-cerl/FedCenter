@@ -1,9 +1,11 @@
 ---
-item_id: '10901'
+expiryDate: null
+item_id: "10901"
+externalUrl: http://www.greenroofs.org/
 programArea: High Performance Buildings
-pubDate: 11/4/2008
+publishDate: 11/4/2008
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Green Roofs for Healthy Cities
 ---
 

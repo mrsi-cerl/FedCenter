@@ -1,9 +1,11 @@
 ---
-item_id: '8503'
+expiryDate: null
+item_id: "8503"
+externalUrl: https://www.thegreengrid.org/
 programArea: Energy
-pubDate: 10/25/2007
+publishDate: 10/25/2007
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Green Grid
 ---
 

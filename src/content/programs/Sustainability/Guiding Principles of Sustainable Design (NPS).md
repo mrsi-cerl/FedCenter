@@ -1,9 +1,11 @@
 ---
-item_id: '829'
+expiryDate: null
+item_id: "829"
+externalUrl: https://www.buildinggreen.com/newsbrief/guiding-principles-sustainable-design
 programArea: Sustainability
-pubDate: 2/9/2005
+publishDate: 2/9/2005
 subCategory:
-- Federal Facilities
+  - Federal Facilities
 title: Guiding Principles of Sustainable Design (NPS)
 ---
 

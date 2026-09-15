@@ -1,9 +1,11 @@
 ---
-item_id: '20493'
+expiryDate: null
+item_id: "20493"
+externalUrl: https://www.fws.gov/course/interagency-cooperation-endangered-species
 programArea: Natural Resources
-pubDate: 2/28/2012
+publishDate: 2/28/2012
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Interagency Consultation for Endangered Species (Classroom, Multiple Offerings)
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '10992'
+expiryDate: null
+item_id: "10992"
+externalUrl: https://energyplus.net/
 programArea: High Performance Buildings
-pubDate: 11/19/2008
+publishDate: 11/19/2008
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EnergyPlus Energy  Simulation Software
 ---
 

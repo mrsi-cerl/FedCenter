@@ -1,9 +1,11 @@
 ---
-item_id: '15524'
+expiryDate: null
+item_id: "15524"
+externalUrl: https://www.achp.gov/training-guidance/list-of-ACHP-guidance
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
-- Implementation Guidance
+  - Implementation Guidance
 title: List of ACHP Guidance
 ---
 

@@ -1,19 +1,21 @@
 ---
-item_id: '32425'
+expiryDate: null
+item_id: "32425"
+externalUrl: https://www.epa.gov/enforcement/clean-water-act-cwa-and-federal-facilities
 programArea: Environmental Compliance
-pubDate: 3/28/2018
+publishDate: 3/28/2018
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle C
-- Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for TSCA
-- State Regulations
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Federal Facilities and the CWA
 ---
 

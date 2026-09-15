@@ -1,20 +1,23 @@
 ---
-item_id: '1531'
+expiryDate: null
+item_id: "1531"
+externalUrl: https://www.epa.gov/pcbs/interpretive-statement-change-ownership-real-property-contaminated-polychlorinated-biphenyls
 programArea: Environmental Compliance
-pubDate: 4/26/2005
+publishDate: 4/26/2005
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle C
-- Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for TSCA
-- State Regulations
-title: Interpretive Statement on Change in Ownership of Real Property Contaminated
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+title:
+  Interpretive Statement on Change in Ownership of Real Property Contaminated
   with PCBs
 ---
 

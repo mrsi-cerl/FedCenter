@@ -1,9 +1,11 @@
 ---
-item_id: '35836'
+expiryDate: null
+item_id: "35836"
+externalUrl: https://www.fedcenter.gov/npdes-dashboard-webinar-2020-03-03.mp4
 programArea: Environmental Compliance
-pubDate: 8/13/2020
+publishDate: 8/13/2020
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: NPDES SNC NCI - Early Warning Dashboard Training (Web-based, On-Demand)
 ---
 

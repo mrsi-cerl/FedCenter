@@ -1,10 +1,12 @@
 ---
-item_id: '22956'
+expiryDate: null
+item_id: "22956"
+externalUrl: http://www.epa.gov/enviro/tri-ez-search
 programArea: Chemical Management
-pubDate: 1/17/2013
+publishDate: 1/17/2013
 subCategory:
-- Chemical Use Reduction
-- Databases and Software Tools
+  - Chemical Use Reduction
+  - Databases and Software Tools
 title: TRI Search
 ---
 

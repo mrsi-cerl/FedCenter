@@ -1,10 +1,11 @@
 ---
-item_id: '36016'
+expiryDate: null
+item_id: "36016"
+externalUrl: http://birdcast.info/
 programArea: Natural Resources
-pubDate: 9/29/2020
+publishDate: 9/29/2020
 subCategory:
-- Databases and Software Tools
-- Databases and Software Tools
+  - Databases and Software Tools
 title: BirdCast
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '31854'
+expiryDate: null
+item_id: "31854"
+externalUrl: http://www.osti.gov/doecode/biblio/29320
 programArea: Energy
-pubDate: 10/10/2017
+publishDate: 10/10/2017
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: REopt Lite
 ---
 

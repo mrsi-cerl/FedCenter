@@ -1,21 +1,19 @@
 ---
 import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../../../layouts/RootLayout.astro";
+import FacilityTourArea from "@/layouts/FacilityTourArea.astro";
 const pageTitle = "Air Emissions";
 ---
 
-<RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
-  <PageWithSideBarNav>
-    <p>
-      EPA's involvement with cleanup processes at federal facilities includes
-      accelerating the transfer of federal property by coordinating
-      environmental cleanup activities and crafting innovative property transfer
-      arrangements. On the Federal Facilities cleanup website EPA maintains an
-      up-to-date BRAC list reflecting the current cleanup status of BRAC
-      properties and whether or not they are on the National Priorities List
-      (NPL).
-      <!-- TODO: Add a link here -->
-      <!-- TODO: This page is a stub -->
-    </p>
-  </PageWithSideBarNav>
-</RootLayout>
+<FacilityTourArea pageTitle={pageTitle} showBreadcrumb={true}>
+  <p>
+    EPA's involvement with cleanup processes at federal facilities includes
+    accelerating the transfer of federal property by coordinating environmental
+    cleanup activities and crafting innovative property transfer arrangements.
+    On the Federal Facilities cleanup website EPA maintains an up-to-date BRAC
+    list reflecting the current cleanup status of BRAC properties and whether or
+    not they are on the National Priorities List (NPL).
+    <!-- TODO: Add a link here -->
+    <!-- TODO: This page is a stub -->
+  </p>
+</FacilityTourArea>

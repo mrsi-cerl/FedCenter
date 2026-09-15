@@ -1,9 +1,11 @@
 ---
-item_id: '24468'
+expiryDate: null
+item_id: "24468"
+externalUrl: http://www.epa.gov/chemview/
 programArea: Chemical Management
-pubDate: 9/10/2013
+publishDate: 9/10/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: ChemView
 ---
 

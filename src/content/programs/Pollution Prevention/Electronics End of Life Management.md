@@ -1,9 +1,11 @@
 ---
-item_id: '20195'
+expiryDate: null
+item_id: "20195"
+externalUrl: https://www.epa.gov/fec/federally-owned-electronics-end-life-6112013
 programArea: Pollution Prevention
-pubDate: 1/12/2012
+publishDate: 1/12/2012
 subCategory:
-- Electronics
+  - Electronics
 title: Electronics End of Life Management
 ---
 

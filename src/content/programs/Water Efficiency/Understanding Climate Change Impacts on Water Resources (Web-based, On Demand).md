@@ -1,9 +1,11 @@
 ---
-item_id: '29141'
+expiryDate: null
+item_id: "29141"
+externalUrl: http://www.epa.gov/watershedacademy/understanding-climate-change-impacts-water-resources
 programArea: Water Efficiency
-pubDate: 2/11/2016
+publishDate: 2/11/2016
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Understanding Climate Change Impacts on Water Resources (Web-based, On Demand)
 ---
 

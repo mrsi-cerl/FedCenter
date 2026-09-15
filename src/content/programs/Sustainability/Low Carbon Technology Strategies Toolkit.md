@@ -1,9 +1,11 @@
 ---
-item_id: '38635'
+expiryDate: null
+item_id: "38635"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/toolkits/low-carbon-technology-strategies-toolkit
 programArea: Sustainability
-pubDate: 11/5/2021
+publishDate: 11/5/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Low Carbon Technology Strategies Toolkit
 ---
 

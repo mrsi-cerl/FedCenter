@@ -1,9 +1,11 @@
 ---
-item_id: '21234'
+expiryDate: null
+item_id: "21234"
+externalUrl: http://www.nationalacademies.org/topics/climate
 programArea: Greenhouse Gases
-pubDate: 5/23/2012
+publishDate: 5/23/2012
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Climate Resources at the National Academies
 ---
 

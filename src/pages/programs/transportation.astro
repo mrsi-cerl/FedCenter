@@ -1,0 +1,66 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const transportationPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Transportation");
+});
+
+const pageTitle = "Transportation";
+
+const transportationAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "Legislation" },
+      { title: "Executive Orders" },
+      { title: "Guidance" },
+      { title: "Memoranda" },
+    ],
+  },
+  {
+    title: "Supporting Information and Tools",
+    children: [
+      { title: "Databases and Software Tools" },
+      { title: "Directories, Catalogs, and Newsletters" },
+      { title: "Libraries and Repositories" },
+      { title: "Organizations" },
+    ],
+  },
+  {
+    title: "Lessons Learned",
+    children: [
+      { title: "Acquisition" },
+      { title: "Award Winners" },
+      { title: "Case Studies" },
+      { title: "Fleet Management" },
+      { title: "Freight, Cargo, and Household Goods" },
+      { title: "Greenhouse Gases" },
+      { title: "Petroleum Alternatives" },
+      { title: "Pollution Prevention Opportunities" },
+    ],
+  },
+  { title: "Training, Presentations, and Briefings" },
+  { title: "Conferences and Events" },
+];
+---
+
+<ProgramPage
+  programAreas={transportationAreas}
+  posts={transportationPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Transportation Program Area addresses vehicle fleet management which
+    includes optimizing vehicle maintenance operations, biofuels, pollution
+    prevention tools and techniques including disposal of used oil, and
+    transportation of freight, cargo and household goods. Additionally included
+    are links to software and databases that can model engine effectiveness and
+    demonstrate appropriate pollution prevention techniques.
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

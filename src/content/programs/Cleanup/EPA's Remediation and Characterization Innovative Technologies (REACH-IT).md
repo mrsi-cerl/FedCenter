@@ -1,9 +1,11 @@
 ---
-item_id: '3689'
+expiryDate: null
+item_id: "3689"
+externalUrl: http://www.epareachit.org/
 programArea: Cleanup
-pubDate: 12/19/2005
+publishDate: 12/19/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EPA's Remediation and Characterization Innovative Technologies (REACH-IT)
 ---
 

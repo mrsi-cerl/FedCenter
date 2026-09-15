@@ -1,9 +1,11 @@
 ---
-item_id: '29659'
+expiryDate: null
+item_id: "29659"
+externalUrl: https://www.denix.osd.mil/awards/
 programArea: Environmental Management Systems (EMS)
-pubDate: 5/20/2016
+publishDate: 5/20/2016
 subCategory:
-- Award Winners
+  - Award Winners
 title: Secretary of Defense Environmental Awards
 ---
 

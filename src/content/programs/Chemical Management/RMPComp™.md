@@ -1,11 +1,16 @@
 ---
-item_id: '1064'
+expiryDate: null
+item_id: "1064"
+externalUrl: https://www.epa.gov/rmp/rmpcomp
 programArea: Chemical Management
-pubDate: 3/21/2005
+publishDate: 3/21/2005
 subCategory:
-- Databases and Software Tools
-- Databases and Software Tools
-title: RMP\*Comp™
+  - Databases and Software Tools
+  - Does Your Facility Have Any Air Emission Sources?
+  - How Can I Prepare for an Emergency?
+title: RMP*Comp™
+additionalPages:
+  - My Community
 ---
 
-RMP*Comp is an electronic tool used to perform the off-site consequence analysis required under the Risk Management Program rule published by the EPA on July 20, 1996, which implements Section 112(r) of the Clean Air Act. Previously, EPA has referred to this tool as RMP Calculator or RMP Assistant.
+RMP\*Comp is an electronic tool used to perform the off-site consequence analysis required under the Risk Management Program rule published by the EPA on July 20, 1996, which implements Section 112(r) of the Clean Air Act. Previously, EPA has referred to this tool as RMP Calculator or RMP Assistant.

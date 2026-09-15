@@ -1,9 +1,11 @@
 ---
-item_id: '8222'
+expiryDate: null
+item_id: "8222"
+externalUrl: http://www.energy.gov/hgeo/geothermal/geothermal-basics
 programArea: Energy
-pubDate: 9/11/2007
+publishDate: 9/11/2007
 subCategory:
-- ' Alternative Energy'
+  - " Alternative Energy"
 title: Geothermal Energy
 ---
 

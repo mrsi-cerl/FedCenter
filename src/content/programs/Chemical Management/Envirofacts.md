@@ -1,10 +1,15 @@
 ---
-item_id: '28275'
+expiryDate: null
+item_id: "28275"
+externalUrl: http://www3.epa.gov/enviro/myenviro/
 programArea: Chemical Management
-pubDate: 8/5/2015
+publishDate: 8/5/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
+  - Environmental Information About My Community
 title: Envirofacts
+additionalPages:
+  - My Community
 ---
 
 The Envirofacts search application is designed to provide a cross-section of environmental information based on the user's location. It includes MyAir, MyWater, MyEnergy, MyHealth, MyClimate, MyLand, and MyEnvironmental Reports.

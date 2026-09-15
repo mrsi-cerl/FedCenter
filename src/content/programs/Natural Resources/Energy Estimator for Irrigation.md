@@ -1,9 +1,11 @@
 ---
-item_id: '5408'
+expiryDate: null
+item_id: "5408"
+externalUrl: http://ipat.sc.egov.usda.gov/
 programArea: Natural Resources
-pubDate: 6/28/2006
+publishDate: 6/28/2006
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Energy Estimator for Irrigation
 ---
 

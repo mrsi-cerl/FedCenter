@@ -1,9 +1,11 @@
 ---
-item_id: '8379'
+expiryDate: null
+item_id: "8379"
+externalUrl: http://www.audubon.org/
 programArea: Natural Resources
-pubDate: 9/28/2007
+publishDate: 9/28/2007
 subCategory:
-- Organizations
+  - Organizations
 title: National Audobon Society
 ---
 

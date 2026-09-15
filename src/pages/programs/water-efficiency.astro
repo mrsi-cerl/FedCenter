@@ -1,0 +1,54 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const waterEfficiencyPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Water Efficiency");
+});
+
+const pageTitle = "Water Efficiency";
+
+const waterEfficiencyAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+  },
+  {
+    title: "Supporting Information and Tools",
+    children: [
+      { title: "Databases and Software Tools" },
+      { title: "Directories, Catalogs, and Newsletters" },
+      { title: "Libraries and Repositories" },
+      { title: "Organizations and Programs" },
+    ],
+  },
+  {
+    title: "Lessons Learned",
+    children: [
+      { title: "Award Winners" },
+      { title: "Case Studies" },
+      { title: "Implementation Guidance" },
+      { title: "Management Practices" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings" },
+  { title: "Conferences and Events" },
+];
+---
+
+<ProgramPage
+  programAreas={waterEfficiencyAreas}
+  posts={waterEfficiencyPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    Included in the Water Efficiency Program Area are tools, techniques, and
+    approaches for improving water use efficiency for both potable and
+    non-potable water resources.
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

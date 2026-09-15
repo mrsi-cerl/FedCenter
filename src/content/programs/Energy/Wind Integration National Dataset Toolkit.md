@@ -1,9 +1,11 @@
 ---
-item_id: '35742'
+expiryDate: null
+item_id: "35742"
+externalUrl: http://www.nlr.gov/grid/wind-toolkit
 programArea: Energy
-pubDate: 7/21/2020
+publishDate: 7/21/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Wind Integration National Dataset Toolkit
 ---
 

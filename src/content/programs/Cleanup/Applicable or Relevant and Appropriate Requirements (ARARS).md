@@ -1,9 +1,11 @@
 ---
-item_id: '3684'
+expiryDate: null
+item_id: "3684"
+externalUrl: https://www.epa.gov/superfund/applicable-or-relevant-and-appropriate-requirements-arars
 programArea: Cleanup
-pubDate: 12/19/2005
+publishDate: 12/19/2005
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Applicable or Relevant and Appropriate Requirements (ARARS)
 ---
 

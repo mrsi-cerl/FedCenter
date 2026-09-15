@@ -1,10 +1,12 @@
 ---
-item_id: '31562'
+expiryDate: null
+item_id: "31562"
+externalUrl: https://www.denix.osd.mil/chesapeake/
 programArea: Natural Resources
-pubDate: 7/20/2017
+publishDate: 7/20/2017
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: DoD Chesapeake Bay Program
 ---
 
-Highlights stewardship activities conducted by Department of Defense  installations throughout the Chesapeake Bay watershed.
+Highlights stewardship activities conducted by Department of Defense installations throughout the Chesapeake Bay watershed.

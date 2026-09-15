@@ -1,9 +1,11 @@
 ---
-item_id: '39972'
+expiryDate: null
+item_id: "39972"
+externalUrl: https://www.energy.gov/femp/federal-energy-and-water-management-awards
 programArea: Energy
-pubDate: 9/29/2022
+publishDate: 9/29/2022
 subCategory:
-- Award Winners
+  - Award Winners
 title: Federal Energy and Water Management Award Winners
 ---
 

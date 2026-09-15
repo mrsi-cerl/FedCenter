@@ -1,9 +1,11 @@
 ---
-item_id: '31930'
+expiryDate: null
+item_id: "31930"
+externalUrl: http://rmcs-1.itrcweb.org/
 programArea: Cleanup
-pubDate: 11/2/2017
+publishDate: 11/2/2017
 subCategory:
-- General
+  - General
 title: Remediation Management of Complex Sites
 ---
 

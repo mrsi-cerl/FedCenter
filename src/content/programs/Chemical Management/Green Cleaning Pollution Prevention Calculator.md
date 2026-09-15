@@ -1,9 +1,11 @@
 ---
-item_id: '5432'
+expiryDate: null
+item_id: "5432"
+externalUrl: http://www.responsiblepurchasing.org/janitor/buildinginfo.asp
 programArea: Chemical Management
-pubDate: 6/29/2006
+publishDate: 6/29/2006
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Green Cleaning Pollution Prevention Calculator
 ---
 

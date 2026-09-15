@@ -1,9 +1,11 @@
 ---
-item_id: '2447'
+expiryDate: null
+item_id: "2447"
+externalUrl: http://ecos.fws.gov/ecp/report/table/critical-habitat.html
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: USFWS Threatened & Endangered Species Active Critical Habitat Report
 ---
 

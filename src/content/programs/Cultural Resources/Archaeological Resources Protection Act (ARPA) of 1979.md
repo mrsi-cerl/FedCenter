@@ -1,9 +1,11 @@
 ---
-item_id: '15397'
+expiryDate: null
+item_id: "15397"
+externalUrl: http://www.nps.gov/subjects/archeology/archaeological-resources-protection-act.htm
 programArea: Cultural Resources
-pubDate: 7/20/2010
+publishDate: 7/20/2010
 subCategory:
-- National Laws and Statutes
+  - National Laws and Statutes
 title: Archaeological Resources Protection Act (ARPA) of 1979
 ---
 

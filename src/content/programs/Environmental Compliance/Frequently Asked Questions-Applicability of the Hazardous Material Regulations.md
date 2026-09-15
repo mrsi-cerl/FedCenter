@@ -1,9 +1,11 @@
 ---
-item_id: '39245'
+expiryDate: null
+item_id: "39245"
+externalUrl: https://www.federalregister.gov/d/2022-05958
 programArea: Environmental Compliance
-pubDate: 3/22/2022
+publishDate: 3/22/2022
 subCategory:
-- General
+  - General
 title: Frequently Asked Questions-Applicability of the Hazardous Material Regulations
 ---
 

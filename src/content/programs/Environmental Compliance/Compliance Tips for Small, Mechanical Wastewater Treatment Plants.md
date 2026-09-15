@@ -1,19 +1,21 @@
 ---
-item_id: '36738'
+expiryDate: null
+item_id: "36738"
+externalUrl: https://www.epa.gov/compliance/compliance-tips-small-mechanical-wastewater-treatment-plants
 programArea: Environmental Compliance
-pubDate: 4/9/2021
+publishDate: 4/9/2021
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle C
-- Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for TSCA
-- State Regulations
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Compliance Tips for Small, Mechanical Wastewater Treatment Plants
 ---
 

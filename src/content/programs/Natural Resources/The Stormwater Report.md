@@ -1,9 +1,11 @@
 ---
-item_id: '29852'
+expiryDate: null
+item_id: "29852"
+externalUrl: https://stormwater.wef.org/
 programArea: Natural Resources
-pubDate: 6/22/2016
+publishDate: 6/22/2016
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: The Stormwater Report
 ---
 

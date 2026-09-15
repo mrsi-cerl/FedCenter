@@ -1,9 +1,11 @@
 ---
-item_id: '463'
+expiryDate: null
+item_id: "463"
+externalUrl: http://www.fedcenter.gov/EPCRA/index.html
 programArea: Environmental Compliance
-pubDate: 11/2/2004
+publishDate: 11/2/2004
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Emergency Planning and Community Right-to-Know Tutorial (Web-based, On Demand)
 ---
 

@@ -1,10 +1,13 @@
 ---
-item_id: '19583'
+expiryDate: null
+item_id: "19583"
+externalUrl: http://webstore.ansi.org/standards/nsf/nsfansi1402019?source=blog&\_gl=1\*fhitgt\*\_gcl\_au\*ODg4MjE5OTkuMTc4MDkzMDQ0Mg
 programArea: Acquisition
-pubDate: 10/4/2011
+publishDate: 10/4/2011
 subCategory:
-- Guidance
-title: American National Standards Institute (ANSI) NSF 140-2019, Sustainable Carpet
+  - Guidance
+title:
+  American National Standards Institute (ANSI) NSF 140-2019, Sustainable Carpet
   Assessment Standard
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '23352'
+expiryDate: null
+item_id: "23352"
+externalUrl: https://edap.epa.gov/public/extensions/eRule\_Phase2/eRule\_Phase2.html
 programArea: Environmental Compliance
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: NPDES eRule Phase 2 Implementation Dashboard
 ---
 

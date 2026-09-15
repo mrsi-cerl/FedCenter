@@ -1,10 +1,12 @@
 ---
-item_id: '41530'
+expiryDate: null
+item_id: "41530"
+externalUrl: https://nam.edu/journeymap.php
 programArea: Climate Resilience
-pubDate: 11/2/2023
+publishDate: 11/2/2023
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Sustainability Journey Map & Resource Repository, National Academy of Medicine
 ---
 

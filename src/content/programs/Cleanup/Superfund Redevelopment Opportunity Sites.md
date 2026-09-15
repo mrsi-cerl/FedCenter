@@ -1,10 +1,12 @@
 ---
-item_id: '4485'
+expiryDate: null
+item_id: "4485"
+externalUrl: http://epa.gov/superfund-redevelopment/superfund-redevelopment-opportunities
 programArea: Cleanup
-pubDate: 3/23/2006
+publishDate: 3/23/2006
 subCategory:
-- General
+  - General
 title: Superfund Redevelopment Opportunity Sites
 ---
 
-A story map providing an overview of Superfund Redevelopment Opportunity Sites.  This list of sites is designed to promote redevelopment and community revitalization at Superfund sites.
+A story map providing an overview of Superfund Redevelopment Opportunity Sites. This list of sites is designed to promote redevelopment and community revitalization at Superfund sites.

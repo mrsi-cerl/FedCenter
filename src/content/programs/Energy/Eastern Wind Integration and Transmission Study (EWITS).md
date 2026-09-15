@@ -1,9 +1,11 @@
 ---
-item_id: '14369'
+expiryDate: null
+item_id: "14369"
+externalUrl: http://www.energy.gov/sites/prod/files/2013/12/f5/47078.pdf
 programArea: Energy
-pubDate: 1/21/2010
+publishDate: 1/21/2010
 subCategory:
-- ' Alternative Energy'
+  - " Alternative Energy"
 title: Eastern Wind Integration and Transmission Study (EWITS)
 ---
 

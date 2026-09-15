@@ -1,9 +1,11 @@
 ---
-item_id: '15329'
+expiryDate: null
+item_id: "15329"
+externalUrl: http://www.fscus.org/
 programArea: Natural Resources
-pubDate: 7/7/2010
+publishDate: 7/7/2010
 subCategory:
-- Organizations
+  - Organizations
 title: Forest Stewardship Council
 ---
 

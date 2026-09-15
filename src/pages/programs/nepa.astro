@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const nepaPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("NEPA");
+});
+
+const pageTitle = "NEPA";
+
+const nepaAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "EOs and Laws" },
+      { title: "CEQ" },
+      { title: "Other Guidance" },
+    ],
+  },
+  {
+    title: "Supporting Information and Tools",
+    children: [
+      { title: "Databases and Software Tools" },
+      { title: "Directories, Catalogs, and Newsletters" },
+      { title: "Libraries and Repositories" },
+      { title: "Organizations and Programs" },
+    ],
+  },
+  { title: "Lessons Learned" },
+  { title: "Training, Presentations, and Briefings" },
+  { title: "Conferences and Events" },
+];
+---
+
+<ProgramPage programAreas={nepaAreas} posts={nepaPosts} pageTitle={pageTitle}>
+  <p>
+    The NEPA Program Area provides guidance, policies, and examples of federal
+    regulations and Agency policies for the implementation of the National
+    Environmental Protection Act (NEPA), including the development of
+    environmental assessments (EA), environmental impact statements (EIS),
+    findings of no significant impact (FONSIs), and other NEPA related
+    documentation.
+  </p>
+</ProgramPage>

@@ -1,10 +1,12 @@
 ---
-item_id: '29886'
+expiryDate: null
+item_id: "29886"
+externalUrl: https://www.epa.gov/cre/risk-based-adaptation
 programArea: Climate Resilience
-pubDate: 6/27/2016
+publishDate: 6/27/2016
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Risk-Based Adaptation
 ---
 

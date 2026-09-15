@@ -1,20 +1,23 @@
 ---
-item_id: '40387'
+expiryDate: null
+item_id: "40387"
+externalUrl: https://www.epa.gov/hwpermitting/resource-conservation-and-recovery-act-organic-air-emission-standards-treatment
 programArea: Environmental Compliance
-pubDate: 1/20/2023
+publishDate: 1/20/2023
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle C
-- Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for TSCA
-- State Regulations
-title: Resource Conservation and Recovery Act Organic Air Emission Standards for Treatment,
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+title:
+  Resource Conservation and Recovery Act Organic Air Emission Standards for Treatment,
   Storage and Disposal Facilities and Generators
 ---
 

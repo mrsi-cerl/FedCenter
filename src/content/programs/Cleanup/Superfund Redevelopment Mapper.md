@@ -1,9 +1,11 @@
 ---
-item_id: '38690'
+expiryDate: null
+item_id: "38690"
+externalUrl: https://www.epa.gov/superfund-redevelopment/superfund-redevelopment-mapper
 programArea: Cleanup
-pubDate: 11/23/2021
+publishDate: 11/23/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Superfund Redevelopment Mapper
 ---
 

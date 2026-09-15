@@ -1,9 +1,11 @@
 ---
-item_id: '29851'
+expiryDate: null
+item_id: "29851"
+externalUrl: http://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1006MDW.TXT
 programArea: Natural Resources
-pubDate: 6/22/2016
+publishDate: 6/22/2016
 subCategory:
-- Wetlands
+  - Wetlands
 title: Stormwater Wet Pond and Wetland Management Guidebook
 ---
 

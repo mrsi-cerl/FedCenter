@@ -1,10 +1,15 @@
 ---
-item_id: '28611'
+expiryDate: null
+item_id: "28611"
+externalUrl: http://ecos.fws.gov/ecp/
 programArea: Natural Resources
-pubDate: 10/13/2015
+publishDate: 10/13/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
+  - What Endangered or Threatened Species Might Be In My Area?
 title: Environmental Conservation Online System (ECOS)
+additionalPages:
+  - My Community
 ---
 
 ECOS provides a variety of reports related to FWS Threatened and Endangered Species.

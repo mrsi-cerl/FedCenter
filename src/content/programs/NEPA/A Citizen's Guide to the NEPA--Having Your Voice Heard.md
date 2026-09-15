@@ -1,9 +1,11 @@
 ---
-item_id: '9044'
+expiryDate: null
+item_id: "9044"
+externalUrl: http://energy.gov/nepa/downloads/citizens-guide-nepa-having-your-voice-heard
 programArea: NEPA
-pubDate: 2/12/2008
+publishDate: 2/12/2008
 subCategory:
-- Lessons Learned
+  - Lessons Learned
 title: A Citizen's Guide to the NEPA--Having Your Voice Heard
 ---
 

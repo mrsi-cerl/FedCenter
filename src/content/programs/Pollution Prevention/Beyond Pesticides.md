@@ -1,9 +1,11 @@
 ---
-item_id: '1417'
+expiryDate: null
+item_id: "1417"
+externalUrl: http://beyondpesticides.org/
 programArea: Pollution Prevention
-pubDate: 4/21/2005
+publishDate: 4/21/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Beyond Pesticides
 ---
 

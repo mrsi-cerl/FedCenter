@@ -1,9 +1,11 @@
 ---
-item_id: '39209'
+expiryDate: null
+item_id: "39209"
+externalUrl: https://www.epa.gov/statelocalenergy/state-inventory-and-projection-tool
 programArea: Greenhouse Gases
-pubDate: 3/9/2022
+publishDate: 3/9/2022
 subCategory:
-- Inventories
+  - Inventories
 title: State Inventory and Projection Tool
 ---
 

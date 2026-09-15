@@ -1,9 +1,11 @@
 ---
-item_id: '35534'
+expiryDate: null
+item_id: "35534"
+externalUrl: http://www.soybiobased.org/resources/
 programArea: Acquisition
-pubDate: 6/3/2020
+publishDate: 6/3/2020
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: United Soybean Board Resources
 ---
 

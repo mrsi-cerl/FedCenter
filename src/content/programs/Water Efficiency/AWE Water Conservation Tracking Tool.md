@@ -1,9 +1,11 @@
 ---
-item_id: '18532'
+expiryDate: null
+item_id: "18532"
+externalUrl: https://allianceforwaterefficiency.org/resource/water-conservation-tracking-tool/
 programArea: Water Efficiency
-pubDate: 6/23/2011
+publishDate: 6/23/2011
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: AWE Water Conservation Tracking Tool
 ---
 

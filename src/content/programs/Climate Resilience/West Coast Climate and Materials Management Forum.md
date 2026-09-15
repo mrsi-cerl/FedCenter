@@ -1,10 +1,12 @@
 ---
-item_id: '18477'
+expiryDate: null
+item_id: "18477"
+externalUrl: http://westcoastclimateforum.com/
 programArea: Climate Resilience
-pubDate: 6/22/2011
+publishDate: 6/22/2011
 subCategory:
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: West Coast Climate and Materials Management Forum
 ---
 

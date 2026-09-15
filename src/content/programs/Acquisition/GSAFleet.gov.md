@@ -1,9 +1,11 @@
 ---
-item_id: '14579'
+expiryDate: null
+item_id: "14579"
+externalUrl: https://www.gsafleet.gov/
 programArea: Acquisition
-pubDate: 3/3/2010
+publishDate: 3/3/2010
 subCategory:
-- Purchasing Guides
+  - Purchasing Guides
 title: GSAFleet.gov
 ---
 

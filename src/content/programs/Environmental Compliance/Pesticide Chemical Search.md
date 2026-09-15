@@ -1,9 +1,11 @@
 ---
-item_id: '19890'
+expiryDate: null
+item_id: "19890"
+externalUrl: http://iaspub.epa.gov/apex/pesticides/f?p=chemicalsearch:1
 programArea: Environmental Compliance
-pubDate: 11/22/2011
+publishDate: 11/22/2011
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Pesticide Chemical Search
 ---
 

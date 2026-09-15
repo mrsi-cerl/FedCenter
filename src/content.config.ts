@@ -63,7 +63,7 @@ const programPost = defineCollection({
   //   programArea: z.array(z.enum(programs)), //any given item can exist on multiple programs
   //   title: z.string(),
   //   description: z.optional(z.string()),
-  //   pubDate: z.date(),
+  //   publishDate: z.date(),
   //   category: z.array(z.enum(categories)), //an item can exist on multiple categories? TODO: can it?
   //   subcategory: z.array(z.enum(subCategories)), //an item can exist on multiple subcategories? TODO: can it?
   //   // tags: []
@@ -79,7 +79,7 @@ const announcements = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    pubDate: z.date(),
+    publishDate: z.date(),
     expiresOn: z.date(),
     // tags: []
     externalUrl: z.string().optional(),
@@ -88,16 +88,16 @@ const announcements = defineCollection({
 
 const events = defineCollection({
   loader: glob({
-    base: './src/content/programs',
-    pattern: '**/*.{md,mdx}',
+    base: "./src/content/programs",
+    pattern: "**/*.{md,mdx}",
   }),
   schema: z.object({
     title: z.string(),
-    pubDate: z.coerce.date(),
+    publishDate: z.coerce.date(),
     startDate: z.coerce.date().optional(),
     endDate: z.coerce.date().optional(),
     eventType: z
-      .enum(['Conferences', 'Meetings', 'Training', 'Other'])
+      .enum(["Conferences", "Meetings", "Training", "Other"])
       .optional(),
     // tags: []
     externalUrl: z.string().optional(),

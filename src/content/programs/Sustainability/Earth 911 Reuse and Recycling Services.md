@@ -1,9 +1,11 @@
 ---
-item_id: '8299'
+expiryDate: null
+item_id: "8299"
+externalUrl: https://earth911.com/recycling-center-search-guides/
 programArea: Sustainability
-pubDate: 9/19/2007
+publishDate: 9/19/2007
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Earth 911 Reuse and Recycling Services
 ---
 

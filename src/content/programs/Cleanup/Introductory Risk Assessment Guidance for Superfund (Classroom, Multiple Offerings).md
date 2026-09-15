@@ -1,9 +1,11 @@
 ---
-item_id: '8990'
+expiryDate: null
+item_id: "8990"
+externalUrl: http://www.trainex.org/offeringslist.cfm?courseid=24
 programArea: Cleanup
-pubDate: 2/7/2008
+publishDate: 2/7/2008
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Introductory Risk Assessment Guidance for Superfund (Classroom, Multiple Offerings)
 ---
 

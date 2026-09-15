@@ -1,9 +1,11 @@
 ---
-item_id: '31211'
+expiryDate: null
+item_id: "31211"
+externalUrl: https://energy.gov/sites/prod/files/2017/05/f34/Federal%20WPC%20Case%20Study%20Final.pdf
 programArea: Energy
-pubDate: 5/2/2017
+publishDate: 5/2/2017
 subCategory:
-- Case Studies
+  - Case Studies
 title: Implementing Workplace Charging within Federal Agencies
 ---
 

@@ -1,4 +1,5 @@
 ---
+import FacilityTourArea from "@/layouts/FacilityTourArea.astro";
 import Card from "../../../components/Card.astro";
 import { sideBarConstants } from "../../../constants";
 import RootLayout from "../../../layouts/RootLayout.astro";
@@ -6,7 +7,7 @@ import RootLayout from "../../../layouts/RootLayout.astro";
 const pageTitle = "Air Emission Sources";
 ---
 
-<RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
+<FacilityTourArea pageTitle={pageTitle} showBreadcrumb={true}>
   <div class="usa-prose">
     <p>
       The Clean Air Act Section 118(a) requires that each agency and employee of
@@ -36,7 +37,9 @@ const pageTitle = "Air Emission Sources";
           >Steam generators (i.e. boilers)</a
         >
       </li>
-      <li><a class="usa-link" href="javascript:void(0);">Motor vehicles</a></li>
+      <li>
+        <a class="usa-link" href="javascript:void(0);">Motor vehicles</a>
+      </li>
       <li>
         <a class="usa-link" href="air-emission-sources/turbines">Turbines</a>
       </li>
@@ -92,4 +95,4 @@ const pageTitle = "Air Emission Sources";
     </Card>
   </ul>
   <!-- TODO: Add related items? -->
-</RootLayout>
+</FacilityTourArea>

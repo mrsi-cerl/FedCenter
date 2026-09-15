@@ -1,9 +1,11 @@
 ---
-item_id: '40164'
+expiryDate: null
+item_id: "40164"
+externalUrl: http://research.fs.usda.gov/firelab/articles/wildfire-risk-data-your-fingertips
 programArea: Natural Resources
-pubDate: 11/16/2022
+publishDate: 11/16/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: USDA Forest Service Interactive Map Showcases Wildfire Reduction Projects
 ---
 

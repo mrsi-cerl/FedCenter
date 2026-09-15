@@ -1,9 +1,11 @@
 ---
-item_id: '801'
+expiryDate: null
+item_id: "801"
+externalUrl: https://www.fedcenter.gov/programs/compliance/executiveorders/
 programArea: Acquisition
-pubDate: 2/7/2005
+publishDate: 2/7/2005
 subCategory:
-- Executive Orders
+  - Executive Orders
 title: Executive Orders Library
 ---
 

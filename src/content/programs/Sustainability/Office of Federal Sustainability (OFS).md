@@ -1,9 +1,11 @@
 ---
-item_id: '32542'
+expiryDate: null
+item_id: "32542"
+externalUrl: https://www.sustainability.gov/
 programArea: Sustainability
-pubDate: 4/20/2018
+publishDate: 4/20/2018
 subCategory:
-- Federal Facilities
+  - Federal Facilities
 title: Office of Federal Sustainability (OFS)
 ---
 

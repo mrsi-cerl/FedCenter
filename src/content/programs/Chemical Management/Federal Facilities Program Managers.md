@@ -1,9 +1,11 @@
 ---
-item_id: '996'
+expiryDate: null
+item_id: "996"
+externalUrl: FFPM POCs.doc
 programArea: Chemical Management
-pubDate: 3/7/2005
+publishDate: 3/7/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Federal Facilities Program Managers
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '27767'
+expiryDate: null
+item_id: "27767"
+externalUrl: http://www.unicor.gov/Recycling.aspx
 programArea: Electronics Stewardship
-pubDate: 5/13/2015
+publishDate: 5/13/2015
 subCategory:
-- Disposal
+  - Disposal
 title: UNICOR Electronics Recycling Service
 ---
 

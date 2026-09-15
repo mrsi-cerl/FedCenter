@@ -1,10 +1,12 @@
 ---
-item_id: '18166'
+expiryDate: null
+item_id: "18166"
+externalUrl: http://cicero.oslo.no/en
 programArea: Climate Resilience
-pubDate: 6/2/2011
+publishDate: 6/2/2011
 subCategory:
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: Center for International Climate and Environmental Research (CICERO)
 ---
 

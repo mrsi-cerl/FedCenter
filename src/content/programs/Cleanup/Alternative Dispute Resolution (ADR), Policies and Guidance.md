@@ -1,9 +1,11 @@
 ---
-item_id: '3683'
+expiryDate: null
+item_id: "3683"
+externalUrl: https://www.epa.gov/adr/alternative-dispute-resolution-adr-references-and-guidance-documents
 programArea: Cleanup
-pubDate: 12/19/2005
+publishDate: 12/19/2005
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Alternative Dispute Resolution (ADR), Policies and Guidance
 ---
 

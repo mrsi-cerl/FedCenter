@@ -1,10 +1,13 @@
 ---
-item_id: '43062'
+expiryDate: null
+item_id: "43062"
+externalUrl: Web-based, On Demand
 programArea: Energy
-pubDate: 3/12/2025
+publishDate: 3/12/2025
 subCategory:
-- Training, Presentations, and Briefings
-title: Improving Process and Building Heating through Innovation and Energy Efficiency
+  - Training, Presentations, and Briefings
+title:
+  Improving Process and Building Heating through Innovation and Energy Efficiency
   (Web-based, On Demand)
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '3719'
+expiryDate: null
+item_id: "3719"
+externalUrl: http://www.clu-in.org/products/demos/
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
-- New Technology
+  - New Technology
 title: Remediation Technology Demonstration Project Profiles
 ---
 

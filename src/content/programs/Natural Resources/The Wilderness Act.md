@@ -1,9 +1,11 @@
 ---
-item_id: '2438'
+expiryDate: null
+item_id: "2438"
+externalUrl: https://www.fws.gov/law/wilderness-act-1964
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
-- Land Management
+  - Land Management
 title: The Wilderness Act
 ---
 

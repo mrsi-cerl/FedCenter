@@ -1,9 +1,11 @@
 ---
-item_id: '2449'
+expiryDate: null
+item_id: "2449"
+externalUrl: https://www.fws.gov/wetlands/Data/Mapper.html
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Wetlands Mapper
 ---
 

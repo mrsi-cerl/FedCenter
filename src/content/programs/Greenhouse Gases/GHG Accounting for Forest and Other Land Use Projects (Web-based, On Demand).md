@@ -1,9 +1,11 @@
 ---
-item_id: '13848'
+expiryDate: null
+item_id: "13848"
+externalUrl: http://ghginstitute.org/product/302-ghg-accounting-for-forest-and-other-land-use-projects/
 programArea: Greenhouse Gases
-pubDate: 10/27/2009
+publishDate: 10/27/2009
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: GHG Accounting for Forest and Other Land Use Projects (Web-based, On Demand)
 ---
 

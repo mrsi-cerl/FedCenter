@@ -1,9 +1,11 @@
 ---
-item_id: '8987'
+expiryDate: null
+item_id: "8987"
+externalUrl: http://www.trainex.org/offeringslist.cfm?courseid=348
 programArea: Cleanup
-pubDate: 2/7/2008
+publishDate: 2/7/2008
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Basic Overview of Superfund Online (Web-based, On Demand)
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '38744'
+expiryDate: null
+item_id: "38744"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/CELICA-Toolkit
 programArea: Energy
-pubDate: 12/3/2021
+publishDate: 12/3/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Clean Energy for Low-Income Communities (CELICA) Toolkit
 ---
 

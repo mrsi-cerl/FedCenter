@@ -1,9 +1,11 @@
 ---
-item_id: '8193'
+expiryDate: null
+item_id: "8193"
+externalUrl: https://earth911.com/
 programArea: Electronics Stewardship
-pubDate: 9/10/2007
+publishDate: 9/10/2007
 subCategory:
-- Disposal
+  - Disposal
 title: Earth 911 Reuse and Recycling Services
 ---
 

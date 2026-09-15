@@ -20,11 +20,11 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
         print(f"Created directory: {output_dir}")
 
     try:
-        with open(csv_filepath, mode='r', encoding='utf-8') as csv_file:
+        with open(csv_filepath, mode='r', encoding='utf-8-sig') as csv_file:
             # Use DictReader to automatically map headers to row values
             reader = csv.DictReader(csv_file)
             headers = reader.fieldnames
-
+            print('headers: ', headers)
             if not headers:
                 print("Error: The CSV file is empty or missing headers.")
                 return
@@ -63,6 +63,7 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
                     # also make sure to set up an empty array so we can append to it later
                     post.metadata['subCategory'] = []
 
+                print('processing: ', row['item_id'])
 
                 # Metadata / Attributes list
                 for header in headers:
@@ -73,28 +74,30 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
                     safe_val = str(val).replace("*", "\\*").replace("_", "\\_").replace('"','\\"')
                     if header == 'subCategory':
                         post.metadata[header].append(safe_val)
+                    elif header == 'expiryDate' and safe_val == "NULL":
+                        post.metadata[header] = None
                     else:
                         post.metadata[header] = safe_val
                 post.content = row[headers[2]]
 
                 # 3. Write the markdown file
                 with open(filepath, mode='w', encoding='utf-8') as md_file:
-                    print("trying to write to ", filepath)
                     md_file.write(frontmatter.dumps(post))
-
-                print(f"Generated: {filepath}")
 
             print(f"\n Success! All rows have been processed and saved to '{output_dir}'.")
 
     except FileNotFoundError:
         print(f"Error: The file '{csv_filepath}' was not found.")
+    except UnicodeDecodeError as e:
+        print(f"Error: Unicode character: {e}")
+        print(row)
     except Exception as e:
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     # --- CONFIGURATION ---
     # Replace 'data_cleaned_subcategories_trimmed.csv' with the path to your actual CSV file
-    CSV_FILE_PATH = "C:/Users/rdcerdtb/tmp/data_cleaned_subcategories_trimmed.csv"
+    CSV_FILE_PATH = "C:/Users/rdcerdtb/tmp/fedcenter_data_pull_20aug2026.csv"
     # Replace 'tmp' with your desired output directory name
     OUTPUT_DIRECTORY = "C:/Users/rdcerdtb/tmp"
 

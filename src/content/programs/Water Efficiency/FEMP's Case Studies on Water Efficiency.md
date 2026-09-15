@@ -1,9 +1,11 @@
 ---
-item_id: '18253'
+expiryDate: null
+item_id: "18253"
+externalUrl: https://www.energy.gov/eere/femp/federal-energy-management-program-case-studies-2
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
-- Case Studies
+  - Case Studies
 title: FEMP's Case Studies on Water Efficiency
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '8153'
+expiryDate: null
+item_id: "8153"
+externalUrl: http://www.igpn.org/
 programArea: Transportation
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
-- Organizations
+  - Organizations
 title: International Green Purchasing Network
 ---
 

@@ -1,11 +1,16 @@
 ---
-item_id: '783'
+expiryDate: null
+item_id: "783"
+externalUrl: https://nrc.uscg.mil/
 programArea: Chemical Management
-pubDate: 2/4/2005
+publishDate: 2/4/2005
 subCategory:
-- Databases and Software Tools
-- Databases and Software Tools
+  - Databases and Software Tools
+  - What Spills Have Been Reported For my Facility?
+  - How Can I Prepare for an Emergency?
 title: National Response Center
+additionalPages:
+  - My Community
 ---
 
 The National Response Center (NRC) is the sole federal point of contact for reporting oil and chemical spills. In addition to gathering and distributing spill data for Federal On-Scene Coordinators, the NRC serves as the communications and operations center for the National Response Team, which is chaired by EPA. Through this website, the user can download Excel files of reports that have been made to the Center.

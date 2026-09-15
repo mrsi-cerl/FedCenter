@@ -1,19 +1,21 @@
 ---
-item_id: '28726'
+expiryDate: null
+item_id: "28726"
+externalUrl: https://www.epa.gov/hwgenerators
 programArea: Environmental Compliance
-pubDate: 11/16/2015
+publishDate: 11/16/2015
 subCategory:
-- DOD Environmental Standards for Substantial Installations in Foreign Countries
-- Federal Regulations
-- Guidance for EPCRA
-- Guidance for FIFRA
-- Guidance for RCRA
-- Guidance for RCRA, Subtitle C
-- Guidance for RCRA, Subtitle I
-- Guidance for the Clean Air Act (CAA)
-- Guidance for the Clean Water Act (CWA)
-- Guidance for TSCA
-- State Regulations
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Hazardous Waste Generators
 ---
 

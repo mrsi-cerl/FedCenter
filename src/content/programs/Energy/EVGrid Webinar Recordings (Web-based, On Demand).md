@@ -1,9 +1,11 @@
 ---
-item_id: '40419'
+expiryDate: null
+item_id: "40419"
+externalUrl: http://www.energy.gov/cmei/vehicles/evgrid-assist-webinars
 programArea: Energy
-pubDate: 1/27/2023
+publishDate: 1/27/2023
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: EVGrid Webinar Recordings (Web-based, On Demand)
 ---
 

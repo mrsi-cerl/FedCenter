@@ -1,9 +1,11 @@
 ---
-item_id: '3697'
+expiryDate: null
+item_id: "3697"
+externalUrl: https://www.epa.gov/fedfac/federal-agency-hazardous-waste-compliance-docket-1
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Federal Agency Hazardous Waste Compliance Docket
 ---
 

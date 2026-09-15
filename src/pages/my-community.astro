@@ -2,13 +2,48 @@
 import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import Accordian from "../components/Accordian.astro";
 import RootLayout from "../layouts/RootLayout.astro";
+import { getCollection } from "astro:content";
 const pageTitle = "My Community";
 
 // TODO: get posts for each question on this page
+
+const myCommunityPosts = await getCollection("programPost", ({ data }) => {
+  return data.additionalPages?.includes(pageTitle);
+});
+
+const seen = new Set();
+const uniquePosts = myCommunityPosts.filter((post) => {
+  return seen.has(post.data.title) ? false : seen.add(post.data.title);
+});
+
+const myCommunityAreas = [
+  {
+    title: "Environmental Information About My Community",
+  },
+  { title: "Violations and Enforcement Actions At Your Facility" },
+  { title: "Does Your Facility Have Any Air Emission Sources?" },
+  { title: "Is Your Facility a Cleanup Site?" },
+  { title: "Does Your Facility Generate Hazardous Waste?" },
+  { title: "Does Your Facility Have Any Wastewater Permits?" },
+  { title: "Does Your Facility Treat Drinking Water?" },
+  {
+    title: "Multi-media Information About My Facility",
+  },
+  { title: "Where Do I Find Information On EPA Federal Facility Programs?" },
+  { title: "How Can I Prepare for an Emergency?" },
+  { title: "What Recycling Services Are Available To My Facility?" },
+  { title: `What Is "Federal Real Property"?` },
+  { title: "What Endangered or Threatened Species Might Be In My Area?" },
+  {
+    title:
+      "Where Are Treatment, Storage and Disposal Facilities Located Near Me?",
+  },
+];
 ---
 
 <RootLayout pageTitle={pageTitle}>
   <PageWithSideBarNav>
+    <h1>{pageTitle}</h1>
     <div class="usa-prose">
       <p>
         The My Community / My Facility page provides access to the numerous data
@@ -18,29 +53,21 @@ const pageTitle = "My Community";
         population statistics.
       </p>
     </div>
-    <Accordian
-      title="How Do I Find Environmental Information About My Community?"
-    />
-    <Accordian title="Violations/Enforcement Actions At Your Facility" />
-    <Accordian title="Does Your Facility Have Any Sources of Air Emissions?" />
-    <Accordian title="Is Your Facility a Cleanup Site?" />
-    <Accordian title="Does Your Facility Generate Hazardous Waste?" />
-    <Accordian title="Does Your Facility Have Any Wastewater Permits?" />
-    <Accordian title="Does Your Facility Treat Drinking Water?" />
-    <Accordian
-      title="How Do I Find Multi-media Environmental Information About My Facility?"
-    />
-    <Accordian
-      title="Where Do I Find Information On EPA Federal Facility Programs?"
-    />
-    <Accordian title="How Can I Prepare For An Emergency?" />
-    <Accordian title="What Recycling Services Are Available To My Facility?" />
-    <Accordian title=`What Is "Federal Real Property"` />
-    <Accordian
-      title="What Endangered/Threatened Species Might Be In My Area?"
-    />
-    <Accordian
-      title="Where Are Treatment, Storage and Disposal Facilities Located Near Me?"
-    />
+    <div
+      class="usa-accordion usa-accordion--multiselectable"
+      data-allow-multiple
+    >
+      {
+        myCommunityAreas.map((area) => (
+          <Accordian
+            id={area.title}
+            title={area.title}
+            posts={uniquePosts.filter((post: any) =>
+              post.data.subCategory.includes(area.title)
+            )}
+          />
+        ))
+      }
+    </div>
   </PageWithSideBarNav>
 </RootLayout>

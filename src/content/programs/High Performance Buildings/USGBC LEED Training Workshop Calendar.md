@@ -1,9 +1,11 @@
 ---
-item_id: '6706'
+expiryDate: null
+item_id: "6706"
+externalUrl: https://www.usgbc.org/events
 programArea: High Performance Buildings
-pubDate: 3/5/2007
+publishDate: 3/5/2007
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: USGBC LEED Training Workshop Calendar
 ---
 

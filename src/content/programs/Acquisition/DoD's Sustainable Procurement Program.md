@@ -1,9 +1,11 @@
 ---
-item_id: '28149'
+expiryDate: null
+item_id: "28149"
+externalUrl: http://www.denix.osd.mil/spp/
 programArea: Acquisition
-pubDate: 7/7/2015
+publishDate: 7/7/2015
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: DoD's Sustainable Procurement Program
 ---
 

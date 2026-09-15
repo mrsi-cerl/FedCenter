@@ -1,9 +1,11 @@
 ---
-item_id: '26184'
+expiryDate: null
+item_id: "26184"
+externalUrl: http://cfpub.epa.gov/watertrain/moduleFrame.cfm?module\_id=34&parent\_object\_id=1517&object\_id=1517
 programArea: Natural Resources
-pubDate: 7/8/2014
+publishDate: 7/8/2014
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Forestry Best Management Practices in Watersheds (Web-based, On-Demand)
 ---
 

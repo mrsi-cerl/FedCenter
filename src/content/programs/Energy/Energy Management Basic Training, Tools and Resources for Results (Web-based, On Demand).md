@@ -1,10 +1,13 @@
 ---
-item_id: '31540'
+expiryDate: null
+item_id: "31540"
+externalUrl: http://www.wbdg.org/ce/doe/femp/femp35
 programArea: Energy
-pubDate: 7/18/2017
+publishDate: 7/18/2017
 subCategory:
-- Training, Presentations, and Briefings
-title: Energy Management Basic Training, Tools and Resources for Results (Web-based,
+  - Training, Presentations, and Briefings
+title:
+  Energy Management Basic Training, Tools and Resources for Results (Web-based,
   On Demand)
 ---
 

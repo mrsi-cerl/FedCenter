@@ -1,10 +1,13 @@
 ---
-item_id: '3986'
+expiryDate: null
+item_id: "3986"
+externalUrl: https://www.udall.gov/OurPrograms/Institute/FindMediatorFacilitator.aspx
 programArea: High Performance Buildings
-pubDate: 1/18/2006
+publishDate: 1/18/2006
 subCategory:
-- Directories, Catalogs, and Newsletters
-title: National Roster of Environmental Conflict Resolution and Consensus Building
+  - Directories, Catalogs, and Newsletters
+title:
+  National Roster of Environmental Conflict Resolution and Consensus Building
   Professionals
 ---
 

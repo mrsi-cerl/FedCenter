@@ -1,9 +1,11 @@
 ---
-item_id: '28068'
+expiryDate: null
+item_id: "28068"
+externalUrl: https://datacenters.lbl.gov/resources/data-center-metering-and-resource-guide
 programArea: Energy
-pubDate: 6/23/2015
+publishDate: 6/23/2015
 subCategory:
-- Data Centers
+  - Data Centers
 title: Data Center Metering and Resource Guide (Version 1.0)
 ---
 

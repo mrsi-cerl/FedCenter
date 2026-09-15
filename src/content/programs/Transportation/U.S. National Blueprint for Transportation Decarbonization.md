@@ -1,9 +1,11 @@
 ---
-item_id: '40362'
+expiryDate: null
+item_id: "40362"
+externalUrl: https://www.energy.gov/sites/default/files/2023-01/the-us-national-blueprint-for-transportation-decarbonization.pdf
 programArea: Transportation
-pubDate: 1/11/2023
+publishDate: 1/11/2023
 subCategory:
-- Guidance
+  - Guidance
 title: U.S. National Blueprint for Transportation Decarbonization
 ---
 

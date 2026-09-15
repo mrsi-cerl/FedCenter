@@ -1,9 +1,11 @@
 ---
-item_id: '28569'
+expiryDate: null
+item_id: "28569"
+externalUrl: http://www.biopreferred.gov/BioPreferred/faces/pages/AcquisitionTools.xhtml
 programArea: Acquisition
-pubDate: 10/5/2015
+publishDate: 10/5/2015
 subCategory:
-- Contract and Procurement Language
+  - Contract and Procurement Language
 title: BioPreferred Contract Templates
 ---
 

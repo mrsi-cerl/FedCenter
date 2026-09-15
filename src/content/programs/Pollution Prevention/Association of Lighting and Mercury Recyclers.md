@@ -1,10 +1,12 @@
 ---
-item_id: '1263'
+expiryDate: null
+item_id: "1263"
+externalUrl: http://www.almr.org
 programArea: Pollution Prevention
-pubDate: 4/5/2005
+publishDate: 4/5/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Association of Lighting and Mercury Recyclers
 ---
 
-The ALMR is an educational and informational resource to government agencies, municipal authorities, industries and other business entities, universal waste handlers, generators, environmental groups and industry trade organizations.  Tools developed include CD-Rom training on recycling mercury-containing lamps
+The ALMR is an educational and informational resource to government agencies, municipal authorities, industries and other business entities, universal waste handlers, generators, environmental groups and industry trade organizations. Tools developed include CD-Rom training on recycling mercury-containing lamps

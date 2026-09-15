@@ -1,9 +1,11 @@
 ---
-item_id: '34031'
+expiryDate: null
+item_id: "34031"
+externalUrl: https://www.congress.gov/111/plaws/publ308/PLAW-111publ308.pdf
 programArea: Energy
-pubDate: 5/28/2019
+publishDate: 5/28/2019
 subCategory:
-- Federal Legislation & Policy
+  - Federal Legislation and Policy
 title: Federal Buildings Personnel Training Act (FBPTA) of 2010
 ---
 

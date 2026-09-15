@@ -1,9 +1,11 @@
 ---
-item_id: '34427'
+expiryDate: null
+item_id: "34427"
+externalUrl: http://esco-selector.ornl.gov/home
 programArea: Energy
-pubDate: 9/5/2019
+publishDate: 9/5/2019
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: ESCO Selector
 ---
 

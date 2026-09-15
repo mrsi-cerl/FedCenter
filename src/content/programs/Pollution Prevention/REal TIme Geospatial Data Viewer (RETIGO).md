@@ -1,9 +1,11 @@
 ---
-item_id: '33792'
+expiryDate: null
+item_id: "33792"
+externalUrl: www.epa.gov/retigo
 programArea: Pollution Prevention
-pubDate: 3/26/2019
+publishDate: 3/26/2019
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: REal TIme Geospatial Data Viewer (RETIGO)
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '29658'
+expiryDate: null
+item_id: "29658"
+externalUrl: https://www.epa.gov/ems
 programArea: Environmental Management Systems (EMS)
-pubDate: 5/20/2016
+publishDate: 5/20/2016
 subCategory:
-- EPA Guidance
+  - EPA Guidance
 title: EPA Information and Resources for EMS
 ---
 

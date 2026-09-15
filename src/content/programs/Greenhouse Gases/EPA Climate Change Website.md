@@ -1,10 +1,12 @@
 ---
-item_id: '36644'
+expiryDate: null
+item_id: "36644"
+externalUrl: https://www.epa.gov/climate-change
 programArea: Greenhouse Gases
-pubDate: 3/19/2021
+publishDate: 3/19/2021
 subCategory:
-- National
+  - National
 title: EPA Climate Change Website
 ---
 
-New as of 18 March 2021, EPA's Climate Change website will  guide the public to a range of information, including greenhouse gas emissions data, climate change impacts, scientific reports, and existing climate programs within EPA and across the federal government.
+New as of 18 March 2021, EPA's Climate Change website will guide the public to a range of information, including greenhouse gas emissions data, climate change impacts, scientific reports, and existing climate programs within EPA and across the federal government.

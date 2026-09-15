@@ -1,9 +1,11 @@
 ---
-item_id: '28676'
+expiryDate: null
+item_id: "28676"
+externalUrl: https://www.epa.gov/fedfac
 programArea: Cleanup
-pubDate: 10/30/2015
+publishDate: 10/30/2015
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Cleanups at Federal Facilities
 ---
 

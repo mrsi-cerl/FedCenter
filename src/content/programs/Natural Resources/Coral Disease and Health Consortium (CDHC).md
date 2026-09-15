@@ -1,9 +1,11 @@
 ---
-item_id: '2532'
+expiryDate: null
+item_id: "2532"
+externalUrl: http://cdhc.noaa.gov/
 programArea: Natural Resources
-pubDate: 7/27/2005
+publishDate: 7/27/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Coral Disease and Health Consortium (CDHC)
 ---
 

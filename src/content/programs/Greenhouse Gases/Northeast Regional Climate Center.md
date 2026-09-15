@@ -1,9 +1,11 @@
 ---
-item_id: '23360'
+expiryDate: null
+item_id: "23360"
+externalUrl: https://www.nrcc.cornell.edu/
 programArea: Greenhouse Gases
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Northeast Regional Climate Center
 ---
 

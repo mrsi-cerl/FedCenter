@@ -1,9 +1,11 @@
 ---
-item_id: '33465'
+expiryDate: null
+item_id: "33465"
+externalUrl: http://www.npi.org/sem-ETCR.html
 programArea: Cultural Resources
-pubDate: 1/17/2019
+publishDate: 1/17/2019
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Emerging Technologies for Cultural Resources (Classroom, Multiple Offerings)
 ---
 

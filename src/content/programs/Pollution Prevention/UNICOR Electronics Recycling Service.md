@@ -1,9 +1,11 @@
 ---
-item_id: '27767'
+expiryDate: null
+item_id: "27767"
+externalUrl: http://www.unicor.gov/Recycling.aspx
 programArea: Pollution Prevention
-pubDate: 5/13/2015
+publishDate: 5/13/2015
 subCategory:
-- Recycling and Reuse
+  - Recycling and Reuse
 title: UNICOR Electronics Recycling Service
 ---
 

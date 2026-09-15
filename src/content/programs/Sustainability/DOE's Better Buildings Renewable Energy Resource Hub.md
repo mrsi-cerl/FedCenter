@@ -1,9 +1,12 @@
 ---
-item_id: '36438'
+expiryDate: null
+item_id: "36438"
+externalUrl: http://betterbuildingssolutioncenter.energy.gov/renewables
 programArea: Sustainability
-pubDate: 1/29/2021
+publishDate: 1/29/2021
 subCategory:
-- Organizations
+  - Libraries and Repositories
+  - Organizations
 title: DOE's Better Buildings Renewable Energy Resource Hub
 ---
 

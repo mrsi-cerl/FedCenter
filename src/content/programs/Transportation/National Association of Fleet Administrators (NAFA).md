@@ -1,9 +1,11 @@
 ---
-item_id: '16120'
+expiryDate: null
+item_id: "16120"
+externalUrl: http://www.nafa.org
 programArea: Transportation
-pubDate: 9/2/2010
+publishDate: 9/2/2010
 subCategory:
-- Organizations
+  - Organizations
 title: National Association of Fleet Administrators (NAFA)
 ---
 

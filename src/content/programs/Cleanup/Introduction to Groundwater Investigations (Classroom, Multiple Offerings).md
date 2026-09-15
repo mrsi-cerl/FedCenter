@@ -1,9 +1,11 @@
 ---
-item_id: '20349'
+expiryDate: null
+item_id: "20349"
+externalUrl: https://www.trainex.org/offeringslist.cfm?courseid=6
 programArea: Cleanup
-pubDate: 6/13/2007
+publishDate: 6/13/2007
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Introduction to Groundwater Investigations (Classroom, Multiple Offerings)
 ---
 

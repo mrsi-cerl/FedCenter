@@ -1,9 +1,11 @@
 ---
-item_id: '38459'
+expiryDate: null
+item_id: "38459"
+externalUrl: http://www.pvpc.org/sites/default/files/files/Smart Growth-Full Toolkit.pdf
 programArea: Sustainability
-pubDate: 9/28/2021
+publishDate: 9/28/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Pioneer Valley Smart Growth Toolkit
 ---
 

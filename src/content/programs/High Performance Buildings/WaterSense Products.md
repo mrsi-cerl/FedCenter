@@ -1,9 +1,11 @@
 ---
-item_id: '6498'
+expiryDate: null
+item_id: "6498"
+externalUrl: https://www.epa.gov/watersense/watersense-products
 programArea: High Performance Buildings
-pubDate: 1/25/2007
+publishDate: 1/25/2007
 subCategory:
-- Construction Design
+  - Construction Design
 title: WaterSense Products
 ---
 

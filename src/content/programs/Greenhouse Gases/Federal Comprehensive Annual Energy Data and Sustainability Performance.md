@@ -1,9 +1,11 @@
 ---
-item_id: '32193'
+expiryDate: null
+item_id: "32193"
+externalUrl: http://ctsedwweb.ee.doe.gov/Annual/Report/Report.aspx
 programArea: Greenhouse Gases
-pubDate: 1/22/2018
+publishDate: 1/22/2018
 subCategory:
-- Inventories
+  - Inventories
 title: Federal Comprehensive Annual Energy Data and Sustainability Performance
 ---
 

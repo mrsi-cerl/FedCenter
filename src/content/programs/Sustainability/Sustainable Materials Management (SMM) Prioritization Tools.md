@@ -1,9 +1,11 @@
 ---
-item_id: '35518'
+expiryDate: null
+item_id: "35518"
+externalUrl: https://www.epa.gov/smm/sustainable-materials-management-prioritization-tools
 programArea: Sustainability
-pubDate: 5/29/2020
+publishDate: 5/29/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Sustainable Materials Management (SMM) Prioritization Tools
 ---
 

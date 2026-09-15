@@ -1,9 +1,11 @@
 ---
-item_id: '27564'
+expiryDate: null
+item_id: "27564"
+externalUrl: http://www.trainex.org/offeringslist.cfm?courseid=23
 programArea: Environmental Compliance
-pubDate: 4/8/2015
+publishDate: 4/8/2015
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Hazardous Waste Operations and Emergency Response (HAZWOPER) 40 Hour Course
 ---
 

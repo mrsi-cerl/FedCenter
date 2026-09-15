@@ -1,11 +1,12 @@
 ---
-item_id: '36344'
+expiryDate: null
+item_id: "36344"
+externalUrl: https://www.sustainability.gov/pdfs/guiding\_principles\_for\_sustainable\_federal\_buildings.pdf
 programArea: High Performance Buildings
-pubDate: 1/4/2021
+publishDate: 1/4/2021
 subCategory:
-- Conferences and Events
-- Guiding Principles / LEED
-- High Perf Bldgs News
+  - Conferences and Events
+  - Guiding Principles and LEED
 title: 2020 Guiding Principles for Sustainable Federal Buildings and Associated Instructions
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '20267'
+expiryDate: null
+item_id: "20267"
+externalUrl: https://www.epa.gov/nep/national-estuary-program-reports
 programArea: Natural Resources
-pubDate: 1/23/2012
+publishDate: 1/23/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: National Estuary Program Reports
 ---
 

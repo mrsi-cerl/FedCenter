@@ -1,11 +1,12 @@
 ---
-item_id: '41389'
+expiryDate: null
+item_id: "41389"
+externalUrl: https://www.epa.gov/enforcement/national-enforcement-and-compliance-initiatives
 programArea: Climate Resilience
-pubDate: 9/20/2023
+publishDate: 9/20/2023
 subCategory:
-- Construction Design
-- Construction Design
-- Federal
+  - Construction Design
+  - Federal
 title: FY2024-FY2027 National Compliance Initiatives
 ---
 

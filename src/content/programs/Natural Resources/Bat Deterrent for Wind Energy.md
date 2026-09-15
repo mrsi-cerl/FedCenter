@@ -1,10 +1,12 @@
 ---
-item_id: '36025'
+expiryDate: null
+item_id: "36025"
+externalUrl: https://www.energy.gov/eere/success-stories/articles/concept-commercialization-bat-deterrent-wind-energy-goes-global
 programArea: Natural Resources
-pubDate: 9/30/2020
+publishDate: 9/30/2020
 subCategory:
-- Databases and Software Tools
-- Wildlife Management
+  - Databases and Software Tools
+  - Wildlife Management
 title: Bat Deterrent for Wind Energy
 ---
 

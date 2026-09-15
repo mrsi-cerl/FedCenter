@@ -1,9 +1,11 @@
 ---
-item_id: '1121'
+expiryDate: null
+item_id: "1121"
+externalUrl: https://www.epa.gov/greenpower/guide-purchasing-green-power
 programArea: Energy
-pubDate: 3/23/2005
+publishDate: 3/23/2005
 subCategory:
-- Guidance Documents
+  - Guidance Documents
 title: Guide to Purchasing Green Power
 ---
 

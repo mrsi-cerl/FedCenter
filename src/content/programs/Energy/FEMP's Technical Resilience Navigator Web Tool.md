@@ -1,9 +1,11 @@
 ---
-item_id: '36109'
+expiryDate: null
+item_id: "36109"
+externalUrl: trn.pnnl.gov
 programArea: Energy
-pubDate: 10/21/2020
+publishDate: 10/21/2020
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: FEMP's Technical Resilience Navigator Web Tool
 ---
 

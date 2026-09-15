@@ -1,9 +1,11 @@
 ---
-item_id: '2489'
+expiryDate: null
+item_id: "2489"
+externalUrl: https://www.sciencebase.gov/catalog/item/53fe5279e4b0adaeea6d9dd7
 programArea: Natural Resources
-pubDate: 7/20/2005
+publishDate: 7/20/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: VegSpec Plant Species Selection Software
 ---
 

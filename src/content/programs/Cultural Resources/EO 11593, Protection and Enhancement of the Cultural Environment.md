@@ -1,9 +1,11 @@
 ---
-item_id: '15482'
+expiryDate: null
+item_id: "15482"
+externalUrl: http://www.archives.gov/federal-register/codification/executive-order/11593.html
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
-- National Executive Orders
+  - National Executive Orders
 title: EO 11593, Protection and Enhancement of the Cultural Environment
 ---
 

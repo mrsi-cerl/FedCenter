@@ -1,9 +1,11 @@
 ---
-item_id: '33236'
+expiryDate: null
+item_id: "33236"
+externalUrl: https://www.achp.gov/training/elearning
 programArea: Cultural Resources
-pubDate: 11/13/2018
+publishDate: 11/13/2018
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Basics of NEPA and Section 106 Integration (Web-based, On-Demand)
 ---
 

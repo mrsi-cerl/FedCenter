@@ -1,9 +1,11 @@
 ---
-item_id: '3721'
+expiryDate: null
+item_id: "3721"
+externalUrl: https://www.epa.gov/superfund/superfund-national-priorities-list-npl
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
-- NPL
+  - NPL
 title: NPL Sites in the United States
 ---
 

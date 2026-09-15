@@ -1,9 +1,11 @@
 ---
-item_id: '29106'
+expiryDate: null
+item_id: "29106"
+externalUrl: http://betterbuildingssolutioncenter.energy.gov/resources/business-case-proactive-rooftop-unit-rtu-replacement
 programArea: High Performance Buildings
-pubDate: 2/1/2016
+publishDate: 2/1/2016
 subCategory:
-- Case Studies
+  - Case Studies
 title: Business Case for Proactive RTU Replacement
 ---
 

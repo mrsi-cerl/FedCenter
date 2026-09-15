@@ -1,9 +1,11 @@
 ---
-item_id: '25776'
+expiryDate: null
+item_id: "25776"
+externalUrl: http://www.wbdg.org/ce/doe/femp/femp18
 programArea: Water Efficiency
-pubDate: 5/16/2014
+publishDate: 5/16/2014
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Best Practices for Comprehensive Water Management for Federal Facilities (Web-based)
 ---
 

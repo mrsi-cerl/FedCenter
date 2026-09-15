@@ -1,9 +1,11 @@
 ---
-item_id: '15503'
+expiryDate: null
+item_id: "15503"
+externalUrl: https://www.nps.gov/subjects/nationalregister/index.htm
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: National Register of Historic Places
 ---
 

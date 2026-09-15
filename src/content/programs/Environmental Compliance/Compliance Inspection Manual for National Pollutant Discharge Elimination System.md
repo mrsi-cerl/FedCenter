@@ -1,9 +1,11 @@
 ---
-item_id: '31225'
+expiryDate: null
+item_id: "31225"
+externalUrl: https://www.epa.gov/compliance/compliance-inspection-manual-national-pollutant-discharge-elimination-system
 programArea: Environmental Compliance
-pubDate: 5/9/2017
+publishDate: 5/9/2017
 subCategory:
-- Compliance Auditing
+  - Compliance Auditing
 title: Compliance Inspection Manual for National Pollutant Discharge Elimination System
 ---
 

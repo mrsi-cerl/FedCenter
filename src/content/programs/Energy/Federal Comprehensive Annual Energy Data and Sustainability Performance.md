@@ -1,9 +1,11 @@
 ---
-item_id: '32193'
+expiryDate: null
+item_id: "32193"
+externalUrl: http://ctsedwweb.ee.doe.gov/Annual/Report/Report.aspx
 programArea: Energy
-pubDate: 1/22/2018
+publishDate: 1/22/2018
 subCategory:
-- Case Studies
+  - Case Studies
 title: Federal Comprehensive Annual Energy Data and Sustainability Performance
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '8145'
+expiryDate: null
+item_id: "8145"
+externalUrl: https://www.anl.gov/esia/vision-model
 programArea: Transportation
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: VISION
 ---
 

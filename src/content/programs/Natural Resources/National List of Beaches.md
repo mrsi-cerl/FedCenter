@@ -1,9 +1,11 @@
 ---
-item_id: '10747'
+expiryDate: null
+item_id: "10747"
+externalUrl: https://www.epa.gov/beaches/national-list-beaches
 programArea: Natural Resources
-pubDate: 10/7/2008
+publishDate: 10/7/2008
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: National List of Beaches
 ---
 

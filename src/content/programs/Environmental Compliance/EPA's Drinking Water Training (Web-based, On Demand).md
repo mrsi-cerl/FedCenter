@@ -1,9 +1,11 @@
 ---
-item_id: '40340'
+expiryDate: null
+item_id: "40340"
+externalUrl: https://www.epa.gov/dwreginfo/drinking-water-training
 programArea: Environmental Compliance
-pubDate: 1/4/2023
+publishDate: 1/4/2023
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: EPA's Drinking Water Training (Web-based, On Demand)
 ---
 

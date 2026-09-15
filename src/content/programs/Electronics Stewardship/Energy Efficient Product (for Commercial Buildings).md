@@ -1,9 +1,11 @@
 ---
-item_id: '27763'
+expiryDate: null
+item_id: "27763"
+externalUrl: http://www.energystar.gov/buildings/facility-owners-and-managers/existing-buildings/save-energy/purchase-energy-saving-products
 programArea: Electronics Stewardship
-pubDate: 5/13/2015
+publishDate: 5/13/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Energy Efficient Product (for Commercial Buildings)
 ---
 

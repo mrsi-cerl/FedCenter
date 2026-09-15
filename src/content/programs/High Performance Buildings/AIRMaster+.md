@@ -1,9 +1,11 @@
 ---
-item_id: '1878'
+expiryDate: null
+item_id: "1878"
+externalUrl: https://www.energy.gov/eere/amo/articles/airmaster
 programArea: High Performance Buildings
-pubDate: 6/23/2005
+publishDate: 6/23/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: AIRMaster+
 ---
 

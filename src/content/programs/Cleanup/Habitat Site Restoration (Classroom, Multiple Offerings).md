@@ -1,9 +1,11 @@
 ---
-item_id: '20722'
+expiryDate: null
+item_id: "20722"
+externalUrl: http://www.nwetc.org/schedule/event/habitat-site-restoration---
 programArea: Cleanup
-pubDate: 4/5/2012
+publishDate: 4/5/2012
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Habitat Site Restoration (Classroom, Multiple Offerings)
 ---
 

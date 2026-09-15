@@ -1,10 +1,13 @@
 ---
-item_id: '10451'
+expiryDate: null
+item_id: "10451"
+externalUrl: http://edocket.access.gpo.gov/2008/pdf/E8-17579.pdf
 programArea: Natural Resources
-pubDate: 8/4/2008
+publishDate: 8/4/2008
 subCategory:
-- Species Management
-title: Guidance Promoting Implementation of the Endangered Species Act by Federal
+  - Species Management
+title:
+  Guidance Promoting Implementation of the Endangered Species Act by Federal
   Agencies
 ---
 

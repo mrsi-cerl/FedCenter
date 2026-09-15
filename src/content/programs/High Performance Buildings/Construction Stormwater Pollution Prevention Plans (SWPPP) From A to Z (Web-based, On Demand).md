@@ -1,10 +1,13 @@
 ---
-item_id: '13158'
+expiryDate: null
+item_id: "13158"
+externalUrl: http://www.youtube.com/watch?v=3hgXpbS26vg
 programArea: High Performance Buildings
-pubDate: 7/22/2009
+publishDate: 7/22/2009
 subCategory:
-- Training, Presentations, and Briefings
-title: Construction Stormwater Pollution Prevention Plans (SWPPP) From A to Z (Web-based,
+  - Training, Presentations, and Briefings
+title:
+  Construction Stormwater Pollution Prevention Plans (SWPPP) From A to Z (Web-based,
   On Demand)
 ---
 

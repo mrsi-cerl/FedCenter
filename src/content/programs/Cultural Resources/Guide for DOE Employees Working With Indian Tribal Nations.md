@@ -1,9 +1,11 @@
 ---
-item_id: '15526'
+expiryDate: null
+item_id: "15526"
+externalUrl: https://www.energy.gov/sites/prod/files/2016/02/f30/DOE%20Guide%20to%20Working%20with%20Tribal%20Nations.pdf
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
-- Implementation Guidance
+  - Implementation Guidance
 title: Guide for DOE Employees Working With Indian Tribal Nations
 ---
 

@@ -1,10 +1,12 @@
 ---
-item_id: '30163'
+expiryDate: null
+item_id: "30163"
+externalUrl: http://accoonline.org/climate101
 programArea: Climate Resilience
-pubDate: 8/19/2016
+publishDate: 8/19/2016
 subCategory:
-- Construction Design
-- Training, Presentations, and Briefings
+  - Construction Design
+  - Training, Presentations, and Briefings
 title: Understanding Climate Science & the Latest Projections (Web-based, On Demand)
 ---
 

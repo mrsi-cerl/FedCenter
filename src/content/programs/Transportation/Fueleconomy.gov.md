@@ -1,9 +1,11 @@
 ---
-item_id: '12165'
+expiryDate: null
+item_id: "12165"
+externalUrl: http://www.fueleconomy.gov/
 programArea: Transportation
-pubDate: 4/9/2009
+publishDate: 4/9/2009
 subCategory:
-- Acquisition
+  - Acquisition
 title: Fueleconomy.gov
 ---
 

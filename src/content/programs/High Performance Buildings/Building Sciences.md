@@ -1,9 +1,11 @@
 ---
-item_id: '1127'
+expiryDate: null
+item_id: "1127"
+externalUrl: http://www.nibs.org/?page=buildingsciences
 programArea: High Performance Buildings
-pubDate: 3/25/2005
+publishDate: 3/25/2005
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: Building Sciences
 ---
 

@@ -1,10 +1,13 @@
 ---
-item_id: '39837'
+expiryDate: null
+item_id: "39837"
+externalUrl: https://www.energy.gov/eere/femp/technical-specifications-site-solar-photovoltaic-systems
 programArea: Energy
-pubDate: 8/10/2022
+publishDate: 8/10/2022
 subCategory:
-- Databases and Software Tools
-title: Technical Specifications for On-site Solar Photovoltaic Systems at Federal
+  - Databases and Software Tools
+title:
+  Technical Specifications for On-site Solar Photovoltaic Systems at Federal
   Facilities
 ---
 

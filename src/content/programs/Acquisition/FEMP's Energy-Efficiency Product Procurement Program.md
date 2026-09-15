@@ -1,9 +1,11 @@
 ---
-item_id: '20129'
+expiryDate: null
+item_id: "20129"
+externalUrl: http://energy.gov/eere/femp/articles/energy-efficient-product-procurement
 programArea: Acquisition
-pubDate: 1/3/2012
+publishDate: 1/3/2012
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: FEMP's Energy-Efficiency Product Procurement Program
 ---
 

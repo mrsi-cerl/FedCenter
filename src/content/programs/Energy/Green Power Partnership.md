@@ -1,9 +1,11 @@
 ---
-item_id: '19408'
+expiryDate: null
+item_id: "19408"
+externalUrl: https://www.epa.gov/greenpower
 programArea: Energy
-pubDate: 9/7/2011
+publishDate: 9/7/2011
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Green Power Partnership
 ---
 

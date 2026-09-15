@@ -1,9 +1,11 @@
 ---
-item_id: '23660'
+expiryDate: null
+item_id: "23660"
+externalUrl: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100NLA0.txt
 programArea: Natural Resources
-pubDate: 6/6/2013
+publishDate: 6/6/2013
 subCategory:
-- Watershed Management
+  - Watershed Management
 title: A Quick Guide to Developing Watershed Plans to Restore and Protect Our Waters
 ---
 

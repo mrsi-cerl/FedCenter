@@ -1,9 +1,11 @@
 ---
-item_id: '3708'
+expiryDate: null
+item_id: "3708"
+externalUrl: https://www.epa.gov/superfund/superfund-community-involvement-tools-and-resources
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
-- General
+  - General
 title: Superfund Community Involvement Toolkit
 ---
 

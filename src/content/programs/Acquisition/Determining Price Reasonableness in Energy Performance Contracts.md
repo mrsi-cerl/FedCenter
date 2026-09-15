@@ -1,9 +1,11 @@
 ---
-item_id: '43319'
+expiryDate: null
+item_id: "43319"
+externalUrl: https://www.energy.gov/femp/articles/determining-price-reasonableness-federal-espcs?utm\_medium=email&utm\_source=govdelivery
 programArea: Acquisition
-pubDate: 6/16/2025
+publishDate: 6/16/2025
 subCategory:
-- Guidance
+  - Guidance
 title: Determining Price Reasonableness in Energy Performance Contracts
 ---
 

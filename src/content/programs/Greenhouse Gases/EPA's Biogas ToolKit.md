@@ -1,9 +1,11 @@
 ---
-item_id: '39028'
+expiryDate: null
+item_id: "39028"
+externalUrl: https://www.epa.gov/agstar/biogas-toolkit
 programArea: Greenhouse Gases
-pubDate: 1/28/2022
+publishDate: 1/28/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EPA's Biogas ToolKit
 ---
 

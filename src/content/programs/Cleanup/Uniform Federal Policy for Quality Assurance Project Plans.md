@@ -1,9 +1,11 @@
 ---
-item_id: '3723'
+expiryDate: null
+item_id: "3723"
+externalUrl: https://www.epa.gov/fedfac/assuring-quality-federal-cleanups#ufp-qapp
 programArea: Cleanup
-pubDate: 12/20/2005
+publishDate: 12/20/2005
 subCategory:
-- Quality Assurance
+  - Quality Assurance
 title: Uniform Federal Policy for Quality Assurance Project Plans
 ---
 

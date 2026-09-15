@@ -1,9 +1,11 @@
 ---
-item_id: '30579'
+expiryDate: null
+item_id: "30579"
+externalUrl: https://www.gpo.gov/fdsys/pkg/FR-2016-12-08/pdf/2016-29519.pdf
 programArea: Natural Resources
-pubDate: 12/8/2016
+publishDate: 12/8/2016
 subCategory:
-- Species Management
+  - Species Management
 title: Executive Order 13751
 ---
 

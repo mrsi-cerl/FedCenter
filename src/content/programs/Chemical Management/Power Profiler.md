@@ -1,10 +1,15 @@
 ---
-item_id: '10868'
+expiryDate: null
+item_id: "10868"
+externalUrl: https://www.epa.gov/egrid/power-profiler#/
 programArea: Chemical Management
-pubDate: 10/31/2008
+publishDate: 10/31/2008
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
+  - Does Your Facility Have Any Air Emission Sources?
 title: Power Profiler
+additionalPages:
+  - My Community
 ---
 
 This is a user friendly online tool that helps consumers see how their individual energy use is impacting air emissions. Using data from eGRID, Power Profiler calculates how much nitrogen oxides, sulfur dioxide and carbon dioxide are emitted from electricity use.

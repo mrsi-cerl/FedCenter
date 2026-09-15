@@ -1,26 +1,35 @@
 ---
 const primaryAreas = [
   { title: "Acquisition", url: "programs/acquisition" },
-  { title: "Chemical Management", url: "programs/chemical" },
+  { title: "Chemical Management", url: "programs/chemical-management" },
   { title: "Cleanup", url: "programs/cleanup" },
-  { title: "Climate Resilience", url: "" },
-  { title: "Cultural Resources", url: "" },
-  { title: "Electronics Stewardship", url: "" },
-  { title: "EMS", url: "" },
-  { title: "Energy", url: "" },
-  { title: "Env. Compliance", url: "" },
-  { title: "Greenhouse Gases", url: "" },
-  { title: "High Performance Bldgs", url: "" },
-  { title: "Natural Resources", url: "" },
-  { title: "NEPA", url: "" },
-  { title: "PFAS", url: "" },
-  { title: "Pollution Prevention", url: "" },
+  { title: "Climate Resilience", url: "programs/climate-resilience" },
+  { title: "Cultural Resources", url: "programs/cultural-resources" },
+  { title: "Electronics Stewardship", url: "programs/electronics-stewardship" },
+  { title: "EMS", url: "programs/environmental-management-system" },
+  { title: "Energy", url: "programs/energy" },
+  { title: "Env. Compliance", url: "programs/environmental-compliance" },
+  { title: "Greenhouse Gases", url: "programs/greenhouse-gases" },
+  {
+    title: "High Performance Bldgs",
+    url: "programs/high-performance-buildings",
+  },
+  { title: "Natural Resources", url: "programs/natural-resources" },
+  { title: "NEPA", url: "programs/nepa" },
+  { title: "PFAS", url: "programs/pfas" },
+  { title: "Pollution Prevention", url: "programs/pollution-prevention" },
   { title: "Sustainability", url: "programs/sustainability" },
-  { title: "Transportation", url: "" },
-  { title: "Water Efficiency", url: "" },
+  { title: "Transportation", url: "programs/transportation" },
+  { title: "Water Efficiency", url: "programs/water-efficiency" },
 ];
 ---
 
+<style>
+  /* Don't outline the search box when it is focused. This is a USWDS issue that we are overriding. */
+  input#query.usagov-search-autocomplete:focus {
+    outline: unset;
+  }
+</style>
 <div class="usa-overlay"></div>
 <header class="usa-header usa-header--extended">
   <div class="usa-navbar">
@@ -42,6 +51,9 @@ const primaryAreas = [
         </em>
       </a>
     </div>
+    <p class="margin-left-105 margin-top-neg-2">
+      Environmental Protection Agency - Federal Facilities Enforcement Office
+    </p>
     <button type="button" class="usa-menu-btn">Menu</button>
   </div>
   <nav aria-label="Primary navigation" class="usa-nav">
@@ -191,7 +203,9 @@ const primaryAreas = [
             </button>
             <ul id="extended-nav-section-four" class="usa-nav__submenu">
               <li class="usa-nav__submenu-item">
-                <a href={`${import.meta.env.BASE_URL}events/calendar`}><span>Calendar</span></a>
+                <a href={`${import.meta.env.BASE_URL}events/calendar`}
+                  ><span>Calendar</span></a
+                >
               </li>
               <li class="usa-nav__submenu-item">
                 <a href="javascript:void(0);"><span>Conferences</span></a>
@@ -278,13 +292,27 @@ const primaryAreas = [
           </li>
         </ul>
         <section aria-label="Search component">
-          <form class="usa-search usa-search--small" role="search">
-            <label class="usa-sr-only" for="search-field">Search</label>
+          <form
+            class="usa-search usa-search--small"
+            role="search"
+            id="search_form"
+            action="https://search.usa.gov/search"
+            accept-charset="UTF-8"
+            method="get"
+          >
             <input
-              class="usa-input"
-              id="search-field"
-              type="search"
-              name="search"
+              type="hidden"
+              name="affiliate"
+              id="affiliate"
+              value="fedcenter"
+              autocomplete="off"
+            />
+            <input
+              type="text"
+              name="query"
+              id="query"
+              autocomplete="off"
+              class="usagov-search-autocomplete"
             />
             <button class="usa-button" type="submit">
               <img

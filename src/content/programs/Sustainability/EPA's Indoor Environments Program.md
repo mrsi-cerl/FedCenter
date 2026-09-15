@@ -1,9 +1,11 @@
 ---
-item_id: '5954'
+expiryDate: null
+item_id: "5954"
+externalUrl: https://www.epa.gov/indoor-air-quality-iaq
 programArea: Sustainability
-pubDate: 10/12/2006
+publishDate: 10/12/2006
 subCategory:
-- Organizations
+  - Organizations
 title: EPA's Indoor Environments Program
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '16305'
+expiryDate: null
+item_id: "16305"
+externalUrl: http://docs.nlr.gov/docs/fy10osti/47867.pdf
 programArea: Energy
-pubDate: 9/27/2010
+publishDate: 9/27/2010
 subCategory:
-- Case Studies
+  - Case Studies
 title: Large Hospital 50% Energy Savings
 ---
 

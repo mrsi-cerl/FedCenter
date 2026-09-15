@@ -1,9 +1,11 @@
 ---
-item_id: '27422'
+expiryDate: null
+item_id: "27422"
+externalUrl: http://www.eli.org/sites/default/files/eli-pubs/watershed-approach-handbook-improving-outcomes-and-increasing-benefits-associated-wetland-and-stream\_0.pdf
 programArea: Natural Resources
-pubDate: 3/17/2015
+publishDate: 3/17/2015
 subCategory:
-- Watershed Management
+  - Watershed Management
 title: Watershed Approach Handbook
 ---
 

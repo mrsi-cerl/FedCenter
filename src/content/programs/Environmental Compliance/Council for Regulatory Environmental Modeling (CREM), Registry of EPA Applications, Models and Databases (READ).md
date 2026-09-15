@@ -1,10 +1,13 @@
 ---
-item_id: '28453'
+expiryDate: null
+item_id: "28453"
+externalUrl: http://ofmpub.epa.gov/sor\_internet/registry/systmreg/home/overview/home.do
 programArea: Environmental Compliance
-pubDate: 9/18/2015
+publishDate: 9/18/2015
 subCategory:
-- Databases and Software Tools
-title: Council for Regulatory Environmental Modeling (CREM), Registry of EPA Applications,
+  - Databases and Software Tools
+title:
+  Council for Regulatory Environmental Modeling (CREM), Registry of EPA Applications,
   Models and Databases (READ)
 ---
 

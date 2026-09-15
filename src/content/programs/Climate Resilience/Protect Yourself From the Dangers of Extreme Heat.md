@@ -1,10 +1,12 @@
 ---
-item_id: '18747'
+expiryDate: null
+item_id: "18747"
+externalUrl: https://www.cdc.gov/climate-health/php/resources/protect-yourself-from-the-dangers-of-extreme-heat.html#cdc\_generic\_section\_5-infographics-and-fact-sheets
 programArea: Climate Resilience
-pubDate: 7/5/2011
+publishDate: 7/5/2011
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Protect Yourself From the Dangers of Extreme Heat
 ---
 

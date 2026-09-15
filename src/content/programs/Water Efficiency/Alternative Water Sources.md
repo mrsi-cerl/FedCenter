@@ -1,9 +1,11 @@
 ---
-item_id: '28637'
+expiryDate: null
+item_id: "28637"
+externalUrl: http://energy.gov/eere/femp/alternative-water-sources-map
 programArea: Water Efficiency
-pubDate: 10/19/2015
+publishDate: 10/19/2015
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Alternative Water Sources
 ---
 

@@ -1,0 +1,58 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const energyPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Energy");
+});
+
+const pageTitle = "Energy";
+
+const energyAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "Federal Legislation and Policy" },
+      { title: "Executive Orders" },
+      { title: "Guidance Documents" },
+    ],
+  },
+  {
+    title: "Supporting Information and Tools",
+    children: [
+      { title: "Databases and Software Tools" },
+      { title: "Directories, Catalogs, and Newsletters" },
+      { title: "Libraries and Repositories" },
+      { title: "Organizations and Programs" },
+    ],
+  },
+  {
+    title: "Lessons Learned",
+    children: [
+      { title: "Award Winners" },
+      { title: "Alternative Energy" },
+      { title: "Case Studies" },
+      { title: "Data Centers" },
+      { title: "Energy Conservation" },
+    ],
+  },
+  { title: "Training, Presentations, and Briefings" },
+  { title: "Conferences and Events" },
+];
+---
+
+<ProgramPage
+  programAreas={energyAreas}
+  posts={energyPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The focus of the Energy program area is energy conservation, alternative
+    sources of energy, and energy management programs.
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

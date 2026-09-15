@@ -1,9 +1,11 @@
 ---
-item_id: '43308'
+expiryDate: null
+item_id: "43308"
+externalUrl: https://www.acquisition.gov/far-overhaul?utm\_medium=email&utm\_source=govdelivery
 programArea: Acquisition
-pubDate: 6/9/2025
+publishDate: 6/9/2025
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Revised Streamlined FAR Parts and Agency Deviations
 ---
 

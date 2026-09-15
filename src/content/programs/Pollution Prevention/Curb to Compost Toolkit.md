@@ -1,9 +1,11 @@
 ---
-item_id: '38942'
+expiryDate: null
+item_id: "38942"
+externalUrl: https://www.compostfoundation.org/c2c
 programArea: Pollution Prevention
-pubDate: 1/12/2022
+publishDate: 1/12/2022
 subCategory:
-- Waste Reduction
+  - Waste Reduction
 title: Curb to Compost Toolkit
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '34244'
+expiryDate: null
+item_id: "34244"
+externalUrl: https://www.epa.gov/smm/sustainable-materials-management-smm-web-academy-webinar-safe-packaging-and-transportation
 programArea: Pollution Prevention
-pubDate: 7/1/2019
+publishDate: 7/1/2019
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: EPA/DOT Lithium Battery Recycling Workshop (Webinar, self-paced)
 ---
 

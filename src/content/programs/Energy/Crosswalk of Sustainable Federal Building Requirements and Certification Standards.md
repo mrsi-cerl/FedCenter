@@ -1,9 +1,11 @@
 ---
-item_id: '40220'
+expiryDate: null
+item_id: "40220"
+externalUrl: http://www.gsa.gov/system/files/GSA Building Certification Crosswalk.xlsx
 programArea: Energy
-pubDate: 12/7/2022
+publishDate: 12/7/2022
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Crosswalk of Sustainable Federal Building Requirements and Certification Standards
 ---
 

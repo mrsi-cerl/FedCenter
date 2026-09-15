@@ -1,10 +1,13 @@
 ---
-item_id: '38843'
+expiryDate: null
+item_id: "38843"
+externalUrl: https://training.fema.gov/is/courseoverview.aspx?code=IS-553.a
 programArea: Environmental Compliance
-pubDate: 12/22/2021
+publishDate: 12/22/2021
 subCategory:
-- Training, Presentations, and Briefings
-title: FEMA's Coordination between Water Utilities and Emergency Management Agencies
+  - Training, Presentations, and Briefings
+title:
+  FEMA's Coordination between Water Utilities and Emergency Management Agencies
   (Web-based, On-Demand)
 ---
 

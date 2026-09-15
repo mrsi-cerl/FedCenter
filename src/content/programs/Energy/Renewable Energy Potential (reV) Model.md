@@ -1,9 +1,11 @@
 ---
-item_id: '41517'
+expiryDate: null
+item_id: "41517"
+externalUrl: http://www.nlr.gov/gis/rev
 programArea: Energy
-pubDate: 10/30/2023
+publishDate: 10/30/2023
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Renewable Energy Potential (reV) Model
 ---
 

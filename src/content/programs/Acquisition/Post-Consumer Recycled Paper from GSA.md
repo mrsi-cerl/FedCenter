@@ -1,9 +1,11 @@
 ---
-item_id: '14582'
+expiryDate: null
+item_id: "14582"
+externalUrl: http://www.gsaadvantage.gov/images/products/elib/pdf\_files/75.pdf
 programArea: Acquisition
-pubDate: 3/3/2010
+publishDate: 3/3/2010
 subCategory:
-- Purchasing Guides
+  - Purchasing Guides
 title: Post-Consumer Recycled Paper from GSA
 ---
 

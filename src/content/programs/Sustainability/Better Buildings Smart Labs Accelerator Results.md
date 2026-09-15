@@ -1,9 +1,11 @@
 ---
-item_id: '35813'
+expiryDate: null
+item_id: "35813"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/accelerators/smart-labs
 programArea: Sustainability
-pubDate: 8/7/2020
+publishDate: 8/7/2020
 subCategory:
-- Case Studies
+  - Case Studies
 title: Better Buildings Smart Labs Accelerator Results
 ---
 

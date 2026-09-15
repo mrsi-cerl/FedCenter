@@ -1,9 +1,11 @@
 ---
-item_id: '14577'
+expiryDate: null
+item_id: "14577"
+externalUrl: https://afdc.energy.gov/
 programArea: Transportation
-pubDate: 3/3/2010
+publishDate: 3/3/2010
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Alternative Fuels Data Center
 ---
 

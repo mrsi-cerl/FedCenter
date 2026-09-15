@@ -1,9 +1,11 @@
 ---
-item_id: '22492'
+expiryDate: null
+item_id: "22492"
+externalUrl: Emergencies\_and\_NEPA\_Memorandum\_12May2010.pdf
 programArea: NEPA
-pubDate: 11/5/2012
+publishDate: 11/5/2012
 subCategory:
-- CEQ
+  - CEQ
 title: Emergencies and the National Environmental Policy Act (NEPA)
 ---
 

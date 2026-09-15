@@ -1,9 +1,11 @@
 ---
-item_id: '40879'
+expiryDate: null
+item_id: "40879"
+externalUrl: https://www.geotab.com/fleet-management-solutions/evsa/
 programArea: Transportation
-pubDate: 5/24/2023
+publishDate: 5/24/2023
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Electric Vehicle Suitability Assessment Tool
 ---
 

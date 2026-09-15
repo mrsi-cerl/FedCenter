@@ -11,19 +11,21 @@ const currDate = new Date();
 // Removing duplicates requires more thought
 const allNewPosts = await getCollection("programPost", ({ data }) => {
   return (
-    Math.abs(currDate.getTime() - new Date(data.pubDate).getTime()) /
+    Math.abs(currDate.getTime() - new Date(data.publishDate).getTime()) /
       1000 /
       60 /
       60 /
       24 <=
-    200 //currently set to the past year for testing
+    30 //change this number for testing different days
   );
   // Complicated math that converts miliseconds into days
 });
 
 // convert the date object into a timestamp, and then filter those timestamps to unique ones
 const uniqueTimes = [
-  ...new Set(allNewPosts.map((post) => new Date(post.data.pubDate).getTime())),
+  ...new Set(
+    allNewPosts.map((post) => new Date(post.data.publishDate).getTime())
+  ),
 ];
 
 //sort them from most recent to oldest
@@ -62,7 +64,7 @@ const noRecent = uniqueDates.length == 0;
           {allNewPosts.map(
             // then render all the posts whose dates fit that day below
             (post) =>
-              new Date(post.data.pubDate).getTime() === date.getTime() && (
+              new Date(post.data.publishDate).getTime() === date.getTime() && (
                 <Collection post={post} showTags={true} />
               )
           )}

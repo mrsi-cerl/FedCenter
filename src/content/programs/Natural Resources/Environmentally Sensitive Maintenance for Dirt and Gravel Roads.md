@@ -1,9 +1,11 @@
 ---
-item_id: '29849'
+expiryDate: null
+item_id: "29849"
+externalUrl: https://www.epa.gov/polluted-runoff-nonpoint-source-pollution/environmentally-sensitive-maintenance-dirt-and-gravel
 programArea: Natural Resources
-pubDate: 6/22/2016
+publishDate: 6/22/2016
 subCategory:
-- Land Management
+  - Land Management
 title: Environmentally Sensitive Maintenance for Dirt and Gravel Roads
 ---
 

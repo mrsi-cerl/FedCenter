@@ -1,9 +1,11 @@
 ---
-item_id: '23692'
+expiryDate: null
+item_id: "23692"
+externalUrl: http://www.climate.gov/
 programArea: Climate Resilience
-pubDate: 6/10/2013
+publishDate: 6/10/2013
 subCategory:
-- Construction Design
+  - Construction Design
 title: Climate.gov
 ---
 

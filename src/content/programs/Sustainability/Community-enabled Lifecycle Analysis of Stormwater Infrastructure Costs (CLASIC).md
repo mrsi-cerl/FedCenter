@@ -1,9 +1,11 @@
 ---
-item_id: '36794'
+expiryDate: null
+item_id: "36794"
+externalUrl: https://clasic.erams.com/docs/?token=tZgUvIgi0v
 programArea: Sustainability
-pubDate: 4/26/2021
+publishDate: 4/26/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Community-enabled Lifecycle Analysis of Stormwater Infrastructure Costs (CLASIC)
 ---
 

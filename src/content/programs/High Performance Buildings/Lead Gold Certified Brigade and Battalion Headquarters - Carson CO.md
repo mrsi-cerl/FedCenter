@@ -1,10 +1,11 @@
 ---
-item_id: '24520'
+expiryDate: null
+item_id: "24520"
+externalUrl: ""
 programArea: High Performance Buildings
-pubDate: 9/19/2013
+publishDate: 9/19/2013
 subCategory:
-- Conferences and Events
-- High Perf Bldgs News
+  - Conferences and Events
 title: Lead Gold Certified Brigade and Battalion Headquarters - Carson CO
 ---
 

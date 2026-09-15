@@ -1,9 +1,11 @@
 ---
-item_id: '28411'
+expiryDate: null
+item_id: "28411"
+externalUrl: http://www.epa.gov/HPV/hpvis/index.html
 programArea: Chemical Management
-pubDate: 9/8/2015
+publishDate: 9/8/2015
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: High Production Volume (HPV) Information System
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '28164'
+expiryDate: null
+item_id: "28164"
+externalUrl: https://www.energy.gov/sites/prod/files/2015/07/f24/metering\_implementation\_template.pdf
 programArea: High Performance Buildings
-pubDate: 7/10/2015
+publishDate: 7/10/2015
 subCategory:
-- Guidance & Policy
+  - Guidance & Policy
 title: Federal Building Metering Implementation Plan Template
 ---
 

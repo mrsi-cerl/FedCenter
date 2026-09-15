@@ -1,9 +1,11 @@
 ---
-item_id: '3788'
+expiryDate: null
+item_id: "3788"
+externalUrl: http://www.ethanolrfa.org/
 programArea: Transportation
-pubDate: 1/4/2006
+publishDate: 1/4/2006
 subCategory:
-- Organizations
+  - Organizations
 title: Renewable Fuels Association (RFA)
 ---
 

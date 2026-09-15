@@ -1,9 +1,11 @@
 ---
-item_id: '42327'
+expiryDate: null
+item_id: "42327"
+externalUrl: www.epa.gov/chemicals-under-tsca/epa-issues-compliance-guide-methylene-chloride-risk-management-rule
 programArea: Environmental Compliance
-pubDate: 7/11/2024
+publishDate: 7/11/2024
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Compliance Guide for Methylene Chloride Risk Management Rule
 ---
 

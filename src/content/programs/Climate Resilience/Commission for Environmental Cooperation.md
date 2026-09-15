@@ -1,11 +1,12 @@
 ---
-item_id: '38443'
+expiryDate: null
+item_id: "38443"
+externalUrl: http://www.cec.org/
 programArea: Climate Resilience
-pubDate: 9/23/2021
+publishDate: 9/23/2021
 subCategory:
-- Construction Design
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: Commission for Environmental Cooperation
 ---
 

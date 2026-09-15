@@ -1,9 +1,11 @@
 ---
-item_id: '39775'
+expiryDate: null
+item_id: "39775"
+externalUrl: https://www.epa.gov/greenerproducts/buying-green-federal-purchasers
 programArea: Acquisition
-pubDate: 7/13/2022
+publishDate: 7/13/2022
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Buying Green for Federal Purchasers Website
 ---
 

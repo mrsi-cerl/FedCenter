@@ -1,9 +1,11 @@
 ---
-item_id: '8978'
+expiryDate: null
+item_id: "8978"
+externalUrl: NIH Green Procurement Handout for Purchasers FINAL 9-19-07.pdf
 programArea: Acquisition
-pubDate: 2/7/2008
+publishDate: 2/7/2008
 subCategory:
-- Purchasing Guides
+  - Purchasing Guides
 title: Greening the Supply Chain for the Biomedical Research Enterprise
 ---
 

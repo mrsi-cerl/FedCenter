@@ -1,9 +1,11 @@
 ---
-item_id: '40356'
+expiryDate: null
+item_id: "40356"
+externalUrl: http://www.plantconservationalliance.org/meetings
 programArea: Natural Resources
-pubDate: 1/6/2023
+publishDate: 1/6/2023
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Plant Conservation Alliance Meetings/Trainings (Web-based, Multiple Offerings)
 ---
 

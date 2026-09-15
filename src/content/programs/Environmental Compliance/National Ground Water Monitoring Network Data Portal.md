@@ -1,9 +1,11 @@
 ---
-item_id: '21888'
+expiryDate: null
+item_id: "21888"
+externalUrl: http://cida.usgs.gov/ngwmn/
 programArea: Environmental Compliance
-pubDate: 7/30/2012
+publishDate: 7/30/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: National Ground Water Monitoring Network Data Portal
 ---
 

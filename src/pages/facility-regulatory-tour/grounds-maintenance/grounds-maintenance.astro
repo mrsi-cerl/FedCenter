@@ -1,0 +1,85 @@
+---
+import FacilityTourArea from "@/layouts/FacilityTourArea.astro";
+import Card from "../../../components/Card.astro";
+
+const pageTitle = "Grounds Maintenance";
+const rootPath = "grounds-maintenance/";
+---
+
+<FacilityTourArea pageTitle={pageTitle} showBreadcrumb={true}>
+  <div class="usa-prose">
+    <p>
+      Grounds maintenance activities that commonly take place at federal
+      facilities include: landscaping, leaf and brush removal, pesticide and
+      fertilizer application, lawn trimming and lawn mowing maintenance,
+      composting, snow removal and debris cleanup.
+    </p>
+  </div>
+
+  <div class="mobile-lg:grid-col-4">
+    <h3 class="site-preview-heading margin-0">Focus Areas</h3>
+    <ul class="usa-list">
+      <li>
+        <a class="usa-link" href={rootPath + "erosion-control"}
+          >Erosion Control</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "pesticide-applicators"}
+          >Pesticide Applicators</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "pesticide-disposal"}
+          >Pesticide Disposal</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "pesticide-mixing-and-storage"}
+          >Pesticide Mixing and Storage</a
+        >
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "plant-waste"}>Plant Waste</a>
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "stormwater"}>Stormwater</a>
+      </li>
+      <li>
+        <a class="usa-link" href={rootPath + "wildlife-management"}
+          >Wildlife Management</a
+        >
+      </li>
+    </ul>
+  </div>
+  <h2>Focus Areas</h2>
+  <ul class="usa-card-group">
+    <Card
+      cardTitle="Agricultural Pesticides"
+      buttonTitle="Learn More"
+      link={rootPath + "agricultural-pesticides"}
+    >
+      <p>
+        The application of pesticides on any plant, or part thereof, or animal,
+        or animal product, produced by a person (including farmers, ranchers,
+        vineyardists, plant propogators, Christmas tree growers,
+        aquaculturalists, floriculturalists, orchardists, foresters, or other
+        comparable persons) primarily for sale, consumption, propagation, or
+        other use by man or animals.
+      </p>
+    </Card>
+    <Card
+      cardTitle="Landscaping"
+      buttonTitle="Learn More"
+      link={rootPath + "landscaping"}
+    >
+      <p>
+        The physical modification or ornamentation of the exterior environment
+        to serve the needs of people is the broad definition of landscaping.
+        This includes planting, altering the contours of the ground, and
+        building structures and amenities such as pedestrian ways, paths and
+        picnic areas.
+      </p>
+    </Card>
+  </ul>
+</FacilityTourArea>

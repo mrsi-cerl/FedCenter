@@ -1,10 +1,13 @@
 ---
-item_id: '20085'
+expiryDate: null
+item_id: "20085"
+externalUrl: https://www.osti.gov/biblio/1219362
 programArea: Energy
-pubDate: 12/19/2011
+publishDate: 12/19/2011
 subCategory:
-- ' Alternative Energy'
-title: Strategies and Decision Support Systems for Integrating Variable Energy Resources
+  - " Alternative Energy"
+title:
+  Strategies and Decision Support Systems for Integrating Variable Energy Resources
   in Control Centers for Reliable Grid Operations
 ---
 

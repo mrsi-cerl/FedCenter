@@ -1,9 +1,11 @@
 ---
-item_id: '42970'
+expiryDate: null
+item_id: "42970"
+externalUrl: Web-based, On Demand
 programArea: Water Efficiency
-pubDate: 2/24/2025
+publishDate: 2/24/2025
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Industrial Water Quality and Reuse (Web-based, On Demand)
 ---
 

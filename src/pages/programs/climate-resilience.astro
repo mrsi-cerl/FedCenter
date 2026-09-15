@@ -1,0 +1,65 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const climateResiliencePosts = await getCollection(
+  "programPost",
+  ({ data }) => {
+    return data.programArea.includes("Climate Resilience");
+  }
+);
+
+const pageTitle = "Climate Resilience";
+
+const climateResilienceAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "Federal" },
+      { title: "State" },
+      { title: "International" },
+      { title: "Agency-Specific Climate Change/Adaptation" },
+    ],
+  },
+
+  {
+    title: "Supporting Information and Tools",
+    children: [
+      { title: "Databases and Software Tools" },
+      { title: "Directories, Catalogs, and Newsletters" },
+      { title: "Libraries and Repositories" },
+      { title: "Organizations and Programs" },
+    ],
+  },
+
+  {
+    title: "Lessons Learned",
+    children: [
+      { title: "Award Winners" },
+      { title: "Case Studies" },
+      { title: "Coastal Zones" },
+      { title: "Water" },
+    ],
+  },
+
+  { title: "Training, Presentations, and Briefings" },
+  { title: "Conferences and Events" },
+];
+---
+
+<ProgramPage
+  programAreas={climateResilienceAreas}
+  posts={climateResiliencePosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Climate Resilience Program Area provides resources, tools, and lessons
+    learned for organizations working to adjust to a changing climate to
+    minimize negative effects and take advantage of new opportunities.
+  </p>
+  <p>
+    When future Executive Orders (EOs) and Implementing Instructions for those
+    EOs are released addressing federal facilities the text on this page will be
+    updated.
+  </p>
+</ProgramPage>

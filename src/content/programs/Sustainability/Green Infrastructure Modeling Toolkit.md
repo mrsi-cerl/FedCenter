@@ -1,9 +1,11 @@
 ---
-item_id: '30495'
+expiryDate: null
+item_id: "30495"
+externalUrl: https://www.epa.gov/water-research/green-infrastructure-modeling-toolkit
 programArea: Sustainability
-pubDate: 11/7/2016
+publishDate: 11/7/2016
 subCategory:
-- Infrastructure
+  - Infrastructure
 title: Green Infrastructure Modeling Toolkit
 ---
 

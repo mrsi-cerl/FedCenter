@@ -1,9 +1,11 @@
 ---
-item_id: '8221'
+expiryDate: null
+item_id: "8221"
+externalUrl: https://www.eia.gov/energyexplained/biomass/
 programArea: Energy
-pubDate: 9/11/2007
+publishDate: 9/11/2007
 subCategory:
-- ' Alternative Energy'
+  - " Alternative Energy"
 title: Biomass Energy
 ---
 

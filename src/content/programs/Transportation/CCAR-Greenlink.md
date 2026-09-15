@@ -1,9 +1,11 @@
 ---
-item_id: '798'
+expiryDate: null
+item_id: "798"
+externalUrl: http://www.ccar-greenlink.org/
 programArea: Transportation
-pubDate: 2/4/2005
+publishDate: 2/4/2005
 subCategory:
-- Organizations
+  - Organizations
 title: CCAR-Greenlink
 ---
 

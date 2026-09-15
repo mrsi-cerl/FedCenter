@@ -1,10 +1,13 @@
 ---
-item_id: '9982'
+expiryDate: null
+item_id: "9982"
+externalUrl: https://pubs.er.usgs.gov/publication/70182094
 programArea: Natural Resources
-pubDate: 6/24/2008
+publishDate: 6/24/2008
 subCategory:
-- Land Management
-title: Preliminary Review of Adaptation Options for Climate-Sensitive Ecosystems and
+  - Land Management
+title:
+  Preliminary Review of Adaptation Options for Climate-Sensitive Ecosystems and
   Resources
 ---
 

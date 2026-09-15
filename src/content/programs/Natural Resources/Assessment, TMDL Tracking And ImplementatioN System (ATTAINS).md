@@ -1,9 +1,11 @@
 ---
-item_id: '31788'
+expiryDate: null
+item_id: "31788"
+externalUrl: https://www.epa.gov/waterdata/assessment-and-total-maximum-daily-load-tracking-and-implementation-system-attains
 programArea: Natural Resources
-pubDate: 9/26/2017
+publishDate: 9/26/2017
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Assessment, TMDL Tracking And ImplementatioN System (ATTAINS)
 ---
 

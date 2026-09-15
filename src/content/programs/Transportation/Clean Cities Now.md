@@ -1,9 +1,11 @@
 ---
-item_id: '8146'
+expiryDate: null
+item_id: "8146"
+externalUrl: https://cleancities.energy.gov/newsletter/
 programArea: Transportation
-pubDate: 9/6/2007
+publishDate: 9/6/2007
 subCategory:
-- Directories, Catalogs, and Newsletters
+  - Directories, Catalogs, and Newsletters
 title: Clean Cities Now
 ---
 

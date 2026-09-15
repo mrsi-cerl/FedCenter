@@ -1,10 +1,12 @@
 ---
-item_id: '10124'
+expiryDate: null
+item_id: "10124"
+externalUrl: http://eere.energy.gov/afdc/stations/find\_station.php
 programArea: Transportation
-pubDate: 7/7/2008
+publishDate: 7/7/2008
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Alternative Fuels Online Station Locator
 ---
 
-DOE's site to aid in the location of alternative fueling stations.  Just specify which kind of fuel you want, then enter your address, and the locator will map out the closest stations that sell that fuel.
+DOE's site to aid in the location of alternative fueling stations. Just specify which kind of fuel you want, then enter your address, and the locator will map out the closest stations that sell that fuel.

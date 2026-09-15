@@ -1,9 +1,11 @@
 ---
-item_id: '31604'
+expiryDate: null
+item_id: "31604"
+externalUrl: https://www.epa.gov/rcra/resource-conservation-and-recovery-act-rcra-training-module-about-universal-waste
 programArea: Environmental Compliance
-pubDate: 8/3/2017
+publishDate: 8/3/2017
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: RCRA Training Module about Universal Waste (Web-based, On Demand)
 ---
 

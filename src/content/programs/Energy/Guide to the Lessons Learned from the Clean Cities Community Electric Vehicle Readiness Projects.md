@@ -1,10 +1,13 @@
 ---
-item_id: '25382'
+expiryDate: null
+item_id: "25382"
+externalUrl: http://www.c2es.org/document/guide-to-the-lessons-learned-from-the-clean-cities-community-electric-vehicle-readiness-projects/
 programArea: Energy
-pubDate: 3/4/2014
+publishDate: 3/4/2014
 subCategory:
-- Case Studies
-title: Guide to the Lessons Learned from the Clean Cities Community Electric Vehicle
+  - Case Studies
+title:
+  Guide to the Lessons Learned from the Clean Cities Community Electric Vehicle
   Readiness Projects
 ---
 

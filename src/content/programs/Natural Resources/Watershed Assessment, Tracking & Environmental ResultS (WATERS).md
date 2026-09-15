@@ -1,9 +1,11 @@
 ---
-item_id: '6555'
+expiryDate: null
+item_id: "6555"
+externalUrl: https://www.epa.gov/waterdata/waters-watershed-assessment-tracking-environmental-results-system
 programArea: Natural Resources
-pubDate: 2/7/2007
+publishDate: 2/7/2007
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Watershed Assessment, Tracking & Environmental ResultS (WATERS)
 ---
 

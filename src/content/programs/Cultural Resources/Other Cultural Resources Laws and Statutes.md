@@ -1,10 +1,12 @@
 ---
-item_id: '16320'
+expiryDate: null
+item_id: "16320"
+externalUrl: http://www.nps.gov/history/laws.htm
 programArea: Cultural Resources
-pubDate: 9/28/2010
+publishDate: 9/28/2010
 subCategory:
-- National Laws and Statutes
+  - National Laws and Statutes
 title: Other Cultural Resources Laws and Statutes
 ---
 
-There are an enormous number of Federal laws and statutes pertaining to cultural resources.  The best source of that information is the National Park Service.
+There are an enormous number of Federal laws and statutes pertaining to cultural resources. The best source of that information is the National Park Service.

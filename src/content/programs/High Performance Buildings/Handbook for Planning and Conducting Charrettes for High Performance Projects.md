@@ -1,9 +1,11 @@
 ---
-item_id: '8346'
+expiryDate: null
+item_id: "8346"
+externalUrl: https://www1.eere.energy.gov/buildings/publications/pdfs/commercial\_initiative/33425rep.pdf
 programArea: High Performance Buildings
-pubDate: 9/25/2007
+publishDate: 9/25/2007
 subCategory:
-- Planning
+  - Planning
 title: Handbook for Planning and Conducting Charrettes for High Performance Projects
 ---
 

@@ -13,7 +13,7 @@ const allAnnouncements = await getCollection("announcements", ({ data }) => {
 
 //sort our announcements by date, recent to oldest, and then get the most recent 3
 const recentThreeAnouncements = allAnnouncements
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()) // a - b for oldest to most recent
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()) // a - b for oldest to most recent
   .slice(0, 3);
 ---
 
@@ -29,7 +29,7 @@ const recentThreeAnouncements = allAnnouncements
     </div>
     <ul class="usa-card-group">
       <Card
-        cardTitle="What's New"
+        cardTitle="What's New in Our Program Areas"
         buttonTitle="Find Out"
         media=`${import.meta.env.BASE_URL}woman-alone-nature-using-digital-tablet-with-entertainment-application-screen-internet-c.jpg`
         size="4"

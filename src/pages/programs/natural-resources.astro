@@ -1,0 +1,61 @@
+---
+import { getCollection } from "astro:content";
+import ProgramPage from "../../layouts/ProgramPage.astro";
+
+const naturalResourcesPosts = await getCollection("programPost", ({ data }) => {
+  return data.programArea.includes("Natural Resources");
+});
+
+const pageTitle = "Natural Resources";
+
+const naturalResourcesAreas = [
+  {
+    title: "Regulations, Guidance, and Policy",
+    children: [
+      { title: "General" },
+      { title: "Land Management" },
+      { title: "Species Management" },
+      { title: "Water Resources" },
+      { title: "Wetlands Management" },
+    ],
+  },
+  {
+    title: "Supporting Information and Tools",
+    children: [
+      { title: "Databases and Software Tools" },
+      { title: "Directories, Catalogs, and Newsletters" },
+      { title: "Libraries and Repositories" },
+      { title: "Organizations" },
+    ],
+  },
+  {
+    title: "Lessons Learned",
+    children: [
+      { title: "Award Winners" },
+      { title: "Coastal Zones" },
+      { title: "Endangered/Threatened Species" },
+      { title: "Land Management" },
+      //   TODO: Why is this starting expanded?
+      { title: "Water Conservation" },
+      { title: "Watershed Management" },
+      { title: "Wetlands" },
+      { title: "Wildlife Management" },
+    ],
+  },
+  { title: "Training, Presentations, and Briefings" },
+  { title: "Conferences and Events" },
+];
+---
+
+<ProgramPage
+  programAreas={naturalResourcesAreas}
+  posts={naturalResourcesPosts}
+  pageTitle={pageTitle}
+>
+  <p>
+    The Natural Resources Program Area includes the latest guidance, examples,
+    and information resources to aid Federal facilities in managing endangered
+    or threatened species, wetlands, erosion control, habitat development,
+    native landscaping, and wildlife in general.
+  </p>
+</ProgramPage>

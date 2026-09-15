@@ -1,9 +1,11 @@
 ---
-item_id: '10484'
+expiryDate: null
+item_id: "10484"
+externalUrl: https://www.energy.gov/scep/office-state-and-community-energy-programs
 programArea: Energy
-pubDate: 8/12/2008
+publishDate: 8/12/2008
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: Office of State and Community Energy Programs
 ---
 

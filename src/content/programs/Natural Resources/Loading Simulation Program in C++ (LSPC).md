@@ -1,9 +1,11 @@
 ---
-item_id: '22580'
+expiryDate: null
+item_id: "22580"
+externalUrl: https://catalog.data.gov/dataset/loading-simulation-program-c
 programArea: Natural Resources
-pubDate: 11/19/2012
+publishDate: 11/19/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Loading Simulation Program in C++ (LSPC)
 ---
 

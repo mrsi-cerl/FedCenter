@@ -1,9 +1,11 @@
 ---
-item_id: '711'
+expiryDate: null
+item_id: "711"
+externalUrl: http://www.gpo.gov/fdsys/pkg/USCODE-2010-title42/html/USCODE-2010-title42-chap116.htm
 programArea: Chemical Management
-pubDate: 1/31/2005
+publishDate: 1/31/2005
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: Emergency Planning & Community Right to Know Act
 ---
 

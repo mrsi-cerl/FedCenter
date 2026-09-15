@@ -1,9 +1,11 @@
 ---
-item_id: '35536'
+expiryDate: null
+item_id: "35536"
+externalUrl: https://www.unenvironment.org/explore-topics/resource-efficiency/what-we-do/sustainable-public-procurement
 programArea: Acquisition
-pubDate: 6/4/2020
+publishDate: 6/4/2020
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: United Nations' Environmental Programme Sustainable Public Procurement
 ---
 

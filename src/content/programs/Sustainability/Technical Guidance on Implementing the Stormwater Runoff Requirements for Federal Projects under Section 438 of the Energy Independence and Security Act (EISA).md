@@ -1,10 +1,13 @@
 ---
-item_id: '14130'
+expiryDate: null
+item_id: "14130"
+externalUrl: https://www.epa.gov/sites/default/files/2015-08/documents/epa\_swm\_guidance.pdf
 programArea: Sustainability
-pubDate: 12/9/2009
+publishDate: 12/9/2009
 subCategory:
-- Infrastructure
-title: Technical Guidance on Implementing the Stormwater Runoff Requirements for Federal
+  - Infrastructure
+title:
+  Technical Guidance on Implementing the Stormwater Runoff Requirements for Federal
   Projects under Section 438 of the Energy Independence and Security Act (EISA)
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '36643'
+expiryDate: null
+item_id: "36643"
+externalUrl: https://betterbuildingssolutioncenter.energy.gov/wastewater-energy-management-toolkit
 programArea: Energy
-pubDate: 3/18/2021
+publishDate: 3/18/2021
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Wastewater Energy Management Toolkit
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '3938'
+expiryDate: null
+item_id: "3938"
+externalUrl: https://www.wbdg.org/ffc/gsa/criteria/gsa-leed-applications-guide
 programArea: High Performance Buildings
-pubDate: 1/13/2006
+publishDate: 1/13/2006
 subCategory:
-- Construction Guidelines and Criteria
+  - Construction Guidelines and Criteria
 title: GSA LEED Application Guide
 ---
 

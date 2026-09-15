@@ -1,10 +1,13 @@
 ---
-item_id: '3986'
+expiryDate: null
+item_id: "3986"
+externalUrl: https://www.udall.gov/OurPrograms/Institute/FindMediatorFacilitator.aspx
 programArea: Environmental Compliance
-pubDate: 1/18/2006
+publishDate: 1/18/2006
 subCategory:
-- Databases and Software Tools
-title: National Roster of Environmental Conflict Resolution and Consensus Building
+  - Databases and Software Tools
+title:
+  National Roster of Environmental Conflict Resolution and Consensus Building
   Professionals
 ---
 

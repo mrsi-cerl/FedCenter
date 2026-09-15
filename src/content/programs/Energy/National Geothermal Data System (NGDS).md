@@ -1,9 +1,11 @@
 ---
-item_id: '32899'
+expiryDate: null
+item_id: "32899"
+externalUrl: http://data.geothermaldata.org/
 programArea: Energy
-pubDate: 8/1/2018
+publishDate: 8/1/2018
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: National Geothermal Data System (NGDS)
 ---
 

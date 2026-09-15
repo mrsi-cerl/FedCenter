@@ -1,9 +1,11 @@
 ---
-item_id: '30915'
+expiryDate: null
+item_id: "30915"
+externalUrl: https://www.epa.gov/green-infrastructure/green-infrastructure-soak-rain-webinars
 programArea: Sustainability
-pubDate: 3/1/2017
+publishDate: 3/1/2017
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: EPA's Green Infrastructure Webcast Series (Web-based, On Demand)
 ---
 

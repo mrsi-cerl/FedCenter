@@ -1,9 +1,11 @@
 ---
-item_id: '1138'
+expiryDate: null
+item_id: "1138"
+externalUrl: http://www.edf.org/papercalculator/
 programArea: Pollution Prevention
-pubDate: 3/25/2005
+publishDate: 3/25/2005
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Paper Calculator
 ---
 

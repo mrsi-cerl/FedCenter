@@ -1,9 +1,11 @@
 ---
-item_id: '36580'
+expiryDate: null
+item_id: "36580"
+externalUrl: https://highways.dot.gov/federal-lands/programs/transportation
 programArea: Transportation
-pubDate: 3/3/2021
+publishDate: 3/3/2021
 subCategory:
-- Guidance
+  - Guidance
 title: Federal Lands Transportation Program
 ---
 

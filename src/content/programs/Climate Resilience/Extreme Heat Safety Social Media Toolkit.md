@@ -1,10 +1,12 @@
 ---
-item_id: '42743'
+expiryDate: null
+item_id: "42743"
+externalUrl: https://www.ready.gov/extreme-heat-safety-social-media-toolkit
 programArea: Climate Resilience
-pubDate: 12/10/2024
+publishDate: 12/10/2024
 subCategory:
-- Construction Design
-- Databases and Software Tools
+  - Construction Design
+  - Databases and Software Tools
 title: Extreme Heat Safety Social Media Toolkit
 ---
 

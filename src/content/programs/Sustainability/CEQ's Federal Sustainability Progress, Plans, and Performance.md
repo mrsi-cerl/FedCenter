@@ -1,9 +1,11 @@
 ---
-item_id: '36213'
+expiryDate: null
+item_id: "36213"
+externalUrl: https://www.sustainability.gov/performance.html
 programArea: Sustainability
-pubDate: 11/30/2020
+publishDate: 11/30/2020
 subCategory:
-- Federal Facilities
+  - Federal Facilities
 title: CEQ's Federal Sustainability Progress, Plans, and Performance
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '1899'
+expiryDate: null
+item_id: "1899"
+externalUrl: https://www.energystar.gov/products?s=mega
 programArea: Acquisition
-pubDate: 6/24/2005
+publishDate: 6/24/2005
 subCategory:
-- Contract and Procurement Language
+  - Contract and Procurement Language
 title: Energy Efficient Products
 ---
 

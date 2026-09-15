@@ -1,9 +1,11 @@
 ---
-item_id: '41027'
+expiryDate: null
+item_id: "41027"
+externalUrl: https://globalelectronicscouncil.org/updated-epeat-criteria/climate-criteria/
 programArea: Climate Resilience
-pubDate: 6/15/2023
+publishDate: 6/15/2023
 subCategory:
-- Construction Design
+  - Construction Design
 title: New Climate Criteria to Reduce Greenhouse Gas Emissions of Electronics
 ---
 

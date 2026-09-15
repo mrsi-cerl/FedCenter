@@ -1,9 +1,11 @@
 ---
-item_id: '33778'
+expiryDate: null
+item_id: "33778"
+externalUrl: https://www.acc.com/resource-library/purchasers-guide-sustainability-and-cloud-service-procurements
 programArea: Electronics Stewardship
-pubDate: 3/25/2019
+publishDate: 3/25/2019
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Purchasers Guide for Sustainability and Cloud-Service Procurements
 ---
 

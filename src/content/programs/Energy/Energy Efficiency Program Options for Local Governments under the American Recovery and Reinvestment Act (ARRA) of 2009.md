@@ -1,10 +1,13 @@
 ---
-item_id: '14274'
+expiryDate: null
+item_id: "14274"
+externalUrl: http://aceee.org/research-report/e09x
 programArea: Energy
-pubDate: 12/30/2009
+publishDate: 12/30/2009
 subCategory:
-- Case Studies
-title: Energy Efficiency Program Options for Local Governments under the American
+  - Case Studies
+title:
+  Energy Efficiency Program Options for Local Governments under the American
   Recovery and Reinvestment Act (ARRA) of 2009
 ---
 

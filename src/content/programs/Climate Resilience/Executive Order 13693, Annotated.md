@@ -1,10 +1,12 @@
 ---
-item_id: '28643'
+expiryDate: null
+item_id: "28643"
+externalUrl: https://sftool.gov/learn/annotation/447/executive-order-13693-planning-federal-sustainability-decade
 programArea: Climate Resilience
-pubDate: 10/20/2015
+publishDate: 10/20/2015
 subCategory:
-- Construction Design
-- Federal
+  - Construction Design
+  - Federal
 title: Executive Order 13693, Annotated
 ---
 

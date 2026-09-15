@@ -1,9 +1,11 @@
 ---
-item_id: '13383'
+expiryDate: null
+item_id: "13383"
+externalUrl: https://www.environment.fhwa.dot.gov/about/topic\_list.aspx
 programArea: Transportation
-pubDate: 8/27/2009
+publishDate: 8/27/2009
 subCategory:
-- Fleet Management
+  - Fleet Management
 title: Environmental Review Toolkit
 ---
 

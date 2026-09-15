@@ -1,9 +1,11 @@
 ---
-item_id: '41028'
+expiryDate: null
+item_id: "41028"
+externalUrl: https://globalelectronicscouncil.org/
 programArea: Electronics Stewardship
-pubDate: 6/15/2023
+publishDate: 6/15/2023
 subCategory:
-- Organizations
+  - Organizations
 title: Global Electronics Council (GEC)
 ---
 

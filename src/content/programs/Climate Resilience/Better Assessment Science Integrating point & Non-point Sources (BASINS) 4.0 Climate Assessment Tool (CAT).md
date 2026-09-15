@@ -1,11 +1,14 @@
 ---
-item_id: '22197'
+expiryDate: null
+item_id: "22197"
+externalUrl: http://cfpub.epa.gov/ncea/global/recordisplay.cfm?deid=203460
 programArea: Climate Resilience
-pubDate: 9/10/2012
+publishDate: 9/10/2012
 subCategory:
-- Construction Design
-- Databases and Software Tools
-title: Better Assessment Science Integrating point & Non-point Sources (BASINS) 4.0
+  - Construction Design
+  - Databases and Software Tools
+title:
+  Better Assessment Science Integrating point & Non-point Sources (BASINS) 4.0
   Climate Assessment Tool (CAT)
 ---
 

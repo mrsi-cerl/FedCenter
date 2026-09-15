@@ -1,9 +1,11 @@
 ---
-item_id: '43305'
+expiryDate: null
+item_id: "43305"
+externalUrl: https://www.gsa.gov/governmentwide-initiatives/federal-highperformance-buildings/highperformance-building-clearinghouse?utm\_medium=email&utm\_source=govDelivery
 programArea: Acquisition
-pubDate: 6/6/2025
+publishDate: 6/6/2025
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: GSA High Performance Building Clearinghouse for Sustainability
 ---
 

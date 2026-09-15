@@ -1,9 +1,11 @@
 ---
-item_id: '22387'
+expiryDate: null
+item_id: "22387"
+externalUrl: https://tdb.epa.gov/tdb/home
 programArea: Environmental Compliance
-pubDate: 10/9/2012
+publishDate: 10/9/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Drinking Water Treatability Database
 ---
 

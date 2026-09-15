@@ -1,9 +1,11 @@
 ---
-item_id: '29473'
+expiryDate: null
+item_id: "29473"
+externalUrl: http://westcoastclimateforum.com/cfpt
 programArea: Acquisition
-pubDate: 5/5/2016
+publishDate: 5/5/2016
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: Climate Friendly Purchasing Toolkit
 ---
 

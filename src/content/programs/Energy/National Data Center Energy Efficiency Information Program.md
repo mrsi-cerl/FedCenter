@@ -1,9 +1,11 @@
 ---
-item_id: '9862'
+expiryDate: null
+item_id: "9862"
+externalUrl: https://www1.eere.energy.gov/manufacturing/datacenters/pdfs/national\_data\_center\_fact\_sheet\_abbrev.pdf
 programArea: Energy
-pubDate: 6/11/2008
+publishDate: 6/11/2008
 subCategory:
-- Organizations and Programs
+  - Organizations and Programs
 title: National Data Center Energy Efficiency Information Program
 ---
 

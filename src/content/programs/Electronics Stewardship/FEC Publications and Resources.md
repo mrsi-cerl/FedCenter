@@ -1,9 +1,11 @@
 ---
-item_id: '27743'
+expiryDate: null
+item_id: "27743"
+externalUrl: https://www.epa.gov/fec/publications-and-resources
 programArea: Electronics Stewardship
-pubDate: 5/8/2015
+publishDate: 5/8/2015
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: FEC Publications and Resources
 ---
 

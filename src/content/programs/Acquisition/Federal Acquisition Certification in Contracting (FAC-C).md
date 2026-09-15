@@ -1,9 +1,11 @@
 ---
-item_id: '40454'
+expiryDate: null
+item_id: "40454"
+externalUrl: https://www.fai.gov/certification/fac-c/new-fac-c-professional
 programArea: Acquisition
-pubDate: 2/1/2023
+publishDate: 2/1/2023
 subCategory:
-- Guidance
+  - Guidance
 title: Federal Acquisition Certification in Contracting (FAC-C)
 ---
 

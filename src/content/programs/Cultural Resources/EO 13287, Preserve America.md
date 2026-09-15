@@ -1,9 +1,11 @@
 ---
-item_id: '15485'
+expiryDate: null
+item_id: "15485"
+externalUrl: https://www.govinfo.gov/content/pkg/WCPD-2003-03-10/pdf/WCPD-2003-03-10-Pg286.pdf
 programArea: Cultural Resources
-pubDate: 7/26/2010
+publishDate: 7/26/2010
 subCategory:
-- National Executive Orders
+  - National Executive Orders
 title: EO 13287, Preserve America
 ---
 

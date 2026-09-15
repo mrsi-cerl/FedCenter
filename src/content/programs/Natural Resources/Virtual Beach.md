@@ -1,9 +1,11 @@
 ---
-item_id: '22386'
+expiryDate: null
+item_id: "22386"
+externalUrl: https://www.epa.gov/ceam/virtual-beach-vb
 programArea: Natural Resources
-pubDate: 10/9/2012
+publishDate: 10/9/2012
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Virtual Beach
 ---
 

@@ -1,0 +1,114 @@
+---
+const urlArray = Astro.url.pathname.split("/");
+const docId = urlArray[urlArray.length - 1].trim();
+---
+
+<script define:vars={{ docId }}>
+  //when the page loads, make whatever page you're on be the current page in the sidebar
+  window.onload = function () {
+    document.getElementById(docId)?.classList.add("usa-current");
+  };
+</script>
+
+<div class="margin-right-4">
+  <nav aria-label="Side navigation">
+    <p class="font-sans-lg text-light">Facility Tour Areas</p>
+    <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <a
+          id="acquisition"
+          href=`${import.meta.env.BASE_URL}programs/acquisition`
+          >Air Emission Sources</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="chemical-management"
+          href=`${import.meta.env.BASE_URL}programs/chemical-management`
+          >Cleanup Sites</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a id="cleanup" href=`${import.meta.env.BASE_URL}programs/cleanup`
+          >Construction Zones</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a id="pfas" href=`${import.meta.env.BASE_URL}programs/pfas`
+          >Drinking Water Treatment</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="climate-resilience"
+          href=`${import.meta.env.BASE_URL}programs/climate-resilience`
+          >Facility Infrastructure</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="cultural-resources"
+          href=`${import.meta.env.BASE_URL}programs/cultural-resources`
+          >Grounds Maintenance</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="high-performance-buildings"
+          href=`${import.meta.env.BASE_URL}programs/high-performance-buildings`
+          >Hazardous Waste Storage</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="electronics-stewardship"
+          href=`${import.meta.env.BASE_URL}programs/electronics-stewardship`
+          >Laboratories</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="greenhouse-gases"
+          href=`${import.meta.env.BASE_URL}programs/greenhouse-gases`
+          >Landfills</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a id="ems" href=`${import.meta.env.BASE_URL}programs/ems`
+          >Medical Facilities</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a id="nepa" href=`${import.meta.env.BASE_URL}programs/nepa`
+          >Ports and Harbors</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="natural-resources"
+          href=`${import.meta.env.BASE_URL}programs/natural-resources`
+          >Solid Waste Storage</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a id="energy" href=`${import.meta.env.BASE_URL}programs/energy`
+          >Storage Tanks</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="env-compliance"
+          href=`${import.meta.env.BASE_URL}programs/env-compliance`
+          >Vehicle Maintenance</a
+        >
+      </li>
+      <li class="usa-sidenav__item">
+        <a
+          id="pollution-prevention"
+          href=`${import.meta.env.BASE_URL}programs/pollution-prevention`
+          >Wastewater Treatment Facilities</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>

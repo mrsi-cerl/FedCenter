@@ -1,9 +1,11 @@
 ---
-item_id: '32872'
+expiryDate: null
+item_id: "32872"
+externalUrl: https://www.epa.gov/sites/production/files/2014-10/documents/green-infrastructure.pdf
 programArea: Sustainability
-pubDate: 7/23/2018
+publishDate: 7/23/2018
 subCategory:
-- Case Studies
+  - Case Studies
 title: Enhancing Sustainable Communities with Green Infrastructure
 ---
 

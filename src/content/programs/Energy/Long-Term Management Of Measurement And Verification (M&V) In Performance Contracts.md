@@ -1,9 +1,11 @@
 ---
-item_id: '24703'
+expiryDate: null
+item_id: "24703"
+externalUrl: http://www.wbdg.org/ce/doe/femp/fempodw112
 programArea: Energy
-pubDate: 10/23/2013
+publishDate: 10/23/2013
 subCategory:
-- Training, Presentations, and Briefings
+  - Training, Presentations, and Briefings
 title: Long-Term Management Of Measurement And Verification (M&V) In Performance Contracts
 ---
 

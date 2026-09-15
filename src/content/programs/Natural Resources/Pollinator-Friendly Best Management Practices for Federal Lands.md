@@ -1,9 +1,11 @@
 ---
-item_id: '27793'
+expiryDate: null
+item_id: "27793"
+externalUrl: https://www.fs.usda.gov/wildflowers/pollinators/BMPs/index.shtml
 programArea: Natural Resources
-pubDate: 5/19/2015
+publishDate: 5/19/2015
 subCategory:
-- Species Management
+  - Species Management
 title: Pollinator-Friendly Best Management Practices for Federal Lands
 ---
 

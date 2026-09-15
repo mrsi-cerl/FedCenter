@@ -1,9 +1,11 @@
 ---
-item_id: '3467'
+expiryDate: null
+item_id: "3467"
+externalUrl: https://www.fao.org/collaborative-partnership-on-forests/en
 programArea: Natural Resources
-pubDate: 11/21/2005
+publishDate: 11/21/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Collaborative Partnership on Forests (CPF)
 ---
 

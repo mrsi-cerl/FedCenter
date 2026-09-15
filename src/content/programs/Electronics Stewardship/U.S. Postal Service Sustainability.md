@@ -1,9 +1,11 @@
 ---
-item_id: '27766'
+expiryDate: null
+item_id: "27766"
+externalUrl: http://about.usps.com/what/corporate-social-responsibility/sustainability/
 programArea: Electronics Stewardship
-pubDate: 5/13/2015
+publishDate: 5/13/2015
 subCategory:
-- Disposal
+  - Disposal
 title: U.S. Postal Service Sustainability
 ---
 

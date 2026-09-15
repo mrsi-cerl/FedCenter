@@ -1,9 +1,11 @@
 ---
-item_id: '25002'
+expiryDate: null
+item_id: "25002"
+externalUrl: https://comptox.epa.gov/dashboard
 programArea: Chemical Management
-pubDate: 12/18/2013
+publishDate: 12/18/2013
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: CompTox Chemicals Dashboard
 ---
 

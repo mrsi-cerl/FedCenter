@@ -1,9 +1,11 @@
 ---
-item_id: '23370'
+expiryDate: null
+item_id: "23370"
+externalUrl: https://www.epa.gov/cwsrf/clean-water-state-revolving-fund-cwsrf-reports
 programArea: Sustainability
-pubDate: 5/7/2013
+publishDate: 5/7/2013
 subCategory:
-- Infrastructure
+  - Infrastructure
 title: Sustainability and The Clean Water State Revolving Fund A Best Practices Guide
 ---
 

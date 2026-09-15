@@ -1,9 +1,11 @@
 ---
-item_id: '30257'
+expiryDate: null
+item_id: "30257"
+externalUrl: Section 6002 (CPG).pdf
 programArea: Acquisition
-pubDate: 9/6/2016
+publishDate: 9/6/2016
 subCategory:
-- Laws, Regulations, and Agreements
+  - Laws, Regulations, and Agreements
 title: RCRA Section 6002
 ---
 

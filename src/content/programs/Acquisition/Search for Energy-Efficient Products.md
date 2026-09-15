@@ -1,9 +1,11 @@
 ---
-item_id: '32467'
+expiryDate: null
+item_id: "32467"
+externalUrl: https://www.energy.gov/eere/femp/search-energy-efficient-products
 programArea: Acquisition
-pubDate: 4/5/2018
+publishDate: 4/5/2018
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Search for Energy-Efficient Products
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '1069'
+expiryDate: null
+item_id: "1069"
+externalUrl: https://www.epa.gov/toxics-release-inventory-tri-program/tri-listed-chemicals
 programArea: Chemical Management
-pubDate: 3/21/2005
+publishDate: 3/21/2005
 subCategory:
-- Libraries and Repositories
+  - Libraries and Repositories
 title: TRI Chemical Lists
 ---
 

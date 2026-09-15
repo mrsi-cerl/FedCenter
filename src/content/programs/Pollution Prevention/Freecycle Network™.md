@@ -1,9 +1,11 @@
 ---
-item_id: '1549'
+expiryDate: null
+item_id: "1549"
+externalUrl: http://www.freecycle.org/
 programArea: Pollution Prevention
-pubDate: 4/27/2005
+publishDate: 4/27/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Freecycle Network™
 ---
 

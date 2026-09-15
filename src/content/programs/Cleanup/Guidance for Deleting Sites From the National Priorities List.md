@@ -1,9 +1,11 @@
 ---
-item_id: '20384'
+expiryDate: null
+item_id: "20384"
+externalUrl: https://www.epa.gov/superfund/superfund-npl-deletion-guidance-and-policy
 programArea: Cleanup
-pubDate: 2/8/2012
+publishDate: 2/8/2012
 subCategory:
-- NPL
+  - NPL
 title: Guidance for Deleting Sites From the National Priorities List
 ---
 

@@ -1,9 +1,11 @@
 ---
-item_id: '4876'
+expiryDate: null
+item_id: "4876"
+externalUrl: https://www.epa.gov/national-aquatic-resource-surveys/wadeable-streams-assessment
 programArea: Natural Resources
-pubDate: 5/9/2006
+publishDate: 5/9/2006
 subCategory:
-- Watershed Management
+  - Watershed Management
 title: Wadeable Streams Assessment (WSA)
 ---
 

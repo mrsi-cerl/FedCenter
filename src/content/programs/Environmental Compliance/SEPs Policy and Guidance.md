@@ -1,9 +1,11 @@
 ---
-item_id: '1625'
+expiryDate: null
+item_id: "1625"
+externalUrl: http://www.epa.gov/enforcement/supplemental-environmental-projects-seps
 programArea: Environmental Compliance
-pubDate: 5/9/2005
+publishDate: 5/9/2005
 subCategory:
-- Enforcement
+  - Enforcement
 title: SEPs Policy and Guidance
 ---
 

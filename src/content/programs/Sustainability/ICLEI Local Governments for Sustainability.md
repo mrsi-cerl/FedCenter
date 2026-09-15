@@ -1,9 +1,11 @@
 ---
-item_id: '834'
+expiryDate: null
+item_id: "834"
+externalUrl: http://www.iclei.org/
 programArea: Sustainability
-pubDate: 2/9/2005
+publishDate: 2/9/2005
 subCategory:
-- Organizations
+  - Organizations
 title: ICLEI Local Governments for Sustainability
 ---
 

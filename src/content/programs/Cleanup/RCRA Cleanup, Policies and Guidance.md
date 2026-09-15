@@ -1,9 +1,11 @@
 ---
-item_id: '3686'
+expiryDate: null
+item_id: "3686"
+externalUrl: http://cfpub.epa.gov/compliance/resources/policies/cleanup/rcra/index.cfm?CAT\_ID=&SUB\_ID=102&templatePage=6&title=RCRA%20Cleanup
 programArea: Cleanup
-pubDate: 12/19/2005
+publishDate: 12/19/2005
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: RCRA Cleanup, Policies and Guidance
 ---
 

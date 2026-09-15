@@ -1,9 +1,11 @@
 ---
-item_id: '29036'
+expiryDate: null
+item_id: "29036"
+externalUrl: http://betterbuildingssolutioncenter.energy.gov/
 programArea: Energy
-pubDate: 1/22/2016
+publishDate: 1/22/2016
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: Better Buildings Solutions Center
 ---
 

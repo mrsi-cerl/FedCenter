@@ -1,9 +1,11 @@
 ---
-item_id: '33438'
+expiryDate: null
+item_id: "33438"
+externalUrl: https://www.epa.gov/enforcement/enforcing-lead-laws-and-regulations
 programArea: Environmental Compliance
-pubDate: 1/8/2019
+publishDate: 1/8/2019
 subCategory:
-- Enforcement
+  - Enforcement
 title: Enforcing Lead Laws and Regulations
 ---
 

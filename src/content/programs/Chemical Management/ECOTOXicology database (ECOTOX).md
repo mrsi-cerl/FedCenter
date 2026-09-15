@@ -1,9 +1,11 @@
 ---
-item_id: '8469'
+expiryDate: null
+item_id: "8469"
+externalUrl: http://cfpub.epa.gov/ecotox/
 programArea: Chemical Management
-pubDate: 10/17/2007
+publishDate: 10/17/2007
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: ECOTOXicology database (ECOTOX)
 ---
 

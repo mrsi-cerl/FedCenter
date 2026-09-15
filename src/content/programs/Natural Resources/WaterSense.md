@@ -1,9 +1,11 @@
 ---
-item_id: '6230'
+expiryDate: null
+item_id: "6230"
+externalUrl: http://www.epa.gov/watersense/
 programArea: Natural Resources
-pubDate: 12/5/2006
+publishDate: 12/5/2006
 subCategory:
-- Water Conservation
+  - <A name=watercons></A>Water Conservation
 title: WaterSense
 ---
 

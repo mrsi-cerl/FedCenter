@@ -1,9 +1,11 @@
 ---
-item_id: '18678'
+expiryDate: null
+item_id: "18678"
+externalUrl: http://www.urbanwaters.gov/
 programArea: Natural Resources
-pubDate: 6/27/2011
+publishDate: 6/27/2011
 subCategory:
-- Organizations
+  - Organizations
 title: Urban Waters Federal Partnership (UWFP)
 ---
 

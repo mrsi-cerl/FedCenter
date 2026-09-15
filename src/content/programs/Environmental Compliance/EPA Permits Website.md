@@ -1,9 +1,11 @@
 ---
-item_id: '41994'
+expiryDate: null
+item_id: "41994"
+externalUrl: https://www.epa.gov/permits
 programArea: Environmental Compliance
-pubDate: 4/3/2024
+publishDate: 4/3/2024
 subCategory:
-- Databases and Software Tools
+  - Databases and Software Tools
 title: EPA Permits Website
 ---
 

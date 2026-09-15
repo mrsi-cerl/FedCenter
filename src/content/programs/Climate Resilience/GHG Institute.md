@@ -1,10 +1,12 @@
 ---
-item_id: '18172'
+expiryDate: null
+item_id: "18172"
+externalUrl: http://ghginstitute.org/
 programArea: Climate Resilience
-pubDate: 6/2/2011
+publishDate: 6/2/2011
 subCategory:
-- Construction Design
-- Organizations and Programs
+  - Construction Design
+  - Organizations and Programs
 title: GHG Institute
 ---
 

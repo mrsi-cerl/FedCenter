@@ -1,10 +1,12 @@
 ---
-item_id: '18258'
+expiryDate: null
+item_id: "18258"
+externalUrl: alUrlalUrlalUrlalUrlhttp://www.epa.gov/watersense/
 programArea: Water Efficiency
-pubDate: 6/10/2011
+publishDate: 6/10/2011
 subCategory:
-- Implementation Guidance
-- Organizations and Programs
+  - Organizations and Programs
+  - Implementation Guidance
 title: WaterSense
 ---
 

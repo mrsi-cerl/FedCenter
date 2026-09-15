@@ -1,9 +1,11 @@
 ---
-item_id: '3581'
+expiryDate: null
+item_id: "3581"
+externalUrl: https://www.epa.gov/oil-spills-prevention-and-preparedness-regulations/spcc-guidance-regional-inspectors
 programArea: Chemical Management
-pubDate: 12/6/2005
+publishDate: 12/6/2005
 subCategory:
-- Regulations, Guidance, and Policy
+  - Regulations, Guidance, and Policy
 title: SPCC Guidance for Regional Inspectors
 ---
 

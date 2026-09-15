@@ -1,9 +1,11 @@
 ---
-item_id: '2450'
+expiryDate: null
+item_id: "2450"
+externalUrl: http://www.ducks.org/
 programArea: Natural Resources
-pubDate: 7/14/2005
+publishDate: 7/14/2005
 subCategory:
-- Organizations
+  - Organizations
 title: Ducks Unlimited
 ---
 

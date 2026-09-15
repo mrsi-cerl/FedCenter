@@ -1,10 +1,12 @@
 ---
-item_id: '29024'
+expiryDate: null
+item_id: "29024"
+externalUrl: http://www.epa.gov/enforcement/federal-facilities-enforcement-policies-and-guidance
 programArea: Environmental Compliance
-pubDate: 1/19/2016
+publishDate: 1/19/2016
 subCategory:
-- Enforcement
-- Guidance for EPA Programs
+  - Enforcement
+  - Guidance for EPA Programs
 title: Federal Facilities Enforcement Policies and Guidance
 ---
 

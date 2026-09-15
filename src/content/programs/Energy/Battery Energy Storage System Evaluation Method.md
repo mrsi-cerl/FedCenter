@@ -1,9 +1,11 @@
 ---
-item_id: '41918'
+expiryDate: null
+item_id: "41918"
+externalUrl: https://www.energy.gov/femp/articles/battery-energy-storage-system-evaluation-method?utm\_medium=email&utm\_source=govdelivery
 programArea: Energy
-pubDate: 3/11/2024
+publishDate: 3/11/2024
 subCategory:
-- Case Studies
+  - Case Studies
 title: Battery Energy Storage System Evaluation Method
 ---
 

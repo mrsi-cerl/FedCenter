@@ -1,9 +1,11 @@
 ---
-item_id: '32545'
+expiryDate: null
+item_id: "32545"
+externalUrl: https://www.opm.gov/sustainability/
 programArea: Sustainability
-pubDate: 4/20/2018
+publishDate: 4/20/2018
 subCategory:
-- Federal Facilities
+  - Federal Facilities
 title: Office of Personnel Management (OPM) Sustainability
 ---
 
