@@ -2,6 +2,7 @@
 import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import Accordian from "../components/Accordian.astro";
 import RootLayout from "../layouts/RootLayout.astro";
+import SlottedAccordian from "@/components/SlottedAccordian.astro";
 const pageTitle = "Mobile Applications Directory";
 
 // TODO: get posts for each question on this page
@@ -24,20 +25,799 @@ const pageTitle = "Mobile Applications Directory";
         idea to fedcentermgr2@fedcenter.gov.
       </p>
     </div>
-    <Accordian title="Acquisition" />
-    <Accordian title="Air Emissions" />
-    <Accordian title="Cleanup" />
-    <Accordian title="Climate Resilience/Greenhouse Gases" />
-    <Accordian title="Drinking Water" />
-    <Accordian title="Energy" />
-    <Accordian title="High Performance Buildings" />
-    <Accordian title="Hazardous Materials" />
-    <Accordian title="Hazardous Waste" />
-    <Accordian title="Natural Resources" />
-    <Accordian title="Pollution Prevention" />
-    <Accordian title="Solid Waste" />
-    <Accordian title="Sustainability" />
-    <Accordian title="Transportation" />
-    <Accordian title="Wastewater" />
+    <SlottedAccordian title="Air Emissions">
+      <ul>
+        <li>
+          <a
+            href="https://www.airnow.gov/airnow-mobile-app/"
+            class="usa-link usa-link--external">AIRNow Mobile</a
+          >
+          <p class="margin-top-0">
+            The AIRNow mobile application provides you real-time air quality
+            information that you can use to protect your health when planning
+            your day. You can get location-specific reports on current air
+            quality and air quality forecasts for both ozone and fine particle
+            pollution (PM2.5). Air quality maps from the AIRNow website provide
+            visual depictions of current and forecast air quality nationwide,
+            and a page on air quality-related health effects explains what
+            actions people can take to protect their health at different AQI
+            levels, such as "code orange."
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://fueleconomy.gov/m/"
+            class="usa-link usa-link--external">Find and Compare Cars</a
+          >
+          <p class="margin-top-0">
+            Obtain information on greenhouse gas emissions, annual petroleum
+            use, and the EPA Smog Score for particular vehicle model years,
+            makes, models, and engines. New and used vehicles are included.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Cleanup">
+      <ul>
+        <li>
+          <a
+            href="https://www.nlm.nih.gov/pubs/techbull/jf23/jf23_wiser_discontinued.html"
+            class="usa-link usa-link--external"
+            >Wireless Information System for Emergency Responders (WISER)
+            (Discontinued)</a
+          >
+          <p class="margin-top-0">
+            WISER is a system designed to assist emergency responders in
+            hazardous material incidents. WISER provides a wide range of
+            information on hazardous substances, including substance
+            identification support, physical characteristics, human health
+            information, and containment and suppression advice. WISER was
+            discontinued in 2023. The link below provides links to applications
+            with similar functionality.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Climate Resilience/Greenhouse Gases">
+      <ul>
+        <li>
+          <a
+            href="http://www.jpl.nasa.gov/apps/"
+            class="usa-link usa-link--external">Earth Now</a
+          >
+          <p class="margin-top-0">
+            View stunning visualizations of climate change data from NASA's
+            Earth satellites on a 3-D model of Earth that can be rotated and
+            manipulated for an all-encompassing view of our world's vital stats.
+            Choose from extensive visual datamaps including sea level, ozone,
+            carbon dioxide and water vapor to monitor and study climate patterns
+            across the planet.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://fueleconomy.gov/m/"
+            class="usa-link usa-link--external">Find and Compare Cars</a
+          >
+          <p class="margin-top-0">
+            Obtain information on greenhouse gas emissions, annual petroleum
+            use, and the EPA Smog Score for particular vehicle model years,
+            makes, models, and engines. New and used vehicles are included.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="High Performance Buildings">
+      <ul>
+        <li>
+          <a
+            href="https://www.epa.gov/indoorairplus"
+            class="usa-link usa-link--external">Indoor AirPLUS Builder</a
+          >
+          <p class="margin-top-0">
+            This app is primarily for the home builder and verifier partner in
+            the field at new home construction sites. This website provides
+            documentation regarding the program. To access the app, do a search
+            for "Indoor AirPLUS" in your device's app store. Users will see
+            EPA's Indoor airPLUS Construction Specifications and enter and
+            complete the Verification Checklist via their mobile device
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/iaq-schools/school-iaq-assessment-mobile-app"
+            class="usa-link usa-link--external">School IAQ Assessment</a
+          >
+          <p class="margin-top-0">
+            This app provides you with a "one-stop shop" for accessing guidance
+            from EPA's IAQ Tools for Schools Action Kit with proven strategies
+            for specifically addressing important issues such as ventilation,
+            cleaning and maintenance, environmental asthma triggers, radon, and
+            integrated pest management. Whether you are developing, sustaining
+            or reinvigorating your IAQ management program, this tool will help
+            you identify and prioritize IAQ improvements district-wide.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Hazardous Materials">
+      <ul>
+        <li>
+          <a
+            href="http://pi.ace.orst.edu/PESTapp/"
+            class="usa-link usa-link--external"
+            >Pesticide Education & Search Tool (PEST)</a
+          >
+          <p class="margin-top-0">
+            Designed for the general public as they search for pest control
+            solutions, this app brings together product search functions and new
+            pest control information in an easy-to-understand format. Users can
+            find ways to control pests without pesticides using a strategy
+            called integrated pest management (IPM). They can also view product
+            formulations, ingredients, signal words, and pests controlled.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://pi.ace.orst.edu/pals/"
+            class="usa-link usa-link--external"
+            >Pesticides and Local Services (PALS)</a
+          >
+          <p class="margin-top-0">
+            Designed for one-click dialing! Users can find contact information
+            on pest control, reporting pesticide incidents, applicator
+            licensing, pesticide disposal, and much more.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Hazardous Waste">
+      <ul>
+        <li>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.snappykids.hw&hl=en"
+            class="usa-link usa-link--external">Kansas Waste Determinations</a
+          >
+          <p class="margin-top-0">
+            This app is a tool to help hazardous waste generators comply with
+            the requirement to conduct and document hazardous waste
+            determinations.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Natural Resources">
+      <ul>
+        <li>
+          <a
+            href="http://www.audubonguides.com/field-guides/mammal-identification-app.html"
+            class="usa-link usa-link--external"
+            >A Field Guide for North American Mammals from Audubon</a
+          >
+          <p class="margin-top-0">
+            Identify mammals of North America with quality photos, in-depth
+            descriptions, mammal sounds, sketches of scat and tracks, range maps
+            and more. Advanced search functions in this essential guide allow
+            you to search mammals by shape, color, habitat, region or size.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.audubonguides.com/field-guides/birds-butterflies-north-america.html"
+            class="usa-link usa-link--external"
+            >A Field Guide to North American Birds and Butterflies from Audubon</a
+          >
+          <p class="margin-top-0">
+            In-depth descriptions of over 720 butterflies and 760 birds found in
+            North America. Over 6,000 color photographs detailing each species.
+            A detailed reference section, which includes searching many parts of
+            a butterfly. A library of over 2,300 bird songs and calls. With new
+            search features, now you can identify birds by wing shape,
+            locomotion, song type, song pattern, and likelihood by month, within
+            state and province.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.audubonguides.com/field-guides/bird-identification-app.html"
+            class="usa-link usa-link--external"
+            >A Field Guide to North American Birds from Audubon</a
+          >
+          <p class="margin-top-0">
+            Includes 771 species and contains the most complete species
+            descriptions updated to the latest AOU checklist, with extensive
+            details on behavior, habitat, life history, nesting times, number of
+            eggs, nest location, bird family info, similar species, find a bird
+            by shape, and family.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.audubonguides.com/field-guides/trees-north-america.html"
+            class="usa-link usa-link--external"
+            >A Field Guide to North American Trees from Audubon</a
+          >
+          <p class="margin-top-0">
+            Identify 716 North American trees. Whether on the trail or in your
+            backyard this app will help you ID leaves, bark, cones, needles,
+            fruits, flowers, and more. Get up-to-date and authroitative species
+            information, brilliant color photos, detailed rangemaps, habitat
+            information on hundreds of cedars, maples, oaks, pines and others.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://sero.nmfs.noaa.gov/protected_resources/outreach_and_education/mm_apps/index.html"
+            class="usa-link usa-link--external">Dolphin & Whale 911</a
+          >
+          <p class="margin-top-0">
+            This app will enhance accurate and timely reporting of stranded
+            marine mammals in the Southeastern U.S.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.earth-observer.org/"
+            class="usa-link usa-link--external">EarthObserver</a
+          >
+          <p class="margin-top-0">
+            This app invites you to visit and learn about our planet's
+            terrestrial landscapes, oceans and seas, frozen ice caps, atmosphere
+            and clouds, geologic terrains, topography, nautical charts, natural
+            hazards, human impacts, and many other earth and environmental
+            science topics as you travel and explore with your finger.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.eddmaps.org/mrwc/"
+            class="usa-link usa-link--external">EDDMapS West</a
+          >
+          <p class="margin-top-0">
+            This is a national web-based mapping system for documenting invasive
+            species distribituion. Does not require GIS experience.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://watersgeo.epa.gov/mywaterway/"
+            class="usa-link usa-link--external">How's My Waterway</a
+          >
+          <p class="margin-top-0">
+            Learn the condition of local stream, lakes, and other water anywhere
+            in the U.S. See if your local waterway was checked for pollution,
+            what was found, and what is being done.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://coastal.er.usgs.gov/icoast/"
+            class="usa-link usa-link--external">iCoast</a
+          >
+          <p class="margin-top-0">
+            This is an USGS Web application where you can view aerial
+            photographs and help classify them. USGS is looking for online
+            volunteers to classify photos taken before and after Hurricane
+            Sandy, and particularly targeting people with different kinds of
+            coastal expertise, disaster skills, and volunteer interests.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://apps.bugwood.org/ivegot1.html"
+            class="usa-link usa-link--external"
+            >IveGot1 - Identify and Report Invasive Animals and Plants in
+            Florida</a
+          >
+          <p class="margin-top-0">
+            This mobile app is used to identify and Report Invasive Animals and
+            Plants in Florida. IveGot1 is an integrated invasive species
+            reporting and outreach campaign for Florida that includes the app, a
+            website with direct access to invasive species reporting and a
+            hotline 1-888-IVEGOT1 for instant reports of live animals.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://itunes.apple.com/us/app/leafsnap/id430649829?mt=8"
+            class="usa-link usa-link--external">Leafsnap</a
+          >
+          <p class="margin-top-0">
+            Leafsnap is the first in a series of electronic field guides being
+            developed by researchers from Columbia University, the University of
+            Maryland, and the Smithsonian Institution. This free mobile app uses
+            visual recognition software to help identify tree species from
+            photographs of their leaves.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/beach-tech/beach-sanitary-surveys#app"
+            class="usa-link usa-link--external"
+            >Marine Beach Sanitary Survey App</a
+          >
+          <p class="margin-top-0">
+            The Marine Beach Sanitary Survey App is based on the routine marine
+            beach sanitary survey form. This survey provides managers of marine
+            beaches with a technically sound and consistent approach to identify
+            pollution sources and share information. To use the app to complete
+            the routine marine sanitary survey form, EPA provides two options
+            for viewing the survey with your tablets.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.marinedebris.engr.uga.edu/"
+            class="usa-link usa-link--external">Marine Debris Tracker</a
+          >
+          <p class="margin-top-0">
+            Enables users to both provide data on debris in local waterways and
+            coastlines and see data entered by others.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://apps.bugwood.org/mid_atlantic.html"
+            class="usa-link usa-link--external"
+            >Mid-Atlantic Early Detection Network (MAEDN)</a
+          >
+          <p class="margin-top-0">
+            This app is used to document invasive plant occurrences in the
+            mid-Atlantic region for the purposes of early detection, improved
+            management and better coordination. The current focus is on invasive
+            plants, but additional invasive insects and diseases have been
+            included in this app. The region includes Delaware, Maryland, New
+            Jersey, New York, Pennsylvania, Virginia, West Virginia and the
+            District of Columbia.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://apps.bugwood.org/mrwc.html"
+            class="usa-link usa-link--external"
+            >Missouri River Watershed Coalition (MRWC) - Early Detection and
+            Distribution Mapping System</a
+          >
+          <p class="margin-top-0">
+            This app provides a means of reporting new sightings of select
+            invasive species. MRWC-EDDMapS focuses on species that are new or
+            potential new invaders to the seven Coalition states (Colorado,
+            Montana, Nebraska, North Dakota, South Dakota, Wyoming, and Kansas),
+            as well as five other western states (Washington, Oregon, Idaho,
+            Nevada, and Utah).
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://npic.orst.edu/webapps.html"
+            class="usa-link usa-link--external"
+            >Mobile Access to Pesticides and Labels (MAPL)</a
+          >
+          <p class="margin-top-0">
+            Designed for the general public and applicators who need to access
+            pesticide labels on mobile devices, this app complements EPA's
+            computer-based Pesticide Product Label System. Users can search for
+            pesticide products by name, use site, type of pest, EPA Registration
+            Number, registrant, or by using a combination of these search terms.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.audubonguides.com/field-guides/mushroom-identification-app.html"
+            class="usa-link usa-link--external"
+            >Mushrooms Mobile Field Guide App by Audubon</a
+          >
+          <p class="margin-top-0">
+            Learn all about North American fungi in Audubon Mushrooms. Our
+            mobile app highlights each species with stunning photography and
+            extensive descriptions. Identify mushrooms and fungi using the
+            advanced search function, with fields including shape, cap shape,
+            cap texture, color, gill stalk attachment, habitat, month, region,
+            size, spore bearing surface, stalk cap attachment and stalk shape.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.mynatureapps.com/mynature-tree-guide/"
+            class="usa-link usa-link--external">My Nature Tree Guide</a
+          >
+          <p class="margin-top-0">
+            Identify Trees by a series of 15 questions and answers or by
+            structure View over 1500 full color digital images of each trees
+            leaf/needle, bark, fruit or profile. Browse all species by Genus.
+            View range maps for each tree. Consult scientific drawings for
+            comparison of a trees leaf/needle. Full in depth descriptions of
+            leaf/needle measurements, shapes, fruit and bark.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://npic.orst.edu/webapps.html"
+            class="usa-link usa-link--external">My Repellent Finder</a
+          >
+          <p class="margin-top-0">
+            Insect repellents can help reduce your risk of getting a disease
+            caused by mosquitoes or ticks. Repellents can be used when you are
+            planning to be outdoors, whether you are within the United States or
+            traveling in another country. This mobile website to allows you find
+            protection times for various mosquito and tick repellents.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.chesapeakeexplorerapp.com/"
+            class="usa-link usa-link--external">NPS Chesapeake Explorer</a
+          >
+          <p class="margin-top-0">
+            This app helps you discover the places where you can experience the
+            Bay region's beauty, history, and heritage firsthand. Find and visit
+            places by activity, trail name, or type of site.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a href="" class="usa-link usa-link--external">PDF Maps Mobil Apps</a>
+          <p class="margin-top-0">
+            Through this app, users can purchase and download professionally
+            created Forest Service maps that are stored on their devices. They
+            can use the maps based on their location when GPS is available. The
+            maps also will allow users to measure distance and area, find
+            coordinates, open a current view in Google maps, plot place marks,
+            add notes, enter their own data and add photos as attributes. Almost
+            700 Forest Service maps are available through the app. The app works
+            on iPhones (3GS or newer) and iPads with WiFi+3G. It also works with
+            Android 4 or newer operating systems on devices with at least 1
+            gigabyte of memory.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://pi.ace.orst.edu/PESTapp/"
+            class="usa-link usa-link--external"
+            >Pesticide Education & Search Tool (PEST)</a
+          >
+          <p class="margin-top-0">
+            Designed for the general public as they search for pest control
+            solutions, this app brings together product search functions and new
+            pest control information in an easy-to-understand format. Users can
+            find ways to control pests without pesticides using a strategy
+            called integrated pest management (IPM). They can also view product
+            formulations, ingredients, signal words, and pests controlled.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.avenza.com/pdf-maps"
+            class="usa-link usa-link--external"
+            >Pesticides and Local Services (PALS)</a
+          >
+          <p class="margin-top-0">
+            Designed for one-click dialing! Users can find contact information
+            on pest control, reporting pesticide incidents, applicator
+            licensing, pesticide disposal, and much more.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://sero.nmfs.noaa.gov/protected_resources/outreach_and_education/mm_apps/index.html"
+            class="usa-link usa-link--external">See & ID Dolphins & Whales</a
+          >
+          <p class="margin-top-0">
+            This app provides an extensive electronic species ID guide complete
+            with information on biology, habitat (including maps), conservation,
+            as well as guidelines for viewing marine mammals in the wild. The
+            app includes illustrations and photos for over 40 marine mammal
+            species found in the Southeast U.S.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://casoilresource.lawr.ucdavis.edu/soilweb-apps/"
+            class="usa-link usa-link--external">SoilWeb</a
+          >
+          <p class="margin-top-0">
+            This mobile app provides GPS based, real-time access to USDA-NRCS
+            soil survey data, formatted for mobile devices. This application
+            retrieves graphical summaries of soil types associated with the
+            user's current geographic location. Images are linked to detailed
+            information on the named soils. The app is available for iPhone and
+            Android users, and Google Maps and Google Earth also interface with
+            this application.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://apps.bugwood.org/seedn.html"
+            class="usa-link usa-link--external"
+            >Southeast Early Detection Network (SEEDN)</a
+          >
+          <p class="margin-top-0">
+            This app is used to report sightings of invasive plants and other
+            invasive pests in the Southeastern U.S., to better assess the extent
+            of infestations and hopefully eradicate new infestations before they
+            become huge problems (such as kudzu).
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://naturemobile.org/wordpress/portfolio/trees-pro/"
+            class="usa-link usa-link--external">Trees PRO</a
+          >
+          <p class="margin-top-0">
+            A guide to the most common North American and European trees on your
+            iPhone and iPad.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://dendro.cnre.vt.edu/dendrology/main.htm"
+            class="usa-link usa-link--external">vTree - Virginia Tech Tree ID</a
+          >
+          <p class="margin-top-0">
+            Virginia Tech Tree Identification brings the award winning Virginia
+            Tech digital dendrology material to your iPhone or Android smart
+            phone. It contains fact sheets for 969 woody plants from all over
+            North America with an in depth description, range map and thousands
+            of color images of leaves, flowers, fruit, twigs, bark and form.
+            Users can narrow the species list for any location in North America
+            using the phone's GPS, network signal or any entered address or zip
+            code. The list can be further filtered by keyword or tree attribute.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.arborday.org/trees/whattree/mobile.cfm"
+            class="usa-link usa-link--external">What Tree is That?</a
+          >
+          <p class="margin-top-0">
+            This Arbor Day app provides a step-by-step approach to identify more
+            than 250 trees in the U.S. and Canada.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Pollution Prevention">
+      <ul>
+        <li>
+          <a
+            href="https://swcweb.epa.gov/stormwatercalculator/index.html"
+            class="usa-link usa-link--external"
+            >National Stormwater Calculator Mobile App</a
+          >
+          <p class="margin-top-0">
+            EPA developed the National Stormwater Calculator (SWC) to help
+            support local, state, and national stormwater management objectives
+            and regulatory efforts to reduce runoff through infiltration and
+            retention using green infrastructure practices as low impact
+            development controls. It is designed to be used by anyone interested
+            in reducing runoff from a property, including site developers,
+            landscape architects, urban planners, and homeowners. It can be used
+            for any location within the United States, including Puerto Rico.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://nemo.uconn.edu/tools/app/raingarden.htm"
+            class="usa-link usa-link--external">Rain Garden Mobile App</a
+          >
+          <p class="margin-top-0">
+            This free UCONN mobile app is designed to help you properly install
+            a rain garden at your home, office, or job site. Through video
+            tutorials, diagrams, text, and tools, the App guides you through
+            determining the size and placement of your garden, selecting plants,
+            digging and planting your garden, and maintaining your garden. It
+            also includes tools for determining your soil type, measuring the
+            size of the area that will drain to your garden, and managing
+            multiple rain garden projects.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Solid Waste">
+      <ul>
+        <li>
+          <a
+            href="https://recyclenation.com/iphone/"
+            class="usa-link usa-link--external">1800Recycling.com</a
+          >
+          <p class="margin-top-0">
+            This mobile app helps you find recycling locations near you. Find
+            address and contact information, get directions, and make your own
+            personalized list so that recycling is a breeze.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://earth911.com/irecycle/"
+            class="usa-link usa-link--external">iRecycle</a
+          >
+          <p class="margin-top-0">
+            This app is an easy and accessible way to get people plugged into
+            local recycling opportunities. iRecycle provides access to more than
+            1.5 million ways to recycle plus the latest in green news and ideas
+            to match your lifestyle.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.trashout.me/mobile-app?hl=en"
+            class="usa-link usa-link--external">TrashOut</a
+          >
+          <p class="margin-top-0">
+            This app allows you to locate and report illegal dumps in your
+            neighborhood, your city or anywhere else in the world.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Sustainability">
+      <ul>
+        <li>
+          <a
+            href="https://recyclenation.com/iphone/"
+            class="usa-link usa-link--external">1800Recycling.com</a
+          >
+          <p class="margin-top-0">
+            This mobile app helps you find recycling locations near you. Find
+            address and contact information, get directions, and make your own
+            personalized list so that recycling is a breeze.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://earth911.com/irecycle/"
+            class="usa-link usa-link--external">iRecycle</a
+          >
+          <p class="margin-top-0">
+            This app is an easy and accessible way to get people plugged into
+            local recycling opportunities. iRecycle provides access to more than
+            1.5 million ways to recycle plus the latest in green news and ideas
+            to match your lifestyle.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Transportation">
+      <ul>
+        <li>
+          <a
+            href="http://www.carticipate.com/Home.html"
+            class="usa-link usa-link--external">Carticipate</a
+          >
+          <p class="margin-top-0">
+            Save money on gas while helping the environment by carticipating
+            with friends, family, groups, or co-workers. Coordinate driving
+            plans, carpool, or a ride share by indicating where you are going,
+            when, and post your ride. We will match you to local carticipants
+            going your way.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.chargepoint.com/mobile/"
+            class="usa-link usa-link--external">Chargepoint</a
+          >
+          <p class="margin-top-0">
+            With the ChargePoint App, EV drivers can navigate, access, and
+            charge at any electric vehicle charging station.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://fueleconomy.gov/m/"
+            class="usa-link usa-link--external">Find and Compare Cars</a
+          >
+          <p class="margin-top-0">
+            Obtain information on greenhouse gas emissions, annual petroleum
+            use, and the EPA Smog Score for particular vehicle model years,
+            makes, models, and engines. New and used vehicles are included.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.afdc.energy.gov/afdc/locator/m/tse"
+            class="usa-link usa-link--external"
+            >Mobile Truck Stop Electrification Site Locator</a
+          >
+          <p class="margin-top-0">
+            Locate truck stops with electrification sites.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.xatori.Plugshare&hl=en_US"
+            class="usa-link usa-link--external">PlugShare</a
+          >
+          <p class="margin-top-0">
+            This is a free application for iOS, Android, and web that allows
+            users to find charging stations and connect with other plug-in
+            vehicle owners.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+
+    <SlottedAccordian title="Wastewater">
+      <ul>
+        <li>
+          <a
+            href="http://nemo.uconn.edu/tools/app/raingarden.htm"
+            class="usa-link usa-link--external">Rain Garden Mobile App</a
+          >
+          <p class="margin-top-0">
+            This free UCONN mobile app is designed to help you properly install
+            a rain garden at your home, office, or job site. Through video
+            tutorials, diagrams, text, and tools, the App guides you through
+            determining the size and placement of your garden, selecting plants,
+            digging and planting your garden, and maintaining your garden. It
+            also includes tools for determining your soil type, measuring the
+            size of the area that will drain to your garden, and managing
+            multiple rain garden projects.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.appdropp.com/ios/tsd-toxlim/396327987"
+            class="usa-link usa-link--external">TSD ToxLim</a
+          >
+          <p class="margin-top-0">
+            This app calculates NPDES effluent limitations according to the
+            method in the USEPA document entitled, "Technical Support Document
+            For Water Quality-based Toxics Control." The app presents the USEPA
+            Water Quality Criteria as a reference. There are three sections that
+            calculate Whole Effluent Toxicity (WET) limits, Chemical specific
+            limits, and values for use in a reasonable potential analysis.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
   </PageWithSideBarNav>
 </RootLayout>
