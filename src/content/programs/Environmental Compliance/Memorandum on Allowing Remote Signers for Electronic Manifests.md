@@ -5,17 +5,7 @@ externalUrl: https://content.govdelivery.com/attachments/USEPAORCR/2023/05/05/fi
 programArea: Environmental Compliance
 publishDate: 5/8/2023
 subCategory:
-  - Guidance for the Clean Air Act (CAA)
-  - Guidance for the Clean Water Act (CWA)
-  - Guidance for EPCRA
-  - Guidance for FIFRA
   - Guidance for RCRA
-  - Guidance for RCRA, Subtitle I
-  - Federal Regulations
-  - Guidance for TSCA
-  - State Regulations
-  - Guidance for RCRA, Subtitle C
-  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title: Memorandum on Allowing Remote Signers for Electronic Manifests
 ---
 

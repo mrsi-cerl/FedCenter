@@ -5,17 +5,8 @@ externalUrl: http://www.epa.gov/sites/default/files/2020-02/documents/qlp\_memo.
 programArea: Environmental Compliance
 publishDate: 5/25/2006
 subCategory:
-  - Guidance for the Clean Air Act (CAA)
   - Guidance for the Clean Water Act (CWA)
-  - Guidance for EPCRA
-  - Guidance for FIFRA
-  - Guidance for RCRA
-  - Guidance for RCRA, Subtitle I
-  - Federal Regulations
-  - Guidance for TSCA
-  - State Regulations
-  - Guidance for RCRA, Subtitle C
-  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+
 title: Qualifying Local Programs for Construction Site Stormwater Runoff
 ---
 

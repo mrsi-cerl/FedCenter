@@ -5,17 +5,7 @@ externalUrl: https://www.epa.gov/sites/default/files/2016-11/documents/memobestp
 programArea: Environmental Compliance
 publishDate: 11/14/2016
 subCategory:
-  - Guidance for the Clean Air Act (CAA)
   - Guidance for the Clean Water Act (CWA)
-  - Guidance for EPCRA
-  - Guidance for FIFRA
-  - Guidance for RCRA
-  - Guidance for RCRA, Subtitle I
-  - Federal Regulations
-  - Guidance for TSCA
-  - State Regulations
-  - Guidance for RCRA, Subtitle C
-  - DOD Environmental Standards for Substantial Installations in Foreign Countries
 title:
   Best Practices for NPDES Permit Writers and Pretreatment Coordinators to Address
   Toxic and Hazardous Chemical Discharges to POTWs

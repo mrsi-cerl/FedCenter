@@ -5,17 +5,8 @@ externalUrl: https://www.epa.gov/sites/production/files/2016-04/documents/rrpins
 programArea: Environmental Compliance
 publishDate: 1/12/2017
 subCategory:
-  - Guidance for the Clean Air Act (CAA)
-  - Guidance for the Clean Water Act (CWA)
-  - Guidance for EPCRA
-  - Guidance for FIFRA
-  - Guidance for RCRA
-  - Guidance for RCRA, Subtitle I
-  - Federal Regulations
   - Guidance for TSCA
-  - State Regulations
-  - Guidance for RCRA, Subtitle C
-  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+
 title: Inspection Manual for the Lead Renovation, Repair and Painting (RRP) Rule
 ---
 
