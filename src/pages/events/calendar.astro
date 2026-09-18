@@ -1,18 +1,32 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
-import Calendar from "../../components/Calendar.astro";
+import CalendarComponent from "../../components/CalendarComponent.astro";
 import RootLayout from "../../layouts/RootLayout.astro";
-import { url } from "astro:schema";
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
+import Accordian from "@/components/Accordian.astro";
+const pageTitle = "Event Calendar";
 
 const dataEvents: CollectionEntry<"events">[] = await getCollection(
   "events",
   ({ data }) => {
-    return data.startDate && data.endDate && data.endDate > new Date(); // Filter events that have both start and end dates
-  },
+    // return data.startDate && data.endDate && data.endDate > new Date(); // Filter events that have both start and end dates
+    return (
+      data.eventType == "Conferences" ||
+      data.eventType == "Meetings" ||
+      data.eventType == "Training" ||
+      data.eventType == "Other"
+    ); // Filter events that have both start and end dates
+    // return data.item_id === 13304;
+  }
 );
+//we also need to filter to unique Events, because an event can potentially appear under multiple programAreas
+const seen = new Set();
+const uniqueEvents = dataEvents.filter((post) => {
+  return seen.has(post.data.title) ? false : seen.add(post.data.title);
+});
 
-const events = dataEvents.map((item) => ({
+const events = uniqueEvents.map((item) => ({
   id: item.id,
   title: item.data.title,
   startDate: item.data.startDate,
@@ -20,13 +34,52 @@ const events = dataEvents.map((item) => ({
   eventType: item.data.eventType,
   link: item.data.externalUrl ?? `../${item.id}`,
 }));
+
+const eventAreas = [
+  {
+    title: "Meetings",
+  },
+  { title: "Conferences" },
+  { title: "Training" },
+  { title: "Other" },
+];
 ---
 
-<RootLayout pageTitle="Event Calendar" showBreadcrumb={true}>
-  <main style="padding: 20px;">
-    <Calendar events={events} />
-    <!-- <div style="height: 100vh; overflow-y: auto; margin-top: 50px;">
-      {JSON.stringify(events)}
-    </div> -->
-  </main>
+<RootLayout pageTitle={pageTitle} showBreadcrumb={true}>
+  <PageWithSideBarNav>
+    <h1>{pageTitle}</h1>
+    <p>
+      This calendar shows upcoming meetings, conferences, trainings, and other
+      events. Events are color coded, and can also be viewed as a list down
+      below
+    </p>
+    <CalendarComponent events={events} />
+    <div class="display-flex flex-justify-center">
+      <div class="circle-4 bg-red margin-2"></div>
+      <p class="display-flex flex-align-center">Meetings</p>
+      <div class="circle-4 bg-gold margin-2"></div>
+      <p class="display-flex flex-align-center">Conferences</p>
+      <div class="circle-4 bg-violet margin-2"></div>
+      <p class="display-flex flex-align-center">Trainings</p>
+      <div class="circle-4 bg-mint margin-2"></div>
+      <p class="display-flex flex-align-center">Other</p>
+    </div>
+    <h2>List View</h2>
+    <div
+      class="usa-accordion usa-accordion--multiselectable"
+      data-allow-multiple
+    >
+      {
+        eventAreas.map((area) => (
+          <Accordian
+            id={area.title}
+            title={area.title}
+            posts={uniqueEvents.filter(
+              (post: any) => post.data.eventType === area.title
+            )}
+          />
+        ))
+      }
+    </div>
+  </PageWithSideBarNav>
 </RootLayout>

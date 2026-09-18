@@ -47,7 +47,7 @@ function Search-ProgramContentEntries
         Title        = $parsed.Title
         ProgramArea  = $parsed.ProgramArea
         SubCategories = [string[]]$parsed.SubCategories
-        PubDate      = $parsed.PubDate
+        PublishDate  = $parsed.PublishDate
         ExpiryDate   = $parsed.ExpiryDate
         EventType    = $parsed.EventType
         StartDate    = $parsed.StartDate
@@ -138,7 +138,7 @@ function Update-ProgramContentGroup
   param (
     [object[]]$Entries,
     [string]$Title,
-    [string]$PubDate,
+    [string]$PublishDate,
     [string]$ExpiryDate,
     [string]$EventType,
     [string]$StartDate,
@@ -162,7 +162,7 @@ function Update-ProgramContentGroup
     $markdown = Format-MarkdownFrontmatter `
       -ItemId $current.ItemId `
       -ProgramArea $current.ProgramArea `
-      -PubDate $PubDate `
+      -PublishDate $PublishDate `
       -EventType $EventType `
       -StartDate $StartDate `
       -EndDate $EndDate `
@@ -334,12 +334,12 @@ function Start-EditContentGui
   $txtTitle.Dock = 'Fill'
   $txtTitle.Font = New-Object System.Drawing.Font('Segoe UI', 10.0)
 
-  $lblPubDate = New-Object System.Windows.Forms.Label
-  $lblPubDate.Text = 'Pub Date:'
-  $lblPubDate.Anchor = 'Left'
-  $dtpPubDate = New-Object System.Windows.Forms.DateTimePicker
-  $dtpPubDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
-  $dtpPubDate.Dock = 'Fill'
+  $lblPublishDate = New-Object System.Windows.Forms.Label
+  $lblPublishDate.Text = 'Publish Date:'
+  $lblPublishDate.Anchor = 'Left'
+  $dtpPublishDate = New-Object System.Windows.Forms.DateTimePicker
+  $dtpPublishDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
+  $dtpPublishDate.Dock = 'Fill'
 
   $lblExpiryDate = New-Object System.Windows.Forms.Label
   $lblExpiryDate.Text = 'Expiry Date:'
@@ -525,8 +525,8 @@ function Start-EditContentGui
   $editorLayout.Controls.Add($txtItemId, 1, 0)
   $editorLayout.Controls.Add($lblTitle, 0, 1)
   $editorLayout.Controls.Add($txtTitle, 1, 1)
-  $editorLayout.Controls.Add($lblPubDate, 0, 2)
-  $editorLayout.Controls.Add($dtpPubDate, 1, 2)
+  $editorLayout.Controls.Add($lblPublishDate, 0, 2)
+  $editorLayout.Controls.Add($dtpPublishDate, 1, 2)
   $editorLayout.Controls.Add($lblExpiryDate, 0, 3)
   $editorLayout.Controls.Add($dtpExpiryDate, 1, 3)
   $editorLayout.Controls.Add($lblEventType, 0, 4)
@@ -632,8 +632,8 @@ function Start-EditContentGui
     $txtLocations.Text = Get-ProgramContentLocationsText -Entries $editorState.LoadedEntries
     $rtbBody.Text = $primaryEntry.Body
 
-    try { $dtpPubDate.Value = [datetime]::Parse($primaryEntry.PubDate, [System.Globalization.CultureInfo]::GetCultureInfo('en-US')) }
-    catch { $dtpPubDate.Value = Get-Date }
+    try { $dtpPublishDate.Value = [datetime]::Parse($primaryEntry.PublishDate, [System.Globalization.CultureInfo]::GetCultureInfo('en-US')) }
+    catch { $dtpPublishDate.Value = Get-Date }
 
     if (-not [string]::IsNullOrWhiteSpace($primaryEntry.ExpiryDate))
     {
@@ -690,13 +690,13 @@ function Start-EditContentGui
 
         $title = $txtTitle.Text.Trim()
         $bodyText = Convert-RtfToMarkdown -RichTextBox $rtbBody
-        $pubDate = $dtpPubDate.Value.ToString('M/d/yyyy')
+        $publishDate = $dtpPublishDate.Value.ToString('M/d/yyyy')
         $expiryDate = if ($dtpExpiryDate.Checked) { $dtpExpiryDate.Value.ToString('M/d/yyyy') } else { '' }
         $eventType = if ($cbEventType.SelectedIndex -ge 0) { $cbEventType.SelectedItem.ToString() } else { '' }
         $startDate = if ($dtpStartDate.Checked) { $dtpStartDate.Value.ToString('M/d/yyyy HH:mm') } else { '' }
         $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString('M/d/yyyy HH:mm') } else { '' }
 
-        Update-ProgramContentGroup -Entries $editorState.LoadedEntries -Title $title -PubDate $pubDate -ExpiryDate $expiryDate -EventType $eventType -StartDate $startDate -EndDate $endDate -BodyText $bodyText
+        Update-ProgramContentGroup -Entries $editorState.LoadedEntries -Title $title -PublishDate $publishDate -ExpiryDate $expiryDate -EventType $eventType -StartDate $startDate -EndDate $endDate -BodyText $bodyText
 
         [System.Windows.Forms.MessageBox]::Show(
           "Updated $($editorState.LoadedEntries.Count) file(s) for Item ID $($txtItemId.Text).",
@@ -739,7 +739,7 @@ function Start-EditContentGui
       $txtLocations.Clear()
       $rtbBody.Clear()
       $cbEventType.SelectedIndex = -1
-      $dtpPubDate.Value = Get-Date
+      $dtpPublishDate.Value = Get-Date
       $dtpExpiryDate.Checked = $false
       $dtpStartDate.Checked = $false
       $dtpEndDate.Checked = $false

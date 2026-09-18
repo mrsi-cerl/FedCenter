@@ -439,7 +439,7 @@ function Format-MarkdownFrontmatter
   param (
     [string]$ItemId,
     [string]$ProgramArea,
-    [string]$PubDate,
+    [string]$PublishDate,
     [string]$EventType,
     [string]$StartDate,
     [string]$EndDate,
@@ -480,7 +480,7 @@ function Format-MarkdownFrontmatter
     [void]$sb.AppendLine("- General")
   }
 
-  [void]$sb.AppendLine("pubDate: $PubDate")
+  [void]$sb.AppendLine("publishDate: $PublishDate")
   # Optional expiry date
   if (-not [string]::IsNullOrWhiteSpace($ExpiryDate)) { [void]$sb.AppendLine("expiryDate: $ExpiryDate") }
 
@@ -572,7 +572,7 @@ function Read-ProgramContentFile
   $result = @{
     ItemId      = ''
     ProgramArea = ''
-    PubDate     = ''
+    PublishDate = ''
     ExpiryDate  = ''
     EventType   = ''
     StartDate   = ''
@@ -601,7 +601,7 @@ function Read-ProgramContentFile
     $trimmed = $line.Trim()
     if ($trimmed -match '^item_id:\s*[''"\s]*(.*?)[''"\s]*$')        { $result.ItemId      = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^programArea:\s*(.+)$')                     { $result.ProgramArea = $matches[1].Trim(); $inSubCat = $false; continue }
-    if ($trimmed -match '^pubDate:\s*(.+)$')                         { $result.PubDate     = $matches[1].Trim(); $inSubCat = $false; continue }
+    if ($trimmed -match '^publishDate:\s*(.+)$')                     { $result.PublishDate = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^expiryDate:\s*(.+)$')                      { $result.ExpiryDate  = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^eventType:\s*(.+)$')                       { $result.EventType   = $matches[1].Trim(); $inSubCat = $false; continue }
     if ($trimmed -match '^startDate:\s*(.+)$')                       { $result.StartDate   = $matches[1].Trim(); $inSubCat = $false; continue }
@@ -632,7 +632,7 @@ function Save-ProgramContent
     [string]$Title,
     [string]$BodyText,
     [string]$ItemId,
-    [string]$PubDate,
+    [string]$PublishDate,
     [string]$EventType,
     [string]$StartDate,
     [string]$EndDate,
@@ -656,9 +656,9 @@ function Save-ProgramContent
   {
     throw "ItemId cannot be empty."
   }
-  if ([string]::IsNullOrWhiteSpace($PubDate))
+  if ([string]::IsNullOrWhiteSpace($PublishDate))
   {
-    $PubDate = (Get-Date).ToString("M/d/yyyy")
+    $PublishDate = (Get-Date).ToString("M/d/yyyy")
   }
 
   $createdFiles = @()
@@ -672,7 +672,7 @@ function Save-ProgramContent
     }
 
     $filePath = Get-UniqueProgramContentFilePath -DirectoryPath $paDir -Title $Title
-    $mdContent = Format-MarkdownFrontmatter -ItemId $ItemId -ProgramArea $pa -PubDate $PubDate -EventType $EventType -StartDate $StartDate -EndDate $EndDate -ExpiryDate $ExpiryDate -SubCategories $SelectedSubCategories -Title $Title -Body $BodyText
+    $mdContent = Format-MarkdownFrontmatter -ItemId $ItemId -ProgramArea $pa -PublishDate $PublishDate -EventType $EventType -StartDate $StartDate -EndDate $EndDate -ExpiryDate $ExpiryDate -SubCategories $SelectedSubCategories -Title $Title -Body $BodyText
 
     # Write UTF-8 without BOM or standard UTF8
     [System.IO.File]::WriteAllText($filePath, $mdContent, [System.Text.Encoding]::UTF8)
@@ -884,12 +884,12 @@ function Start-ProgramContentGui
   $contentContainer.Controls.Add($txtTitle, 1, 1)
 
   # Publication Date Input (required)
-  $lblPubDate = New-Object System.Windows.Forms.Label
-  $lblPubDate.Text = "Pub Date:"
-  $lblPubDate.Anchor = "Left"
-  $dtpPubDate = New-Object System.Windows.Forms.DateTimePicker
-  $dtpPubDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
-  $dtpPubDate.Dock = "Fill"
+  $lblPublishDate = New-Object System.Windows.Forms.Label
+  $lblPublishDate.Text = "Pub Date:"
+  $lblPublishDate.Anchor = "Left"
+  $dtpPublishDate = New-Object System.Windows.Forms.DateTimePicker
+  $dtpPublishDate.Format = [System.Windows.Forms.DateTimePickerFormat]::Short
+  $dtpPublishDate.Dock = "Fill"
 
     # Expiry Date (optional)
   $lblExpiryDate = New-Object System.Windows.Forms.Label
@@ -933,8 +933,8 @@ function Start-ProgramContentGui
   $dtpEndDate.Checked = $false
   $dtpEndDate.Dock = "Fill"
 
-  $contentContainer.Controls.Add($lblPubDate, 0, 2)
-  $contentContainer.Controls.Add($dtpPubDate, 1, 2)
+  $contentContainer.Controls.Add($lblPublishDate, 0, 2)
+  $contentContainer.Controls.Add($dtpPublishDate, 1, 2)
   $contentContainer.Controls.Add($lblExpiryDate, 0, 3)
   $contentContainer.Controls.Add($dtpExpiryDate, 1, 3)
   $contentContainer.Controls.Add($lblEventType, 0, 4)
@@ -1138,7 +1138,7 @@ function Start-ProgramContentGui
 
         $bodyText = Convert-RtfToMarkdown -RichTextBox $rtbContent
         # Publication date (required)
-        $pubDate = $dtpPubDate.Value.ToString("M/d/yyyy")
+        $publishDate = $dtpPublishDate.Value.ToString("M/d/yyyy")
         # Optional eventType
         $eventType = if ($cbEventType.SelectedIndex -ge 0) { $cbEventType.SelectedItem.ToString() } else { "" }
         # Optional dates
@@ -1146,7 +1146,7 @@ function Start-ProgramContentGui
         $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString("M/d/yyyy HH:mm") } else { "" }
         $expiryDate = if ($dtpExpiryDate.Checked) { $dtpExpiryDate.Value.ToString("M/d/yyyy") } else { "" }
 
-        $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -SelectedPrograms @($selectedPA) -SelectedSubCategories $selectedSubs -Title $title -BodyText $bodyText -ItemId $txtItemId.Text.Trim() -PubDate $pubDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
+        $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -SelectedPrograms @($selectedPA) -SelectedSubCategories $selectedSubs -Title $title -BodyText $bodyText -ItemId $txtItemId.Text.Trim() -PublishDate $publishDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
 
         $msg = "Successfully saved markdown file:`n`n" + ($savedFiles -join "`n")
         [System.Windows.Forms.MessageBox]::Show($msg, "Success", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
@@ -1163,7 +1163,7 @@ function Start-ProgramContentGui
       $lstPrograms.ClearSelected()
       $lstSubCategories.Items.Clear()
       $cbEventType.SelectedIndex = -1
-      $dtpPubDate.Value = Get-Date
+      $dtpPublishDate.Value = Get-Date
       $dtpStartDate.Checked = $false
       $dtpEndDate.Checked = $false
       $dtpExpiryDate.Checked = $false
@@ -1235,10 +1235,10 @@ function Start-ProgramContentGui
 
   #       # --- Pub Date ---
   #       # Use try/catch rather than [datetime]::TryParse([ref]) which fails inside PS script blocks
-  #       try { $dtpPubDate.Value = [datetime]::Parse($parsed.PubDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")) }
-  #       catch { $dtpPubDate.Value = Get-Date }
+  #       try { $dtpPublishDate.Value = [datetime]::Parse($parsed.PublishDate, [System.Globalization.CultureInfo]::GetCultureInfo("en-US")) }
+  #       catch { $dtpPublishDate.Value = Get-Date }
 
-  #       Write-Host "Parsed pub date: $($dtpPubDate.Value)"
+  #       Write-Host "Parsed pub date: $($dtpPublishDate.Value)"
 
   #       # --- Event Type ---
   #       if (-not [string]::IsNullOrWhiteSpace($parsed.EventType))

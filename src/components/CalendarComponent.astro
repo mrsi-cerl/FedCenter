@@ -98,14 +98,13 @@ const monthNames = [
   ];
 
   type EventType = "Training" | "Conferences" | "Meetings" | "Other";
-  type RGBColor = `rgb(${number}, ${number}, ${number})`;
-  const eventColors: Record<EventType, RGBColor> = {
-    Meetings: "rgb(0, 128, 255)", // Blue
-    Conferences: "rgb(128, 0, 128)", // Purple
-    Training: "rgb(0, 128, 0)", // Green
-    Other: "rgb(128, 128, 128)", // Gray
+  const eventColors: Record<EventType, string> = {
+    Meetings: "#e52207", // USWDS Red
+    Conferences: "#ffbe2e", // USWDS Gold
+    Training: "#8168b3", // USWDS Violet
+    Other: "#04c585", // USWDS Mint
   };
-  function getEventColor(type: EventType): RGBColor {
+  function getEventColor(type: EventType): string {
     return eventColors[type];
   }
 
