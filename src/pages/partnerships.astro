@@ -1,0 +1,408 @@
+---
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
+import Accordian from "../components/Accordian.astro";
+import RootLayout from "../layouts/RootLayout.astro";
+import SlottedAccordian from "@/components/SlottedAccordian.astro";
+const pageTitle = "Partnerships";
+
+// TODO: get posts for each question on this page
+---
+
+<RootLayout pageTitle={pageTitle}>
+  <PageWithSideBarNav>
+    <h1>{pageTitle}</h1>
+    <div class="usa-prose">
+      <p>
+        The Partnerships page contains information on various Federal, State,
+        public and private partnership programs. The list is arranged by media
+        type.
+      </p>
+    </div>
+    <SlottedAccordian title="General">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/international-cooperation"
+            class="usa-link usa-link--external">International Cooperation</a
+          >
+          <p class="margin-top-0">
+            Collaborating with global and bilateral partners, EPA is working to
+            promote sustainable development, protect vulnerable populations,
+            facilitate commerce, and engage diplomatically around the world.
+            This site include information on public participation and other ways
+            to engage in environmental initiatives.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Air Emissions">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/agstar"
+            class="usa-link usa-link--external"
+          >
+            AgSTAR Program
+          </a>
+          <p class="margin-top-0">
+            A voluntary effort jointly sponsored by the U.S. Environmental
+            Protection Agency (EPA), the U.S. Department of Agriculture, and the
+            U.S. Department of Energy. The program encourages the use of methane
+            recovery (biogas) technologies at the confined animal feeding
+            operations that manage manure as liquids or slurries.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.bestworkplaces.org/"
+            class="usa-link usa-link--external"
+          >
+            Best Workplaces for Commuters
+          </a>
+          <p class="margin-top-0">
+            A partnership established by the U.S. Environmental Protection
+            Agency (EPA) and the U.S. Department of Transportation (DOT), this
+            program publicly recognizes employers whose commuter benefits reach
+            the National Standard of Excellence.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/eps-partnership/f-gas-partnership-programs"
+            class="usa-link usa-link--external"
+          >
+            Fluorinated Gas Partnership
+          </a>
+          <p class="margin-top-0">
+            These programs were launched as a joint effort by EPA and industry
+            groups to reduce the amount of fluorinated gases (F-Gas) emitted
+            from a variety of industrial processes. The programs promote the
+            development and adoption of cost-effective F-Gas emission reduction
+            opportunities.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.epa.gov/greenchill/"
+            class="usa-link usa-link--external"
+          >
+            GreenChill Advanced Refrigeration Partnership
+          </a>
+          <p class="margin-top-0">
+            This is an EPA cooperative alliance with the supermarket industry
+            and other stakeholders to promote the adoption of technologies,
+            strategies, and practices that reduce emissions of ozone-depleting
+            substances (ODS) and greenhouse gases (GHGs) and increase
+            refrigeration system energy efficiency.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.pewtrusts.org/en/projects?status=active&sortBy=relevance&sortOrder=asc&page=1#conservation"
+            class="usa-link usa-link--external"
+          >
+            The Pew Charitable Trusts Conservation Program
+          </a>
+          <p class="margin-top-0">
+            The Pew Charitable Trusts' conservation efforts--both in the U.S.
+            and abroad--help to preserve wild places and rivers, restore
+            biodiversity, and increase the understanding of ocean ecology. On
+            land, they focus on conserving wildlife corridors, shorelines, and
+            pristine landscapes, as well as advancing policies that prioritize
+            investments in flood-ready infrastructure and national park
+            maintenance. Pew also works to minimize the consequences of
+            overfishing, pollution, warming waters, and loss of habitat.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.epa.gov/smartway"
+            class="usa-link usa-link--external"
+          >
+            The SmartWay Transport Partnership
+          </a>
+          <p class="margin-top-0">
+            This is a collaborative voluntary program between EPA and the
+            freight industry that will increase the energy efficiency and energy
+            security of our country while significantly reducing air pollution
+            and greenhouse gases. The Partnership creates strong market-based
+            incentives that challenge companies shipping products and the truck
+            and rail companies delivering these products, to improve the
+            environmental performance of their freight operations. SmartWay
+            Transport partners improve their energy efficiency, save money,
+            reduce greenhouse gas emissions and improve air quality.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.westcoastcollaborative.org/"
+            class="usa-link usa-link--external"
+          >
+            West Coast Collaborative
+          </a>
+          <p class="margin-top-0">
+            A partnership between leaders from federal, state, and local
+            government, the private sector, and environmental groups in
+            California, Oregon, Idaho and Washington, Alaska, British Columbia
+            and Mexico. The Collaborative is part of an overall national
+            campaign to reduce diesel emissions. The goal of the West Coast
+            Collaborative is to leverage significant federal funds to reduce
+            emissions from the most polluting diesel sources in the most
+            affected communities and to significantly improve air quality and
+            public health.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Energy">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="http://www.epa.gov/statelocalclimate"
+            class="usa-link usa-link--external"
+          >
+            Energy Resources for State, Local, and Tribal Governments
+          </a>
+          <p class="margin-top-0">
+            Investing in energy strategies that lower emissions can be an
+            effective way for state, local and Tribal governments to achieve
+            multiple goals: improving air quality and public health, strengthen
+            their energy systems, reducing greenhouse gas emissions and saving
+            money. EPA offers free tools, data and technical expertise about
+            energy strategies, including energy efficiency, renewable energy and
+            other emerging technologies, to help state, local and tribal
+            governments achieve their environmental, energy, and economic
+            objectives. While many of these resources were developed for state
+            and local governments, Tribes may also find them useful.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a href="http://www.epa.gov/chp/" class="usa-link usa-link--external">
+            EPA's Combined Heat and Power Partnership
+          </a>
+          <p class="margin-top-0">
+            The CHP Partnership is a voluntary program that seeks to reduce the
+            environmental impact of power generation by promoting the use of
+            CHP.The Partnership works closely with energy users, the CHP
+            industry, state and local governments, and other stakeholders to
+            support the development of new projects and promote their energy,
+            environmental, and economic benefits.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://energy.gov/eere/femp/articles/federal-utility-partnership-working-group"
+            class="usa-link usa-link--external"
+          >
+            Federal Utility Partnership Working Group
+          </a>
+          <p class="margin-top-0">
+            This group partners and facilitates communications with Federal
+            agencies, utilities and energy service companies to implement
+            cost-effective energy efficiency and water conservation projects.
+            The Working Group meets three times a year to exchange information
+            on recent utility incentive program success stories, current FEMP
+            programs and products, individual agency energy management programs,
+            and reports from the various Working Group subcommittees.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/greenpower/"
+            class="usa-link usa-link--external"
+          >
+            Green Power Partnership
+          </a>
+          <p class="margin-top-0">
+            This is a voluntary EPA program that supports the organizational
+            procurement of green power by offering expert advice, technical
+            support, tools and resources.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.epa.gov/lmop/"
+            class="usa-link usa-link--external"
+          >
+            Landfill Methane Outreach Program (LMOP)
+          </a>
+          <p class="margin-top-0">
+            The U.S. EPA's Landfill Methane Outreach Program (LMOP) is a
+            voluntary assistance and partnership program that promotes the use
+            of landfill gas as a renewable, green energy source.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/natural-gas-star-program/methane-challenge-program"
+            class="usa-link usa-link--external"
+          >
+            Methane Challenge Program
+          </a>
+          <p class="margin-top-0">
+            The program partners will transparently report systematic and
+            comprehensive actions to reduce methane emissions and be publicly
+            recognized as leaders in reducing methane emissions in the U.S.
+            Doing so reduces operational risk, increases efficiency, and
+            demonstrates company concern for the environment, with benefits
+            spanning from climate change to air quality improvements to
+            conservation of a non-renewable energy resource.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.epa.gov/gasstar/"
+            class="usa-link usa-link--external"
+          >
+            Natural Gas STAR Program
+          </a>
+          <p class="margin-top-0">
+            This is a flexible, voluntary partnership between EPA and the oil
+            and natural gas industry. Through the Program, EPA works with
+            companies that produce, process, and transmit and distribute natural
+            gas to identify and promote the implementation of cost-effective
+            technologies and practices to reduce emissions of methane, a potent
+            greenhouse gas.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.epa.gov/smartway"
+            class="usa-link usa-link--external"
+          >
+            The SmartWay Transport Partnership
+          </a>
+          <p class="margin-top-0">
+            This is a collaborative voluntary program between EPA and the
+            freight industry that will increase the energy efficiency and energy
+            security of our country while significantly reducing air pollution
+            and greenhouse gases. The Partnership creates strong market-based
+            incentives that challenge companies shipping products and the truck
+            and rail companies delivering these products, to improve the
+            environmental performance of their freight operations. SmartWay
+            Transport partners improve their energy efficiency, save money,
+            reduce greenhouse gas emissions and improve air quality.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Hazardous Materials and Chemistry">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="http://www.epa.gov/greenchemistry/"
+            class="usa-link usa-link--external"
+          >
+            Green Chemistry
+          </a>
+          <p class="margin-top-0">
+            To promote innovative chemical technologies that reduce or eliminate
+            the use or generation of hazardous substances in the design,
+            manufacture, and use of chemical products.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Hazardous Waste">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/smm/wastewise"
+            class="usa-link usa-link--external"
+          >
+            Wastewise
+          </a>
+          <p class="margin-top-0">
+            WasteWise is a free, voluntary, EPA program helping U.S.
+            organizations eliminate costly municipal solid waste, benefitting
+            the bottom line and the environment.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Solid Waste">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="http://www.epa.gov/lmop/"
+            class="usa-link usa-link--external"
+          >
+            Landfill Methane Outreach Program (LMOP)
+          </a>
+          <p class="margin-top-0">
+            The U.S. EPA's Landfill Methane Outreach Program (LMOP) is a
+            voluntary assistance and partnership program that promotes the use
+            of landfill gas as a renewable, green energy source.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/smm/wastewise"
+            class="usa-link usa-link--external"
+          >
+            Wastewise
+          </a>
+          <p class="margin-top-0">
+            WasteWise is a free, voluntary, EPA program helping U.S.
+            organizations eliminate costly municipal solid waste, benefitting
+            the bottom line and the environment.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Transportation">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="http://www.epa.gov/smartway"
+            class="usa-link usa-link--external"
+          >
+            The SmartWay Transport Partnership
+          </a>
+          <p class="margin-top-0">
+            This is a collaborative voluntary program between EPA and the
+            freight industry that will increase the energy efficiency and energy
+            security of our country while significantly reducing air pollution
+            and greenhouse gases. The Partnership creates strong market-based
+            incentives that challenge companies shipping products and the truck
+            and rail companies delivering these products, to improve the
+            environmental performance of their freight operations. SmartWay
+            Transport partners improve their energy efficiency, save money,
+            reduce greenhouse gas emissions and improve air quality.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Water">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="http://www.epa.gov/watersense/"
+            class="usa-link usa-link--external"
+          >
+            WaterSense
+          </a>
+          <p class="margin-top-0">
+            A voluntary public-private partnership that identifies and promotes
+            high performance products and programs that help preserve the
+            nation's water supply.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+  </PageWithSideBarNav>
+</RootLayout>
