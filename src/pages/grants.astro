@@ -1,0 +1,737 @@
+---
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
+import RootLayout from "../layouts/RootLayout.astro";
+import SlottedAccordian from "@/components/SlottedAccordian.astro";
+const pageTitle = "Grants";
+
+// TODO: get posts for each question on this page
+---
+
+<RootLayout pageTitle={pageTitle}>
+  <PageWithSideBarNav>
+    <h1>{pageTitle}</h1>
+    <div class="usa-prose">
+      <p>
+        The Grants page contains information on various Federal, State and
+        non-profit organization grant opportunities. The list is arranged by
+        media type.
+      </p>
+    </div>
+    <SlottedAccordian title="General">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.energy.gov/science/office-science-funding-opportunities"
+            class="usa-link usa-link--external"
+          >
+            DOE's Funding Opportunity Announcements (FOAs)
+          </a>
+          <p class="margin-top-0">
+            The DOE Office of Science issues many announcements each year to
+            solicit research proposals from colleges and universities,
+            non-profit and for-profit research organizations, DOE's national
+            laboratories, small businesses, and other federal research
+            organizations.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/grants"
+            class="usa-link usa-link--external"
+          >
+            EPA Grants
+          </a>
+          <p class="margin-top-0">
+            Every year, EPA awards more than $4 billion in funding for grants
+            and other assistance agreements. From small non-profit organizations
+            to large state governments, EPA works to help many visionary
+            organizations achieve their environmental goals. With countless
+            success stories over the years, EPA grants remain a chief tool to
+            protect human health and the environment.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a href="http://www.epa.gov/chef" class="usa-link usa-link--external">
+            EPA's New Clearinghouse for Environmental Finance
+          </a>
+          <p class="margin-top-0">
+            EPA's online database of land, air, and water information. This new
+            Clearinghouse catalogues available funding, financing, and
+            instructional resources to aid communities in their efforts to
+            improve environmental conditions.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a href="http://grants.gov/" class="usa-link usa-link--external">
+            Grants.gov
+          </a>
+          <p class="margin-top-0">
+            Grants.gov allows organizations to electronically find and apply for
+            competitive grant opportunities from all Federal grant-making
+            agencies. Grants.gov is THE single access point for over 900 grant
+            programs offered by the 26 Federal grant-making agencies.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.des.nh.gov/business-and-community/loans-and-grants"
+            class="usa-link usa-link--external"
+          >
+            NHDES Loans and Grants
+          </a>
+          <p class="margin-top-0">
+            NHDES administers several loan and grant programs. NHDES programs
+            also assist groups in obtaining funding for projects from myriad
+            sources. Find a funding source for your project here.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.nj.gov/dep/grantandloanprograms/"
+            class="usa-link usa-link--external"
+          >
+            NJ Dept of Environmental Conservation Grants
+          </a>
+          <p class="margin-top-0">
+            New Jersey Department of Environmental Protection offers a wide
+            variety of funding opportunities for local governments and other
+            types of organizations to fund numerous environmentally based
+            projects. The individual descriptions of the funding available
+            provide a summary of the programs, eligible entities, application
+            procedure and deadlines, and contact information as well as links to
+            the applications (where available) and other pertinent information.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.dec.ny.gov/pubs/grants.html"
+            class="usa-link usa-link--external"
+          >
+            NY Environmental Grants
+          </a>
+          <p class="margin-top-0">
+            Competitive grants for environmental protection and improvement are
+            available for municipalities, community organizations,
+            not-for-profit organizations and others. For more information about
+            specific eligibility requirements, enrollment periods, eligible
+            activities, and FAQs see the website.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/research-grants"
+            class="usa-link usa-link--external"
+          >
+            Research Grants
+          </a>
+          <p class="margin-top-0">
+            This EPA website contains links to funding opportunities and tools
+            and other resources to help in the project development and
+            application process.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Air">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/grants/air-grants-and-funding"
+            class="usa-link usa-link--external"
+          >
+            EPA's Air Grants and Funding
+          </a>
+          <p class="margin-top-0">
+            EPA's Office of Air and Radiation (OAR) announces competitive
+            funding announcements for projects and programs relating to air
+            quality, transportation, climate change, indoor air and other
+            related topics.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a href="http://www.epa.gov/chef" class="usa-link usa-link--external">
+            EPA's New Clearinghouse for Environmental Finance
+          </a>
+          <p class="margin-top-0">
+            EPA's online database of land, air, and water information. This new
+            Clearinghouse catalogues available funding, financing, and
+            instructional resources to aid communities in their efforts to
+            improve environmental conditions.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Cleanup">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/brownfields"
+            class="usa-link usa-link--external"
+          >
+            Brownfields and Land Revitalization Grants
+          </a>
+          <p class="margin-top-0">
+            EPA's Brownfields Program provides grants and technical assistance
+            to communities, states, tribes and others to assess, safely clean up
+            and sustainably reuse contaminated properties. To learn about EPA's
+            broader efforts to put previously contaminated properties back into
+            productive use, read about our Land Revitalization Program
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/brownfields/brownfields-job-training-jt-grants"
+            class="usa-link usa-link--external"
+          >
+            Funding Availability for FY 2022 Brownfields Job Training (JT)
+            Grants
+          </a>
+          <p class="margin-top-0">
+            EPA has announced the availability of funds and solicits
+            applications from eligible entities, including nonprofit
+            organizations, to deliver Brownfields Job Training (JT) programs
+            that recruit, train, and place local, unemployed and under-employed
+            residents with the skills needed to secure full-time employment
+            across a spectrum of brownfield-related activities. The application
+            submission deadline is 5 October 2021.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/great-lakes-funding"
+            class="usa-link usa-link--external"
+          >
+            Great Lakes Restoration Initiative
+          </a>
+          <p class="margin-top-0">
+            EPA's Great Lakes program administers grants, cooperative agreements
+            and contracts. The Great Lakes Restoration Initiative is the largest
+            investment in the Great Lakes in two decades and funds a variety of
+            activities including grants and the direct implementation of Great
+            Lakes Legacy Act projects.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Climate Resilience">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/inflation-reduction-act/climate-pollution-reduction-grants"
+            class="usa-link usa-link--external"
+          >
+            EPA's Climate Pollution Reduction Grants
+          </a>
+          <p class="margin-top-0">
+            The Climate Pollution Reduction Grants (CPRG) program provides $5
+            billion in grants to states, local governments, tribes, and
+            territories to develop and implement ambitious plans for reducing
+            greenhouse gas emissions and other harmful air pollution. Authorized
+            under Section 60114 of the Inflation Reduction Act, this two-phase
+            program provides $250 million for noncompetitive planning grants,
+            and approximately $4.6 billion for competitive implementation
+            grants.
+          </p>
+        </li>
+        <hr />
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Energy">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.dsireusa.org/"
+            class="usa-link usa-link--external"
+          >
+            Database of State Incentives for Renewable Energy (DSIRE)
+          </a>
+          <p class="margin-top-0">
+            A comprehensive source of information on state, local, utility, and
+            selected federal incentives that promote renewable energy.
+            Information easily accessed by clicking on the state of interest.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.energy.gov/eere/solar/articles/funding-notice-deploying-solar-wildlife-and-ecosystem-services-benefits-solweb"
+            class="usa-link usa-link--external"
+          >
+            Deploying Solar with Wildlife and Ecosystem Services Benefits
+          </a>
+          <p class="margin-top-0">
+            The U.S. Department of Energy (DOE) has announced the Deploying
+            Solar with Wildlife and Ecosystem Services Benefits (SolWEB) funding
+            opportunity, which will award $10 million for innovative solutions
+            and strategies that maximize benefits and minimize impacts to
+            wildlife and ecosystems from solar energy infrastructure. DOE is
+            interested in projects?that will produce results with broad
+            relevance to solar stakeholders by establishing methods,
+            technologies, models, best management practices, or resources that
+            facilitate ground-mounted photovoltaic energy generation, including
+            utility-scale and community solar or concentrating solar-thermal
+            power that is compatible with surrounding wildlife. DOE is also
+            interested in assessing and optimizing ecosystem benefits that solar
+            energy facilities can provide, such as soil formation, pollination
+            of food crops, and carbon sequestration.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.energy.gov/eere/femp/federal-energy-management-program-funding-opportunities"
+            class="usa-link usa-link--external"
+          >
+            Federal Energy Management Program Funding Opportunities
+          </a>
+          <p class="margin-top-0">
+            The U.S. Department of Energy's Federal Energy Management Program
+            (FEMP) offers information about funding opportunities. FEMP's
+            mission is to work with stakeholders to enable federal agencies to
+            meet energy-related goals, identify affordable solutions, facilitate
+            public-private partnership, and provide energy leadership to the
+            country by identifying and leveraging government best practices.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.illinoiscleanenergy.org/"
+            class="usa-link usa-link--external"
+          >
+            Illinois Clean Energy Community Foundation
+          </a>
+          <p class="margin-top-0">
+            The Foundation was established in December 1999 as an independent
+            foundation with a $225 million endowment provided by Commonwealth
+            Edison. Their mission is to improve energy efficiency, advance the
+            development and use of renewable energy resources, and protect
+            natural areas and wildlife habitat in communities all across
+            Illinois.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Natural Resources">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="http://www.water.ca.gov/urbanstreams/"
+            class="usa-link usa-link--external"
+          >
+            California Urban Streams Restoration Program
+          </a>
+          <p class="margin-top-0">
+            This program provides grants for a variety of activities, including
+            the following: creek cleanups, eradication of exotic or invasive
+            plants; revegetation efforts; bioengineering bank stabilization
+            projects; channel reconfiguration to improve stream geomorphology
+            and aquatic habitat functions; acquisition of parcels critical for
+            flood management; and coordination of community involvement in
+            projects.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.nfwf.org/fivestar/Pages/home.aspx"
+            class="usa-link usa-link--external"
+          >
+            Five Star and Urban Waters Restoration Program
+          </a>
+          <p class="margin-top-0">
+            Sponsored by the National Fish and Wildlife Federation, seeks to
+            develop nation-wide-community stewardship of local natural
+            resources, preserving these resources for future generations and
+            enhancing habitat for local wildlife. Projects seek to address water
+            quality issues in priority watersheds, such as erosion due to
+            unstable streambanks, pollution from stormwater runoff, and degraded
+            shorelines caused by development.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/great-lakes-funding"
+            class="usa-link usa-link--external"
+          >
+            Great Lakes Restoration Initiative
+          </a>
+          <p class="margin-top-0">
+            EPA's Great Lakes program administers grants, cooperative agreements
+            and contracts. The Great Lakes Restoration Initiative is the largest
+            investment in the Great Lakes in two decades and funds a variety of
+            activities including grants and the direct implementation of Great
+            Lakes Legacy Act projects.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.illinoiscleanenergy.org/"
+            class="usa-link usa-link--external"
+          >
+            Illinois Clean Energy Community Foundation
+          </a>
+          <p class="margin-top-0">
+            The Foundation was established in December 1999 as an independent
+            foundation with a $225 million endowment provided by Commonwealth
+            Edison. Their mission is to improve energy efficiency, advance the
+            development and use of renewable energy resources, and protect
+            natural areas and wildlife habitat in communities all across
+            Illinois.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.nationalforests.org/grant-programs"
+            class="usa-link usa-link--external"
+          >
+            National Forest Foundation Grants
+          </a>
+          <p class="margin-top-0">
+            Through its on-the-ground conservation programs, the National Forest
+            Foundation supports action-oriented projects that directly enhance
+            the health and well-being of America's National Forests and
+            Grasslands and that engage the public in stewardship. Nonprofit
+            organizations dedicated to addressing natural resource issues on
+            National Forests and Grasslands can apply for support to complete
+            projects through three distinct grant programs. Additionally, the
+            NFF provides funding opportunities that address specific strategic
+            initiatives aligned with our mission and goals.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.fws.gov/service/north-american-wetlands-conservation-act-nawca-us-small-grants"
+            class="usa-link usa-link--external"
+          >
+            North American Wetlands Conservation Act Small Grants
+          </a>
+          <p class="margin-top-0">
+            The Small Grants Program is a competitive, matching grants program
+            that supports public-private partnerships carrying out projects in
+            the United States that further the goals of the North American
+            Wetlands Conservation Act. These projects must involve long-term
+            protection, restoration, and/or enhancement of wetlands and
+            associated uplands habitats for the benefit of all
+            wetlands-associated migratory birds.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a href="http://www.glpf.org/" class="usa-link usa-link--external">
+            The Great Lakes Protection Fund
+          </a>
+          <p class="margin-top-0">
+            This fund welcomes preproposals for projects that enhance the health
+            of the Great Lakes ecosystem. Applicants should propose projects
+            that will return the greatest ecosystem benefits. Current Fund
+            interests include Preventing Biological Pollution, Restoring Natural
+            Flow Regimes and Using Market Mechanisms for Environmental
+            Improvement. Additional projects are sought to add to, and expand
+            Fund supported work in these areas. Preproposals may be submitted at
+            any time. The Fund will begin to review preproposals upon receipt.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/wetlands/wetland-program-development-grants-and-epa-wetlands-grant-coordinators"
+            class="usa-link usa-link--external"
+          >
+            Wetlands Program Development Grants
+          </a>
+          <p class="margin-top-0">
+            The Wetland Program Development Grants (WPDGs), initiated in FY90,
+            provide eligible applicants an opportunity to conduct projects that
+            promote the coordination and acceleration of research,
+            investigations, experiments, training, demonstrations, surveys, and
+            studies relating to the causes, effects, extent, prevention,
+            reduction, and elimination of water pollution.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Pollution Prevention">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="https://www.epa.gov/p2/grant-programs-pollution-prevention"
+            class="usa-link usa-link--external"
+          >
+            EPA Grant Programs for Pollution Prevention
+          </a>
+          <p class="margin-top-0">
+            The program funds two-year Pollution Prevention (P2) assistance
+            agreements for projects expected to be performed in each EPA region
+            that provide technical assistance and/or training to
+            businesses/facilities to help them adopt source reduction approaches
+            (also known as P2).
+          </p>
+        </li>
+        <hr />
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Solid Waste">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="http://www.in.gov/idem/4103.htm"
+            class="usa-link usa-link--external"
+          >
+            The Indiana Department of Environmental Management Grants
+          </a>
+          <p class="margin-top-0">
+            The department offers grants to help start or expand source
+            reduction, recycling, composting, and household hazardous waste
+            programs in Indiana.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://programs.iowadnr.gov/swap/"
+            class="usa-link usa-link--external"
+          >
+            The Iowa Solid Waste Alternatives Program (SWAP)
+          </a>
+          <p class="margin-top-0">
+            This program works to reduce the amount of solid waste generated and
+            landfilled in Iowa. Through a competitive process, financial
+            assistance is available for a variety of projects, including source
+            reduction, recycling and education.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Sustainability">
+      <ul class="usa-list">
+        <li>
+          <a href="http://www.packard.org/" class="usa-link usa-link--external">
+            David and Lucile Packard Foundation
+          </a>
+          <p class="margin-top-0">
+            The Foundation's Conservation and Science Program is focused on the
+            challenge of sustainability--finding paths for human progress that
+            protect and restore the ecological systems upon which all life
+            depends. We invest in action and in ideas, supporting initiatives to
+            secure public policy reforms to changes in private sector practices
+            and scientific activities to develop essential knowledge and tools
+            for understanding and addressing current and future priorities. The
+            Program supports work on four priorities: Oceans and Coasts,
+            Atmosphere, Sustainability Science, and Packard Fellowships for
+            Science and Engineering.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a href="http://www.noyes.org/" class="usa-link usa-link--external">
+            Jessie Smith Noyes Foundation
+          </a>
+          <p class="margin-top-0">
+            The foundation is committed to protecting and restoring the earth's
+            natural systems and promoting a sustainable society by strengthening
+            individuals, institutions, and communities pledged to pursue those
+            goals. Nationally, the Foundation makes grants primarily in the
+            areas of environment and reproductive rights. In the New York
+            metropolitan area, grants are made to local environmental
+            organizations. There is no application deadline, and complete
+            application procedures are available on the website.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.pca.state.mn.us/about-mpca/environmental-assistance-grants-and-loans-program"
+            class="usa-link usa-link--external"
+          >
+            Minnesota Environmental Assistance (EA) Open Grant Program
+          </a>
+          <p class="margin-top-0">
+            The EA grant program was established to provide financial assistance
+            for the development of environmentally sustainable practices in
+            Minnesota through voluntary partnerships and goal-oriented,
+            economically driven approaches to pollution prevention and resource
+            conservation.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.rbf.org/program/sustainable-development"
+            class="usa-link usa-link--external"
+          >
+            Rockefeller Brothers Fund Sustainable Development
+          </a>
+          <p class="margin-top-0">
+            The Rockefeller Brothers Fund (RBF) sustainable development
+            grantmaking endeavors to support environmental stewardship that is
+            ecologically based, economically sound, socially just, culturally
+            appropriate, and consistent with intergenerational equity. The Fund
+            encourages government, business, and civil society to work
+            collaboratively on environmental conservation and to make it an
+            integral part of all development planning and activity. Recognizing
+            the global nature of many environmental problems, the Fund also
+            promotes international cooperation in addressing these challenges.
+            Awards range from $25,000 to $300,000. A preliminary letter of
+            inquiry is recommended.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="http://www.joycefdn.org/"
+            class="usa-link usa-link--external"
+          >
+            The Joyce Foundation
+          </a>
+          <p class="margin-top-0">
+            The foundation focuses its grantmaking on initiatives that promise
+            to have an impact on the Great Lakes region, specifically the states
+            of Illinois, Indiana, Iowa, Michigan, Minnesota, Ohio, and
+            Wisconsin. A small number of environment grants are made to
+            organizations in Canada. Grant program areas include Education,
+            Employment, Environment, Gun Violence, Money and Politics, and
+            Culture. The Foundation supports the development, testing, and
+            implementation of policy-based, prevention-oriented, scientifically
+            sound solutions to the environmental challenges facing the region,
+            especially those that center around water. Grant proposals are
+            considered at meetings of the Foundation's Board of Directors in
+            April, July, and December.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+    <SlottedAccordian title="Water">
+      <ul class="usa-list">
+        <li>
+          <a
+            href="http://www.water.ca.gov/urbanstreams/"
+            class="usa-link usa-link--external"
+          >
+            California Urban Streams Restoration Program
+          </a>
+          <p class="margin-top-0">
+            This program provides grants for a variety of activities, including
+            the following: creek cleanups, eradication of exotic or invasive
+            plants; revegetation efforts; bioengineering bank stabilization
+            projects; channel reconfiguration to improve stream geomorphology
+            and aquatic habitat functions; acquisition of parcels critical for
+            flood management; and coordination of community involvement in
+            projects.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/drinkingwatersrf"
+            class="usa-link usa-link--external"
+          >
+            Drinking Water State Revolving Fund (DWSRF)
+          </a>
+          <p class="margin-top-0">
+            The Safe Drinking Water Act, as amended in 1996, established the
+            Drinking Water State Revolving Fund to make funds available to
+            drinking water systems to finance infrastructure improvements. The
+            program also emphasizes providing funds to small and disadvantaged
+            communities and to programs that encourage pollution prevention as a
+            tool for ensuring safe drinking water.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a href="http://www.epa.gov/chef" class="usa-link usa-link--external">
+            EPA's New Clearinghouse for Environmental Finance
+          </a>
+          <p class="margin-top-0">
+            EPA's online database of land, air, and water information. This new
+            Clearinghouse catalogues available funding, financing, and
+            instructional resources to aid communities in their efforts to
+            improve environmental conditions.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/nps/funding-resources-watershed-protection-and-restoration"
+            class="usa-link usa-link--external"
+          >
+            Funding Resources for Watershed Protection and Restoration
+          </a>
+          <p class="margin-top-0">
+            This EPA website collates a number of potential sources of funding
+            for watershed protection and restoration.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.fws.gov/service/north-american-wetlands-conservation-act-nawca-us-small-grants"
+            class="usa-link usa-link--external"
+          >
+            North American Wetlands Conservation Act Small Grants
+          </a>
+          <p class="margin-top-0">
+            The Small Grants Program is a competitive, matching grants program
+            that supports public-private partnerships carrying out projects in
+            the United States that further the goals of the North American
+            Wetlands Conservation Act. These projects must involve long-term
+            protection, restoration, and/or enhancement of wetlands and
+            associated uplands habitats for the benefit of all
+            wetlands-associated migratory birds.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/water-pollution-control-section-106-grants"
+            class="usa-link usa-link--external"
+          >
+            Water Pollution Control Program Grants
+          </a>
+          <p class="margin-top-0">
+            Section 106 of the Clean Water Act authorizes EPA to provide federal
+            assistance to states (including territories, the District of
+            Columbia, and Indian Tribes) and interstate agencies to establish
+            and implement ongoing water pollution control programs. Prevention
+            and control measures supported by State Water Quality Management
+            programs include permitting, pollution control activities,
+            surveillance, monitoring, and enforcement; advice and assistance to
+            local agencies; and the provision of training and public
+            information.
+          </p>
+        </li>
+        <hr />
+        <li>
+          <a
+            href="https://www.epa.gov/wetlands/wetland-program-development-grants-and-epa-wetlands-grant-coordinators"
+            class="usa-link usa-link--external"
+          >
+            Wetlands Program Development Grants
+          </a>
+          <p class="margin-top-0">
+            The Wetland Program Development Grants (WPDGs), initiated in FY90,
+            provide eligible applicants an opportunity to conduct projects that
+            promote the coordination and acceleration of research,
+            investigations, experiments, training, demonstrations, surveys, and
+            studies relating to the causes, effects, extent, prevention,
+            reduction, and elimination of water pollution.
+          </p>
+        </li>
+      </ul>
+    </SlottedAccordian>
+  </PageWithSideBarNav>
+</RootLayout>
