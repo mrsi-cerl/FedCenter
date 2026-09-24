@@ -5,7 +5,7 @@ externalUrl: http://betterbuildingssolutioncenter.energy.gov/resources/protect-a
 programArea: Natural Resources
 publishDate: 1/28/2016
 subCategory:
-  - <A name=watercons></A>Water Conservation
+  - Water Conservation
 title: Protect and Conserve Water - Whole Building Design Guide
 ---
 

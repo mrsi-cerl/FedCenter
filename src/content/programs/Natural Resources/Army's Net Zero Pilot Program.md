@@ -5,7 +5,7 @@ externalUrl: http://www.army.mil/-news/2011/04/20/55280-army-launches-net-zero-p
 programArea: Natural Resources
 publishDate: 5/17/2011
 subCategory:
-  - <A name=watercons></A>Water Conservation
+  - Water Conservation
 title: Army's Net Zero Pilot Program
 ---
 

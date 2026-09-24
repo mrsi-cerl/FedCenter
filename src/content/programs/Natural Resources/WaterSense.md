@@ -5,7 +5,7 @@ externalUrl: http://www.epa.gov/watersense/
 programArea: Natural Resources
 publishDate: 12/5/2006
 subCategory:
-  - <A name=watercons></A>Water Conservation
+  - Water Conservation
 title: WaterSense
 ---
 

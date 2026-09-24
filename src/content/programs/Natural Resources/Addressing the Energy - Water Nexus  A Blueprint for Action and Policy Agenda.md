@@ -5,7 +5,7 @@ externalUrl: http://aceee.org/white-paper/addressing-the-energy-water-nexus
 programArea: Natural Resources
 publishDate: 5/24/2011
 subCategory:
-  - <A name=watercons></A>Water Conservation
+  - Water Conservation
 title: "Addressing the Energy - Water Nexus:  A Blueprint for Action and Policy Agenda"
 ---
 
