@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: http://www.permits.performance.gov/tools/nepa-rules
 itemId: 788
 programAreas:
-- NEPA:
-  - Libraries and Repositories
+  - NEPA:
+      - Libraries and Repositories
 publishDate: 2/4/2005
 title: Agency NEPA Procedures
 ---

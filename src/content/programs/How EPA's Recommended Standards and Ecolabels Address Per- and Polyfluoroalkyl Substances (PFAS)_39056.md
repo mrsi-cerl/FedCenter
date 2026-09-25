@@ -3,12 +3,13 @@ expiryDate: null
 externalURL: http://www.epa.gov/system/files/documents/2023-06/how-recommended-standards-ecolabels-address-pfas.pdf
 itemId: 39056
 programAreas:
-- Acquisition:
-  - Guidance
-- PFAS Resources:
-  - Federal Agency Resources
+  - Acquisition:
+      - Guidance
+  - PFAS:
+      - Federal Agency Resources
 publishDate: 2/7/2022
-title: How EPA's Recommended Standards and Ecolabels Address Per- and Polyfluoroalkyl
+title:
+  How EPA's Recommended Standards and Ecolabels Address Per- and Polyfluoroalkyl
   Substances (PFAS)
 ---
 

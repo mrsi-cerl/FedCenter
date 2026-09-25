@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: www.center4research.org/what-is-pfas-health-risks/
 itemId: 44246
 programAreas:
-- PFAS Resources:
-  - Libraries, Repositories, and Research
+  - PFAS:
+      - Libraries, Repositories, and Research
 publishDate: 8/5/2026
 title: What Are PFAS Chemicals and Why Are They Dangerous?
 ---

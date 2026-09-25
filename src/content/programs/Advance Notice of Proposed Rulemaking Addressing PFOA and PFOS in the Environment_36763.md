@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: https://www.epa.gov/sites/default/files/2021-01/documents/frl-10019-13-olem_addressing_pfoa_pfos_anprm_20210113_admin-508.pdf
 itemId: 36763
 programAreas:
-- PFAS Resources:
-  - State, National and International Regulations
+  - PFAS:
+      - State, National and International Regulations
 publishDate: 4/14/2021
 title: Advance Notice of Proposed Rulemaking Addressing PFOA and PFOS in the Environment
 ---

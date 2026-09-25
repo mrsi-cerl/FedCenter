@@ -1,13 +1,8 @@
 ---
-import { getCollection } from "astro:content";
-import RootLayout from "../../layouts/RootLayout.astro";
+import { programArea } from "@/constants";
 import ProgramPage from "../../layouts/ProgramPage.astro";
-import { sideBarConstants, sideBarForPrograms } from "../../constants";
 
-const chemicalPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("Chemical");
-});
-
+const collectionName = programArea.CHEMICAL;
 const pageTitle = "Chemical Management";
 
 const chemicalAreas = [
@@ -52,7 +47,7 @@ const chemicalAreas = [
 
 <ProgramPage
   programAreas={chemicalAreas}
-  posts={chemicalPosts}
+  collectionName={collectionName}
   pageTitle={pageTitle}
 >
   <p>

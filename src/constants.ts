@@ -26,14 +26,14 @@ export const sideBarConstants = {
 
 export enum programArea {
   ACQUISITION = "Acquisition",
-  CHEMICAL = "Chemical",
+  CHEMICAL = "Chemical Management",
   CLEANUP = "Cleanup",
   CLIMATE_RESILIENCE = "Climate Resilience",
   CULTURAL_RESOURCES = "Cultural Resources",
   ELECTRONICS_STEWARDSHIP = "Electronics Stewardship",
-  EMS = "EMS",
+  EMS = "Environmental Management Systems (EMS)",
   ENERGY = "Energy",
-  ENV_COMPLIANCE = "Env. Compliance",
+  ENV_COMPLIANCE = "Environmental Compliance",
   GREENHOUSE_GASES = "Greenhouse Gases",
   HIGH_PERFORMANCE_BUILDINGS = "High Performance Buildings",
   NATURAL_RESOURCES = "Natural Resources",

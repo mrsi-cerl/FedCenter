@@ -1,17 +1,8 @@
 ---
-import { getCollection } from "astro:content";
-import RootLayout from "../../layouts/RootLayout.astro";
+import { programArea } from "@/constants";
 import ProgramPage from "../../layouts/ProgramPage.astro";
-import { sideBarForPrograms } from "../../constants.ts";
-import { sideBarConstants } from "../../constants.ts";
 
-const culturalResourcesPosts = await getCollection(
-  "programPost",
-  ({ data }) => {
-    return data.programArea.includes("Cultural Resources");
-  }
-);
-
+const collectionName = programArea.CULTURAL_RESOURCES;
 const pageTitle = "Cultural Resources";
 
 const culturalResourcesAreas = [
@@ -54,7 +45,7 @@ const culturalResourcesAreas = [
 
 <ProgramPage
   programAreas={culturalResourcesAreas}
-  posts={culturalResourcesPosts}
+  collectionName={collectionName}
   pageTitle={pageTitle}
 >
   <p>

@@ -1,10 +1,10 @@
 ---
 expiryDate: null
-externalURL: ''
+externalURL: ""
 itemId: 43117
 programAreas:
-- PFAS Resources:
-  - Training, Presentations and Briefings
+  - PFAS:
+      - Training, Presentations and Briefings
 publishDate: 4/1/2025
 title: Developing PFAS-Free Firefighting Foams (Web-based, On-demand)
 ---

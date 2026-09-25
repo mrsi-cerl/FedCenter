@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: https://www.ewg.org/interactive-maps/pfas_contamination/map/
 itemId: 38550
 programAreas:
-- PFAS Resources:
-  - Databases and Software Tools
+  - PFAS:
+      - Databases and Software Tools
 publishDate: 10/12/2021
 title: PFAS Contamination in the U.S. Interactive Map
 ---

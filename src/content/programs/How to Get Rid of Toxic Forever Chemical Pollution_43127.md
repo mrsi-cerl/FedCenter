@@ -1,10 +1,10 @@
 ---
-expiryDate: '00:00.0'
+expiryDate: "00:00.0"
 externalURL: https://www.nature.com/articles/d41586-025-00932-4
 itemId: 43127
 programAreas:
-- PFAS Resources:
-  - Libraries, Repositories, and Research
+  - PFAS:
+      - Libraries, Repositories, and Research
 publishDate: 4/8/2025
 title: How to Get Rid of Toxic "Forever Chemical" Pollution
 ---

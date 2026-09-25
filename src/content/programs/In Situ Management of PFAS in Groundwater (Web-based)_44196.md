@@ -1,10 +1,10 @@
 ---
-expiryDate: '00:00.0'
+expiryDate: "00:00.0"
 externalURL: Online
 itemId: 44196
 programAreas:
-- PFAS Resources:
-  - Training, Presentations and Briefings
+  - PFAS:
+      - Training, Presentations and Briefings
 publishDate: 7/14/2026
 title: In Situ Management of PFAS in Groundwater (Web-based)
 ---

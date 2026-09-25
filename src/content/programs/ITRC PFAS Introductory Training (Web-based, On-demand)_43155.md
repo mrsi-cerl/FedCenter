@@ -3,10 +3,10 @@ expiryDate: null
 externalURL: https://www.clu-in.org/conf/itrc/PFAS-Introductory_091423/
 itemId: 43155
 programAreas:
-- Cleanup:
-  - Training, Presentations, and Briefings
-- PFAS Resources:
-  - Training, Presentations and Briefings
+  - Cleanup:
+      - Training, Presentations, and Briefings
+  - PFAS:
+      - Training, Presentations and Briefings
 publishDate: 4/16/2025
 title: ITRC PFAS Introductory Training (Web-based, On-demand)
 ---

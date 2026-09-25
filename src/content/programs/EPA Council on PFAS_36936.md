@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: https://www.epa.gov/pfas/memo-epa-council-pfas
 itemId: 36936
 programAreas:
-- PFAS Resources:
-  - Organizations and Programs
+  - PFAS:
+      - Organizations and Programs
 publishDate: 5/25/2021
 title: EPA Council on PFAS
 ---

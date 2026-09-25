@@ -3,10 +3,10 @@ expiryDate: null
 externalURL: https://www.epa.gov/risk/human-health-risk-models-and-tools
 itemId: 39572
 programAreas:
-- Cleanup:
-  - Databases and Software Tools
-- PFAS Resources:
-  - Databases and Software Tools
+  - Cleanup:
+      - Databases and Software Tools
+  - PFAS:
+      - Databases and Software Tools
 publishDate: 5/23/2022
 title: Regional Screening Levels for Chemical Contaminants at Superfund Sites
 ---

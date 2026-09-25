@@ -1,11 +1,8 @@
 ---
-import { getCollection } from "astro:content";
+import { programArea } from "@/constants";
 import ProgramPage from "../../layouts/ProgramPage.astro";
 
-const pfasPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("PFAS");
-});
-
+const collectionName = programArea.PFAS;
 const pageTitle = "PFAS";
 
 const pfasAreas = [
@@ -35,7 +32,11 @@ const pfasAreas = [
 ];
 ---
 
-<ProgramPage programAreas={pfasAreas} posts={pfasPosts} pageTitle={pageTitle}>
+<ProgramPage
+  programAreas={pfasAreas}
+  collectionName={collectionName}
+  pageTitle={pageTitle}
+>
   <p>
     The PFAS Resources Program Area consolidates information on PFAS compounds
     for federal agencies. This page includes information from federal, state,

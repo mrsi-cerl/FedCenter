@@ -3,10 +3,11 @@ expiryDate: null
 externalURL: http://www.epa.gov/system/files/documents/2026-06/draft-guidance-reducing-risk-pfoa-pfos-biosolids.pdf
 itemId: 44182
 programAreas:
-- PFAS Resources:
-  - Guidance
+  - PFAS:
+      - Guidance
 publishDate: 7/6/2026
-title: Draft Guidance for Reducing Risk from Perfluorooctanoic Acid (PFOA) and Perfluorooctane
+title:
+  Draft Guidance for Reducing Risk from Perfluorooctanoic Acid (PFOA) and Perfluorooctane
   Sulfonic Acid (PFOS) in Biosolids
 ---
 

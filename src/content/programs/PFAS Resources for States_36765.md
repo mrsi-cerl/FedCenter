@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: https://www.epa.gov/research-states/pfas-resources-states
 itemId: 36765
 programAreas:
-- PFAS Resources:
-  - Libraries, Repositories, and Research
+  - PFAS:
+      - Libraries, Repositories, and Research
 publishDate: 4/14/2021
 title: PFAS Resources for States
 ---

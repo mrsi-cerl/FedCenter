@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: https://www.acq.osd.mil/eie/eer/ecc/pfas/docs/reports/Report-on-Critical-PFAS-Substance-Uses.pdf
 itemId: 41590
 programAreas:
-- PFAS Resources:
-  - Federal Agency Resources
+  - PFAS:
+      - Federal Agency Resources
 publishDate: 11/27/2023
 title: DoD's Report on Critical Per- and Polyfluoroalkyl Substance Uses
 ---

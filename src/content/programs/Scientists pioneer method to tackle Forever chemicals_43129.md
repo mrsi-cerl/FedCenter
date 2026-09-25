@@ -1,10 +1,10 @@
 ---
-expiryDate: '00:00.0'
+expiryDate: "00:00.0"
 externalURL: https://www.sciencedaily.com/releases/2025/03/250331151253.htm
 itemId: 43129
 programAreas:
-- PFAS Resources:
-  - Libraries, Repositories, and Research
+  - PFAS:
+      - Libraries, Repositories, and Research
 publishDate: 4/8/2025
 title: Scientists pioneer method to tackle "Forever chemicals"
 ---

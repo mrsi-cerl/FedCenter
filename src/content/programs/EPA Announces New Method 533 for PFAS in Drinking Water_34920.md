@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: https://www.asdwa.org/2019/12/19/epa-announces-new-method-533-for-pfas-in-drinking-water/
 itemId: 34920
 programAreas:
-- PFAS Resources:
-  - Libraries, Repositories, and Research
+  - PFAS:
+      - Libraries, Repositories, and Research
 publishDate: 12/20/2019
 title: EPA Announces New Method 533 for PFAS in Drinking Water
 ---

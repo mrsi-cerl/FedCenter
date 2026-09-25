@@ -1,13 +1,15 @@
 ---
 expiryDate: null
-externalURL: http://https:www.epa.gov/system/files/documents/2022-12/NPDES_PFAS_State
+externalURL:
+  http://https:www.epa.gov/system/files/documents/2022-12/NPDES_PFAS_State
   Memo_December_2022.pdf
 itemId: 40223
 programAreas:
-- PFAS Resources:
-  - State, National and International Regulations
+  - PFAS:
+      - State, National and International Regulations
 publishDate: 12/7/2022
-title: EPA Memo Addressing PFAS Discharges in NPDES Permits and Through the Pretreatment
+title:
+  EPA Memo Addressing PFAS Discharges in NPDES Permits and Through the Pretreatment
   Program and Monitoring Programs
 ---
 

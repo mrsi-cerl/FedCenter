@@ -3,8 +3,8 @@ expiryDate: null
 externalURL: https://echo.epa.gov/trends/pfas-tools
 itemId: 40354
 programAreas:
-- PFAS Resources:
-  - Databases and Software Tools
+  - PFAS:
+      - Databases and Software Tools
 publishDate: 1/6/2023
 title: EPA PFAS Analytic Tools
 ---

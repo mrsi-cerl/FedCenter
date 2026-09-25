@@ -3,10 +3,10 @@ expiryDate: null
 externalURL: https://tdb.epa.gov/tdb/home
 itemId: 22387
 programAreas:
-- Environmental Compliance:
-  - Databases and Software Tools
-- PFAS Resources:
-  - Databases and Software Tools
+  - Environmental Compliance:
+      - Databases and Software Tools
+  - PFAS:
+      - Databases and Software Tools
 publishDate: 10/9/2012
 title: Drinking Water Treatability Database
 ---

@@ -1,13 +1,8 @@
 ---
-import { getCollection } from "astro:content";
-import RootLayout from "../../layouts/RootLayout.astro";
+import { programArea } from "@/constants";
 import ProgramPage from "../../layouts/ProgramPage.astro";
-import { sideBarConstants, sideBarForPrograms } from "../../constants";
 
-const cleanupPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("Cleanup");
-});
-
+const collectionName = programArea.CLEANUP;
 const pageTitle = "Cleanup";
 
 const cleanupAreas = [
@@ -54,7 +49,7 @@ const cleanupAreas = [
 
 <ProgramPage
   programAreas={cleanupAreas}
-  posts={cleanupPosts}
+  collectionName={collectionName}
   pageTitle={pageTitle}
 >
   <p>

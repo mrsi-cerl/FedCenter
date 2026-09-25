@@ -3,9 +3,9 @@ expiryDate: null
 externalURL: https://www.epa.gov/pfas
 itemId: 35492
 programAreas:
-- PFAS Resources:
-  - Libraries, Repositories, and Research
-  - Guidance
+  - PFAS:
+      - Libraries, Repositories, and Research
+      - Guidance
 publishDate: 5/20/2020
 title: EPA's PFAS Action Plan
 ---

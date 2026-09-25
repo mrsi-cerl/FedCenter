@@ -3,10 +3,11 @@ expiryDate: null
 externalURL: epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf
 itemId: 44024
 programAreas:
-- PFAS Resources:
-  - Guidance
+  - PFAS:
+      - Guidance
 publishDate: 5/5/2026
-title: Interim Guidance on the Destruction and Disposal of Perfluoroalkyl and Polyfluoroalkyl
+title:
+  Interim Guidance on the Destruction and Disposal of Perfluoroalkyl and Polyfluoroalkyl
   Substances and Materials Containing Perfluoroalkyl and Polyfluoroalkyl Substances
   (PFAS)
 ---
