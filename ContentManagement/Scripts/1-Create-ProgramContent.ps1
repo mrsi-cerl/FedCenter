@@ -15,6 +15,9 @@ catch {
   exit
 }
 
+# Create a shorter alias for MessageBox
+$MsgBox = [System.Windows.Forms.MessageBox]
+
 # Dynamically locate the module relative to the running script
 $ModulePath = "$PSScriptRoot\..\Modules\ContentModule\ContentModule.psm1"
 
@@ -383,14 +386,14 @@ function Start-ProgramContentGui {
         # }
 
         if ($selectedPandC.Count -le 0) {
-          [System.Windows.Forms.MessageBox]::Show("Please select at least one Program Area and Category .", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+          $MsgBox::Show("Please select at least one Program Area and Category .", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
           return
         }
 
         # Title
         $title = $txtTitle.Text.Trim()
         if ([string]::IsNullOrWhiteSpace($title)) {
-          [System.Windows.Forms.MessageBox]::Show("Please enter a Title.", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+          $MsgBox::Show("Please enter a Title.", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
           $txtTitle.Focus()
           return
         }
@@ -398,7 +401,7 @@ function Start-ProgramContentGui {
         # Body Content
         $text = $rtbContent.Text.Trim()
         if ([string]::IsNullOrWhiteSpace($text)) {
-          [System.Windows.Forms.MessageBox]::Show("Please enter body content.", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+          $MsgBox::Show("Please enter body content.", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
           $rtbContent.Focus()
           return
         }
@@ -417,14 +420,14 @@ function Start-ProgramContentGui {
         $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -ProgramsAndCategories $selectedPandC -Title $title -BodyText $bodyText -ItemId $txtItemId.Text.Trim() -PublishDate $publishDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
 
         $msg = "Successfully saved markdown file:`n`n" + ($savedFiles -join "`n")
-        [System.Windows.Forms.MessageBox]::Show($msg, "Success", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
+        $MsgBox::Show($msg, "Success", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
 
         # Get ready for the next one
         Clear-Form
 
       }
       catch {
-        [System.Windows.Forms.MessageBox]::Show("Error saving markdown file: $_", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
+        $MsgBox::Show("Error saving markdown file: $_", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
       }
     })
 
@@ -441,7 +444,6 @@ function Start-ProgramContentGui {
     $dtpStartDate.Checked = $false
     $dtpEndDate.Checked = $false
     $dtpExpiryDate.Checked = $false
-    $form.Text = "FedCenter - Create Program Content"
     $currentItemId = if ($txtItemId.Text.Trim() -as [int]) {
       (([int]$txtItemId.Text.Trim()) + 1).ToString()
     }
@@ -449,25 +451,13 @@ function Start-ProgramContentGui {
       Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
     }
     $txtItemId.Text = $currentItemId
-
-    # enable content inputs for new item
-    $grpContent.Enabled = $true
   }
 
-  $btnClear.add_Click(
-    {
+  $btnClear.add_Click({
       Clear-Form
-    }
-  )
+    })
 
   $btnExit.add_Click({
-      # $ChangedFiles = $(git status --porcelain | Measure-Object | Select-Object -expand Count)
-      # # We really only care about changed files under content directory
-      # if ($ChangedFiles -gt 0)
-      # {
-      #   [System.Windows.Forms.MessageBox]::Show("You have uncommitted changes. Don't forgot to commit and push your changes so they can go live.`n`nChanged files: $ChangedFiles", "Uncommited Changes", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
-      # }
-
       $form.Close()
     })
 
@@ -475,14 +465,14 @@ function Start-ProgramContentGui {
   [void]$form.ShowDialog()
 }
 
-# #### Fire it up
+# Fire it up
 
 $programsRootPath = Get-ContentRoot "Programs"
 if (-not $programsRootPath) {
-  Write-Warning "Could not automatically locate 'src/content/programs' directory."
+  Write-Warning "Could not automatically locate the Programs directory."
 }
 else {
-  Write-Host "Found FedCenter programs root at: $programsRootPath"
+  Write-Host "Found FedCenter Programs root at: $programsRootPath"
 }
 
 if (([System.Management.Automation.PSTypeName]'System.Windows.Forms.Form').Type) {
