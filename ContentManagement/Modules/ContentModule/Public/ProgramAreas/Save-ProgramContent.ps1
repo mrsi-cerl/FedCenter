@@ -1,8 +1,7 @@
 function Save-ProgramContent {
   param (
     [string]$ProgramsRoot,
-    [string[]]$SelectedPrograms,
-    [string[]]$SelectedSubCategories,
+    [hashtable]$ProgramsAndCategories,
     [string]$Title,
     [string]$BodyText,
     [string]$ItemId,
@@ -16,9 +15,20 @@ function Save-ProgramContent {
   if (-not (Test-Path $ProgramsRoot)) {
     throw "Programs root directory not found at '$ProgramsRoot'"
   }
-  if ($null -eq $SelectedPrograms -or $SelectedPrograms.Count -eq 0) {
-    throw "At least one Program Area must be selected."
+
+  if ($null -eq $ProgramsAndCategories -or $ProgramsAndCategories.Count -eq 0) {
+    throw "At least one Program Area and Category must be selected."
   }
+  else {
+    # Let's verify we got what we thought
+    Write-Host "Save-ProgramContent - Areas: " $ProgramsAndCategories.Count -ForegroundColor Blue
+    foreach ($key in $ProgramsAndCategories.Keys) {
+      foreach ($child in $ProgramsAndCategories[$key]) {
+        Write-Host "  - $key - $child" -ForegroundColor Red
+      }
+    }
+  }
+
   if ([string]::IsNullOrWhiteSpace($Title)) {
     throw "Title cannot be empty."
   }
@@ -32,19 +42,12 @@ function Save-ProgramContent {
 
   $createdFiles = @()
 
-  foreach ($pa in $SelectedPrograms) {
-    $paDir = Join-Path $ProgramsRoot $pa
-    if (-not (Test-Path $paDir)) {
-      New-Item -Path $paDir -ItemType Directory -Force | Out-Null
-    }
+  $filePath = Get-UniqueProgramContentFilePath -DirectoryPath $ProgramsRoot -Title $Title
+  $mdContent = Format-ProgramAreaMarkdownFrontmatter -ItemId $ItemId -ProgramAreaAndCategory $ProgramsAndCategories -PublishDate $PublishDate -EventType $EventType -StartDate $StartDate -EndDate $EndDate -ExpiryDate $ExpiryDate -Title $Title -Body $BodyText
 
-    $filePath = Get-UniqueProgramContentFilePath -DirectoryPath $paDir -Title $Title
-    $mdContent = Format-ProgramAreaMarkdownFrontmatter -ItemId $ItemId -ProgramArea $pa -PublishDate $PublishDate -EventType $EventType -StartDate $StartDate -EndDate $EndDate -ExpiryDate $ExpiryDate -SubCategories $SelectedSubCategories -Title $Title -Body $BodyText
-
-    # Write UTF-8 without BOM or standard UTF8
-    [System.IO.File]::WriteAllText($filePath, $mdContent, [System.Text.Encoding]::UTF8)
-    $createdFiles += $filePath
-  }
+  # Write UTF-8 without BOM or standard UTF8
+  [System.IO.File]::WriteAllText($filePath, $mdContent, [System.Text.Encoding]::UTF8)
+  $createdFiles += $filePath
 
   return [string[]]$createdFiles
 }

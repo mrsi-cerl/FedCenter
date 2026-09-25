@@ -21,6 +21,9 @@ $ModulePath = "$PSScriptRoot\..\Modules\ContentModule\ContentModule.psm1"
 # Import the shared functions
 Import-Module $ModulePath -Force
 
+# dot source the program area tree component
+. "$PSScriptRoot/1a-Create-TreeComponent.ps1"
+
 # ------------------------------------------------------------------------------
 # GUI Construction (Windows Forms)
 # ------------------------------------------------------------------------------
@@ -32,15 +35,13 @@ function Start-ProgramContentGui {
 
   [System.Windows.Forms.Application]::EnableVisualStyles()
 
-  # TODO: consider checking git status and notify if not up-to-date
-
   $currentItemId = Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
 
   # Form Setup
   $form = New-Object System.Windows.Forms.Form
   $form.Text = "FedCenter - Create Program Content"
-  $form.Size = New-Object System.Drawing.Size(950, 950)
-  $form.MinimumSize = New-Object System.Drawing.Size(800, 650)
+  $form.Size = New-Object System.Drawing.Size(1000, 900)
+  $form.MinimumSize = New-Object System.Drawing.Size(800, 750)
   $form.StartPosition = "CenterScreen"
   $form.BackColor = [System.Drawing.Color]::FromArgb(245, 247, 250)
   $form.Font = New-Object System.Drawing.Font("Segoe UI", 9.5)
@@ -52,9 +53,9 @@ function Start-ProgramContentGui {
   $mainPanel.RowCount = 4
   $mainPanel.ColumnCount = 2
 
-  # Row styles: Header (50px), Metadata/Category Selection (260px), Content Editor (100% fill), Action Bar (55px)
+  # Row styles: Header (50px), Metadata/Category Selection (260px), Action Bar (55px)
   [void]$mainPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 50)))
-  [void]$mainPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 260)))
+  [void]$mainPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 400)))
   [void]$mainPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
   [void]$mainPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 55)))
 
@@ -72,92 +73,20 @@ function Start-ProgramContentGui {
   $mainPanel.Controls.Add($headerLabel, 0, 0)
   $mainPanel.SetColumnSpan($headerLabel, 2)
 
-  # 2. Program Area Group Box (Left Panel - Single Select)
+  # 2. Program Area TreeView (1st column)
+  $programAreas = Get-ProgramAreasHash
+  $treeView = New-ProgramAreaTreeView -ProgramAreas $programAreas
+
   $grpPrograms = New-Object System.Windows.Forms.GroupBox
-  $grpPrograms.Text = "1. Select Program Area"
+  $grpPrograms.Text = "1. Select Program Area and Categories"
   $grpPrograms.Dock = "Fill"
   $grpPrograms.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
-
-  $lstPrograms = New-Object System.Windows.Forms.ListBox
-  $lstPrograms.Dock = "Fill"
-  $lstPrograms.SelectionMode = "One"
-  $lstPrograms.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Regular)
-
-  # Populate Program Areas
-  $programAreas = Get-ProgramAreas -ProgramsRoot $ProgramsRoot
-  foreach ($pa in $programAreas) {
-    [void]$lstPrograms.Items.Add($pa)
-  }
-
-  $grpPrograms.Controls.Add($lstPrograms)
+  $grpPrograms.Controls.Add($treeView)
   $mainPanel.Controls.Add($grpPrograms, 0, 1)
 
-  # 3. SubCategory Group Box (Right Panel)
-  $grpSubCat = New-Object System.Windows.Forms.GroupBox
-  $grpSubCat.Text = "2. Select SubCategory"
-  $grpSubCat.Dock = "Fill"
-  $grpSubCat.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
-
-  $subCatPanel = New-Object System.Windows.Forms.Panel
-  $subCatPanel.Dock = "Fill"
-
-  $subHeaderPanel = New-Object System.Windows.Forms.Panel
-  $subHeaderPanel.Dock = "Top"
-  $subHeaderPanel.Height = 30
-
-  $btnSubSelectAll = New-Object System.Windows.Forms.Button
-  $btnSubSelectAll.Text = "Select All"
-  $btnSubSelectAll.Size = New-Object System.Drawing.Size(75, 24)
-  $btnSubSelectAll.Location = New-Object System.Drawing.Point(0, 3)
-  $btnSubSelectAll.Font = New-Object System.Drawing.Font("Segoe UI", 8.5, [System.Drawing.FontStyle]::Regular)
-
-  $btnSubClearAll = New-Object System.Windows.Forms.Button
-  $btnSubClearAll.Text = "Clear All"
-  $btnSubClearAll.Size = New-Object System.Drawing.Size(75, 24)
-  $btnSubClearAll.Location = New-Object System.Drawing.Point(80, 3)
-  $btnSubClearAll.Font = New-Object System.Drawing.Font("Segoe UI", 8.5, [System.Drawing.FontStyle]::Regular)
-
-  $subHeaderPanel.Controls.Add($btnSubSelectAll)
-  $subHeaderPanel.Controls.Add($btnSubClearAll)
-
-  $lstSubCategories = New-Object System.Windows.Forms.CheckedListBox
-  $lstSubCategories.Dock = "Fill"
-  $lstSubCategories.CheckOnClick = $true
-  $lstSubCategories.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Regular)
-
-  $subCatPanel.Controls.Add($lstSubCategories)
-  $subCatPanel.Controls.Add($subHeaderPanel)
-  $grpSubCat.Controls.Add($subCatPanel)
-  $mainPanel.Controls.Add($grpSubCat, 1, 1)
-
-  # Update SubCategories when single Program Area selection changes
-  $lstPrograms.add_SelectedIndexChanged({
-      $selectedPA = $lstPrograms.SelectedItem
-      Write-Host "Selected Program Area: " $selectedPA
-      $lstSubCategories.Items.Clear()
-      if (-not [string]::IsNullOrWhiteSpace($selectedPA)) {
-        $availableSubs = Get-SubCategoriesForProgram -ProgramArea $selectedPA
-        foreach ($sub in $availableSubs) {
-          [void]$lstSubCategories.Items.Add($sub, $false)
-        }
-      }
-    })
-
-  $btnSubSelectAll.add_Click({
-      for ($i = 0; $i -lt $lstSubCategories.Items.Count; $i++) {
-        $lstSubCategories.SetItemChecked($i, $true)
-      }
-    })
-
-  $btnSubClearAll.add_Click({
-      for ($i = 0; $i -lt $lstSubCategories.Items.Count; $i++) {
-        $lstSubCategories.SetItemChecked($i, $false)
-      }
-    })
-
-  # 4. Details & Content Editor Group Box (Spans Row 2 across both columns)
+  # 3. Details Group Box (2nd column)
   $grpContent = New-Object System.Windows.Forms.GroupBox
-  $grpContent.Text = "3. Entry Details \& Content"
+  $grpContent.Text = "2. Entry Details"
   $grpContent.Dock = "Fill"
   $grpContent.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
 
@@ -173,7 +102,6 @@ function Start-ProgramContentGui {
   [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 4: Event Type
   [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 5: Start Date
   [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Absolute, 35))) # Row 6: End Date
-  [void]$contentContainer.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100))) # Row 7: Editor
 
   [void]$contentContainer.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Absolute, 80)))
   [void]$contentContainer.ColumnStyles.Add((New-Object System.Windows.Forms.ColumnStyle([System.Windows.Forms.SizeType]::Percent, 100)))
@@ -263,6 +191,16 @@ function Start-ProgramContentGui {
   $contentContainer.Controls.Add($dtpStartDate, 1, 5)
   $contentContainer.Controls.Add($lblEndDate, 0, 6)
   $contentContainer.Controls.Add($dtpEndDate, 1, 6)
+
+  $grpContent.Controls.Add($contentContainer)
+  $mainPanel.Controls.Add($grpContent, 1, 1)
+
+  # 4. Body Content Editor
+  $grpBody = New-Object System.Windows.Forms.GroupBox
+  $grpBody.Text = "3. Item Body Content"
+  $grpBody.Dock = "Fill"
+  $grpBody.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
+  $mainPanel.Controls.Add($grpBody)
 
   # Rich Text Editor Box with Formatting Toolbar
   $editorPanel = New-Object System.Windows.Forms.Panel
@@ -372,12 +310,9 @@ function Start-ProgramContentGui {
   $editorPanel.Controls.Add($rtbContent)
   $editorPanel.Controls.Add($toolbar)
 
-  $contentContainer.Controls.Add($editorPanel, 0, 7)
-  $contentContainer.SetColumnSpan($editorPanel, 2)
-
-  $grpContent.Controls.Add($contentContainer)
-  $mainPanel.Controls.Add($grpContent, 0, 2)
-  $mainPanel.SetColumnSpan($grpContent, 2)
+  $grpBody.Controls.Add($editorPanel)
+  $mainPanel.Controls.Add($grpBody, 0, 2)
+  $mainPanel.SetColumnSpan($grpBody, 2)
 
   # 5. Bottom Action Bar (Row 3)
   $actionPanel = New-Object System.Windows.Forms.FlowLayoutPanel
@@ -393,14 +328,6 @@ function Start-ProgramContentGui {
   $btnSave.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
   $btnSave.FlatStyle = "Flat"
 
-  $btnCommit = New-Object System.Windows.Forms.Button
-  $btnCommit.Text = "Publish Changes"
-  $btnCommit.Size = New-Object System.Drawing.Size(130, 36)
-  $btnCommit.BackColor = [System.Drawing.Color]::FromArgb(34, 139, 34)
-  $btnCommit.ForeColor = [System.Drawing.Color]::White
-  $btnCommit.Font = New-Object System.Drawing.Font("Segoe UI", 9.0, [System.Drawing.FontStyle]::Bold)
-  $btnCommit.FlatStyle = "Flat"
-
   $btnClear = New-Object System.Windows.Forms.Button
   $btnClear.Text = "New Item"
   $btnClear.Size = New-Object System.Drawing.Size(100, 36)
@@ -411,15 +338,8 @@ function Start-ProgramContentGui {
   $btnExit.Size = New-Object System.Drawing.Size(90, 36)
   $btnExit.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
 
-  # $btnLoad = New-Object System.Windows.Forms.Button
-  # $btnLoad.Text = "Load File"
-  # $btnLoad.Size = New-Object System.Drawing.Size(100, 36)
-  # $btnLoad.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
-
   $actionPanel.Controls.Add($btnSave)
-  $actionPanel.Controls.Add($btnCommit)
   $actionPanel.Controls.Add($btnClear)
-  # $actionPanel.Controls.Add($btnLoad)
   $actionPanel.Controls.Add($btnExit)
 
   $mainPanel.Controls.Add($actionPanel, 0, 3)
@@ -432,23 +352,39 @@ function Start-ProgramContentGui {
 
       try {
         # Verify required fields have data before continuing
-        # Program Area
-        $selectedPA = $lstPrograms.SelectedItem
-        if ([string]::IsNullOrWhiteSpace($selectedPA)) {
-          [System.Windows.Forms.MessageBox]::Show("Please select a Program Area.", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
-          return
+
+        # Program Areas and Categories - we can have more than one
+        $selectedPandC = @{}
+
+        # Create the hashtable (subset of original) of those selected
+        foreach ($parent in $treeView.Nodes) {
+          $paName = $parent.Text
+          Write-Host "Checking $paName for checked subcategories..."
+          foreach ($child in $parent.Nodes) {
+            if ($child.Checked) {
+              $childName = $child.Text
+              Write-Host "  - Adding $childName"
+              if (-not $selectedPandC.ContainsKey($paName)) {
+                $selectedPandC[$paName] = @($childName)
+              }
+              else {
+                $selectedPandC[$paName] += $childName
+              }
+            }
+          }
         }
 
-        # Sub-Categories
-        if ($lstSubCategories.CheckedItems.Count -le 0) {
-          [System.Windows.Forms.MessageBox]::Show("Please select sub-categories.", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
-          $lstSubCategories.Focus()
-          return
-        }
+        # Let's verify we got what we thought
+        # Write-Host "This is what we found as selected: " $selectedPandC.Count -ForegroundColor Blue
+        # foreach ($key in $selectedPandC.Keys) {
+        #   foreach ($child in $selectedPandC[$key]) {
+        #     Write-Host "  - $key - $child" -ForegroundColor Red
+        #   }
+        # }
 
-        $selectedSubs = @()
-        foreach ($sub in $lstSubCategories.CheckedItems) {
-          $selectedSubs += $sub.ToString()
+        if ($selectedPandC.Count -le 0) {
+          [System.Windows.Forms.MessageBox]::Show("Please select at least one Program Area and Category .", "Validation Warning", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+          return
         }
 
         # Title
@@ -478,13 +414,13 @@ function Start-ProgramContentGui {
         $endDate = if ($dtpEndDate.Checked) { $dtpEndDate.Value.ToString("M/d/yyyy HH:mm") } else { "" }
         $expiryDate = if ($dtpExpiryDate.Checked) { $dtpExpiryDate.Value.ToString("M/d/yyyy") } else { "" }
 
-        $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -SelectedPrograms @($selectedPA) -SelectedSubCategories $selectedSubs -Title $title -BodyText $bodyText -ItemId $txtItemId.Text.Trim() -PublishDate $publishDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
+        $savedFiles = Save-ProgramContent -ProgramsRoot $ProgramsRoot -ProgramsAndCategories $selectedPandC -Title $title -BodyText $bodyText -ItemId $txtItemId.Text.Trim() -PublishDate $publishDate -EventType $eventType -StartDate $startDate -EndDate $endDate -ExpiryDate $expiryDate
 
         $msg = "Successfully saved markdown file:`n`n" + ($savedFiles -join "`n")
         [System.Windows.Forms.MessageBox]::Show($msg, "Success", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
 
-        # Set content READ-ONLY to ensure they don't change between program area selections
-        $grpContent.Enabled = $false
+        # Get ready for the next one
+        Clear-Form
 
       }
       catch {
@@ -492,40 +428,37 @@ function Start-ProgramContentGui {
       }
     })
 
-  $btnClear.add_Click({
-      $txtTitle.Clear()
-      $rtbContent.Clear()
-      $lstPrograms.ClearSelected()
-      $lstSubCategories.Items.Clear()
-      $cbEventType.SelectedIndex = -1
-      $dtpPublishDate.Value = Get-Date
-      $dtpStartDate.Checked = $false
-      $dtpEndDate.Checked = $false
-      $dtpExpiryDate.Checked = $false
-      $form.Text = "FedCenter - Create Program Content"
-      $currentItemId = if ($txtItemId.Text.Trim() -as [int]) {
-        (([int]$txtItemId.Text.Trim()) + 1).ToString()
+  function Clear-Form {
+    $txtTitle.Clear()
+    $rtbContent.Clear()
+    foreach ($parentGroup in $treeView.Nodes) {
+      foreach ($child in $parentGroup.Nodes) {
+        $child.Checked = $false
       }
-      else {
-        Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
-      }
-      $txtItemId.Text = $currentItemId
+    }
+    $cbEventType.SelectedIndex = -1
+    $dtpPublishDate.Value = Get-Date
+    $dtpStartDate.Checked = $false
+    $dtpEndDate.Checked = $false
+    $dtpExpiryDate.Checked = $false
+    $form.Text = "FedCenter - Create Program Content"
+    $currentItemId = if ($txtItemId.Text.Trim() -as [int]) {
+      (([int]$txtItemId.Text.Trim()) + 1).ToString()
+    }
+    else {
+      Get-NextUniqueItemId -ProgramsRoot $ProgramsRoot
+    }
+    $txtItemId.Text = $currentItemId
 
-      # enable content inputs for new item
-      $grpContent.Enabled = $true
-    })
+    # enable content inputs for new item
+    $grpContent.Enabled = $true
+  }
 
-  $btnCommit.add_Click({
-      try {
-        Invoke-FedCenterContentCommitPush -StartingPath $ProgramsRoot -ParentWindow $form
-      }
-      catch {
-        [System.Windows.Forms.MessageBox]::Show(
-          "Commit/Push failed:`n$_", "Error",
-          [System.Windows.Forms.MessageBoxButtons]::OK,
-          [System.Windows.Forms.MessageBoxIcon]::Error)
-      }
-    })
+  $btnClear.add_Click(
+    {
+      Clear-Form
+    }
+  )
 
   $btnExit.add_Click({
       # $ChangedFiles = $(git status --porcelain | Measure-Object | Select-Object -expand Count)

@@ -1,13 +1,12 @@
 function Format-ProgramAreaMarkdownFrontmatter {
   param (
     [string]$ItemId,
-    [string]$ProgramArea,
+    [hashtable]$ProgramAreaAndCategory,
     [string]$PublishDate,
     [string]$EventType,
     [string]$StartDate,
     [string]$EndDate,
     [string]$ExpiryDate,
-    [string[]]$SubCategories,
     [string]$Title,
     [string]$Body
   )
@@ -25,19 +24,25 @@ function Format-ProgramAreaMarkdownFrontmatter {
     [void]$sb.AppendLine("title: $Title")
   }
 
-  [void]$sb.AppendLine("programArea: $ProgramArea")
-  [void]$sb.AppendLine("subCategory:")
+  Write-Host "Preparing to write programArea and subCategories"
+  [void]$sb.AppendLine("programAreas:")
+  foreach ($pa in $ProgramAreaAndCategory.Keys) {
+    [void]$sb.AppendLine("  - $pa")
 
-  if ($null -ne $SubCategories -and $SubCategories.Count -gt 0) {
-    foreach ($sc in $SubCategories) {
-      if (-not [string]::IsNullOrWhiteSpace($sc)) {
-        [void]$sb.AppendLine("- $sc")
+    $subCategories = $ProgramAreaAndCategory[$pa]
+    if ($null -ne $subCategories -and $subCategories.Count -gt 0) {
+      foreach ($sc in $subCategories) {
+        if (-not [string]::IsNullOrWhiteSpace($sc)) {
+          Write-Host "Writing Category: " $sc
+          [void]$sb.AppendLine("    - $sc")
+        }
       }
     }
+    else {
+      [void]$sb.AppendLine("    - General")
+    }
   }
-  else {
-    [void]$sb.AppendLine("- General")
-  }
+  Write-Host "Done writing program areas and subcategories"
 
   [void]$sb.AppendLine("publishDate: $PublishDate")
   # Optional expiry date
