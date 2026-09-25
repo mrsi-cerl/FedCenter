@@ -1,0 +1,14 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/risk/human-health-risk-models-and-tools
+itemId: 39572
+programAreas:
+- Cleanup:
+  - Databases and Software Tools
+- PFAS Resources:
+  - Databases and Software Tools
+publishDate: 5/23/2022
+title: Regional Screening Levels for Chemical Contaminants at Superfund Sites
+---
+
+The RSL website is the source of screening levels for all the EPA regions. The RSL tables provide comparison values for residential and commercial/industrial exposures to soil, air, and tapwater (drinking water). Here you will find tables of risk-based screening levels, calculated using the latest toxicity values, default exposure assumptions and physical and chemical properties, and a calculator where default parameters can be changed to reflect site-specific risks.

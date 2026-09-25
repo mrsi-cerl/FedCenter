@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.anl.gov/esia/vision-model
+itemId: 8145
+programAreas:
+- Transportation:
+  - Databases and Software Tools
+publishDate: 9/6/2007
+title: VISION
+---
+
+The VISION modeling tool provides estimates of the potential energy use, oil use, and carbon emission impacts through 2050 of advanced light and heavy-duty vehicle technologies and alternative fuels. The model consists of two Excel workbooks: a base case of U.S. highway fuel use and carbon emissions to 2050, and a copy of the base case that can be modified to reflect alternative assumptions about advanced vehicle and alternative fuel market penetration.

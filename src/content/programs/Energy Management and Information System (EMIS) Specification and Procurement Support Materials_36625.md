@@ -1,0 +1,15 @@
+---
+expiryDate: null
+externalURL: https://betterbuildingssolutioncenter.energy.gov/resources/emis-specification-and-procurement-support-materials
+itemId: 36625
+programAreas:
+- Acquisition:
+  - Databases and Software Tools
+- Energy:
+  - Databases and Software Tools
+publishDate: 3/10/2021
+title: Energy Management and Information System (EMIS) Specification and Procurement
+  Support Materials
+---
+
+This package of materials is intended to guide users through the specification, procurement, and selection of an Energy Management and Information System (EMIS) or related building performance monitoring and diagnostic technology. It includes a Request for Proposals (RFP) Template that can be filled out to create an organization- and project-specific RFP for vendors.

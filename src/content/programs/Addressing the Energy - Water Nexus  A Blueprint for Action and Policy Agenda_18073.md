@@ -1,0 +1,19 @@
+---
+expiryDate: null
+externalURL: http://aceee.org/white-paper/addressing-the-energy-water-nexus
+itemId: 18073
+programAreas:
+- Energy:
+  - Energy Conservation
+- Natural Resources:
+  - <A name=watercons></A>Water Conservation
+- &id001
+  Water Efficiency:
+  - Implementation Guidance
+  - Implementation Guidance
+- *id001
+publishDate: 5/24/2011
+title: 'Addressing the Energy - Water Nexus:  A Blueprint for Action and Policy Agenda'
+---
+
+Every drop of water saved in the U.S. saves energy, and every unit of energy saved saves water. That overlap has come to be known as the "energy-water nexus."  This report, from the American Council for an Energy -Efficient Economy (ACEEE) and the Alliance for Water Efficiency combines the energy efficiency community and the water efficiency community.  The report develops a blueprint for future joint efforts and envisions a policy agenda that could drive actions at the federal, state, local, and watershed levels.

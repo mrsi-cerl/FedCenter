@@ -1,0 +1,13 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/dwcapacity/water-system-partnerships-case-studies
+itemId: 14437
+programAreas:
+- Sustainability:
+  - Infrastructure
+publishDate: 2/1/2010
+title: Small Drinking Water System Case Studies on System Partnerships for Achieving
+  Sustainability
+---
+
+The U.S. EPA has issued a compilation of case studies, Gaining Operational and Managerial Efficiencies Through Water System Partnerships, to highlight various approaches small drinking water systems have taken to improve their technical and financial capacity by partnering with other water systems. This report presents examples of different partnership options ranging from informal arrangements, such as sharing equipment, to transferring ownership of a system through consolidation.

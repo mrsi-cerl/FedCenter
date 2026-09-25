@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: http://www.epa.gov/iris/
+itemId: 4331
+programAreas:
+- Chemical Management:
+  - Databases and Software Tools
+publishDate: 3/1/2006
+title: IRIS Database for Risk Assessment
+---
+
+IRIS is an EPA database of human health effects that may result from exposure to various substances found in the environment. IRIS was initially developed for EPA staff in response to a growing demand for consistent information on chemical substances for use in risk assessments, decision-making and regulatory activities. The information in IRIS is intended for those without extensive training in toxicology, but with some knowledge of health sciences.

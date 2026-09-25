@@ -1,0 +1,89 @@
+---
+expiryDate: null
+externalURL: http://www.epa.gov/ust/cleaning-underground-storage-tank-ust-releases
+itemId: 28727
+programAreas:
+- Chemical Management:
+  - Training, Presentations, and Briefings
+- Environmental Compliance:
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+publishDate: 11/16/2015
+title: Releases from Underground Storage Tanks
+---
+
+This EPA website provides and overview of the cleanup process as well as strategies that advance cleaning up stalled or legacy UST releases, as well as recently identified releases.

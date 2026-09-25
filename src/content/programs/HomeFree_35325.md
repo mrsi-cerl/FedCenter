@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://homefree.healthybuilding.net
+itemId: 35325
+programAreas:
+- Sustainability:
+  - Databases and Software Tools
+publishDate: 4/10/2020
+title: HomeFree
+---
+
+Sponsored by the Healthy Building Network (HBN), the goals of HomeFree are to raise awareness of toxic building materials and their associated health hazards, build the capacity of affordable housing practitioners to make informed decisions, and transform the current practice of affordable housing products specified to healthier options for everyone. This website offers guidance on choosing healthier building products.

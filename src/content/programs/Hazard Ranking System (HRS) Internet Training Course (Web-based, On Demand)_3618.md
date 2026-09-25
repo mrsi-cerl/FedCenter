@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/superfund/superfund-hazard-ranking-system-training-course
+itemId: 3618
+programAreas:
+- Cleanup:
+  - Training, Presentations, and Briefings
+publishDate: 12/8/2005
+title: Hazard Ranking System (HRS) Internet Training Course (Web-based, On Demand)
+---
+
+This training course provides details of the structure and application of the revised HRS and information related to the preparation of HRS packages, including HRS scoresheets, documentation records, and site summaries.

@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: http://cdx.epa.gov/
+itemId: 3167
+programAreas:
+- Environmental Compliance:
+  - Databases and Software Tools
+publishDate: 10/17/2005
+title: EPA's Central Data Exchange (CDX)
+---
+
+CDX is the point of entry on the Environmental Information Exchange Network (Exchange Network) for environmental data submissions to the Agency. Its use is supported by the Cross-Media Electronic Reporting Rule (CROMERR) which provides the legal framework for electronic reporting under all of EPA's environmental regulations.

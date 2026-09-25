@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://home.nps.gov/orgs/1740/index.htm
+itemId: 15502
+programAreas:
+- Cultural Resources:
+  - Libraries and Repositories
+publishDate: 7/26/2010
+title: Midwest Archeological Center (MWAC) Resource Center
+---
+
+This library houses over 28,000 documents, including a wide variety of materials focusing on archeology of the Midwestern United States. Although this collection includes a large number of published materials on archeology and prehistory of the Midwest and adjacent regions, its strength lies in the vast amount of unpublished materials. Over 3900 documents comprise the library's manuscript section, which includes gray, or limited circulation, literature relevant to Midwest NPS units as well as other federal agency units.

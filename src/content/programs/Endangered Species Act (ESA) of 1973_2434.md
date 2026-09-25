@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.fws.gov/endangered/laws-policies
+itemId: 2434
+programAreas:
+- Natural Resources:
+  - Species Management
+publishDate: 7/14/2005
+title: Endangered Species Act (ESA) of 1973
+---
+
+The purpose of this act (16 USC 1531-1547, et al., last amended in October 1988), is to provide a means whereby the ecosystems upon which endangered species and threatened species depend may be conserved, to provide a program for the conservation of such endangered species and threatened species, and to take such steps as may be appropriate to achieve the purposes of the treaties and conventions for protection of endangered species (16 USC 1531(b)).  Under ESA, the policy of Congress is that all Federal departments and agencies must seek to conserve endangered species and threatened species and must use their authorities in furtherance of the purposes of this act.  Further, Federal agencies must cooperate with state and local agencies to resolve water resource issues in concert with conservation of endangered species (16 USC 1531(c)).

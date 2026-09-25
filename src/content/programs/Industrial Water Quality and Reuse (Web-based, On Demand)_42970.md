@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: Web-based, On Demand
+itemId: 42970
+programAreas:
+- Water Efficiency:
+  - Training, Presentations, and Briefings
+publishDate: 2/24/2025
+title: Industrial Water Quality and Reuse (Web-based, On Demand)
+---
+
+During this presentation the National Alliance for Water Innovation (NAWI) will discussed industrial water quality needs and opportunities for reuse within facilities. The Better Plants team spoke about the Water Savings Network and the technical resources available to partners, including the Plant Water Profiler tool (PWPEx).

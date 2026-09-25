@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/hwgenerators/managing-your-hazardous-waste-guide-small-businesses
+itemId: 34816
+programAreas:
+- Pollution Prevention:
+  - Directories, Catalogs, and Newsletters
+publishDate: 11/18/2019
+title: EPA's Small Business Hazardous Waste Guide
+---
+
+This handbook provides an overview of the federal hazardous waste regulations and helps small-business owners and operators understand how best to comply with federal hazardous waste management regulations. It was updated in October 2019 to incorporate new requirements from the 2016 Hazardous Waste Generator Improvements Rule, the 2018 e-Manifest Rule, the 2019 Hazardous Waste Pharmaceuticals Rule, and other recent rulemakings.

@@ -1,0 +1,89 @@
+---
+expiryDate: null
+externalURL: https://www.fedcenter.gov/programs/compliance/executiveorders/
+itemId: 801
+programAreas:
+- Acquisition:
+  - Executive Orders
+- Environmental Compliance:
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+publishDate: 2/7/2005
+title: Executive Orders Library
+---
+
+These are presidential documents which require Federal facilities to perform an action, participate in an activity, or develop and implement an environmental-related policy.

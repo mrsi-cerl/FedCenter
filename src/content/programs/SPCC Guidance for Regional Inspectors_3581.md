@@ -1,0 +1,89 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/oil-spills-prevention-and-preparedness-regulations/spcc-guidance-regional-inspectors
+itemId: 3581
+programAreas:
+- Chemical Management:
+  - Regulations, Guidance, and Policy
+- Environmental Compliance:
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+publishDate: 12/6/2005
+title: SPCC Guidance for Regional Inspectors
+---
+
+Issued August 2013, the guidance document is intended to assist regional inspectors in reviewing a facility's implementation of the Spill Prevention, Control, and Countermeasure (SPCC) rule at 40 CFR part 112 and understanding the rule's applicability, and to help clarify the role of the inspector in the review and evaluation of the performance-based SPCC requirements. The guidance document is also available to owners and operators of facilities that may be subject to the requirements of the SPCC rule and the general public on how EPA intends the SPCC rule to be implemented. The document is designed to provide a consistent national policy on several SPCC-related issues.

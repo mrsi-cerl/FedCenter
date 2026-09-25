@@ -1,0 +1,89 @@
+---
+expiryDate: null
+externalURL: http://www.govinfo.gov/link/cpd/executiveorder/13221
+itemId: 54
+programAreas:
+- Electronics Stewardship:
+  - Regulations, Guidance, and Policy
+- Environmental Compliance:
+  - Guidance for the Clean Air Act (CAA)
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for the Clean Water Act (CWA)
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for EPCRA
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for FIFRA
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA, Subtitle I
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Federal Regulations
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for TSCA
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - State Regulations
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - Guidance for RCRA, Subtitle C
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+- Environmental Compliance:
+  - DOD Environmental Standards for Substantial Installations in Foreign Countries
+publishDate: 9/21/2004
+title: Executive Order 13221
+---
+
+<b>Energy Efficient Standby Power Devices</b><br>  <i>31 Jul 2004</i><br>  This EO directs Federal agencies to purchase low wattage standby power devices.

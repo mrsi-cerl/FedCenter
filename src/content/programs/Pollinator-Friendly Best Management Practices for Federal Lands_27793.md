@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.fs.usda.gov/wildflowers/pollinators/BMPs/index.shtml
+itemId: 27793
+programAreas:
+- Natural Resources:
+  - Species Management
+publishDate: 5/19/2015
+title: Pollinator-Friendly Best Management Practices for Federal Lands
+---
+
+This document will guide federal land managers to effectively and efficiently use available resources and engage public and private partnerships in taking action for the conservation and management of pollinators and pollinator habitat on federal lands. This is the DRAFT 11 May 2015 version.
