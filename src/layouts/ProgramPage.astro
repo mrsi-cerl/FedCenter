@@ -5,8 +5,15 @@ import Announcements from "../components/Announcements.astro";
 import Collection from "../components/Collection.astro";
 import SidePageNavigation from "../components/SidePageNavigation.astro";
 import RootLayout from "./RootLayout.astro";
+import { getCollection } from "astro:content";
 
-const { programAreas, posts, pageTitle } = Astro.props;
+const { programAreas, pageTitle, collectionName } = Astro.props;
+
+const posts = await getCollection("programPost", ({ data }) => {
+  return data.programAreas?.some((area: any) =>
+    Object.hasOwn(area, collectionName)
+  );
+});
 ---
 
 <RootLayout pageTitle={pageTitle}>
@@ -42,7 +49,11 @@ const { programAreas, posts, pageTitle } = Astro.props;
                       id={child.title}
                       title={child.title}
                       posts={posts.filter((post: any) =>
-                        post.data.subCategory.includes(child.title)
+                        post.data.programAreas
+                          .find((area: object) =>
+                            Object.hasOwn(area, collectionName)
+                          )
+                          [collectionName].includes(child.title)
                       )}
                     />
                   ))}
@@ -52,7 +63,12 @@ const { programAreas, posts, pageTitle } = Astro.props;
                 <>
                   {posts
                     .filter(
-                      (post: any) => post.data.subCategory.includes(area.title) //first filter to only the items that fit this category
+                      (post: any) =>
+                        post.data.programAreas
+                          .find((area: object) =>
+                            Object.hasOwn(area, collectionName)
+                          )
+                          [collectionName].includes(area.title) //first filter to only the items that fit this category
                     )
                     .map((post: any) => (
                       <Collection post={post} /> //then build a collection item for each of them

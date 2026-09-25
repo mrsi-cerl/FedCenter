@@ -2,10 +2,10 @@
 expiryDate: null
 item_id: "34399"
 externalUrl: https://www.energy.gov/eere/wind/downloads/2018-wind-technologies-market-report
-programArea: Energy
 publishDate: 8/27/2019
-subCategory:
-  - Case Studies
+programAreas:
+  - Energy:
+      - Case Studies
 title: 2018 Wind Technologies Market Report
 ---
 

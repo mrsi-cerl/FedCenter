@@ -1,5 +1,5 @@
 ---
-const { post, showTags } = Astro.props;
+const { post, showTags = false } = Astro.props;
 
 //turn the dd-mm-yyyy date into a date object
 const pDate = new Date(post.data.publishDate);
@@ -22,6 +22,11 @@ const isNew =
 // console.log(
 //   `current date ${currDate.toLocaleDateString()} and publication date ${pDate.toLocaleDateString()} are less than 2 weeks apart: ${isNew}`
 // );
+
+console.log("post collection stuff: ", post.data.programAreas);
+post.data.programAreas.map((a: any) =>
+  console.log("a is this: ", Object.keys(a))
+);
 ---
 
 <li class="usa-collection__item maxw-full">
@@ -48,21 +53,18 @@ const isNew =
         {
           showTags && (
             <>
-              <li class="usa-collection__meta-item usa-tag">
-                {post.data.programArea}
-              </li>
+              {post.data.programAreas.map((area: any) => (
+                <li class="usa-collection__meta-item usa-tag">
+                  {Object.keys(area)}
+                </li>
+              ))}
+              {/*
               {post.data.subCategory.map((cat: any) => (
                 <li class="usa-collection__meta-item usa-tag">{cat}</li>
-              ))}
+              ))} */}
             </>
           )
         }
-        <!-- {
-          post.data.tags.map((tag: any) => (
-            <li class="usa-collection__meta-item usa-tag">{tag}</li>
-          ))
-        } -->
-        <!-- TODO: Render extra tags? -->
       </>
     </ul>
   </div>
