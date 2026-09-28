@@ -331,18 +331,12 @@ function Start-ProgramContentGui {
   $btnSave.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
   $btnSave.FlatStyle = "Flat"
 
-  $btnClear = New-Object System.Windows.Forms.Button
-  $btnClear.Text = "New Item"
-  $btnClear.Size = New-Object System.Drawing.Size(100, 36)
-  $btnClear.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
-
   $btnExit = New-Object System.Windows.Forms.Button
   $btnExit.Text = "Close"
   $btnExit.Size = New-Object System.Drawing.Size(90, 36)
   $btnExit.Font = New-Object System.Drawing.Font("Segoe UI", 9.0)
 
   $actionPanel.Controls.Add($btnSave)
-  $actionPanel.Controls.Add($btnClear)
   $actionPanel.Controls.Add($btnExit)
 
   $mainPanel.Controls.Add($actionPanel, 0, 3)
@@ -424,7 +418,6 @@ function Start-ProgramContentGui {
 
         # Get ready for the next one
         Clear-Form
-
       }
       catch {
         $MsgBox::Show("Error saving markdown file: $_", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
@@ -453,11 +446,8 @@ function Start-ProgramContentGui {
     $txtItemId.Text = $currentItemId
   }
 
-  $btnClear.add_Click({
-      Clear-Form
-    })
-
   $btnExit.add_Click({
+      Write-Host "Don't forget to publish all changes when you're done." -ForegroundColor DarkRed
       $form.Close()
     })
 
