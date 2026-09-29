@@ -103,7 +103,7 @@ const allNewPosts = await getCollection("programPost", ({ data }) => {
       60 /
       24 <=
       365 && //change this number for testing different days
-    data.programArea.includes(collectionName) //also make sure to filter to this specific program
+    data.programAreas?.some((area: any) => Object.hasOwn(area, collectionName)) //also make sure to filter to this specific program
   );
 });
 
