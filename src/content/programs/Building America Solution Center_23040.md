@@ -10,11 +10,6 @@ programAreas:
   - Databases and Software Tools
   - Libraries and Repositories
   - Construction Design
-- High Performance Buildings:
-  - Libraries and Repositories
-  - Construction Design
-- High Performance Buildings:
-  - Construction Design
 publishDate: 1/24/2013
 title: Building America Solution Center
 ---

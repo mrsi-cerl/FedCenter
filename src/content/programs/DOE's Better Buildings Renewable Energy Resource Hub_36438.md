@@ -8,8 +8,6 @@ programAreas:
 - Sustainability:
   - Libraries and Repositories
   - Organizations
-- Sustainability:
-  - Organizations
 publishDate: 1/29/2021
 title: DOE's Better Buildings Renewable Energy Resource Hub
 ---

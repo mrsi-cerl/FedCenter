@@ -8,8 +8,6 @@ programAreas:
 - Climate Resilience:
   - Construction Design
   - Libraries and Repositories
-- Climate Resilience:
-  - Libraries and Repositories
 publishDate: 5/5/2016
 title: Climate Friendly Purchasing Toolkit
 ---

@@ -73,7 +73,6 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
                     post.metadata['programAreas'] = []
 
                 print('processing: ', row['item_id'])
-
                 # Metadata / Attributes list
                 # 0 - title
                 # 1 - body
@@ -85,8 +84,8 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
 
                 # Set up each property
                 id = int(row['item_id'])
-                programArea = row['programArea']
-                title = row['title']
+                programAreaFromExcel = row['programArea']
+                title = row['title'].strip()
                 subcategory = row['subCategory']
                 body = row['body']
                 publishDate = row['publishDate']
@@ -102,23 +101,23 @@ def csv_to_markdown(csv_filepath, output_dir="output_markdown"):
                 post.content = body
 
                 # we fetch this from the existing metadata, because this may need to be updated
-                programAreas = post.metadata['programAreas']
+                existingProgramAreas = post.metadata['programAreas']
                 # we need to make a dict for the programAreas we could be adding
-                programAreasDict = {programArea : []}
+                programAreasDict = {programAreaFromExcel : [subcategory]}
 
-                # if the file does NOT yet have a program area, we are going to be adding this one
-                if len(programAreas) == 0:
-                        programAreas.append(programAreasDict)
-                # if the file DOES have existing programAreas, we need to check to see if this one exists before adding it
-                for item in programAreas:
-                    if programArea not in item:
-                        programAreas.append(programAreasDict)
-
-                # we don't need to make the same checks as above for subcategories, because our data should never have duplicated subcategories in it
-                for item in programAreas:
-                    if programArea in item:
-                        item[programArea].append(subcategory)
-
+                # complicated way to get all the keys of the existing program areas
+                programKeys = [x for y in existingProgramAreas for x in y]
+                # check if this program area already exists on this file
+                if programAreaFromExcel not in programKeys:
+                    # if it doesn't, we add it now
+                    existingProgramAreas.append(programAreasDict)
+                else:
+                    # if it does we need to iterate over the existing areas
+                    for existingProgramArea in existingProgramAreas:
+                        # and find the one that matches the program area
+                        if programAreaFromExcel in existingProgramArea:
+                            # and then add the new subcategory to the data
+                            existingProgramArea[programAreaFromExcel].append(subcategory)
 
                 #     val = row[header]
                 #     # Escape basic markdown characters to avoid breaking syntax

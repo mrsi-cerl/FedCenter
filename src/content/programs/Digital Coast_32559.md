@@ -9,8 +9,6 @@ programAreas:
 - Natural Resources:
   - Libraries and Repositories
   - Databases and Software Tools
-- Natural Resources:
-  - Databases and Software Tools
 publishDate: 4/24/2018
 title: Digital Coast
 ---

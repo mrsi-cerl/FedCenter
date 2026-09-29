@@ -8,20 +8,10 @@ programAreas:
   - Organizations and Programs
 - Energy:
   - Organizations and Programs
-- &id001
-  Greenhouse Gases:
+- Greenhouse Gases:
   - Organizations and Programs
-  - Organizations and Programs
-- *id001
-- &id002
-  Transportation:
+- Transportation:
   - Organizations
-  - Organizations
-  - Organizations
-  - Organizations
-- *id002
-- *id002
-- *id002
 publishDate: 7/21/2022
 title: Joint Office of Energy and Transportation Website
 ---

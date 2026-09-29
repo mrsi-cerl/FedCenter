@@ -8,53 +8,12 @@ programAreas:
 - Climate Resilience:
   - Construction Design
   - Databases and Software Tools
-- Climate Resilience:
+- Environmental Compliance:
   - Databases and Software Tools
-- &id001
-  Environmental Compliance:
+- Natural Resources:
   - Databases and Software Tools
+- Sustainability:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
-- *id001
-- &id002
-  Natural Resources:
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-- *id002
-- *id002
-- *id002
-- *id002
-- *id002
-- &id003
-  Sustainability:
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
 publishDate: 11/23/2011
 title: 'GEOPLATFORM: NGDA Climate and Weather Theme Data'
 ---

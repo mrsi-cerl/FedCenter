@@ -7,11 +7,8 @@ programAreas:
   - Training, Presentations, and Briefings
 - Sustainability:
   - Training, Presentations, and Briefings
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Training, Presentations, and Briefings
-  - Training, Presentations, and Briefings
-- *id001
 publishDate: 5/14/2026
 title: Energy and Water Manager Best Practices
 ---

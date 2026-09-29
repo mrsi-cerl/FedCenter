@@ -3,13 +3,10 @@ expiryDate: null
 externalURL: http://www.epa.gov/enforcement/epa-position-regarding-issuance-imminent-and-substantial-endangerment-orders-dod
 itemId: 11085
 programAreas:
-  - Cleanup:
-      - Regulations, Guidance, and Policy
-  - Environmental Compliance:
-      - Guidance for CERCLA
+- Cleanup:
+  - Regulations, Guidance, and Policy
 publishDate: 12/8/2008
-title:
-  EPA Position Regarding Issuance of Imminent and Substantial Endangerment Orders
+title: EPA Position Regarding Issuance of Imminent and Substantial Endangerment Orders
   at DOW Facilities
 ---
 

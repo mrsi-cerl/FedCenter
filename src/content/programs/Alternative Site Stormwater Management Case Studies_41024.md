@@ -7,11 +7,8 @@ programAreas:
   - Case Studies
 - Pollution Prevention:
   - Case Studies
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Case Studies
-  - Case Studies
-- *id001
 publishDate: 6/15/2023
 title: Alternative Site Stormwater Management Case Studies
 ---

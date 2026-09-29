@@ -8,11 +8,8 @@ programAreas:
   - Federal
 - Greenhouse Gases:
   - National
-- &id001
-  Transportation:
+- Transportation:
   - Guidance
-  - Guidance
-- *id001
 publishDate: 1/11/2023
 title: U.S. National Blueprint for Transportation Decarbonization
 ---

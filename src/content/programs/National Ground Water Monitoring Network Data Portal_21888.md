@@ -7,20 +7,10 @@ programAreas:
   - Databases and Software Tools
 - Environmental Compliance:
   - Databases and Software Tools
-- &id001
-  Natural Resources:
+- Natural Resources:
   - Databases and Software Tools
+- Water Efficiency:
   - Databases and Software Tools
-- *id001
-- &id002
-  Water Efficiency:
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-- *id002
-- *id002
-- *id002
 publishDate: 7/30/2012
 title: National Ground Water Monitoring Network Data Portal
 ---

@@ -7,11 +7,8 @@ programAreas:
   - Guidance Documents
 - High Performance Buildings:
   - Guidance & Policy
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Regulations, Guidance, and Policy
-  - Regulations, Guidance, and Policy
-- *id001
 publishDate: 4/23/2015
 title: 'Metering Best Practices: A Guide to Achieving Utility Resource Efficiency,
   Release 3.0'

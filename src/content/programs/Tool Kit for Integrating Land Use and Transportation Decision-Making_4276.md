@@ -7,11 +7,8 @@ programAreas:
   - Databases and Software Tools
 - NEPA:
   - Databases and Software Tools
-- &id001
-  Transportation:
+- Transportation:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 2/17/2006
 title: Tool Kit for Integrating Land Use and Transportation Decision-Making
 ---

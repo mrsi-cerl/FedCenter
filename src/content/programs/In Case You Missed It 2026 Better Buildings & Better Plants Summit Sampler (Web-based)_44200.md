@@ -7,11 +7,8 @@ programAreas:
   - Training, Presentations, and Briefings
 - High Performance Buildings:
   - Training, Presentations, and Briefings
-- &id001
-  Sustainability:
+- Sustainability:
   - Training, Presentations, and Briefings
-  - Training, Presentations, and Briefings
-- *id001
 publishDate: 7/15/2026
 title: 'In Case You Missed It: 2026 Better Buildings & Better Plants Summit Sampler
   (Web-based)'

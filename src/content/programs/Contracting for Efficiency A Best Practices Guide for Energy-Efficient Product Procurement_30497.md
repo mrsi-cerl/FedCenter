@@ -8,11 +8,8 @@ programAreas:
   - Contract and Procurement Language
 - Energy:
   - Guidance Documents
-- &id001
-  High Performance Buildings:
+- High Performance Buildings:
   - Guidance & Policy
-  - Guidance & Policy
-- *id001
 publishDate: 11/8/2016
 title: 'Contracting for Efficiency: A Best Practices Guide for Energy-Efficient Product
   Procurement'

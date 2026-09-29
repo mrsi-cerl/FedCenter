@@ -7,11 +7,8 @@ programAreas:
   - Training, Presentations, and Briefings
 - Energy:
   - Training, Presentations, and Briefings
-- &id001
-  Sustainability:
+- Sustainability:
   - Training, Presentations, and Briefings
-  - Training, Presentations, and Briefings
-- *id001
 publishDate: 11/3/2021
 title: 'ESPC ESA Webinar Series: Overview and Requirements (Web-based, On-Demand)'
 ---

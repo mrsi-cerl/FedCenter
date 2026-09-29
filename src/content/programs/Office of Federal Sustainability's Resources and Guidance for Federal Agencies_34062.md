@@ -7,11 +7,8 @@ programAreas:
   - Guidance Documents
 - Sustainability:
   - Federal Agreements and Guidance
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Regulations, Guidance, and Policy
-  - Regulations, Guidance, and Policy
-- *id001
 publishDate: 5/30/2019
 title: Office of Federal Sustainability's Resources and Guidance for Federal Agencies
 ---

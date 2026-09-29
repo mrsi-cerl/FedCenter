@@ -7,56 +7,13 @@ programAreas:
   - Databases and Software Tools
 - Energy:
   - Databases and Software Tools
-- &id001
-  High Performance Buildings:
-  - Databases and Software Tools
+- High Performance Buildings:
   - Databases and Software Tools
   - Conferences and Events
-  - Conferences and Events
-- *id001
-- &id002
-  High Performance Buildings:
-  - Conferences and Events
-  - Conferences and Events
-- *id002
-- &id003
-  Sustainability:
+- Sustainability:
   - Databases and Software Tools
+- Water Efficiency:
   - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- &id004
-  Water Efficiency:
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
 publishDate: 6/6/2025
 title: GSA High Performance Building Clearinghouse for Sustainability
 ---

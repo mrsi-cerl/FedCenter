@@ -7,11 +7,8 @@ programAreas:
   - Regulations, Guidance, and Policy
 - Energy:
   - Federal Legislation & Policy
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Regulations, Guidance, and Policy
-  - Regulations, Guidance, and Policy
-- *id001
 publishDate: 1/11/2011
 title: Energy Independence and Security Act (EISA) of 2007
 ---

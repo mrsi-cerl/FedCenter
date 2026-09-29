@@ -8,11 +8,8 @@ programAreas:
   - Databases and Software Tools
 - Energy:
   - Databases and Software Tools
-- &id001
-  Sustainability:
+- Sustainability:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 11/5/2021
 title: Low Carbon Technology Strategies Toolkit
 ---

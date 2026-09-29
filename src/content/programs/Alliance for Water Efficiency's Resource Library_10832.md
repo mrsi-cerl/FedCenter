@@ -7,11 +7,8 @@ programAreas:
   - Libraries and Repositories
 - Natural Resources:
   - Libraries and Repositories
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Libraries and Repositories
-  - Libraries and Repositories
-- *id001
 publishDate: 10/28/2008
 title: Alliance for Water Efficiency's Resource Library
 ---

@@ -7,70 +7,14 @@ programAreas:
   - Databases and Software Tools
 - Environmental Compliance:
   - Databases and Software Tools
-- &id001
-  High Performance Buildings:
+- High Performance Buildings:
   - Directories, Catalogs, and Newsletters
-  - Directories, Catalogs, and Newsletters
-- *id001
-- &id002
-  Natural Resources:
+- Natural Resources:
   - Databases and Software Tools
+- NEPA:
   - Databases and Software Tools
+- Sustainability:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id002
-- *id002
-- *id002
-- &id003
-  NEPA:
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- &id004
-  Sustainability:
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
-- *id004
 publishDate: 1/18/2006
 title: National Roster of Environmental Conflict Resolution and Consensus Building
   Professionals

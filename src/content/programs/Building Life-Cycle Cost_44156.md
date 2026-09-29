@@ -7,11 +7,8 @@ programAreas:
   - Databases and Software Tools
 - High Performance Buildings:
   - Databases and Software Tools
-- &id001
-  Sustainability:
+- Sustainability:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 6/25/2026
 title: Building Life-Cycle Cost
 ---

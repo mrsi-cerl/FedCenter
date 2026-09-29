@@ -8,11 +8,8 @@ programAreas:
   - Case Studies
 - Energy:
   - Case Studies
-- &id001
-  Transportation:
+- Transportation:
   - Petroleum Alternatives
-  - Petroleum Alternatives
-- *id001
 publishDate: 3/4/2014
 title: Guide to the Lessons Learned from the Clean Cities Community Electric Vehicle
   Readiness Projects

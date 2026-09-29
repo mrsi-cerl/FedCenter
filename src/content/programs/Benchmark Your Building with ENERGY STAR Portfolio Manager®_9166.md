@@ -7,11 +7,8 @@ programAreas:
   - Databases and Software Tools
 - Greenhouse Gases:
   - Databases and Software Tools
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 3/6/2008
 title: Benchmark Your Building with ENERGY STAR Portfolio Manager®
 ---

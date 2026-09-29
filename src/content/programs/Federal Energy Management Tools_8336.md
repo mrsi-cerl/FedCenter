@@ -7,20 +7,10 @@ programAreas:
   - Databases and Software Tools
 - Electronics Stewardship:
   - Databases and Software Tools
-- &id001
-  Energy:
+- Energy:
   - Databases and Software Tools
+- High Performance Buildings:
   - Databases and Software Tools
-- *id001
-- &id002
-  High Performance Buildings:
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-  - Databases and Software Tools
-- *id002
-- *id002
-- *id002
 publishDate: 9/24/2007
 title: Federal Energy Management Tools
 ---

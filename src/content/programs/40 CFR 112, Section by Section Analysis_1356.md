@@ -16,7 +16,7 @@ programAreas:
   - Guidance for RCRA, Subtitle C
   - DOD Environmental Standards for Substantial Installations in Foreign Countries
 publishDate: 4/20/2005
-title: '40 CFR 112, Section by Section Analysis '
+title: 40 CFR 112, Section by Section Analysis
 ---
 
 Starting on page 47058 of the attached file, a section by section, paragraph by paragraph discussion is recorded as to the intent of the regulation.

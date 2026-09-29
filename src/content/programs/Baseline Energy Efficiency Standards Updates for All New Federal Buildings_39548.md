@@ -9,15 +9,8 @@ programAreas:
 - High Performance Buildings:
   - Conferences and Events
   - Guidance & Policy
-- High Performance Buildings:
-  - Guidance & Policy
-- &id001
-  Sustainability:
+- Sustainability:
   - Federal Agreements and Guidance
-  - Federal Agreements and Guidance
-  - Federal Agreements and Guidance
-- *id001
-- *id001
 publishDate: 5/13/2022
 title: Baseline Energy Efficiency Standards Updates for All New Federal Buildings
 ---

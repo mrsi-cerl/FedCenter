@@ -8,8 +8,6 @@ programAreas:
 - High Performance Buildings:
   - Conferences and Events
   - Guidance & Policy
-- High Performance Buildings:
-  - Guidance & Policy
 publishDate: 8/27/2021
 title: 50001 Energy Management Systems
 ---

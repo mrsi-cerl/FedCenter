@@ -7,11 +7,8 @@ programAreas:
   - Construction Design
 - Natural Resources:
   - <A name=watercons></A>Water Conservation
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Management Practices
-  - Management Practices
-- *id001
 publishDate: 1/25/2007
 title: WaterSense Products
 ---

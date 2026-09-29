@@ -7,11 +7,8 @@ programAreas:
   - Databases and Software Tools
 - Sustainability:
   - Databases and Software Tools
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 3/21/2023
 title: FEMP Facility Evaluation (Audit) Decision Tree
 ---

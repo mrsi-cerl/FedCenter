@@ -8,11 +8,8 @@ programAreas:
   - Federal
 - Greenhouse Gases:
   - National
-- &id001
-  Natural Resources:
+- Natural Resources:
   - Land Management
-  - Land Management
-- *id001
 publishDate: 4/27/2022
 title: Executive Order 14072 (Revoked via Executive Order 14154, "Unleashing American
   Energy"

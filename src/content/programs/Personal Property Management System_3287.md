@@ -7,11 +7,8 @@ programAreas:
   - Databases and Software Tools
 - Electronics Stewardship:
   - Databases and Software Tools
-- &id001
-  Pollution Prevention:
+- Pollution Prevention:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 10/31/2005
 title: Personal Property Management System
 ---

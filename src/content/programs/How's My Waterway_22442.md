@@ -7,11 +7,8 @@ programAreas:
   - Databases and Software Tools
 - Environmental Compliance:
   - Databases and Software Tools
-- &id001
-  Natural Resources:
+- Natural Resources:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 10/29/2012
 title: How's My Waterway
 ---

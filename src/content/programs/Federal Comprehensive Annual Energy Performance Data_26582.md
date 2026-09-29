@@ -8,37 +8,12 @@ programAreas:
   - Libraries and Repositories
 - Energy:
   - Libraries and Repositories
-- &id001
-  Sustainability:
+- Sustainability:
   - Libraries and Repositories
+- Transportation:
   - Libraries and Repositories
-- *id001
-- &id002
-  Transportation:
+- Water Efficiency:
   - Libraries and Repositories
-  - Libraries and Repositories
-  - Libraries and Repositories
-  - Libraries and Repositories
-- *id002
-- *id002
-- *id002
-- &id003
-  Water Efficiency:
-  - Libraries and Repositories
-  - Libraries and Repositories
-  - Libraries and Repositories
-  - Libraries and Repositories
-  - Libraries and Repositories
-  - Libraries and Repositories
-  - Libraries and Repositories
-  - Libraries and Repositories
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
-- *id003
 publishDate: 9/19/2014
 title: Federal Comprehensive Annual Energy Performance Data
 ---

@@ -8,11 +8,8 @@ programAreas:
   - Databases and Software Tools
 - Greenhouse Gases:
   - Databases and Software Tools
-- &id001
-  Natural Resources:
+- Natural Resources:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 5/9/2014
 title: National Climate Change Viewer (NCCV)
 ---

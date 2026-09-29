@@ -8,11 +8,8 @@ programAreas:
   - Databases and Software Tools
 - Natural Resources:
   - Databases and Software Tools
-- &id001
-  Sustainability:
+- Sustainability:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 5/8/2014
 title: EnviroAtlas
 ---

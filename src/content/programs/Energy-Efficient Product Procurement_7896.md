@@ -8,8 +8,6 @@ programAreas:
 - Energy:
   - Federal Legislation & Policy
   - Guidance Documents
-- Energy:
-  - Guidance Documents
 publishDate: 7/25/2007
 title: Energy-Efficient Product Procurement
 ---

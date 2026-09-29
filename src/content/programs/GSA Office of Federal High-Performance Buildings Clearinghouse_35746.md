@@ -8,8 +8,6 @@ programAreas:
 - High Performance Buildings:
   - Guidance & Policy
   - Conferences and Events
-- High Performance Buildings:
-  - Conferences and Events
 publishDate: 7/22/2020
 title: GSA Office of Federal High-Performance Buildings Clearinghouse
 ---

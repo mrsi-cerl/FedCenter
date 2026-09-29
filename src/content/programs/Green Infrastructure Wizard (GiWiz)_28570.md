@@ -7,11 +7,8 @@ programAreas:
   - Databases and Software Tools
 - Sustainability:
   - Databases and Software Tools
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 10/5/2015
 title: Green Infrastructure Wizard (GiWiz)
 ---

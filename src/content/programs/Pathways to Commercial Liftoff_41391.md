@@ -8,28 +8,10 @@ programAreas:
 - Climate Resilience:
   - Construction Design
   - Federal
-- Climate Resilience:
-  - Federal
-- &id001
-  High Performance Buildings:
+- High Performance Buildings:
   - Guidance & Policy
-  - Guidance & Policy
-  - Guidance & Policy
-- *id001
-- *id001
-- &id002
-  Sustainability:
+- Sustainability:
   - Sustainability Integration or "Crosswalks"
-  - Sustainability Integration or "Crosswalks"
-  - Sustainability Integration or "Crosswalks"
-  - Sustainability Integration or "Crosswalks"
-  - Sustainability Integration or "Crosswalks"
-  - Sustainability Integration or "Crosswalks"
-- *id002
-- *id002
-- *id002
-- *id002
-- *id002
 publishDate: 9/21/2023
 title: Pathways to Commercial Liftoff
 ---

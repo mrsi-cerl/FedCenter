@@ -7,11 +7,8 @@ programAreas:
       - Libraries and Repositories
   - Environmental Compliance:
       - Libraries and Repositories
-  - &id001
-    PFAS:
+  - PFAS:
       - Libraries, Repositories, and Research
-      - Libraries, Repositories, and Research
-  - *id001
 publishDate: 4/17/2020
 title: PFAS Technical and Regulatory Guidance Document (Web-based Guidance)
 ---

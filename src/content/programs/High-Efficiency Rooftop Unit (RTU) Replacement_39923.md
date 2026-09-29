@@ -8,11 +8,8 @@ programAreas:
   - Databases and Software Tools
 - Energy:
   - Databases and Software Tools
-- &id001
-  Greenhouse Gases:
+- Greenhouse Gases:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 9/7/2022
 title: High-Efficiency Rooftop Unit (RTU) Replacement
 ---

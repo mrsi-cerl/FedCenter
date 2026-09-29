@@ -7,11 +7,8 @@ programAreas:
   - Databases and Software Tools
 - Sustainability:
   - Databases and Software Tools
-- &id001
-  Water Efficiency:
+- Water Efficiency:
   - Databases and Software Tools
-  - Databases and Software Tools
-- *id001
 publishDate: 6/6/2013
 title: FEMP EISA 432 Compliance Tracking System
 ---
