@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.sustainability.gov/pdfs/sustainable_landscaping_practices.pdf
+itemId: 29189
+programAreas:
+- Natural Resources:
+  - General
+publishDate: 2/17/2016
+title: Guidance for Sustainable Practices for Designed Landscapes
+---
+
+This guidance was affirmed as remaining in effect in the Implementing Instructions for EO 13693.  This guidance is to be used by Federal agencies for landscape practices when constructing new, or rehabilitating existing, owned or leased facilities, or when landscaping improvements are otherwise planned. The guidance is originally dated 31 October 2011 and was supplemented on 22 October 2014.

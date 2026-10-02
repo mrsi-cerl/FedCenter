@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: http://energy.gov/nepa/downloads/citizens-guide-nepa-having-your-voice-heard
+itemId: 9044
+programAreas:
+- NEPA:
+  - Lessons Learned
+publishDate: 2/12/2008
+title: A Citizen's Guide to the NEPA--Having Your Voice Heard
+---
+
+The newly available guide explains the National Environmental Policy Act (NEPA), and how it is implemented, as well as how people outside the Federal government--individual citizens, private sector permit applicants, members of organized groups, and representatives of Tribal, State, or local governments--can better participate in the Federal environmental impact assessment process.

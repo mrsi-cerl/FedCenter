@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://betterbuildingssolutioncenter.energy.gov/technology-info-suite/preventative-maintenance-commercial-hvac-equipment
+itemId: 39981
+programAreas:
+- Energy:
+  - Databases and Software Tools
+publishDate: 10/4/2022
+title: Preventative Maintenance for Commercial HVAC Equipment
+---
+
+The proper operation of the heating, ventilation, and air conditioning (HVAC) system within a commercial building is essential to providing a comfortable and healthy indoor environment for occupants. The U.S. Department of Energy estimates that organizations can save 5-20% annually on energy bills simply by following operations & maintenance (O&M) best practices. This collection of resources can help building operators properly maintain HVAC systems to improve performance, save energy, and prolong the life of commercial HVAC equipment.

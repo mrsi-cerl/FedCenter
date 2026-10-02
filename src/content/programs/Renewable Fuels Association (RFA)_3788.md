@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: http://www.ethanolrfa.org/
+itemId: 3788
+programAreas:
+- Transportation:
+  - Organizations
+publishDate: 1/4/2006
+title: Renewable Fuels Association (RFA)
+---
+
+The national trade association for the U.S. ethanol industry. The RFA promotes policies, regulations and research and development initiatives that will lead to the increased production and use of fuel ethanol.

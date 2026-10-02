@@ -1,11 +1,8 @@
 ---
-import { getCollection } from "astro:content";
 import ProgramPage from "../../layouts/ProgramPage.astro";
+import { programArea } from "../../constants.ts";
 
-const acquisitionPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("Acquisition");
-});
-
+const collectionName = programArea.ACQUISITION;
 const pageTitle = "Acquisitions";
 
 const acquisitionAreas = [
@@ -49,8 +46,8 @@ const acquisitionAreas = [
 
 <ProgramPage
   programAreas={acquisitionAreas}
-  posts={acquisitionPosts}
   pageTitle={pageTitle}
+  collectionName={collectionName}
 >
   <p>
     Included in the Acquisition Program Area are links to, and highlights from

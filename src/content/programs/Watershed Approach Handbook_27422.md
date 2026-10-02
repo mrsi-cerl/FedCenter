@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: http://www.eli.org/sites/default/files/eli-pubs/watershed-approach-handbook-improving-outcomes-and-increasing-benefits-associated-wetland-and-stream_0.pdf
+itemId: 27422
+programAreas:
+- Natural Resources:
+  - Watershed Management
+publishDate: 3/17/2015
+title: Watershed Approach Handbook
+---
+
+This September 2014 handbook is intended to advance the use of a "watershed approach" in the selection, design, and siting of wetland and stream restoration and protection projects. Using a watershed approach can help ensure that these projects also contribute to goals of improved water quality, increased flood mitigation, improved quality and quantity of habitat, and increases in other services and benefits that result from ecologically successful and sustainable restoration and protection projects. This report was prepared by the Environmental Law Institute (ELI) and The Nature Conservancy (TNC) with funding from the U.S. Environmental Protection Agency (EPA).

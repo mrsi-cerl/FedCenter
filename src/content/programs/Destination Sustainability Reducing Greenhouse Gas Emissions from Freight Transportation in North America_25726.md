@@ -1,0 +1,13 @@
+---
+expiryDate: null
+externalURL: http://www3.cec.org/islandora/en/item/4237-destination-sustainability-reducing-greenhouse-gas-emissions-from-freight-en.pdf
+itemId: 25726
+programAreas:
+- Transportation:
+  - Freight, Cargo, and Household Goods
+publishDate: 5/6/2014
+title: 'Destination Sustainability: Reducing Greenhouse Gas Emissions from Freight
+  Transportation in North America'
+---
+
+This report draws upon the knowledge, expertise, and perspectives of more than sixty transportation experts, government officials, operators, and other key stakeholders, to make recommendations for actions that they believe will make a profound contribution to the environmental sustainability of the North American transportation system.  The report is issued by Commission for Environmental Cooperation (CEC) which was established under the North American Agreement on Environmental Cooperation (NAAEC).

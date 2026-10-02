@@ -1,11 +1,8 @@
 ---
-import { getCollection } from "astro:content";
+import { programArea } from "@/constants";
 import ProgramPage from "../../layouts/ProgramPage.astro";
 
-const naturalResourcesPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("Natural Resources");
-});
-
+const collectionName = programArea.NATURAL_RESOURCES;
 const pageTitle = "Natural Resources";
 
 const naturalResourcesAreas = [
@@ -52,7 +49,7 @@ const naturalResourcesAreas = [
 
 <ProgramPage
   programAreas={naturalResourcesAreas}
-  posts={naturalResourcesPosts}
+  collectionName={collectionName}
   pageTitle={pageTitle}
 >
   <p>

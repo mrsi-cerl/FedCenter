@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://19january2021snapshot.epa.gov/fedfac/emerging-contaminants-and-federal-facility-contaminants-concern_.html
+itemId: 28439
+programAreas:
+- Cleanup:
+  - Substances of Concern
+publishDate: 9/16/2015
+title: Emerging Contaminants and Federal Facility Contaminants of Concern
+---
+
+A collection of technical fact sheets which provide brief summaries of contaminants of concern that present unique issues and challenges to the environmental community and EPA at contaminated federal facility sites. Each fact sheet provides a brief summary of the contaminant, including physical and chemical properties, environmental and health impacts, existing federal and state guidelines, and detection and treatment methods. These fact sheets are intended for project managers and field personnel to use when addressing specific contaminants at cleanup sites and are updated annually to include timely information.

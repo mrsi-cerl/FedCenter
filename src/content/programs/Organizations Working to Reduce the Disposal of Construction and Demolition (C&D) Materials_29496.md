@@ -1,0 +1,13 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/smm/organizations-working-reduce-disposal-construction-and-demolition-cd-materials
+itemId: 29496
+programAreas:
+- Pollution Prevention:
+  - Organizations
+publishDate: 5/12/2016
+title: Organizations Working to Reduce the Disposal of Construction and Demolition
+  (C&D) Materials
+---
+
+This EPA website lists organizations with available resources and services related to reducing, reducing, and recycling C&D Materials.  Types of organizations include: trade associations, research and education organizations, and buyers/sellers of reusable and recyclable commodities.

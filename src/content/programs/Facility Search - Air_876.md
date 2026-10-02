@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://echo.epa.gov/tools/web-services/facility-search-air
+itemId: 876
+programAreas:
+- Chemical Management:
+  - Databases and Software Tools
+publishDate: 2/10/2005
+title: Facility Search - Air
+---
+
+Enforcement and Compliance History Online (ECHO) REST Services that provides multiple service endpoints, each with specific capabilities, to search and retrieve data on facilities regulated under the Clean Air Act (CAA). The returned results reflect data drawn from EPA's ICIS-Air database.

@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.unenvironment.org/
+itemId: 20197
+programAreas:
+- Sustainability:
+  - Organizations
+publishDate: 1/12/2012
+title: United Nations Environmental Programme (UNEP)
+---
+
+UNEP is the designated authority of the United Nations system in environmental issues at the global and regional level. Its mandate is to coordinate the development of environmental policy consensus by keeping the global environment under review and bringing emerging issues to the attention of governments and the international community for action.

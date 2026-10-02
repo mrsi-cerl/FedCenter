@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/waterdata/assessment-and-total-maximum-daily-load-tracking-and-implementation-system-attains
+itemId: 31788
+programAreas:
+- Natural Resources:
+  - Databases and Software Tools
+publishDate: 9/26/2017
+title: Assessment, TMDL Tracking And ImplementatioN System (ATTAINS)
+---
+
+ATTAINS allows for the submission of 303(d)/305(b) water quality data, Total Maximum Daily Load (TMDL) information, and support program goals aligned with both submissions processes. The ATTAINS system replaces the existing Assessment Database (ADB), the National TMDL Tracking System (NTTS). ATTAINS also replaces the Clean Water Act Integrated Reporting, Water Quality Assessment, Impaired Waters -OWIR data exchange

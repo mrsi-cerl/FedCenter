@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/beach-tech/sanitary-surveys-recreational-waters#epa
+itemId: 36745
+programAreas:
+- Environmental Compliance:
+  - Databases and Software Tools
+publishDate: 4/12/2021
+title: Sanitary Surveys for Recreational Waters
+---
+
+EPA's Sanitary Survey App for Marine and Fresh Waters helps waterbody managers evaluate all contributing waterbody and watershed information including water quality data, pollution source data, and land use data. The data from the App can be exported for use in predictive models and for sharing within or between agencies (e.g., public health and environmental).

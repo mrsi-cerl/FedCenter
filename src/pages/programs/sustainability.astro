@@ -1,14 +1,8 @@
 ---
-import { getCollection } from "astro:content";
-import RootLayout from "../../layouts/RootLayout.astro";
+import { programArea } from "@/constants";
 import ProgramPage from "../../layouts/ProgramPage.astro";
-import { sideBarForPrograms } from "../../constants.ts";
-import { sideBarConstants } from "../../constants.ts";
 
-const sustainabilityPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("Sustainability");
-});
-
+const collectionName = programArea.SUSTAINABILITY;
 const pageTitle = "Sustainability";
 
 const sustainabilityAreas = [
@@ -53,7 +47,7 @@ const sustainabilityAreas = [
 
 <ProgramPage
   programAreas={sustainabilityAreas}
-  posts={sustainabilityPosts}
+  collectionName={collectionName}
   pageTitle={pageTitle}
 >
   <p>

@@ -1,0 +1,13 @@
+---
+expiryDate: null
+externalURL: https://www.epa.gov/sustainable-water-infrastructure/moving-toward-sustainability-sustainable-and-effective-practices
+itemId: 25636
+programAreas:
+- Sustainability:
+  - Infrastructure
+publishDate: 4/21/2014
+title: 'Moving Toward Sustainability:  Sustainable and Effective Practices for Creating
+  Your Water Utility Roadmap'
+---
+
+Issued April 2014, this EPA document is intended to aid utility leaders in implementing proven and effective practices over time to improve their operations and move toward sustainability.

@@ -1,11 +1,8 @@
 ---
-import { getCollection } from "astro:content";
+import { programArea } from "@/constants";
 import ProgramPage from "../../layouts/ProgramPage.astro";
 
-const nepaPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("NEPA");
-});
-
+const collectionName = programArea.NEPA;
 const pageTitle = "NEPA";
 
 const nepaAreas = [
@@ -35,7 +32,11 @@ const nepaAreas = [
 ];
 ---
 
-<ProgramPage programAreas={nepaAreas} posts={nepaPosts} pageTitle={pageTitle}>
+<ProgramPage
+  programAreas={nepaAreas}
+  collectionName={collectionName}
+  pageTitle={pageTitle}
+>
   <p>
     The NEPA Program Area provides guidance, policies, and examples of federal
     regulations and Agency policies for the implementation of the National

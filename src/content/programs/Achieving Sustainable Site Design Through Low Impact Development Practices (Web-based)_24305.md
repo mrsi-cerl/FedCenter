@@ -1,0 +1,15 @@
+---
+expiryDate: null
+externalURL: http://www.wbdg.org/ce/nibs/wbdg/wbdg17
+itemId: 24305
+programAreas:
+- Environmental Compliance:
+  - Training, Presentations, and Briefings
+- High Performance Buildings:
+  - Training, Presentations, and Briefings
+publishDate: 8/12/2013
+title: Achieving Sustainable Site Design Through Low Impact Development Practices
+  (Web-based)
+---
+
+Offered as part of the Whole Building Design Guide (WBDG) Continuing Education Courses, this course will provide an introduction to the concepts and technologies of low impact development, with an overview and emphasis on strategies for protecting and conserving water on site. If you don't have a WBDG account, you will have to register (for free) before gaining access to the courses.

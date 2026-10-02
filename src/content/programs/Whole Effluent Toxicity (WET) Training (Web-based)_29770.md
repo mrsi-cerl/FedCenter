@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: http://www.epa.gov/npdes/npdes-whole-effluent-toxicity-wet-training-0
+itemId: 29770
+programAreas:
+- Environmental Compliance:
+  - Training, Presentations, and Briefings
+publishDate: 6/2/2016
+title: Whole Effluent Toxicity (WET) Training (Web-based)
+---
+
+EPA headquarters' NPDES Whole Effluent Toxicity (WET) online training course covers the key elements of EPA's NPDES WET permits program. These recorded web-based course modules cover most of the material presented during the live EPA NPDES WET courses provided to EPA regional offices and to the states. The online NPDES WET modules are for persons implementing or permitted under the NPDES WET permits program. The modules familiarize viewers with EPA's NPDES WET permits program and important WET technical concepts.

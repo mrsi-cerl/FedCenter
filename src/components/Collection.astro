@@ -1,23 +1,28 @@
 ---
-const { post, showTags } = Astro.props;
+const { post, showTags = false, showDates = true } = Astro.props;
 
-//turn the dd-mm-yyyy date into a date object
-const pDate = new Date(post.data.publishDate);
+var prettyDate;
+var isNew;
 
-//turn it into a dd-month-yyyy format
-const prettyDate = new Intl.DateTimeFormat("en-GB", {
-  year: "numeric",
-  month: "short",
-  day: "2-digit",
-})
-  .format(pDate)
-  .split(" ")
-  .join("-");
+if (showDates) {
+  //turn the dd-mm-yyyy date into a date object
+  const pDate = new Date(post.data.publishDate);
 
-//compare it to the current date, and see if it is less than 2 weeks old
-const currDate = new Date();
-const isNew =
-  Math.abs(currDate.getTime() - pDate.getTime()) / 1000 / 60 / 60 / 24 <= 14;
+  //turn it into a dd-month-yyyy format
+  prettyDate = new Intl.DateTimeFormat("en-GB", {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+  })
+    .format(pDate)
+    .split(" ")
+    .join("-");
+
+  //compare it to the current date, and see if it is less than 2 weeks old
+  const currDate = new Date();
+  isNew =
+    Math.abs(currDate.getTime() - pDate.getTime()) / 1000 / 60 / 60 / 24 <= 14;
+}
 
 // console.log(
 //   `current date ${currDate.toLocaleDateString()} and publication date ${pDate.toLocaleDateString()} are less than 2 weeks apart: ${isNew}`
@@ -33,9 +38,13 @@ const isNew =
     </h4>
     <p class="usa-collection__description" set:html={post.body} />
     <ul class="usa-collection__meta" aria-label="More information">
-      <li class="usa-collection__meta-item">
-        <time>{prettyDate}</time>
-      </li>
+      {
+        showDates && (
+          <li class="usa-collection__meta-item">
+            <time>{prettyDate}</time>
+          </li>
+        )
+      }
     </ul>
     <ul class="usa-collection__meta" aria-label="Topics">
       <>
@@ -48,21 +57,18 @@ const isNew =
         {
           showTags && (
             <>
-              <li class="usa-collection__meta-item usa-tag">
-                {post.data.programArea}
-              </li>
+              {post.data.programAreas.map((area: any) => (
+                <li class="usa-collection__meta-item usa-tag">
+                  {Object.keys(area)}
+                </li>
+              ))}
+              {/*
               {post.data.subCategory.map((cat: any) => (
                 <li class="usa-collection__meta-item usa-tag">{cat}</li>
-              ))}
+              ))} */}
             </>
           )
         }
-        <!-- {
-          post.data.tags.map((tag: any) => (
-            <li class="usa-collection__meta-item usa-tag">{tag}</li>
-          ))
-        } -->
-        <!-- TODO: Render extra tags? -->
       </>
     </ul>
   </div>

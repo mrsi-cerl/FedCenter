@@ -1,0 +1,12 @@
+---
+expiryDate: null
+externalURL: https://889.smartpay.gsa.gov/#/
+itemId: 41442
+programAreas:
+- Acquisition:
+  - Databases and Software Tools
+publishDate: 10/5/2023
+title: 889 Representations Search
+---
+
+This tool only checks for Section 889 representations in an entity's SAM.gov record. Only entities doing business above the Micro-Purchase Threshold (MPT) are required to register in SAM.gov. Contracts that are classified/FOUO or contractors that do not wish for their information to be publicly available will not show up in search results.

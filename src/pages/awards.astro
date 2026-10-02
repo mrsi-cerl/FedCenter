@@ -1,0 +1,43 @@
+---
+import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
+import RootLayout from "../layouts/RootLayout.astro";
+import { getCollection } from "astro:content";
+import OpportunitiesPages from "@/layouts/OpportunitiesPages.astro";
+const pageTitle = "Awards";
+
+const posts = await getCollection("awardPosts");
+
+const awardAreas = [
+  {
+    title: "Award Areas",
+    children: [
+      { title: "General" },
+      { title: "Agency-Specific" },
+      { title: "Acquisition" },
+      { title: "Cultural Resources" },
+      { title: "Energy" },
+      { title: "Green Buildings" },
+      { title: "Natural Resources" },
+      { title: "Pollution Prevention" },
+      { title: "Recycling" },
+      { title: "Regional" },
+      { title: "Sustainability" },
+      { title: "Water" },
+    ],
+  },
+];
+---
+
+<RootLayout pageTitle={pageTitle}>
+  <PageWithSideBarNav>
+    <h1>{pageTitle}</h1>
+    <div class="usa-prose">
+      <p>
+        The Awards page lists sources of environmental awards offered by Federal
+        and State government and non-profit organizations. The list is arranged
+        by media type and/or by agency or region.
+      </p>
+    </div>
+    <OpportunitiesPages areas={awardAreas} posts={posts} />
+  </PageWithSideBarNav>
+</RootLayout>

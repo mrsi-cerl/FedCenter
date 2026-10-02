@@ -1,11 +1,8 @@
 ---
-import { getCollection } from "astro:content";
 import ProgramPage from "../../layouts/ProgramPage.astro";
+import { programArea } from "@/constants";
 
-const energyPosts = await getCollection("programPost", ({ data }) => {
-  return data.programArea.includes("Energy");
-});
-
+const collectionName = programArea.ENERGY;
 const pageTitle = "Energy";
 
 const energyAreas = [
@@ -46,8 +43,8 @@ const energyAreas = [
 
 <ProgramPage
   programAreas={energyAreas}
-  posts={energyPosts}
   pageTitle={pageTitle}
+  collectionName={collectionName}
 >
   <p>
     The focus of the Energy program area is energy conservation, alternative
