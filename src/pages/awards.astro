@@ -3,22 +3,24 @@ import PageWithSideBarNav from "@/layouts/PageWithSideBarNav.astro";
 import RootLayout from "../layouts/RootLayout.astro";
 import { getCollection } from "astro:content";
 import OpportunitiesPages from "@/layouts/OpportunitiesPages.astro";
-const pageTitle = "Grants";
+const pageTitle = "Awards";
 
-const posts = await getCollection("grantPosts");
+const posts = await getCollection("awardPosts");
 
-const grantAreas = [
+const awardAreas = [
   {
-    title: "Grant Areas",
+    title: "Award Areas",
     children: [
       { title: "General" },
-      { title: "Air" },
-      { title: "Cleanup" },
-      { title: "Climate Resilience" },
+      { title: "Agency-Specific" },
+      { title: "Acquisition" },
+      { title: "Cultural Resources" },
       { title: "Energy" },
+      { title: "Green Buildings" },
       { title: "Natural Resources" },
       { title: "Pollution Prevention" },
-      { title: "Solid Waste" },
+      { title: "Recycling" },
+      { title: "Regional" },
       { title: "Sustainability" },
       { title: "Water" },
     ],
@@ -31,11 +33,11 @@ const grantAreas = [
     <h1>{pageTitle}</h1>
     <div class="usa-prose">
       <p>
-        The Grants page contains information on various Federal, State and
-        non-profit organization grant opportunities. The list is arranged by
-        media type.
+        The Awards page lists sources of environmental awards offered by Federal
+        and State government and non-profit organizations. The list is arranged
+        by media type and/or by agency or region.
       </p>
     </div>
-    <OpportunitiesPages areas={grantAreas} posts={posts} />
+    <OpportunitiesPages areas={awardAreas} posts={posts} />
   </PageWithSideBarNav>
 </RootLayout>

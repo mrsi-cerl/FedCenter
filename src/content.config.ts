@@ -71,6 +71,57 @@ const programPost = defineCollection({
   // }),
 });
 
+const partnershipPosts = defineCollection({
+  loader: glob({
+    base: "./src/content/partnerships",
+    pattern: "**/*.{md,mdx}",
+  }),
+  // schema: z.object({
+  //   programArea: z.array(z.enum(programs)), //any given item can exist on multiple programs
+  //   title: z.string(),
+  //   description: z.optional(z.string()),
+  //   publishDate: z.date(),
+  //   category: z.array(z.enum(categories)), //an item can exist on multiple categories? TODO: can it?
+  //   subcategory: z.array(z.enum(subCategories)), //an item can exist on multiple subcategories? TODO: can it?
+  //   // tags: []
+  //   externalUrl: z.string().optional(),
+  // }),
+});
+
+const grantPosts = defineCollection({
+  loader: glob({
+    base: "./src/content/grants",
+    pattern: "**/*.{md,mdx}",
+  }),
+  // schema: z.object({
+  //   programArea: z.array(z.enum(programs)), //any given item can exist on multiple programs
+  //   title: z.string(),
+  //   description: z.optional(z.string()),
+  //   publishDate: z.date(),
+  //   category: z.array(z.enum(categories)), //an item can exist on multiple categories? TODO: can it?
+  //   subcategory: z.array(z.enum(subCategories)), //an item can exist on multiple subcategories? TODO: can it?
+  //   // tags: []
+  //   externalUrl: z.string().optional(),
+  // }),
+});
+
+const awardPosts = defineCollection({
+  loader: glob({
+    base: "./src/content/awards",
+    pattern: "**/*.{md,mdx}",
+  }),
+  // schema: z.object({
+  //   programArea: z.array(z.enum(programs)), //any given item can exist on multiple programs
+  //   title: z.string(),
+  //   description: z.optional(z.string()),
+  //   publishDate: z.date(),
+  //   category: z.array(z.enum(categories)), //an item can exist on multiple categories? TODO: can it?
+  //   subcategory: z.array(z.enum(subCategories)), //an item can exist on multiple subcategories? TODO: can it?
+  //   // tags: []
+  //   externalUrl: z.string().optional(),
+  // }),
+});
+
 const announcements = defineCollection({
   loader: glob({
     base: "./src/content/announcements",
@@ -105,4 +156,11 @@ const events = defineCollection({
   // }),
 });
 
-export const collections = { programPost, announcements, events };
+export const collections = {
+  programPost,
+  partnershipPosts,
+  grantPosts,
+  awardPosts,
+  announcements,
+  events,
+};

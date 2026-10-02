@@ -1,6 +1,6 @@
 ---
 import Collection from "./Collection.astro";
-const { id, title, posts } = Astro.props;
+const { id, title, posts, showDates = true } = Astro.props;
 ---
 
 <h4 class="usa-accordion__heading">
@@ -20,7 +20,12 @@ const { id, title, posts } = Astro.props;
   class="usa-accordion__content border radius-md border-base-lighter"
 >
   <ul class="usa-collection">
-    {posts && posts.map((post: any) => <Collection post={post} />)}
+    {
+      posts &&
+        posts.map((post: any) => (
+          <Collection post={post} showDates={showDates} />
+        ))
+    }
     {posts?.length === 0 ? <p>No Items Available</p> : <> </>}
   </ul>
 </div>
