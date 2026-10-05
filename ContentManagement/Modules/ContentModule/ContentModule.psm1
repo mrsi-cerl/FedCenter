@@ -1,9 +1,9 @@
 # Pull all functions together to make available to others
 $funcs = Get-ChildItem -Path "$PSScriptRoot/Public/*.ps1" -Recurse
 
-# Dot-soruce each file to load them
+# Dot-source each file to load them
 foreach ($file in $funcs) {
-  Write-Host "Importing file: ", $file
+  Write-Host "Importing file: ", $file -ForegroundColor DarkYellow
   . $file.FullName
 }
 

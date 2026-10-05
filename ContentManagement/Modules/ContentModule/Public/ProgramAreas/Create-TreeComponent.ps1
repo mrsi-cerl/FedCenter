@@ -19,7 +19,8 @@ function New-ProgramAreaTreeView {
     }
     [void]$treeView.Nodes.Add($parentNode)
   }
-  # $treeView.ExpandAll()
+
+  $treeView.ExpandAll()
 
   # 3. Custom Rendering: Draw +/- indicators and hide checkboxes on Parents
   $treeView.Add_DrawNode({
@@ -99,4 +100,67 @@ function New-ProgramAreaTreeView {
     })
 
   return $treeView
+}
+
+# Initializes the tree from a given hashtable
+# The hashtable should have string keys (Areas) and string array values (Subcategories)
+function Initialize-FromHashtable($treeView, [hashtable] $Data) {
+  $treeView.Nodes.Clear()
+
+  foreach ($area in $Data.Keys) {
+    # Create the top-level node for the area
+    $areaNode = New-Object System.Windows.Forms.TreeNode($area)
+
+    # Add subcategory nodes under the area node
+    foreach ($subcategory in $Data[$area]) {
+      $subcategoryNode = New-Object System.Windows.Forms.TreeNode($subcategory)
+      $areaNode.Nodes.Add($subcategoryNode) | Out-Null
+    }
+
+    $treeView.Nodes.Add($areaNode) | Out-Null
+  }
+}
+
+# Sets the checked state for one or more subcategories within a specific area
+# To check all subcategories in an area, use "*" for the subcategory name
+function Set-CheckedState($TreeView, [string] $AreaName, [string] $SubcategoryName, [bool] $IsChecked) {
+  $areaNode = $TreeView.Nodes | Where-Object { $_.Text -eq $AreaName }
+
+  if ($areaNode) {
+    $targetNodes = if ($SubcategoryName -eq '*') {
+      $areaNode.Nodes
+    }
+    else {
+      $areaNode.Nodes | Where-Object { $_.Text -eq $SubcategoryName }
+    }
+
+    foreach ($node in $targetNodes) {
+      $node.Checked = $IsChecked
+      $node.Expand()
+      $node.EnsureVisible()
+    }
+  }
+  else {
+    Write-Warning "Area '$AreaName' not found."
+  }
+}
+
+# Returns an object of all checked subcategories, grouped by area
+function Get-CheckedSubcategories($treeView) {
+  $checkedItems = @{}
+
+  foreach ($areaNode in $treeView.Nodes) {
+    $checkedSubcategories = @()
+    foreach ($subcategoryNode in $areaNode.Nodes) {
+      if ($subcategoryNode.Checked) {
+        $checkedSubcategories += $subcategoryNode.Text
+      }
+    }
+
+    if ($checkedSubcategories.Count -gt 0) {
+      $checkedItems[$areaNode.Text] = $checkedSubcategories
+    }
+  }
+
+  return $checkedItems
 }

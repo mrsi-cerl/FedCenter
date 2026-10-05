@@ -1,0 +1,66 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#bfab3f",
+    "activityBar.activeBorder": "#15202b",
+    "activityBar.background": "#bfab3f",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#e7f7f5",
+    "activityBarBadge.foreground": "#15202b",
+    "activityBarTop.activeBackground": "#bfab3f",
+    "activityBarTop.activeBorder": "#15202b",
+    "activityBarTop.background": "#bfab3f",
+    "activityBarTop.foreground": "#15202b",
+    "activityBarTop.inactiveForeground": "#15202b99",
+    "commandCenter.border": "#15202b99",
+    "commandCenter.foreground": "#15202b",
+    "editorGroup.border": "#bfab3f",
+    "panel.border": "#bfab3f",
+    "sash.hoverBorder": "#bfab3f",
+    "sideBar.border": "#bfab3f",
+    "statusBar.background": "#998932",
+    "statusBar.border": "#998932",
+    "statusBar.debuggingBackground": "#324299",
+    "statusBar.debuggingBorder": "#324299",
+    "statusBar.debuggingForeground": "#e7e7e7",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#736725",
+    "statusBarItem.remoteBackground": "#1f6056",
+    "statusBarItem.remoteForeground": "#15202b",
+    "tab.activeBackground": "#bfab3f",
+    "tab.activeBorder": "#bfab3f",
+    "titleBar.activeBackground": "#998932",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.border": "#998932",
+    "titleBar.inactiveBackground": "#99893299",
+    "titleBar.inactiveForeground": "#15202b99",
+    "window.activeBorder": "#bfab3f",
+    "window.inactiveBorder": "#bfab3f",
+    "statusBar.inactiveBackground": "#998932"
+  },
+  "peacock.color": "#998932",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "partnerships",
+      "path": "[[workspace]]/src/content/partnerships"
+    },
+    {
+      "title": "awards",
+      "path": "[[workspace]]/src/content/awards"
+    },
+    {
+      "title": "announcements",
+      "path": "[[workspace]]/src/content/announcements"
+    },
+    {
+      "title": "grants",
+      "path": "[[workspace]]/src/content/grants"
+    },
+    {
+      "title": "programs",
+      "path": "[[workspace]]/src/content/programs"
+    }
+  ],
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.git.enabled": true
+}

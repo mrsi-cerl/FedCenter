@@ -1,0 +1,123 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "programs",
+      "pageBundle": false,
+      "previewPath": null,
+      "clearEmpty": false,
+      "fields": [
+        {
+          "title": "ItemId",
+          "name": "itemId",
+          "type": "number"
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "publishDate",
+          "type": "datetime",
+          "default": "{{month}}/{{day}}/{{year}}",
+          "dateFormat": "mm/d/yyyy",
+          "isPublishDate": true
+        },
+        {
+          "title": "Expiration date",
+          "name": "expiryDate",
+          "type": "datetime",
+          "dateFormat": "m/d/yyyy"
+        },
+        {
+          "title": "Event Type",
+          "name": "eventType",
+          "type": "choice",
+          "choices": ["Conferences", "Meetings", "Training", "Other"]
+        },
+        {
+          "title": "Event Start",
+          "name": "startDate",
+          "type": "datetime"
+        },
+        {
+          "title": "Event End",
+          "name": "endDate",
+          "type": "datetime"
+        },
+        {
+          "title": "Program Areas",
+          "name": "programAreas",
+          "type": "categories"
+        },
+        {
+          "title": "External URL",
+          "name": "externalUrl",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "awards",
+      "pageBundle": false,
+      "previewPath": null,
+      "clearEmpty": false,
+      "fields": [
+        {
+          "title": "ItemId",
+          "name": "itemId",
+          "type": "number"
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "publishDate",
+          "type": "datetime",
+          "default": "{{month}}/{{day}}/{{year}}",
+          "dateFormat": "mm/d/yyyy",
+          "isPublishDate": true
+        },
+        {
+          "title": "Expiration date",
+          "name": "expiryDate",
+          "type": "datetime",
+          "dateFormat": "m/d/yyyy"
+        },
+        {
+          "title": "Event Type",
+          "name": "eventType",
+          "type": "choice",
+          "choices": ["Conferences", "Meetings", "Training", "Other"]
+        },
+        {
+          "title": "Event Start",
+          "name": "startDate",
+          "type": "datetime"
+        },
+        {
+          "title": "Event End",
+          "name": "endDate",
+          "type": "datetime"
+        },
+        {
+          "title": "SubCategories",
+          "name": "subCategories",
+          "type": "categories"
+        },
+        {
+          "title": "External URL",
+          "name": "externalUrl",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321"
+}

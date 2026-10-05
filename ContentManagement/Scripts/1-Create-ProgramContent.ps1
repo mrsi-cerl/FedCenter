@@ -24,9 +24,6 @@ $ModulePath = "$PSScriptRoot\..\Modules\ContentModule\ContentModule.psm1"
 # Import the shared functions
 Import-Module $ModulePath -Force
 
-# dot source the program area tree component
-. "$PSScriptRoot/1a-Create-TreeComponent.ps1"
-
 # ------------------------------------------------------------------------------
 # GUI Construction (Windows Forms)
 # ------------------------------------------------------------------------------
@@ -77,13 +74,12 @@ function Start-ProgramContentGui {
   $mainPanel.SetColumnSpan($headerLabel, 2)
 
   # 2. Program Area TreeView (1st column)
-  $programAreas = Get-ProgramAreasHash
-  $treeView = New-ProgramAreaTreeView -ProgramAreas $programAreas
-
   $grpPrograms = New-Object System.Windows.Forms.GroupBox
   $grpPrograms.Text = "1. Select Program Area and Categories"
   $grpPrograms.Dock = "Fill"
   $grpPrograms.Font = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
+  $programAreas = Get-ProgramAreasHash
+  $treeView = New-ProgramAreaTreeView -ProgramAreas $programAreas
   $grpPrograms.Controls.Add($treeView)
   $mainPanel.Controls.Add($grpPrograms, 0, 1)
 
