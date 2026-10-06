@@ -1,11 +1,13 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321",
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "programs",
       "pageBundle": false,
-      "previewPath": null,
-      "clearEmpty": false,
+      "previewPath": "",
+      "clearEmpty": true,
       "fields": [
         {
           "title": "ItemId",
@@ -15,65 +17,33 @@
         {
           "title": "Title",
           "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "publishDate",
-          "type": "datetime",
-          "default": "{{month}}/{{day}}/{{year}}",
-          "dateFormat": "mm/d/yyyy",
-          "isPublishDate": true
-        },
-        {
-          "title": "Expiration date",
-          "name": "expiryDate",
-          "type": "datetime",
-          "dateFormat": "m/d/yyyy"
-        },
-        {
-          "title": "Event Type",
-          "name": "eventType",
-          "type": "choice",
-          "choices": ["Conferences", "Meetings", "Training", "Other"]
-        },
-        {
-          "title": "Event Start",
-          "name": "startDate",
-          "type": "datetime"
-        },
-        {
-          "title": "Event End",
-          "name": "endDate",
-          "type": "datetime"
+          "type": "string",
+          "required": true
         },
         {
           "title": "Program Areas",
           "name": "programAreas",
-          "type": "categories"
-        },
-        {
-          "title": "External URL",
-          "name": "externalUrl",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "awards",
-      "pageBundle": false,
-      "previewPath": null,
-      "clearEmpty": false,
-      "fields": [
-        {
-          "title": "ItemId",
-          "name": "itemId",
-          "type": "number"
-        },
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
+          "type": "block",
+          "fieldGroup": [
+            "Acquisition",
+            "Chemical Management",
+            "Cleanup",
+            "Climate Resilience",
+            "Cultural Resources",
+            "Electronics Stewardship",
+            "Energy",
+            "Environmental Compliance",
+            "Environmental Management Systems (EMS)",
+            "Greenhouse Gases",
+            "High Performance Buildings",
+            "Natural Resources",
+            "NEPA",
+            "PFAS",
+            "Pollution Prevention",
+            "Sustainability",
+            "Transportation",
+            "Water Efficiency"
+          ]
         },
         {
           "title": "Publishing date",
@@ -87,7 +57,7 @@
           "title": "Expiration date",
           "name": "expiryDate",
           "type": "datetime",
-          "dateFormat": "m/d/yyyy"
+          "dateFormat": "mm/dd/yyyy"
         },
         {
           "title": "Event Type",
@@ -104,11 +74,6 @@
           "title": "Event End",
           "name": "endDate",
           "type": "datetime"
-        },
-        {
-          "title": "SubCategories",
-          "name": "subCategories",
-          "type": "categories"
         },
         {
           "title": "External URL",
@@ -118,6 +83,635 @@
       ]
     }
   ],
-  "frontMatter.framework.id": "astro",
-  "frontMatter.preview.host": "http://localhost:4321"
+  "frontMatter.taxonomy.fieldGroups": [
+    {
+      "id": "Acquisition",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Acquisition"],
+          "default": "Acquisition",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Award Winners",
+            "Case Studies",
+            "Contract and Procurement Language",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Executive Orders",
+            "Guidance",
+            "Laws, Regulations, and Agreements",
+            "Libraries and Repositories",
+            "Organizations and Programs",
+            "Purchasing Guides",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Chemical Management",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Chemical Management"],
+          "default": "Chemical Management",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Accident Prevention & Reporting",
+            "Award Winners",
+            "Case Studies",
+            "Chemical Identification",
+            "Chemical Use Reduction",
+            "Community Right-to-Know",
+            "Databases and Software Tools",
+            "Directories/Catalogs/Newsletters",
+            "Libraries and Repositories",
+            "Organizations",
+            "Regulations, Guidance, and Policy",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Cleanup",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Cleanup"],
+          "default": "Cleanup",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Award Winners",
+            "BRAC",
+            "Brownfields",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "General",
+            "Libraries and Repositories",
+            "Munitions",
+            "New Technology",
+            "NPL",
+            "Organizations",
+            "Post Construction Completion",
+            "Property Re-use",
+            "Quality Assurance",
+            "Regulations, Guidance, and Policy",
+            "Remediation",
+            "Substances of Concern",
+            "Superfund Task Force",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Climate Resilience",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Climate Resilience"],
+          "default": "Climate Resilience",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Agency-Specific Climate Change/Adaptation",
+            "Case Studies",
+            "Coastal Zones",
+            "Construction Design",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Federal",
+            "Libraries and Repositories",
+            "Organizations and Programs",
+            "Training, Presentations, and Briefings",
+            "Water"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Cultural Resources",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Cultural Resources"],
+          "default": "Cultural Resources",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Award Winners",
+            "Case Studies",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Federal Agency Policy",
+            "Implementation Guidance",
+            "International Agreements",
+            "Libraries and Repositories",
+            "National Executive Orders",
+            "National Laws and Statutes",
+            "Organizations and Programs",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Electronics Stewardship",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Electronics Stewardship"],
+          "default": "Electronics Stewardship",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Acquisition",
+            "Databases and Software Tools",
+            "Disposal",
+            "Libraries and Repositories",
+            "Organizations",
+            "Regulations, Guidance, and Policy",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Energy",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Energy"],
+          "default": "Energy",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Alternative Energy",
+            "Award Winners",
+            "Case Studies",
+            "Data Centers",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Energy Conservation",
+            "Executive Orders",
+            "Federal Legislation and Policy",
+            "Guidance Documents",
+            "Libraries and Repositories",
+            "Organizations and Programs",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Environmental Compliance",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Environmental Compliance"],
+          "default": "Environmental Compliance",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Compliance Auditing",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "DOD Environmental Standards for Substantial Installations in Foreign Countries",
+            "Enforcement",
+            "Federal Regulations",
+            "General",
+            "Guidance for CERCLA",
+            "Guidance for EPA Programs",
+            "Guidance for EPCRA",
+            "Guidance for FIFRA",
+            "Guidance for RCRA",
+            "Guidance for RCRA, Subtitle C",
+            "Guidance for RCRA, Subtitle I",
+            "Guidance for the Clean Air Act (CAA)",
+            "Guidance for the Clean Water Act (CWA)",
+            "Guidance for the Safe Drinking Water Act (SDWA)",
+            "Guidance for TSCA",
+            "Libraries and Repositories",
+            "Organizations",
+            "State Regulations",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Environmental Management Systems (EMS)",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Environmental Management Systems (EMS)"],
+          "default": "Environmental Management Systems (EMS)",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Award Winners",
+            "Directories, Catalogs, and Newsletters",
+            "EMS Development",
+            "EMS Examples and Case Studies",
+            "EPA Guidance",
+            "Executive Orders",
+            "Federal Agency Guidance and Policies",
+            "International Standards Organization (ISO)",
+            "Libraries and Repositories",
+            "Organizations",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Greenhouse Gases",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Greenhouse Gases"],
+          "default": "Greenhouse Gases",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Case Studies",
+            "Conferences and Events",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "International",
+            "Inventories",
+            "Libraries and Repositories",
+            "National",
+            "Organizations and Programs",
+            "Regional",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "High Performance Buildings",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["High Performance Buildings"],
+          "default": "High Performance Buildings",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Agency-specific Policy",
+            "Award Winners",
+            "Beneficial Landscaping",
+            "Case Studies",
+            "Conferences and Events",
+            "Construction Design",
+            "Construction Guidelines and Criteria",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Guidance & Policy",
+            "Guiding Principles and LEED",
+            "Indoor Air Quality",
+            "Libraries and Repositories",
+            "Organizations and Programs",
+            "Planning",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Natural Resources",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Natural Resources"],
+          "default": "Natural Resources",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Water Conservation",
+            "Award Winners",
+            "Coastal Zones",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Endangered/Threatened Species",
+            "General",
+            "Land Management",
+            "Libraries and Repositories",
+            "Organizations",
+            "Species Management",
+            "Training, Presentations, and Briefings",
+            "Water Resources",
+            "Watershed Management",
+            "Wetlands",
+            "Wetlands Management",
+            "Wildlife Management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NEPA",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["NEPA"],
+          "default": "NEPA",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "CEQ",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Executive Orders and Laws",
+            "Lessons Learned",
+            "Libraries and Repositories",
+            "Organizations and Programs",
+            "Other Guidance",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PFAS",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["PFAS"],
+          "default": "PFAS",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Databases and Software Tools",
+            "Federal Agency Resources",
+            "Guidance",
+            "Libraries, Repositories, and Research",
+            "Organizations and Programs",
+            "Proposed and Final Legislation",
+            "State, National, and International Regulations",
+            "Training, Presentations and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Pollution Prevention",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Pollution Prevention"],
+          "default": "Pollution Prevention",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Case Studies",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Electronics",
+            "Grounds Maintenance Pollution Prevention",
+            "Household Pollution Prevention",
+            "Libraries and Repositories",
+            "Medical Facilities Pollution Prevention",
+            "Organizations",
+            "Recycling and Reuse",
+            "Regulations, Guidance, and Policy",
+            "Training, Presentations, and Briefings",
+            "Waste Reduction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Sustainability",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Sustainability"],
+          "default": "Sustainability",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Award Winners",
+            "Case Studies",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Federal Agreements and Guidance",
+            "Federal Executive Orders and Legislation",
+            "Federal Facilities",
+            "General",
+            "Infrastructure",
+            "International Agreements",
+            "Libraries and Repositories",
+            "Municipalities",
+            "Organizations",
+            "Property Disposal",
+            "Research and Technical Reports",
+            "Sustainability Integration or 'Crosswalks'",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Transportation",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Transportation"],
+          "default": "Transportation",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Acquisition",
+            "Case Studies",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Fleet Management",
+            "Freight, Cargo, and Household Goods",
+            "Greenhouse Gases",
+            "Guidance",
+            "Legislation",
+            "Libraries and Repositories",
+            "Organizations",
+            "Petroleum Alternatives",
+            "Pollution Prevention Opportunities",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Water Efficiency",
+      "labelField": "area",
+      "fields": [
+        {
+          "title": "Area",
+          "name": "area",
+          "type": "choice",
+          "choices": ["Water Efficiency"],
+          "default": "Water Efficiency",
+          "required": true
+        },
+        {
+          "title": "Subcategories",
+          "name": "sub",
+          "type": "choice",
+          "multiple": true,
+          "choices": [
+            "Case Studies",
+            "Databases and Software Tools",
+            "Directories, Catalogs, and Newsletters",
+            "Implementation Guidance",
+            "Libraries and Repositories",
+            "Management Practices",
+            "Organizations and Programs",
+            "Regulations, Guidance, and Policy",
+            "Training, Presentations, and Briefings"
+          ]
+        }
+      ]
+    }
+  ]
 }
